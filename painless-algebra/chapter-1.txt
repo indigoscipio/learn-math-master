@@ -52,21 +52,28 @@ Brain ticklers, set5
 1. DM/A
 2. AA
 3. CA
-4. DM/A
+4. DM/A -> AM
 5. CM
-6. DM/A
+6. DM/A -> CA
 
 why does 0 included in whole number? I wonder why.
 
 Brain ticklers set 6
 
-1. 3 ->
-2. -7 ->
-3. 0 ->
-4. -1/4 ->
-5. 3/8 ->
-6. 6/1 ->
-7. -4 ->
-8. 6 ->
-9. 3 ->
-10. 12/3 ->
+N = Natural numbers
+W = Whole numbers
+In = Integers
+Ra = Rational numbers
+Ir = Irrational numbers
+Re = Real numbers
+
+1. 3 -> Natural, Whole, Integer, Rational, Real
+2. -7 -> Integer, Rational, Real
+3. 0 -> Whole, Integer, Rational, Real
+4. -1/4 -> Rational, Real
+5. 3/8 -> Rational, Real
+6. 6/1 -> Natural, Whole, Integer, Rational, Real
+7. -4 -> Integer, Rational, Real
+8. 6 -> Natural, Whole, Integer, Rational, Real
+9. 3 -> Natural, Whole, Integer, Rational, Real
+10. 12/3 -> Natural, Whole, Integer, Rational,
