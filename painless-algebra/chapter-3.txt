@@ -47,4 +47,18 @@ x = -6 * 3/2
 x = -18/2
 x = -9
 
-6. 
+6. 5(2x-2) = 3(x-1) + 7
+10x-10 = 3x-3 + 7
+10x - 10 = 3x+4
+10x = 3x + 14
+7x = 14
+x = 2
+
+brain ticklers set 17
+1. incorrect - x = 3
+2. correct
+3. 2x-12 = 0 -> 2x = 12 -> x = 6 incorrect
+4. 3x + 5 = -4 -> 3x = -9 -> x = -3 correct
+5. 2/3x+1 = -5 -> 2/3x = -6 -> x = -6 * 3/2 -> x = -18/2 -> x = -9 correct
+6. 2x - 7 = -1 -> 2x = 6 -> x = 3 incorrect
+
