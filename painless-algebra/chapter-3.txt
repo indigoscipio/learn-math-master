@@ -19,7 +19,7 @@ brain ticklers set 15
 2. x = -1
 3. x = 0
 4. x = 4/2 -> x = 2
-5. x = 2/3 . -3 -> x = -6/9 -> x = -2/3
+5. x = 2/3 . -3 -> x = -6/3 -> x = -2
 
 brain ticklers set 16
 1. 3(x+1) = 6
