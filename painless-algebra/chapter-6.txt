@@ -211,3 +211,63 @@ x = 1/2
 2 + 3y = 8
 3y = 6
 y = 2
+
+super brain ticklers
+a. Solve the following systems of equations us
+ing addition.
+
+1. x + y = 12
+2x - y = 0
+
+3x = 12
+x = 4
+
+4 + y = 12
+y = 8
+
+2. -2x + 5y = 1
+x - 2y = 4
+
+-2x + 5y = 1
+2(x - 2y = 4)
+
+-2x + 5y = 1
+2x - 4y = 4
+
+y = 5
+x - 10 = 4
+x = -6
+
+b. solve the following systems of equations using substitution
+3. 3x -y = 4
+-2x + y = 1
+
+3x - y = 4
+-y = 4 - 3x
+y =  3x - 4
+
+-2x + 3x - 4 = 1
+x - 4 = 1
+x = 5
+
+15 - y = 4
+-y = -11
+y = 11
+
+4. x + y = 7
+3x - 2y = 4
+
+x + y = 7
+x = 7 - y
+
+3(7 - y) - 2y = 4
+21 - 3y - 2y = 4
+21 - 5y = 4
+-5y = 4 - 21
+-5y = -17
+y = 17/5
+
+x + 17/5 = 7
+x = 7 - 17/5
+x = 35/5 - 17/5
+x = 18/5
