@@ -76,22 +76,75 @@ y = 3
 
 brain ticklers set 31
 For each of the following, multiply the first
- equation by the coefficient of the x term of the
- second equation. Multiply the second equation
- by the coefficient of the x term of the first
- equation. Next, add or subtract to solve the
- system of equations.
+equation by the coefficient of the x term of the
+second equation. Multiply the second equation
+by the coefficient of the x term of the first
+equation. Next, add or subtract to solve the
+system of equations.
 
  1. 3x + 2y = 12
  x - y = 10
 
+1(3x + 2y = 12)
+3(x-y = 10)
+
+3x + 2y = 12
+3x - 3y = 30
+5y = -18
+y = -18/5
+
+x + 18/5 = 10
+x = 10 - 18/5
+x = 50/5 - 18/5
+x = 32/5
+
  2. 2x - y = 3
  -4x + y = 6
+
+ -4(2x - y = 3)
+ 2( -4x + y = 6)
+
+ -8x + 4y = -12
+ -8x + 2y = 12
+ 2y = -24
+ y = -12
+
+ 2x + 12 = 3
+ 2x = 3 - 12
+ 2x = -9
+ x = -9/2
 
  3. -5x + y = 8
  -2x + 2y = 4
 
- 4. 1/2x - 2y = 6
+ -2(-5x + y = 8)
+ -5(-2x + 2y = 4)
+
+10x - 2y = -16
+10x - 10y = -20
+8y = 4
+y = 1/2
+
+-2x + 2(1/2) = 4
+-2x + 1 = 4
+-2x = 3
+x = -3/2
+
+ 4.
+ 1/2x - 2y = 6
  4x + 2y = 12
 
- 
+ 4(1/2x - 2y = 6)
+ 1/2( 4x + 2y = 12)
+
+2x - 8y = 24
+2x + y = 6
+
+-9y = 18
+y = -3
+
+4x + 2(-3) = 12
+4x -6 = 12
+4x = 18
+x = 18/4
+x = 9/2
