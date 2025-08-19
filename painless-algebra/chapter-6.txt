@@ -232,11 +232,13 @@ x - 2y = 4
 2(x - 2y = 4)
 
 -2x + 5y = 1
-2x - 4y = 4
+2x - 4y = 8
 
-y = 5
-x - 10 = 4
-x = -6
+y = 9
+
+x + 9 = 12
+x = 12 - 9
+x = 3
 
 b. solve the following systems of equations using substitution
 3. 3x -y = 4
@@ -271,3 +273,4 @@ x + 17/5 = 7
 x = 7 - 17/5
 x = 35/5 - 17/5
 x = 18/5
+
