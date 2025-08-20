@@ -1,0 +1,31 @@
+brain ticklers set 45
+Solve the following radicals. Be careful. Some
+ of them are undefined.
+
+ 1. sqrt(-64) = undefined
+ 2. root index4 of (-16) = undefined 
+ 3. cuberoot(-27) = -3
+ 4. root index5 of (-32) = -2 
+ 5. sqrt(-49) = undefined
+ 6. root index9 of (-1) = -1
+
+ brain ticklers set 46
+  Solve each of the following square root prob
+lems by rewriting the radical expression as
+ two separate expressions.
+
+ 1. sqrt((16)(9)) = 4.3 = 12
+ 2. sqrt((64)(100)) = 8 . 10 = 80
+ 3. sqrt(25y^2) = 5 . y = 5y
+ 4. sqrt((4)(11)) = 2 . sqrt(11)
+ 5. sqrt(9y) = 3 . sqrt(y)
+
+
+ brain ticklers set 47
+  In each case, simplify the radical expressions
+ by placing them under the same radical sign.
+ 1. (sqrt3)(sqrt3) = sqrt(3.3) = sqrt(9) = 3
+ 2. (sqrt8)(sqrt2) = sqrt(8.2) = sqrt(16) = 4
+ 3. (sqrt12)(sqrt3) = sqrt(12.3) = sqrt(36) = 6
+ 4. (sqrtx)(sqrtx) = sqrt(x.x) = sqrt(x^2) = x
+ 5. (sqrtx^3)(sqrtx) = sqrt(x^3.x) = sqrt(x^4) = x^2
