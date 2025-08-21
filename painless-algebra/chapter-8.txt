@@ -29,3 +29,13 @@ lems by rewriting the radical expression as
  3. (sqrt12)(sqrt3) = sqrt(12.3) = sqrt(36) = 6
  4. (sqrtx)(sqrtx) = sqrt(x.x) = sqrt(x^2) = x
  5. (sqrtx^3)(sqrtx) = sqrt(x^3.x) = sqrt(x^4) = x^2
+
+ brain ticklers set 48
+  Simplify the following radical expressions by
+ factoring.
+ 1. sqrt(20) = sqrt(2.2.5) = 2sqrt(5)
+ 2. sqrt(8) = sqrt(2.2.2) = 2sqrt(2)
+ 3. sqrt(27) = sqrt(3.3.3) = 3sqrt(3)
+ 4. sqrt(24) = sqrt(2.2.6) = 2sqrt(6)
+ 5. sqrt(32) = sqrt(2.2.8) = 2sqrt(8) = 4sqrt(2)
+ 6. sqrt(125) = sqrt(5.5.5) = 5sqrt(5)
