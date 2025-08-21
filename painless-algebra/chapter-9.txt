@@ -1,0 +1,29 @@
+brain ticklers set 53
+
+Multiply the following expressions together to
+ form a quadratic equation.
+
+1. 3x^2+x =0
+2. 2x^2 - 10x = 5
+3. -2x^2+6=0
+4. 8x^2-12x = -3
+
+brain ticklers set 54
+ In each of the following, multiply the 
+binomial expressions to form a quadratic
+ equation.
+ 1. (x+5)(x+2) = 0
+x^2+2x+5x+10=0
+x^2+7x+10=0
+
+ 2. (x-3)(x+1) = 0
+x^2+x-3x-3=0
+x^2-2x-3=0
+
+ 3. (2x-5)(3x+1) = 0
+6x^2+2x-15x-5=0
+6x^2-13x-5=0
+
+ 4. (x+2)(x-2) = 0
+x^2-2x+2x-4=0
+x^2-4=0
