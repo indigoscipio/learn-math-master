@@ -1,0 +1,30 @@
+Problem 1.7
+using the two pictures below, explain why 2 x 3 = 3 x 2
+
+the image on the left has 3 col and 2 row with a tocal of 6 boxes
+the image on the right has 2col and 3 row with a total of 6 boxes
+the total is the same, its the image that looks rotated
+
+problem 1.8
+by counting the dots in the picture below in two different ways, explain why
+(2x3)x4 = 2x(3x4)
+
+we have 6 boxes and within those boxes theres 4 dots
+the total of the dots are 6x4 = 24
+which is the same, just the grouping of the number thats different
+
+1.9
+600000
+
+1.10 using the picture below explain why 2x1 = 2
+the image depicts two box stacked vertically
+the total numbero f box is 2
+and theres only one stack of that box
+
+1.11
+a. compute (5+6)x7
+11 x 7 = 77
+b. compute 5+(6x7)
+5 x 42 = 47
+
+1.12
