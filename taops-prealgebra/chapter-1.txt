@@ -189,3 +189,33 @@ what is the sum of all the negative integers that are greater than 5?
 
 1.4.3
 what is the sum
+-10 + - 9  + - 8 + ... + 9 + 10 + 11 + 12
+10  to 1 cancel each other
+so only 11 +  12
+= 23
+
+1.4.4
+what is the value of 210. 5 + 105 . (-9)
+= 105 . 2 . 5 + 105 . -9
+= 105 (10 - 9)
+= 105
+
+1.4.5
+what is 
+9342 + (-438)719 + (-9340) + (-438)(-719)
+= 9342 - 9340 + (-438) (719) + (-438) (-719)
+= 2 + -438 (719 - 719)
+= 2
+
+===================
+
+1.5 Subtraction
+
+let a and b be any numbers
+subtraction a - b is defined as
+
+a - b = a + (-b)
+subtracting a number just means adding its opposite
+
+
+problem 1.21
