@@ -293,7 +293,6 @@ let c = 1
 (0-(-2)) - 1 = 1
 0 - (-2-1) = 0 - (-3) = 3
 
-
 problem 1.25
 what is the value of 1643 - 1997 - 1643
 answer: -1997
@@ -310,5 +309,43 @@ Problem 1.27
 a. explain why (26 - 24) . 64 = 26 . 64 - 24 . 64
 b. compute 26 . 64 - 24 . 64
 
+answer:
+a. LHS -> 64 . (26 - 24) by commutative 
+= (64 . 26) - (64 . 24) by distributive
+= (26 . 64) - (24 . 64) by commutative
+
+b. 2 . 64 = 128
+
 Problem 1.28
 Use the fact that 999 = 1000 - 1 to evaluate 999 (345)
+answer:
+
+(345)(1000 - 1) 
+= 345000 - 345
+= 344655
+
+Exercises
+1.5.1
+What is the value of 85(33.22) - 33(22.85)
+= 22 . 33 . 85 - 22 . 33 . 85 = 0
+
+1.5.2
+compute (1992 + 1992) (1992 - 1992)
+= (1992 + 1992) . 0 = 0
+
+1.5.3
+city of alexandria had a high temp of 18deg and low temp of -5deg on the same day
+by how many deg did the high temp exceed low temp?
+
+answer:
+find the difference
+18 - (-5) = 23 degrees
+
+
+1.5.4
+evaluate 3 + -9 - (-5)
+= 3 - 9 + 5
+= -6 + 5 = -1
+
+1.5.5
+if x 
