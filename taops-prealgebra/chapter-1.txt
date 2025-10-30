@@ -219,3 +219,60 @@ subtracting a number just means adding its opposite
 
 
 problem 1.21
+use the definition of subtraction to answe the following questions
+a. what is 0 - 17?
+b. what is 17 - 17?
+c. what is 17-  0 ?
+
+answer:
+by the definition of subtraction,
+the subtraction of a - b is defined as
+a - b = a + (-b)
+
+a. 0 - 17
+= 0 + (- 17)
+= -17
+
+b. 17 - 17
+= 17 + (- 17)
+= 0
+
+c. 17 - 0
+= 17 + (- 0)
+= 17
+
+Problem 1.22
+use the definition of subtraction to answe the following questions
+a. 11 - (-13) = 11 + 13
+b. -11 - 13 = -(11 + 13)
+c. 11 -13 = -(13 - 11)
+
+by the definition of subtraction,
+the subtraction of a - b is defined as
+a - b = a + (-b)
+
+a. LHS -> 11 - (- 13)
+= 11 + (- (- 13 ))
+= 11 + 13
+
+b. LHS -> -11 - 13
+= -11 + (- 13)
+= -1 (11 + 13) by distributive property
+= -(11 + 13)
+
+c. RHS -> -(13 - 11)
+= -(13 + (-11))
+= - 13  + -(-11)
+= -13 + 11
+= 11 - 13 by commutative property
+
+=================================================
+
+Important property
+subtraction of negation: x - (-y) = x + y
+substraction from negation: -x -y = -(x + y)
+negation of subtraction: -(x-y) = -x + y = y - x
+
+=================================================
+
+
