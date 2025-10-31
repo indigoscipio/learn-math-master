@@ -383,4 +383,130 @@ answer:
 
 1.5.9
 compute 1990 . 1991 - 1989 . 1990
+= 1990 . 1991 - 1990 . 1989 by commutative
+= 1990 (1991 - 1989)
+= 1990 (2)
+= 3980
+
+1.5.10
+compute 998 . 23 in your head
+= 23 . (1000 - 2) 
+= 23000 - 64
+= 22954
+
+1.5.11
+the sum of the first 10000 positive even numbers is how much more
+than the first 10000 positive odd numbers?
+
 answer:
+difference = sum of first 10k even numbers - sum of first 10k odd integers
+
+= (2+4+6+8+...) - (1+3+5+7+...)
+= (2+4+6+8+...) + (-1-3-5-7-...)
+= (2 - 1) + (4 - 3) + (6 - 5) + (8 - 7) ... (10000 - 99999)
+= 1 + 1 + 1 + 1 + ...
+= 10000
+
+============================
+
+
+1.6 Reciprocals
+
+identity for summation = 0
+since x + 0 = x itself
+
+identity for multiplicatoin = 1
+
+
+The reciprocal of x, written 1/x is the number such that
+
+1/x . x = 1
+this is also called the multiplicative inverse of x
+
+Problems
+1.29
+a. what is the product of 0 and any number?
+b. using part a, explain why 0 doesn't have a reciprocal
+
+answer:
+a. x . 0 = 0 so its always 0
+b. by the definition of reciprocal
+
+1/0 . 0 = 1
+but since any number times 0 equals 0 therefore no solution exist
+and it's impossible 
+
+
+Problem 1.30
+explain why the reciprocal of 1 is 1
+answer: by the definition of reciprocal,
+1/x . x = 1
+
+so 1/1 . 1 = 1
+
+Problem 1.31
+a. what is the product of 1/2 and 2?
+by definition of reciprocal, the product of 1/2 . 2 = 1
+answer: 1/2 . 2 = 1
+b. using part a, explain why the reciprocal of 1/2 is 2
+by the definition of reciprocal any number if the product is 1 is its reciprocal
+___ . 1/2 = 1
+
+
+Problem 1.32
+a. what is the product of 5.7 and 1/5 . 1/7
+b. using part a explain why the reciprocal of 5 . 7 is 1 / 5 . 1 / 7
+
+answer:
+a. by definition of reciprocal
+the product of (5 . 7) . (1/5 . 1/7) = 1
+= 35 . 1/35 = 1
+or = (5 . 1/5) . (7 . 1/7) = 1 . 1
+
+b. __ . 1/35 = 1 -> x = 35
+
+Problem 1.33
+a. what is the product of -8 and -1/8
+b. using part a explain why the reciprocal of -8 is -1/8
+
+answer:
+a. by definition of reciprocal
+-8 . - 1/8 = 1
+
+===========
+
+Exercises
+1.6.1
+what is the reciprocal of -1?
+-1/1, since -1 . -1/1 = 1
+
+1.6.2
+what number is not the reciprocal of any number?
+answer: 0 since anything divided by 0 is undefined
+
+1.6.3
+what is the product of any nonzero number and twice its reciprocal?
+
+from the definition of reciprocal,
+x.  1/x = 1
+
+but we have
+x . 2 . 1/x
+= x . 1/x . 2
+= 1 . 2
+= 2
+
+1.64
+multiply the negation of a positive number by the reciprocal of that same posistive number
+what is the product?
+
+answer:
+-x . 1/x = ??
+since we know x . 1/x = 1
+= -1(x) . 1/x
+= -1 . x . 1/x
+= -1 . 1
+= -1
+
+1.6.5
+compute (2.3.4) (1/2 + 1/3 + 1/4)
