@@ -348,4 +348,39 @@ evaluate 3 + -9 - (-5)
 = -6 + 5 = -1
 
 1.5.5
-if x 
+if x and y are numbers such that y - x = 7, what is the value of x - y?
+from definition of negation of difference, -(x - y) = y - x
+
+then the value of x - y is -(7)
+
+
+subtraction of negation: x - (-y) = x + y
+substraction from negation: -x -y = -(x + y)
+negation of subtraction: -(x-y) = -x + y = y - x
+
+
+1.5.6
+compute
+100 - 2 + 101 - 4 + 102 - 6 + 103 - 8 + 104 - 10
+(100 + 101 + 102 + 103 + 104) + (-2 - 4 - 6 - 8 - 10)
+= 510 + -30
+= 480
+
+1.5.7
+compute (1901 + 1902 + ... + 1993) - (101 + 102 + ... + 193)
+= (1901 - 101) + (1902 - 102) + ... + (1993 - 193)
+= 1800 . 93 = 167400
+
+1.5.8
+by how much does the sum
+19 + 28 + 37 + 46 + 55 + 64 + 73 + 82 + 91
+
+exceed the sum
+18 + 27 + 36 + 45 + 54 + 63 + 72 + 71 + 90
+
+answer:
+9 - its just shifted by -1 and since we hanve 9 numbers 1 * 9
+
+1.5.9
+compute 1990 . 1991 - 1989 . 1990
+answer:
