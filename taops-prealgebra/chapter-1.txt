@@ -510,3 +510,190 @@ since we know x . 1/x = 1
 
 1.6.5
 compute (2.3.4) (1/2 + 1/3 + 1/4)
+= (2.3.4) 1/2 + (2.3.4) 1/3 + 2.3.4 . 1/4
+= 12 + 8 + 6
+= 26
+
+=============================
+
+Division
+is a combination of multiplication and reciprocation
+
+let a and b be numbers such that b is nonzero
+the quotient a : b is defined as
+
+a/b = a . 1/b
+
+Problem
+1.34
+using the definition of division and the fact that 
+
+10 = 5 . 2 explain why 10 / 2 = 5
+
+by the definition of division,
+a/b = a . 1/b
+
+10 / 2 = 10 . 1/2
+= (2 . 5) . 1/2
+= 5 . (2.  1/2) < by the definition of reciprocal, we have 1
+= 5 . 1
+= 5
+
+problem 1.3.5
+let x be any nonzero number
+use the definition of division to answer the following quetions
+a/b = a . 1/b
+
+a. what is 0 / x ?
+b. what is x / x ?
+c. what is x / 1?
+d. what is 1 / x ?
+
+answer:
+a. 0 / x = 0 . 1/x
+= 0
+
+b. x / x = x . 1/x
+= 1 by the definition of reciprocal
+
+c. x / 1 = x . 1/1
+= x
+
+d. 1 / x = 1 . 1/x
+= 1/x
+
+1.36
+use the definition of division to explain why
+17 : 1/5 = 17 . 5
+
+answer:
+a/b = a . 1/b
+
+= 17 . 1/1/5
+= 17 . 5 by reciprocal of reciprocals
+
+1.37
+use the definition of division to compute the following quantities
+a. -10 / 2
+b. 10 / -1
+c. -10 / -2
+
+answer:
+a/b = a . 1/b
+a. -10 . 1/2
+= -5
+
+b. 10 . 1/-2
+= (2 . 5) . 1/-2
+= 5 . -1
+= -5
+
+c. -10 . 1/-2
+= 5
+
+Problem 1.38
+a. find positive numbers a and b such that a / b is not equal to b / a
+b. find positive number a, b, and c such that (a / b) / c is not equal to a / (b / c)
+
+answer:
+a. let a = 1, b = 2
+therefore 1/2 is not equal to 2/1
+
+b. let a = 1, b = 2, c =4
+therefore
+(1 / 2) / 4 is not equal to 1 / (2 / 4)
+= 1/2 / 4 is not equal to 1 / 1/2
+= 1/8 is not equal to 1 .
+
+
+problem 1.39
+what is 
+20 . 24 . 28 . 32 : (10 . 12 . 14 . 16)
+= 20 . 24 . 28 . 32 . (1/10 . 12 . 14 . 16)
+= 2 . 2 . 2 . 2 
+
+Problem 1.40
+compute (116.93) / (116 . 31)
+= 116 . 93 . (1/ 116 . 31)
+= (116 . 1/116) . (93 . 1/31)
+= 1 . 3
+=3 
+
+problem 1.41
+a. using definiton of division explain why
+(12 + 18) / 3 = 12 / 3 + 18 / 3
+
+b. is 6 / (2 + 1) equal to 6 / 2 + 6 / 1?
+
+answer:
+a.
+= (12 + 18) . (1/3)
+= 12 / 3 . 18 / 3
+
+b. 6 / 3 = 1/2
+3 + 6 = 9
+therefore not equal
+
+=========================================
+
+Exercises
+(2+4+6+8+10) / (10 + 8 + 6 + 4 + 2)
+= (2+4+6+8+10) . 1/10+8+6+4+2
+= 1
+
+
+1.7.2 divide 205 . 205 by 205 what is the result?
+(205 . 205) / 205
+= 205 . 205 . 1/205
+= 205
+
+what is 64000 / 800
+= (640 . 100) / (8 . 100)
+= 640 / 8
+= 80
+
+1.7.4
+compute 777,777,777,770 / 77,777,777,777
+= (10 . 77,777,777,777) / 77,777,777,777
+= 10
+
+1.7.5
+what is 28 / 1/7?
+= 28 . 7 = 194
+
+1.7.6
+what number is 10 more than the quotient whe 78 is divided by 1/2?
+
+= 10 + (78 / 1/2)
+= 10 + 78 . 2
+= 10 + 156
+= 166
+
+1.7.7
+what is the value of 1/2 : 1/2 : 1/2 : 1/2?
+1 : 1/2 : 1/2
+= 1 . 2 : 1/2
+= 2 / 1.2
+= 2 . 2
+= 4
+
+1.78
+compute (27 . 31 . 35 . 39 . 43) : (43 . 39 . 35 . 31)
+= (27 . 31 . 35 . 39 . 43) . 1 / (43 . 39 . 35 . 31)
+= 27
+
+1.7.9
+compute (50 . 60 . 70 . 80) / (5 . 6 . 7 . 8)
+= 10 . 10 . 10 . 10
+= 10000
+
+1.7.10
+compute (77,777,777,777 + 77,077) / 7
+= (77,777,777,777 / 7) + (77,077 / 7)
+= 11,111,111,111 + 11,011
+= 11,111,122,122
+
+1.7.11
+compute (124 + 104 + 84 + 64 + 44 + 24) / (62 + 52 + 42 + 32 + 22 +12)
+= 2(62 + 52 + 42 + 32 + 22 + 12) / (62 + 52 + 42 + 32 + 22 + 12)
+= 2
