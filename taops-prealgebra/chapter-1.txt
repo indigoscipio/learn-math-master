@@ -831,3 +831,80 @@ a O (2b + 2c)
 = 2a + 4b + 4c
 
 therefoer the two sides are not equal, and not associative.
+
+1.72
+given numbers a and b,
+let a O b equal a. for example, a O b equals 3
+a. show that O is associative
+b. show that O is not commutative
+
+answer:
+a. we know a O b = a that and a O b = 3
+to show O is associative, we need to show
+
+(a O b) O c = a O (b O c)
+LHS
+= a O c
+= a
+
+RHS
+= a O b
+= a
+
+therefore the two sides are equal and is associative
+
+b. by definition of commutative law
+a O b = b O a
+we need to show a O b is not commutative, that is,
+we need to show LHS and RHS is not equal
+
+LHS
+a O b = a
+
+RHS
+b O a = b
+therefore the equation is not commutative.
+
+1.73
+let a, b, x, and y be numbers
+show that (a + b)(x + y) equals ax + ay + bx + by
+answer:
+
+distribute
+= (a + b)x + (a + b)y
+= ax + bx + ay + by 
+= ax + ay + bx + by by commutative property
+
+1.74
+let a,b, and c be numbers
+simplify the following expession
+(a - (b - c))-((a - b) - c)
+
+answer:
+divide into 2 parts
+(a - (b - c))
+= a - b + c
+
+((a - b) - c)
+= a - b - c
+
+combine
+(a - b + c) - (a - b - c)
+= a - b + c -a + b + c
+= a + (-b) + c + (-a) + b + c
+= a - a + b - b + c + c
+= 2c
+
+1.75
+find the sum of digits in the answer to
+9999..999 (94 nines) x 4444...44 (94 fours)
+
+the first number has 94 digits each of which si a 9
+the second number has 94 digits each of which is a 4
+
+hint: simplify the problem: how would you handle 99 . 44, 999 . 444 or 9999 . 4444?
+hint: multiplying 9999...99 (94 nines) by 444...44(94 fours) loks hars
+is there really long numbers thats easy to multiply 4444...44 by?
+
+answer:
+
