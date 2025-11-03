@@ -750,3 +750,84 @@ what is the prodcut
 = 0
 
 1.69
+echoing is a 1 digit number to make it a two digit
+eg making 2 into 22 is euivalent to multiplying by 11
+
+echoing a 2 digit number to make it a 4 digit number
+eg makin 23 into 2323 is equivalent to multiplying the two digit number by what value?
+
+answer:
+lets see
+2 echo = 22
+2 . 11 = 22
+where 11 = 22 / 2
+
+23 echo = 2323
+where
+2323 = (something involving 23) + (something involving 23)
+2323 = 2300 + 23
+= 23 (100) + 23
+= 23 (100 + 1)
+= 23 (101)
+= 101
+
+1.70
+the number 222,222 is equal to the product 37,037 . 6
+what is the product of 37,037 and 27?
+
+answer:
+we konw that 222222 = 37037 . 6
+
+we need to find x = 37037 . 27
+27 = 9/2 . 6
+
+x = 37037 . 9/2 . 6
+x = 37037 . 6 . 9/2
+x = 222222 . 9/2
+x = 111111 . 9
+x = 999999 
+
+other apporach
+since we know 2222222 = 37037 . 6
+then we know 111111 = 37037 . 3
+
+x = 37037 . 27
+x = 37037 . 3 (9)
+x = 111111 . 9
+= 999999
+
+1.71
+given numbers a and b, let a O (operation) b equal 2a + 2b
+for example, 3 O 4 equals 14
+
+a. show that O is commutative
+to check commutativity, we need to show
+a O b = b O a by definition of commutative property
+
+since we know that a O b = 2a + 2b, we need to show b O a = 2b + 2a
+
+from the example we have
+3 O 4 = 3(2) + 4(2) = 6 + 8 = 14
+check for commutative
+4 O 3 = 4(2) + 3(2) = 8 + 6 = 14
+still equals. 
+the commutative property of addition states for any numbers x and y,
+x + y = y + x
+since 2a and 2b are numbers, we can conclude that 2a + 2b = 2b + 2a
+therefore, a O b = b O a. The operation is commutative
+
+b. show that O is not associative
+to show O is associative, we must show
+
+(a O b) O c = a O (b O c)
+LHS
+2a + 2b O c
+2(2a + 2b) + 2c
+= 4a + 4b + 2c
+
+RHS
+a O (2b + 2c)
+= 2a + 2(2b + 2c)
+= 2a + 4b + 4c
+
+therefoer the two sides are not equal, and not associative.
