@@ -907,4 +907,98 @@ hint: multiplying 9999...99 (94 nines) by 444...44(94 fours) loks hars
 is there really long numbers thats easy to multiply 4444...44 by?
 
 answer:
+9 . 4 = 36
+99 . 44 = (11 . 9) . (11 . 4)
+999 . 444 = (111 . 9) . (111 . 4)
+obvervation: whenever the digit increaes, you add 1 extra digit to 11
+99...99 . 44...99 = (11...11 . 9) . (11..11 . 4)
 
+
+lets do another approach
+99 = (100 - 1)
+999 = (1000 - 1)
+99..999 = (10....0 (95 digits) - 1)
+
+= (10...0 - 1) * (44....44)
+= (10...0 * 44...44) - (1 * 44...44)
+= 94 * 94 - 94
+= 
+
+1.76
+given numbers a and b, define a O B to be a + ab + b
+for example, 2 O 3 = 2 + 2(3) + 3 = 11
+
+a. show that the operation O is commutative
+b. show thta O is associative
+c. what is the identity of O? that is, what si the identity of the
+number I such that x O I = 1 for all values of x?
+d. what is the inverse of 1 with respect to O, that is, what number goes in the
+blank to solve __ O 1 = I, where I hs the number that you found if part c?
+
+answer:
+a. to show commutativity, we must show
+
+a + b = b + a for all numsber a and B
+
+since we know a O b = a + ab + b and 2 O 3 = 2 + 2(3) + 3
+
+we need to show b O a = b + ba + a
+by commutative multiplication, ba = ab
+by comutatie adidtion, a + ab + b  therefore tewo sides are equal.
+
+b. to show a O b is associative, we need to prove
+(a O b) O c = a O (b O c)
+LHS
+= (a + ab + b) O c
+let x = (a + ab + b)
+= x O c
+= x + xc + c
+substitute back
+= (a + ab + b) + (a + ab + b)c + c
+= (a + ab + b) + (ac + abc + bc) + c
+= a + b + c + ab + ac + bc + abc
+
+RHS
+a O (b O c)
+= a O (b + bc + c)
+let y = (b + bc + c)
+= a O y
+= a + ay + y
+= a + a(b + bc + c) + (b + bc + c)
+substitute back
+= a + (ab + abc + ac) + (b + bc + c)
+= a + b + c + ab + ac + bc + abc
+
+therefore the two sides are ual, associativity is proven
+
+c. number I such that x O I = x
+
+x + xI + I = x
+subtract both sides by x
+xI + I = 0
+= I(x + 1) = 0 by multiplicative identity property
+I must be 0 for this to equal 0
+threfore the identity element is 0
+
+d. finding the inverse
+a O 1 = I
+since we found the identity = 0, we can substitute
+a O 1 = 0
+
+a + a1 + 1 = 0
+a + a + 1 = 0
+2a + 1 = 0
+a = -1.2
+
+================
+
+review problems
+1.42
+compute (90 + 91 + 92 + 93 + 94 + 95 + 96 + 97 + 98 + 99)
+answer:
+= (90 + 99) + (91 + 98) + ... 
+= 189 * (10 / 2)
+= 189 * 5
+= 100 * 5 + 80 * 5 + 9 * 5
+= 500 + 400 + 45
+= 945
