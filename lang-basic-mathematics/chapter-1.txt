@@ -12,5 +12,3 @@ Subtracting numbers = moving along the left line
 Inverse numbers are the oppposite number from their line
 They cancel each other out
 
-
-The rules for addition
