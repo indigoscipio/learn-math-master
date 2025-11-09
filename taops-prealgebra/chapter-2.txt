@@ -330,3 +330,103 @@ therefore 2^81 is the largest value
 ================
 
 Higher Exponents
+
+let a be any number and let n be a positive integer
+the power of a^n, pronounced a to the n, is defined by
+
+a^n = a . a . a . ... a with n copies of a
+
+(a+b)^2 does not equal a^2 + b^2
+(a+b)^N does not equal a^n + b^n
+
+problem 2.19
+a. compute -4^3
+answer: -64
+b. for how many integers n is n^3 between -50 and 50?
+low bound
+
+-4^3 -> -64 - doesnt fit
+-3^3 -> -27
+upper bound = 3^3 -> 27
+therefore the total integer is from -3 to 3 including 0
+so 7
+
+2.11
+let a be any number
+a. explain why (-a)^4 = a^4
+answer: this equals -a . -a .-a .-a by definitino of exponent
+so first 2 = positive and remainign 2 = positiev. positive . posiotive = positive
+
+b. explain why (-a)^5 = -a^5
+answer: since this is odd count this one returns negative
+
+2.12
+evaluata -1^(5^2) + 1^(2^5)
+calculate the exponent first
+= -1^25 + 1^32
+= -1 + 1
+= 0
+
+2.13
+addition and multiplication are commutative
+that is a + b = b + a and ab = ba for all b and a
+for this problem we xplore wheter or not exponentiation is commutative
+a. what is 3^4
+b. what is 4^3
+c. is exponentiation commutative, that is if a and b are positive inegers then we must have
+a^b = b^a?
+
+answer:
+a. 3^4 = 3 . 3 . 3 . 3 = 81
+b. 4^3 = 4 . 4 . 4.  4 = 64
+c. no its not comuutative becasue
+by the examples previously 3^4 does not equal 4^3
+
+2.14
+addition and multiplication are associateive we explore wheter or not exponentiation is assocaiteive
+a. what is (2^2)^3
+b. what is 2^(2^3)?
+c. is exponentiation associaitve
+
+answer: 
+a. 4^3 = 64
+b. 2^8 = 256
+c. no its not associative becasue a and bs shows that its not equal
+
+2.15
+let a be any number explain why a^3 . a^5 = a^8
+answer:
+because a^3 = a . a . a
+and a^5 = a . a . a . a . a
+total = a . a ... 8x
+by power multiplication law
+
+2.16
+express 5^17 + 5^17 + 5^17 + 5^17 + 5^17 as a power of 5
+answer: 
+let x = 5^17
+x + x + x + x + x
+= 5x
+= 5(5^17)
+= 5^18
+
+2.17
+explain why 9^7 / 9^3 = 3^4
+by the law of power diviision 9^7 / 9^3 = 9^(7-3) = 9^4
+
+2.18
+explain why (7^5)^3 = 7^5.3
+= (7^5) . (7^5) . (7^5)
+by exponent multplication law
+7^5+5+5
+= 7^15
+
+2.19
+epxress each following as power of 2
+a. (2^7 . 2^8) / 2^3
+b. (2^6)^4 / 2^7
+c. 4^6 / 8^2
+
+a. 2^15-3 = 2^12
+b. 2^24-7 = 2^17
+c. 2^12 - 2^6 = 2^6
