@@ -279,3 +279,54 @@ answer:
 5^50 -> (5^2)^25 = 25^25
 
 therefore 3^75 is the largest
+
+2.2.10
+when 10^93 - 93 is expressed as a single number, what is the sum of digits?
+
+hint: what are the digits of the umber
+hint: simplify the problem. what if we replaced with 10^93 with just 10^3? 10^4? 10^5?
+
+answer
+10^93 -> 93 digits
+93 -> 2 digits
+
+10^2 - 93 = 100 - 93 = 7 -> 1 digit
+10^3 - 93 = 1000 - 93 =  907 -> 3 digit
+10^4 - 93 = 10000 - 93 = 9907 -> 4 digit
+10^5 - 93 = 100000 - 93 = 99907 -> 5 digit
+
+last two digits are always 9 and 7
+rest of digits are all nines
+the number of nines is 9-2
+
+from the pattern I guess 10^93 - 93 = 93 digits
+number of nines for 10^93 = 93-2 = 91
+sum of last 2 ditgits = 7
+total sum  = number of nines * 9 + sum of last 2 digits
+= 91 . 9 + 7
+= (90+1).9 + 7
+= 810+9+7
+= 826
+
+
+2.2.11
+whihc of the numbers have   the greatest value?
+
+2^3^4, 2^4^3, 3^4^2, 4^3^2, 4^2^3
+answer:
+lets compute one by one
+2^3^4 -> 2^81
+2^4^3 -> 2^64
+3^4^2 -> 3^16
+4^3^2 -> 4^9 -> (2^2)^9 -> 2^18
+4^2^3 -> 4^8 -> (2^2)^8 -> 2^16
+
+seems like the 1st one 2^3^4 has the most exponent
+rewrite
+3^16 = (3^2)^8 = 9^8
+2^81 = 2^80 . 2^1 = (2^10)^8 . 2^1 = 1024^8 . 2^1
+therefore 2^81 is the largest value
+
+================
+
+Higher Exponents
