@@ -430,3 +430,109 @@ c. 4^6 / 8^2
 a. 2^15-3 = 2^12
 b. 2^24-7 = 2^17
 c. 2^12 - 2^6 = 2^6
+
+2.20
+a. expres 11^20000 as a 10000th power by finding the positive integer a such that 11^20000 equals a^10000
+b. express 5^30000 as a 10000^th power
+c. express 2^70000 as a 10000th power
+d. ewhich of the numbers 11^20000, 5^30000 and 2^70000 is the greatest?
+
+answerL:
+a. 11^20000 = a^10000 -> we need to find a
+11^20000 = (11^2)10000 = 121^10000
+b. 5^30000 = (5^3)^10000 = 125^10000
+c. 2^70000 = (2^7)^10000 = 128^10000
+d. the greatest is 128^10000 which is 2^70000
+
+=============
+
+pwoer of negation
+let a be any number. let n be positive integer. if n is even, then -a^n = a^n
+if odd then -a^n = -a^n
+
+product of powers
+a^m . a^n = a^m+N
+
+power of power
+(a^m)^n = a^m.n
+
+quotient of power rule
+a^m / a^n = a^(m-n)
+
+ =====================
+
+ 2.2.1
+
+let a = 2^5
+b = 3^4,
+c = 4^3
+and d = 5^2
+write a-d in smallest - largest
+a  = 32
+b = 81
+c = 64
+d = 25
+
+therefore d -> a -> c -> b
+
+2.2.2. square cube of (2^3)^2 = 2^6
+cuebe of square (2^2)^3 = 2^6 
+
+2.2.3
+the sum 3^3 + 3^3 + 3^3 is equal to which one of the following:
+answer 3 . (3^3) = 3^1  . 3^3 = 3^4 
+
+2.2.4
+eval the folowing expr
+a. 2^4 + 2^4 + 2^4 + 2^4
+= 4 (2^4) = 2^2 . 2^4 = 2^6
+
+b. (2^5 + 2^6 + 2^7) / 2^3
+= 2^5(2^0 + 2^1 + 2^2) / 2^3
+= 2^5 . 7 / 2^3
+= 2^2 . 7
+= 4 . 7 = 28
+
+c. 3^4 - 5 . 8
+= 3^4 - 40
+= 81 - 40 - 41
+
+d. 2^5 - 2^4 - 2^3
+= 2^3 (2^2 - 2^1 - 2^0)
+= 2^3 (4 - 2 - 1)
+= 2^3 (1)
+= 8
+
+e. (1 - (-1)^11)^2
+=  (1 - (-1))^2
+= 2^2 = 4
+
+f. -1^2008 + -(1)^2007
+= -1 - 1 = 2
+
+g. 5 - 7 (5^2 - 3^3)^4
+= 5 - 7 (25 - 27)^4
+= 5  - 7 (-2)^4
+= 5 - 7 . 16
+= 5 - 112 = - 107
+
+h. 3^5(2^3) - 2^4(3^4)
+= 3^5 . 2^3  - 2^4 . 3^4
+= 3^4 . 2^3 . 3^1 - 2^1
+
+i. 88888^4 / 22222^4
+4^4
+
+2.2.5
+find value of the sum 1^2 + 1^4 = 1^6 + ... + 1^100
+answer:
+1 . 50 = 50
+
+==================
+Problems
+
+2.2.3
+evaluate 6^0 + 6^1 + 6^2
+answer: 1 + 6 + 36 = 43
+
+2.2.4
