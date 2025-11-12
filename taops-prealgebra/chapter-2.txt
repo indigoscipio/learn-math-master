@@ -753,3 +753,31 @@ c. which of the following five number is the largest?
  (x^4y^-2)(x^-1y^5)
  = (x^4.x^-1)(y^-2.y^5)
  = x^3 y^3
+
+ ==============
+
+ let a be nonzero and let n be positive integer
+ 1/a^-n = a^n
+
+
+==============
+
+power of reciprocal
+(1/a)^-n = a^n
+
+==============
+
+product of powers (same base) : a^ma^n=a^m+N
+product of powers (same exponent) a^nb^n = (ab)^n
+
+quotient of powers (same base) = a^m/a^n = a^m-n
+quotient of powers (same exponent) = if b is nonzero then
+a^n/b^n = (a/b)^n
+
+pwoer of negation
+(-a)^n = a^n if odd
+(-a)^n = -a^n if even
+
+================================================
+
+Exercises
