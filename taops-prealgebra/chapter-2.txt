@@ -778,6 +778,87 @@ pwoer of negation
 (-a)^n = a^n if odd
 (-a)^n = -a^n if even
 
+power of power: (a^m)n = a^m.n
+power of reciprocal = (1/a)^n = 1/a^n
+
+negation in exponent = a^-n = 1^a^n
+
+
 ================================================
 
 Exercises
+2.4.1
+evaluate the following expressions
+a. 2^(-1)^11
+= 2^-1
+= 1/2
+
+b. 3^7 . 3^-4
+= 3^7-4 = 3^3 = 27
+
+c. 2^3 / 2^-4
+= 23+4 = 2^7 = 128
+
+d. 1 / 5^-2
+= 1/ 1/5^2 = 1 . 5^2 = 25
+
+e. (-3)^-5 . 3^3
+= 1/(-3)^5 . 3^3
+= 1/-3^5 . 3^3
+= -(3^5)^-1 . 3^3 = -(3)^-5 . 3^3
+= -1/9
+
+(-3)^-5 . 3^3 = -(3^-5) . 3^3
+
+f. (1/4)^-3 . 8^-2
+= 1/(1/4)^3 . 1/8^2
+= 4^3 . 1/8^2
+= (2^2)^3 . 1/(2^3)^2
+= 2^6 . 1/2^6
+= 1
+
+
+2.42
+what is the value of a / a^-4 when a = 2?
+answer:
+2/2^-4
+= 2 / (1/2)^4
+= 2 . 2^4
+= 2^5 = 32
+
+2.43
+for x = 1 and y=-1
+give the value of the expression 15x^2y^-3 + 18yx^-1 + 27xy^4
+
+= 15 . 1^2 . (-1)^-3 + 18 (-1) 1^-1 + 27 (1) (-1)^4
+= -15 - 18 + 27
+= -6
+
+2.4.4
+find the integer k such that 3^3 + 3^3 + 3^3 = 243 . 3^k
+LHS total = 27 + 27 + 27 = 81
+243 . 3^k = 81
+3^k = 81 / 243
+3^k = 1/3
+k = -1
+
+2.45
+express 2^12 as a power of 1/8
+hint: can you write 2^12 as a power of 8?
+
+2^12 = (2^3)^4
+therefore 2^12 = (2^3)^-4 = 1/(2^3)^4 = 1/8^-4
+
+2.46
+let a and b be nonzero numbers
+simplify (6a^2b)^2 / (3a^2b^3). express your answer as a power of a times a power of b
+answer:
+
+= 36 a^4 b^2 / 3a^2b^3
+ = 12 a^2 b^-1
+
+
+Challenge Problems
+2.57
+the squares of two consecutive positive integers differ by 67
+what is the smallest of the two integers?
