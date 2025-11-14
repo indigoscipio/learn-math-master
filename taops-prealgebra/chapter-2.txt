@@ -1011,5 +1011,51 @@ let a, b, and c be numbers
 simplify the following expressions
 in each of your answers, the variables a,b, and c should each appear
 only once.
-a. 
-b.
+a. a^2b . 8ab^6c^2
+= 8a^3b^7c^2
+
+b. (a^2)^4 (ab)^3 c^3
+= a^8 . a^3 . b^3 . c^3
+= a^11 b^3 c^3
+
+2.70
+what is the largest integer n for which n^2000 is less than 5^3000
+hint: can the umbers in the prdoblem be written with the same exponent?
+
+answer:
+n^2000 < 5^3000
+(n^2)^1000 < (5^3)^1000
+(n^2)^1000 < (125)^1000
+let n = 11, then
+(11^2)^1000 < 125^1000
+121^1000 < 125^1000
+
+2.71
+for what value of x is
+125 . 5^5 = 5^x + 5^x + 5^x + 5^x + 5^x ?
+
+answer:
+LHS
+5^3 . 5^5
+= 5^8
+
+therefoer the RHS
+5(5^x)
+5^1 . 5^x
+therefore the x that satisfites this is x = 7
+
+2.72
+what is the value of x in the equation
+(2^x)(30^3) = (2^3)(3^3)(4^3)(5^3)
+
+answer:
+RHS 
+(2 . 3 . 4 . 5)^3 = 120^3
+susbtitute back
+
+(2^x)(30^3) = 120^3
+2^x = 120^3 / 30^3
+2^x = 4^3
+2^x = (2^2)^3
+2^x = 2^6
+therefore x = 6
