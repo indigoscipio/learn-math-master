@@ -947,3 +947,69 @@ we can form 22 (2 x 5) pairs with 2^8 leftover
 = 2^8 . 10^22
 = 256 . 10^22
 so total digits = 22 + 3 = 25
+
+2.64
+for what value of n does 500,000^2 . 200,000^2 = 10^n
+since they have same exponent we can use
+(500,000 . 200,000)^2 = (5 x 10^5 x 2^10^5)^2
+= (2.5)(10^5 . 10^5) = 10 (10^10) = 10^11
+
+substitute
+(10^11)^2 = 10^22
+
+2.65
+find the number n such that n . 3^4 . 2^5 = 6^6
+answer
+n = 6^6 / (3^4) . (2^5)
+
+6^6 -> (2.3)^6 = 2^6 . 3^6
+
+n = 3^6  . 2^6 / 3^4 . 2^5
+n = 3^2 . 2^1
+n = 9 . 2 = 18
+
+2.66
+what is the sum of the digits of the number 2^2005 . 5^2007 . 3 ?
+
+answer:
+= 2^2005 . 5^2005 . 5^2 . 3
+= (10)^2005 . 25 . 3
+= 10^2005 . 75
+
+total sum of digits = 2005 + 2 = 2007
+
+2.67
+what is the positive integer N for which 22^2 . 55^2 = 10^2 . N^2?
+
+LHS
+22^2 . 55^2 = (22 . 55)^2 = 1210^2
+
+1210^2 = 10^2 . n^2
+1210^2 / 10^2 = n^2
+121^2 = n^2
+n = sqrt (121)^2
+n = 121
+
+2.68
+let a and b be numbers
+simplify thefollowig expressions.
+express each of your answer as  a number times a power of a times apwer of b
+
+a. (2ab^2)^3
+= 2^3 . a^3 . (b^2)^3
+= 2^3 . a^3 . b^6
+= 8a^3b^6
+
+b 5a^2b(2ab)^3
+= 5a^2b . 2^3 . a^3 . b^3
+= 5 . a^2 . b . 8 . a^3 . b^3
+= 40 . a^2 . a^3 . b . b^3
+= 40 a^5 b^4
+
+2.69
+let a, b, and c be numbers
+simplify the following expressions
+in each of your answers, the variables a,b, and c should each appear
+only once.
+a. 
+b.
