@@ -767,8 +767,8 @@ power of reciprocal
 
 ==============
 
-product of powers (same base) : a^ma^n=a^m+N
-product of powers (same exponent) a^nb^n = (ab)^n
+product of powers (same base) : a^m x a^n = a^m+n
+product of powers (same exponent) a^n x b^n = (ab)^n
 
 quotient of powers (same base) = a^m/a^n = a^m-n
 quotient of powers (same exponent) = if b is nonzero then
@@ -862,3 +862,88 @@ Challenge Problems
 2.57
 the squares of two consecutive positive integers differ by 67
 what is the smallest of the two integers?
+
+hint: how do you get from one perfect square to the next quickly?
+
+answer:
+2^2
+3^2 - just add 1?
+
+(n+1)^2 - n^2 = 67
+(n+1)(n+1) - n^2 = 67
+n^2 + 2n + 1 - n^2 = 67
+n^2 - n^2 + 2n + 1 = 67
+2n = 66
+n = 33
+
+2.58
+the indian mathematician srinivasa ramanujan knew that there are four different positive
+integers a,b,c,d such that a^3 + b^3 = 1729 and c^3 + d^3 = 1729
+what is the sum a+b+c+d?
+
+answer:
+we know that 
+a^3 + b^3 = 1729
+c^3 + d^3 = 1729
+
+a = 12, b = 1
+c = 10 d = 9
+sum total = 32
+
+2.59
+express 2^5 . 8^3 . 16^2 as pwoer of 4
+2^5 . 2^3^3 . 4^2^2
+= 2^5 . 2^9 . 4^4
+= 2^14 . 4^4
+= (2^2)^7 . 4^4
+= 4^7 . 4^4
+= 4^11
+
+2.60
+what five digit postiive integer with an 9 in the ten-thousands place is the
+cube of an integer?
+
+5 digit ->  90000
+100^3 = 1000000 - too far
+50^3 = 125000 - too far
+45^3 = 91125
+44^3 = 85184
+
+2.61
+express 3^16 as a power of 1/9
+hint: can you write it as a power of 9?
+
+answer: 3^16 = (3^2)^8 = 9^8
+therefore 3^16 = (1/9)^-8
+
+2.62
+2^2 x 4^2 x 8^2 x 16^2 x ... x 1024^2 as a powe rof 2
+
+answer:
+= (2^1)^2 x (2^2)^2 x (2^3)^2 x (2^4)^2 x ... x (2^10)^2
+= ((2^1) x (2^2) x (2^3))^2
+= 2^1+2+3+4+...+10 ^ 2
+= 2^55.2
+= 2^110
+
+2.63
+when the expression 8^10 . 5^22 is mutiplied out, how many digits does the number have?
+
+hint: zeroes at the end of a number - what number does that
+make you think about multiplying by?
+
+hint: how can you get 10s in the product?
+
+answer:
+lets try converting to same xponent
+8^10 = 8^10 = (2^3)^10  = 2^30
+2^30 . 5^22
+
+we can form 22 (2 x 5) pairs with 2^8 leftover
+= 2^22 . 5^22
+= (2 . 5)^22 = 10^22
+
+2^8 . 2^22 . 5^22
+= 2^8 . 10^22
+= 256 . 10^22
+so total digits = 22 + 3 = 25
