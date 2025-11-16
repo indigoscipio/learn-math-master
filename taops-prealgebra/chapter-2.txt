@@ -1059,3 +1059,88 @@ susbtitute back
 2^x = (2^2)^3
 2^x = 2^6
 therefore x = 6
+
+2.73
+let a and b be unmbers
+a. show that (a+b)^2 = a^2 + 2ab + b^2
+= (a + b) (a + b)
+= a^2 + 2ab + b^2
+
+b. show that (a-b)^2 = a^2 - 2ab + b^2
+= (a-b)(a-b)
+= a^2 - ab - ba + b^2
+= a^2 -2ab + b^2
+
+c. show that (a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3
+= (a+b)(a+b)(a+b)
+
+first 2 we know from previous
+(a+b)(a+b) = a^2 + 2ab + b^2, we can substitute
+= a^2 + 2ab + b^2 (a+b) 
+= (a^2 . a) + (2ab . a) + (b^2 . a) + (a^2 . b) + (2ab . b) + (b^2 . b)
+= a^3 + 2a^2b + b^2a + a^2b + 2ab^2 + b^3
+= a^3 + 2a^2b + a^2b + 2ab^2 + b^2a + b^3
+= a^3 + 3a^2b + 3ab^2 + b^3
+
+2.7.4
+let a and b be numbers
+a. show that (a-b)(a+b) = a^2 - b^2
+answer:
+(a-b)(a+b) = a^2 +ab -ba -b^2 = a^2 - b^2
+
+2.7.5
+show that (a-b)(a^2 + ab + b^2) = a^3 - b^3
+hint: distributive propert work with sums of three numbers just like it does with
+sum of two number w(x+y+z) = wx + wy + wz
+
+answer:
+(a-b)(a^2 + ab + b^2)
+= a(a^2 + ab + b^2) + -b(a^2 + ab + b^2)
+= a^3 + a^2b + ab^2 + -ba^2 - ab^2 -b^3
+= a^3 + a^2b - a^2b + ab^2 - ab^2 -b^3
+= a^3 - b^3
+
+c. show that (a+b)(a^2 - ab + b^2) = a^3 + b^3
+= a(a^2 - ab + b^2) + b(a^2 - ab + b^2)
+= a^3 - a^2b + ab^2 + ba^2 - ab^2 + b^3
+= a^3 - a^2b + a^ab + ab^2 - ab^2 + b^3
+= a^3 + b^3
+
+2.75
+what integer n has the property that
+5^96 is greater than n^72 and 5^96 is less than (n+1)^72?
+
+hint: can the numbers in the prbolem be written with the same xponent?
+answer:
+we need to find n such that
+
+5^96 > n^72 and 5^96 < (n+1)^72
+
+write in the same exponent
+greatest common factor of 96 and 72 is 24, i think
+(5^4)24 > (n^3)24
+625^24 > (n^3)24
+the n that satisfies this one is 8 whic his 8^3 = 512
+
+test the other side with n=8
+5^96 < (n+1)^72
+(5^4)24 < (9^3)^24
+625^24 < 729 threfore n=8 satisfies this
+
+2.76
+the perfect squares from 1 - 1225 are printed as a sequence of digits
+
+1491625...1225
+
+how many digits are in the sequence?
+answer:
+
+total digit = number of n digit squares * n
+
+1 digit s quare = 1,2,3
+2 digit = 4,5,6,7,8,9
+3 digit = 10,11,12,13,14,15,16 ..., 31
+4 digit = 32,33,34,35
+
+total digit
+1x3 + 2x6 + 22x3 + 4x4 = 3 + 12 + 66 + 16 =97
