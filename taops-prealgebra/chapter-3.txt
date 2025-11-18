@@ -1,0 +1,101 @@
+=====================================
+
+Multiples
+let A and B be numbers. we say that a is a multiple of b
+if a = b . k where k is some integer
+a is a multiple of b if there is an intege n such that a = bn
+
+problem 3.1
+a. both 147 and 357 are multiples of 7. is 147 + 357 a multiple of 7?
+answer:
+yes because 504 = 7 . n where n is 72
+
+b. suppose k is a multiple of 7. must k + 7 be a multiple of 7?
+answer:
+let k = 7
+7 + 7 = 14 -> 14 is a multiple of 7 . n where n = 2 so 14 = 7 . 2 therfoer muliple of 7 
+
+because k is a multiple of 7, there is an integer a such that k = 7a
+adding 7 to k gives k + 7 = 7a + 7
+k + 7 = 7(a + 1)
+let b = a + 1.
+k + 7 = 7b
+since b is an integer, therefore k+7 is a multiple of 7
+
+c. suppose r and s are multiples of 7. must r + s be a multiple of 7?
+r = 7m
+n = 7n
+r + s = 7m + 7n
+= 7(m+n)
+since m+n is an integer, threfore 7(m+n) is also an integer
+by definition of multiples, m+n is a multiple of 7
+
+d. suppose k is a multiple of 7. is it possible for k+23 to be a multiple of 7?
+answer:
+let k = 7
+7 + 23 = 30 -> 30 is not a multiple of 7 since the reminder is not 0
+therefore k+23 is not a multiple of 7
+
+problem 3.2
+what number between 100 and 200 is both a perfect square and a multiple of 7?
+14*14 = 196
+196 is a mulitple of 7 since 196 = 7 . 28
+and a perfect square of 7 since 7^2 = 196
+
+196 = 14 . 14 = 14 . 2 .7 = 28 . 7
+
+problem 3.3
+what is the greatest three digit number that is a multiple of 13?
+answer:
+start with 999 and check one by one
+when dividing 999 / 13 we get quotient of 76 and reminder 11
+988 = 76 . 13 -> therefore 988 is the answer
+
+Problem 3.4
+a. how many integers between 2 and 1004 are multiples of 5
+b. how many integers between 150 and 300 are multiples of 9
+
+a. lets tart with
+1004 - 2 = 1002
+5,10,15,...,1000
+5(1,2,3,...,200)
+therefore 200 multples of 5
+
+b. 
+multiples of 9 less than 300
+9,18,27,...,297
+= 9(1,2,...,33)
+
+multiples of 9 less than 150
+= 9(1,2,...,16)
+
+therefore final result = 33 - 16 = 17
+
+problem 3.5
+a. must every multiple of 15 also be a multiple of 3?
+answer: yes, because 15 has a common factor of 3 / divisible by 3
+eg 30 = 3 . 10, 45 = 3 . 15, etc
+
+b. must every multple of 3 also be a multiple of 15?
+answer: no, counterexample:
+6 is not a multipel of 15 because 6 is not divisble by 15
+
+==============================================
+
+if a and b are multiples of c
+then a + b and a - c are also multiple of c
+
+if we start with a multiple of n and add/subract a number
+that is not a multiple of n, the nthe resulting sum/diff
+is not a multple of n
+
+if a is a multiple of b, then eevery multiple of a is also a multiple of b
+transitivity of divisibility
+
+exercises
+3.1.1
+what are the 10 smallest positive multiplesof 6?
+answer:
+6,12,18,24,30,36,42,48,44,60
+
+3.1.2
