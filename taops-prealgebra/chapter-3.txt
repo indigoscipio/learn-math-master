@@ -99,3 +99,39 @@ answer:
 6,12,18,24,30,36,42,48,44,60
 
 3.1.2
+there are many positive two digit multiples of 7
+but only two of these multiples have a digit sum  of 10
+the digit sum of an integer is the sum of its digits.
+what are these two multiples of 7?
+answer
+ok, so we ned to find two digit multiple of 7 that when summed the result is 10
+28 and 91
+
+
+3.1.3
+what is the sum of all positive integer less than 100 that are multipeles of 13?
+answer:
+largest multiple of 13 less than 100 = 91 = 13 . 7
+13(1+2+3+...+7)
+= 13(28)
+= 364
+
+3.1.4
+what is the least positive number that can be added to 173 so that
+the result is a multiple of 20?
+answer: we know 160 is the smaller multple 20 > 173
+so 180 must be the largest
+180 - 173 = 7 therefore 7
+
+3.1.5
+what is the smallest positive four digit multiple of 17?
+1700 = 17 . 100
+170 = 17 . 10
+340 = 17 . 20
+680 = 17 . 40
+
+1700 - 680 = 1020
+1020 - 17 = 1003
+
+alternatively
+1000 / 17 = 
