@@ -1368,4 +1368,49 @@ express each of the following as a power of 3
 a. 1/9 = 1/3^2 = (3^-1)^2 = 3^-2
 
 b. 3^-4 . 3^2 / 3^3
-= 
+= (3^-4+2) / 3^3
+= 3^-2 / 3^3
+= 3^-2-3 = 3^-5
+
+c. (1/3^-2)^-3 . 3^2
+= (3^2)^-3 . 3^2
+= 1/(3^2)^3 . 3^2
+= 1/3^6 . 3^2
+= 3^2 / 3^6
+= 1/ 3^4
+= 3^-4
+
+d. 27^2 / 3^-3
+= (3^3)^2 / 3^-3
+= 3^6 / 3^-3
+= 3^6--3 = 3^9
+
+=====================================
+
+Multiples
+let A and B be numbers. we say that a is a multiple of b
+if a = b . k where k is some integer
+a is a multiple of b if there is an intege n such that a = bn
+
+problem 3.1
+a. both 147 and 357 are multiples of 7. is 147 + 357 a multiple of 7?
+answer:
+yes because 504 = 7 . n where n is 72
+
+b. suppose k is a multiple of 7. must k + 7 be a multiple of 7?
+answer:
+let k = 7
+7 + 7 = 14 -> 14 is a multiple of 7 . n where n = 2 so 14 = 7 . 2 therfoer muliple of 7 
+
+c. suppose r and s are multiples of 7. must r + s be a multiple of 7?
+let r = 7
+s = 14
+r + s = 7 + 14 = 21
+
+
+d. 
+
+problem 3.2
+
+
+problem 3.3
