@@ -135,3 +135,90 @@ what is the smallest positive four digit multiple of 17?
 
 alternatively
 1000 / 17 = 
+
+3.1.6
+what is the greatest four digit multiple of 18?
+answer:
+biggest four digit multiple of 18
+18* 500 = 9000
+18 * 25 = 450
+18 * 25 = 450
+18 * 5 = 90
+
+
+18 * 500 + 18 * 25 + 18 * 25 + 18 * 5
+= 9000 + 900 + 90
+= 9990 
+
+3.1.7
+what is the greatest three digit multiple of 33
+that can be written using three different digits?
+
+answer:
+ok so we know 990 is a multiple of 33 and the largest
+but its digits are the same
+next smallest = 990 - 33 = 957 -> different, therefore this is the largest
+
+
+3.1.8
+how many integers between 17 and 2678 are multiples of 11?
+answer:
+2 * 11 = 22 so this is the starting point 17 < n < 2678
+we know 2678 / 11 is around 243 with some reminer, so 243 is the upper limit
+so its 22, 33, 44 ... 2678 = 11(2,3,...,243)
+now for the count: 243 - 2 + 1
+= 242
+
+===============
+
+Divisibility tests
+
+a is divisibile by b is a / b is an integer
+
+problems
+problem 3.6
+a. note that
+121212 = 120000 + 1200 + 12
+how can we use this fact to tell that 121212 is divisible by 3?
+answer:
+RHS
+= 3(40000) + 3(400) + 3(4)
+= 3(40000+400+4) = 3(40404)
+since 40404 is an integer, therefore its multiple/divisible by 3
+
+b. how can we quickly tell  that 363637 is not divisible by 3?
+answer:
+363637 = 360000 + 3600 + 36 + 1
+= 3(120000) + 3(1200) + 3(12) + 1
+= 3(121212) + 1
+since we have a reminder of 1 its not divisible by 3
+
+problem 3.7
+how can we tell at a glance a number is not a multiple of 10?
+answer:
+if the number is not divisble by 10, then the number i not a multiple of 10
+or if the number leaves a reminder when dividing by 10
+eg 13 / 10 = 1 with 3 reminder, therefore not divisble by 10
+
+or generally, A number is not a multiple of 10 if
+its last digit is any number other than 0.
+
+problem 3.8
+a. is every multiple of 10 is also a multiple of 5?
+answer: 
+10 = 5(2)
+20 = 5(4)
+how to prove generally?
+
+a number is a multiple of 10 we can express as a = 10k where k is some integer
+we want to shot if we can rewrite
+
+a = 5 x (some integer)
+since a = 10k, we can factor this into a = 5(2k)
+since 2k is an integer, a is also an integer therefore
+a is written as 5 times an integer. meaning a must be a multiple of 5
+
+
+b. how can we tell at a glance wheter or not a number is a multiple of 5?
+c. how can we tell at a glance wheter or not a number is a multiple of 2?
+
