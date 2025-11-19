@@ -220,5 +220,86 @@ a is written as 5 times an integer. meaning a must be a multiple of 5
 
 
 b. how can we tell at a glance wheter or not a number is a multiple of 5?
-c. how can we tell at a glance wheter or not a number is a multiple of 2?
+answer:
 
+10 = 5 . 2
+50 = 5 . 10
+25 = 5 . 5
+35 = 5 . 7
+based on the pattern
+we know that a number is a multiple of 5 if
+the last digit ends with 5, or
+the last digit ends with 0 (since number divisible by 10 also divisible by 5)
+
+
+c. how can we tell at a glance wheter or not a number is a multiple of 2?
+answer:
+2 = 1 . 2
+4 = 2 . 2
+6 = 3 . 2
+
+we know a number is a multiple of 2
+if that number is even (2k) / divisibel by 2
+and if the last digit is even (0,2,4,6,8)
+
+problem 3.9
+a. which of the following numbers are divisble by 4
+12, 312, 512, 1512, 4312
+answer: all of them are divisible by 4
+A number is divisible by 4 if and only if the number
+formed by its last two digits is divisible by 4.
+
+b. is every multiple of 100 also a multiple of 4?
+answer:
+
+100 = 4 (25)
+200 = 8 (25) = 2 (4 . 25)
+300 = 12 (25) = 3 (4 . 25)
+
+yes because 100 = 25 . 4 which has 4 as a factor
+general proof
+
+a = 100k -> number is multiple of 100
+we need to show if a can be written as a = 4 . some integer
+a = 4 (25k)
+therefore divisble by 4
+
+c. use your answer to part b to expalin why 5,687,623,688 is divisible by 4
+we need to show 5,687,623,688 = 4 . some integer
+
+= 5,687,623,600 + 88
+= 100 (56876236)
+= 4 . 25 . 56876236 + 88
+= 4 (25 . 56876236) + 4 (22)
+= 4 ((25.56876236) + 22)
+since ((25.56876236) + 22) is an integer and
+since it can be written as 4 . some integer, therefore its dividible by 4
+
+d. use your answer to part b to explain why 4,650,310 is not divisble by 4
+we need to show 4,650,310  = 4 . some integer
+4,650,310 = 4,650,300 + 10
+= 100 (46503) + 10
+= 4 . 25 . 46503 + 4 (2) + 2
+= 4 ((25 . 46503) + 2) + 2
+since this leave a reminder of 2 therefore it is not divible by 2
+
+problem 3.10
+in this problem, we disvoer a method for determining whether or not a number is divisble by 9
+notice that 
+
+765 = 7 . 100 + 6 . 10 + 5
+= 7 (99 + 1) + 6 (9 + 1) + 5
+= 7 . 99 + 7 + 4 . 9 + 6 + 5
+= 7 . 99 + 6 . 9 + (7 + 6 + 5)
+
+a. as shown above, 765 = 7 . 99 + 6 . 9 + (7 + 6 + 5)
+notice that 7 + 6 + 5 is divisble by 9. explain why this tells us that 765 is divisible by 9
+answer:
+continuing from the answer,
+= 7 . 99 + 6 . 9 + 18
+= (7 . 99) + (6 . 9) + (2 . 9)
+= 9 (7 . 11 + 6 + 2)
+= 9 (77 + 6 + 2)
+= 9 (85)
+since it can be written sa 9 . some integer where 85 is an integeger
+therefore its divisble by 9
