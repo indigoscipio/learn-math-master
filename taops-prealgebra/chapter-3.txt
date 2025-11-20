@@ -371,3 +371,67 @@ next check if its divisble by 4
 is 78 divisble by 4? its not divisble by 4
 
 It only needs to be divisible by 4 if the last two digits, 78, were divisible by 4.
+
+=====================
+a number is divisible by, if
+2 -> must be even
+3 -> sum of digits must be multiple of 3
+4 -> last d digit is multiple of 4
+5 -> last digit is either 0 or 5
+9 -> sum of digits is multiple of 9
+10 -> last digit is 0
+
+
+
+3.2.1
+which of the following id divisible by 5
+46,624
+560,335
+60,231,060
+9,671,118
+
+answer:
+to find a number is dibisble by 5, the lat digit must be either 5 or 0,
+so 560,335 and 60,231,060 are both divisible by 5
+
+3.2.2
+which of the following numbers are divisble by 4
+46,624
+560,335
+60,231,060
+9,671,118
+answer:
+last 2 digit must be divible by 4
+46,624 -> 24 is divisble by 4 ✅
+560,335 -> 35 is not divisble by 4 ❌
+60,231,060 -> 60 is divisble by 4 ✅
+9,671,118 -> 18 is not divisble by 4 ❌
+
+3.2.3
+which of the following numbers are divisble by 3
+46,624 -> sum of digit = 22 ❌
+560,335 -> 22 ❌
+60,231,060 -> 18 ✅
+9,671,118 -> 30 -> ✅
+
+which of the following numbers are not divisble by 7
+7,000,014
+14,035
+7,777,728
+42,721,034
+49,763
+answer:
+7,000,014 = 7 . 1000000 + 14 = 7 . 1000000 + 7 . 2 = 7(1000000.2) ✅
+14,035 = 7 . 2000 + 7 . 5 = 7 (2000+5) ✅
+7,777,728 = 7 . 1111100 + 7 . 4 = 7 (1111104) ✅
+
+therefore 42,721,034
+
+3.2.5
+how many numbers from 1 - 400 have a 2 in the units place (ones placee)
+and are divisble by 4?
+answer:
+we know that a number is divisble by 4 if the last 2 digit is also divisble by 4
+so we need to find last 2 digit divisble by 4 and the last digit is 2
+from 1 - 100 -> 12, 32, 52, 72, 92 = 5 numbers
+from 1 - 400 -> 4 x 5 = 20 numbesr
