@@ -303,3 +303,71 @@ continuing from the answer,
 = 9 (85)
 since it can be written sa 9 . some integer where 85 is an integeger
 therefore its divisble by 9
+
+b. note that 8 + 5 + 1 + 4 = 18 explain why this tells us that 8154 is divisible by 9
+answer: because 18/the total sum is divisible by 9
+
+general proof
+8154 = (8 . 1000) + (1 x 100) + (5 x 10) + 4
+= (8 x (999 + 1)) + (1 x (99 + 1)) + (5 x (9 + 1)) + 4
+= (8 x 999) + (8 x 1) + (99 + 1) + (45 + 5) + 4
+= 9 ((8 x 111) + 11 + 5 ) + 8 + 4 + 1 + 5
+((8 x 111) + 11 + 5 ) since this is guaranteed to be divisble by 9
+the sum of digit is 8+4+1+5 = 18
+and 18 is divisibel by 9
+= 9 ((8 x 111) + 11 + 5 ) + (9 x 2)
+= 9 ((8 x 111) + 11 + 5 + 2)
+
+c. determine wheter or not 59814 is divisible by 9 without dividing 9 into 59814
+answer: 59814 -> sum of digits = 5+9+8+1+4 = 27 / 9 = 3
+so it is divisble by 9
+
+problem 3.11
+a. are both 99 and 9 divisible by 3?
+answer:. yesm they are both divibsle by 3
+since 99 / 3 = 33 with no reminder
+and 9 / 3 / 3 with no reminder
+
+b. is 765 divisibble by 3?
+answer: is 765 divisble by 3?
+yes becaues 765 = 255 . 3
+
+c. is 67242 divisible by 3?
+answer: yes because 67242 = 3. 22414
+
+d. explain why 6148 is not divisble by 3 without dividing 6148 by 3
+since 9 is a multiple of 3, we can aple previous sum of digit/ divisble by 9
+6+1+4+8 = 19. since 19 is not divisble by 3, 6148 is not divisble by 3
+
+problem 3.12
+A is the units digit in the four digit number 4,63A
+if 4,63A is divisble by 3 and by 4, then wat are the possible values of a?
+
+answer:
+number divisble by 4, last 2 digit must be divisble by 4
+32
+36
+
+then filter again, number divisble by 3
+the sum of its digits must be divisble by 9
+
+sum = 4+6+3+a = 13 + a
+case 1: A = 2 -> 4+6+3+2 = 15 -> divisible by 3
+case 2: A = 6 -> 4+6+3+6 = 19 -> not divisble by 3
+therefore the only possible value for A is 2
+
+problem 3.13
+N is the tens digit in the five digit number 24,6N8
+If 24,6N8 is divisible by 9, then must 24,6N8 also be divisible by 4?
+
+answer:
+24,6N8 is divisible by 9 -> this means the sum of digits must be divisble by 9
+find possible values that saisfies this
+sum = 2 + 4 + 6 + n + 8 = 20 + n
+n = 7 -> 20 + 7 = 27
+
+next check if its divisble by 4
+24678 -> last two digit = 78
+is 78 divisble by 4? its not divisble by 4
+
+It only needs to be divisible by 4 if the last two digits, 78, were divisible by 4.
