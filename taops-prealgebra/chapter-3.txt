@@ -435,3 +435,101 @@ we know that a number is divisble by 4 if the last 2 digit is also divisble by 4
 so we need to find last 2 digit divisble by 4 and the last digit is 2
 from 1 - 100 -> 12, 32, 52, 72, 92 = 5 numbers
 from 1 - 400 -> 4 x 5 = 20 numbesr
+
+3.2.6
+both ABC and 3D8 are 3 digit numbers such that
+ABC - 3D8 = 269
+if 3D8 is divisble by 9, then what number does ABC represent?
+answer:
+
+divisble by 9 -> sum of digit must be divisble by 9
+3D8 = 3 + d + 8 = 11 + d
+we must find d such that 11 + d is divisble by 9
+d = 7 -> 11 + 7 = 18
+3D8 = 378
+
+ABC - 378 = 269
+ABC = 269 + 378
+ABC = 647
+
+3.2.7
+what is the largest idgit d for which the number 214,d07 is divisble by 3?
+answer:
+divisble by 3 mens the sum of digit must also digvisble by 3
+214d07 = 2+1+4+d+0+7 = 14 + d
+9 -> largest but not divisble by 3
+8 doesn't work also
+threfore 7 is the largest idgit since 14 + 7 = 21
+
+3.2.8
+consider the rules we found to test for divisibility by 2 and 4
+can you find a similar rule for divisible by 8?
+answer:
+we know if number is divisble by 2, the number must be even
+
+we know if number is divisble by 4, last 2 digit must be divisble by 4
+516 = 500 + 16 = 5 . (4 . 25) + 4 (4) = 4 (5 . 25) + 4(4) = 4 (125+4) = 4(129)
+
+then for a number divibsle by 4 it must be find the smallest power of 10
+that is guaranteed ot be multiple of 8
+416 = 8 (50) + 8 (2) = 8 (52)
+54320 = 5400 + 320 = (54 . (8 . 125)) . (8 . 40) = 8(54 . 125) . 8(40) = 8(54.125 + 40)
+
+A number is divisible by 8 if and only if the number
+formed by its last three digits is divisible by 8.
+
+
+to test a number is divisble by 2, we need
+10 = (2 . 5) -> 2 (5)
+100 = 4 . 25
+1000 = 8 . 125
+
+============================================
+Prime Numbers
+A prime number is a positive integer that is divisble by exactly 2 positive integers
+1 and the number itself
+
+a composite number is a positive integer that is divisibly by
+more than 2 positive integers.
+this means tat a number is composite if it is divisble by some positive integer
+besides 1 and the number itself
+
+
+3.14
+list every prime less than 20
+answer: 2 3 5 7 11 13 17 19
+
+3.15
+
+Meena is trying to determine whether or not 113 is prime.
+She's doing so by checking 113 for divisibility by each positive integer starting with 2.
+She sees that 113 is odd, so it is not divisible by 2.
+She then checks if 113 is divisible by 3. Since 1+1+3= 5 is not divisible by 3,
+she knows that 113 is not divisible by 3.
+(a) Meena says, "Since 113 is not divisible by 2,
+I know that 113 isn't divisible by 4." Is she right? Why or why not?
+answer:
+her answer is correct 
+to check if a number is divisble by 4 the last 2 digit must be divisble by 4
+113 -> 13 is not divisble by 4, therefore its not divisbe
+If a number fails the test for 2, it's impossible for it to pass the test for 4.
+
+(b) How does Meena know at a glance that 113 is not divisible by 5?
+answer: because the last digit is not either 0 or 5
+
+(c) She then says, "Since 113 is not divisible by 2,
+I know that it isn't divisible by 6." Is she right? Why or why not?
+answer: correct because 6 has a factor of 2
+any number divisble by 6 is also divisble by 2
+
+(d) Meena divides 113 by 7 and finds a remainder of 1,
+so she knows that 113 is not divisible by 7. She then says,
+"I don't have to test 8, 9, or 10. I know that 113 isn't divisible by 
+ny of those." How does she know without testing?
+8 -> since we testd ealrier the number is not divisble by 2, therefore its not divisble by 8
+9 -> sum of digit we tested earlier, its not divisble by 3, therefore not divisbel by 9
+and 10 -> we tested earlier number is not divisble by5, therefore not idvisble by 10
+
+(e) Meena then says, "Since 11^2 is 121, I don't have to test any numbers
+higher than 10. I now know that 113 is prime." Why doesn't Meena have to test any
+more numbers?
