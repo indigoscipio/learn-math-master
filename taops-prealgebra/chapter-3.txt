@@ -672,4 +672,19 @@ therefore the reminder is 2
 
 3.3.6
 how many groups of three prime numbers add to 22?
-note 2,3,5 add up
+note 2,3,5 is considered as the same group of three primes as (3,2,5)
+
+3 primes up to 22 = 2,3,5,7,11,13,17,19
+even + even
+1 -> (13+7) + 2 
+
+3.3.7
+suppose P and Q both represent prime numbers such that
+5p + 7q = 109
+
+find the value sof the prime p
+answer:
+5p = 109 - 7q
+p = 109 - 7q / 5
+...
+
