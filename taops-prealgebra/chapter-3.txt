@@ -748,5 +748,64 @@ if neither of pauls integers ends in 0 wthat is the sum of pauls integers?
 
 neither integer cannot ends in 0, so no factors of 10 = no 2 or 5
 16000 = 160 * 100 -> has 0 digit last, not valid
-16000 prime factors = 4 . 2 . 2 . 2 . 2 . 5 . 5
-...
+16000 prime factors = 16 . 1000 = 4^2 . (2.5)^3 = 4^2 . 2^3 . 5^3
+= 2^4 . 2^3 . 5^3 = 2^7 . 5^3
+so a . b = 2^7 . 5^3
+neither a nor b can end in 0
+128 + 125 = 253
+
+3.24
+a. let n be the product of 10 smallest prie numbers
+explain why prime factorialization of n+1 must include a prime that isnt among the 10 smalles prime numbers
+
+answer:
+n+1 = 2 toimes some integer , so n+1 must be odd -> n+2 is nt dividible by 2
+n+1 = 3 times some integer , n+1 is nt dividible by 3
+n+1 = 5 times some itneger, n+1 is not divisble by 5
+n+1 is not divisble by any of these itesm in p1,p2,p...p10
+
+this means the prime factorization of n+1 does not include p1,p2,p3,p...,p10
+therefore the prime factors of n+1 are greater than p10
+
+
+since n+1 leaves non-zero reminder when divided by prime 
+none of the mslalest 10 primes can be a factor of n+1
+
+therefore n+1 must be tiehr a new prime number of a product of new prime numbers
+
+im guessing since its larger it cannot be breaken down so it needs the next prime?
+
+b. let n be the 100 smallest prime nubers. explain why prime factorization of n+1
+mst include a prime that isn't among the 100 smallest pime numbers
+
+let n = p1 . p2 . p3 ... p100
+by definition n is divisble by each item in p
+
+then n+1 will always lave reminder of 1
+since it leaves nonzero reminder whendivided by each item in p none of these can be factor of n+1
+
+therefore it can be a prime number
+
+
+
+c. explain why there is not a largest prime number
+that is explain why there are infinitely many primes
+answer:
+because number is inifite? not sure
+
+
+====================================================
+
+Fundamental theory of arithmetic
+every posiive integer has a unique prime factorization
+
+primes are building blocks of integers
+every integer > 1 can be expressed as a product of primes in exactly one way
+prime factorization can be particularly useful in problems involving products of integers.
+
+====================================================
+
+all of the exponents in prime factorization of a perfect squares are even
+any prime factorization in which all of the exponents is even is the prime factorization
+of a perfect square.
+
