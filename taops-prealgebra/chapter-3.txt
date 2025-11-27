@@ -855,3 +855,42 @@ therefore 313 is the largest prime factor
 is x,y,and z are positive integers and 2^x . 3^y . 5^z = 54000
 what is the value of x + y + z
 answer
+
+2^x . 3^y . 5^z = 54000
+find prime fafctors of 54000
+54 . 1000
+54 . 125 . 8
+(3 . 3 . 2 . 3) . (5 . 5 . 5) (2 . 2 . 2 ) 
+(3 . 3 . 3) . (5 . 5 . 5) (2 . 2 . 2 . 2) 
+2^4 . 3^3 . 5^3
+therefore x = 4, y = 3, z = 3
+so the sum is 5 + 3 + 3 = 10
+
+3.4.4
+what is the smallest possitive perfect suqare that is divisble
+by four smallest primes?
+
+we konw the four smallest prime = 2,3,5,7
+
+we need to find perfect square divisble by any of these
+(2.3.5.7)^2
+= 210^2
+= 44100??
+
+b. how does the answer to part a change if we remove the word "positive"?
+answer:
+so smallest negative perfect square?
+0
+
+3.4.5
+the product of tow positive integers is 504 and
+each of the numbers is divisble by 6
+however neither of the two integers is 6
+what is the larger of th two integers?
+
+answer:
+x . y = 504
+x and y is divisible by 6
+but x and y does not equal 6
+
+find prime factorization of 504
