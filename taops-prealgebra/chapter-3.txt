@@ -894,3 +894,83 @@ x and y is divisible by 6
 but x and y does not equal 6
 
 find prime factorization of 504
+8 . 63
+8 . 7 . 9
+
+2^3 . 3^2 . 7^1
+(2 . 3) . (2 . 3) . (2 . 7)
+= 6 . 6 . 14
+= (6 . 2) (6 . 7)
+= 12 . 42
+so x = 12 and y = 42 this follows the rule
+therefore the largest number is 42
+
+3.4.6
+in the equation 858 = a . b
+the numbers a and b are both positive two digit integers
+what is the greatest possible value for a + b ?
+
+answer:
+find prime factors of 858
+858 = 11 . 6 . 13 = 6 . 11 . 13 = 2 . 3 . 11 . 13
+
+greatest possible value for a + b
+(2 . 11) (3 . 13)
+= 22 . 39 -> 22 + 39 = 61
+
+(2 . 13) (3 . 11)
+= 26 . 33 -> 26 + 33 = 59
+
+(2 . 3 . 11) . (13)
+= 66 . 13
+= 89
+
+3.4.7
+in problem 3.21 we learned that all of the exponents must be even
+in the prime factorization of a perfect square.
+is there a similar fact for perfect cubes?
+how can we tell from looking at the prime factorization of a positive integer wheter or not
+the integer is a perfect cube?
+
+answer:
+so in perfect square case we need to check if the prime factors have even exponent
+2^2 . 3^2 = 4 . 9 = 36 = 6^2
+(prime factors)^2 = perfect square 
+
+in perfect cube im guessting..
+(prime factors)^3 = perfect cube? so it needs to be odd?
+lets test it
+2^3 . 3^3 = 8 . 27 = 216 = 6^3
+seems to be working but not sure
+
+the exponents need to be multiple of 3
+
+3.4.8
+a. the number of 40! (40! is spoken "40 factorial")
+is defined as the product of all integers from 1 through 40
+
+40! = 1 x 2 x 3 x ... x 40
+
+in the prime factorization of 40!, what is the power of 5?
+answer:
+
+
+5 10 15 20 25 30 35 40
+
+25 = 5^2
+9
+
+b. if a number ends in zeroes, those zeroe are claled terminal zeros
+for example, 40000 has four terminal zeros,
+but 104000 has just three terminal zeros
+how many terminal zeros does 40! have?
+
+answer:
+zero is made from multiple of 2 . 5
+
+find factorsof 5 up t o40
+5 10 15 20 25 30 35 40 = 9 total
+
+40! = 2^n . 2^9
+we can make 9 pairs of (2 . 5) with reminder factor of 2
+threfore 9 terminal zeroes
