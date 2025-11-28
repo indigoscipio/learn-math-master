@@ -974,3 +974,86 @@ find factorsof 5 up t o40
 40! = 2^n . 2^9
 we can make 9 pairs of (2 . 5) with reminder factor of 2
 threfore 9 terminal zeroes
+
+=====================================
+
+Least common multiple
+
+if a number is a multiple of both a and b,
+that number is a common multiple of a and b.
+
+lcm(a,b) = product of all primes(highest power)
+we can extend to any number of integers, not just a,b / two inputs
+lcm(a,b,c) = producto f all primes (highest power)
+
+problems
+3.25
+a. list all five smallest positive multiples of 18
+b. list all five smallest positive multiples of 24
+c. list all three smallest positive common multiples of 18 and 24
+d. what is the least common multiple of 18 and 24?
+how are the common multiples you found in part c related to the least common
+multiple?
+
+answer:
+a. 18, 36, 54, 72, 90
+b. 24, 48, 72, 96, 120
+c. list all three smallest positive common multiples of 18 and 24
+72, 144, 216
+
+d. 72
+18 = 2 . 3 . 3 = 2^1 . 3^2
+24 = 2 . 2 . 2 . 3 = 2^3 . 3^1
+lcm = 2^3 . 3^2
+
+Every common multiple of two numbers
+is a multiple of their LCM.
+
+Problem 3.26
+find the prime factorizations of the five smallest positive multiples of 18
+compare these prime factorizations to the prime factorizations of 18
+do you notice anything interesting?
+
+mutiples of 18 = 18, 36, 54, 72, 90
+PF of 18 -> 2 . 3 . 3 = 2^1 . 3^2
+PF of 36 -> 2 . 2 . 3 . 3 = 2^2 . 3^2
+PF of 54 -> 3 . 2 . 3 . 3 = 2^1 . 3^3
+PF of 72 -> 2 . 2 . 2 . 3 . 3 = 2^3 . 3^2
+PF of 90 -> 2 . 3 . 3 . 5 = 2^1 . 3^2 . 5^1
+
+it seems they all have at least 2^1 . 3^2
+every multiple of 18 must contain 2^1 . 3^2 (PF of 18) as a subset of its factor
+
+
+3.27
+the prime factorization of 72 is 2^3 . 3^2
+use the given prime factorization of each number below to determine if the number
+is a multiple of 72
+
+a. 864 = 2^5 . 3^3
+b. 400 = 2^4 . 5^2
+c. 1008 = 2^4 . 3^2 . 7^1
+d. 2916 = 2^2 . 3^6
+
+answer:
+since prime factorization of 72 is 2^3 . 3^2 we must find if each
+has at lesat a subset of their prime factorizations
+
+a. 864 = 2^5 . 3^3 -> (2^3 . 3^2) . 2^2 . 3^1
+this fits so yes its a multiple of 72
+
+b. 400 = 2^4 . 5^2 is not multiple of 72 since 3^2 is not a prime factorization
+
+c.  1008 = 2^4 . 3^2 . 7^1
+(2^3 . 3^2) . 2^1 . 7^1 - fits so it is a muultiple of 72
+
+d.  2^2 . 3^6 -> does not fit since it needs at least one more 2
+
+
+
+suppose we have prime factorizations of two positive integers m and n
+how can we use the prime factorizations to tell if m is a multiple of n?
+
+m must contain at least all prime factors of n (rule of divisiiblity)
+exponent in m >= exponent in n
+
