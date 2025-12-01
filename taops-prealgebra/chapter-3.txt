@@ -1174,4 +1174,32 @@ find lcm[6,7,8]
 7 -> 7^1
 8 -> 2^3
 
-lcm = 2^3 . 3^1 . 7^1 = 
+lcm = 2^3 . 3^1 . 7^1 = 168
+we must find a number multiple of these that is greater than 16128
+we know that 168 * 100 = 16800
+168*4=672 -> 16800 - 672 = 16128 -> equal 
+168*3=504 -> 16800 - 504 = 16296 -> nex smallest multiple of 6,7,8 larger than 16128
+therfore 16296
+
+3.33
+a. what is the smallest positive integer greater than 1 that leaves
+a reminder of 1 when divided by each 6,7, and 8?
+answer: 
+we know from the previous question the lcm of 6,7,8 is 168
+A number that leaves a remainder of 1 when divided by 6, 7, and 8
+must be one more than a number that is exactly divisible by all three.
+so the smallest positive integer is 169
+
+b. find the smallest positive number
+that leaves a reminder of 5 when divided by 6
+a reminder of 6 when divided by 7
+and a reminder by 7 when divided by 8
+
+167
+
+
+====================================
+
+let n be a positive integer.
+prime factorization of any multiple of n includes
+the prime facoriztaion of n
