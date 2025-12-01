@@ -1104,13 +1104,74 @@ therfore the lcm is 2^3 . 3^2 . 7^1 = 8 . 9 . 7 = 504
 3.30
 a. are lcm [2.500, 2.300] and lcm[500,300] equal?
 answer:
+
 first check lcm[2.500,2.300]
-2.500 -> 2 . 5 . (5 . 5 . 4) = 2^1 . 4^1 . 5^3
-2.300 -> 2 . 3 . 5 . 5 . 4 = 2^1 . 3^1 . 4^1 . 5^2
+2.500 -> 2 . 5 . (5 . 5 . 4) = 2^1 . 2^2 . 5^3
+2.300 -> 2 . 3 . 5 . 5 . 4 = 2^1 . 3^1 . 2^2 . 5^2
 
+so the lcm is 
+3^1 . 2^3 . 5^3 = 2 . 3 . 4 . 125 = 3000
 
+now check lcm[500,300]
+500 ->  5 . (5 . 5 . 2^2) = 2^2 . 5^3
+300 -> 3 . 5 . 5 . 2^2 =  2^2 . 3^1 . 5^2
+so the lcm is 3^1 . 2^2 . 5^3 = 1500
+
+now compare both
+3000 = 2 (1500)
+therefore yes it is equal.
+
+generalization:
+i think since they both share a common factor of 2 we can
+just pull the factor out safely
+
+k increases all powers
 
 
 b. let a and b be positive integer. must we have lcm[2a,2b] = 2lcm[a,b]
+answer:
+yes because lcm[2a,2b] have the common factor of 2
+by factoring out the 2 we esentially just pul out the additional power of the prime factorizaztion
+and then multiply it at the end
+
+
 c. let a and bbe positive integer. must we have lcm[15a,15b] = 15lcm[a,b]?
+same as answer b, with 15 as the common factor
+
 d. compute lcm[606060,707070]
+answer: this is the same as 101010 . lcm [6,7]
+and lcm [6.7] is
+6 -> 2^1 . 3^1
+7 -> 7^1
+= 2^1 . 3^1 . 7^1 = 42
+
+= 101010 . 42 = 4242420
+
+3.31
+a church rings its bells every 15 minutes
+the scrool rings its bells evey 20 minutes
+the day care center rings its bells every 25 minutes
+if they all ring their bells at noon on the same day, at what time they next
+all ring their bells together?
+
+answer:
+find lcm[15,20,25]
+15 -> 3 . 5
+20 -> 4 . 5 = 2^2 . 5
+25 -> 5 . 5 = 5^2
+
+lcm = 2^2 . 3^1 . 5^2 = 300
+since the bell rings at noon just add 300 minutes after noon,
+so 300 / 60 = 5 hours
+so it would be at 5 PM
+
+3.32
+the number 16128 is a multiple of 6,7, and 8
+what is the smallest multiple of 6,7,8 that is greater than 16128?
+answer:
+find lcm[6,7,8]
+6 -> 2^1 . 3^1
+7 -> 7^1
+8 -> 2^3
+
+lcm = 2^3 . 3^1 . 7^1 = 
