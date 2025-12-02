@@ -1199,7 +1199,158 @@ and a reminder by 7 when divided by 8
 
 
 ====================================
-
 let n be a positive integer.
 prime factorization of any multiple of n includes
 the prime facoriztaion of n
+
+2^3 . 2^2 is a multiple of 2^4 . 2^3
+====================================
+to find the prime factorization of the lcm of groups of numbers,
+first the prime factorization of each number
+
+the prime factorization of the least ocmmon multiple of is the product
+of the highestpower of each prime factor that appears in the pfs of the numbers
+====================================
+for any positive integers a,b, and b, we have
+lcm[na, nb] = n . lcm [a,b]
+
+===================================
+
+
+3.5.1
+compute the following:
+a. lcm[14,21]
+14 -> 2^1.7^1
+21 -> 3^1 . 7^1
+
+lcm = 2^1 . 3^1 . 7^1 = 6 . 7 = 42
+
+2. lcm[24,32]
+24 -> 3 . 2 . 2 . 2 = 2^3 . 3^1
+32 -> 2 . 2 . 2 . 2 . 2 = 2^5 
+lcm = 2^5 . 3^1 = 32 . 3 = 96
+
+c. lcm[27,63]
+27 -> 3 . 3 . 3
+63 -> 3 . 3 . 7
+lcm  = 3^3 . 7^1 = 27 . 7 = 189
+
+d. lcm[54,60]
+= 6 lcm[9,10]
+9 -> 3 . 3
+10 -> 5 . 2
+2 . 9 . 5 = 90 
+6 . 90 = 540
+
+e. lcm[72, 108]
+9 . lcm [8,12]
+2^3 . 3^1 = 8 . 3 = 24
+9 . 24 = 216
+
+lcm[5096,117]
+
+13 . lcm[392, 9]
+
+392 = 2^3 . 7^2
+9 = 3^2
+lcm = 8 . 9 . 49
+13 . 3528 = 45864
+
+3.5.2
+compute the following:
+a. lcm[12,18,30]
+= 6 . lcm[2,3,10]
+= 6 . 30 = 180
+
+b. lcm[36,48,27]
+= 3 . lcm [12,16,9]
+12 -> 2 . 2 . 3
+16 -> 2 . 2 . 2 . 2
+9 -> 3 . 3
+2^4 . 3^2 = 16 . 9 = 144
+3 . 144 = 432
+
+c. lcm[24,54,144]
+6 . lcm [4,9,24]
+4 -> 2^2 
+9 ->  3^2
+24 -> 2 . 2 . 2 . 3
+2^3 . 3^2 = 8 . 9 = 72
+6 . 72 = 432
+
+3.5.3
+in this section we defined the least common multiple of 
+two postiive integer
+why didn't we define the greatest common multiple?
+answer:
+because there is no such thing as greatest ocmmon multiple
+since the greatest multiple can reach infinite
+
+if we try to define greatest common multple of gcm[2,3]
+then we would have to search infinite possibility of these multiple and find
+for the "greatest"
+
+3.5.4
+what is the largest common multiple of 8 and 12 that is less than 200?
+answer:
+we know that lcm[8,12] = 4 . lcm [2,3] = 4 . 6 = 24
+we need to find largest multiple of 24 that is less than 200
+we know 24 . 10 = 240
+24 . 9 = 216
+24 . 8 = 192
+
+therefore 192 is the largest common multiple of 8 and 12 that is less than 200
+
+3.5.5
+what is the smallest positive four digit number that is divisible by 2,3,4,5,6 and 7?
+answer:
+find the common lcm of those and find the smallest four digit multiply of that lcm
+
+lcm[2,3,4,5,6,7]
+2 -> 2
+3 -> 3
+4 -> 2^2
+5 -> 5
+6 -> 2 . 3
+7 -> 7
+
+so the lcm is 2^2 . 3 . 5 . 7 = 4 . 3 . 5 . 7 = 420
+
+now we need to find the smallest four digit
+we know 420 * 2 = 840
+we know 420 * 3 = 1260
+
+therefore 1260 is the answer
+
+
+3.5.6
+alex counted to 2400 by 6s begining with 6
+mathew counted to 2400 by 4s starting with 4
+
+how many numbers counted by alex were also counted by matthew?
+
+answer:
+first we need to find lcm[6,4] and count these multiples up to 2400
+= 2 . lcm[3,2]
+= 2 . 6 = 12
+
+next hwo many multiples of 12 are there up to 2400, we need to count it
+
+since we know 2400 / 12 = 200
+the answer is 200
+
+3.5.7
+the people at a party tried to form teams with the same number on each team
+but when they tried to split up into teams of 2, 3, 5 or 7, exactly one person was left
+without a team. what is the smallest numbero f people (greater than 1) who could
+have been at the party?
+
+answer:
+
+first find the lcm and then calcualte the reminder
+lcm[2,3,5,7] = 2 . 3 . 5 . 7 = 210
+
+since one person was left then we know its one more than 210 +1 = 211
+
+3.5.8
+one owl hoots every
