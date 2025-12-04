@@ -1569,3 +1569,50 @@ since its an integer count 6 + 6 = 12
 the product of two positive integer is 2005
 if neither integer is 1 what is the sum of two integers?
 answer:
+since neither cant be 1 its not 1 and 2005
+5 . 401
+so 406
+
+3.6.6
+the product of three digit number abc and single digit number d is 1673.
+if a,b,c and d represent different digits, then what three digit number doe
+abc reprsent?
+
+abc . d = 1673
+abcd must be different digit
+what is abc?
+
+find divisors
+1673 = 7 . 239
+check if 239 is prime,
+check divisibile by prime up to ~15 (sqrt 239)
+239 : 2? false
+239 : 3? false
+239 : 5? false
+239 : 7? false
+239 : 11? false
+239 : 13? false
+therefore 239 is prime
+and abc is 239
+and d = 7
+all digits are uniquie
+
+3.6.7
+a lucky year is one in which at least one date when written in the form
+month/day/year has the following property
+
+the product of the month times the day equals the last tw odigitso f the year
+
+for example, 1956 is a lucky year because it has the date 7/8/56
+and 7 . 8 = 56
+
+which of the following is not a lucky year:
+1990, 1991, 1992, 1993, or 1994?
+
+check 1 by 1
+1990 = m/d/90 -> 10/9/90 -> lucky year
+1991 = m/d/91 -> 7/13/91 -> lucky year
+1992 = m/d/92 -> 4/23/92 -> lucky year
+1993 = m/d/93 -> 3/31/93 -> lucky year
+1994 = m/d/94 -> 2/47/94, 1/94/94 -> not lucky year
+therefore 1994
