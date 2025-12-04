@@ -1616,3 +1616,24 @@ check 1 by 1
 1993 = m/d/93 -> 3/31/93 -> lucky year
 1994 = m/d/94 -> 2/47/94, 1/94/94 -> not lucky year
 therefore 1994
+
+3.6.8
+what is the greatest positive integer less than 100
+that has an odd number of positive divisors?
+answer:
+
+it must be the greatest square < 100
+so 81 or 9^2
+check for factors
+1 . 81
+9 . 9
+
+factors = 1, 9, 81
+
+3.6.9
+what is the greatest integer less than 10000 that is a factor of 11000 + 1100 + 11
+answer:
+11000 + 1100 + 11 = 11(1000) + 11(100) + 11 (1) = 11(1000+100+1) = 11 (1101)
+
+
+since 1101
