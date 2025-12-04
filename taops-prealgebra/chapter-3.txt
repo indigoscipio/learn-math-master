@@ -1353,4 +1353,219 @@ lcm[2,3,5,7] = 2 . 3 . 5 . 7 = 210
 since one person was left then we know its one more than 210 +1 = 211
 
 3.5.8
-one owl hoots every
+one owl hoots every 3 hrs
+2nd owl hoots every 8h
+third owl hoots every 12h
+
+if they all hoot together at the start
+how many times during the next 80h will just the two of the owls hoot together
+
+answer:
+lcm[3,8,12]
+3 -> 3
+8 -> 2^3
+12 -> 2 . 2 . 3
+= 8 . 3 = 24
+
+the tree owls hoot together every the 24th hour
+next 80 hours -> 80 / 24 =  3 with a reminder of 8
+1st 24 -> all 3 hoots
+2nd 48 -> all 3 hoots
+3rd 72 -> all 3 hoots
+
+pair 1 -> 3h and 8h
+lcm[3,8] = 24, the same as lcm[3,8,12]
+
+pair 2 -> 3h and 12h
+lcm[3,12] -> 3, 2 . 2 . 3 = 2^2 . 3^1 = 12
+80/12 -> hoots 6 times with rmiender of 8
+This pair hoots together 6 times: 12, 24, 36, 48, 60, 72.
+since the three cannot be hoot toghether only include 3
+
+pair 3 -> 8h and 12h
+lcm[8,12] -> 4 . lcm [2,3] = 4 . 6 = 24
+the same as lcm[3,8] and lcm[3,8,12]
+
+therfore 3 times from pair 2
+
+====================================================
+
+Divisor
+
+let a be nonzero integer and b an integer
+a is a divisor of b if 
+b is a multiiple of a
+in other words, b is a times some integer
+
+these are the same thign
+a is a divisor of b
+a is a factor of b
+b is a multiple of a
+b is divisble by a
+
+====================================================
+
+3.34
+find all positive divisors of 84
+answer:
+pf of 84 = 2 . 7 . 2 . 3 = 2^2 . 3^1 . 7^1
+2^2 = 3 choice
+3^1 = 2 choide
+7^1 = 2 choice
+total divisors = 3.2.2 = 12
+1,2,3,4,6,7,12,14,21,28,42,84
+
+3.35
+a. count the positive divisors of each inteer from 8 to 18
+which os these integers have an odd number of positive divisors?
+answer:
+8 -> 1,2,4,8
+9 -> 1,3,9
+10 -> 1,2,5,10
+11 -> 1,11
+12 -> 1,2,3,4,6,12
+13 -> 1,13
+14 -> 1,2,7,14
+15 -> 1,3,5,15
+16 -> 1,2,4,8,16
+17 -> 1,17
+18 -> 1,2,3,6,9,18
+
+integers that have odd positive divisors are:
+9, 16
+
+b. there is one integer between 20 and 30 that has has odd number of positive divisors
+which one?
+20 -> 1, 2, 4, 5, 10, 20
+21 -> 1, 3, 7, 21
+22 -> 1, 2, 11, 22
+23 -> 1, 23
+24 -> 1, 2, 3, 4, 6, 8, 12, 24
+25 -> 1, 5, 25
+26 -> 1, 2, 13, 26
+27 -> 1, 3, 9, 27
+28 -> 1, 2, 4, 7, 14, 28
+29 -> 1, 29
+30 -> 1, 2, 3, 5, 6, 10, 15, 30
+
+the answer is 25 since it has 3 count
+
+c. which positive integers have an odd number of posisitve divisors?
+based from preivous answers we have 9,16,25
+seems like a square
+3^2, 4^2, 5^2
+so im guessing positive integer of squares have odd number of positive divisors?
+
+3.36
+note that 20 is a divisor of 60
+a. must every divisor of 20 also be a divisor of 60?
+answer:
+
+divisors of 20
+1, 2, 4, 5, 10, 20
+60 / 1 -> 60, divisible
+60 / 2 -> 30, divisible
+60 / 4 -> 15, divisible
+60 / 5 -> 12, divisible
+60 / 10 -> 6, divisible
+60 / 20 -> 3, divisible
+
+therefore yes, every divisor of 20 must be a divisor of 60
+(transitivity of divisibility)
+
+b. must every divisor of 60 also be a divisor of 20?
+im going to say yes here instead of counting every divisor of 60 ince they share the same factor?
+30 and 60 are not divisors of 20
+
+3.37
+a. suppose 3 is divisor of k, is 3 a divisor of k + 3?
+answer:
+3 is a divisor of k ->  3 | k -> k / 3
+is 3 a divisor kf k + 3?  -> k + 3 / 3
+
+lets pick a random k, say 6
+6 + 3 / 3 = 9 / 3 = 3
+
+yes since k is already divisible by 3 (3 is divisor of k),
+adding 3 to k is just adding another factor of 3
+
+generalization
+k = 3m for some integer m
+k + 3 = (3m) + 3
+k + 3 = 3(m+1) since m+1 is an integer k+3 is a multiple of 3
+
+b. suppose 3 is divisor of both b and c, must 3 be divisor of b + c?
+
+b = 3m for some integer m
+c = 3n for some integer n
+
+b + c = 3m + 3n
+= 3(m + n)
+
+since m+n is an integer therefore 3 is a divisor  of b + c
+
+c. suppose 3 is a divisor of b + c, must 3 be a divisor of both b and c?
+
+b + c = 3m
+b = 3m - c
+c = 3m - b
+
+doesn't seem liek it, not sure
+countereexample:
+b = 2
+c = 1
+sum = 3
+
+so the answer is no
+
+====================================
+
+transitivity of dividibility
+if a is a divisor of b, then every divisor of a is also a divisor of b
+
+====================================
+
+Divisibility of a Sum and Difference
+let a,b, and c be integers.
+if c is a divisor of a and b , then
+c is a divisor of a + b and a - b
+
+
+================================
+
+Exercise
+3.6.1
+what is the product of all positive factors of 6?
+answer:
+factor of 6 -> 1,2,3,6
+so the product = 1.2.3.6 = 36
+
+3.6.2
+what is the sum of positive divisorus  of 18?
+answr:
+1 . 18
+2 . 9
+3 . 6
+so the sum if 1 + 2 + 3 + 6 + 9 + 18 = 39
+
+3.6.3
+how many positive factors does 32 haev?
+answer:
+1 . 32
+2 . 16
+4 . 8
+total is 6
+
+
+3.6.4
+for how many integers n is 28 / n an integer?
+answer:
+1 . 28
+2 . 14
+4 . 7
+since its an integer count 6 + 6 = 12
+
+3.6.5
+the product of two positive integer is 2005
+if neither integer is 1 what is the sum of two integers?
+answer:
