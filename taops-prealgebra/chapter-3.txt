@@ -1637,3 +1637,157 @@ answer:
 
 
 since 1101
+
+
+===============================================
+
+Greatest Common Divisor
+
+3.38
+if a number divides a and b, tat number is acommon divisor of a and b
+also known as common factors
+
+3.38
+a. list the positive divisors of 18
+18 -> 1,2,3,6,9,18
+b. list hte positive divisors of 24
+24 -> 1,2,4,6,8,12,24
+c. list positive common divisors of 18 and 24
+common divisors/factors -> 1,2,6
+d. what is the greatest common divisor of 18 and 24
+greatest common divisor = 6
+
+3.39
+find the prime factorization of each of the positive divisors of 24
+compare these prime factorizations to the prime factorization of 24
+do you notice anything interesting?
+divisors of 24 -> 1,2,4,6,8,12,24
+of of 1 -> 2^0
+pf of 2 -> 2^1
+pf of 4 -> 2^2
+pf of 6 -> 2^1 . 3^1
+pf of 8 -> 2^3
+pf of 12 -> 2^2 . 3
+pf of 24 -> 2 . 2 . 2 . 3 = 2^3 . 3^1
+the power of 2is always <=3
+the power of 3 is always <=1
+
+3.40
+the prime factorization of 1944 is 2^3 . 3^5
+below are three numbers and their prime factorizations
+in each part use the prim efactorization of the number to determine if the number
+is a divisor of 1944
+a. 108 = 2^2 . 3^3
+this is a factor since we know 2^3 . 3^5
+just add 2^1 . 3^2 . (2^3 . 3^5)
+
+b. 45 = 3^2 . 5^1
+not a factor since 1944 does not have 5 as it prime factor
+
+c. 48 = 2^4 . 3^1
+not a factor sinc  2^4 exceeds 2^3
+
+suppose we have 2 integers m and n
+how can we tell from the prime factorizations of m and n wheter or not
+m is a dvisior of n?
+
+m is a divisor/factor of n if m's pf exponent is less than or equal n
+if m does not have the same base prime factorization or if the power exceeds its not a factor
+
+ Every prime factor of m must also be a prime factor of $n$.
+
+3.41
+how can we use the prime factorizations of 360 and 48 to find gcd(360,48)?
+answer:
+find pfs of each numbers
+360 -> 2 . 9 . 2 . 2 . 5 = 2^3 . 5^1 . 3^2
+48 -> 3 . 2 . 2 . 2 . 2 = 2^4 . 3^1
+the gcd is the common prime factors of each with the lowestp ower
+so 2^3 . 3^1 = 8 . 3 = 24
+
+3.42
+compute each of the following
+a. gcd(27,39)
+gcd(27,39) = 3 gcd(9,13)
+9 -> 3^2
+13 -> 13^1
+
+3 . 1 = 3
+
+method 2
+27 -> 3 . 3 . 3 = 3^3
+39 -> 3 . 13 = 3^1 . 13^3
+lowest common pf = 3^1
+equal
+
+b. gcd(100,63)
+100 -> 2 . 2 . 5 . 5 = 2^2 . 5^2
+63 -> 7 . 3^2
+
+since no common pfs their  gcd = 1
+
+c. gcd(2^3 . 5^3 . 11^2 , 3^2 . 5^2 . 11^1)
+2^3 . 5^3 . 11^2
+3^2 . 5^2 . 11^1
+
+lowest common = 5^2 . 11^1
+25 . 11 = 275
+
+d. gcd(72, 240, 288)
+24 . gcd (3,10,12)
+3 -> 3^1
+10 -> 2^1 . 5^1
+12 -> 2 . 2 . 3 = 2^2 . 3^1
+24 . (1)
+= 24
+
+problem 3.44
+every bag of candy in the grab bag candy store has the same number of candies
+tony and kaya each grab some bags of candies
+tony gets a total of 70 candies and kaya gets a total of 42 candies
+what is the smallest posible number of bags tony could have grabbed
+
+answer:
+tony = 70 -> 7 . 2 . 5
+kaya - 42 -> 2 . 3 . 7
+
+common factors = 2^1 . 7^1 = 14
+70 / 14 = 5 bags
+
+3.45
+a. find gcd[4,9] and lcm(4,9)
+answer:
+4 -> 2^2
+9 -> 3^2
+
+gcd = 1
+lcm = 2^2 . 3^3 = 4 . 9 = 36
+
+b. find gcd (10,27) and lcm (10,27)
+10 -> 2^1 . 5^1
+27 -> 3^3
+
+gcd = 1
+lcm = 2^1 . 5^1 . 3^3 = 10 . 27 = 270
+
+c. let a and b be positive integer such that gcd(a,b) = 1
+explain why lcm(a,b) = ab
+
+smal example
+let a = 2 and b = 5
+gcd(2,5) = 1 since htey both share no common factor
+lcm(2,5) = 2^1 . 5^1 = 10
+
+im guessing if the gcd of two numbers are 1
+that must mean that both numbers are only divisible by 1 and they share no common factors
+so the lcm must be the multiple of both / combine the factors together?
+eg take the highest power of both  prime factor in a and b
+since they are completely seperate combining them is simply multiplying them as a . b
+
+
+3.46
+a. must a number that is a multiple of 4 and 9 be a multiple of 36?
+
+b. must a number that is a multiple of 3 and 12 be a multiple of 36?
+
+c. find the digit A such that 59,7A6 is a multiple of 36
