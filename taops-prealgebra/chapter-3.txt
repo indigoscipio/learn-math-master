@@ -1787,7 +1787,46 @@ since they are completely seperate combining them is simply multiplying them as 
 
 3.46
 a. must a number that is a multiple of 4 and 9 be a multiple of 36?
+answer:
+small example, a number that is multiple of both 4 and 9
+lcm(4,9) = 2^2 . 3^2 = 36
+pf of 4 = 2^2
+pf of 9 = 3^2
+x = (2^2 . 3^2) . k
+x = 36 . k
+since k is an integer threfore it is multiple of 36
 
 b. must a number that is a multiple of 3 and 12 be a multiple of 36?
+answer:
+3 -> 3^1
+12 -> 2^2 . 3^1
+lcm -> 2^2 . 3^1 = 12
+x = (12) . k for some integer k
+counterexample: k = 1
+x = 12
+12 is not a multiple of 36
+
 
 c. find the digit A such that 59,7A6 is a multiple of 36
+answer:
+multiple of 36 -> also a multiple of 4 or 9
+
+36 -> 4 . 9 = 2^2 . 3^2
+
+so the sum of digits must be 3 or 9
+
+59,7A6 -> current digit sum = 5+9+7+a+6
+= 27 + a
+
+a = 9 -> 27 + 9 = 36 -> 59796
+a = 0 -> 27 + 0 = 27 -> 59706
+
+59796
+divisibly by 4 check -> last 2 digit needs to be divisibel by 4 -> true, 96 is divisbile by 4
+divisibility by 9 check -> true
+
+59706
+divisibly by 4 check -> last 2 digit needs to be divisibel by 4 -> false, 06 is not divisble by 4
+divisibility by 9 check -> true
+
+thereore the digit is 9, a - 9
