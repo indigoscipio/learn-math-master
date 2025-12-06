@@ -1830,3 +1830,67 @@ divisibly by 4 check -> last 2 digit needs to be divisibel by 4 -> false, 06 is 
 divisibility by 9 check -> true
 
 thereore the digit is 9, a - 9
+
+======================
+
+let ne be pos integer
+the pf of any multiple of n includesthe pf of n
+
+
+======================
+
+we can find the gcd
+1. find pfd of each numers
+2. identify the primes that appear in all
+3. find smallest most factor of each prime
+4. multiply it
+
+if theres no common pfs the gcd is 1
+
+======================
+
+to test for a divisibility by a composite number
+we can test for divibibility by two relatively prime numbers whose product is a
+composite number
+
+===============================
+
+exercises
+3.7.1
+find the following gcd
+a. gcd(32,48)
+= 16 . gcd(2,3)
+= 16 . 1 = 16
+
+b. gcd(99,100)
+99 -> 3 . 3 . 11
+100 -> 2 . 2 . 5 . 5 
+gcd is 1
+
+c. gcd(315,108)
+9 . gcd (35,12)
+35 -> 5 . 7
+12 -> 2 . 2 . 3
+9. 1 = 9
+
+d. gcd(99,726)
+99 -> 3 . 3 . 11
+726 -> 11 . 11 . 2 . 3
+gcd = 11^1 . 3^1 = 33
+
+e. gcd(365,1985)
+5 . gcd (73,397)
+5 . 1 = 5
+
+f. gcd(9009,14014)
+1001 . gcd(9,14)
+9 -> 3^2
+14 -> 2^1 . 7^1
+gcd = 1
+1001 . 1 = 1001
+
+3.7.2
+what is the greatest common factor of 36, 90, and 60
+36 ->
+90 ->
+60 ->
