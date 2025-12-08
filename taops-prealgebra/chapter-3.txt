@@ -1891,6 +1891,123 @@ gcd = 1
 
 3.7.2
 what is the greatest common factor of 36, 90, and 60
-36 ->
-90 ->
-60 ->
+36 -> 2 . 2 . 3 . 3 = 2^2 . 3^3
+90 -> 3 . 3 . 2 . 5 = 2^1 . 3^2 . 5^1
+60 -> 2 . 3 . 2 . 5 = 2^2 . 3^1 . 5^1
+
+gcd is 2^1 . 3^1 = 6
+
+3.7.3
+if a and b are positive integers and gcd(a,b) = 8
+then what are the positive common divisors of a and b?
+
+answer:
+im guessing their common divisors are the factors of 8?
+or can also also multiple of 8
+1,2,4,8
+
+The set of all common divisors of a and b
+is identical to the set of all divisors of {gcd}(a, b)
+
+3.7.4
+which of these numbers consists of relatie prime/coprime integers
+
+15 and 18
+12 and 18
+5 and 18
+9 and 18
+
+answer:
+if i remmeber a number a and b is relatigvely prime / coprime if they share no
+common/similar prime factorizaiton, 
+or their gcd is 1
+lets check 1 by 1
+
+15 -> 3 . 5 = 3^1 . 5^1
+18 -> 2 . 3 . 3 = 2^1 . 3^2
+they have 3 pfs which is similar, so not coprime
+
+12 -> 2 . 2 . 3 = 2^2 . 3^1
+18 -> 2 . 3 . 3 = 2^1 . 3^2
+they both share 2 and 3 as prime factors, not coprime
+
+5 -> 5^1
+18 -> 2 . 3 . 3
+since they have different prime factorization 5 and 18 is coprime
+
+9 -> 3 . 3 -> 3^2
+18 -> 2 . 3 . 3 -> 2^1 . 3^2
+they share 3 as prime factors, not coprime
+
+3.7.5
+if 661,17A is a multiple of 12, then what is A?
+
+since its a multiple of 12, it means its also a multiple of the factors of 12
+so 1,2,3,4,6,12
+
+2 -> number need to be even
+3 -> sum of digit must be divisible by 3
+4 -> last 2 digit must be divisible by 4
+
+n = 6+6+1+1+7+a 
+n = 21 + a
+
+a = 0
+21 is divisible by 3
+70 is not divisble by 4
+
+a = 3
+24 is divisible by 3
+73 is not divisble by 4
+
+a = 6
+27 is divisible by 3
+76 is divisibel by 4
+
+therefore a = 6
+
+To test for divisibility by a composite number, we can test for divisibility
+by two relatively prime numbers whose product is the composite number.
+
+3.7.6
+let a,b, and c b integers such that a and b are relatively prime
+and b and c are relatively prime
+must a and c be relatively prime?
+
+answer:
+since we know a and b are relatively prime we can expres as
+
+gcd(a,b) = 1
+which means they share no common prime factors and 1 as the only common divisor
+
+since b and c are relatively prime
+gcd(b,c) = 1
+this means b and c share no common prime factors other than 1
+
+counterexample
+let a = 2
+let b = 3
+let c = 4
+
+gcd(2,3) = 1
+gcd(3,4) = 1
+
+but gcd (2,4) = 2
+
+relatively prime is not a transitive property
+
+3.7.7
+the positive divisors of 175, except 1 are arranged around a circle
+so that every pair of adjacent integers has a common factor
+greater than 1
+
+what is the sum of two integers adjacent to 7?
+
+answer:
+pf of 175 = 25 . 7 = 5 . 5 . 7 = 5^2 . 7^1
+do i haev to calculate all positive divisor of 175?? 
+
+5,7,25,35,375
+
+numbers are 35 and 175 since they share common factor of
+
