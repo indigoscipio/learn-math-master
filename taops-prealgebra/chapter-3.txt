@@ -2011,3 +2011,24 @@ do i haev to calculate all positive divisor of 175??
 
 numbers are 35 and 175 since they share common factor of
 
+==============================
+
+a =  bn
+b is a factor of a
+a is divisible by b
+
+if a and b are multiples of c
+a + b and a - b is multiples of c
+
+if a is multiple o b
+every multiple of a is multiple of b
+
+Challenge problems
+3.72
+when the six digit number 3456n7 is divided by 8 the reminder is 5
+list both possible values of the digit n
+
+hint: what is the nearest multiple of 8?
+
+answer:
+divided by 8 -> last 3 digit must be divisibel by 8
