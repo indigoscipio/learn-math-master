@@ -2124,3 +2124,45 @@ and the number is divisible by 72
 find the value of a and the value of b
 
 answer:
+divisible by 72 = 
+2 . 2 . 2 . 9 = 8 . 9
+the last 3 digit must be divisible by 8
+the sum of digit must be divisible by 9
+
+a+2+4+7+3+b = a+16+b
+
+focus on b, last 3 digit divisible by 8
+73b = divisible by 8 -> 736
+therefore b = 6
+
+now finding a
+a+16+6 = a + 22
+find number 20 - 29 that is divisibble by 9
+27 -> therefore a = 5
+
+so a = 5 and b = 6
+
+3.77
+find the largest factor of 2520 that is not divisible by 6
+
+hint: how must a prime factorization
+ofa divisor of 2520 be related to the prime factorization of 2520?
+
+hint: if a number is not a multiple of 6,
+then what must be true about its prime factorization?
+
+asnwer:
+we know the number is 2520
+lets find the prime factorization
+2520 = 7 . 9 . 2 . 2 . 2 . 5 = 2^3 . 3^2 . 5^1 . 7^1
+
+not divisible by 6 means its prime factorization must be missing at least one
+of the two primes (not divisible by 2 or not divisilbe by 3)
+
+case a: factor must not be divisible by 2
+9 . 5 . 7 = 315
+
+case b: factor must not be divisilbe by 3
+8 . 5 . 7 = 280
+
+therefore the largest factor is 315
