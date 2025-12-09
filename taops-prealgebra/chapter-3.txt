@@ -2166,3 +2166,35 @@ case b: factor must not be divisilbe by 3
 8 . 5 . 7 = 280
 
 therefore the largest factor is 315
+
+
+3.78
+jack finds the product of three idfferent prime numbers
+is it possible for the sum of the digits of jack's product to be 18?
+
+why or why not?
+hint: what do you know about a number whose digits sum to 18?
+
+answer:
+a . b . c = 18
+
+if a number has a sum of digits of 18, it means
+its divisible by 9
+
+therefore it must contain 3^2 as its prime factorization
+so at least 3^2 must be included
+3^2 . b . c = 18
+
+for p to have 3^2 as a factor at least two of the primes must be 3
+but the problem restricts that thep rimes must be unique
+therefore it is not possible to achieve such thing
+
+3.79
+the lcm of 12,15,2 and k is 420
+what is the least possible value of the positive integer k?
+
+hint: how do you find the lcm of a group of number?
+what must be true about k in order for lcm(12,15,20,k) to be 420?
+
+answer:
+lcm(12,15,20,k) = 
