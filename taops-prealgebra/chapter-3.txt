@@ -2032,3 +2032,95 @@ hint: what is the nearest multiple of 8?
 
 answer:
 divided by 8 -> last 3 digit must be divisibel by 8
+
+look for the last 3 digit
+6n7 = (8k) + 5 for some integer k
+6n7 - 5 = 6n2
+6n2 is a multiple of 8
+n = 3 -> 632 / 8 = 79
+n = 7 -> 672 / 8 = 84
+
+3.73
+if two positive integers have gcd of 1
+and lcm of 57
+
+what are the possible values of the larger of the two integers?
+
+answer:
+
+gcd(a,b) = 1
+this means a and b are coprimes
+
+and their lcm is 57 since they are coprimes
+a . b = 57
+
+a = 3
+b = 19 
+
+
+a = 1
+b = 57
+
+answer is 19 and 57
+
+
+3.74
+what is the largest multiple of 12 that can be written using eahc digit
+0,1,2,...,9 exactly once?
+
+answer:
+multiple of 12 -> gcd(3,4)
+sum of digit must be divided by 3
+last 2 digit must be diviisble by 4
+
+1234567890
+sum of digit = 45 -> divisble by 3
+90 -> not divisble by 4
+
+9876543210
+sum of digit = 45 -> divisble by 3
+10 -> not divisibl by 4
+
+swap 2 and 0
+9876543012 
+sum of digit = 45 -> divisble by 3
+12 -> divisible by 4
+
+swap 2 and 0
+9876543120
+sum of digit = 45 -> divisble by 3
+20 -> divisible by 4
+
+therefore 9876543120
+
+3.75
+the four idgit number A55B is divisble by 36
+what is the sum of a and b?
+
+divisible by 36 -> find prime factors
+36 = 4 . 9 = 2^2 . 3^2
+so the sum of digit must be divisble by 9
+and the last 2 digit must be divisible by 4
+
+a55b
+a + 10 + b
+8
+a = 2
+b = 6
+
+sum = 18
+56 -> divisible by 4
+2+5+5+6
+
+case 1: A552
+a + 12 = multiple of 9
+a = 6
+
+case 2: a556
+
+3.76
+the number A2473B is a six digit integer in which a and b are digits
+and the number is divisible by 72
+find the value of a and the value of b
+
+answer:
