@@ -2197,4 +2197,49 @@ hint: how do you find the lcm of a group of number?
 what must be true about k in order for lcm(12,15,20,k) to be 420?
 
 answer:
-lcm(12,15,20,k) = 
+k must be a factor of 420
+
+lcm(12,15,20,k) = 420
+12 -> 2^2 . 3^1
+15 -> 3^1 . 5^1
+20 -> 2^2 . 5^1
+target lcm (420) -> 2^2 . 3^1 . 5^1 . 7^1
+
+multiply pfs with highest power
+lcm = 2^2 . 3^1 . 5^1 . k = 60 . k
+
+60 . k = 420
+
+lcm(60,k) = 420
+pfs of 420 -> 7 . 3 . 3 . 2 . 5 = 2^2 . 3^1 . 5^1 . 7^1
+pfs of 60 -> 3 . 3 . 2 . 5 = 2^2 . 3^1 . 5^1
+
+k = 7
+
+3.80
+for each following pair of number find the producto f the number and then find
+the product of the greatest common divisor and least common multiple of the numbers
+
+a. 18,24
+answer:
+18 . 24 = 432
+gcd(18,24) = 6 . gcd (3,4) = 6 . 1 = 6
+lcm(18,24) = 6 . lcm (3,4) = 6 . 12 = 72
+
+product of lcm . gcd = 432
+
+b. 35,42
+35 . 42 = 1470
+
+35 -> 5 . 7 = 5^1 . 7^1
+42 -> 6 . 7 = = 2 . 3 . 7 = 2^1 . 3^1 . 7^1
+
+gcd = 7^1 = 7
+lcm = 2^1 . 3^1 . 5^1 . 7^1 = 210
+
+lcm . gcd = 7 . 210 = 1470
+
+c. 66,84
+66 -> 3 . 3 . 11 = 3^2 . 11^1
+84 -> 2^2 . 3 . 7 = 2^2 . 3^1 . 7^1
+
