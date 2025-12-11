@@ -2283,5 +2283,129 @@ gcd
 since b conains no prime, the prime
 power of p of gcd(a,b) = p^0 = 1
 
+since common factor must divide both number and p does not divide b
+therefore p is not a prime factor of gcd(a,b)
 
-lcm
+
+case c: prime appears in a and b
+3.81
+how many terminal zeores does the integer equal to 80^16 . 75^8 have?
+
+hint: multiply an integer by 10 means you add 0 to the end of integer
+how do you get factors of 10
+hint: how might the prime factorization of tne number help you?
+
+answer:
+so we have
+80^16
+75^8
+
+find pfs of each base
+80 = 2 . 2 . 2 . 2 . 5 = 2^4 . 5
+75 = 5 . 5 . 3 = 3^1 . 5^2
+
+= (2^4 . 5)^16 . (3^1 . 5^2)^8
+= 2^64 . 5^16 . 3^8 . 5^16
+= 2^64 . 5^32 . 3^8
+= (2.5)^32 . 2^32 . 3^8
+= 10^32 . 2^32 . 3^8
+
+therefore it has 32 termninal zeroes
+
+3.82
+the number 64 is both perfect cube and perfect square
+since4^3 = 64 and 8^2 = 64
+
+what is the next larger number that is both a
+perfect cube and perfect square
+
+hint: all of the exponents in the PFs of a perfect square must be even
+what similar fact is true about exponents in the prime factorization of a perfect cube?
+
+64 -> 2 . 2 . 2 . 2 . 2 . 2 = 2^6
+square -> exponents in pfs must be even
+cube -> exponents must be divisible by 3
+
+so next perfect cube * square must be even and divisisble by 3
+2^6
+2^12 -> 4096
+
+3^6 = 729 therefore 729 is the answer
+
+
+3.83
+suppose that a and b are positive integers with a greater than b and
+with lcm[a,b] = 462 and gcd(a,b) = 33
+
+find largest prime factor of a that is not a prime factor of b
+
+hint: how do you usualy find lcm and gcd of two numbers?
+can you use that process to start from given values of lcm(a,b) and gcd(a,b) to learn about a and b?
+
+hint: what do the prime factorization of lcm(a,b) and gcd(a,b) tell you about the prime factoriztions of a and b?
+
+answer:
+we know that a > b
+lcm(a,b) = 462
+gcd(a,b) = 33
+their product is 462.33 = 15246 (not sure if this is relevant/important but lets see)
+
+we need to find the largest prime factor of a that is not a prime factor of b
+lets find the pfs of the gcd and lcms
+lcm -> 462 = 7 . 11 . 2 . 3 = 2^1 . 3^1 . 7^1 . 11^1
+gcd -> 3^1 . 11^1
+
+usually to find lcm you multiply prime factors with highest power
+and to find gcd only multiple common prime factors with lowest power
+
+which means a and b 
+2^1 . 3^1 . 7^1 . 11^1 -> appears in a or b
+3^1 . 11^1 -> appears both in a and b
+
+a = 33 . x
+b = 33 . y
+were missing a factor 2^1 and 7^1
+since a > b 
+
+a = 33 . 7 = 231 -> 3,7,11
+b = 33 . 2 = 66 -> 2,3,11
+
+therefore pf of a that is not pf of b = 7
+
+
+==============================
+
+the prime factors of  gcd(a,b) must be a subset of prime factors lcm(a,b)
+
+==============================
+
+3.84
+what is the smallest positive multiple of 45 that has only 0s and 1s as digits?
+
+hint: we don't know a dividibility rule for 45, but we do know divisibility rules for some of the divisors of 45
+
+answer:
+ok so we nee to find smallest positive multiple of 45
+that has only 1s and 0s as digits
+
+45 = 9 . 5 -> 3^3 . 5^1
+so we need to find a number such that satisfies both:
+divisibilty by 9 -> sum of digits must be divisible by 9
+divisibility by 5 -> last digit ends with either 0 or 5
+
+2 digit
+10, 01, -> too small
+
+3 digit
+110 -> not a multiple of 45
+
+...
+10 digit
+111111110 -> sum = 9, ends with 0
+is it the smallest?
+remove digit? cant remove since removing means subtracting the sum of digits further
+
+rearrange the 1s and 0s
+101111111 -> invalid, ends with 1
+
+so the answer is 111111110
