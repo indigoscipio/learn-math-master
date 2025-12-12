@@ -2492,3 +2492,25 @@ there are 31 perfect squares since 32^2 = 1024
 
 review problems
 3.47
+find the prime factorization of each of the flowing number
+a. 693 
+= 7 . 11 . 3 . 3 = 3^2 . 7^1 . 11^1
+
+b. 5423
+= 11 . 17 . 29
+
+c. 35100
+351 . 100
+= 13 . 3 . 3 . 3 . 5 . 5 . 2 . 2 
+= 2^2 . 3^3 . 5^2 . 13^1
+
+3.48
+what is the reminder then 99 . 237 is divised by 9?
+answer:
+= (9 . 11) . (3 . 79)
+= since it has 9 as a factor therefore the reminder is 0
+
+3.49
+what is the sum of two smallest multiples of 6
+that are greater than 103?
+answer:
