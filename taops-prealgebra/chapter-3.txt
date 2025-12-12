@@ -2409,3 +2409,86 @@ rearrange the 1s and 0s
 101111111 -> invalid, ends with 1
 
 so the answer is 111111110
+
+3.85
+what is the sum of digits of the number (10^22 + 8) / 9?
+
+hint: this problem involves dividing by 9
+what key insight did we kame in the text to help us learn how to test
+divisibility by 9?
+
+answer:
+10^22 + 8 -> the sum of digits = 1 + (21 zeroes) + 8 = 9
+10^22 + 8 is divisible by 9
+
+break into smaller parts
+10^1 + 8 / 9 = 18/9 = 2
+10^2 + 8 / 9 = 108/9 = 12 -> add 2-1 = 1 "ones" in front of the number
+10^3 + 8 / 9 = 1008/9 = 112 -> add 3-2 = 2 "ones" in front of the number
+
+it seems that for everytime we increase the exopnent, it adds n-1 "ones" to the front where n is the exponent
+so by the pattern
+10^22 + 8 = 21 "ones" followed by 2
+so sum of digits = 21 + 2 = 23
+
+3.86
+how many positive integers less than 1000 are divisible by 2 and 3 but not 5?
+hint: simplify the prbolem first. coun numberse less than 1000 that are divisble by 2 and 3
+hint: the count you did for the first hint included a lot of umltiples of 5. how many?
+
+answer:
+positive integers <100 divisible by both 2 and 3:
+gcd(2,3) = 6
+6,12,18,24,30,36,42,48,54,60,66,72,78,84,90,96 -> total = 16 numbers
+
+999 / 6 -> 166 with 3 reminder
+
+999 / 30 -> 33
+
+remove 166 - 33 = 133
+
+3.87
+the lockers in my school are numbered from 1 - 1000
+initially they are closed
+there are 1000 students in my shool
+1st student goes through and opens every lorcker
+2nd student goes through and open, if locker is closed she opens it, if locker is open she closes it
+3rd student does the same way every 3rd locker
+4th student does every 4th locker
+until all 1000 students have gone through the school
+
+after all students have finished how many lockers are open?
+
+hint: lets say that a student touches a locker if she either opens or closes the locker
+which student touch locker 6? which student touch locker 7? locker 8? locker 9?
+answer:
+
+1st student -> open every locker, so all 1000 lockers are open
+2nd student -> touches every even number -> so all even numbered locker is now closed
+so 2,4,8,...,1000 number locker is now closed. total locker open now = 1000/2 = 500
+3rd student -> touches locker that is multiple of 3.
+since we know from 2nd student that even numbered lockers are closed, we need to find the intersection
+3,6,9,12,...
+4th student -> touches locker multiple of 4
+
+
+lets try another approach
+if a locker is touched odd times, it ends up open
+closed -> open -> closed -> open
+if a locker touched even times, it ends up closed
+closed -> open -> closed -> open -> closed
+
+which student touch locker 12?
+divisors of 12 = 1,2,3,4,6,12 = 6 students -> final door state = closed since its even 
+
+find number with odd number of divisors
+locker 4 -> 1,2,4 -> open
+locker 9 -> 1,3,9 -> open
+locker 16 -> 1,2,4,8,16 -> open
+
+how many perfect squares between 1 and 1000
+there are 31 perfect squares since 32^2 = 1024
+
+
+review problems
+3.47
