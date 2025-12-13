@@ -2586,3 +2586,69 @@ the 3 is next to the 7 but not to the 5
 the four digit number is divisible by 5
 what is amanda's four digit number?
 
+answer:
+the 7 is next to the 1 but not to the 5
+71
+
+the 3 is next to the 7 but not to the 5
+371
+
+the four digit number is divisible by 5
+we need to figure out if 5 is in the first or last digit
+since we know the four digit number is divisible by 5
+then the last digit must be divisilbe by 5
+
+so 1375 is
+
+3.55
+a. lcm 26, 65
+26 = 2 . 13
+65 = 5 . 13
+
+lcm = 2 . 5 .13 = 130
+
+b. lcm 96 72
+24 . lcm 4 3
+24 .  12 = 288
+
+c. lcm 16 21 28
+16 = 2^4
+21 = 3 . 7
+28 = 4 . 7 = 2^2 . 7^1
+2^4 . 3 . 7 = 336
+
+d. lcm 45 60 75
+15 . lcm 3 4 5
+15 . 60 = 900
+
+3.56
+compute each of the following:
+gcd 45 75
+15 gcd 3 5
+15
+
+b. gcd 114 405
+144 -> 2^2 . 3 . 2^2 . 3 = 2^4 . 3^2
+405 -> 5^1 . 3^4
+3^2 = 9
+
+c. gcd 238 374
+17 . gcd 14 22
+14 - 2 . 7
+22 - 2 . 11
+17 . 2 = 34
+
+d. gcd 970 485 1330
+5
+
+3.57
+if hte 4 digit number 72d2 is diviisble by 6
+then what is the largest possible value of the digit d
+
+must be even and sum of digit divisible by 3
+n = 7+2+d+2 = 11 + d
+largest 2 digit divisilbe by 3 = 18
+d = 7
+7272
+
+3.58
