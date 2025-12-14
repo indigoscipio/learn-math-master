@@ -2652,3 +2652,64 @@ d = 7
 7272
 
 3.58
+which of the following numbers is not dividible by 8
+8024
+168640
+8648034
+720032
+64856
+
+answer:
+divisible by 8 means last 3 digit is divisible by 8
+8024 -> 24 / 8 -> divisible by 8
+640 -> divisibleb y 8
+034 -> not divisible by 8
+032 -> divisible by 8
+856 -> divisible by 8
+
+3.59
+what is the units digit of the product of any six consecutive
+positive integer?
+
+product of six consecutive positive integer =
+1.2.3.4.5.6 = 720 -> units digit = 0
+2.3.4.5.6.7 -> units digit = 0
+
+2 case:
+start at 1 -> 1,2,3,4,5,6 , factor of 5 is there
+start at 6 -> 6,7,8,9,10,11 -> 10 = factor of 5
+
+the units digit is zero 
+
+3.60
+what is the smallest prime factor of 11^7 + 7^5
+
+check parity
+odd + odd = even
+2
+
+3.61 if 12 is a factor of n
+what other positive numbers must be factors of n
+answer: 
+the factors of n are also the factors of 12
+so 1,2,3,4,6,12
+
+3.62
+what is the greatest odd factor of 12,024
+answer:
+12024 = 2 . 6012 = 2 . 2 . 3006 = 2 . 2 . 2 . 1503
+= 2 . 2 . 2 . 3 . 3 . 167
+
+= 167 . 3 . 3
+= 1503
+
+3.63
+how many positive integers less than 20 have exactly two
+positive divisors?
+answer:
+only two positive divisors mean a prime number, so
+number one and the number itself
+prime n < 20 are
+2,3,5,7,11,13,17,19
+
+so total = 8 numbers
