@@ -2713,3 +2713,30 @@ prime n < 20 are
 2,3,5,7,11,13,17,19
 
 so total = 8 numbers
+
+3.64
+if x,y,z are integers such that 2^x . 3^y . 7^z = 392
+
+then what is xyz?
+answer:
+just find pfs of 392 and compare
+
+392 -> 7 . 7 . 2 . 2 . 2
+since 392 does not have a factor of 3
+we can conclude x = 3, y = 0, and z = 2
+and their product is 0
+
+3.65
+the number 206496 is dviisble by each of 2,3,6,8
+what is the lext larger integer that is divisible by 2,3,6,8
+
+answer:
+find the lcm of 2,3,6,8
+2 -> 2^1
+3 -> 3^1
+6 -> 2^1 . 3^1
+8 -> 2^3
+
+= 2^3 . 3^1 = 8.3 = 24
+next larger integer is 
+206496 + 24
