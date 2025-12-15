@@ -2815,3 +2815,17 @@ we need to find lcm(6,8)
 lcm(6,8) = 2 . lcm (3,4) = 2 . 12 = 24
 
 so the common numbers = 24,48,72
+since the intial number starts with 1 we need to shift those lcms
+25,49,73
+but since 1 is common so 1+25+49 = 75
+
+3.71
+let a and b be positive integers such that a is the divisor of b
+
+a. what is the gcd of a and b?
+gcd (5,10) = 5 . gcd 1,2 
+since a is a factor of b, the gcd of a and b is a
+
+b. what is the least common multiple of a and b?
+lcm (5,10) = 5 . lcm 1,2 = 5 . 2 = 10
+since a is a factor of b, the lcm of a and b is b
