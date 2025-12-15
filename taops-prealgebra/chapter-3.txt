@@ -2737,6 +2737,81 @@ find the lcm of 2,3,6,8
 6 -> 2^1 . 3^1
 8 -> 2^3
 
-= 2^3 . 3^1 = 8.3 = 24
+= 2^3 . 3^1 = 8.3 = 2 
 next larger integer is 
-206496 + 24
+206496 + 24 = 206520
+
+3.66
+positive integer is 3 more than a mltple of 4
+and 4 more than a multile of 5
+what is the least integer it could be ?
+answer:
+
+we can express n as positive intger as 
+n = 3 + 4k (multiple of 4)
+and 
+n = 4 + 5m (multiple of 5)
+
+1
+4k + 3 = 4 + 3 = 7 
+5m + 4 = 5 + 4 = 9
+
+4 x 4 + 3 = 19
+5 . 3 + 4 = 19
+
+next smallest = 19
+
+3.67
+a light flasehes every 1 minute 15 seconds`
+another light flashes every 1 minute 40 seconds
+
+suppose they flash together at a certain time
+what is the shortest amount otime that will elapse before both lights flash
+again together
+
+answer: find the lcm
+1m15s -> 60+15 = 75 seconds
+1m40s -> 60+40 = 100 seconds
+
+lcm(75,100) = 25 . lcm (3,4) = 25 . 12 = 300 seconds
+
+convert back to minutes -> 300 / 60 = 5 minutes
+
+3.68
+what is the difference betweenthe greatest positive factor of 121
+and the least positive factoor of 6
+
+greatest positive of 121 -> find all divisors of 121 and find the greatest number, which is the number 121 itself
+least positive factor of 6
+find all divisors of 6 then find its smalest
+6 = 1,2,3,6 -> the smallest if 1
+
+the difference is n - 1 where n is the number itself
+121-1 = 120
+
+3.69
+the number 6545 can be written as the product of a pair of positive two digit integers
+what are these two integers?
+
+answer:
+pf  of 6545
+= 5 . 11 . 17 . 7
+= (11 . 7) (5 . 17)
+= 77 . 85
+
+3.70
+in the sequences 1,7,13,19 .. each number is 6 more than the number before it
+in the sequence 1,9,17,25, .. each number is 8 more than the numbers before it
+
+the 2 seqences have infinitely many numbersi n common
+find the sum of the first three common numbers
+
+answer:
+so basically in the 1st sequence the increment is that of  multiple of 6
+and 2nd one multiple of 8
+with initial number starting from 1
+we need to find lcm(6,8)
+
+lcm(6,8) = 2 . lcm (3,4) = 2 . 12 = 24
+
+so the common numbers = 24,48,72
