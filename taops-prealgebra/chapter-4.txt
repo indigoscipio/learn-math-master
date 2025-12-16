@@ -1,0 +1,124 @@
+
+why do we need fractions at all?
+when we cant fully divide a number / when division doesnt resutl in whole number
+
+if a is a number and b is a nonzero number
+the fraction a/b equals to a : b
+
+reciprocal vs fraction
+reciprocal (multiplicative inverse) = flip number upside odwn
+fraction = number that reprsent something
+
+
+problem 4.1
+simplify thefollowing fractions
+a. 0/7 = 0
+b. 5/5 = 1
+c. 2/1 = 2
+d. 12/6 = 2
+e. -12/3 = -4
+f. 22+13/-4-3 = 35/-7=-5
+
+problem 4.2
+for what values of n between 1 and 40 is n/7 an integer?
+answer:
+im not sure, lets check with examples
+n = 1 -> 1/7 -> around 0.1
+n = 2 -> 2/7
+n = 40 -> 40/7 = around 5.7
+
+: 7, 14, 21, 28, and 35.
+
+4.3
+a: 1 4/5 (9/5)
+b: 1/5
+c: -3/5
+d: -1 2/5 (-7/5)
+
+4.4
+b. between what consecutive integers is 43/5
+we know 8*5 = 40
+so lowest is 8 and next is 9
+
+4.5
+b = 4/8
+c = 15/7
+a = -4/7
+d = 21/7
+
+4.7
+find two fractions equal to 2/3
+answer:
+4/6
+6/9
+
+4.1.1
+find the value of each following:
+a. -6/6 -> -1
+b. 18/3 -> 6
+c. 1
+d. 0
+
+4.1.2
+compute 16+6/4-2
+22/2 = 11
+
+4.1.3
+11
+
+4.1.4
+6
+
+4.1.5
+x = -12
+y = 4
+
+-12.4 - (-12)/4
+= -48 - (-3)
+= -48 + 3
+= -45
+
+4.1.6
+a = 7/6
+b = -8/4
+c = -1/3
+d = 11/6
+
+4.1.7
+6/10, 9/15, 12/20
+
+4.1.8
+for how many posiitve integer values of n is the expr
+36 / n+1 an integer?
+
+hint: if a / b is an integer then how are a and b related?
+
+answer:
+a must be the multiple of b for a/b to be an integer
+eg 2/2, 4/2, etc
+
+
+find positive factors of 36
+1,2,3,4,6,9,12,18,36
+subtract 1
+0,1,2,3,5,8,11,17,35
+remove nonzero -> total = 8
+
+===============
+
+division of a fraction
+a / b = a . 1/b
+reciprocal ofa produc
+1/ab = 1/a . 1/b
+
+4.8
+what is 2 . 1/3
+answer: 2/3
+
+4.9
+in this problem, we compute 3.4/5
+a. use the definition of division to write 4/5 as the product of an integer
+and the reciprocal of integer
+
+b. use the appropriate propertyies of multiplication and your result from part a to compute
+3 . 4/5 (by compute we mean find a number that equals 3 . 4/5)
