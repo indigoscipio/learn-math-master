@@ -119,6 +119,28 @@ answer: 2/3
 in this problem, we compute 3.4/5
 a. use the definition of division to write 4/5 as the product of an integer
 and the reciprocal of integer
+answer: by the definition of division,
+a / b = 1 . a/b
+so 3 . 4/5 = 3 . 4 . 1/5
+= 12 . 1/5
+= 12/5
 
 b. use the appropriate propertyies of multiplication and your result from part a to compute
 3 . 4/5 (by compute we mean find a number that equals 3 . 4/5)
+
+3 . 4/5
+= 3 . 4 . 1/5
+= 12/5
+
+4.10
+in this problem, we compute 66666 * 7/6
+a. explain why 66666 * 7/6 = 66666/6 . 7 
+answer: by the definition of division of fraction,
+= 66666 * 7 * 1/6
+= 66666 * 1/6 * 7 by associative property
+= 66666 / 6 * 7
+
+b. compute 66666 . 7/6
+= 11111 * 7 = 77777
+
+4.11
