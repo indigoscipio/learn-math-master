@@ -327,4 +327,73 @@ what is 2/7 : 9/5
 4.20
 what is 14/3 : -2/9
 = 14/3 * -9/2
-= 
+= - 126 / 6
+= -21
+
+4.21
+32 is 2/5 of what number?
+
+answer:
+80
+
+
+4.22
+each panel of fencing material is 20/3 ft long
+
+how many panel do i need to bild 60footfence?
+
+60 : 20/3 = 60 * 3/20 = 3*3 = 9
+
+
+
+==============================
+
+if a and b are nonzero
+the reciprocal of a/b is b/a
+
+in other words, 1/a/b = b/a
+by the definition of reciprocal a/b * b/a = 1
+1/a/b = 1 * b/a = b/a
+
+
+if b c d are nonzero then
+a/b / c/d = a/b * d/c = ad/bc
+
+4.3.1
+evaluate each of the following
+a. 3/5 : 2
+= 3/5 * 1/2
+= 3/10
+
+b. 7 : 7/8
+= 7 * 8/7
+= 8
+
+c. 14/3 : 5/4
+= 14/3 * 4/5
+=56 / 15
+
+d. (-5/6) / (-12/7)
+= -5/6 * -7/12
+= 35/72
+
+
+4.3.2
+what is the quotient when 3/7 is divided by 7/3
+3/7 : 7/3
+= 3/7 * 3/7
+= 9/49
+
+4.3.3
+if x = 3/4 what is the value of 36/x
+answer:
+36 : 3/4
+36 * 4/3 = 12*4 = 48
+
+a. 40 is 2/3 of what number?
+40 = 2/3 . x
+40 * 3/2 = x
+20*3 = x
+x = 60
+
+b. 9/5 is 2/3 of what number?
