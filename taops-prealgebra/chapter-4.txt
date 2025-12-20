@@ -557,4 +557,129 @@ f. (2/9)^2 : (5/3)^4
 = 2^2 / 5^4 = 4
 
 4.4.2
-a. 3^ raised to what power equal
+a. 3/4  raised to what power equal 27/64
+answer: 3
+
+b. 3/4 raised to what power equals 16/9
+answer:
+(3/2^2)^? = 16/9
+(3/2^2)^? = 2^4/3^2
+negative/inverse
+(2^2/3)^-? = 2^4/3^2
+= -2
+
+4.4.3
+compute (2/1641)^4 / (3/1641)^4
+= (2/1641)^4 * (1641/3)^4
+= (2*1641 / 1641/3)^4
+= (2/3)^4
+= 16/81
+
+4.4.4
+compute (5/3)^4 (5/3)^3 / (5/3)^5
+= (5/3)^4+3-5= (5/3)^2 = 25/9
+
+4.4.5
+(7/4)^3 (4/7)^5 (7/4)^3
+= (7/4)^3+3 . (7/4)^-5
+= (7/4)^6-5 = 7/4
+
+4.4.6
+suppose a and b are nonzero and n is a positive integer
+
+in the text we showed that (a/b)^n = b^n / a^n.
+explain why 
+
+(a/b)^-n = (a^-n) / b^-n
+by showing that a^-n / b^-n also equals b^n / a^n
+
+answer:
+
+a^-n / b^-n
+numerator
+a^-n = 1/a^n
+
+denominator
+b^-n = 1/b^n
+
+combine
+1/a^n : 1/b^n
+= 1/a^n * b^n / 1
+= 1/a^n * b^n
+= b^n / a^n
+
+=========================
+
+a fraction is in its simplest form if
+the numerator and denominator have no positive common divisor other than 1
+
+4.27
+write 12/30 in simplest form
+= 2/5
+
+4.28
+one of the properties of division we learned in 1.7 was the
+"cancel common factor" property
+if b and c are not zero then
+(ac) : (bc) = a : b
+(3.5) / (3 . 6) = 5/6
+
+use faction multiplicaton to explain why the cancel common factor property works
+answer:
+
+(ac) : (bc) = a : b
+by definiton of division by fraction,
+= ac * 1/bc
+= ac/bc = a/b * c/c = a/b * 1 = a/b
+
+4.29
+write 225/540 in simplest form
+= 45 / 108 = 15 / 36 = 5 / 12
+
+4.30
+compute each of the following in simplest form
+a. 6/8 * 12/8
+b. (-24/32) * (-36/45)
+c. (-40/27) * 21/160
+a. 34/33 : 51/44
+
+answer:
+a. 3/4 * 3/2 = 9/8
+b. -3/4 * - 4/5
+= 12/20
+c. -40/27 . 21/160
+= -1/9 * 7/40
+= -7/36
+
+4.31
+what fraction of 96 is 64?
+answer as a fraction is simplest form
+answer:
+64/96 = 8/12 = 4/6 = 2/3
+
+4.32
+simplify 2.5^2 / 3 . 5^3
+= 50 / 375 = 10 / 75 = 2 / 15
+
+b. simplify 2.7^2 / 3 .7^3
+= 98 / 1029
+
+c. suppose x is nonzero simplify
+2x^2 / 3x^3
+= 2 / 3x
+
+4.33
+if c and d are non zero simplify
+40c^3d^2 / 16c^5d
+
+= 40d / 16c^2 = 10d / 4c^2 = 5d / 2c^2
+
+4.5.1
+simplify each of the following:
+a. 36/27
+= 12 / 9 = 4/3
+
+b. 256/304
+= 128/152 = 64/76 = 32/38 = 16/19 = 
+
+c. 4
