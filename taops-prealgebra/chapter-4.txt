@@ -463,3 +463,98 @@ I have a scoop that holds 2/3 cup ot flour
 if my recipe calls for 6 cups of flour how many scoops do i need
 
 answer:
+simplify
+i have scoop that hosds 1 cup of flour -> recipe calls for 6 -> how many scoop?
+6 : 1 = 6 scoops
+
+so its 6 : 2/3 = 6 * 3/2 = 18/2 = 9 scoopos
+
+====================
+
+4.4 raising fractions to power
+
+problem 4.23
+a. compute (2/5)^3
+answer: 2^3 / 5^3 = 8/125
+
+b. let b be nonzero and n b epositive integer
+explain why (a/b)^n = a^n / b^n
+answer: because by definition of exponent
+its repeated multiplicatin n times so we need to multiply
+(1/2)^3 = (1/2)(1/2)(1/2) = 1*1*1/2*2*2 = 1^3 / 2^3 = 1/8
+
+4.24
+a. evaluate (5/7)^-1
+answer: 
+
+
+b. evaluate (4/3)^-3
+answer: 
+1 / (4/3)^3 = 1/64/27 = 27/64
+
+or alternatively
+(3/4)^3 = 27/64
+
+4.25
+suppose a and b are nonzero and n is a positive intger
+explain why
+(a/b)^-n = b^n / a^n
+
+answer:
+by the definition of negative exponent
+(a/b)^-n
+= (b/a)^n - apply exponenent both to num and denom
+= b^n / a^n
+
+or alternatively
+= 1/(a/b)^n
+= 1 * (b/a)^n
+= (b/a)^n - apply eponent to num and denom
+= b^n / a^n
+
+4.26
+compute
+(21/31)^5 (31/21)^3 : (21/31)^2
+= (21/31)^5-2 (31/21)^3
+= (21/31)^3 (31/21)^3
+= (21*31 / 31/21)^3
+= 1
+
+
+alternatively
+
+(21/31)5-2-3
+
+====================
+
+(a/b)^n = a^n / b^n
+(a:b)^n = a^n : b^n
+
+a^-n = (a^-1)n
+
+(a/b)^-n = (b/a)^n
+
+Exercises
+4.4.1
+compute each ofthe following
+a. (3/5)^2
+= 9/25
+
+b. 1
+
+c. 9/4^2 = 81/16
+
+d. (-3/2)^5
+since exponent is odd result is negative
+= - (3^5/2^5) = -243/32
+
+e. 1 / (1/5)^3
+= 1 * (5/1)^3
+= 125
+
+f. (2/9)^2 : (5/3)^4
+= (2/9)^2 * (3/5)^4
+= 2^2 / 5^4 = 4
+
+4.4.2
+a. 3^ raised to what power equal
