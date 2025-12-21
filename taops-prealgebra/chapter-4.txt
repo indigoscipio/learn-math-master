@@ -769,4 +769,37 @@ which is greater 2/7 or 2/5?
 since the numerator is already the same 2/5 is greater
 
 4.38
-which is greater -17/14
+which is greater -17/14 or -41/35
+answer:
+
+-595 vs -576 so -41/35 is greater
+
+
+4.39
+which is greater 541/539 or 399/401
+answer: 541/539 has the numerator greater than denumerator its greater than 1
+
+
+4.6.1
+in each of the following pairs of numbers hwich number is the smaller
+
+a. 3/2, 7/5
+answer: 
+15/10 vs 14/10 so 3/2 is greater
+
+b. 1/2 vs -3/4
+= 2/4 vs -3/4
+so -3/4 is smaller 
+
+c. -3/5 is smaller
+
+4.6.2
+for each of the following lists of numbers arrange the numbers in decreasing order
+largest to smallest
+
+a. 1/2, 3/4, 5/12
+= 6/12 vs 9/12 vs 5/ 12
+so 9/12, 6/12, 5/12 -> 3/4, 1/2, 5/12
+
+b. 3/4, 2/3, 5/8
+= 
