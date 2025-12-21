@@ -682,4 +682,91 @@ a. 36/27
 b. 256/304
 = 128/152 = 64/76 = 32/38 = 16/19 = 
 
-c. 4
+c. 4800 / 12000
+= 48 / 120 = 4/10 = 2/5
+
+d. 1260/1008 = 630 / 504 = 315 / 252 = 105/84 = 35 / 28 = 5 / 4
+
+4.5.2
+compute each of the folowing. express your answer in simplest form
+a. 24/80 * 28 / 49
+= 3 / 10 * 4 / 7 = 3 * 4 / 10 * 7 = 3 * 2 / 5 * 7 = 6 / 35 
+
+b. 88/34 : 44/51
+= 44/17 : 44/51
+= 44/17 * 51/44
+= 44*51 / 17*44
+= 51/17 = 3 
+
+c. (-84/125) * 100/63
+= -12/5 * 4/9
+= - 12*4 / 5*9
+= -48 / 45
+= - 16/15
+
+d. 400/39 : 1300/9
+= 400/39 * 9/1300
+= 4/13 * 3/13
+= 12/169
+
+
+4.5.3
+simplify the following fractions assuming that a,b,m,p are nonzero
+
+a. 4a^3b/2ab
+= 4a^2/2 = 2a^2
+
+b. 8m^7p^12/12m^5p^15
+= 2m^2/3p^3
+
+4.5.4
+express the product 3/4 . 4/5 . 5/6 . 6/7 . 7/8 . 8/9 . 9/10
+= 3/12 = 1/4
+
+42x^3y^6 / 35x^2y^6
+when x = 5/4 and y = 2012/2013
+
+answer: simplify
+6x/5
+plug in
+6/5 * x
+= 6/5 * 5/4
+= 6/4 = 3/2
+
+==================
+
+
+4.6
+Comparing fracino
+
+4.34
+which is greater 3/5 or 4/5
+answer: 4/5 since the numerator is greater and denumerator is the same
+
+in this problem, we determine which is greater,
+3/5 or 7/10
+a. what fraction with denominator 10 is equal to 3/5?
+b. which is greater, 3/5 or 7/10?
+
+answer:
+a. 6/10 = 3/5
+b. since we know 3/5 = 6/10 we can compare
+which is greater 6/10 vs 7/10?
+7/10 is greater.
+
+or using cross multiplication
+30 * 35
+
+4.36
+a. which is greater 5/7 or 8/11
+answer: 55 * 56 so 56 is greater so 8/11
+
+b. which is greater 5/6 or 7/9
+answer: 45 vs 42 so 5/6 is greater
+
+4.37
+which is greater 2/7 or 2/5?
+since the numerator is already the same 2/5 is greater
+
+4.38
+which is greater -17/14
