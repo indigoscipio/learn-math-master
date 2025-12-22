@@ -811,4 +811,88 @@ lcm(4,3,8)
 18/24, 16/24, 15/24
 3/4, 2/3 ,5/8
 
+c.-5/4, -3, 5/2, -13/3
+= -5/4, -3/3, 5/2, -13/3
+
+= lcm(4,3,2) 
+2^2 . 3^1 = 12
+= -15/12, -12/12, 30/12, -52/12
+largest to smallest is
+= 30/12, -15/12, -12/12 ,-52/12
+=5/2, -5/4, -3, -13/3
+
+4.6.3
+which of these numbers is less than its reciprocal
+-2, -1, 0, 1, 2
+
+-2 -> -1/2 = -2 is less than reciprocal
+-1 -> -1/1 = -1, the same/equal
+0 -> 1/0 = 0 = undefined since divided by 0
+1 -> 1/1 -> the same
+2 -> 1/2 -> 2 is greater than its reciprocal
+
+therefore th answer is -2
+
+4.6.4
+which number is greater
+3/2011 or 3/2012
+
+answer: 3/2011 since it has lower lower denominatur
+
+4.6.5
+which number is greater, 19/30 or 22/35
+answer:
+= 665 vs 660 so 19/30 is greater
+
+alternative, use lcm
+(lcm (30,35))
+
+
+4.6.6
+which number is greater, 506/101 or 509/102
+since 101 fits 5 time with some fraction so its greater than 5
+vs 509/102 is less than 5 since 102 . 5 = 510
+
+so 506/101 is greater
+
+==================
+
+4.7
+dadding and subtracting fractions
+
+distrubition over division
+(a + b) : c
+(a - b) : c
+
+the same apply
+a + b / c = a/c + b/c
+a - b / c = a/c - b/c
+
+problem 4.4.0
+evaluate each of the folowing in simplest form
+a. 3/7 + 2/7
+= 5/7
+
+b. 7/10  + 9/10 = 16/10 = 8/5
+
+4.41
+evaluate each in simplest form
+a. 17/18 - 5/18 
+=12/18=2/3
+
+b. -29/24 + 23/24 
+= -6/24 = -1/4
+
+4.42 evaluate each in simpest form
+a. 1/3+2/9
+= 3/9 + 2/9 = 5/9
+
+b. 1/2-3/8
+= 4/8 - 3/8 = 1/8
+
+4.3
+evaluate each of the following in simplest form
+a. 1/3 + 1/4
+b. 15/24 - 900/1400
 c. 
+
