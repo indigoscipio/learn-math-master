@@ -937,3 +937,189 @@ so he has 7/15 worth of 735 -> 7/15 = 735
 
 4.46
 what is the integer cloest to 87/88 + 24/23
+answer: 2
+
+
+======
+integer as a fraction with 1 in the denumerator
+
+=====
+
+4.7.1
+compute each of the following
+a. 2/3 + 3/4
+= 8+9/12 = 17/12
+
+b. 9/8 - 11/12
+= 27-22/24=5/24
+
+c. 31/27 + 5/6 - 8/9
+lcm 27 6 9
+= 3^3 . 2 = 54
+
+62 +45 - 48 /54
+= 59/54
+
+d. 2^-1 + 3^-1
+= 1/2 + 1/3
+= 3+2/6 = 5/6
+
+e. 
+3/2 + 5/3
+= 9+10/6
+= 19/6 - 7/6
+= 12/6 = 2
+
+f. 8 / 2 - 2/3
+denominator
+2 - 2/3
+= 6-2/3 = 4/3
+8 * 3/4
+= 2*3 = 6
+
+g. 3/4 + 6 - 7/2
+= 3/4 + 24/4 - 14/4
+= 13/4
+
+h. 2/3 + 5/6 / 3/4 - 1/2
+= 4+5/6 / 3-2/4
+= 9/6 / 1/4
+= 3/2 / 1/4
+= 3/2 * 4
+= 3 * 2 = 6
+
+4.7.2
+what is the reciprocal of 1/2 + 1/5?
+answer: 
+= 5+2/10 = 7/10
+
+so its reciprocal is 10/7
+
+4.7.3
+how much greater is 2003/25 + 25 than 2003+25 / 25
+answer:
+we know 2000/25 = 80
+
+2003/25 + 25
+so this is close to ~80 + 25 = ~105
+
+2003+25 / 25 = 2028 / 25
+this one is close to approximately 81
+
+so the difference is approximately 105-81 = 24
+or you dont need to calculate 2000/25 just see the difference in fractions
+
+4.7.4
+a. 1/2 + 1/6 = 3+1/6 = 4/6 = 2/3
+
+b. 1/2 + 1/6 + 1/12 = 6+2+1/12 = 9/12 = 3/4
+
+c. 3/4 + 1/20
+= 15+1/20 = 16/20 = 8/10 = 4/5
+
+d. 4/5 + 1/30
+= 25/30 = 5/6
+
+do you notice the pattern a-d? will it continue? if so why?
+
+4.7.5
+express 2/3 . 4/5 + 2/3 . 11/10 in simplest form
+
+= 8/15 + 22/30
+= 16+22/30 = 38/30 = 19/15
+
+
+4.7.6
+what is the sum of reciprocals of the positive divisors of 12
+express you answer as fraction ins implest form
+
+positive divisors of 12 -> 1,2,3,4,6,12
+= 1 + 1/2 + 1/3 + 1/4 + 1/6 + 1/12
+
+= 12+6+4+3+2+1/12
+= 28/12
+= 7/3
+
+notice tha answer sum of divisors of 12 divided by 12. is tha a coincidence?
+no because 12 is the lcm of divisors of 12
+
+4.7.7
+a. what number must e add to 3/10 to get 7/15
+
+answer:
+3/10 + n = 7/15
+n = 7/15 - 3/10
+n = 14-9/30
+n = 5/30
+n = 1/6
+
+verify
+3/10 + 1/6
+= 18+10/60
+= 28/60
+= 14/30 = 7/15
+
+b. what number must we subtract 5/9 from to get 1/6
+what number must we subtract 3 from to get 1
+
+n - 3 = 1
+n = 4
+
+answer:
+n - 5/9  = 1/6
+n = 1/6 + 5/9
+n = 3+10/18
+n = 13/18
+
+c. what number must we subtract from 5/6 to get 1/10
+what number must we subtract from 3 to get 2
+3 - n = 2
+n = 1
+
+5/6 - n = 1/10
+n = 5/6 - 1/10
+n = 50-6/60
+n = 44/60 = 11/15
+
+4.7.8
+at clover view junior high one half of the students go home on the school bs
+one fourth go home by automobile
+one tenth go home on bicycle
+what fractino of the students walk home
+
+= 1 - 1/2 - 1/4 - 1/10
+lcm 2,4,10 = 2^2 . 5 = 20
+20-10-5-2/20
+= 3/20
+
+4.7.9
+consider the sum 1/4 + 1/4
+
+we have 1/4 + 1/4 = 2/4 = 1/2
+notice the sum written in simplest form has smaller denominator than either of the
+two fractions originally added
+
+find two fractions in simplest form with different denominators such that
+the sum of fractions, when written in simplest form has a smaller denominator than either
+of the original fractions
+
+answer
+1/6 + 2/6 = 3/6 = 1/2
+
+=====================
+
+
+Mixed numbers
+4.47
+convert 4 2/5 to fraction
+= 22/5
+
+4.48
+a. convert 7/2 to mixed number
+b. convert 137/12 to mixed number
+
+answer:
+a. 3 1/2
+b. 11 5/12
+
+4.49
