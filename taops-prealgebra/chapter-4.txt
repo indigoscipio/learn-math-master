@@ -1313,3 +1313,89 @@ for a = 1 1/3
 7(4/3)^2 - 11 . 4/3 + 3) (3 (4/3) - 4)
 1st part
 7 (16/9) - 44/3 + 3
+= 79/9 - 44/3 + 3
+= 79-132/9 + 27/9
+= -26/9
+
+
+3 (4/3) - 4
+= 12/3 - 4
+= 12-12/3
+= 0
+
+= 0
+
+4.8.4
+peggy weighted 136 3/4 lbs before basketball season
+and 131 7/8 lbs after the season
+how many pounds did she lose during the season
+
+answer:
+136 3/4 - 131 7/8
+= 136 - 131 + (3/4 - 7/8)
+= 5 + (6-7/8)
+= 5 -1/8
+= 4 + (8/8 - 1/8)
+= 4 7/8
+
+4.8.5
+i have 2 recipes for cake
+the first recpe calls for 2 1/2 cups of flour
+2nd calls for 3 1/3 cups of flour
+
+how much flour do i need ot make three of each cake
+
+answer:
+= 3 . 2 1/2 + 3 . 3 1/3
+= 3 . (2 1/2 + 3 1/3)
+= 3 . (2+3 + 1/2+1/3)
+= 3 . (5 + 5/6)
+= 3 . 35/6
+= 35/2
+= 17 1/2
+
+4.8.6
+out of each hour of tv programming 6 1/2 minutes are allocated to commercials
+what fraction of each hour is dedicated to tv programs
+
+answer:
+each hour 1 minute is allocated -> 1 / 60
+each hour 6 1/2 minute is allocated -> 6 1/2 / 60
+
+= 13/2 : 60
+= 13/2 * 1/60
+= 13/120
+
+= 120/120 - 13/120
+= 107/120
+
+=========================
+
+Summary
+
+a/b . c/d = ac/bd
+a/b : c/d = a/b . d/c = ad/bc
+
+challenge problems
+
+4.80
+solve each problems without writing anythign
+a. which is greater 23/44 or 33/64
+hint: are there any simple fractions nearby?
+denum -> half of 44 is 22, so > 1/2
+half of 64 is 32 -> > 1/2
+
+1/44 vs 1/64
+1/44
+
+b. which is greater 52/53 vs 97/98
+answer:
+both has 1 difference in numerator
+1/53 vs 1/98
+1/98 is a smaler piece
+therefore 97/98 is larger since it has smaller missing piece
+
+evaluate in simplest form
+
+(6/5)^3 (25/36)^4 / (5/6)^4
+=
