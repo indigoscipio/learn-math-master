@@ -1729,3 +1729,99 @@ then 99 : 101/102 is greater than 99
 what is the product 3/2 * 4 /3 * 5/4 * ... * 2012/2011
 answer:
 2012/2=1006
+
+4.63
+1
+
+4.64
+kory pays 1/3 of his income in tax
+then he spends 4/5 of what repains after tax
+and pleaces the rest into a savings account
+what fraction of his income does he put in his savings account
+
+answer:
+so tax -> 1/3
+4/5 -> spends
+1/5 -> savings
+total income after tax = 2/3
+1/5 . 2/3 = 2/15
+
+4.65
+
+xy / 7x + 3y
+
+x = 3/7
+y = 4/3
+
+3/7 . 4/3 = 4/7
+7 (3/7) + 3(4/3)
+3 + 4 = 7
+
+4/7 / 7 = 4/7 * 1/7 = 4/49 = 
+
+4.66
+a. 
+24
+28
+-26
+23
+
+-26 23 24 28
+3 4 1 2
+
+b.
+44
+77
+28
+3 1 2
+
+4.67
+725/60 * 6/25
+= 29 / 10 = 2.9
+closest is 3 
+
+4.68
+1
+2
+3 up to 10
+2 . 1/2 + 3 . 2/3 + 4 . 3/4
+= 1 + 2 + 3 ... + 9
+= 1+2+3+...+9
+
+
+4.69
+sam purchased 3 1/4 lbs of cheese
+he used 1/2 of the purchased cheese for a caserole
+and 1/4  pound for sandwiches
+express as a mixed number the pounds of cheese he has left
+
+answer:
+initial cheese = 3 1/4
+13/4 * 1/2 + 1/4
+3/4 - cheese that he used
+1/4 - cheese he did not use
+26-15/8 = 11/8
+
+4.70
+list every fraction that satisfies all four of the following conditions
+
+i. fractio is in simplest form
+ii. fraction is greter than 1/6
+iii. reciprocal of fraction is an integer
+iv. numerator of the fraction is positive
+
+answer:
+
+1/1
+1/2 - simple, greater than 1/6, integer, positivie
+1/3 - simple, greater than 1/6, integer, positivie
+1/4 - simple, greater than 1/6, integer, positivie
+1/5 - simple, greater than 1/6, integer, positivie
+
+
+4.71
+15 - 9
+= 6
+
+4.72
+3/2 . -3/11 . 
