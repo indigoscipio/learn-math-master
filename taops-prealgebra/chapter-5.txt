@@ -1,0 +1,65 @@
+Expression
+
+terms: product of number and var raised to some power
+coeff: power of the variable
+constant: just he unmber itself
+
+=====================
+
+problem 5.1
+a. are -x + 6 and 6-x equivalent?
+b. are t+1 and t-1 equivalent?
+c. are 12x/4 and 3x equivalent?
+d. are r^2/r and r equivalent?
+
+answer:
+a. let x = 1
+-x + 6 -> 1 + 6 = 7 
+6-x -> 6+1 = 7
+yes they are equivalent
+6 -x can also be written as 6 + (-x) = -x + 6 by commutative
+
+b. let t = 1
+t + 1 = 2
+t - 1 = 0
+no they are not equivalent
+
+c. 12x/4 -> can be simplified to 3x
+3x -> already simple
+therefore they are equal
+
+d. r^2/r -> if r is 0 they are not equal
+therefore they are not equivalent
+
+5.2
+a. jeremy has 5 packs of gum and shannon has 6
+suppose each pack of gum has x pieces of gum
+
+write expr for the num of pieces of gum jeremy has
+write expr for the num of pieces of gum shannon has
+
+write two different expr that each equal the total
+number of pieces of gum of the two of them have together
+
+answer: 
+jeremy: 5x
+shannon: 6x
+total = 5x + 6x = 11x
+alternative: 10x + 1x
+
+b. simplify the expr 5x + 6x
+answer: 11x
+
+5.3
+allison has three boxes of chocolate
+and 5 extra pieces of chocolate
+
+atlas has 4 boxes of chocolate and 8 extra pieces of chocolate
+
+suppose each box of chocolate has x pieces of chocolate
+
+a. write an expr for total num of pieces allison has
+b. write an expr for total num of pieces atlas has
+c. write an expr for total num of pieces they have together
+d. simplify expr (3x+5) + (4x+8)
+e. simplify expr (5r-6) + (4r+1) + (9-3r)
