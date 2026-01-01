@@ -51,8 +51,7 @@ b. simplify the expr 5x + 6x
 answer: 11x
 
 5.3
-allison has three boxes of chocolate
-and 5 extra pieces of chocolate
+allison has three boxes of chocolate and 5 extra pieces of chocolate
 
 atlas has 4 boxes of chocolate and 8 extra pieces of chocolate
 
@@ -63,3 +62,55 @@ b. write an expr for total num of pieces atlas has
 c. write an expr for total num of pieces they have together
 d. simplify expr (3x+5) + (4x+8)
 e. simplify expr (5r-6) + (4r+1) + (9-3r)
+
+answer:
+a. 3x + 5
+b. 4x + 8
+c. 7x + 13
+d. 7x + 13
+e. (5r-6) + (4r+1) + (9-3r)
+5r+4r-3r-6+1+9
+= 6r+4
+
+5.4
+a. expand the product 7(y+2)
+b. simplify the expr 6r + 2(4-3r)
+c. simplify the expr 5(z-3) + 3(7-2z)
+
+answer:
+a. 7y+14
+b. 6r + 8-6r = 8
+c. 5z-15 + 21-6z = 5z-6z -15+21 = -z +6
+
+problem 5.5
+a. yao ming is 7ft 6 inches tall
+earl boykins is 5ft 5inches tall
+how much taller is yao ming than earl boykins?
+
+b. simplify the expr (7x + 6) - (5x + 5)
+c. simplify the expr (8a - 3) - 2(3 - 5a)
+
+answer:
+a. 7ft 6 inches - 5ft  5 inces
+= 2 ft 1 inces tall differnce
+
+b. 2x + 1
+c. 8a-3 - 6+10a
+= 8a+10a -3-6
+= 18a-9
+
+5.6
+a. simplify 10t/6 + 12t/9
+b. simplify -2x/3 + 5x/7
+
+answer:
+a. 
+b.
+
+5.7
+a. express a/2 + 6a-5/4 as a single fraction
+b. express 2x+7/6 - 9-2x/9 as a single fraction
+
+answer:
+a.
+b.
