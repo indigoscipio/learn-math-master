@@ -104,13 +104,54 @@ a. simplify 10t/6 + 12t/9
 b. simplify -2x/3 + 5x/7
 
 answer:
-a. 
-b.
+a.  30t+24t/18 = 54t/18 = 3t
+b. -14x+15/21 = x/21
 
 5.7
 a. express a/2 + 6a-5/4 as a single fraction
 b. express 2x+7/6 - 9-2x/9 as a single fraction
 
 answer:
-a.
-b.
+a. 2a+6a-5/4 = 8a-5/4
+b. 6x+21-(18-4x)/18 = 10x + 3 / 18
+
+when you see subtraction do invisible parenthesis
+subtract the entire numberatoro
+
+================
+
+exercise
+5.1.1
+simplify each of the folowing
+a. 2r + 3r - 7r
+= 5r - 7r = -2r
+
+b. -y
+
+c. 4t+2
+
+d. -2z -1/2
+
+e. -3x+2x+6x/6
+= -5x/6
+
+f. 12 - 5r/2 - 7r/3
+= 12 -15r-14r /6
+= 12 -29r/6
+
+5.1.2
+simplif each
+a. 7(x-2) + 5(2x+3)
+= 7x-14 + 10x+15
+= 7x+10x -14+15
+= 17x+1
+
+b. 4(3a-4) - 6(2a-1)
+= 12a-16 -12a + 6
+= -16+6 = -10
+
+c. -3(1 + 3t) - (t+3) (1+4)
+-3-9t -t-3 (1+4)
+= -3-3-9t-t (1+4)
+= -6 -10t (5)
+= -30 -50t
