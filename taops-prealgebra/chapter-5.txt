@@ -278,3 +278,142 @@ subtract both sides by 31/5
 -37/5 = x
 
 5.10
+consider the equation 31x = 713
+a. by what number can we divide both siides of the quation to give an equation in which
+x is alone on the left side?
+b. solve the equation
+answer:
+
+a. divide both sides by 31
+b. 31x / 31 = 713/31
+x = 23
+
+5.11
+solve the folowing equations
+a. 5t = -13
+b. 24 = -75y
+c. u/7 = 3/14
+d. -2r/9 = 8/15
+
+answer:
+a. t = -13/5
+b. -24/75 = y
+y = -8/25
+c. u = 3/14 . 7
+u = 3/2
+d. -2r = 8/15 . 9
+-2r = 8/5 . 3
+-2r = 24/5
+r = 24/5 / -2
+r = 24/5 . -1/2
+r = -24/10
+r = -12/5
+
+5.2.1
+solve each of the following equations
+a. t + 235 = 137
+t = 137 - 235
+t = -98
+
+b. a + 7/9 = -2/9
+a = -2/9 - 7/9
+a = -9/9
+a = -1
+
+c. -6 1/10 = -14 + c
+= -6 1/10 + 14 = c
+= -6 1/10 + 13 10/10 = c
+= -6 + 13 + 9/10
+= 7 9/10
+
+d. -2y + 2 3/5 + 3y = 1 7/10
+y = 1 7/10 - 2 3/5
+y = 1-2 + 7/10-3/5
+y = -1 + 7-6/10
+y = -1 + 1/10
+y = -10+1/10
+y = -9/10
+
+
+5.2.2
+solve each of the following equations
+a. -7y = 343
+y = 343/-7
+y = -49
+
+b. 16x = 3 1/3
+x = 3 1/3 : 16
+x = 10/3 * 1/16
+x = 10/48
+x = 5/24
+
+c. x/5 = 6/7
+x = 6/7 * 5
+x = 30/7
+
+d. -5y/2 = -14/15
+y = -14/15 . -2/5
+y = 28/75
+
+
+5.2.3
+solve the equations
+5 1/4 - y = 19 3/4
+-y = 19 3/4 - 5 1/4
+-y = 19-5 + 3/4 - 1/4
+-y = 14 1/2
+y = -14 1/2 
+
+5.2.4
+solve the equation
+x - 3 / 7 = 2
+x-3 = 14
+x = 14+3
+x = 17
+
+5.2.5
+solve the equation
+3(r-7) = 24
+= 3r-21 = 24
+3r = 45
+r = 45/3
+r = 15
+
+5.2.6
+find the value of c such that 
+x = 2 is a solution to the equation
+x / c = 3
+
+answer:
+x / c = 3
+x = 3c
+
+substitute
+2 = 3c
+
+c = 2/3
+
+
+5.3
+solving linear equations 2
+
+problems 5.12
+in this prolbem we solve the equation 8t + 9 = 65
+a. isolate the 8t by subtracting an appropriate constant from both sides
+b. solve the resulting equation for t
+
+answer:
+a. 8t = 65 - 9
+b. 8t = 56
+t = 7
+
+5.13
+in this problem, we solve the equation 7j-4+3j = 6 + 2j -4j - 8
+a. simplify both sides of the equation by combining like terms
+b.add expr to both sides of equation from part a to give equation inwhich
+no variables are on th eright side
+c. solve equation resulting from part b
+
+
+5.14
+solve the following euqations
