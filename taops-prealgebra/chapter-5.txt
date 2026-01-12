@@ -795,3 +795,34 @@ let n be the guess number
 5 = 3-2/6n
 5 = 1/6n
 30 = n
+
+5.4.3
+one of my dogs is 25 pounds heavier than the other
+and the two together weigh 137 pounds
+
+how much does the heavier dog weigh
+
+answer:
+dog a = 25 + dog b
+
+(25+b) + b  = 137
+25 + 2b = 137
+2b = 137 -25
+2b = 112
+b = 56
+
+so the heavier dog is
+137 - 56 = 81 lbs
+
+5.4.4
+what integer is tripled when nine is added to three fourths of it?
+
+answer:
+let n = the integer twe are looking for
+9 + 3/4n = 3n
+multiple both sides by 4
+4(9 + 3/4n) = 12n
+36 + 3n = 12n
+36 = 12-3n
+36 = 9n
+n = 4
