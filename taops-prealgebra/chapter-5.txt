@@ -1076,3 +1076,20 @@ so y is from 3 to - infinity
 
 5.31
 my town has two cell phone providers
+donttalkmuch charges $80 per month plus 1 dollar per hour
+talklots charges $20 per month plus 4 dollar per hour
+how much do you have to use phone in a month in order for donttalkmuch deal to be better to you
+
+let cost per hour = y
+donttalkmuch = 80 + 1y
+talklots = 20 + 4y
+
+since we want to find better this means smaller euqality
+80 + 1y < 20 + 4y
+80 - 20 < 4y-1y
+60 < 3y
+60/3 < y
+20 < y
+y > 20
+
+therefore we want to use more than 20 hours
