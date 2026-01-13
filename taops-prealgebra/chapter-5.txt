@@ -941,3 +941,138 @@ c/10 = c/25 + 9
 c = 450/3
 c = 150
 
+5.26
+a. manute is tlaler than michael. michael is taller than mugsy. is manute taller than mugsy?
+b. if a > b and b > c then is a > c ?
+c. if a > b and b < c, then do we know which of a or c is larger?
+
+answer:
+a. let manute = a, michael = b, and mugsy = c
+we know maunte is taller than michael, we can represent this as
+a > b
+and we know michael is taller than mugsy, so
+b > c
+
+since a > b and b > c, it a must be bigger than c
+threfore manute is taller than mugsy
+
+b. let a = 3, b = 2, c = 1
+so 3 > 2
+and 2  > 1
+therefore 3 > 1 is true
+
+c. let a = 3, b = 1, c = 2
+so 3 > 2
+if b is smaller than c, then 1 < 2
+so the larger integer is a
+
+but if we let c = 5
+then it be comes 3 < 5
+and 1 < 5
+so in this case the larger integer is c
+
+since both situation are possible we can't say for certain which is larger
+
+
+5.27
+a. bill gates has more money than warren buffet
+if they each win a 100mil dollar lottery
+then will bill gates still have more money than warren buffet??
+what if they each give 100 million dollars to the art of problem solving foundation?
+then whi will have more money?
+
+answer:
+let x represents the amount of money bill gates has
+and y represents the amount of money warren buffet has
+
+then we know:
+x > y -> each give 100m
+x - 100 > y - 100
+yes because x is more than y by offseting them by the same number both wont change the inequality
+if they both give 100m to aops its still the same - bill gates still have more money
+
+b. suppose x > y. explain why x + 5 > y + 5 and x - 5 > y - 5
+answer:
+we can subtract 5 from both to get
+x > y - x is still bigger than y
+and in the 2nd case ad both by 5 to isolate x and y, x is still bigger than y
+
+c. suppose x > y and a > b. explain why x + a > y + b
+answer:
+let x = 2, y = 1
+let a = 2, b = 1
+
+2 + 2 > 1 + 1
+4 > 2
+which is true
+
+generalization
+since x and a is in the "bigger end" and y and b is on the "smaller" end on both equation,
+adding two maximum/"bigger" numbers will result in an equality that's always larger than the two "smaller" ones
+
+d. note that 7 > 5 and 3 > 2, and that  7 + 2 > 5 + 3
+is it always true that if x > y and a > b, then x + b > y + a?
+
+answer: find ocunterexample
+let x = 2
+a = 3
+y = 1
+b = 1
+
+x + b > y + a
+2 + 1 > 1 + 3
+3 > 4 false
+so its not the case
+
+
+
+5.28
+in this problem we investigate what happens when we multiply both sides of an inequality by a positve number.
+suppose x > y
+a. must we always have 3x > 3y?
+b. must we laways have 2/3x > 2/3y?
+c. must we always have ax > ay for any positive number a?
+
+answer:
+a. if we divide both side by 3, then we have
+x > y, so the equation is strue but the end value depends on x and y each
+b. if we multiply both sides by 3/2, we have x > y and the final value depends on x and y since its still positive
+c. we can multiple both sides by the reciprocal of a to get x > y
+as long as a is positive
+
+5.29
+in this problem we investigate what hapens when multipyboth sides by negative
+suppose x > y
+a. which is greater, -2x or -2y?
+b. if b < 0, then which is greater, bx or by?
+
+answer:
+a. since we know x > y
+the negation of x (the greater side) is now the smallest one
+so -2x < -2y
+b. if b is negative then since we know x > y,
+then the x is the smallest one by multipling with negative
+so the greater is now by
+
+5.30
+in each folowing part describe values of variable that make the equality true
+a. -2 < r <=4
+b. 2x + 7 < -3
+c. 3 (5-2y) >= 2y - 9
+
+answer:
+a. r is from -1 to 4: -1,0,1,2,3,4
+b. 2x < -3 -7
+2x < -10
+x < -10/2
+x < -5
+so x is from -6 to -infinity
+c. 15-6y >= 2y-9
+-6y-2y >= -9-15
+-8y >= -24
+y <= -24/-8
+y <= 3
+so y is from 3 to - infinity
+
+5.31
+my town has two cell phone providers
