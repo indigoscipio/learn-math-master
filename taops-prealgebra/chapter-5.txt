@@ -1093,3 +1093,28 @@ since we want to find better this means smaller euqality
 y > 20
 
 therefore we want to use more than 20 hours
+
+5.32
+i have 308 baseball cards
+tommy has 532 baseball cards
+starting tomororw tommy will give each of his four closest friends, including me
+one baseball cards each from his collection everyday
+how many cards will i have on the first day that i have more cards that tommy has?
+
+asnwer:
+start simple -
+day 1 = 532 - 4
+day 2 = 532 - 2 . 4
+day 3 = 532 = 3 . 4 ...
+
+let d represent the amount of days that passed
+308 + d > 532 - 4d
+308 - 532 > -4d - d
+-224 > -5d
+224 < 5d
+224/5 < d
+44 4/5 < d
+d > 44 4/5
+
+therefore d must be greather than 44 4/5 days
+so 45
