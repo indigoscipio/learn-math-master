@@ -1352,3 +1352,85 @@ b. express 5/4x - 2/2x as a single fraction
 
 c. express 7/16x - 3/10x as a single fraction
 answer: 
+lcm of 10,16 = 
+2^4 . 5 = 80
+
+35-24/80x = 11/80x
+
+5.62
+solve the equation 1/(z-1) + 5/3 = 3/(z-1)
+hint: how have we dealt with fractions in equations in the past?
+
+answer:
+5/3 = 3/z-1 - 1/z-z
+5/3 = 2/z-1
+5 = 2/z-1 . 3
+5 = 6/z-1
+5.z-1 = 6
+5z-5 = 6
+5z = 11
+z = 11/5
+
+5.63
+find all values of t for which (12-t)^2 = (3+2t)^2
+hint: if all the squares of two numbers are equal, then what do we know about the two numbres?
+remember the numbers don't have to be positive
+
+answer:
+if its equal then the base shold be equal right?
+so technically 12-t = 3 + 2t?
+12-3 = 2t+t
+9 = 3t
+t = 3
+
+12-t = -(3 + 2t)
+12-t = -3-2t
+15 = -2t+t
+15 = -t
+t = -15
+
+if the squares of tow numbers are equa, then either the two numbers are equal or they are opposites
+
+5.64
+for what integers a and b do we have a = 2b + 21
+and a = b - 28?
+
+hint: when solving word problems our most useful strategy is finding the two expr for the same quantity
+and then setting them equal
+
+answer:
+
+2b + 21 = b - 28
+2b-b = -28 - 21
+b = -49
+
+b = a + 28
+
+a = 2 (a + 28) + 21
+a = 2a + 56 + 21
+a-2a = 56 + 21
+-a = 77
+a = -77
+
+5.65
+for what number c does the equation 7y + 3c = 9y + 12 - 2y + 3 have infinitely many solutions for y?
+answer:
+
+lets try to solve for c first
+7y + 3c = 9y + 12 - 2y + 3 
+3c = 9y + 12 - 2y + 3 -7y
+3c = 9y -2y -7y + 12 + 3
+3c = 9y -9y + 12 + 3
+3c = 15
+c = 5
+
+verify  y
+7y + 15 = 9y + 12 - 2y + 3 
+15 - 12 - 3 = 9y - 2y - 7y
+3 - 3 = 9y - 9y
+0 = 0
+
+true
+identity = infinitely many solution
+
+5.66
