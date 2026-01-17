@@ -1314,3 +1314,41 @@ so we know
 10x-x = 385-7
 9x = 378
 x = 42
+
+5.60
+solve for p
+
+5 / 6 = n / 72 = m+n / 84 = p-m/120
+hint: one step at a time: what variable can you solve for immediately?
+answer
+
+5/6 = n/72
+5/6 . 72 = n
+60 = n
+
+move on to m
+5/6 = m+60/84
+5 = 6 . m+60/84
+5 = m+60/14
+14.5 = m+60
+70=m+60
+m = 10
+
+5/6 = p - 10 / 120
+5 = 6 . p-10/120
+5 = p-10 / 20
+100 = p - 10
+p = 110
+
+therefore n = 60, m = 10, p = 110
+
+
+5.61 suppose x is nonzeor
+a. express 1/x + 3/x as a single fraction
+answer: 4/x
+
+b. express 5/4x - 2/2x as a single fraction
+= 5-4/4x = 1/4x
+
+c. express 7/16x - 3/10x as a single fraction
+answer: 
