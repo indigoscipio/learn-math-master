@@ -1434,3 +1434,107 @@ true
 identity = infinitely many solution
 
 5.66
+paula cant read the board in her math class
+she writes down the equation she read on the board as 2x - 7 = 23
+she correctly solves the equation that she wrote down, but is surprised to hear
+the teacher thesay the naswer is 5 less han the answer paula found.
+then paula asks the teacher to check her work the teacher says that paula copied the
+coeficient of x incirectly but copied everything else corectly
+what should the coeficient of x have been?
+
+hint approach the problem in pieces
+what can you figure out right away from the given info?
+answer
+ok so we have 2x-7 = 23
+lets try to solve it first and see how it goes
+
+2x-7 = 23
+2x = 23+7
+2x = 30
+x =15
+
+lets stop here - so based on the equation it should have like 
+but the naswer is 5 less than the answer paula found
+so it should be x = 10. we need to find the correct equation
+that makes
+c . x = 30
+x = 30 / c
+
+since we know x shoudl be 10
+then 10 = 30 / c
+10c = 30
+c = 30/10
+c = 3
+
+tryi t bakc
+3x = 30
+x = 10
+
+therefore the coeficient shoudld be 3 instead of 2
+
+5.67
+find values x that satisft 7 + x >= 2x + 3 > 12 -x
+hint inequality chain a > b >  c means that a > b and b > c both hold
+
+answer:
+lets solve the first part
+7 + x >= 2x + 3
+7-3 >= x
+4 >= x
+
+2x + 3 > 12 - x
+2x+x > 12-3
+3x > 9
+x > 3
+
+so it seems x it between 4 >= x > 3
+so the only value that stisfy this is 4 if its integer
+or any number/fraciton/decimal between but excluding 3 up to 4
+
+5.68
+find all values that satisfy 2x + 2 / x + 7 >= 0
+hint if you are given two numbers how can you tell if their quotient will be positive?
+
+answer:
+if theres 2 number and the quotient will be positive then a / b = x either a and b shoud be positive?
+or also - a / - b where a and b are both negative but they cant either be one positive or negative
+
+
+not sure but ets try to solve the equation
+
+case 1: positive > 0
+2x + 2 / x + 7 > 0
+2x + 2 > (x+7)0
+2x + 2 > 0
+2x > -2
+x > -1
+
+case 2: negative > 0
+numerator: 
+2x + 2 <= 0
+2x <= -2
+x <= -1
+
+denom
+x + 7 < 0
+x < -7
+
+so x must be smaller than -7
+
+
+5.69
+a number x is twice its reciprocal
+what is x^6?
+
+hint simply the problem. find x^2
+
+answer:
+x = 2 . 1/x = 2/x
+x = 2/x
+x^2 = 2
+
+start with x^2
+x^2 = (2/x)^2 = 4/x^2
+x^3 = (3/x)^3 = 9/x^3
+x^6 = (x^2)^3
+2^3 = 8
