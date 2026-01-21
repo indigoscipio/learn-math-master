@@ -1719,3 +1719,89 @@ x/7 - 2x/3 =>
 252 = -11x + 189x
 252 = 178x
 x = 252/178
+x = 126/89
+
+
+5.3.5
+for what value of t does t/4/16 = 1/6?
+answer:
+
+LHS
+t/4 * 1/16
+t/64
+
+t/64 = 1/6
+t = 1/6 . 64
+t = 64/6
+t = 32/3
+
+5.36
+solve for x
+1/10^1 + 1/10^2 + 1/10^3 + 1/10^4 + 1/10^5 + 1/10^6 = x/10^6
+
+answer:
+multiply both side by 10^6
+10^6 (1/10^1 + 1/10^2 + 1/10^3 + 1/10^4 + 1/10^5 + 1/10^6 = x/10^6) = 10^6 . x/10^6
+10^6 (1/10^1 + 1/10^2 + 1/10^3 + 1/10^4 + 1/10^5 + 1/10^6 = x/10^6) = x
+10^6 (10^-1 + 10^-2 + 10^-3 + 10^-4 + 10^-5 + 10^-6) = x
+(10^6 . 10^-1) + (10^6 . 10^-2) + (10^6 . 10^-3) + (10^6 . 10^-4) + (10^6 . 10^-5) + (10^6 . 10^-6) = x
+(10^5) + (10^4) + (10^3) + (10^2) + (10^1) + (10^0) = x
+= 100000 + 10000 + 1000 + 100 + 10 + 1
+x = 111111 
+
+5.37
+a. what is the value of x-2 / 2x+7 when x = 0?
+answer:
+0-2 / 0+7 = -2/7
+
+b. what is the value of x-2 / 2x+7 when x = -3?
+answer:
+-3-2 / -6+7 = -5/1 = -5
+
+b. what is the value of x-2 / 2x+7 when x = 1/2?
+answer:
+num = -3/2
+dem = 2 . 1/2 + 7 = 8
+
+-3/2 : 8 = -3/2 . 1/8 = -3/16
+
+d. for what value of x can we not determine a value of the epxr
+ x-2 / 2x+7 
+
+ when the denominator is 0
+ so 2x+7 = 0
+ 2x = -7
+ x = -7/2
+
+ 5.38
+ billie solved the equation 2y-7 = y/3 + 9 and found y = 7
+ then she shakes her head and start over
+ how did she know so quickly that she made a mistake
+
+ coz if we plug in its 7 = 7/12 which is not equal
+left one is an integer, right side is not an integer
+
+5.39
+if 2-7g = 23
+then what is (g+7) / (g+4)?
+answer:
+
+find g first
+2-7g = 23
+-7g = 21
+g = -3
+
+-3+7 / -3+4
+4
+
+
+5.40
+for what vlaues of x does 8/x = -3?
+
+answer
+8 = -3x
+x = -8/3
+
+5.41
+if 2/3 = x/24 = 84/y, then what is x + y
+answer:
