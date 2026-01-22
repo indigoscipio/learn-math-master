@@ -1845,8 +1845,84 @@ x = 10 . 2
 x = 20
 
 so thats the number that tom was not suposed to have
-the corect one shoud be 
-x : 2 1/2
-50 : 5/2
-50 . 2/5
+so it was supposed to be divided by 2 1/2, so
 
+20: 2 1/2 = x
+20 : 5/2 = x
+20 . 2/5 = x
+4 . 2 = x
+x = 8
+
+
+5.44
+jay had 60 ticks he could turn in at the end of th eyear
+for the extra credit points he had earned during the year
+some tickets were worth 2 pts and others were worth 5 pts
+if he was entitled to a total of 231 extra credit points
+how many two point tickets did he have
+
+total ticket = 60
+answer:
+
+if all 60 tickets are worth 5pt =>
+300 => exceeds 231
+difference is 300 - 231 = 69
+let say  we exchange 1 5pt with 1 2pt
+
+so 59 5pt => 295
+and 1 2pt => 2
+total now is 297
+the difference is -3
+to fill out the 69 difference multiply 3 by 23
+so now
+37 5pt => 185
+23 2pt => 46
+total = 231
+
+so the answer is 23 2pt ticksets
+to do it algebraicly,
+
+and x + y = 60
+so x = 60 - y
+
+2x + 5y = 231
+just sustitute
+2(60-y) + 5y = 231
+120-2y + 5y = 231
+3y = 231-120
+3y = 111
+y = 37
+
+since the total of 5pt ticket is 37
+just subtitute back
+x + 37 = 60
+x = 60-37
+x = 23
+
+5.45
+if i give my sister 5 dollars
+then we will have the same amount of money
+if instead she gives me 8 dollars
+then ill have twice as much money as she has
+how much money does she haev?
+
+answer:
+let my money = x
+let sister's money = y
+
+x - 5 = y + 5
+x + 8  = 2 (y - 8)
+
+
+solve for x
+x = y + 10
+
+substitute 2nd qeuation
+x + 8  = 2 (y - 8)
+x+8=2y-16
+y+10+8 = 2y-16
+y+18=2y-16
+18+16 = 2y-y
+y = 18+16 = 34
+
+5.46
