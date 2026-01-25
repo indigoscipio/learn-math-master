@@ -2065,5 +2065,91 @@ plug back in
 = 136
 
 5.5.1
+determine wheter each following statement is true or falseif true explian why
+its true if false provide example that shows the statement is flsae
+a. if a <= b and b <= c then a < c
+answer:
+smalle example
+
+let a = 1
+b = 1
+c = 1
+then  a < c is false
+basicaly if we have one number less than or equal to another
+and we have another number that is less than equal to that
 
 
+b. if a >=b >= a then a = b
+answer:
+here a is at least as big as b
+and b is at least as big as a
+if a > b then the 2nd conditio nfails
+if b > a the 1st condition fail
+the only way this is true if they are both equal so this is the same
+
+c. if a > b then ac > bc
+answer:
+let a = 2
+let b = 1
+let c = 0
+
+counterexample
+0 > 0
+therefore the statement is false
+
+another counterexample
+let c = -1
+-2 > -1 which is also false
+
+d. if a > b and c <= 0
+then ac <= bc
+answer:
+let a = 2
+b = 1
+
+c = 0
+0 <= 0 - true, satisfies ac<=bc
+
+c = -1
+-2<=1 - true, satisfies ac<=bc
+
+my explenation is that any largest positive number
+when negated will always remain the smallest if its inveted
+
+e. if x+a >= y + a
+then x >= y
+answer:
+let x = 1
+a = 1
+y = 1
+
+2 >= 2 - true
+
+to find coutnerexample RHS needs to be larger
+x = 0
+a = 0
+y = 1
+invalid
+i dont think theres a way to make the RHS larger since theres the >= limtation
+the a is a sliding point
+if x and y starts in the same spot it will stay relative in the order after the slide
+
+f.
+if x + a >= y + b
+then x >=y and a >= b
+answer:
+this is simlart oe but we have different 'sliding' value
+
+x = 1
+a = 0
+b = 1
+y = 0
+2 >= 2 - x>=y and a >= b
+1 <= 1
+
+x >= y - true
+a >= b - false
+
+just becaue the total sum is larger
+doesnt mean every individual part of that sum has to be larger
+one part can be smaller as long as the other part is large enough to make up the difference
