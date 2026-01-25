@@ -2153,3 +2153,88 @@ a >= b - false
 just becaue the total sum is larger
 doesnt mean every individual part of that sum has to be larger
 one part can be smaller as long as the other part is large enough to make up the difference
+
+5.52
+suppose that a > b > c > d
+a. must we have a + c > b + d?
+answer:
+
+which has
+a > b
+c > d
+
+small example
+let a = 4, b = 3, c = 2, d =1 
+4 + 2 > 3 + 1
+6 > 4
+
+the > on each number guarnatees its greater
+a is the largest
+b second largest, etc
+
+if a > b and c > d
+then the sum is a + c > b + d
+
+add c both sides of a > b
+a + c > b + c
+
+add b to c > d
+c + b > d + b
+
+combine to get
+a + c > B + c > b + d
+so a + c > b + d
+
+b. must we have a + d > b + c ?
+answer:
+a = 8
+b = 7
+c = 6
+d = 1
+
+a + d = 9
+b + c = 13
+
+c. a > b > c > d
+must we have ac > bd?
+a = 4
+b = 3
+c = 2
+d = 1
+
+ac > Bd
+8 > 4
+
+another values
+a > b
+multiple boyh side by c
+ac > bc
+
+c > d
+multiple both side by b
+bc > dc
+
+ac > bc > dc
+ac > dc
+
+a = 1
+b = 0
+c = -1 
+d = -2
+ac > bd
+-1 > 0 false
+
+d. must we have ab > cd?
+answer:
+let a = 1
+b = 0
+c = -1
+d = -2
+
+ab > cd
+0 > 2
+
+5.53
+in each following part describe the values of the variables that make the inqeulity true
+a. -2 1/10 < k < 4 1/2
+answer:
