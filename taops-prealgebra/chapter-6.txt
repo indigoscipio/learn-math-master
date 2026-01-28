@@ -74,4 +74,122 @@ e. 48 / 6 = 8
 
 f. 0.48 / 0.6
 mult by 10
-4.8 / 6 =  
+4.8 / 6 =  0.8
+
+g. mult by 1000
+1 / 0.1 = 1 / 1/10 =  1 . 10 = 10
+
+h. 100 : 25/100
+100  * 100/25
+4 . 100 = 400
+
+6.4
+list hte folowing number from greastest toleast
+0.5
+0.505
+0.55
+0.555
+0.06
+0.6
+0.65
+0.56
+0.005
+
+answer:
+0.65
+0.6
+0.56
+0.555
+0.55
+0.505
+0.5
+0.06
+0.005
+
+6.5
+compute the ofllowing quantities
+a. (0.2)^2
+b. (1.7)^2
+c. 1/ (0.2)
+d. (0.03)^3
+
+answer:
+a. 0.2  . 0.2
+= 2/10 * 2/10
+= 4 / 100 = 0.04
+
+alternatively
+(2 * 10^-1)^2
+2^2 * 10^-2
+4 . 10^-2 = 0.04
+with power
+
+with fraction
+(2/10)^2 = 4/100 = 0.04
+
+b. 
+1.7 * 1.7
+17/10 * 17/10
+= 289/100
+= 2.89
+
+c. 1 : 2/10
+= 1 * 10/2
+= 10/2
+= 5
+
+d. 0.03 * 0.03 * 0.03
+= 3/100 * 3/100 * 3/100
+= 27/1,000,000
+= 0.000027
+
+
+division
+0.48 / 0.06
+by power - 48 . 10^-2 : 6 . 10^-2
+make them integer: 48 / 6
+
+
+Exercises
+6.1.1
+arrange the folowing numbers from smallest to largest
+0.99
+0.9099
+0.9
+0.909
+0.9009
+
+answer:
+0.9
+0.9009
+0.909
+0.9099
+0.99
+
+6.1.2
+which nonzero digit of 0.54321
+when changed to 9 gives the largest number
+0.5 -> the tenth
+if changed to 9 then it will be 0.94321
+
+6.1.3
+compute the folowing equation
+a. 0.4 + 0.02 + 0.006
+0.426
+
+b. 0.92 + 0.093
+1.013
+
+c. 1.28 - 0.377
+1.280
+0.377
+0.903
+
+d. 8-1.001
+7.990
+1.001
+
+6.999
+
+
+e. 
