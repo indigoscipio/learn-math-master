@@ -192,4 +192,104 @@ d. 8-1.001
 6.999
 
 
-e. 
+e. 0.0006 - 0.002
+0.0010
+0.0006
+-0.0014
+
+f. 1.1 - 0.11 + 0.011
+1.90
+0.11
+0.99
+
+0.990
+0.011
+1.001
+
+6.14
+compute the following quantities
+
+a. 23.879 . 100
+= 2387.9
+
+b. 2 : 10^5
+2 * 1/10^5
+= 2/10^5
+= 0.00002
+
+c. 1.6 : 400
+16 . 10^-1 / 4 . 10^2
+16 : 4 . 10^-1 : 10^2
+4 . 10^-3
+0.004
+
+d. 0.0031 . 10^6
+31 . 10^-4 * 10^6
+31 . 10^2
+3100
+
+e. 3.6 / 0.09
+36 . 10^-1 / 9 . 10^-2
+36 / 9 . 10^-1 / 10^-2
+4 . 10^-1-(-2)
+4 . 10^1
+40
+
+360 / 9
+40
+
+f. 1.01 . 3.03
+101 . 303
+3.0603
+
+6.1.5
+eavluate
+(250 + 25 + 2.5 . 0.25 + 0.025) : (50 + 5 + 0.5 + 0.05 + 0.005)
+5 + 5 + 5 + 5 + 5 / 5 = 5
+
+6.1.6
+let x be the numnber
+0.000...0001 
+
+where there are 5000 zeroes after decimal points before the 1
+arrange the following numbers in order from least to greatest
+
+2 + x, 2 - x, 2x, 2/x, x/2
+
+answer:
+2/x
+2 + x
+2 - x
+2x
+x/2
+
+6.17
+netty used a calc to find product 0.075 . 2.56 she forgot to enter decimal pts
+the calc showed 19200 if betty had entered decimal pts corectly what should the answer been
+
+answer: it has 3 + 2 decimal point so shoudl be 5 deciaml pts corect answer shoud be
+0.19200
+
+just to check
+75.10^-3 * 256. 10^-2
+19200 . 10^-5
+
+
+6.1.8
+which of folowing is equal to 1000 . 1993 . 0.1993 . 10
+
+ 1.993 . 10^3
+ 1993.1993
+ 1993^2
+ 1993,001.993
+ 1993^2
+
+ answer:
+ lets evaluate the whoel thing wfirst
+1000 . 1993 . 0.1993 . 10
+1993 . 119.3.10
+1993 . 1993
+
+so it shold be 1993^2
+
+6.1.9
