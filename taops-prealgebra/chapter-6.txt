@@ -293,3 +293,37 @@ which of folowing is equal to 1000 . 1993 . 0.1993 . 10
 so it shold be 1993^2
 
 6.1.9
+
+if 0.0481 . 10^-4 = 4.81 . n, what is n?
+
+answer:
+0.0481 = 4.81 . 10^-2 (move 2 digit to the right)
+subtitute back
+4.81 . 10^-2  . 10^-4 
+4.81 . 10^-2-4
+4.81 . 10^-6
+
+6.1.10
+curt mistakenly multiplied a number by 10 when he shouldve divided the number by 10
+the answer he found was 33.66 more than the answer he should've found. find the original number
+
+hjint: its a word problem. what is our usual strategy for word problem
+hint: assign a variable, write an equation
+
+answer:
+let n be kurts original number
+mistake -> n . 10
+should have -> n / 10
+
+n . 10 = 33.66 + (n / 10)
+multiply both side by 10
+10 (10n) = 10 . 33.66 + 10 . n/10
+100n = 336.6 + n
+99n = 336.6
+n = 336.6/99 = 3366/990
+3.4
+
+=============================================================================
+
+6.2
+ROUNDING
