@@ -327,3 +327,138 @@ n = 336.6/99 = 3366/990
 
 6.2
 ROUNDING
+
+problmes
+a. round 697 to the nearest hundred
+b. round -2,712 to the nearest thousand
+c. round 1.651 to the nearest tenth
+d. round 0.00282 to the nearest thousandth
+e. round 0.03 to the nearest tenth
+f. round 0.1972 to the nearest hundreth
+g. round -2.35 to the nearest tenth
+h. round 1.995 to the nearest hundreth
+
+answer:
+a. 700
+b. -3,000
+c. 1.7
+d. 0.003
+e. 0.0
+f. 0.20
+g. -2.30
+h. 2.00
+
+problem 6.7
+a. round 4.73, 4.739 and 4.7395 each to the nearest tenth
+b. when rounding a positive number to the nearest tenth, which digit
+determines wheter the number you round is to is larger or smaller than the original number?
+
+answer:
+a
+4.73 -> 4.7
+4.739 -> 4.7
+4.7395 -> 4.7
+
+b. the idgit that determines this is the one directly to the right of the place you are rounding to
+. for the tenth, the decider is the hundreds
+
+problem 6.8
+suppose you are told that the number x rounds to 2.7 when rounded to the nearest tnenth
+what can you conclude about x ?
+
+answer:
+the hundreds digit must be 5 - 9
+so previously its like 2.65 or something whn its rounded to 2.7
+largest must be 2.75 (up to but not including) and smallest must be 2.65
+
+problem 6.9
+suppose your frinds tells you that 5,912 . 7,832 equals 51,663,744
+is this reasonable? why or why not?
+
+answer:
+lets try to round to thousand first
+6000 . 8000 = 48,000,000 so its somewhere around this
+
+more acurate, round ot nearest hundred
+5900 . 7800 = 59 . 78 = 46,020,000
+
+therefore it must be more close to ~46,000,000 than to 51,000,000
+
+6.2.1
+round 28.2508 to
+a. nearest ten
+30
+
+b. nearest tenth
+28.3
+
+c. nearest hundreth
+28.25
+
+6.2.2
+round -0.155 to
+a. the nearest integer
+0
+
+b. nearest tenth
+-0.10 vs -0.20 - 0.20 is larger
+
+c. nearest hundreth
+-0.150 vs -0.160
+larger one is -0.150
+
+
+6.23
+round 7.6397 to the nearest thousandth
+answer: 7,639 - 7.640
+its larger to 7.640
+
+6.24
+find a number x such that x rounded to the nearest tenth is 1.8,
+x rounded to nearest hundreth is 1.82
+x rounded to nearest thousandth is 1.819
+
+answr:
+
+nearest tenth must be 1.8: 1.75 <= x < 1.85
+nearest hundreth must be 1.82:  1.815 <= x < 1.825
+nearest thousandth must be 1.819:  1.8185 <= x < 1.8195
+
+1.819
+
+
+6.2.5
+the fraction 401/0.205 is closest to which of the following numbers?
+
+0.2
+2
+20
+200
+2000 ?
+
+answer:
+401 / 205 * 10^-3
+401 : 205 / 1000
+401 * 1000 / 205
+401 * 200 / 41
+so approx 400 * 5
+should be close to 2000
+
+=============================================================================
+
+6.3 decimals and fractions
+
+
+problem 6.10
+our goal is to write 0.2 as fraction
+a. write 0.2 in terms of a power of 10
+b. write the powr of 10 from part a as fraction
+c. write 0.2 as fraction
+
+problem 6.11
+a. 0.8
+b. 0.8
+c. 0.8
+d. 0.8
+e. 0.8
+f. 0.8
