@@ -596,16 +596,77 @@ then next boune = 2 . 2/3 = 4/3 = 1 1/3
 we need to find the nearest bounce above 0.5
 
 if we keep bouncing it,
+3rd
 4/3 . 2/3
 8/9
 
+4th
 8/9 . 2/3
 16/27
 
-too long manual
+5th
+16/27 . 2/3
+32/81
+since 81 is more than 2 . 32 its below half
 
-1/5 = 2n . 2/3
-mult both sides by 15
-15 . 1/5 = 15 . 2n  + 2/3 * 15
-3 = 30n + 6
-...
+6.38
+on a calculator julian divided x into y and got the answer 1.0625
+both x and y were positive integers less than 50
+but he can't remember what they were
+what is the sum of all possible values of x and y?
+
+hint: start by finding one pair x and y
+
+answer:
+ok so initally he divides  y : x = 1.0625
+and we know x and y are pos int < 50
+
+lets try finding a pair first
+1.0625 = 10625 * 10^-4 but we know its < 50
+need another alternativ
+
+11 / 10 = 1.1
+24 / 25 = 96/100 = 0.96
+26 / 25 = 104/100 = 1.04 - close
+27 / 25 = 108/ 100 = 1.08 -close
+
+
+so it's somweher between 26/25 to 27/25
+26.5/25?
+
+hmm how do i do this accurarely
+break the decimal apart
+1 + 0.0625
+1/2 is 0.5
+1/4 is 0.25
+1/8 is 0.125
+
+so the decimal part is
+1/2 + 1/8 = 5/8 * 1/10 = 5/80 = 1/16
+
+sum them together
+1 + 1/16
+17/16
+
+alternative version is 34/32
+
+so the sum should be 
+17 + 16 + 34 + 32 = 99
+
+=====================================
+
+repeating decimals
+
+round 1/3 to nearest tenth
+1 . 10/3 : 3 . 10/3
+10/3 : 10
+3 1/3 / 10
+
+b. round 1/3 to the nearest hundreth
+1 . 100/3 : 3 . 100/3
+100/3 : 100
+33 1/3 / 100
+
+33/100 < x < 34/100
+0.33
+
