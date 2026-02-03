@@ -670,3 +670,30 @@ b. round 1/3 to the nearest hundreth
 33/100 < x < 34/100
 0.33
 
+
+
+problems
+6.16
+write the following as repeating decimals
+a. 5/9
+b. 37/90
+c. 1/7
+d. 19/11
+
+problem 6.17
+write the following fractions in simplest form:
+a. 0.2... 
+b. 0.5151...
+c.  0.2888...
+d. 5.00252525...
+
+problem 6.18
+a. when we convert the fractions
+1/2,1/3,1/4,...,1/10
+to decimal form which of them have finite decimals and which of them have infinitely
+repeating decimals?
+
+b. suppose n >=2 is pos int. is there easy way to tlel if the deicmal form of 1/n
+is finite or infinitely repeating?
+
+problem 6.19
