@@ -680,12 +680,37 @@ b. 37/90
 c. 1/7
 d. 19/11
 
+answer:
+a. 0.5555...
+b. 37/9 : 10
+4 1/9 : 10
+4.1111111...
+0.41111....
+c. 0.142857...
+d. 19/11 * 9
+171/99
+1 72/99
+1 + 0.72727272...
+1.727272...
+
 problem 6.17
 write the following fractions in simplest form:
-a. 0.2... 
+a. 0.222... 
 b. 0.5151...
 c.  0.2888...
 d. 5.00252525...
+
+a. 2/9
+b. 51/99
+c. 2/10 + 8/90
+18+8/90
+26/90
+13/45
+
+d. 5 + 25/9900
+5 + 1/396
+1981/396
+
 
 problem 6.18
 a. when we convert the fractions
@@ -693,7 +718,54 @@ a. when we convert the fractions
 to decimal form which of them have finite decimals and which of them have infinitely
 repeating decimals?
 
+answer:
+lets try it 1 by 1
+1/2 -> 0.5 so no repeating decimal
+1/3 -> 0.333.. - repeating decimal
+1/4 -> 0.25 - no repeating deciaml
+1/5 -> 0.2 - no repeat
+1/6 > repeeating
+1/7 - repeat
+1/8 - no repeat
+1/9 - repeat
+1/10 - no repeat
+
 b. suppose n >=2 is pos int. is there easy way to tlel if the deicmal form of 1/n
 is finite or infinitely repeating?
 
+if i had to guess
+if n is even then its not repeating
+if n is odd then it could repeat (except for 5)
+
+correction
+finite -> has prime factor that consists of 2 and 5
+inifinte -> has prime factors other than 2 and 5
+
 problem 6.19
+what is the 100th digit to the right of the decimal point in the decimal representation of
+3/7?
+answer:
+
+1/7 = 0.142857...
+3/7 = 0.428571...
+
+remainder 100 / 6 = 4
+so on the 96 digit loops agian
+4 - 97
+2 - 98
+8 - 99
+5 - 100
+
+therefore the 100th digit is the number 5
+
+
+6.20
+what simpelr number does 0.999.. equal?
+answer: hmm im not sure here
+we know 8/9 has repating 0.888..
+but 9/9 would mean its just 1
+
+but we know 1/3 = 0.333
+if we just multiply it by 3
+but in decimal form so
+0.333... * 3
