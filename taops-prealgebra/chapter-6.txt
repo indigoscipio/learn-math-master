@@ -866,3 +866,72 @@ let x = 0.912912...
 999x = 912
 x = 912/999
 304/333
+
+f. 0.001111...
+1/9 . 1/100
+1/900
+
+g. 0.3666...
+0.3 +  6/90
+3/10 + 6/90
+=27+6/ 90
+=33/90
+
+h. 0.0999...
+we know 0.9999.. can either basically be 1
+or just 0.333.. * 3 
+3/9 * 3 * 1/10
+1 * 1/10
+1/10
+
+i. 2.0202....
+2 + 0.0222...
+2 + 2/99
+2 2/99
+
+6.45
+arrange the folowing numbers from smallest to largest
+1.234500
+1.234555...
+1.234545...
+1.2345345...
+1.23452345...
+
+answer:
+1.2345000
+1.23452345...
+1.2345345...
+1.234545...
+1.234555...
+
+6.4.6
+by how much does 0.6363... exceed 0.63?
+express your answer as a fraction.
+answer:
+
+lets evaluate the repeating in terms of fraction
+0.6363...
+= 63/99
+= 7/11
+
+0.63 = 63/100
+
+to find the difference subtract
+7/11 - 63/100
+lcm 11,100 = 1100
+700 - 693/1100
+7/1100
+
+6.4.7
+express 0.4848... / 0.1515... as a mixed number
+answer:
+48/99 : 15/99
+48/99 * 99/15
+48/15
+3 3/15
+3 1/5
+
+========================================
+
+CHALLENGE problmes
+6.32
