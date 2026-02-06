@@ -823,3 +823,46 @@ starts at 13
 14 = 7
 
 therefore the 14th digit is 7
+
+6.4.3
+find the smallest positive integer x so that the fraction 1/10+x has a finite decimaal
+
+answer:
+x = 1 -> 1/11 - repeating
+x = 2 -> 1/12 - repeating
+find x that has factors of only 2 or 5 or both
+the smalest one = 2 * 2 * 2 * 2
+x = 6 -> 1/16 -> 0.0625 - finite
+
+6.4.4
+express each of the following repeating decimals as a fraction in simplest form
+a. 0.777...
+7/9
+let x = 0.777...
+10x = 7.777...
+10x-x = 7
+9x = 7
+x = 7/9
+
+b. 0.1212...
+12/99
+let x = 0.1212....
+100x = 12.1212...
+100x-x = 12
+99x = 12
+x = 12/99
+
+c. 16/99
+
+d. 45/99
+5/11
+
+e. 0.912912
+912/999
+
+let x = 0.912912...
+1000x = 912.912912....
+1000x-x = 912
+999x = 912
+x = 912/999
+304/333
