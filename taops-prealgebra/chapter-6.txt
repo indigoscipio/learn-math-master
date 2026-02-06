@@ -935,3 +935,46 @@ answer:
 
 CHALLENGE problmes
 6.32
+express the sum 1/2 + 0.1/2 + 1/0.2 as a decimal
+
+answer:
+0.1/2 = 1/10 : 2 = 1/10 * 1/2 = 1/20
+
+1/0.2 = 1 : 2/10 = 1 * 10/2 = 10/2
+sum everything
+
+1/2 + 1/20 + 10/2
+10+1+100/20
+111/20
+
+mult by 5
+555/100
+5.55
+
+6.33
+a positive number is written in scientific notation in form a . 10^b
+where a is a number 1 <= a < 10
+b is an integer
+
+for example 38100 is written 3.81 . 10^4 in scientific nitation
+0.025 is written 2.5 . 10^-2
+a. explain why every positive number can be written in scientific notation.
+
+answer:
+because scieintific number the way it combines the base number and the decimal
+wheter its 0.0000... or 100000++ if we want to add or remove the zero just modify the 10^b thing
+and if we want to change the base just change the a
+
+b. write the product (3.10^5).(4.10^6) in scientific notation
+12.10^11
+since the base b  needs to be 1 < b < 9
+= 1.2 . 10^12
+
+c. write the quotient (3 . 10^2) : (5 . 10^-3) in scientific notation
+answer:
+3/5 . 10^2--3
+3/5 . 10^5
+0.6 . 10^5
+6 . 10^4
+
+d.
