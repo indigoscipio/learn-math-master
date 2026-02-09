@@ -977,4 +977,101 @@ answer:
 0.6 . 10^5
 6 . 10^4
 
-d.
+d. if positive integer n is expressed in scientific notation as a . 10^b
+how many digits does n have when written out?
+
+answer:
+lets start with small example
+101 = 1.01 . 10^2
+where a = 1.01 and b = 2
+if 101 is expressed as 1.01 . 10^2
+then when written out it has 3 digit?
+so b + 1 digit
+
+cos it contained one decimal digit ot the left
+the exponent tells how many digit added after that
+
+6.34
+what is the smallest positive integer k such that
+k/660 can be expressed as a terminating decimal
+
+answer:
+
+need to find finite factor fort he denuminator eg 2,5 or both
+
+110/660 -> 11/66 -> 1/6 - not finite
+33/660 -> 1/20 -> 0.05 - finite
+can it be smaller?
+3/660 -> 1/220 - not finite
+
+it seems 33/660 is the smallest so k = 33
+
+660 = 2 . 2 . 5 . 3 . 11
+the 3 and 11 is making it reapeat
+need to cancel it out with the numerator
+
+33 / 660 = 33 / 33 . 20 = 1 / 20 = 0.05
+
+
+6.35
+suppose that x is repeating decimal of the form 0.kk...
+where k is a n digit number (for some positive integer n)
+for example if k = 234 then n = 3 and x = 0.238238...
+show that x equals k divided by the n digit number consisting of all 9s, that is
+
+x = 0.kkk... = k / 9....9 with n nines
+
+answer:
+
+lets start with smalle exmale
+k = 238
+n = 3
+x = 0.238238...
+
+1000x - x = 238.238... - 0.238238...
+999x = 238
+x = 238/999
+
+where the denominator has exactly 3 digit
+now to generatlize
+
+if k has n digit
+10^n . x = k.kkk....
+
+substract
+10^n . x - x = (k.kkkk...) - (0.kkkk....)
+(10^n-1)x = k
+x = k / 10^n-1
+
+6.36
+how many digits are in the decimal expansion of 10^30?
+asnwer:
+at first it feels like the answer is 30 digits but lets check
+10^1 = 10 - expo = 1, digit = 2
+10^2 = 100 - expo = 2, digit = 3
+10^3 = 1000 - expo = 3, digit = 4
+so by this pattern i assume it wille reach 10^3 eventually
+where expo = 30 and digit = 30+1 = 31
+so the d = expo + 1
+
+b. how many digits are in the decimal expansion of 2^30?
+hint can you find a power of two thats near 100, 1000, or 10000?
+
+answer:
+hmm lets try finding factors of 30
+2 . 3 . 5
+
+modifying the power
+power of two thats near 100 = 2^6 (64) or 2^7 (128)
+power of two thats near 1000 = 2^10 (1024)
+(2^6)^5
+or something lke (2^10)^3
+(1024)^3
+try to approximate the digit here so it should be somethin like
+1000 . 1000 . 1000
+~1000000000 so the total digit = 10
+
+min - 1000^3
+max - 2000^3
+so it should be between 1000000000 and 8000000000
+which has 10 digits
