@@ -1075,3 +1075,70 @@ min - 1000^3
 max - 2000^3
 so it should be between 1000000000 and 8000000000
 which has 10 digits
+
+c. how many digits are in the deicmal expression of 5^30?
+hint: if you multiply 5digit number with 10digit number what are the possibilities for
+numuber of digit of the product?
+
+answer:
+lets start simple if we mult 2d . 2d
+eg 10 . 10 -> total = 100 = 3 digits, so thats 2d + 2d - 1d
+multiply 5d . 10d = 15 + 5 -1 = 19 digits?
+
+10^30 = (2 x 5)^30 = 2^30 . 5^30
+
+6.37
+how many positive integers less than 100 have reciprocals with terminating deicmal representation?
+
+answer:
+we know that terminating decimalhave only pime factor of 2 or 5 or both
+so positive integers less than 100
+with only 2 or 5 or both prime factors would be something like
+2,5,10,20,40,50,80
+
+multiples of 2
+2,4,6,8,..
+
+systematic approach
+2^a . 5^b
+no 5s: 1, 2,4,8,16,32,64 -> closest too 100 is 2^6 so 6 factors
+one 5s: 5,10,20,40,80, -> 5 factors 
+two 5s: 25,50 -> 2 factors
+three 5s: too big
+
+so the total is 6+5+3 = 14 total that have terminating deicmals
+
+6.38
+complete the infinite sum
+7/10 + 7/100 + 7/1000 + 7/10000 + ...
+
+answer:
+(7 . 10^-1) + (7 . 10^-2) + (7 . 10^-3) + ... + (7 . 10^-n)
+7 (10^-1 + 10^-2 ... + 10^-n)
+
+in terms of decimal it should be something like
+0.7 + 0.07 + 0.007 + ...
+so logically it should be something like
+0.77777....
+7/9
+
+b. compute the infinite sum
+6/10 + 3/100 + 6/1000 + 3/10000
+answer:
+this is something like
+0.636363....
+so it shold be someting like 63/99
+= 21/33
+= 7/11
+
+c. compute the infinite sum
+1/3 + 1/9 + 1/27 + 1/81
+answer:
+this should be something like this in fractions
+(1/3^1) + (1/3^2) + (1/3^3) + ...
+
+1/2
+
+
+review problems
+6.21
