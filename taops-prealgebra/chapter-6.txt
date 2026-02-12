@@ -1265,3 +1265,57 @@ n = 800
 6.29
 expres each of the folowing fractions as decimal:
 a. 11/8
+1375/1000
+1.375
+
+b. 10/7
+1.428571...
+
+c. 7/15
+0.4666...
+
+d. 39/20
+195/100
+1.95
+
+c. 25/33
+75/99
+0.7575...
+
+d. 4/21
+
+
+6.30
+what is the 100th digit to the right decimal point in the decimal form of 4/37
+answer
+check for repeating decimals first
+we know its 0.108... with 3 repeating digit
+where 1st digit = 1
+2nd = 0
+3 = 8
+
+now for finding th 100th digit
+100 / 3 = 99 which leaves 1 reminder which means its the 1th digit so its 1
+
+
+6.31
+express each of the following repating decimals as a fraction in simplest form
+a. 0.6666....
+6/9
+2/3
+
+b. 0.97
+97/99
+
+c. 0.0888..
+0.888... . 1/10
+8/9 . 1/10
+8/90
+4/45
+
+d. 0.3636...
+36/99
+12/33
+4/11
+
+e. 0.321
