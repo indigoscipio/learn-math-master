@@ -1142,3 +1142,126 @@ this should be something like this in fractions
 
 review problems
 6.21
+arrange the folowomg num from smallest to largest
+
+0.9700
+0.9790
+0.9709
+0.9070
+0.9089
+
+answer:
+0.9070
+0.9089
+0.9700
+0.9709
+0.9790
+
+6.22
+comput the folowing quantities
+a. 8.97 + 0.254
+8.970
+0.254
+9.224
+
+b. 0.27-1.006
+1.006
+0.270
+-0.736
+
+c. 0.902 . 10000
+9020
+
+d. 25.5 : 0.05
+2550/5
+510
+
+e. 0.025 . 0.042
+25/1000 . 42/1000
+1050/1000000
+0.001050
+
+f. (0.11)^3
+(11/100)^3
+1331/1000000
+0.001331
+
+6.23
+the product 100 * 33.67 * 3.367 * 1000 is equal to the square of what positive number?
+answer:
+this is just basically the same as 3367 . 3367 so its a square of 3367^2 ?
+
+6.24
+what is the value of 6/0.3 + 0.3/0.06
+answer:
+6 : 3/10 -> 6 * 10/3 -> 60/3 -> 20
+
+3/10 : 6/100 -> 3/10 * 100/6 -> 300/60 -> 5
+
+20 + 5 = 25
+
+6.25
+by how much does 3.5 exceed in its reciprocal? express your answer as a fraction/
+3.5 = 35/10 = 7/2
+the reciprocal of 7/2 = 2/7
+calculate the diffrence
+
+7/2 - 2/7
+49-4/14
+45/14
+
+6.26
+compute (0.2)^3/(0.02)^2
+
+answer:
+(0.2)^3
+(2/10)^3
+(1/5)^3
+1/125
+
+(0.02)^2
+(2/100)^2
+(1/50)^2
+1/2500
+
+1/125 : 1/2500
+1/125 * 2500/1
+20
+
+scientific notation
+(2 . 10^-1)^3 = 8 . 10^-3
+(2 . 10^-2)^2 = 4 . 10^-4
+divide = 2 . 10^1
+
+
+6.27
+nanette rounds 10.68494 to the nearest hundreth
+duane rounds 10.68494 to nearest integer
+
+what is the postiive diference etween the two answer? expresss as fraction
+nanette = 10.68494 since its nearest hundred check for the thousands/next decimal which will be the decider
+since its 4 we can round as 10.68
+
+duanne: nearest integer 
+10.6 since 1st decimal is > 5 we can round this as 11
+
+so the difference is 11 - 10.68
+0.32 = 32/100 = 8/25
+
+6.28
+it costs 2.5c to copy a page
+how many page can you copy for $20
+
+let n be the number of page
+2.5n = 2000
+n = 2000/2.5
+n = 2000 : 25/10
+n = 2000 * 10/25
+n = 20000/25
+n = 800
+
+
+
+6.29
+expres each of the folowing fractions as decimal:
+a. 11/8
