@@ -103,4 +103,73 @@ c. 3/5 : 1/10
 d. 100 : 500
 1 : 5
 
-e. 
+e. 2 1/4 : 3 5/8
+9/4 : 29/8
+8 . 9/4 : 8 . 29/8
+18 : 29
+
+h. 672 : 0
+672 / 672 : 0 / 672
+1 : 0
+
+7.1.2
+there are 10 boys in a class of 25 students whats the ratio of girls to boys?
+answer:
+
+let x be boys and y be girls
+values
+boys = 10
+girls = 25 - 10 = 15
+
+the ratio of boys to girls = 10 : 15
+2 : 3
+
+
+7.13.
+gear a makes 2 revolutions for every 5 revolutions gear b makes
+if gear a makes 36 revolutions in 1 minute then 
+how many revolutions does gear b make in 1 minutes?
+
+answer:
+
+ratio is
+2 : 5
+
+36 : b
+36 : 36 * 2 + 18
+36 : 90
+gear b makes 90
+
+; ===========================================
+
+7.1.4
+the ratio of girls to boys participagin in intramural volleyball of ashland middle school is 
+7 to 4. there are 42 girls in the program. what is the total number of participants?
+
+answer:
+42 : 7 = 6 girls per 1 ratio
+
+7 . 6 : 4 . 6
+42 : 24
+
+total participants = 42 + 24 = 66
+
+; ===========================================
+
+7.1.5
+two numbers are in the ratio 3 : 8
+their sum if 44. what is greater of the two numbers?
+
+total part = 11
+1st -> 3 / 11 . 44 = 12
+2nd -> 8 / 11 . 44 = 32
+
+the greater is 32
+
+alternative
+find the value per part
+3n + 8n = 44
+11n= 44
+n = 4
+
+8n = 8 . 4 = 32
