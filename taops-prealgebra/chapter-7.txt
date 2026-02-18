@@ -173,3 +173,132 @@ find the value per part
 n = 4
 
 8n = 8 . 4 = 32
+
+7.1.6
+an 8inch long sub sandwich is cut into 2 pieces whose length
+is ratio of 7 to 5
+how lng is the shorter piece?
+
+answer
+total part = 12
+shorter piece = 5/12 . 8 = 40/12 = 10/3 = 3 1/3 inches
+
+alternative find the value per part
+7n + 5n = 8
+12n = 8
+n = 8/12 = 2/3
+5 . 2/3 = 10/3 = 1/3 inches
+
+
+7.17
+a father left 280 acre of land to be divided among his sons al and bob in the ratio
+4 : 3 respectively. how many acres should al receive?
+
+answer:
+so total acreis 280
+
+find value per part
+4n + 3n = 280
+7n = 280
+n = 40
+
+multipply
+4 . 40 = 160 acres
+
+alternatiely
+4/7 . 280 = 4 . 40 = 160
+
+7.1.8
+two postive numbers are in the ratio of 4:9
+their difference is 30
+what is the sum mof the two numbers
+
+answer:
+9n - 4n = 30
+5n = 30
+n = 6
+
+4.6 + 9.6
+24 + 54
+78
+
+7.1.9
+the ratio of teachers to students in particular school is 1 : 11
+the ratio of female students to total number of students is 4 : 9
+ifthere are 396 female students how many teachers are there
+
+answer:
+find value/part blocks
+396 : 4 = 99 blocks
+
+
+total student  = 9.99 = 891
+4/9 . 891
+
+now calc the teacher
+since we know in 1 : 11 the 11 represents 891 just divideit by 11
+so the totalteacher is 81
+
+
+7.1.10
+the ratio of losses to wins for kyle team is 3 : 2
+if hte team had played the same num of games but had won
+twice as many of its games, then what should the ratio of losses to wins have been?
+hint: use variable to write expr for how many games kyles team won and lost
+
+answer:
+games kyles team won: 1:4
+
+
+7.1.11
+the ratio of pennies to dimes in a jar is 2 : 5
+and there are a total of 245 pennies and dimes in the jar
+how many pennies should be added to make ratio of pennies to dimes be 3 : 7
+
+answr:
+total parts = 7
+find the blocks
+pennies = 2/7 . 245 = 70
+dimes = 5/7 . 245 = 175
+
+since we just wanna add the penny freeze the dime count
+something : 175 should be 3 : 7
+
+find the base block count -> 175 : 7 = 25
+therefore the total count should be  75 : 175
+
+in other words the difference = 75 - 70 = 5
+just add 5 more penny
+
+
+=========================
+
+multiway ratio
+problem 7.6
+simplify the folowing ratios
+a. 5 : 15 : 10
+b. 6 : 10 : 9
+c. 8 : 32 : 4 : 8
+d. 1/2 : 1/3 : 2/3
+e. 3 1/3 : 4 1/4 : 5 1/5
+
+a. common factors is 5
+1 : 3 : 2
+
+b. no common factor, so 
+6 : 10 : 9
+
+c. comon factor is 4
+2 : 8 : 1 : 2
+
+d. mult by 6
+1/2 . 6 : 1/3 . 6 : 2/3 . 6
+3 : 2 : 4
+
+e. 10/3 : 17/4 : 26/5
+lcm = 60
+10/3 . 60 : 17/4 . 60 : 26/5 . 60
+200 : 255 : 312
+
+ 7.7
+ 
