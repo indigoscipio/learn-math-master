@@ -301,4 +301,157 @@ lcm = 60
 200 : 255 : 312
 
  7.7
- 
+ a bowling tournamesnt pays out prizes to top 3 players in ratio 5:2:1
+ if total prize money is $1000 then how much the first place winner receive
+
+answer
+ total part = 5+2+1=8
+ highest - 5
+ 5/8 . 1000 = 5.125 = $625
+
+
+7.8
+sam wants to bake a cake that requires butter flour sugar and milk in ratio
+1 : 6 : 2 : 1. sam has 1/2 cup of sugar
+how much of the other ingredients does he need?
+
+answer
+find value per part
+since sugar has 2 ratio and the value is 1/2
+1 ratio is 1/2 : 2 = 1/2 . 1/2 = 1/4
+
+so remaining ingredient is
+1 . 1/4 : 6 . 1/4 : 2 . 1/4 : 1 . 1/4
+1/4 : 3/2 : 1/2 : 1/4
+
+method 2
+alternatively, try solving two ratios one by one by eliminating
+
+method 3:
+use "parts of the whole"
+sugar is 2/10 = 1/5 of the total
+total quantity is 1/2 : 1/5 = 5/2 cups of the total ingredient quantity
+
+
+
+
+7.9
+jamal needs 3 galons of a mix that is two parts blue paint
+three parts white pant
+and one part red paint
+
+how many galoons of red paint will he need?
+
+answer:
+so the total is 3 galons
+and the multiratio of blue : white : red is
+2 : 3 : 1
+
+total part = 2+3+1 = 6
+to find red just do
+1/6 . 3 = 1/2 galons
+
+problem 7.10
+i have blots bleets and blits in a bag
+the ratio of the number of blots to bleets is 3 : 4
+
+the ratio of bleets to the number of blits is 5 : 6
+what is the ratio of the number of blots to the numbero f blits?
+
+answer:
+so we have
+blots : bleets : blits = ? : ? : ?
+
+but we know
+blots : bleets = 3 : 4
+bleets : blits = 5 : 6
+
+mult until bleets has the same num
+mult by 5 -> blots : bleets = 3 : 4 = 15 : 20
+mult by 4 -> bleets : blits = 5 : 6 = 20 : 24
+
+simplify - cannot be further
+so the final ratio 15 : 20 : 24
+
+ratio to blots : blits =
+15 : 24 = 5 : 8
+
+Exercise
+7.2.1
+a long whose length is 60 inches is cut into 3 pieces in ratio
+1 : 3 : 5
+whats the numer of inches inthe length of the shortest piece
+
+answer
+since we know the total is 60 use parts of whole
+total parts = 1+3+5 = 9
+the shortest is 1/9 . 60 = 60/9 = 20/3 = 6 2/3 inches
+
+7.2.2
+three numbers have ratio 1 : 2 : 3 and their sum is 48
+what is the greatest of 3 numbers
+3/6 . 48 = 1/2 . 48 = 24
+
+7.2.3
+purple paint is made with a 16 : 3 : 1 ratio of
+white paint : blue paint : red paint
+
+how much red paint is neede in order to make one gallon of purple paint
+answer:
+
+16/20 . 1 = 4/5 gallon
+
+
+7.2.4
+3 friends akira bruono camera ppoled their money to start lemonade stand
+akira: contributed $25
+bruno: contributed $20
+carmela: contributed $35
+
+after a month their lemonade stand earnedd $2000
+they wanna distribute this money in the same ratio as the money was invested
+how many collars will bruno received
+
+answer:
+ok so initial investment
+a : b : c = 25 : 20 : 35
+a : b : c = 5 : 4 : 7
+
+now we know total income $2000
+since b has 4 ratio and total part = 5+4+7=16
+4/16 . 2000
+1/4 . 2000 = 500
+
+7.2.5
+the top four winners ina golf tournament share the prize money in the ratio
+9:5:2:1
+if the top prize winner receive $45000 then how much prize money was awarded in total?
+
+answer:
+since we know the 9 ratio has 45000
+just divide it by 9 to find how much each 1 block is valued
+
+45000/9 = $5000
+
+so the total prize money = 9+5+2+1= 17 . 5000 = $85000
+
+or alternatively
+ratio of top winner : total = 9 : 17
+multiply by 5000 to match 45000
+45000 : 85000
+
+7.2.6
+alex owns 3 times as many brown shoes as red shoes
+twice as many black shoes as brown shoes
+four times as many white shoes as red shoes
+whats the ratio of the number of white shoes to black shoes he owns?
+
+answer:
+we know
+brown : red = 3 : 1
+black : brown = 2 : 1
+white : red = 4 : 1
+
+we wanna find ratio white : black
+
+
