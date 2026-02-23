@@ -491,6 +491,7 @@ so the greatest is $78
 ;=================================================================
 
 7.3 proportions
+
 problem 7.11
 charlotte is planning a vacation to europe
 the exchange rate is 1 usd = 0.6 eur
@@ -524,6 +525,10 @@ mult both sides by 3
 x = 1 7/8
 therefore we will need 1 7/8 cups of flour
 
+method 2: scale the quantity
+3/4 . 2 1/2 = 3/4 . 5/2
+solve fom here
+
 
 7.13
 sadie is 3 feet tall and
@@ -549,10 +554,11 @@ so his length is 13 1/3 feet
 alternatively
 since w know sadies shadow is 8/3 times as long as her height
 shadow : height = 8/3, therefore the shadow is 8/3 times the height
-
 then nicks shadow must also be 8/3 times as long as his height
-
 5 . 8/3 = 40/3
+
+alternatively
+5/x = 3/8
 
 problem 7.14
 my map of upstate new york has the scale 1/4 inch = 5 miles
@@ -576,5 +582,85 @@ sylbia draws blueprints for the building on which the building is 8 nches tall
 how tall are the windows on sylvias blueprints?
 
 answer:
+we konw the  ratio to building : window = 30 : 8 = 15 : 4
+
+now the new value for building is now 8 inches
+we need to find the building value
+
+since we know
+building : window
+15 : 4
+8 : x
+
+15/4 = 8/x
+mult by 4x
+15x = 32
+x = 32/15
+= 2 2/15 inches
+
+alternatiely
+since we know the  window is 4/15 of the building,
+just multiply 4/15 . 8 = 32/15
+
+
+-----
 
 problem 7.16
+my wallet size photo of my pet cat snookums is 3cm wide and 5cm tall
+if i want larger photo to put on my wall and i want the are aof the photo ot be 135 square cm
+then how many cm wide should the larger photo be?
+
+answer:
+
+width : height = 3 : 5
+and we have a new total area = 135cm^2
+to find rectangle area = width * height
+
+old area = 3 x 5 = 15cm^2
+factors of 135 = 3 . 3 . 3 . 5
+therefore the new ratio w:H should be 
+9 : 15 = 135 total
+so the new width tshould be 9cm
+
+Exercises
+7.3.1
+a ream of paper containing 500 sheets is 5cm thick
+how many sheets of this type of paper would there be a stack 7.5cm high?
+
+answer:
+ratio of paper count : thickness = 500 : 5 = 100 : 1
+that means 2.5cm = 250 sheets just add it
+500 + 250 = 750total shetts
+ 
+alternatively
+100/1 = x/7.5
+100 . 7.5 = x
+750 = x
+
+7.3.2
+an american traveling in japan wishes to exchange american money fo japanes money
+if the exchange rate $1 = y80 how many dlars will traveler need to purchase y10000?
+
+answer:
+first calculate the ratio usd to yen = 1 : 80
+so for every 1 usd you get 80yen
+
+we wanna convert 10000yen
+1/80 = x/10000
+1/80 . 10000 = x
+125 = x
+so you'd need 125 usd to oget 10000 yne at this rate
+
+7.3.3
+alexia designed a logo 2 inches wide and 1.5 inches tall to be used on her shcool website
+the school wants the logo to appear on the website as 8 inches wide
+how tall will the logo be on the website if its enlarged proportionally?
+
+we know the ratio of w:h = 2 : 1.5
+
+so 2 : 1.5 = 8/x
+2/1.5 = 8/x
+mult both side by 1.5x
+2x = 8 . 1.5
+2x = 12
+x = 6
