@@ -664,3 +664,43 @@ mult both side by 1.5x
 2x = 8 . 1.5
 2x = 12
 x = 6
+
+7.3.4
+a bank has two flagpoles next to eachtoher
+if th taller 30ft pole (flying us flag) casts a shadow of 20ft
+and shorter flagpole (flying state flag) casts shadow of 15ft
+how tall is the shorter?
+
+ratio of height:shadow
+30:20 = x:15
+3:2 = x : 15
+3/2 = x/15
+3/2 . 15 = x/15 . 15
+45/2 = x
+x = 22 1/2 ft
+
+alternatively
+smaller pole shadow = 15/20 of the taller one
+since we know the height of tall one
+its 15/20 . 30 = 22.5
+
+7.3.5
+if 1/4 inch on a map represents 50 miles then what is the number of miles represented by 2 7/8 inces
+
+answer:
+ratio of inch: miles
+1/4 : 50
+0.25 : 50
+25 : 5000
+1 : 200
+
+23/8 . 200
+23 . 25 = 575 miles
+
+7.3.6
+a draftsperson makes a scale drawingof 100m x 300m building
+where 1cm represnts 2.5cm
+how many cms are in the smaller idmension of the drawing of the building
+
+answer:
+
