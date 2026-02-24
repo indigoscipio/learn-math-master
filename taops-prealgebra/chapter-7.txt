@@ -698,9 +698,58 @@ ratio of inch: miles
 23 . 25 = 575 miles
 
 7.3.6
-a draftsperson makes a scale drawingof 100m x 300m building
+a draftsperson makes a scale drawingof 100m x 30m building
 where 1cm represnts 2.5cm
 how many cms are in the smaller idmension of the drawing of the building
 
 answer:
 
+ratio of drawing : building = 1 : 2.5
+
+since wknoe the larger one is 100 x 30
+
+just divide it by 2.5
+100 : 2.5 x 30 : 2.5
+= 40 x 12 cm
+
+7.3.7
+12 frnds met for dinner at oscars overstuffed oyster house each ordered one meal
+portion were so large there was enough food for 18 people
+if they share then how many meaals should they have ordered to have just enough food for the 12 of them
+
+answer:
+one person orders 1 meal, we dont know bow big that 1 meal is
+
+people are fed by one meal = 18/12 = 3/2 = 1 1/2 portion
+so ratio expected meal : actual meal = 1 : 1.5
+
+
+1 / 1.5 = x/12
+1/1.5 . 12 = x
+12/1.5 = x
+8 = x
+they should have ordered 8 portion
+
+alternatively
+ratio of meal : people = 12 : 18 = 2:3
+2:3 . 12 = 8
+
+7.3.8
+for every 3deg rise in temp the volume of certain gas expands 4cubic cm
+if the vol of the gas is 24 cubic cm when the temp is 32deg
+then what was the volume of the gas when the temp was 20deg?
+
+answer:
+ratio of temp:vol = 3 : 4
+
+32 : 24 hmm doesn't make sense doesn't follow the previous ratio
+
+start temp = 32deg
+target temp = 20deg
+differnce = 12 deg
+
+find out how much tmep dropped
+16 cubic cm
+
+
+24 - 16 = 8
