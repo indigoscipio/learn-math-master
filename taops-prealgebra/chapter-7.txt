@@ -819,5 +819,27 @@ there are 4 quarts in a galon
 how much does 7 quarts of water weigh?
 
 answer:
+find out the ratio
+quarts : gallon = 4 : 1
+
+7 (quarts) . 1/4 = 7/4 gallon
+
+find how much it weight
+7/4 . 8.3 = 7/4 . 83/10 = 581/40 = 14 21/40
 
 7.21
+an inch is approx. 2.5cm
+approx how many square cm are in a square inch?
+
+answer:
+we know ratio inch : cm = 1 : 2.5
+
+so ratio of square cm to square inch just square it
+1^2 : 2.5^2
+1 : 6.25
+
+7.4.1
+suppose that one usd is worth cad1.25 in canadian dolar
+if i want to buy cad15 in canada how many usd do i need
+
+answer:
