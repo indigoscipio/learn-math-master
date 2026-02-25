@@ -753,3 +753,71 @@ find out how much tmep dropped
 
 
 24 - 16 = 8
+
+=================================
+Conversions
+
+method 1 : link/chain method
+method 2: conversion factor
+
+conversion factors are fractions that are equal to 1
+multiply conversion factors together to cancel units
+
+inces : feet : yards = 36 : 3 : 1
+
+7.1.7
+hwo many yards equals 90 inches?
+
+90 . 1 = 90 (inches) . 1 (yard)/36 (inches) = 90/36= 30/12=5/2= 2 1/2 yard
+
+
+7.18
+a table spoon is half of a fluid once
+a cup is 8 fluid onces
+a galoon is 16 cups
+how many tablespoon are ina galoon?
+
+answer:
+find the ratio first
+tbsp : fluid once = 1 : 0.5
+cup : fluid ounce = 1 : 8
+galoon : cup = 1 : 16
+
+we wanna find tbsp : gallon
+
+tbsp : fluid once = 1 : 0.5 - mult by 16
+tbsp : fluid once = 16 : 8
+connect
+tbsp : fluid ounce : cup = 16 : 8 : 1
+
+now multiply these by 16
+tbsp : fluid ounce : cup : gallon = 256 : 128 : 16 : 1
+
+therefore 1 galon has 256 tablespoons
+
+7.19
+will took $1000 from his trip to japan
+where his exhange rate between usd and yen is 1usd = 90yen
+he spent 45000yen on his hotel room and 11250 on meals and souvenirs
+how much money in usd did he have remaining at the end of this trip?
+
+answer:
+
+we know the ratio usd to yen is 1 : 90
+find out original amount in yen -> 1000 * 90 = 90000yen
+
+find the remaining after hotel and meals in yen
+90000 - 45000 + 11250 = 56250 yen remaining
+
+convert to usd
+56250 (yen) . 1/90 = 56250/90 (yen)
+= cancel out -> 625 usd 
+
+7.20
+the density of water is approx 8.3 pounds per gallon
+there are 4 quarts in a galon
+how much does 7 quarts of water weigh?
+
+answer:
+
+7.21
