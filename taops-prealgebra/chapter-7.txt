@@ -843,3 +843,67 @@ suppose that one usd is worth cad1.25 in canadian dolar
 if i want to buy cad15 in canada how many usd do i need
 
 answer:
+find the ratio
+cad to usd = 1.25 : 1 = 125:100 = 5:4
+
+we wanna find usd
+15 (cad) = 4/5(cad) = 3 . 4 = 12 usd
+
+7.4.2
+basketball center steve tootall is 7 feet 2 inches in height
+whats steve height in inches
+
+inces : feet : yards = 36 : 3 : 1
+
+7.2 (feet) . 36/3(feet) = 7.2 . 12 = 86.4 inches
+
+7.4.3
+recall that i inch is 2.5cm
+what is the area in square cm of a square that is 1/2 feet long on each side?
+
+answer:
+find side length in feet
+1/2 (feet) . 36/3(feet) = 0.5 . 12 = 6 inches
+
+find the centimeter
+6 . 2.5 = 15 cm
+
+square it = 225 cm squared
+
+7.4.4
+there are approx 28.35 grams in an ounce and 16 ounches in a poundd
+how many grams does a quartr pound hamburger weigh
+round your answer to nearest whole number of grams
+
+answer:
+find the ratio first
+gram : ounce = 28.35 : 1
+ounce : pound = 16 : 1
+
+we need to convert 0.25 lbs in gram
+0.25 (pound) . 16 (ounce)/1(pound) . 28.35(gram)/1(ounce)
+= 0.25 . 16  . 28
+= 1/4 . 16  . 28.35
+= 4 . 28.35
+= 113.4 grams
+= 113 grams
+
+7.4.5
+natalya secret receipe for peanut butter cookies calls for 2 1/2 cups of flour
+unfortunately natalya has lost all her measuring equipment except for teaspoon
+there are 3 teaspoons in a tablespoon
+1/2 ounce in a table spoonand 8 ounces in a cup
+
+how many teaspoons of flour does natalya need for her recipe?
+answer:
+
+find ratio
+we wanna find 2.5 cup
+
+teaspoon : tablesppon = 3 : 1
+ounce : tablespoon = 1/2 : 1
+ounce : cup = 8 : 1
+
+2.5 (cup) . 8(ounce)/1(cup) . 1(tablespoon)/1/2(ounce) . 3(teaspoon)/1(tablespoon)
+= 2.5 . 8 . 2 . 3
+= 120 teaspoons
