@@ -907,3 +907,42 @@ ounce : cup = 8 : 1
 2.5 (cup) . 8(ounce)/1(cup) . 1(tablespoon)/1/2(ounce) . 3(teaspoon)/1(tablespoon)
 = 2.5 . 8 . 2 . 3
 = 120 teaspoons
+
+7.4.6
+1000m is 1km
+100 hectares is 1 km^2
+
+how many square meter are in 1 hectare
+answer:
+
+ratio m : km = 1000 : 1
+
+we know 1km . 1km = 100 hectares
+1000m . 1000m = 100 hectares
+that means 1000000m^2 = 100 hectares
+divide by 100
+1 hectare = 10,000m^2
+
+alternatively
+
+1h . 1(km^2)/100(h) . (1000(m)/1(km))^2
+= 1/100 . 1000000 = 10000
+
+
+7.47
+on planet qinbob the unit currency is ploktar
+the unit of weigh is stuun
+the unit of volume is piquat
+the precious liquid vimwy is worth 400 ploktars per stuun and has density of 20 stuun per piquat
+if annie has 500 piquat of vimwy then how many ploktars is her vimwy worth?
+
+answer:
+lets organize the variable
+weight(w) = stuun, vol(v) = piquat, currency(c) = ploktar
+
+
+annie has 500(v) of the item
+we wanna know how many currency is this item worth
+
+we know the ratio of 1 vimwy
+ : currency = 
