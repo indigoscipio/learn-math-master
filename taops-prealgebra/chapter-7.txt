@@ -999,8 +999,69 @@ alternatively
 7.24
 if you walk for 45min at a rate of 4mph
 and then run for 30m at rate of 10mph
-how man miles have you gone at the end of one hour and 15 minutes?
+how many miles have you gone at the end of one hour and 15 minutes?
 what was your average speed or the journey?
 
 answer:
+ok so we wanna find distance
+speed = distance/time
+so distance = time * speed
 
+first -
+ 45m * 4(miles)/1(hour) - 3/4 . 4 = 3 miles
+second - 30m . 10(miles)/1(hour) - 1/2 . 10 = 5 miles
+
+total time consumed = 30+45m = 75m = 1 hour 15 minutes
+so total distance up to this point = 3 + 5 = 8 miles
+
+next is finding average speed
+avg speed = total distance / total time
+= 8 / 1.25 = 6.4 mph
+
+7.25
+shelly drove 50miles from her home to her office at avg speed 75mph
+coming home she encountered heavy traffic and drove the same 50 miles at avg speed ot 50mph
+what was her avg speed for the entire 100 mile roundtrip?
+
+answer:
+so we wanna find avg speed for the 100mile
+need to find total time
+
+1st trip
+time = 50 miles/75mph  = 2/3 hour = 2/3 . 60 = 40 minutes
+
+2nd trip
+time = 50 miles / 50mph = 1 hour = 60 minutes
+
+total time = 100 minutes = 1 2/3 hour
+
+avg speed = total distance / total time
+= 100 / 5/3
+= 100 * 3/5
+= 300 / 5 = 60 mph
+
+7.26
+ben leaves his house at 7am and bikes at constant speed 15mph due east
+alisha lives 100 miles due east of ben leaves her house at 8am, bikes at constant speed at 10mph due west
+at what time do they meet?
+
+ok so we want to find the time where the two meet
+
+ben speed = 15mph
+alisha = 10mph
+distance between alisha and ben is 100 miles
+
+so this is like a gcd/lcm thing, find common multiple
+lcm(10,15) = 2 . 3 . 5 = 30
+
+but we wanna find the time
+
+ben
+8am - 100-15 = 85
+9 am - 85 - 15 = 70
+
+alisa
+9am - 100-10 = 90
+10am - 90 - 10 = 80
+11am = 80-10 = 70
+...
