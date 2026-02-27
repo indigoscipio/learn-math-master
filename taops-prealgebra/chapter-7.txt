@@ -940,9 +940,67 @@ answer:
 lets organize the variable
 weight(w) = stuun, vol(v) = piquat, currency(c) = ploktar
 
-
 annie has 500(v) of the item
 we wanna know how many currency is this item worth
 
 we know the ratio of 1 vimwy
- : currency = 
+ploktar : stuun = 400 : 1
+stuun : piquat = 20 : 1
+
+500 (piquat) . 20(stuun)/1(piquat) . 400(ploktar)/1(stuun)
+= 500 . 20 . 400
+= 10000 . 400
+= 4,000,000 ploktars
+
+
+
+7.5 Speed
+speed is ratio of distance to time
+
+speed = distance/ time
+distance = speed . time
+time = distance / speed
+
+7.22
+a. how far does a car traveling at 75mph travel in 2.6h?
+b. if a truck travels at constant speed and travels 238mph in 3.5h at what speed the truck travel
+c. how long a motorcycle traveling at 80mph need to travel 420miles
+
+answer:
+a. we know speed is 75mph and time is 2.6
+distance = speed . time
+= 75 * 2.6 = 195 miles
+b. we know the distance is 238
+time is 3.5
+to find speed just do 
+speed = distance / time = 238 / 3.5 = 68mph
+c. speed is 80mph
+distance is 420
+time = distance/speed = 420/80 = 5.25hour
+
+7.23
+a freight train travels 1mile in 1 m 30s
+at this rate how many miles will the train travel in 1hr?
+
+answer:
+find out speed per hour first
+1 mile = 90s
+x mile  = 3600
+
+1/90 = x/3600
+x = 3600 . 1/90
+x = 3600/90
+x=40
+
+alternatively
+3600(secs). 1/90(secs)
+40 miles
+
+7.24
+if you walk for 45min at a rate of 4mph
+and then run for 30m at rate of 10mph
+how man miles have you gone at the end of one hour and 15 minutes?
+what was your average speed or the journey?
+
+answer:
+
