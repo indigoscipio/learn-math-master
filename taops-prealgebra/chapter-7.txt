@@ -1057,11 +1057,97 @@ lcm(10,15) = 2 . 3 . 5 = 30
 but we wanna find the time
 
 ben
-8am - 100-15 = 85
-9 am - 85 - 15 = 70
+8am - 15 miles
+9am - 30 miles
 
-alisa
-9am - 100-10 = 90
-10am - 90 - 10 = 80
-11am = 80-10 = 70
-...
+aisha
+9am - 10 miles
+10am - 20 miles
+
+combined = 15 + 10 miles per hour = 25mph
+start time = 85 (ben got a head start, synchronize both time)
+
+time = 85/25 = 3 10/25 = 3 2/5 = 3 hour 24 minutes
+
+add it to 8am start time = 11 :24 in the moring
+
+7.27
+a. on monday yogi and boo boo start at the same place and same time on 400m circular track
+and rin in opposite direction
+yogi runs 5 meter per second and boo boo rnus 3mps. in how many secs will they first meet after starign?
+b. on monday yogi and boo boo start at the same place and same time on 400m circular track
+and run in same direction
+yogi runs 5 meter per second and boo boo rnus 3mps. in how many secs will they first meet after starign?
+
+
+answer:
+
+a. we know distance = 400m
+yogi speed = 5mps
+boo speed = 3 mps
+combined speed = 8mps
+
+since they run opposite direction
+combine the speed (closing the gap faster)
+
+sec 1 - yogi 395, boo 397
+sec 2 - yogi 390, boo 394
+
+time = distance/speed = 400/8 = 50
+
+
+b. find relative speed
+diference yogi - bobo = 5 - 3 = 2
+
+yogi gain 2 mps on bobo every second
+yogi needs to do full track lap
+
+7.5.1
+a. at 50 miles per hour how far does a car travel in 2 3/4 hours
+answer:
+we know speed = 50mph
+time = 2 3/4
+
+s=d/t
+distance = s.t = 50 . 2.75 = 137.5
+50 . 11/4 = 12.5*11 = 137.5
+
+b. at 60mph how long does it take a car to travel 320 miels?
+
+answer
+s=d/t
+t=d/s = 320/60 = 16/3h = 5h 20m
+
+c. how fast dose a car have to travel to go 280miles in 3 1/2 hours?
+answer:
+speed = d/t
+280/ 7/2 = 280 * 2/7 = 80mph
+
+7.5.2
+
+On a sunny July day, Mo starts at 10 a.m. in Calgary, at
+which time her car's odometer reads 27289 kilometers. At 4 p.m.
+she arrives in Saskatoon, at which time her car's odometer reads 27816 kilometers. 
+(Mo did not need to adjust her clock for a time zone crossing, because in the summer 
+the time in Calgary is the same as the time in Saskatoon.) 
+What was her average speed for the trip?
+
+starting time = 10am
+start odometer = 27289
+
+end time = 4pm
+end odometer = 27816
+
+so we know total time = 6 hr
+and distance covered = 27816-27289 = 527km
+
+to find the avg speed
+527/6 = 87 5/6 km/H
+
+7.5.3
+on a trip car traeled 80 miles inan hour and a half
+then was stopped in traffic for 30m
+and traveled 100miles during the next two hour
+what was the car avg speed for the 4h trip?
+
+answer:
