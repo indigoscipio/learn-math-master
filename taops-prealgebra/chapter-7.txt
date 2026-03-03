@@ -1151,3 +1151,70 @@ and traveled 100miles during the next two hour
 what was the car avg speed for the 4h trip?
 
 answer:
+total time = 4h
+total distance = 80 + 0 + 100 = 180
+
+avg speed = total distance / total time
+= 180/4 = 45mph
+
+7.5.4
+peter had 12:00 noon appointment that was 60 miles from his home
+he drove from his home at average rate of 40mph and arrived 15m late
+at what time did peter leave home for the appointment?
+
+answer:
+
+s=d/t
+t=d/s
+
+60/40 = 6/4 = 3/2 = 1.5 hours to take the entire 60 miles from his home
+so he left at 10:30 am
+however since he arrievd 15m late
+
+offset it so 10:45am
+
+7.5.5
+i usually walk from hoem to work
+this morning i walked 10min until i was halfway to work
+then i realized that i would be late if i kept walking
+i run twice as fast as i walk
+how many minutes total did it take me ot get from home to work?
+
+t=d/s
+
+we dont konw the distance
+and the speed
+
+but we know
+10m -> already halfway
+
+first half = 10min
+second half = 5min
+
+total time = 15m
+
+7.5.6
+a train is traveling 1 mile every 75 seconds
+if the train continues at this rate
+then how far will it travel in two hours?
+
+answer:
+s=d/t
+d=s.t
+
+find speed per hour
+= 1 . 3600/75 = 48mph
+
+calc distance
+48 * 2 = 96 miles
+
+
+7.5.7
+jason and jermy work together at juggling ball factory
+jason lives 25 miles away from factory and drives at 60miles per hour
+jeremy lives 35 miles away from factory and drives 70 miles per hour
+if they leave their houses at the same time
+then who arrives at the factor yfirst
+and how long is it until the other arrives
+
+answer
