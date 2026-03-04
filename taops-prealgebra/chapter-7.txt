@@ -1218,3 +1218,116 @@ then who arrives at the factor yfirst
 and how long is it until the other arrives
 
 answer
+
+s=d/t
+d = s.t
+t=d/s
+
+jason time = 25/60 = 5/12 hour
+jeremy time = 35/70 = 1/2 hour
+
+since 5/12 is smaller than 1/2 jason arrives first
+difference = 1/2 - 5/12 = 6-5/12 = 1/12 hour = 1/12*60 = 5 minutes
+
+7.5.8
+a man drives from his home at 30mph to shopping mall thats 20miles from his home
+on the return trip he encounters heavy traffic and averages 12 miles per hour
+to the nearest mile per hour what is his average speed for the round-trip to and from the mall?
+
+answer:
+first trip
+speed = 30mph
+distance = 20 miles
+time = 20/30 = 2/3 hour = 2/3.60 = 40 minutes
+
+return trip
+avg = 12 mph
+distance is 20 miles
+we dont know what is the time
+time = 20/12 = 10/6=5/3 = 5/3 . 60 = 100 minutes
+
+total distance = 40
+total time = 100+40 = 140 minutes = 2h 20 minutes
+
+avg speed = total distance/  total time
+= 40/140/60 = 40 . 60/140 = 2400/140 = 240/14 = 120/7 = 17 1/7 mph
+
+7.5.9
+two dogs run around circular track 300 ft long in the same direction
+one dog runs at steady rate of 15ft per second
+the other at steady rate of 12 ft per second
+
+suppose they start at the same point and time
+what is the least number of seconds that will elapse before they are again together?
+answer:
+
+we konw the distance is 300ft
+dog1 = 15fps
+dog2 = 12fps
+
+since its the same direction and dog1 is faster calc the "difference"
+15-12 = 3 fps faster - calculate distance to gain 1 lap with this speed
+
+300 / 3 = 100 -> therefore 100 seconds
+
+7.5.10
+a train traveling at 30mph reaches a tunnel that is 9 times as long as the train
+if the train takes 2 minutes to completely clear the tunnel
+how long is the train in feet? (1 mile equals 5280 feet)
+
+hint: how many traing lengths does the train travel to clear the tunnel?
+
+answer:
+we know
+
+distance = 9tl
+train travels at 30mph
+
+start -> finish takes 2 minutes
+
+s=d/t
+9tl + 1tl = s.t = 30 . 2 = 60
+
+d=s.t = 2/60.30 = 1 mile for each 2 minutes
+
+
+7.6
+other rates
+
+problems 7.28
+jason can type at a rate of 40wpm
+how long will it take him to type a 2000wd essay
+
+answer
+s=d/t
+t=d/s = 2000 / 40 = 200/4 = 50 minutes
+
+7.29
+a hose fills a swimming pool at rate of 0.5 gallons per second
+if the pools capacity is 9000 galons then how many hr
+does it take for the hose to completely fill empty pool
+
+answer:
+we know the rate is 0.5 galon per second -> 0.5*3600 = 1800 galon per hour
+
+
+t=d/s = 9000 / 1800 = 90/18 = 5 hours
+
+7.30
+julie wants to give 45m speech
+and she speaks 120words per minute
+her writeten notes contain 500 owrds per page
+how many pages should she prepare?
+
+answer:
+
+t = 45m
+rate = 120words/min
+distance = 500words per page
+
+find optimal distance
+s=d/t
+d=s.t = 120*45 = 5400 pages
+5400 / 500 =  54/5 = 10 4/5 pages so less than this so 10 pages
+
+7.10
