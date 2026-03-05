@@ -1330,4 +1330,43 @@ s=d/t
 d=s.t = 120*45 = 5400 pages
 5400 / 500 =  54/5 = 10 4/5 pages so less than this so 10 pages
 
-7.10
+7.31
+rajivs car has tires that have circumference 75 inch (circumference is the distance around
+the outside of tire)
+how many revolutions will his tires make if rajiv drives to a store that is 1/4 mile away?
+asusume the drive is completely straight and recall 1 mile is 5280 feet
+
+answer:
+find out how many 1 revolution is
+
+1/4 mile = 1/4 . 5280 = 1320 feet
+
+we know ratio of inches to feet = 12 : 1
+75 inch to feet = 75/12 = 6 1/4 - so 1 revolution = 6 1/4 feet
+
+divide 1320 / 25/4 = 1320 . 4/25 = 211.2
+
+7.32
+if 5 woodchucks could chuck 50 cords of wood in 4 days
+
+how many cords of wood could 7 woodchucks chuck in 6 days?
+
+answer:
+time = 4d
+rate = 5 woodchucks
+distance = 50
+
+find how much 1 woodchuck can chuck x cord of wood in y days
+1 woodchuck = 50/5 cord in 4 days = 10 cord in 4 days
+that means 
+1 woodchusk can make 10/4 cord in 1 day = 2 1/2 cord in one day
+
+7 woodchuck per day = 7 . 2 1/2 = 7 . 5/2 = 35/2 cords
+multiply by 6 = 35/2 . 6 = 35 . 3 = 105 cords in 6 days
+
+7.33
+tom can paint mr thatchers fence in 6h
+while huck can paint mr tatchers fence in 5 hr
+if they work together then how long will it taken them to paint the fence?
+answer:
+
