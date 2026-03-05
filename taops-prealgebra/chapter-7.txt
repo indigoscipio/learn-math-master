@@ -1313,6 +1313,13 @@ we know the rate is 0.5 galon per second -> 0.5*3600 = 1800 galon per hour
 
 t=d/s = 9000 / 1800 = 90/18 = 5 hours
 
+alternative from the book: with unit fractions
+time in secons = 9000 . 1/0.5 = 9000/0.5 = 18000 seconds
+
+convert 180000 . 1/60 . 1/60 = 1/000 . 60.60 hours = 5 hpirs
+
+/*use math expressions so the units cancel the way you want*/
+
 7.30
 julie wants to give 45m speech
 and she speaks 120words per minute
@@ -1368,5 +1375,35 @@ multiply by 6 = 35/2 . 6 = 35 . 3 = 105 cords in 6 days
 tom can paint mr thatchers fence in 6h
 while huck can paint mr tatchers fence in 5 hr
 if they work together then how long will it taken them to paint the fence?
-answer:
 
+
+answer:
+toms duration = 6h
+huck duration = 5hr
+
+that means huck can do the task abit faster than toms
+but we dont know how longer
+
+the average = 6 + 5 / 2 = 5.5 hours
+we dont know how big the fence is
+
+the thing is if hucks duration is also 6hr we can just divide the time by 2
+so 3hr faster
+
+lets assume the work = 1 fence
+tom = 1/6 fence per hour
+huck = 1/5 fence per hour
+
+if they work together then 1/6 + 1/5 = 5+6/30 = 11/30 fence per hour
+so now we know the rate
+
+d=s/t
+time = 1 / 11/30 = 1 * 30/11 = 30/11 hour = 2 8/11 hour
+
+*IF THE UNIT ISN"T SPECIFIED, JUST ASSUME IT"S 1
+EG if tom eats 1 pie in 6 hour, the rate of eating is 1/6 pie per hour*
+
+*
+30miles/1galoon or 1gal/30miles is the same just the relationship
+you decide how you want to eliminate
+*
