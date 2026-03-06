@@ -1407,3 +1407,90 @@ EG if tom eats 1 pie in 6 hour, the rate of eating is 1/6 pie per hour*
 30miles/1galoon or 1gal/30miles is the same just the relationship
 you decide how you want to eliminate
 *
+
+*
+work problem can be solved by considering ammt of time
+each worker does per unit of time
+*
+
+7.6.1
+casey has to build 100ft long fence
+if it takes 15min to build 1 foot of the fence
+how many hr will it take her to complete the fence
+
+answer:
+we wanna find out the time it takes to complete
+15min/1foot . 100ft = 15.100 = 1500 minutes = 1500/60 = 150/6 = 25hr
+
+method2
+find hr
+if 15m = 1ft, 1hr = 60/15 = 4ft
+100/4 = 25 hour
+
+7.6.2
+phil can type a page of his new novel in 20m
+if he writes 8h
+how many pages will he type
+
+answer:
+1page/20m . 60m/1hr = 3page/1hour
+3page/1hour . 8hour = 
+8 . 3 = 24 total pages 
+
+7.6.3
+a kangaroo chases arabbit that starts 150feet ahead of the kangaroo
+for every 12 foot leap of the kangaroo the rabbit makes 7foot leap
+how many leaps will the kangaroo have to make to catch up to the rabbit
+if the two animals always leap at the same time?
+
+answer:
+distance between rabbit and kangaroo at start = 150ft
+
+since they move at same direction difference speed = 12-7 = 5foot
+so the kangaroo is 5foot faster on each jump
+
+150/5 = 30 jumps
+
+
+7.6.4
+maria buys computer disks at price of 4 for $5
+and sells them at a price of 3 for $5
+how many computer disks must she sell in order to make a profit of $100?
+
+total original price = 5/4 dollar
+resale price = 5/3 dollar
+
+profit per disk = 5/3 - 5/4 = 20-15/12 = 5/12 dollar
+
+100 / 5/12 = 100 * 12/5 = 240 disks
+
+7.6.5
+at the beginning of a trip the mileage odometer read 56.200 miles
+the driver filled the gas tank with 6 galons of gasoline
+
+during the trip the driver filled his tank again with 12 galons of gasoline
+when the odometer read 56560
+
+at the end of the trip the driver filled the tank again with 20 galons of gasoline
+the odometer read 57060. to the nearest tenth whats the car average miles per galon for the entire trip?
+
+initial
+56200
+6gal
+
+trip
+56560
+fills 12gal
+
+end
+fills 20gal
+57060
+
+find total distance traveled
+57060-56200 = 860 miles
+total galons filled = 12+20 = 32galons - exclude the initial 6 agl
+
+rate = 860/32 = 26.875 = 27 miles/galon
+
+7.66
+
