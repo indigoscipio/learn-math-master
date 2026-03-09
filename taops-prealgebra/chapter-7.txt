@@ -1493,4 +1493,83 @@ total galons filled = 12+20 = 32galons - exclude the initial 6 agl
 rate = 860/32 = 26.875 = 27 miles/galon
 
 7.66
+a 12h clock loses 1 minute every hour
+suppose it shows the corect time now
+what is the least number of hours from now when it will again show the corect time?
 
+answer:
+rate = 1m/1h - mult by 60
+lose 1 hour every 60h - mult by 12
+lose 12 hour every 720h
+
+7.6.7
+homer began peeling a pile of 44 potatoes at the rate of 3 potatoes per minute
+four minutes later christen joined him and peeled at the rate of 5 potatoes per minute
+when they finished how many potatoes had chirsten peeled?
+
+answer:
+homer
+44 potatoes total
+rate = 3pot/1min
+
+then 4m later
+christen
+we dont how how many hepeeeld
+but the rate is 5pot/1min
+
+we wanna find the total potatoes christen peeled
+first 4min = 4 . 3 = 12potatoes already peeled by homer
+remaining = 44-12 = 32 potatoes
+then together they peel, first min
+3 -> peleed by homer
+5 -> peelen by christen
+remainig = 32-8 = 24
+2nd min - 24-8 = 16 - christen tally = 10
+3nd min - 16-8 = 8 - christen tally = 15
+4th min - 0 - cristen tally = 20
+
+algenraicly
+32 = min(homers rate + christens rate)
+32 = min . 8
+min = 32/8
+min = 4
+4 . 5  = 20 
+
+
+7.6.8
+the cold water faucet of bath tub can fill the tub in 15min
+the drain when opened can empty the full tub in 20min
+suppose the tub is empty and the faucet and drain are both opened at the same time
+how long will it take to fill the tub?
+
+answer:
+this seems like the same direction running overlap problem
+
+we know faucet rate is faster than the drain rate
+faucet rate = 1tub/15min
+drain rate = 1tub/20min
+
+we wanna find the time at which the tub fills up
+
+since the faucet is 5min faster to fillup 1 tub
+combined rate = 1/15 - 1/20 = 4-3/60 = 1/60 = 1/60 -> 1 tub per 1/60 minutes
+
+time = 1 . 60/1 = 60 minutes
+
+7.6.9
+roger can shovel his familys driveway in 1hr
+his older sister alexis can shovel driveway in 1/2hr
+if they work together how long will it take them to shovel the driveway
+
+answre:
+roger rate = 1hr/driveway = 1driveway/1hr
+sister rate= 0.5hr/driveway = 1hr/2driveway = 2driveway/1hr
+
+combined rate = 1d/1h + 2d/1h = 3d/1h
+to find 1 driveway just divide 1hour by 3 = 1/3 hour = 1/3 . 60 =20 minutes 
+
+unit time vs work time
+
+
+7.6.10
+three water pipes are used to fill swiming ppool
