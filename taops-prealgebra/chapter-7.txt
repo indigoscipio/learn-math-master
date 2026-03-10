@@ -1572,4 +1572,242 @@ unit time vs work time
 
 
 7.6.10
-three water pipes are used to fill swiming ppool
+three water pipes are used to fill swiming pool
+first pipe takes 8h to fill the pool
+2nd pipe takes 12h
+3rd pipe take  24h
+
+if all 3 pipes are opened at the same time
+then how long will it take to fill the pool?
+
+hint: problems involving rates of work can often be solved by thinking about how much work is done per unit of time
+hhint: what fractino of the pool is filled each hour?
+
+answer:
+
+1st pipe -> 1p/8h
+2nd pipe -> 1p/12h
+3rd pipe -> 1p/24h
+
+we wana find the time it takes to fill the whole pool
+snice they work together the rate is faster
+
+find how much it fills up the pool per hour
+pipe 1 -> 1p/8h -> divide by 8 = 1/8p per hour
+pipe 2 -> 1p/12h -> divide by 12 = 1/12p per hour
+pipe 3 -> 1p/24h -> divide by 24 = 1/24p per hour
+
+now, combine the rate together
+1/8 + 1/12 + 1/24 = 3+2+1/24 = 6/24 = 1/4 pool per hour
+
+SUMMARY
+RATIO GIVES RELATIVE COMPARISON OF QUANTITIES
+IT DOESN'T TELL YOU ABOUT THE TOTAL AMT OF QUANTITY
+
+a : b
+first = a/a+b
+second = b/a+b
+
+
+Chalenge Problems
+7.58
+a stack of 45 dimes is divided into 3 piles in the ratio 1/6:1/3:1/4
+how many dimes are in the pile with the least number of dimes?
+
+answer:
+since 1/6 is smallest fraction
+and we know the total dimes = 45
+
+
+1/6 : 1/6 + 1/3 + 1/4
+1/6 : 2+4+3/12
+1/6 : 9/12
+1/6 . 12/9
+2/9
+
+45 . 2/9 = 10 dime stacks
+
+7.59
+five workers together can build road in 20d
+supose every worker works at the same rate
+if 3 workers work on the road for 10d before 11 more workers join them
+
+how long total will it take to build the road
+
+hint: problem involving rates and work can be solved about how much work is done per unit of time
+hint: how long would it take one worker to build whole road? whta fraction of road does one worker
+complete in one day
+
+answer:
+
+one worker = 20d*5worker = 100day per road
+daily rate for one worker = 1road/100days
+
+3 workers work on the road for 10d
+3 . 1road/100day . 10day =  3/10 road built in the first 10 day
+
+remaining is 7/10 road
+
+now 11 more workers join them, total woekrs = 11+3=14
+
+14 1/100 . d = 7/10
+14/100d = 7/10
+14/10d = 7
+d = 7.10/14
+d = 10/2
+d = 5
+
+total time = 10 + 5 = 15 days
+
+altenrative: books' way
+7/10 road : 14road/100day = 7/10 . 100/14 = 5 days
+
+7.60
+when paul crossed the finish line at 60m race
+he was ahead of robert by 10m and ahead of sam by 20m
+suppose robert and sam continue to race to the finish line without changing their rates of speed
+by how many meters will robert beat sam
+
+hint: by how many meters would robert beat sam if the race were 50 meters? 100 meters? 150 meters?
+
+answer
+total distance (track)= 60m
+difference with robert = 10m - robert has run 50m
+differne with sam = 20m - sam has run 40m
+
+by the time robert runs 100m sam will run 80mph - ratio = 5/4
+
+
+we know the remaining distance left is 10m from robert perscpective
+so by the time sam reaches the finish line
+
+4/5 . 10 = 8m
+diference = 10 + 2 12m
+
+
+7.6.1
+if 4 : x^2 = x : 16
+what is the value of x
+
+4/x^2 = x/16
+x^2 . x = 16.4
+x^3 = 64
+x = cuberoot of 64
+x = 4
+
+alternatively
+
+4/x^2 = x/16 - mult right by x^2
+4 = x/16 . x^2
+4 = x^3/16
+x^3 = 64
+x = 4
+
+7.62
+the big telescope company sells circular mirorrs
+the largest mirro ahs radii of 5m
+the smallest has radi of 1m
+the cost of every miror is proportional to the cube of the miror's radius
+wiat is the ratio of the total cost of 25 of the company smallest miror
+to the cost of one of the company largest mior?
+
+answer:
+largest = 5m rad
+smallest = 1m
+
+cost ratio of largest : smallest = 5^3 : 1^3 = 125 : 1
+cost ratio of 25 smallest : 1 largest = 25 : 125 = 1 : 5
+
+7.63
+kim was elected class prez
+she receivved 3 votes for every 2 that amy got
+no one else ran.
+however if 8 people who voted kim had voted for amy instead
+kim would have received  only 1 vote for every 2 that amy wouldve gotten
+how many people voted?
+
+hint: assign variable so you can write expr and set up equations
+whats often a useful way to assign a var in a ratio problem?
+
+answer:
+let 
+k = kim
+a = amy
+
+kim : amy vote ratio = 3:2
+new kim = 3x-8
+new amy = 2x+8
+
+if the 8 people who vote for kim voted for amy
+then the ratio kim:amy changes to 1 : 2
+
+we wanna find the total people who voted
+using the ratio
+
+2(3x-8) = 2x+8
+6x-16 = 2x+8
+4x = 24
+x = 6
+
+total
+people who voted for kim = 3x = 18
+people who voted for amy = 2x = 12
+total = 30 people
+
+7.64
+when the slowpoke marathon bean
+the ratio of runners to joggers was 2 to 19
+if 4200 participants began the race (each either a runner or jogger but not both)
+and 500 joggers dropped out of the race but all the rest of the particpants finished
+then what was the ratio of runers to jogers among those who finished the rate
+
+answer:
+r:j = 2 : 19
+total partifipants = 4200
+
+total per part = 21
+before droping
+runners - 2/21 . 4200 =  400 runneres
+joggers - 19/21 . 4200 = 3800 joggers
+
+after jogger dropping
+runners - still the same = 400
+joggers - now 3300
+
+new r:j ratio = 400 : 3300
+= 4 : 33
+
+7.65
+the students in mrs reed english class are reading the same 760pg novel
+3 friends: alice, bob and chandra are in class
+alice reads a page in 20sec
+bob reads a page in 45sec
+chandra reads a page in 30sec
+
+(a). if bob and chandra read the whole book then bob will spend how mny more seconds reading than chandra?
+alice rate = 1p/20s
+bob rate = 1p/45s
+chandra rate = 1p/30s
+
+bob duration - 760p . 45s/1p = 34200sec = 570m = 9.5h
+chandra duration - 760p . 30s/1p = 22800sec = 380m = 360 20/60 = 360 1/3 = 6 1/3 hr
+diference = 34200-22800 = 11400
+
+(b) Chandra and Bob, who each have a copy of the book, decide that they can save time by "team reading" the novel.
+In this scheme, Chandra will read from page 1 to a certain page and Bob will read from the next page through page
+760, finishing the book. When they are through, they will tell each other about the parts they read.
+What is the last page that Chandra should read so that she and Bob spend the same amount of time reading the novel?
+
+Hint: If we know what fraction of the book Chandra reads, then we can figure out how many pages she reads.
+answer:
+we know chandra rate is 1p/30s, reads 1 full book in 22800s
+bob rate = 1p/45s, reads 1 full book in 34200s
+
+chandra reads faster than bob
+ratio of chandra:bob  = 30:45 = 2:3 reading speed
+
+
+(c) Before Chandra and Bob start reading, Alice says she would like to team read with them.
+If they divide the book into three sections so that each reads for the same length of time,
+then how many seconds will each have to read?
+
