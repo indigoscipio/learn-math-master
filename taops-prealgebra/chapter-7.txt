@@ -1804,10 +1804,260 @@ we know chandra rate is 1p/30s, reads 1 full book in 22800s
 bob rate = 1p/45s, reads 1 full book in 34200s
 
 chandra reads faster than bob
-ratio of chandra:bob  = 30:45 = 2:3 reading speed
+1p/30s
+1p/45s
+
+3:2 => so chandrea reads 3/2 faster than bob
+
+760
+chandra = 3/5.760 = 456
+bob = 2/5.760 = 304
 
 
 (c) Before Chandra and Bob start reading, Alice says she would like to team read with them.
 If they divide the book into three sections so that each reads for the same length of time,
 then how many seconds will each have to read?
 
+answer:
+alice reate = 1p/20s
+chandra rate = 1p/30s
+bob rate = 1p/45s
+
+since each reads for the same length of time
+faster reader reads needs to read more pages than slower reader
+
+find lcm 20,30,45 = 180 = 3 minutes
+so in 3 minutes blokc
+alice reads 1/20.180 = 9 pages
+alice reads 1/30.180 = 6 pages
+alice reads 1/45.180 = 4 pages
+
+total pages done = 9+6+4 = 19 pages / 3 minute
+
+760p . 3m/19p = 3.40 = 120 minutes
+
+
+7.66
+busses from dallas to houston leaves every hour on the hour
+buses from houston to dallas leave every hour on the half hour
+the trip from one city to the other takes 5 hr
+
+asuming the buses travel on the same highway
+how many dalas bound buses does a houston bound bus pass on the highway (not in the statdion)?
+
+answer:
+
+d->h leave every hour on the hour
+h->d leave every hour on the half hour
+
+so the ratio
+for ever d->h bus that leave, 2 h->d busses leaves
+so ratio d->h to h-> d = 1 : 2
+
+total duration = 5hr
+we wanna know how many h->d busses does d->h pass on the highway during this 5hr period
+
+since h->d has "faster" cycle
+for every hour it sees 2 h->d
+so total - 5 . 2 = 10 h->d busses
+now the question excludes the station so thats when it first start and end
+so subtract...
+
+; ==========================================
+
+Review problem
+7.34t
+the ratio of cats to dogs at the pound is 2:3
+if ther are 18 cats then how mny dogs  aret here
+
+answer:
+3d/2c . 18c = 3.9 = 27 dogs
+
+or alternatively
+2/3 = 18/d -mult by 9
+
+7.35
+the ratio of boys to girls at summer camp is 4 to 5
+if the total number of students at the camp is 108
+then how many boys are at the camp
+
+answer:
+b:g = 4:5
+
+total studenst = 108
+boys = 4/9 . 108  = 48
+girls = 5/9.108 = 60
+
+
+7.36
+given that one pound is sixteen ounce
+whats the ratio of 1 pound , 4 ounces to 3 pounds, 10 ounces?
+
+
+lbs:ounce = 1:16
+
+1 pound 4 ounces -> 16+4 = 20 ounce
+3 pound 10 ounces = 48+10 = 58
+
+ratio = 20:58 = 10:29
+
+7.37
+a board thats 12m long is cut into 2 pieces
+whose length have ratio of 1:5
+whats the longer piece length
+
+answer:
+5/6.12=10m
+
+7.38
+ratio of boys to girls in asembly is 4:3
+how many students are present if there are 87 girls
+
+answer:
+
+mult by 29 for boys = 4.29 = 116
+total students = 116+87 = 203
+
+alternatively
+4/3 = b/87
+4/3.87 = b
+4.29 = b
+116 = b
+
+alternative
+g = 3/7 t so
+t = 7/3 g
+
+7/3.87 = 203
+
+
+7.39
+for every $3 marisa spends
+andie spends $5
+andie spends $120 more than marisa does
+how many dollars does andie spend
+
+answer:
+ratio spending marisa:andie = 3:5
+so andie spends more than marisa
+
+andie is spending $2 more than marisa in one transaction
+if the diference is $120 then $120/2 = 60 transactions happened
+
+60 . 5 = $300
+
+altnerivley
+annie spending = 5x
+marisa spending = 3x
+
+diference = 2x
+3x+120 = 5x
+120 = 2x
+x = 60
+
+60.5 = 300
+
+
+7.40
+originaly there are 20 fish in a a tank and each fish is a guppy or an angelfish
+the ratio of guppies to angelfish in the tank is 3:2
+20 more fish are added to the tank. each new fish is either a guppy or angelfish
+the ratio of guppiese to angelfish after the fish are added is 2:3
+how many guppies were aded to the tnak:
+
+answer:
+total initial fish = 20
+initial guppy : angel ratio = 3:2
+
+then 20newfish are added. we dont know which type is added each
+new ratio guppy:angel becomes 2:3
+which means the 20 new fish the majority is angelfish
+
+we wanna find how many guppies to the tank
+initial quantity
+guppy = 3/5.20 = 12 guppy
+angel = 2/5.20 = 8 angelfish
+
+now total fish = 20+20=40
+gupy = 2/5.40 = 16
+angel = 3/5.40= 24
+
+compute the gupy diference = 16-12 = 4 additional guppies are aded
+
+7.41
+the four partners ina business decide to split the profits of their company in ratio of 
+2:3:3:5
+
+if the profit one year is $26000
+what is the largest amount of profit received by one of the four partners?
+
+answer:
+largest one = 5/5+3+3+2 = 5/13.26000 = $10000
+
+7.42
+the statue of abraham lincoln in lincoln memorial in washington  dc is 6m tall
+on the back of the $5 biil the statue measures 5mm tall
+if the memorial measures 25mm tall on the back of the $5 bill and assumingthe bill is drawn to scale
+then how tall is the actual memorial in washington?
+answer:
+
+ratio of real:bill = 6m:5mm = 6000m:5mm = 1200mm:1mm 
+then just scale curr ratio of real statue by 25
+25.1200 = 30000mm = 30meter
+
+7.43
+on a map two mountains are 5 7/8 inches apart
+if 1/2 of an inch on the map represents 80 miles
+then how many miles apart are the two mountains
+answer:
+
+dist on amp = 5 7/8 = 47/8 inches
+1/2 inch represnts 80 miles -> 1 inch = 160 miles
+160 . 47/8 = 47. 20 = 940 miles
+
+7.44
+a fortnight is 14days
+a mile is 8furlongs
+if a desert caravan travels 10miles per day
+how many furlongs does it travel in a fornight
+
+answer:
+fortnight:day = 1:14
+mile:furlong = 1:8
+
+10miles/1day . 14day/1fortnight = 140 miles / 1 fortnight
+140 miles . 8furlong/1mile = 1120 furlongs
+
+7.45
+a 3inch x 5inch photo is designed proportionaly such that
+its smaler dimensions is now 1foot 3 inches
+how many inches are inthe larger dimension
+
+answer:
+intial dimension = 3inch : 5inch
+we know foot:inches =  1:12
+small dimension = 1ft 3 inches = 12 + 3 inches = 15 inches
+
+new dimension = 15inch : x inch
+just multiply old large dimension by 5 -> 15 : 25 inch
+
+7.46
+on my tourist map of quebec
+the distance between the dots representing montral and quebec city is 10cm
+if the scale of the map is 4/9mm = 1km
+then how far apart are the montreal and quebec city?
+note that 10mm = 1cm
+
+answer:
+map distance = 10cm = 100mm
+map scale = 4/9mm : 1km
+
+100mm . 1km/4/9mm = 100 . 9/4 = 225km
+
+alternatively
+4/9mm : 1km
+mult by 9
+
+4mm : 9km
+
+7.47
