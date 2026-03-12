@@ -2061,3 +2061,192 @@ mult by 9
 4mm : 9km
 
 7.47
+Dale travels from city A to city B to city C and back to city A.
+Each city is 120 miles from the other two.
+Her average rate from city A to city B is 60 mph.
+Her average rate from city B to city C is 40 mph.
+Her average rate from city C to city A is 24 mph.
+What is Dale's average rate for the entire trip, in miles per hour?
+
+
+answer:
+time  a->b = 120/60 = 2 hour
+time b->c = 120/40 = 3hr
+time c->a = 120/24 = 5hr
+
+total time for the entire trip = 2+3+5 = 10 hour
+total rate = 60+40+24 = 124mph
+
+avg rate = total distance/total time
+= 120*4/10 = 480/10 = 48mph
+
+7.48
+the density of liquid a is 8 lbs per galon
+density of liquid b is 6lbs per galon
+what quantity of liquid b weighs the same as 30 galons of liquid a
+
+answer:
+liquid a = lbs:gal = 8:1
+liquid b = lbs:gal = 6:1
+
+liquid a
+8:1 - multiply by 30 -> 240 : 30
+
+so we need to find how much liquid b weighs to 240lbs
+since we know the ratio is 6:1 jsut match the ratio of lbs
+240/6 = 40 -> mult by 40
+240:40
+so  40 galon of liquid b to match
+
+
+7.49
+ikes spedometer on his motorcycle is broken
+he is riding at constant speed
+he times himself and finds that it takes him 1m 20s to ride 1 mile
+how fast is ike riding in miles per hour?
+
+answer:
+we know ikes rate = 1m 20s / 1 mile = 1 1/3 min / 1mile = 4/3min / 1mile
+60min . 1mile/4/3min = 60 : 4/3 = 60 * 3/4 = 45mile per hour
+
+7.50
+elisa swims laps in the ppool
+wen she first started she completed 10laps in 25min
+now she can finish 12laps in 24min
+by how many minutes has she improved her lap time
+
+answer:
+find how many it take to complete 1 lap
+when she first started
+rate = 10lap/25min -> div by 10 => 1lap/2.5min
+
+now
+12lap/24min -> div by 12 -> 1lap/2min
+
+the noticable improvement here when compared is 2.5 - 2.0 = 0.5 minutes faster
+so she improves her lap time by 30 seconds faster
+
+7.51
+a northbound train from miami to jacksonville made the 324 mile journey
+at average speed of 50 miles per hour
+
+on its southbound return trip
+it made the journey at avg speed of 40mph
+to nearest tenth of mile per hour
+
+what is the trains avg speed for the 648 mile roundtrip journey?
+
+answer:
+avg speed = total distance / total time
+
+1st trip
+time = 324/50 = 6 24/50 hour = 6 12/25 hour
+
+
+2nd trip
+324/40 = 8 4/40 = 8 1/10 hour
+
+total time
+6 12/25 + 8 1/10 = 14 + (48+10)/100 = 14 58/100 hour = = 1458/100 hour
+
+avg speed = 648 / 14.58 =  648 * 100 / 1458 = 64800/1458 = 44.4
+
+7.52
+boston is 295 miles from nyc along a certain route
+a car starts from boston at 1pm and travels along te route toward ny at steady rate of 50mph
+another car starts from ny at 1:30pm and travels along this route toward boston at rate of 40mph
+at what time do the cars pass each other
+
+answer:
+total distance = 295miles
+car 1 (b->ny) = starts at 1, rate = 50mph
+car 2 (ny ->b) = starts at 1, rate = 40mph
+combined rate = 90mph
+
+295/90 = 3 5/18 hour = 3hr 16.67min
+since it start a t 1pm sum it so it will meet at approx around 4:16pm
+
+7.53
+a seasonal pond in my hard has 1000 galons of water
+if the water evaporates at the rate of 12.5 galons per day and no other water is aded or removed
+then how much wtaer will be in the pond after 30d
+
+answer:
+we know the ratio of pond:gal = 1 : 1000
+evaporation rate = 12.5gal : 1day
+
+30d . 12.5gal/1day = 375 galon evaporated in 30d
+
+so the remaining is 1000 - 375 = 625 galons after 30d
+
+7.54
+megan has 3 candles of the same length ot provide light
+candla a burns 72min
+candle b burns 2x as fast as candle a
+candle c burns 3x as fast as candle b
+
+whats the greatest total number of minutes of light that all three candels can provide
+
+answer:
+can a -> 1candle/72min
+can b -> 1candle/36min
+can c -> 1candle/12min
+
+total = 72+36+12 = 120min
+
+
+7.55
+working alone jamie can mow her lawn in 75min
+if bob helps her then the two can mow the lawn in 30min
+how long does it take bob to mow the lawn alone
+
+answer:
+jamie rate = 1lawn/75min
+jamie + bob rate = 1lawn/30min
+
+lcm 75 30 = 150
+jamie mows 2 lawn in 150min
+jamie+bob both mows 5lawn in 150min
+
+so bob must have mown 3 lawn in 150min
+and 1 lawn in 50 minuites
+
+alternative
+
+rate = 1/75 lawn per minute
+
+7.56
+carlos is going on vacation from mexico to london with brief stop in ny
+he forgot to exchange his pesos for british pounds
+and must do so in NY. he would like to have 2000 gbp for his trip
+12.1 pesos can be exchanged fo 1 dolar
+1 dolar can be exchanged for 0.62gbp
+ot the nearest peso how many pesos will carlos have to exchange in order to get 2000gbp
+
+answer:
+we know rate
+peso:usd = 12.1:1 = 121 : 10
+usd:gbp = 1 : 0.62 = 100:62 = 50:31
+
+he wants to have 2000gbp
+2000 gbp . 50usd/31gbp . 121peso/10usd
+2000 . 5/31 . 121
+2000 . 605/31
+1210000/31
+39032 8/31 peso
+39032 peso
+
+7.57
+four short order cooks can make 24omlet in 10min
+if a diner gets a togo order for 90omelet that needs to be ready in 15min
+then how many cooks do they need to complete the order on time
+
+answer:
+we know
+total cook = 4
+rate = 24omlet/10min
+1 cook = 24omelet/10min : 4 = 6 omelet every 2.5min
+in 15minutes 1 cook can make 15 . 6/2.5= 36 omelets
+
+90 / 36 = 2.5 cooks
+so they will need 3 cooks
