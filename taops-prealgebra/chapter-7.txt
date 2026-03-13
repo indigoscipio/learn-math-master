@@ -2245,8 +2245,8 @@ answer:
 we know
 total cook = 4
 rate = 24omlet/10min
-1 cook = 24omelet/10min : 4 = 6 omelet every 2.5min
-in 15minutes 1 cook can make 15 . 6/2.5= 36 omelets
+1 cook = 24omelet/10min : 4 = 6 omelet every 10 minutes
+in 15minutes the cook can make 15 . 6/10 = 3.6/2 = 9 omelet
 
-90 / 36 = 2.5 cooks
-so they will need 3 cooks
+so it needs a total of 10 . 9 
+10 total cooks
