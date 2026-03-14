@@ -177,5 +177,188 @@ alternatively
 x% = -60/30 
 x% = -2
 
+c. what percent of 17 is 51
+answer:
+51 = x% . 17
+x% = 51/17
+x% = 3
+x/100 = 3
+x = 3 . 100
+x = 300
 
-c.
+d. what percent is 1/2 of 5?
+answer:
+x% = 1/2 : 5
+x% = 1/10
+x = 1/10 . 100
+x = 10
+
+e. what percent of 5/6 is 2/3?
+answer:
+2/3 = x% . 5/6
+x% = 2/3 . 6/5
+x% = 12/15
+x% = 4/5
+x = 4/5 . 100
+x = 80%
+
+f. what percent is 7 of -35?
+answer:
+7 = x% . -35
+-1/5 = x%
+-1/5 . 100 = 20
+
+8.1.5
+a. 11 is 20% of what number
+11 = 20/100 . x
+11 * 100/20 = x
+11 * 5 = x
+x = 55
+
+b. 2/3 is 30% of what number
+2/3 = 30/100 . x
+2/3 . 100/30 = x
+200/90 = x
+20/9 = x
+
+c. 3 is -40% of what number
+3 = -40/100 . x
+3 . -100/40 = x
+-300/40 = x
+-30/4 = x
+-15/2 = x
+
+d. 1/7 is 1/2% of what number
+1/7 = 1/2/100 . x
+1/7 = 1/200  . x
+1/7 . 200 = x
+200/7 = x
+
+8.1.6
+which is greater
+7/9 of 180
+or 75% of 200
+
+answer:
+lets calculate
+7/9 . 180 = 140
+
+75/100 . 200 = 150
+
+therefore 75% of 200
+
+8.1.7
+what is the sum of 60% of 75
+and 75% of 60
+
+60/100 . 75 = 60/4 = 30/2 = 15 . 3 = 45
+75/100 . 60 = 75/10 . 6 = 75/5 . 3 = 225/2 = 45
+
+45+45 = 90
+
+8.1.8
+epxress in simplest form: 40% of 70% of 10
+answer:
+70% of 10 = 70/100 . 10 = 7/10 . 10 = 7
+40% of 7 = 40/100 . 7 = 280/100 = 28/10 = 14/5
+
+in decima
+40% of 7 = 0.4 . 7 = 2.8
+
+8.1.9
+two percent of half a number is 5
+what is the number
+
+2/100 . 1/2x = 5
+1/2x = 5 . 100/2
+x = 500/2 . 2
+x = 500
+
+Word problems
+8.8
+stephanie bought a new computer that cost $800
+where wtephanie lives the sales tax is 7%
+how much sales tax does stephanie have to pay for her computer
+
+answer:
+7/100 . 800 = 7 . 8 = $56
+
+
+8.9
+rajiv has 4 blue shirts
+5 black shirts
+6 white shirts
+what percent of his shirts are thiwte
+
+answer:
+total shirt = 4+5+6 = 15
+white = 6/15 = 2/5 -> 40/100 = 40%
+
+8.10
+if a school has 300 girls and 200 boys what percent of studnets are girls
+answer:
+total = 300+200 = 500
+girls = 300/500 = 3/5 = 3.20/100 = 60%
+
+8.11
+an athlete target heart rate is 80% of the theoretical max heart rate
+the max heart rate in beats per minute is subtracting atheletes age in years from 220
+what is the target heart rate of an athelte who is 26 years old?
+round to nearest beat per minutes
+
+80/100 . 220-26
+4/5 . 194
+776/5
+155 1/5
+155bpm
+
+8.12
+all of the stuent in mr sato history class took an exam
+each student either pass or fail
+85% of student pass and 3 student fail
+how many students are in class
+
+answer:
+
+in percentage
+x = total students = student who pass + student who fail
+that means 3 is the remaining 15 percent
+find out what 100% give us
+
+15/100 x = 3
+x = 3 . 100/15
+x = 100/5
+x = 20
+
+alternatively, using chunking
+if 15% is 3
+then 1 unit is 5%
+find the 100% => multiply by 20 = 20
+
+8.13
+patti takes 200 flowers to her middle school to sell on valentines day
+she first sells 30% of flowers to 6th grade students
+she then selsl 40% of the remaiing flowers to 7th grade students
+finally she sells 50% of the remaining flowers to the 8th grade
+how many flowers odes she hve left
+
+answer:
+initial = 200f
+
+first
+30/100 . 200 = 30.2 = 60
+rem = 200-60 = 140
+
+second
+40/100 . 140 = 2/5 . 140 = 56
+remaining = 140-56 = 84
+
+third = 50% of 84 = 42
+remaining = 84 - 42 = 42
+
+8.14
+a 100ml bottle of salad dresing initally cosist of 80% of oil and 20% vinegar
+40% of the dresing is used and hten 4mm of vinegar are added to the bottle
+what percentaege of the mixture is now vinegar
+answer:
+
