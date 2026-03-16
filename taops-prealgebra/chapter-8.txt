@@ -362,3 +362,264 @@ a 100ml bottle of salad dresing initally cosist of 80% of oil and 20% vinegar
 what percentaege of the mixture is now vinegar
 answer:
 
+100ml
+ratio of sald dreesing oil : vinegar = 80% to 20%
+so initially its 80ml : 20ml
+
+40/100 . 100  = 100-40 = 60ml remaining
+ratio still same
+oil = 80/100 . 60 = 8/10 . 60 = 8 . 6 = 48 ml
+vinegar = 20/100 . 60 = 1/5 . 60 = 12 ml
+
+now add 4ml vinegar to the bottle
+so it becomes 48ml : 16ml = 3 : 1 ratio
+to find the percent
+16/64 . 100 = 0.25 . 100 = 25%
+
+
+Exercises
+8.2.1
+what percent of the 5.5 square to the right is shaded?
+4+9/25
+13/25
+52/100
+52%
+
+8.22
+at  ameeting there were 4 parnest 28 studens and 8 teachers.
+what percent of people at the meeting were studnets?
+answer:
+
+total = 4+28+8 =40
+28/40 =  7/10 = 70% students
+
+8.2.3
+in the arboarian state senate
+35 of 50 state senators are female
+what percent of the state senators are male
+
+remaining = 15 male
+15/50 = 3/10 = 30%
+
+8.2.4
+rhonda the realtor makes 6% ocmission on each property she sells
+a. if rhonda sells a $270000 house how much comission does she make
+
+answer:
+6/100 . 270000 = 6 . 2700 = 16200
+
+b. if rhonda sells a condo and receives a comission of $15000
+how much did the condo sell for
+answer:
+
+let x be the total sales price
+15000 = 6% . x
+15000 = 6/100 . x
+15000 . 100/6 = x
+2500 . 100 = x
+x = 250.000
+
+8.2.5
+toris math test had 75 problems
+10 arithmetic, 30 algebra, 35 geometry problems
+although she answered
+70% of the arithmetic
+40% of the algebra and
+60% geometry problem corectly
+she did not pass the test because she got less tan 60% of the problems right
+how many more questions wold she have needed to answer corectly to earn a 60% passing grade?
+
+answer:
+70% arithmetic - 70/100 . 10 = 7 answers correct
+40% alg - 40/100 . 30 = 1200/100 = 12 answers correct
+60% geo - 60/100 . 35 = 3/5 . 35 = 21 answers correct
+total answer correct = 7+12+21 = 40 out of 75
+
+40/75 . 100 = 40/3 . 4 = 160/3 = ~53.3% which is why she didn't pass
+
+find the required needed
+x/75 = 60%
+x = 60/100 . 75
+x = 60/4 . 3 = 45 questions needed in order to pass
+
+the differnce = 45-40 = 5 questions
+
+8.2.6
+a mixture of 30 liters of paint is 25% red tint, 30% yellow tint, 45% water
+five liters of yellow tint are added to the original mixture
+what is the percent of yellow tint in the new mixture?
+
+answer:
+30 liter -> 25%r : 30%y : 45%w
+red = 25/100 . 30 = 1/4 . 30 = 7.5l
+yellow = 30/100 . 30 = 900/100 = 9l
+water = 45/100 . 30 = 45/10 . 3 = 13.5l
+in liter the ratio RYW is 7.5l : 9l : 13.5L
+
+then 5liter of yellow tint are added
+so now its 7.5L : 14L : 13.5L with a total of 35L
+14/35 = 2/5 = 2/5 . 100 = 40%
+
+8.2.7
+when my cars gas tank is 80% empty
+it contains 3 gallons of gas
+how many galons of gas does it contain when it s 80% full
+
+answer:
+80% empty = 20% filled = 3 galon
+so 3gal every 20%
+
+to get to 80% just mult by 4 = 3*4 = 12gal
+
+8.2.8
+peter and emily played go fish against each other many times last jan
+emily won 65% of the time
+peter won the other 7 games (there were no ties)
+how many games did emily win
+
+answer:
+so 7 represents 35% of the total games
+div by 7
+1 represnt 5% of the total games
+so total games = 5 . x = 100
+x = 100/5 = 20 games
+
+so for emily
+20 - 7 = 13 wins
+
+alternatively use ratio
+65 : 35
+13 : 7
+
+8.2.9
+the fighting tomatoes a minor league baseball team
+won 30 of their first 50 games
+how many of the remaiing 40 games must the tomatoes win
+so that they will have won 70% of their games at the end of season
+
+answer:
+30/50 = 60%
+
+total game = 50+40 = 90 games
+70/100 . 90 = 7/10 . 90 = 7.9 = 63
+63-30 = 33 more wins
+
+33/40 . 100 = 33/2 . 5 = 165/2 = 82.5
+
+
+8.2.10
+the table to the right gives the percent of students in each grade at west parkville and east parkville elementary scool
+west parkville has 100 students and east parkville has 200
+in the two schools combined what percent of the sdudents are in grade 6?
+
+answer:
+grade
+6th
+7th
+8th
+
+west
+30%
+40%
+30%
+
+east
+45%
+25%
+30%
+
+answre:
+west = 100
+east = 200
+combined = 300
+total students  = 300
+west = 30/100 . 100 = 30 students
+east = 45/100 . 200 = 90 students
+6th grades in both school = 120 students
+
+120/300 = 12/30 = 6/15 = 2/5 = 40%
+
+8.2.11
+500 students at euclid uni took math exam
+75% of the students passed the exam
+suppose instead only 10% of the students had failed the exam
+how many more passing grade swould there have been?
+(the exam is either passed or failed)
+
+answer:
+total = 500
+75/100 . 500 = 75.5 = 375 students passed
+
+suppose 10% failed - so 90% pass
+failed = 10/100 . 500 = 50 failed
+pass = 90/100 . 500 = 450 pass
+
+difference = 450-375 = 75
+
+-----------------------------------------------------------
+
+; PRECENT INCREASE & DECREASE
+
+8.15
+a. 25% increase from 60
+b. 40% more than 1/2
+c. 30% decrease from 132
+d. 60% less than 95
+e. 300% increase from 8
+
+answer:
+a. 125/100 . 60 = 125/5 . 3 =  75
+b 140/100 . 1/2 = 70/100 = 7/10
+c. 70/100 . 132 = 7/10 . 132 = 92.4
+d. 40/100 . 95 = 38
+e. 400/100 . 8 = 4 . 8 = 32
+
+8.16
+describe the percent increase or decrease given by the following changing quantities
+a. increase from 100 to 130
+b. change from 60 to 210
+c. change from 8129 to 16258
+d. decrease from 80 to 20
+e. change from 2/3 to 1/5
+f. change from 3.8 to 9.5
+g. change from 271 to 0
+
+answer:
+a.
+diff = 30
+30/100 . 100 = 30%
+
+b. difference = 150
+150/60 = 15/6 . 100 = 1500/6 = 250 percent
+
+c. 8129/8129 . 100 = 100%
+
+d. diff = -60
+-60/80 . 100 = -3/4 . 100 = -3.25 = -75%
+
+e. diff = 2/3 - 1/5 = 10-3/15 = 7/15
+7/15 : 2/3 . 100 = 7/15 * 3/2 . 100 = 21/30 . 100 = 7/10 . 100 = -70%
+
+f. diff = 5.7
+5.7/3.8 . 100 = 570/3.8 = 5700/38 = 150%
+
+g. -271/271 . 100 = -100%
+
+8.17
+in 2009 heart & sole shoe company sold 15mil pairs of shoes
+in 2010 they increased advert and sold 20% more shoes than in 2009
+how many pair of shoes diid they sell in 2010
+
+answer:
+120/100 . 15mil = 6/5 . 15mil = 6 . 3 mil = 18 mil pairs
+
+
+8.18
+an izeest computer made by lemon comptuter co has a retail price of $600
+jims house of electronics is having a 20% off sale
+in which all items are discounted to 20% less than retail
+abigail also has coupon for 30% off sale price of any lemon computer
+how much does avigail have to pay for new izeest
+
+anser
+
