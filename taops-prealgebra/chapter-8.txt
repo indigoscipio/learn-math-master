@@ -837,5 +837,89 @@ does your answer depend on the dolls original price?
 answer:
 lets say original doll price is $100
 
-dec - 75/100 . 100 = $75
-jan - 80/100 . 75 = 
+dec - 125/100 . 100 = $125
+jan - 80/100 . 125 = 4/5 . 125 = $100
+
+so jan is the same as nov
+in other words tom is running a scam operation here
+
+1.25 . 0.80 = 1 so the price is always 100% of the original price
+
+125%x . 80%x = 125/100 . 80/100 = 10000/100 = 100%
+
+8.3.10
+dave is playing blackjack at his local casino
+he starts with $1000 and on each hand he bets 50% of his money
+
+if he wins a hand then he wins whatever he bet
+but if he loses a hand then he loses whatever he bet
+
+after playing 5hands he has won 3 hands
+and lost 2 hands
+how much money does dave have after 5 hands? does it matter which 3 of the 5 hands he won?
+
+hint: its often best to think of percent increase and decrease in terms of multiplying the original quantity by some number
+hint: suppose dave has $x before betting half his money on a hand. how much will he have if he wins?
+how much will he have if he loses?
+
+answer:
+
+wins = 50% increase = 150/100 . x = 3/2x
+lose = 50% decrease = 50/100 . x = 1/2x
+
+(3/2)^3 .  (1/2)^2 . x
+ 27/8 . 1/4 . x
+ 27/32x 
+
+(3/2)^3 .  (1/2)^2 . 1000
+ 27/8 . 1/4 . 1000
+ 27/32 . 1000 = $843.75
+
+ 1.5 . 0.5 = 0.75 which is always less
+every pair of W-L actually results in a 25% total loss of his current stack
+
+
+8.3.11
+suppose 0 < p < 100
+if we increase 100 by p%
+then decrease the new quantity by p%
+what is the final quantity in terms of p? is it larger or smaller than 100?
+
+answer: 
+original amount = 100
+
+increase
+p+100/100 . 100
+(1 + p/100) . 100 = 100 + p
+
+decrease
+(100 + p) . 100-p/100
+(100 + p) . (1 - p/100)
+(100 . (1 - p/100)) + (p . (1 - p/100))
+
+100 . (1 - p/100)
+100 . -100p/100
+100 - p
+
+
+ p . (1 - p/100)
+ p - p^2/100
+
+(100 - p) + (p - p^2/100)
+100 - p^2/100
+
+b. suppose 0 < q < 100
+if we decrease 100 by q% and increase the new quantity by q%
+then what is the final quantity in terms of q
+is it larger or smaller than 100?
+
+decrease 100 by q%
+100-q/100 . 100
+(1 - q/100) . 100
+100 - q
+
+
+(100-q) . (1 + q/100)
+100 . (1 + q/100) + -q . (1 + q/100)
+100 - q^2/100
+
