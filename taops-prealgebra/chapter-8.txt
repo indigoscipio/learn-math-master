@@ -923,3 +923,215 @@ decrease 100 by q%
 100 . (1 + q/100) + -q . (1 + q/100)
 100 - q^2/100
 
+/*
+PERCENTAGE ASYMETRY
+it doesn't matter, the -% will always overpower
+When you increase first, the decrease acts on a larger number (the "peak").
+When you decrease first, the increase has to work harder because it's starting from a smaller base (the "valley").
+*/
+
+
+CHALLENGE problems
+8.39
+if 25% of n is 18 then what is 125% of n?
+
+answer:
+25/100 . n = 18
+1/4n = 18
+n = 18 . 4
+n = 72
+
+125/100 . 72
+5/4 . 72
+5 . 18
+90
+
+8.40
+if 20% of a number is 12
+when what is 30% of the same number
+
+20% . n = 12
+20/100 . n = 12
+1/5 n = 12
+n = 12 . 5
+n = 60
+
+30/100 . 60 = 1800/100 = 18
+
+8.41
+find x if 20% of x equals 12% of (x + 20)
+answer:
+
+20% . x = 12% . (x+20)
+1/5x = 12/100 . (x+20)
+1/5x = (12/100 . x) + (12/100 . 20)
+1/5x = 12/100x + 240/100
+1/5x = 3/25x + 12/5
+5/25x - 3/25x = 12/5
+2/25x = 12/5
+x = 12/5 . 25/2
+x = 300/10
+x = 30
+
+alternatively
+
+8.42
+3 bags of jelly contain 26 28 30 beans. in each bag
+the percent of beans that are yellow is 50% 25% 20% respectively
+all 3 bags of candy are dumped into one bowl
+what percent of beans into the bowl are yellow?
+round your answer to the nearest integer
+
+answer:
+so we know
+26  28  30
+50% 25% 30%
+
+total beans = 26+28+30 = 84 beans
+bag1 - 50/100 . 26 = 1/2 . 26 = 13 yellow beans
+bag2 - 25/100 . 28 = 1/4 . 28 = 7 yellow beans
+bag3 - 20/100 . 30 = 1/5 . 30 = 6 yellow beans
+
+total yellow beans = 13+7+6 = 26 yellow beans
+to find the percentage 26/84 . 100 = 13/42 . 100 = 1300/42 = ~30.9 => nearest integer = 31%
+
+
+
+8.43
+cody and tyler were once the same height
+since then tyler has grown 20%
+cody has grown half as much as tylers
+codys height is now 5ft 6 inches
+how tall is tyler now?
+
+answer:
+we know ratio foot:inch = 1:12
+to simplify cody = 66 inches tall
+
+tyler has grown 20% = 120%x
+cody has grown half as much as tylers = 1/2 (tylers growth) = 110%x
+
+let the height be x
+
+66 = 110/100x
+66 . 100/110 = x
+x = 60
+so the original height was 60
+
+so taylor is now
+120/100 . 60 = 72 inches tall
+
+8.44
+miki has a dozen oranges of the same size and a dozen pears of the same size
+miki can user her juicer to extract 8 ounces of pear juice from 3 pears and 8 ounces of orange juice from 2 oranges
+she makes a pear orange juice blend from an equal number of pears and orange
+what percent of the blend is pear juice?
+
+answer:
+
+so 12 oranges
+12 pears both same size
+
+juice rate
+8 ounces/3 pears
+8 ounces/2 oranges
+
+12 pears . 8 ounces/3pears = 4.8 = 32 ounces of pear juice
+12 oranges . 8 ounces/2oranges = 6.8 = 48 ounces of orange juice
+
+total = 80 ounces of juice
+we wanna know the percent ratio of the pear juice
+32/80 . 100 = 3200/80 = 40%
+
+
+8.45
+at some point in the season
+the unicorns had won 60% of their basketball games
+after that point they won 8 more games and lost 2
+to finish the season having won 65% of their games
+how many games did the unicorns play during the sason?
+hint: assign a variable
+
+answer:
+let the total games be x
+
+at some point 60%x
+after that +8 and -2
+with final total win = 65%
+so total games played = 8+2 = 10
+win = 80%
+lose  = 20%
+
+let x be the number of games played at that first poitn
+0.6x + 8 = 0.65(x+10)
+0.6x + 8 = 0.65x + 6.5
+8-6.5 = 6.5x - 0.60x
+1.5 = 0.05x
+x = 1.5/0.05
+x = 150/5
+x = 30
+
+8.46
+if 100 is decreased by a% and the result is decreased by b%
+then what ist he total percent decrease (in terms of a and b)?
+(yoou can assume that both a and b are btween 0 and 100)
+
+answer:
+
+100 . (100-a/100) . (100-b/100)
+
+1st part
+100 . (100-a/100)
+100 . (1 - a/100)
+100 - a
+
+combine
+(100 - a) . (100-b/100)
+(100 - a) . (1 - b/100)
+(100 . 1) + (100 . -b/100) + (-a . 1) + (-a . -b/100)
+100 + (-b) + (-a) + ab/100
+100 - a - b + ab/100
+
+
+total decrease = original amount - final amount
+100 - (100 - a - b + ab/100)
+100 -100 +a +b - ab/100
+a+b-ab/100
+
+8.74
+grapes are 80% water (by weight)
+and raisins are 20% water (by weight)
+
+if we start with 500grams of grapes and remove enough water to turn them into raisins
+then what is the weight of the raising that result?
+
+answer:
+
+hint: theres water and theres other stuff
+hint: how much other stuff?
+
+answer:
+
+we konw grapes is 80% water, so 20% other stuff
+raisins are 20% water then 80% other stuff
+
+we start with 500g grapes and remove enough water
+so remove 80% of 500g  = 20/100 . 500 = 20 . 5 = 100g other stuff
+
+100 = 80/100 r
+100 . 100/80 = r
+1000/80 = r
+r = 125
+
+
+8.21
+review problems
+compute 40% of 20% of 10% of 80000
+0.4 . 0.2 . 0.1 . 80000
+0.008 . 80000
+640
+
+2/5 . 1/5 . 1/10 . 80000
+2/25 . 1/10 . 80000
+2/250 . 80000
+320 . 2 = 640
