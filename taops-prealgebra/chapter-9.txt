@@ -1,0 +1,13 @@
+Square Roots
+
+9.1
+sqrt of nonneg n is nonneg n whose square is n
+
+problems 9.1
+why do the folowing tw problems have diferent answer:
+1. find all values of x for which x^2 = 36
+2. find all values of x for which x  = sqrt(36)
+
+answer:
+1. x^2 = 36 then x = sqrt(36) which is 6
+2. 

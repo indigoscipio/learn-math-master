@@ -1135,3 +1135,269 @@ compute 40% of 20% of 10% of 80000
 2/25 . 1/10 . 80000
 2/250 . 80000
 320 . 2 = 640
+
+
+8.22
+18% of 50 is what percent of 24
+18/100 . 50 = 18/2 = 9
+
+9 is what percent of 24
+9 = x% . 24
+9 = 24/100 . x
+9 . 100/24 = x
+900/24 = x
+x = 37.5
+
+8.23
+if there are 240 boys in a school with total of 960 students
+then what percent of the students are girls
+answer:
+
+total boys = 240
+total stunts = 960
+which means total girls = 960-240= 720
+
+720/960 = 0.75 . 100  = 75%
+
+8.24
+the grading scal shown to the right is use dat jones junior high
+score grade
+90-100 A
+80 - 89 B
+70 - 79 C
+60 - 69 D
+0 - 59 F
+
+
+
+the 15 scores in mr freemans sclass were
+89
+72 - c
+54
+97
+77 - c
+92
+85
+74 - c
+75 - c
+63
+84
+78 - c
+71 - c
+80
+90
+
+in mr freemans class what percent of students received a grade of c
+answer:
+
+we know people who got c scores are 6/15
+6/15 . 100 = 600/15 = 40%
+
+8.25
+the glass gague on a cylindrical coffee maker shows there are 45 cups left when the cofee maker is 36% full
+how many cups of coffee does it hold when it is full
+
+answer:
+45 cups = 36% full
+which means 1% full = 45/36 cups = 15/12  = 5/4 cups
+
+5/4 . 100 = 5 . 25 = 125 cups at 100%
+
+8.26
+during the softball season judy had 35 hits
+among her hits were 1 home run 1 triple and 5 doubles
+the rest of her hits were singles
+
+what percent of her hits were singles
+answer:
+total hits = 35
+single hits = 35-5-1-1 35-7 = 28 hits
+28/35 . 100 = 4/5 . 100 = 4 . 20 = 80%
+
+
+8.27
+any quarter has a face value of $0.25
+an ecentric colector ofers to buy state quarters for 600% their face value
+at that rate how much will larry receive for his collection for all 50 state quarter
+
+answer:
+700/100 . 0.25 = 7 . 0.25 = $1.5
+
+50*1.5 = $75
+
+8.28
+katie wants a fancy new music player that costs $300
+katie can buy it in her home state and pay 8% sales tax
+or she can drive to neighboring state and pay only 5% sales tax
+
+how much does katie save on player if she drive to neighboring state
+
+answer
+in her home state
+8/100 . 300 = $24
+
+neighboring state
+5/100 . 300 = $15
+
+difference = 24-15 = $9
+so she can save $9
+
+8.29
+sally is playing baseketball
+after she take 20 shots
+she has made 55% of her shots
+after she takes 5 more shots she raises percentage of shots made to 56%
+how many last 5 shots did she make
+
+answer:
+20 shots = 55% success
+25 shots = 56% success
+
+if we know 20 shots she make 55% success then
+55/100 . 20 = 55/5 = 11 success and 9 failed shots
+
+56/100 . 25 = 56/4 = 14 success and x failed shots
+x = 25-14= 11 failed shots
+
+so she makes 3 more success shots and 2 more failed shots
+
+8.30
+200 students enrolled in percents 101 class in 2010
+a 20% increase in enrollment is expected each year
+how many students are expected to enroll in the class of 2012
+
+answer:
+ok so 2010 = 200
+2011 = 120/100 . 200 = 6/5 . 200 = 1200/5 = 240
+2012 = 120/100 . 240 = 6/5 . 240 = 288
+
+or laternatively
+(1.2)^2 . 200 = 1.44 . 200 = 288
+
+8.31
+the jan price of tv was $2200
+the price was raisedby 10% to produce the feb price of the tv
+the feb price was decresaed by 15% to produce the march price of the tv
+what was the march price
+
+answer:
+feb = 110/100 . 2200 = $2420
+mar = 85/100 . 2420 = $2057 
+
+8.32
+antoinet gets 70% on a 10 problem test
+80% on 20 problem test
+90% on 30 problem test
+if the three tests are combined into one 60 problem test
+
+then what is her overall percent rounded to nearest whole percent?
+
+total problems combined = 10+20+30 = 60 problems
+
+1st - 70/100 . 10 = 7/10 . 10 = 7 problem corect
+2nd - 80/100 . 20 = 4/5 . 20 = 16 problems corect
+3rd - 90/100 . 30 = 27 problems corect
+
+total corect answers = 7+16+27 = 50 out of 60
+50/60 . 100 = 5/6 . 100 = 500/6 = ~83.33 = 83%
+
+8.33
+supose paul receive 6% raise every year
+after four such raises
+what is total percent increase to nearest whole percent
+
+answer:
+let x be original salary
+1.06^4 . x
+1.26247 . x
+100% + 26% 
+
+increase is around 26%
+
+8.34
+jack had a bag of 128 apples
+he sold 25% of them to jill
+next he sold 25% of those to june
+of those apples still in his bag
+he gave the most shiny one to his teacher
+
+how many apples did jack have them
+answer:
+
+75/100 . 128 = 3/4 . 128 = 32 . 3 = 96
+75/100 . 96 = 3/4 . 96 = 72
+
+72-1 = 71 apples after giving 1 apple to teacher
+
+8.35
+a shoper buys $100 coat on sale for 20% off
+an additional $5 is taken off the sale price by using disc coupon
+a sales tax of 8% is paid on the final selling price
+
+what is the total amount the shopper pays for the coat
+
+answer:
+80/100 . 100 = $80 - sale price applied
+80-5 = $75  - coupon
+108/100 . 75 = $81 - added vat
+so total price he has to pay is $81
+
+8.36
+polly the penguin invested $250 on the antarctic stock market
+during the first year her investment suffered 15% loss but during the 2nd year the remaining invstment showed 20% gain
+over the 2yr period what was the percent loss or gain in polly investment
+
+answer:
+
+original investment = $250
+
+1st year
+85/100 . 250 = $212.5
+
+2nd year
+120/100 . 212.5 = $255
+
+over 2 year
+
+final amount - original amount/original amount . 100
+5/250 . 100 = 2%
+
+alternative
+0.85 . 1.2 = 1.02 which is 2% gain
+
+8.37
+sale prices at ajak oujtlet store are 50%below origianl price
+on saturdays an additional discount of 20%of the sale price is given
+what is th saturday price of a coat whose original price is $180
+
+answer:
+0.5 . 180 = $90
+additional 20% disc = 0.8 . 90 = $72 with both discounts
+
+alternatively
+0.5 * 0.8 * 180 = 
+
+8.38
+jack and jill both work at kings ice cream shopp
+
+the king levies 20% sales tax on all purchaes
+a customer comes in and order ice cream cone that cost 5 borks (1 bork = 100 borklets)
+the customer also has coupon for 10% off
+
+jack says the total price will be highest if we first apply 10% coupon to the price of cone
+then compute the sales tax on the discounted price
+
+jill says no the total price will be highest if we first add the sales tax to original price of cone
+and then aply the coupon
+
+whos right?
+answer:
+
+jack - apply coupon -> compute sales tax
+(500 . 0.90) . 1.20 = 540 borks
+
+jill - add sales tax -> apply coupon
+(500 . 1.20) . 0.90 = 540 borks
+
+the answer is the same since multiplication is comutative/asociative
+
