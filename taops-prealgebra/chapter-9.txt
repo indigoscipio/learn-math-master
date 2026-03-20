@@ -9,5 +9,204 @@ why do the folowing tw problems have diferent answer:
 2. find all values of x for which x  = sqrt(36)
 
 answer:
-1. x^2 = 36 then x = sqrt(36) which is 6
-2. 
+1. x^2 = 36 ->  x = sqrt(36) which is 6 or -6
+2. x = sqrt(36) -> x^2 = 6 which is can only be 6
+
+radical symbol - sqrt of nonneg is nonneg whose square is n
+sqrt is a function that spits out positive number
+
+problem 9.2
+evaluate eahc of the folowing sqrt
+a. sqrt(25) = 5
+b. sqrt(144) = 12
+c. sqrt(529) = 23
+between 20^2 and 30^2
+ends in 9 -> 3*3
+d. sqrt(1600) = 40
+
+problem 9.3
+evaluate each of the folowing
+a. sqrt(11^2) = sqrt(121) = 11
+b. sqrt(4659165943^2) = 4659165943
+c. sqrt(-23^2) = sqrt(529) = 23
+d. sqrt(7^4) = sqrt(7^2 . 7^2) = 7 . 7 = 49
+e. sqrt(4^5) = sqrt((2^2)^5) = sqrt(2^10) = sqrt(2^2 . 2^2 . 2^2 . 2^2 . 2^2) = 32 
+
+hint: can you write 7^4 as sqr of number using exponnet law
+hint: 4 is square of 2. can you write 4^5 as square of some number
+
+=================================
+important: if n>= 0 then sqrt(n^2) = n
+=================================
+
+=================================
+when working with powers of integers, its helpful to use smallest base possible
+=================================
+
+problem 9.4
+simplify each of the following:
+a. sqrt(5 . 10 . 7)^2
+b. sqrt(64 . 25)
+c. sqrt(490000)
+d. sqrt(2^6 . 3^2 . 5^4)
+e. sqrt(1764)
+f. sqrt(69696)
+
+answer:
+a. sqrt(350^2) = 350
+b. sqrt(8^2 . 5^2) = 40
+c. sqrt(7^2 . 10^4) = 7 . 10^2 = 700
+d. sqrt(2^6 . 3^2 . 5^4) = 2^3. 3 . 5^2 = 600
+e. sqrt(1764) = 42
+f. sqrt(69696) = 264
+
+problem 9.5
+simplify sqrt(6^5 + 6^5 + 6^5 + 6^5 + 6^5 + 6^5)
+answer:
+sqrt(6 . (6^5) )
+sqrt(6^1 . 6^5)
+sqrt(6^6)
+6^3
+216
+
+problem 9.6
+evaluate each of the folowing
+a. (sqrt(81))^2
+b. (sqrt(5621641))^2
+
+=================================
+(sqrt(n))^2 = n
+=================================
+
+answer:
+a. (9)^2 = 81
+b. 5621641
+
+9.7
+a. find x is sqrt(x+6) = 12
+b. find x if sqrt(4x-5) = -5
+
+answer:
+a. sqrt(x+6) = 12
+x+6 = 12^2
+x = 144-6
+x = 138
+
+b. no real value satisfied
+low base
+group the exponent
+
+Exercise 9.1.1
+evaluate the folowing sqrt
+as an extra challenge try computing them without writing anything
+a. sqrt(196) = 14
+
+b. sqrt(441)
+9 . 49
+sqrt(3^2 . 7^2) = sqrt(3.7)^2 = 21
+
+c. 37
+
+d. sqrt(2^12)
+sqrt(2^6)^2
+2^6
+64
+
+e. sqrt(3600 . 25)
+60^2 . 5^2
+300
+
+f. sqrt(8 . 6 . 147)
+sqrt( (2^3) . (2 . 3) . (3 . 49))
+sqrt( 2^4 . 3^2 . 7^2)
+2^2 . 3 . 7
+84
+
+9.1.2
+compute sqrt(1368900)
+4 . 342225
+4 . 5 . 5 . 13689
+4 . 5 . 5 . 9 . 1521
+4 . 5 . 5 . 9 . 3 . 3 . 169
+4 . 5 . 5 . 9 . 3 . 3 . 13 . 13
+
+sqrt(2^2 . 5^2 . 3^4 . 13^2)
+2 . 5 . 3^2 . 13
+2 . 5 . 9 . 13
+1170
+
+9.13
+evaluate sqrt((-7)^4)
+answer:
+(-7)^4
+(-1^4 . 7^4)
+(1 . 7^4)
+7^4
+sqrt(7^2)^2
+7^2 = 49
+
+9.1.4
+how can we simplify sqrt(n^2) if n is negative?
+
+answer:
+if n is negative then n^2 is positive since it has even exponentso its the same as sqrt(n^2)
+so then sqrt(n^2) is just positive n, in other words its the absolute value of n = |n| or
+-n
+
+eg n = -4
+sqrt(-4^2) = sqrt(-1^2.4^2) = sqrt(1.4^2)=sqrt(4^2)=4
+
+9.1.5
+simplify sqrt(3^2 + 4^2)
+sqrt(9+16)
+sqrt(25)
+5
+
+9.1.6
+tammy was computing sqrt(110889) and came up with 331 as her answer
+she immediately knew that she was wrong. how?
+300*300 = 90000 so it should be > 300^2
+if we square the number that ends in 1, the result ends in 1.
+
+9.1.7
+if x is negative and x^2 = 81
+what is the value of x?
+
+-x^2 = 81
+-x = sqrt(81)
+-x = 9
+x = -9
+
+9.1.4
+if sqrt(n) = 4
+whats the value of n^2?
+
+answer:
+sqrt(n) = 4
+n = 4^2
+n = 16
+
+16^2 =256
+
+9.1.9
+find x if sqrt(2x+1) = 13
+sqrt(2x+1) = 13
+2x+1 = 13^2
+2x = 168
+x = 168/2
+x = 84
+
+9.1.10
+what values of t satisfy sqrt(t^2-15) = 7?
+hint: get rid of the square root, what must the expression inside the radical equal?
+
+answer:
+t^2-15 = 49
+t^2 = 64
+8 and -8
+
+; ================
+
+9.2
+Square roots of non-square integer
+
