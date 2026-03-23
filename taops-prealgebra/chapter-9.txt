@@ -210,3 +210,281 @@ t^2 = 64
 9.2
 Square roots of non-square integer
 
+problme 9.8
+a. evalute sqrt(5)^2
+b. evaluate sqrt(8)^6
+
+answer:
+a. 5
+b. sqrt(8)^6
+sqrt(8)^2^3
+8^3
+512
+
+problem 9.9
+a. explain why sqrt(2) must be less than 1.5
+b. estimate sqrt(2) to the nearest tenth
+
+answer:
+a. since we know 1^2 = 1
+and 2^2 = 4
+and 1.5^2 = 2.25
+it means to find the sqrt of 2 it has to be less than 1.5
+in other words 1^2 < x < 1.5^2
+
+b. 1.4^2 = 1.4 . 1.4 = 1.96
+problably around 1.41
+
+problem 9.10
+which integers have a sqrt that is greater than 7 and less than 8
+
+anwwer:
+let x be the target integer
+
+we know sqrt(49) = 7
+and sqrt(64) = 8
+
+so its
+sqrt(49) < x < sqrt(64)
+in other words 50 - 63
+
+
+problem 9.11
+how many integers are between sqrt(13) and sqrt(131)?
+
+answer:
+we know sqrt(16) = 4
+and sqrt(121) = 11
+
+so the integer in between those are
+4 <= x <= 11
+4, 5,6,7,8,9,10, 11 so 8 total integers
+
+
+problem 9.12
+find the largest integer less than sqrt(80,999,599)
+
+answr:
+we know that 9000*9000 = 81000000
+so it should be abit less than this
+8999*8999 = 80982001
+
+9.13
+which is larger, 7 . sqrt(15) or 6 . sqrt(15)
+answer:
+
+7 . sqrt(11)
+square both sides
+49 . 11
+539
+
+6 . sqrt15
+36 . 15
+540
+
+therefore 6.sqrt15 is larger
+
+
+
+Exercises
+9.21
+round each of the folowing sqr root to the nearest integer
+a. sqrt(78)
+8^2 = 64
+9^2 = 81
+so its between those two
+64-78 =14
+81-78=3
+so its closer to 81
+8.8*8.8=77.44
+nearest integer is 9
+
+b. sqrt(200)
+13^2=169
+14^2=196
+
+200-169=31
+200-196=4
+since its closer to 14^2 therefore closest integeris 14
+
+c. sqrt(4004)
+64*64 = 4096
+63*63=3969
+
+4096-4004=92
+4004-3969=35
+therfore its closer to 63
+
+
+9.2.2
+how many integers are between sqrt(7) and sqrt(220)
+answer:
+sqrt(9) = 3
+sqrt(196) = 14, sqrt(225) = 15 (not included)
+
+the intger sits betwen
+sqrt(7) which is less than 3 and sqrt(220) which is larger than 14
+3 <= x <= 14
+so its 3 up to 14
+3,4,5,6,7,8,9,10,11,12,13,14
+so 12 integers
+
+9.2.3
+what is the largest integer that is less than sqrt(83) - sqrt(35)?
+answer:
+
+9^2 = 81
+6^2 = 36
+
+so its abit larger than 9 - abit smaller than 6
+so the final result will be more than 3
+9.1^2 = 82.81
+5.9^2 = 34.81
+= 3.2
+largest integer is 3
+
+9.2.4
+compute sqrt(14)^4
+sqrt(14)^2^2
+14^2
+196
+
+9.2.5
+what integer is closest to 4sqrt(5)
+answer
+we know 2^2 = 4 so sqrt5 is slightly more than 4
+2.2*2.2 = 4.84
+2.3*2.3 = 5.29
+
+so sqrt 5 is between 2.2 and 2.3
+
+4 . 2.2
+8.8
+so the integer closest is 9
+
+alternativel
+square them
+4^2.5
+16.5
+sqrt80
+since 9^2 = 81 its a tiny bit less than 9 threfore 9
+
+9.26
+how many digits are in the sqrt of the perfect square 108,868,356
+its more than
+10000*10000 = 100,000,000
+and less than
+11000*11000 = 121,000,000
+
+the digit is the same so its 5 digit
+
+
+9.2.7
+between what two consecutviie integers on the number line is the sum sqrt 30 + sqrt 50 located
+
+answer:
+5^2 = 25
+6^2 = 36
+
+so sqrt 25 < sqrt 30 < sqrt 36
+since 5.4*5.4 = 29.16 its abit more than 5.4
+5.5*5.5 = 30.25 which is slightly less
+so between 5.4 < sqrt 30 < 5.5
+
+7^2 = 49
+8^2 = 64
+sqrt50 is slightly more than 7
+7.1*7.1= 50.41
+so sqrt 50 is between 7 < sqrt 50 < 7.1
+
+
+so the sum is
+5.4 + 7 = 12.4
+its between 12 and 13
+
+alternatively
+sqrt30 = between 5 and 6
+sqrt 50 = betwen 7 and 8
+
+lower bound = 5+7=12
+upper bound = 6+8=14
+
+
+9.2.8
+which of the folowing is the largest
+sqrt(75)
+75/9
+50% of 68/4
+answer
+
+sqrt75
+8*8=64
+9*9=81
+so it between 8 and 9
+8.7*8.7 = 75.69 so its abit less than 8.7
+
+75/9 = 25/3 = 8 1/3 = 8.3333
+
+1/2 . 68/4
+1/2 . 34/2
+1/2 . 17
+8.5
+
+so the largest is sqrt75
+
+9.3
+ARITHMETIC WITH SQURAE ROOTS
+
+problem
+9.14
+
+a. for what integer n is sqrt 4 . sqrt 25 = sqrt n?
+b. compute (sqrt 2 . sqrt 3)^2
+c. for what integer n is sqrt 2 .sqrt 3 = sqrt n?
+d. if a and b are nonnegative then must we have a . b = sqrt a.b? why or why nowt?
+
+answer:
+
+a. 
+sqrt(4) . sqrt(25) = sqrt(n)
+square all sides
+4 . 25 = n
+n = 100
+so sqrt 100 = 10
+
+b
+sqrt 2^2 . sqrt 3^2
+2.3
+6
+
+c
+sqrt(2) . sqrt(3) = sqrt (n)
+square all side
+2 . 3 = n
+n = 6
+
+d. small example
+let a = 4
+b = 9
+
+sqrt(4) . sqrt(9)
+2 . 3
+6
+
+sqrt(4.9)
+sqrt(36)
+6
+
+so theyre both the same
+im guessiong since every number has its square they can be like "mirror" square of each other
+we can multiply first or later it would still be sthe same
+
+so doesn't matter if we multiply firs then square
+or square then multiply
+
+9.15
+compute each of the folowing
+a. sqrt(2).sqrt(8)
+b. sqrt(18).sqrt(50)
+c. sqrt(24).sqrt(10).sqrt(15)
+d. sqrt(2).sqrt(8)
