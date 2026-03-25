@@ -614,3 +614,287 @@ sqrt(a) + sqrt(b) does not equal sqrt(a+b)
 sqrt(a^2 + b^2) does not equal a+b
 ==================================================
 
+9.3.1
+evaluate the following expr
+a. sqrt 2 . sqrt 18
+sqrt 2 . sqrt (2 . 9)
+sqrt 2 . sqrt 2 . sqrt 9
+2 . 3
+6
+
+b. sqrt 400
+20
+
+c. 120*30
+3600
+60
+
+d. 90 . 10
+900
+30
+
+e. 300 . 27
+300 . 9 . 3
+300 . 3 . 9
+900 . 9
+30 . 3
+90
+
+f.
+2^3 + sqrt(32) . 2sqrt(2) : 8
+2^3 + 4.sqrt2 . 2sqrt2 / 8
+8 + 8 . 2 / 8
+8 + 16/8
+8 + 2
+10
+
+=======================================
+if its multiply you can just multiple mixed int+sqrt
+eg 2sqrt2 . sqrt32 = 2sqrt64 = 16
+=======================================
+
+g. sqrt(1/9 + 1/16)
+sqrt(16+9/144)
+sqrt(25/144)
+sqrt(25)/sqrt(144)
+5/12
+
+h.
+sqrt(2 1/4) + sqrt(1 7/9)
+sqrt(9/4) + sqrt(16/9)
+3/2 + 4/3
+9+8/6
+17/6
+
+i. sqrt(0.000081)
+sqrt(81 . 10^-6)
+9 . sqrt(10^-6)
+9 . sqrt(10^-3^2)
+9 . 10^-3
+0.009
+
+9.3.2
+let t be any number
+simplify sqrt(64t^64)
+
+sqrt(64t^64)
+8 . sqrt(t^64)
+8 . sqrt(t^32^2)
+8 . t^32
+
+9.3.3
+find sqrt(250) to the nearest tenth, given that sqrt(10) to the nearest hundreth is 3.16
+
+sqrt250 = sqrt10 . sqrt25
+= 3.16 . 5
+= 15.8
+
+9.3.4
+evaluate sqrt(x).sqrt(z) if x = 5/27
+and z = 5/3
+sqrt(5/27) . sqrt(5/3)
+sqrt(25/81)
+5/9
+
+9.3.5
+let a=sqrt(1.44)
+b = 13/11
+c = sqrt(8) - 2sqrt(2)
+d = 3/5 + 3/4
+list the letters in order from least to greatest value
+
+answer:
+lets find out what each value
+a
+sqrt(144 / 100)
+12/10 = 6/5 = 1 1/5 = 1.2
+
+
+b. 13/11 = 1 2/11 = 1.1818...
+
+c. sqrt(2 . 4) - 2sqrt(2)
+2sqrt2 - 2sqrt2
+0sqrt2
+0
+
+d
+3/5 + 3/4
+12+15/20
+27/20
+1 7/20
+1.35
+
+so smallest to greatest is
+c < b < a < d
+
+
+9.3.6
+simplify each of the following:
+a. sqrt(363)
+sqrt(3 . 121)
+11.sqrt(3)
+
+b. sqrt(525)
+sqrt(25 . 21)
+5.sqrt21
+
+c. sqrt(3168)
+sqrt(144 . 22)
+12.sqrt22
+
+9.3.7
+simplify 3.sqrt(75) + 2.sqrt(27)
+
+3.sqrt(25.3) + 2.sqrt(3.9)
+5.3.sqrt(3) + 3.2.sqrt(3)
+15sqrt3 + 6sqrt3
+21sqrt3
+
+9.3.8
+let x be a nonnegative number
+simplify sqrt(75x) . sqrt(2x) . sqrt(14x)
+
+answer:
+sqrt(150.x^2) . sqrt(14x)
+x.sqrt(150) . sqrt(14x)
+x.sqrt(25.6) . sqrt(14x)
+5x.sqrt(6).sqrt(14x)
+5x.sqrt(6.14x)
+5x.sqrt(84x)
+5x.sqrt(4.21x)
+10x.sqrt(21x)
+
+9.3.9
+simplify sqrt(375)+sqrt(60)/sqrt(5)
+
+answer:
+sqrt(375)
+sqrt(25.15)
+5.sqrt15
+
+sqrt(60)
+sqrt(4.15)
+2.sqrt15
+
+5.sqrt15 + 2.sqrt15 / sqrt(5)
+7.sqrt(15)/sqrt(5)
+
+hmm whattodonext
+7.sqrt(15/5)
+7.sqrt3
+
+alternatively
+seperate the denominator
+
+sqrt(375)/sqrt(5) + sqrt(60)/sqrt(5)
+
+Challenge problems
+9.43
+for what positive number t is t^2 = 9^6?
+
+answer:
+ t^2 = 9^6
+ t = sqrt(9^6)
+ t = sqrt(9^3^2)
+ t = 9^3
+ t = 729
+
+b.
+for what positive number t is t^2 = 9^5
+
+answer:
+t^2 = 9^5
+t = sqrt(9^5)
+t = sqrt(9^1 . 9^4)
+t = 3 . sqrt(9^4)
+t = 3 . sqrt(9^2^2)
+t = 3 . 9^2
+t = 3 . 81
+t = 243
+
+9.44
+find z if 1/sqrt(z) = 5
+
+1/sqrt(z) = 5
+1 = 5.sqrt(z)
+1/5 = sqrt(z)
+(1/5)^2 = z
+z = 1/25
+
+9.45
+for how many idfferent negative values of r is sqrt(r+200) a positive int?
+answer:
+
+since sqrt cant be negative so r must atmost -200 to get to sqrt(0)
+so 200 diffetent negative values
+
+sqrt(r+200) =k
+r+200=k^2
+r=k^2-200
+
+that means k^2 must be less than 200
+196 is the lmit so 14^2
+therefore 14 different values
+
+9.46
+the geometric mean of two non negative numbers is the square root of their product
+a. what is the geometric mean of 24 and 150?
+
+answer:
+sqrt(24.150)
+sqrt(3600)
+60
+
+b. is it possible for geometric mean of two non integers to be an intneger
+answer:
+
+multiply by its reciprocal
+sqrt(3).sqrt(27)
+sqrt(81)
+sqrt(9)
+3
+
+9.47
+for what value x does the sqrt(x^3)=27
+sqrt(x^3)=27
+x^3=27^2
+x^3=729
+x=cuberoot(729)
+x=9
+
+9.48
+if the expression below equals an integer
+what is the smallest possible value of n
+
+sqrt(3/1 * 4/2 * 5/3 * ... * n+2/n)
+
+answer:
+lets try n=1
+1+2/1 = 3/1 = 3
+sqrt3 = not an integer
+
+n=2
+3*2=6
+sqrt6=not an integer
+
+n=3
+5/3 * 6
+10
+sqrt10 = not integer
+
+n-4
+6/4 . 10
+3/2.10
+30/2
+sqrt15 - not an integer
+
+sqrt((n+1)(n+2)/1.2)
+
+(n+1)(n+2)/2 must be a perfect square
+(n+1)(n+2) = 2k^2
+
+
+n=7
+8.9/2
+72/2
+36
