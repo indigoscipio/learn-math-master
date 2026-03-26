@@ -898,3 +898,120 @@ n=7
 8.9/2
 72/2
 36
+
+9.49
+express 9/ 2.sqrt3 so that there is no sqrt in the denominator
+
+answer:
+
+9/2sqrt(3)
+sqrt(81)/2sqrt(3)
+1/2 . sqrt(81)/sqrt(3)
+1/2 . sqrt(27)
+1/2 . sqrt(9.3)
+1/2. 3sqrt(3)
+3/2 sqrt3
+
+9.50
+the square root of 5 is 2.236 to the nearest thousandth
+find sqrt(1/5) to the nearest hundreth
+
+answer:
+
+we know sqrt(5) = 2.236
+
+sqrt(1/5)
+sqrt(1)/sqrt(5)
+sqrt(1)/2.236
+1/2.236
+0.45
+
+9.51
+in this problem we discover the number x such that 4x^2=2
+a. according to the laws of exponents how can we write the product 4^x . 4^x as a single power of 4
+answer:
+
+4^x.4^x = 4^x+x
+4^2x
+
+b. if 4^x = 2 then what integer does 4^x . 4^x equal
+2 . 2 = 4
+
+c
+use the first two parts to find x
+4 = 4^2x
+4^1 = 4^2x
+therefore the exponent 1 = 2x -> x = 1/2
+
+4^1/2 = 2
+
+4^1/2 is anothe way of writing sqrt(4)
+
+9.52
+just as the square root of a number m is the nonnegative number whose square euqals m
+the cube root of a number n is the number whose cube is n
+we write cube root of n as cuberoot(n). similarly quadroot(n) is nonneg power whose forth power is n
+
+a. what is cuberoot3(8)
+2
+
+b. cuberoot3(216)
+6
+
+c. is cuberoot(-1000) defined? if so what is it?
+
+10*10*10 = 1000
+but we have negative
+negative . negative . negative = always negative
+so its alowed
+
+d. find every integer that equals its own cube root
+cuberoot(1) = 1
+cuberoot(-1) = -1
+cuberoot(0) = 0
+
+e. what is quadroot(81)
+3
+
+f
+quadroot(256)
+4
+
+9.5.3
+compute (sqrt(11) - sqrt(7)) (sqrt(11) + sqrt(7))
+sqrt(11).sqrt(11) + sqrt(11).sqrt(7) - sqrt(7).sqrt(11) - sqrt(7).sqrt(7)
+11 + sqrt(77) - sqrt(77) - 7
+11-7
+4
+
+alternatively
+differnceo f swuare
+a^2-b^2
+
+b. express 1/sqrt(5)-sqrt(2) without square roots in the dnominato
+
+1/sqrt(5)-sqrt(2) . sqrt(5)+sqrt(2)/sqrt(5)+sqrt(2)
+sqrt(5)+sqrt(2)/5-2
+sqrt(5)+sqrt(2)/3
+
+9.54
+what is the smallest positive integer k such that sqrt(84k) is an integer
+
+answer:
+lets try one by one
+k=1 = sqrt(84) - not integer
+k=2 = sqrt(168) - not integer
+k=3 = sqrt252 - not integer
+k=4 = sqrt336 - not integer
+
+try another approach
+let n be a positive integer
+sqrt(84k) = n
+84k = n^2
+k = n^2/84
+
+prime factors of 84
+2 . 2 . 3 . 7
+add 3 and 7
+2.2.3.3.7.7
+(2.3.7)^2
