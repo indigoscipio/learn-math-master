@@ -1074,4 +1074,263 @@ or the denominator is zero
 
 x+1/x-1
 if x = 1 then its undefined which makes the denominator zero
+-1 < x <= 1
+
+
+9.58
+find the sum of all valus of r for which sqrt(r-3)^2 = 9
+
+answer:
+sqrt(r-3)^2 = 9
+r-3 = 9
+r = 12
+
+and n=-6
+(-6-3)^2
+sqrt(-9^2) = 9
+
+the sum = 12-6 = 6
+
+finding the 2 values
+just put into equality with positive and negative values
+r-3 = 9
+r-3 = -9
+
+9.59
+find all values of h such that 3.sqrt(27)/h = h/27.sqrt(3)
+
+hint: how would you solve smilar problems that are simpler looking, like
+3/7 = h/3 or 3/h = h/27? do square roots really make the problem much different?
+
+answer:
+if 3/7 = h/3 then
+3/7 . 3 = h
+9/7 = h
+
+3/h = h/27
+3/h . 27 = h
+81/h = h
+81 = h^2
+h = sqrt(81)
+h = 9
+
+lets go back to the original problem
+
+3.sqrt(27)/h = h/27.sqrt(3)
+3.sqrt(27)/h * 27.sqrt(3) = h
+3.sqrt(27) * 27.sqrt(3) = h^2
+81.sqrt(81)= h^2
+81.9=h^2
+729 = h^2
+h = 27
+h = -27
+
+==================================================================
+be careful when solving a variable that is SQUARED
+==================================================================
+
+9.60
+solve for x:
+sqrt(5-2x) = 10/sqrt(5-2x)
+
+hint: that expression in the square root looks scary. what if the problem were just sqrt(z) = 10/sqrt(z)? then could you
+figure out what to do? how about just a = 10/a?
+
+sqrt(5-2x) = 10/sqrt(5-2x)
+sqrt(5-2x).sqrt(5-2x) = 10
+(sqrt(5-2x))^2 = 10
+5-2x = 10
+-2x = 5
+x = -5/2
+
+
+9.61
+in section 9.2 we used the following fact many times
+
+if a and b are nonneg and a > b then sqrt(a) > sqrt(b)
+
+in this problem we explain why this is true. in the following parts, suppose that a and b are nonnegative
+
+a. show that if sqrt(a) > sqrt(b), then a > b
+answer:
+
+lets pick a small example
+let a = 25 and b = 9
+sqrt(25) > sqrt(9)
+5 > 4
+
+now try mathemticly
+sqrt(a) > sqrt(b) - square both
+a>b
+
+alternatively
+sqrt(a)>sqrt(b)
+mult by sqrt(a)
+a>sqrt(ab)
+
+sqrt(a)>sqrt(b)
+mult by sqrt(b)
+sqrt(ab)>b
+
+so we have a > sqrt(ab) > b
+therefore a > b 
+
+part b
+show that if sqrt(a) = sqrt(b), then a = b
+answer:
+
+sqrt(a) = sqrt(b)
+mult both sides by sqrt(a)
+a = sqrt(ab)
+
+mult both sides by sqrt(b)
+sqrt(ab) = b
+
+so we have
+a = sqrt(ab) = b
+therfore a = b
+
+alternatively just square both sides
+sqrt(a)^2 = sqrt(b)^2
+a = b
+
+c. show that if sqrt(a) < sqrt(b), then a < b
+lets do small eample
+
+a = 4, b = 9
+sqrt(4) < sqrt(9) -> 2<3
+
+mathematicaly
+sqrt(a) < sqrt(b) - square both sides
+a < b
+
+alternatively like the part b answer
+
+d. combine the first 3 parts to show that if a > b then sqrt(a) > sqrt(b)
+
+a > b
+
+if sqrt(a) = sqrt(b) then part b says a = b, 
+buw we know a > b so this is impossible
+
+if sqrt(a) < sqrt(b) then a < b bu we know a > b so that's not true
+
+the only remaining possibility is
+if sqrt(a) > sqrt(b) then a > b
+
+9.62
+let x be a number between 0 and 1
+show that sqrt(x) is greater than x
+
+hint: compare sqrt(x) to something simple. is it greater than 1?
+hint: what must you do to sqrt(x) to get x?
+
+answer:
+
+sqrt(x) > x
+if x = 1 -> sqrt(1) = 1, not greater than 1
+if x = 0 -> sqrt(0) = 0, not greater than 0
+x = 0.5 -> sqrt(0.5) = 0.7 so its greater
+
+sqrt(x)>x - square it
+x > x^2
+
+0.5 > 0.5^2
+0.5 > 0.25
+
+so its true since decimal square has always less
+
+9.63
+for how many 2 digit integers n is sqrt(6n) an integer?
+
+hint: simplify the problem first
+hint: for what integers t is sqrt(t) an itneger?
+hint: for what values of n is 6n among the values you found in the previous hint?
+
+answer:
+
+for what integer t is sqrt(t) an integer? when its t^2
+
+2 digit = 10-99
+n=10
+sqrt(6.10)
+sqrt(600) - not an integer
+
+lets try another aproach instead of checking 1 by 1
+we want sqrt(6n) to be some integer k
+sqrt(6n) = k
+6n = k^2
+this means 6n must be a perfect square
+
+prime factor of 6 = 2.3
+sqrt(2.3) - needs another 2.3 to be perfect square
+so n must include 2 . 3 = 6
+and it must include another perfect square
+so n must include 6 . m^2 where m is the perfect square
+
+now check within the range
+n must be between 10 to 99
+m=2 -> 24
+m=3 -> 6.9=54
+m-4 -> 6.16=96
+
+so 2,3,4
+
+9.64
+in this problem we show that sqrt(2) is an irrational number
+which means that it cannot be expressed as quotient of two integers
+
+we will use a powerful tehcnique called proof by contradiction
+we start by imagining that we can write sqrt(2) as the quotient of 2 integers
+then show that this leads to something impossible
+
+a. suppose that we can express sqrt(2) as quotient of integers
+we can express any quotient of 2 integers in simple form
+whch means that the num and denom have no common factors  greater than 1
+so suppose that there are some integers p and q for which sqrt(2) = p/q and p /q is in simplest form
+what must p^2/q^2 equal?
+
+answer:
+
+sqrt(2) = p/q - square both sides
+2 = p^2/q^2
+
+b. explain why p must be even
+answer:
+2 = p^2/q^2
+p^2 = 2.q^2 so p^2 = 2 times some integer
+
+lets try p=2
+2 = 2^2/q
+2 = 4/q
+2q = 4
+q = 4/2
+q = 2
+
+c. since p must be even there must be some integer r such that p = 2r
+use this to show that q must be even also
+
+p = 2r
+
+p^2 = 2.q^2
+(2r)^2 = 2.q^2
+4r^2 = 2.q^2
+q^2 = 4r^2/2
+q^2 = 2r^2
+
+therefore q = 2 times some integer
+
+d. in the previous two parts we showed that p and q are both even
+why  does this contradict our steup for the firtp art?
+why does this tell us that sqrt(2) is irrational?
+
+answer:
+because if both p and q are both even
+then it can still be simplified further
+in other words it is not in simple form or still ahve other factor greater than 1
+which contradicts our supposition from the first part
+
+therefore the oly thing that could be wrong is our very first assumption
+if assuming sqrt(2) is rational leads to an impossibility
+then sqrt(2) is threfore irrational
 
