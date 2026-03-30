@@ -1334,3 +1334,225 @@ therefore the oly thing that could be wrong is our very first assumption
 if assuming sqrt(2) is rational leads to an impossibility
 then sqrt(2) is threfore irrational
 
+9.23
+evaluate each of the following
+a. sqrt(27.12)
+sqrt(9.3.3.4)
+sqrt(9.9.4)
+3.3.2
+18
+
+b. sqrt(2.18.40.10)
+b. sqrt(2.2.9.4.10.10)
+2.2.3.10
+4.30
+120
+
+c. sqrt(7.2).sqrt(2^3.7^3)
+c. sqrt(2^4.7^4)
+sqrt(2^2^2.7^2^2)
+2^2.7^2
+4.49
+196
+
+d. sqrt(24) . 2sqrt(54)
+sqrt(4.6) . 2sqrt(54)
+2sqrt(6) . 2sqrt(54)
+4 . sqrt(324)
+4.18
+72
+
+e. sqrt(3).sqrt(5).sqrt(15)
+sqrt(15).sqrt(15)
+15
+
+f. sqrt(24).sqrt(18).sqrt(12)
+sqrt(4.6).sqrt(9.2).sqrt(4.3)
+2sqrt(6).3sqrt(2).2sqrt(3)
+2.3.2.sqrt(6).sqrt(2).sqrt(3)
+12.sqrt(36)
+12.6
+72
+
+g.sqrt(5 4/9)
+sqrt(49/9)
+sqrt(49)/sqrt(9)
+7/3
+2 1/3
+
+h. sqrt(12 1/4)
+sqrt(49/4)
+7/2
+3 1/2
+
+f. sqrt(2.89)
+sqrt(289/100)
+17/10
+1 7/10
+
+j. sqrt(24)/sqrt(30) : sqrt(20)/3.sqrt(25)
+sqrt(24)/sqrt(30) * 3.sqrt(25)/sqrt(20)
+
+Left part
+sqrt(4.6)/sqrt(30)
+2sqrt(6)/sqrt(30)
+
+right part
+3.sqrt(25)/sqrt(20)
+15/2sqrt(5)
+
+combine
+2sqrt(6)/sqrt(30) * 15/2sqrt(5)
+
+30sqrt(6)/2sqrt(150)
+15sqrt(6)/sqrt(150)
+15 . sqrt(6/150)
+15. sqrt(1/25)
+15.1/5
+3
+
+alternatively
+left part
+sqrt(24/30)
+sqrt(4/5)
+2/sqrt(5)
+
+3.sqrt(25/20)
+3.5/sqrt(20)
+15/sqrt(4.5)
+15/2sqrt(5)
+
+k. sqrt(3^5 + 3^5 + 3^5)
+sqrt(3^1.3^5)
+sqrt(3^6)
+sqrt(3^3)^2
+3^3
+27
+
+l. sqrt(5^5+5^5+5^5+5^5+5^5)
+sqrt(5^1*5^5)
+sqrt(5^6)
+sqrt(5^3)^2
+5^3
+125
+
+9.24
+what is the vaule of expr sqrt(x^3-2^y) when x = 5 and y = 2?
+answer:
+
+sqrt(5^3-2^2)
+sqrt(125-4)
+sqrt(121)
+11
+
+9.25
+simplfiy sqrt(28+sqrt(1296))
+answer:
+
+lets eval one by one
+sqrt(1296)
+sqrt(2.2.324)
+2.18
+36
+
+sqrt(28+36)
+sqrt(64)
+8
+
+9.26
+which perfect cubes less than 100 have square root that are integers?
+0^3 = 0
+1^3 = 1
+2^3 = 8
+3^3 = 27
+4^3 = 64
+5^3 = 125 - beyond 100
+
+so we need to determine which are these have sqrt that are integers
+sqrt 0 = 0 - yes
+sqrt 1 = 1 - yes
+sqrt 8 = not an integer
+sqrt 27 = not an integer
+sqrt 64 = 8, an integer
+
+so there's 3 which is t0,1, and 64
+
+9.27
+if x^2 = 16
+what is the sum of all possible values of x
+
+answer:
+x = -4
+and x = 4
+
+so the sum is 4 + -4 = 0
+
+9.28
+find n if sqrt(n) = sqrt(81) - sqrt(16)
+
+sqrt(n) = 9 - 4
+sqrt(n) = 5
+n = 5^2
+n = 25
+
+9.29
+a. solve te equation sqrt(9+4y) = 11
+9+4y = 11^2
+9+4y=121
+4y=121-9
+4y=112
+y=28
+
+b. solve te equation 6 - sqrt(x+1) = 9
+-sqrt(x+1) = 3
+sqrt(x+1)=-3
+since the sqrt of sometihng is nonnegative there can be no solution to x
+
+
+9.30 what integer is closest to -sqrt(23)?
+we know sqrt(16)=4
+sqrt(25) = 5
+
+so its between 4 and 5, or -4 or -5 since its negative
+since 23 is closer to 25 then it should be 5
+
+9.31
+for each of the following state wheter the expr is posiive or negative
+a. 10 - sqrt(101)
+10^2 = 100 so sqrt(101) is slightly larger then 10
+so the answer here should be negative
+
+b. 10 - 3.sqrt(11)
+we know 3^2 = 9
+4^2 = 16
+3.4^2 = 11.56
+and so sqrt(11) is closer to 3 and less than 3.4
+10 - 3.3.3
+10 - 9.9
+so it should be positive
+
+alternatively
+10 - sqrt(9.11)
+10 - sqrt(99)
+since sqrt(99) is less than sqrt(100)
+the answer is positive
+
+c. 4.sqrt(33) - 5.sqrt(21)
+sqrt(16.33) - sqrt(25.21)
+sqrt(528) - sqrt(525)
+its positive
+
+9.32
+how many integers are between sqrt(37) and 5.sqrt(11)?
+answer:
+6^2=36
+sqrt(37) is abit more than 6 so 6 is excluded
+
+5.sqrt(11)11
+sqrt(25.11) = 275
+16^2 = 256
+17^2 = 289
+so it sits between 16 and 17 with 17 excluded
+
+therefore the integers are
+7,8,9,10,11,12,13,14,15,16 so that's like 10 total
