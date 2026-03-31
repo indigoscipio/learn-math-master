@@ -1556,3 +1556,94 @@ so it sits between 16 and 17 with 17 excluded
 
 therefore the integers are
 7,8,9,10,11,12,13,14,15,16 so that's like 10 total
+
+
+9.33
+the formula d = sqrt(1.5h) gives the distance (d) in miles you can see the horizon from a height of h to feet above the earth
+to the nearest mile, how many miles can you see the horizon from the top of the empire state building at 1250ft?
+
+answer:
+sqrt(1.5 . 1250)
+sqrt(15/10 . 1250)
+sqrt(125 . 15)
+sqrt(25 . 5 . 5 . 3)
+5.5.sqrt(3)
+25.sqrt(3)
+625.3
+1875
+43^2 = 1849
+44^2 = 1936
+1875 - 1849 = 26
+1936-1875 = 61
+since its closer to 1849 therefore the number is 43
+
+no need to simplify the radical lol
+
+
+9.34
+what is the greatest integer that is less than sqrt(80) + sqrt(120)
+answer
+sqrt(80) 
+its more 8^2=64
+its less than 9^2=81 so closer to 9 than 8
+8.9^2 = 79.21 
+
+sqrt(120)
+its a bit less than 11^2=121
+10.9 = 118.81
+
+so its roughly 8.9+10.9 = 19.8 so the closest would be 20
+so greatest less than the sum is 19
+
+
+9.35
+arrange thw folowing numbers from least to greatest
+15
+4sqrt(14)
+3sqrt(26)
+6sqrt(6)
+
+15^2 = 225
+
+4sqrt(14)
+16.14 -> 224
+
+3sqrt(26)
+9.26 = 234
+
+6.sqrt(6)
+36.6
+216
+
+so least to greatest
+
+6.sqrt(6)
+4sqrt(14)
+15
+3sqrt(26)
+
+9.36
+find int closest to sqrt(42.3)
+answer:
+
+since we know 7^2 = 49
+and 6^2 = 36
+6.5^2 = 42.25
+and 42.3 is greater than 42.25
+therefore its larger than 6.5
+therefore its closer to 7
+
+what percent of 12.sqrt(12) is 3.sqrt(3)?
+
+3.sqrt(3) = x/100 . 12.sqrt(12)
+3.sqrt(3)/12.sqrt(12) = x/100
+1/4 . sqrt(3)/sqrt(12) = x/100
+1/4 . sqrt(3/12) = x/100
+1/4 . sqrt(1/4) = x/100
+1/4 . sqrt(1)/sqrt(4) = x/100
+1/4 . 1/2 = x/100
+1/8 = x/100
+1/8 . 100 = x
+x = 12.5
+
+9.38
