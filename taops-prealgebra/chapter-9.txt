@@ -1647,3 +1647,85 @@ what percent of 12.sqrt(12) is 3.sqrt(3)?
 x = 12.5
 
 9.38
+simplify each of the following
+a. sqrt(360)
+sqrt(2 . 2 . 3 . 3 . 10)
+2.3.sqrt(10)
+6.sqrt(10)
+
+b. sqrt(936)
+sqrt(9 . 4 . 26)
+3.2.sqrt(26)
+6.sqrt(26)
+
+c. sqrt(10164)
+sqrt(121 . 4 . 21)
+11.2.sqrt(21)
+22sqrt(21)
+
+9.39
+find the integer nearest to sqrt(98) - sqrt(50)
+
+10^2 = 100 so sqrt(98) is a bit less than 10
+7^2 = 49 so sqrt(50) is abit more than 49
+
+9.5^2 = 90.25 so sqrt(98) is more than 9.5
+7.5^2= 56.25 so qsrt(50) its a less than 7.5
+
+so 9.5 < sqrt(98) < 10
+and  7 < sqrt(50) < 7.5
+
+
+9.8^2 = 96.04
+7.1^2 = 50.41, abit more lets just say its 7.01
+
+9.8 - 7 = 2.8 - integer closest is 3
+
+alternatively
+sqrt(49.2) = 7.qsrt2
+sqrt(25.2) = 5.sqrt2
+
+differenec = 2sqrt2 = 2 . 1.4 = 2.8 so its 3
+
+9.40
+for how many positive integers k is k.sqrt(5) less than 10?
+
+answer:
+sqrt(5) = approx 2.23
+k=1
+1.sqrt(5) - still less than 10
+
+k=2
+2.sqrt(5) = still less than 10
+
+k=3 
+3.sqrt(3) = 3.2.23 = 6.69
+
+
+lets do this mathematicsly 
+since the upper limit is 10
+k.sqrt(5) < 10
+k^2 . 5 < 100
+k^2 < 20
+
+since we know 4^2 = 16
+and 5^2 = 25 which is more than 20
+there can only be 4
+
+9.41
+simplify 4.sqrt(60) - 2.sqrt(135)
+4.sqrt(3.2.2.5) - 2.qsrt(9 . 3 . 5)
+4.2.sqrt(15) - 2.3.sqrt(15)
+8sqrt(15) - 6sqrt(15)
+2sqrt(15)
+
+9.4.2
+evaluate (sqrt(3) - sqrt(27) + sqrt(75))^2
+focus on the inside
+1sqrt(3) - 3sqrt(3) + 5sqrt(3)
+(3sqrt(3))^2
+
+3^2 . sqrt(3)^2
+9.3
+27
+
