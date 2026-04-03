@@ -146,3 +146,65 @@ now find <cod
 2x = 40
 x = 40/2
 x = 20
+
+
+PROBLEMS
+
+10.1.10
+we wanna find <CBP
+
+we know
+ABP = PBQ = QBC
+ABM = MBC
+and MBQ = 28deg
+ABC = ABP + PBQ + QBC
+ABC = abm + mbc
+
+so lets say x = abc
+x = abm+mbc
+since abm=mbc
+x = 2.mbc
+mbc = x/2
+
+
+or
+x = abp + pbq + qbc
+since abp = pbq = qbc
+x = 3.qbc
+qbc = x/3
+
+
+mbq is the 'small slice'
+mbq = mbc - qbc
+28 = x/2 - x/3
+28 = 3-2x/6
+28 = x/6
+28.6 = x
+x = 168
+
+therefoer cbp is
+pbq + qbc
+if we know abc = 168
+and pbq = abp = qbc
+then pbq = 1/3 . 168
+pbq = 56
+
+56 + 56 =112
+
+
+===============================
+Problem 10.9
+
+the angle from parallel line 1 and parallel line 2 are simlar
+in other words they share the same angle
+
+
+10.10
+a = 180-35=145
+b = 35 (vertical angle)
+c = 145
+
+w = a = 145
+y = b = 35
+x = 35
+z = c =145
