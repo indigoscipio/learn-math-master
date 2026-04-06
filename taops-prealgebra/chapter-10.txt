@@ -208,3 +208,62 @@ w = a = 145
 y = b = 35
 x = 35
 z = c =145
+
+10.11
+
+
+Exercises
+
+10.2.1
+should also be 73
+
+
+x+30+x=180
+2x+30 = 180
+2x = 150
+x = 75
+
+10.2.3
+
+t+3t+2t=180
+6t=180
+t=30
+
+4.30
+180-120 = 60deg
+
+10.2.4
+lines j and k are parallelif line l is perpendiular to line justmust line l be perpendicular to line k
+
+
+yes coz if we extend the line its like "crosses through" at the same angle since j and k are paralel
+
+
+10.2.2
+if i draw 8 paralel lines on piece of paper, into how many diferent non overlaping regions will the lines dvide the paper?
+
+answer:
+i dont get it isn't paralel lines wont overlap? so its just
+
+_______________________________
+_____ line 1
+_____ line 2
+_____ line 3
+_____ line 4
+_____ line 5
+_____ line 6
+_____ line 7
+_____ line 8
+_______________________________
+
+so a total of 8 lines but with 9 regions/blocks?
+
+10.2.6
+43 degree
+
+
+
+10.2.7
+they are not parallel
+
+10.2.8
