@@ -290,7 +290,133 @@ so therefore  abc + bac + acb = 180deg
 
 
 10.14
-
-the measure of one angle of triangle isdouble the measure of another angle of the triangle
+the measure of one angle of triangle is double the measure of another angle of the triangle
 and 15 deg greater than the measure of the third angle of the triangle
 what are the measures of the angles of the triangle
+
+x+2x+(2x-15) = 180
+5x-15 = 18
+33deg
+
+10.15
+a triangle is right trangle if one of its angles is  right
+a triangle is obtuse if one of its angle is obtues
+a acute triangle iif all three of its angles are acute
+
+a. is it possible for triangle to have more than one angle that is rightor obtuse
+b. explain why acute angles in right triangle must sum to 90eg
+c. if measures of two angles of triangle have sum equal to measure of third angle
+must the trinalge be a right triangle
+
+answer:
+
+a. we know sum of degree a tirangle must have is 180deg
+if theres a triangle with more than one 90deg -> 90 + 90 + x -> total already 180, so x must be zero or has no degree at all
+if theres a triangle with obtuse (more than 90deg) -> 91 + 91 + x > total also already exceeds 180 
+so its impossible
+
+b. in a right triangle one of the angle is 90deg
+if we have 90 + x + y then it must sum to 180
+so 90 + x +  y = 180
+x + y = 90
+so the sum of x + y must be 90 degree
+
+c. say we have
+a=45, b=45, c=90 -> right triangle
+
+lets find a counterexample where c is acute
+a = 25, b = 20, c = 45 -> sum of angle is not 180deg, so its not a valid triangle
+
+obtuse
+a = 100, b = 60, c = 160 -> sum of angle exceeds 180deg, not a valid triangel
+
+it seems the only way the two angle equal to the third angle
+is when the third angle is 90 degree
+because triangle must be 180deg totla sum, if we let the third one 90deg then we can divide the remaining 90 into two angles?
+
+<a + <b = <c
+<c + <c = 180
+2. <c = 180
+<c = 90
+
+10.16
+a. what is the sum of measures of interior angles of a square
+
+b. draw 2 quadrilateral that arent squares and mesure their interior angles with protactor
+sum the resulting measure for each quadrilateral notice anything itneresting?
+
+c. make a guess/conjecture about the sum of interior angles of quadrilateral based on you observation in the first
+two parts use what you know about triangles to explain why your guess is corect
+
+answer:
+a. 4.90 = 360deg
+
+b.
+paralelogram - 120+60+120+60 = 360
+rhombus - 120+60+120+60 = 360deg
+trapezium - 70+70+110+110 = 360deg
+seems like total is 360deg
+
+c.
+if we divide the quadrilateral into two triangles
+then we'd get one part that has a total of 180deg and nother that has a total of 180 deg
+if we sum that together we'd get a total of 360deg
+
+Problem 10.17
+
+a. 90deg
+b. 
+<b = 90
+<c = 82
+<e = 51
+<d = 137
+
+c x = 51 (vertical angle)
+
+10.18
+a. what isthe sum of interior angles of a pentagon? of a hexagon?
+b. find formula for sum of interior angles of polygon with n sides
+c. a regular polygon is a polygon in which allsides have same length
+and all angles have same measure. what is the measure of each interior
+angle of a regular pentagon? of a regular octagon?
+
+answer:
+a.
+pentagon has 5side , weca ndivide it into 3 triangle so total is 180*3 = 540
+haxagon has 6 side, we can divide into 4 triangles so 180*4 = 720deg
+
+b.since we know pentagon which has 5 side -> divide into 3 triangle
+and hexagon 6 side -> divide into 4 tirnagle
+for n side we can divide it into n-2 triangle
+so n-2 . 180 degree
+triangle -> 1 . 180 = 180
+quad -> 2 . 180 = 360
+pentagon -> 3 . 180  = 540
+
+c.  pentagon -> since we know it has a total of 540deg and it has 5 sides
+we can divide 540/5 = 108 deg
+octagon -> with the formula we can calculate sum of angle -> 6 . 180 = 1080 deg
+1080/8 = 135 degrees each
+
+regular polygon = polygon which all sides have same length
+10.19
+since we know internal angle of pentagon is 108 degree each
+
+
+72+72+x=180
+144+x=180
+x=180-144
+x=36deg
+
+10.20
+
+a. what is a+b+c?
+b. what is a+x?
+c. what is x+y+z?
+d. 
+
+answer:
+a. 180deg
+b. 180deg
+c.
+d.
