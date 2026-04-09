@@ -294,9 +294,11 @@ the measure of one angle of triangle is double the measure of another angle of t
 and 15 deg greater than the measure of the third angle of the triangle
 what are the measures of the angles of the triangle
 
-x+2x+(2x-15) = 180
-5x-15 = 18
-33deg
+x + x/2 + (x-15) = 180
+5x = 195
+x = 195 . 2/5 = 78
+x/2 = 39
+x - 15 = 63
 
 10.15
 a triangle is right trangle if one of its angles is  right
@@ -418,5 +420,65 @@ d.
 answer:
 a. 180deg
 b. 180deg
-c.
+c. a+x + b+y + c+z = 180 + 180 + 180
+a+b+c+x+y+z = 540
+we know a+b+c sums up to 180
+180 + x + y + z
+x + y + z = 540-180
+x+y+z = 360
+
+alternatively
+180-a + 180-b + 180-c = x + y + z
+
 d.
+since we 
+walk to B -> turn to C, do y angle = 360/3 = 120deg
+walk to C -> turn to A, do z angle = 360/3 = 120deg
+walk to A -> turn to b, do x angle = 360/3 = 120deg
+total = 120+120+120 = 360deg
+
+
+======================================
+the sum of interior angle in any triangle is 180deg
+======================================
+
+10.14
+this is actually easier the solution from the books
+
+10.3.1
+find the measures of <abd in the diagram at the right if a = 47deg
+and c = 72deg
+
+
+119
+
+
+10.3.2
+the measures of the angles of a triangel are in the ratio 1 : 4  : 5
+what is the measure of the smallest angle?
+
+answer:
+1/10 . 180 = 18degree
+
+alternatively
+x + 4x + 5x = 180
+10x = 180
+x = 180/10
+x= 18
+
+sum of angle = 18 . 180 = 3240 degree
+3240 / 20 = 163 degree
+
+10.3.4
+pentagon = 4 . 180 = 720
+90+60 = 150deg
+
+alternatively
+acute angle of a right triangle sum to 90deg
+
+10.3.5
+139
+
+10.3.6
+acute angle of right triangle sum to 90deg
+122
