@@ -482,3 +482,84 @@ acute angle of a right triangle sum to 90deg
 10.3.6
 acute angle of right triangle sum to 90deg
 122
+
+10.3.7
+y = 180-36 = 144
+x = 72
+
+
+10.3.8
+is it possible for pentagon to have three interior angles that are reflex angles?
+(remidner reflex angle is an angle whose measure is between 180deg and 360deg)
+
+answer:
+
+for pentagon sum of degree is 3*180=540 degree
+if three the interior angles are reflex angle then we'd have the range
+between 540-1080 degrees which exceeds the sum of degree for a pentagon
+so no
+
+in problem 10.20 we showed the sum of exterior angles of triangle is 360deg
+
+explain why the sum of exerior angles of any convex polygon must be 360deg
+
+hint: what doyou know about the sum of interior angles of polygon?
+hint: how is the measure of each itnerior angle related to measure of its corespoinding exteior angle?
+
+answer:
+
+ok lets try one by one 
+square
+inteiror angle = 90deg * 4
+exterior angle = 90deg * 4
+
+pengagon
+sum of angle = 540 
+interior angle = 108 -> 108*5 = 540
+exterior angle = 72 -> 72 * 5 = 360 -> sums to 360
+
+hexagon
+sum of angle = 720
+interior angle = 108 -> 108*5 = 120
+exterior angle = 60 -> 60 * 6 = 360 -> sums to 360
+
+seems the more acute interior angle gets, then its exterior angle gets more 'obtuse'
+it's like theyre having this inverse angle relationship
+
+as to whey they always sums to 360,
+each straight line must add upt o 180deg
+
+total straight line = 4*180 = 720
+interior total = 360deg
+exterior = 720-360 = 360
+
+total straight line = n . 180
+
+interior sum = (n-2).180
+exterior sum = 180n - 180(n-2)
+180n - 180n + 360
+360
+
+==================================================
+
+challenge problems
+
+
+find thedegree measure of an angle whose complement is 25% of its supplement
+
+complement of a -> amount need to get 90deg
+supplement of a -> amount need to get 180deg
+
+lets say the angle is A
+complement -> a + 90-a = 90
+supplement -> a + 180-a = 180
+
+since we know the complmeent is 25% of its suplement
+
+90-a = 1/4 . 180-a
+4(90-a) = 180-a
+360-4a = 180-a
+360-180 = -a+4a
+180 = 3a
+a = 180/3
+a = 60
