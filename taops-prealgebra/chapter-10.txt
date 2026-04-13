@@ -563,3 +563,107 @@ since we know the complmeent is 25% of its suplement
 180 = 3a
 a = 180/3
 a = 60
+
+
+
+10.38
+we dont need to know the indiviual angle of <b or <d just the total angle and that can be acehied
+through finding <bfd
+
+10.39
+point a is on the edge of circular disk
+every day at noon the disk is rotated 150 counter clocckwise
+what day of the week will it be the next time point a is at the same position that it was at 10am on saturday?
+
+answer:
+
+maybe we can use like lcm orgcd or something here
+
+day1 -> 150deg, day2-> 300deg, etc ccw
+
+lets calculate where 10am s location is
+saturday = 6 -> 6 . 150 = 900 degrees countercloskwise
+but its at 10am so 5 . 150 = 750 degrees counterclockwise -> 2 full rotation + 30 degree to the left
+
+lcm of 150 and 360 = 1800
+1800 / 150 = 12 days
+friday + 5 days = wednesday
+
+alternatively
+eacy day the disk rotated 5/12 of a circle
+
+
+10.40
+q = 104
+r = 25
+
+
+10.41
+11 deg
+
+or with the sum of interior angle = 2 . 180 = 180 deg
+S is not 151 but 29 + 151 + 29 = 209 degree
+
+42 + 209 + 98 + x = 360
+x = 11
+
+
+10.42
+360 = 110 + 100 + 3y + 3x
+150 = 3x + 3y
+3x = 150 - 3y
+x = 150 - 3y / 3
+x = 50 - y
+x + y = 50
+
+
+now lets find afd
+180 = 2x + 2y + F
+180 = 2(x + y) + f
+180 = 2.50 + f
+180 = 100 + f
+f = 80 degree
+
+aed
+x + y + d = 180
+50 + d = 180
+d = 180-50
+d = 130
+
+10.43
+star
+
+angle 1 42deg
+angle 2 21
+angle 3 50
+angle 4 40
+angle 5 30
+approx around 180deg
+
+star 2 - regular where all poitn are equal
+36.7 deg
+38 deg
+37 deg
+approx 37*5 = 180 degree total
+
+seems like the sum almost addup to 180 deg
+
+i also see ive larger triangles
+i think this maybe if we connect each opitn of the star it makes like a pentagram shape
+where sum of angle = 3 . 180 = 540
+not sure
+
+10.44
+what is the greatest number of acute interior angles that a dacagon can have?
+note the decagon may be concavehint try the problem with quadrilateral: can all angles of a quadrilateral be acute
+
+hint what do you know about the angles of decagon? what does this tell you about the number of acute angles
+a decaton could have
+
+answer:
+
+we know decagon has 10 sides , sum of angle = 8 * 180 = 1440 degree
+a recglar decagon has 144 degree each point
+
+
+
