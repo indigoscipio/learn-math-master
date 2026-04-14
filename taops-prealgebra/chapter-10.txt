@@ -665,5 +665,89 @@ answer:
 we know decagon has 10 sides , sum of angle = 8 * 180 = 1440 degree
 a recglar decagon has 144 degree each point
 
+by definition acute angle has less than 90 deg and more than 0 deg
+if we have 1 acute angle -> other 9 angle can be more than 90
+
+lets try with quadrilateral first
+4 angle -> all 90 deg, where sum of degree = 360deg
+if 1 of the angle is acute -> lets say 10 degree
+10 + remaining 3 angle = 360
+10 + (359/3) = 360 so its still possible
+
+letd try 2 acute
+10 + 10 + (368/2) = 360
+
+if three
+10 + 10 + 10 + 330 = 360
+
+four
+89 + 89 + 89 + 89 -> sum is less than 360deg
+
+back ot he decagon
+sum of exterior angle of polygon is alawys add up to 360deg
+
+if an interior angle is acute then the exterior angle must be obtuse
 
 
+Review Problems
+10.21
+one angle = 5x
+another angle = x
+5x + x = 180
+6x = 180
+x = 30
+one angle = 5 . 30 = 150 deg
+another angle = 30 degree
+
+10.22
+92 degree
+
+10.23
+360/90 = 4
+
+<woz = 5.<xoy
+
+xoy = wox +  xoy
+90 = wox + xoy
+wox = 90 - xoy
+
+other side
+xoz = xoy + yoz
+90 = xoy + yoz
+yoz = 90 - xoy
+
+woz = wox + xoy + yoz
+let a = xoy
+5a = 90-a + a + 90-a
+5a = 2(90-a) + a
+5a = 180-2a + a
+5a = 180-a
+6a = 180
+a = 30
+
+10.24
+what is the number of degrees in smaller angle between the our hand ans minute hand on a clock at 8:30
+
+hour hand -> 30deg every hour
+8.30 = 240 degree, so the hour hand is at 240deg
+
+minute hand -> 6 degree every minute
+6 . 30 = 180 degree
+
+also the hour hand moved by 1/2 hour -> 1/2 . 30 = 15 degree
+so hour hand = 240+15 = 255deg
+
+calcuate the diffrence -> 255 - 180 = 75 degree for the smaller ange
+
+10.25
+a revolving restaurant rotates one revolution every 56 minute
+in 21 minute it takes to eat the peaches julibee desert
+throuh how many degrees does the restaurant evolve
+
+answer:
+we know 1 revolution = 56 minutes
+28 minutes = 1/2 a revolution -> 180 degree
+21 mintes = 21/56 = 0.375 revolution
+360 . 21/56 = 135 degree
+
+10.26
