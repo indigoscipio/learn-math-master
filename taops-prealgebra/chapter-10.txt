@@ -751,3 +751,56 @@ we know 1 revolution = 56 minutes
 360 . 21/56 = 135 degree
 
 10.26
+so we wanna find xcy
+acx = 3/2 . bcx
+xcy = acx - acy
+xcy = acx - 90
+xcy = (3/2 . bcx) - 90
+
+now find bcx
+since acy is right angle then ycb is also right
+bcx = 90 - xcy
+
+subst back
+xcy =  3/2 (90 - xcy) - 90
+2.xcy =  2. 3/2 (90 - xcy) - 2.90
+2xcy = 3(90-xcy) - 180
+2xcy = 270-3xcy - 180
+2xcy = 90-3xcy
+5xcy = 90
+xcy = 90/5
+xcy = 18 degree
+
+10.27
+3x+4 = 131
+3x = 127
+x = 42.3
+
+3x+4 + 131 = 180
+3x = 180-131-4
+3x = 45
+x = 15
+
+10.28
+if line a is perpendicular to two different lines b a nd c hten must we have b || c?
+
+answer:
+yes cos by definiton of perpendicular lien b and c has to be 90deg 'facing' line a so they both share the same angle 
+therefore b and c has to be parallel
+
+10.29
+2x + x + 12 = 180
+3x+12 = 180
+3x = 168
+x = 56
+
+
+168 + r=180
+r = 12
+
+10.30
+def = 90
+efh = 105
+fhg = 47
+
+10.31
