@@ -804,3 +804,124 @@ efh = 105
 fhg = 47
 
 10.31
+one angle of a triangle has measure 20deg greater than another angle of the triangle
+and half the measure of the third angle of the triangle
+find all measures of all three angles
+
+answer:
+one angle -> x
+another angle -> x - 20 
+third angle -> 2x
+
+x + (x-20) + 2x = 180
+x + x + 2x - 20 = 180
+4x = 200
+x = 50
+
+one angle = 50
+another angle = 30
+third angle = 100
+
+10.32
+why <abd must equal <A + <C
+
+answer:
+
+we know
+abd = 180 - abc
+abc = 180 - <a - <c
+
+substitute abc into  into abd
+abd = 180 - (180 - <a - <c)
+abd = 180 - 180 + <a + <c
+abd = <a + <c
+
+10.33
+the four angles of quadrilateral are in the ratio of 1:2:3:4 what is the measure of the smallest angle
+
+answer
+quad sum of angle = 2 . 180 = 360deg
+
+1x + 2x + 3x + 4x = 360
+10x = 360
+x = 36degree
+
+therefore smallest angle is 36 degree
+
+10.34
+y = 36
+x = 121
+
+10.35
+j = 39
+h = 39
+
+10.36
+what is the measure of eac interior angle of a regular nonagon?
+
+answer:
+nonagon = 9 sides -> sum of angle = 7 . 180 = 1260deg
+1260/9 = 140 degree each
+
+alternatively find the exterior angle
+exterior of any polygon must sum to 360deg
+one angle -> 360/9 = 40 -> therefore interior = 180-40 = 140
+
+11.1
+total = 22 segments
+22 . 10 = 220 foot
+1680
+
+
+11.2
+group the segments by long, medium short, and count by segment
+4+2+2+1+1+2+4 = 16
+2.4 + 2.2 + 3.1
+8 + 4 + 3
+15
+
+alternatively, just dot DE and AG
+
+11.3
+points b and c are on segment AD
+such that AC : CD = 3 : 1
+and b is the midpoint of AC
+if BC = 6
+then what is AD?
+
+answer:
+3.12 = 36
+
+11.4
+a triangle is claled isoceles if two of its sides are congruent
+two conngruents sides are called legs of the triangle and the other side is called the base
+suppose isoceles triangle has perimeter of 45 and length of each leg is twice the length of the base
+what is the length of the base
+answer:
+
+2b + 2b + b = 45
+5b = 45
+b = 9
+
+11.5
+a. mary leaves home and walks 7 miles in one direction before stoping for lunch
+jeff leaves from the same home and walks4 miles before stoping forl onch
+is its possible for mary and jeff to have lunch 12 miles apart
+
+b. is it possible for triangle to have side lengths 4,7, and 12? why or why not
+
+c. suppose a triangle has side lengths a b and c
+is it possible for a + b to be less than c? is it possible for a + b to be equal c?
+
+answer:
+a. no its not, even if jeff walks opositeo f marry the max distance would be 7 + 4 = 11 apart
+b. no the triangle wont' reach
+c. no. if its equal, then it would form a straight line. if it's less then it won't form a triangle (too short)
+so they are both false
+
+
+=====================
+perimeter of rectangle
+w is adjacent and l is adjacent and congruent
+l+l+w+w = 2l + 2w = 2(w+l)
+====================
