@@ -1004,3 +1004,86 @@ x= 20
 by inequality theorem 3x + 3x > x, 3x + x > 3x which is true
 so the base is the shorter one which is 20
 
+17
+a + b > c
+a + c > b
+b + c > a
+
+sum must be 17
+let a = 4
+let b = 6
+let c = 7
+
+10 > 7
+11 > 6
+13 > 4
+
+3(4+6+7)
+3.17
+51
+
+alternatively
+the length of the block is already equal to the sied of the traignel
+just extend it and multiply by 3
+3 . 17 = 51 - no need to guess one b one
+
+
+11.1.7
+suzanne has determined that swimming the lengh of a rectangular pool 60 times is
+the same distance as swimming its perimeter 18 times
+what is the ratio of the width to the length of this swiming pool
+
+answer:
+
+60 . l = 18 . p
+
+weknow perimeter of rectangle is 2l + 2w = 2(w+l)
+
+so p = 2(w+l)
+60 . l = 18 . p
+60 . l = 18 . (2(w+l))
+60 . l = 18 . (2w + 2l)
+60 . l = 36w + 36l
+60l-36l = 36w
+24l = 36w
+36w = 24l
+3w = 2l
+3w/l = 2
+w/l = 2/3
+
+threfore the ratio of width to length is 2 : 3
+
+11.1.8
+an isoceles triangle has integer side lengths and permieter 25
+what are posible values of length of each leg
+
+hint: how long bould the base to be if the legs each have length 1? is such triagnle possible?
+
+answer:
+
+since this is isoceles then one of the side is the base and the other two has to be the congruent sides
+and since the perimeter sums up t o25
+
+
+if each legs have length 1
+2s+b=25
+b=25-2s
+
+s + s > b
+s+s > 25-2s
+2s > 25-2s
+4s > 25
+s > 25/4
+s > 6.25
+
+so s must be greater than 6.25
+since its integer its 7
+
+s + b > s
+s + 25 - 2s > s
+25 -s > s
+25 > 2s
+25/2 > s
+s < 12.5
+
+7,8,9,10,11,12
