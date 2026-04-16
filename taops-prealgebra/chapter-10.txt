@@ -890,7 +890,9 @@ if BC = 6
 then what is AD?
 
 answer:
-3.12 = 36
+12+ 12/3
+12+4
+16
 
 11.4
 a triangle is claled isoceles if two of its sides are congruent
@@ -925,3 +927,80 @@ perimeter of rectangle
 w is adjacent and l is adjacent and congruent
 l+l+w+w = 2l + 2w = 2(w+l)
 ====================
+
+===============================
+triangle inequality
+AB+BC >= AC
+===============================
+
+11.1.1
+42
+
+11.1.2
+12x16 - 1 inch margin on all sides
+10x14
+
+perimeter = 2(10+14) = 2.24 = 48
+
+11.1.3
+1/6.12
+x = 2
+
+1.2 + 4.2
+AB = 12
+AY = 4ax
+XY = 3AX
+
+AB = AX + AY + BY
+AX + 4AX + AX = 5AX
+
+5ax = 12
+ax=  12/5
+
+bx = xy + by
+bx = 3ax + ax
+bx = 4ax
+bx = 4 . 12/5
+
+11.1.4
+the sides of triangle have length 6.5, 10
+and s where s is positive integer
+what is the smallest posible value of s?
+
+answer:
+
+by triangle inequality theorem the sum length of two other must be more than the other one
+6.5 + 10 > s
+10 + s > 6.5
+6.5 + s > 10
+
+s must be less than 16.5 - whch is the maximum possible value
+let s = 4
+16.5 > 4
+14 > 6.5
+10.4 > 10
+therefore satisfies
+
+11.1.5
+one sideo f isoceles triangle is 3times as long as another side of the triangle
+if the perimeter of the triangle is 140
+then what is the length of the base of the tirnagle
+answer:
+
+since isocels has 2 of the side congruent
+
+case 1
+x+x+3x=140
+5x=140
+x=28
+by triangle inequality theorem x + x > 3x is false
+
+case 2
+congruent sides are 3x, base is x
+3x+3x+x=140
+7x=140
+x= 20
+
+by inequality theorem 3x + 3x > x, 3x + x > 3x which is true
+so the base is the shorter one which is 20
+
