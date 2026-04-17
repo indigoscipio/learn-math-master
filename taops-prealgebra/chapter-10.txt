@@ -1191,3 +1191,20 @@ triC
 
 total area = 600+50+200 + 75 + 100 +50
 1075
+
+
+=======================
+area of  triangle is 1/2 . ab
+=======================
++
+
+
+Exercise 11.2.1
+
+if the length of a certain rectangle is increased by 1
+then the area of the rectangle is increased by 12
+if instead
+the width is increased by 2 then the area of the rectangle is increased by 42
+what is the area of original recetnagle?
+
+answer:
