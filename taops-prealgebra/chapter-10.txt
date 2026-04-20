@@ -1208,3 +1208,99 @@ the width is increased by 2 then the area of the rectangle is increased by 42
 what is the area of original recetnagle?
 
 answer:
+
++1 length = +12 area -> 1 l : 12 a
++2 width = +42 area -> 2 w : 42 a
+
+(l+1) . w = area + 12
+lw + 1w = lw + 12
+1w = 12
+w = 12
+
+area + 42 = (w+2) l - since area is just l . w we can substitute
+lw + 42 = (w+2) l
+lw + 42 = lw + 2l
+42 = 2l
+l = 21
+
+threfore thw eidth = 12 and length = 21
+and the area = 12 . 21 = 252
+
+11.2.2
+ABCD = bce
+
+[ABCD] = [CBE]
+2(w+l) = 1/2 . b . h
+
+[CBE]
+1/2 . BE . BC
+
+[ABCD]
+AB . BC
+
+AB . BC = 1/2 . BE . BC
+AB = 1/2 . BE
+BE = 2AB
+
+since we know AE = AB + BE
+just subtitute
+AE = AB + 2AB
+AE = 3AB
+
+therefore the ratio of AB to AE = 1 : 3
+
+11.2.3
+a rectanggular tile is 2 inches by 3 inches
+what is the least number of tiles that are needed to completely cover a square region 2 feet on each side?
+anwer:
+
+area = 2.3 = 6 square inches
+foot : inches = 1 : 12
+2 feet -> 24 inches side by side -> area = 24*24=576
+576/6 = 96
+
+or alternatively
+since square has the same widthxlength
+case: laying horizontally
+2inch across 24 -> 24/2 = 12 tiles
+3inch across 24 -> 24/3 = 8 tiles
+
+laying vertically
+its the same since same widthxlength
+so least total = 12*8 = 96 tiles
+
+11.2.4
+[ABCD] = 11*27 = 297
+[FCE] = 1/2 . 12 . 5 = 1/2 . 60 = 30
+
+area = 297-30 = 267
+
+11.2.5
+STU = ??
+1/2 . 12 . 6
+6 . 6
+36v
+
+11.2.6
+if the length of rectangle is increased by 20%
+and its width is decreased by 10%
+the nthe area is increased by what percent?
+
+answer:
+we know area of rectangle
+area = w . l
+area = 120%.l . 90%.w
+area = 120/100l . 90/100w
+area = 6/5l . 9/10w
+area = 54/50 lw
+area = 108/100 . lw
+area = 108% . lw
+
+so the are insincreased by 8% 
+
+alternatively use decimal
+area = w  l
+area = 1.2l . .9w
+area = 1.08wl
+
+11.2.7
