@@ -1304,3 +1304,46 @@ area = 1.2l . .9w
 area = 1.08wl
 
 11.2.7
+ABC = 26
+AYB=?
+
+answer:
+ayb = axb - axy
+since median we know abx = cbx
+
+we know AX = 1/2 . ac
+so if ABC = 26, then ABX = 13
+
+since y is the midpoint
+if wetreat bx as the base
+ayb = 1/2. by . ax
+abx = 1/2 . bx . ax
+
+since y is the midpoint
+ayb = 1/2 . abx
+ayb = 1/2 . 13 = 6.5
+
+11.2.8
+difference ade and bdc = ??
+
+answer:
+
+lets calculate the area of BDC first
+
+the obvious
+abc = 1/2 . 6 . 4 = 12
+bae = 1/2 . 4 . 8 = 16
+
+abc = abd + bdc
+12 = abd + bdc
+bdc = 12 - abd
+
+bae = abd + ade
+16 = abd + ade
+ade = 16 - abd
+
+the question is what is the area of abd??
+
+so the difference is
+ade - bdc
+...
