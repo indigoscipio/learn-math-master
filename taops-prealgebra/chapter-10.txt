@@ -1345,5 +1345,123 @@ ade = 16 - abd
 the question is what is the area of abd??
 
 so the difference is
-ade - bdc
-...
+diff = ade - bdc
+(16 - abd) - (12 - abd)
+16 - abd -12 + abd
+4
+
+; ========================
+CIRCLES
+
+pi = C / d
+C = pi . d
+
+we know the diameter is 2r
+therefore
+C = pi . 2r
+
+area = pi . r^2
+width = r
+
+length = divide it by since we have 'half crust'
+length = pi . 2r . 1/2
+pi . r
+
+put the piece together
+area = width . length
+area = r . pi . r
+area = pi . r^2
+
+problems 11.13
+what is the radius of circle that has circumfernce 54pi centimeter?
+
+answer:
+since we know C = 54pi
+and pi = C/d -> C = pi . d
+
+54pi = pi . 2r
+54 = 2r
+r = 27
+
+11.14
+if 1 galon of paint is enough to paint the interior iof a circle with diameter 10 meters
+then what is the diameter of the largest circle whose interior i can paint with4 galons of paint?
+
+
+answer:
+1 galon -> 10m diameter
+4 galon -> ? diameter
+
+area = pi . r^2
+area = pi . 5^2
+area = 25 . pi
+
+so for 1 galon it can fill 25m . pi 
+therefore for 4 galon multiply by 4
+so 100 . pi??
+
+100pi = pi . r^2
+100 = r^2
+r = sqrt(100)
+r = 10m
+
+therefore the diameter 2r =  20m
+
+11.15
+my rectangular house is 30feet by 40 feet
+
+a. my goat casidy is outsde on a 20 foot long leash that is connected to a corner of my house
+what is the area of the region in which cassidy can roam?
+
+b. if i lengthen casidys leash to 50 feet what is the area of the regsion in which casidy can roam?
+
+answer:
+
+a. the area where casidy can roam is basicaly
+the intersection/diference of the rectangle and the 'circular' track where casidy can roam??
+
+area of rectangular house = 30*40 = 1200feet
+casidys area = pi . r^2
+since we know the radius is 20 feet connected to the corner
+pi . 20^2 = 400pi -> this is for the whole circle
+since the circle is connected to only the corner therefore it can only occupies 3/4 of the circle
+the remaining 1/4 is 'blocked'
+
+so 3/4 . 400pi =  300pi
+
+part b
+if the leash is 50 feet
+then its longer than the length of the house
+then add the 'main' swing and the wrap around areas
+there are two 'wrap around' leftover areas
+
+first one is the width = 50-30 = 20feet
+and the length = 50-40 = 10 feet
+
+main circle = pi . 50^2 = 2500pi
+allowed area in circle = 3/4 . 2500 = 1875pi
+
+first leftover = 1/4 . pi . 20^2 = 1/4 . pi . 400 = 100pi
+second leftover = 1/4 . pi . 10^2 = 1/4 . pi . 100 = 25pi
+
+thefore the total roamable area = 1875+100+25  = 2000pi
+
+11.6
+1st quarter pizza slice (bottom left)
+1/4 . pi . 6^2 = 1/4 . pi . 36 = 9pi
+
+2nd quarter (top right)
+also the same = 9
+
+now for the 'negative space'
+square minus the quarter pizza slice
+area of the square = 36
+36 - 9pi
+since we have 2 of these therefore
+2.(36-9pi)
+72-18pi
+
+
+36 - (72-18pi)
+36 - 72 + 18pi
+18pi - 36
