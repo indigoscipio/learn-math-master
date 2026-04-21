@@ -1372,6 +1372,8 @@ area = width . length
 area = r . pi . r
 area = pi . r^2
 
+; ========================
+
 problems 11.13
 what is the radius of circle that has circumfernce 54pi centimeter?
 
@@ -1465,3 +1467,24 @@ since we have 2 of these therefore
 36 - (72-18pi)
 36 - 72 + 18pi
 18pi - 36
+
+
+Alternative method: overlap
+add two quarter circle together
+
+
+if you lay first quarter circle most square would be cover
+lay the 2nd one then esentualy circle is covered + some of the overlap
+
+
+then subtract those with the circle
+why?
+
+esentialy we are removing the ttwo "negative space" corners (once each).
+and the 'center' of the leaf (bot only once)
+
+so what remains is the actual one leaf.
+
+==========================================
+mult radius by k -> mult area of the circle by k^2
+==========================================
