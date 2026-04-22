@@ -1488,3 +1488,176 @@ so what remains is the actual one leaf.
 ==========================================
 mult radius by k -> mult area of the circle by k^2
 ==========================================
+
+
+
+Exercise
+11.3.1
+jane is running on a circular track with radius of 50yrd
+a mile is 1760yd. what is the least number of complete laps she must run to cover
+a distance at least 4 miles
+
+answer:
+yd : mile = 1760 : 1
+4 mile = 7040 yards
+
+since thisis a circular track we just need to find the circumferene
+we know pi = C / d
+C = pi . d
+C = pi . 2r
+C = pi . 2(50)
+C = 100pi
+
+
+so the circumference is 100pi
+7040 yd / 100pi 
+7040 / 3.14 . 100
+7040/314
+around 22.4
+
+so the finish the whole she needs to run 23 laps
+
+11.3.2
+i have a circular garden that is 40 feet in diameter
+i need 3000 seeds to plant the whole garden
+how many seeds would i need if the diameter of the garden were tripled
+
+answer:
+
+ok we know that 40feet needs 3000 seeds so thats the area
+area = pi . r^2
+3000 = pi . 20^2
+3000 = 400pi
+so 3000 seeds can fill up 400pi
+
+but we want to find how many seeds if d is tripled
+in other words d = 120 and r = 60
+area = pi . 60^2
+area = pi . 3600
+area = 3600pi
+
+since 400pi we can fill with 3000 seeds
+therefore for 3600pi we need 9.3000 = 27000 seeds
+
+alternatively
+area = pi . r^2
+if area is tripled, then 
+
+11.3.3
+a circle and 3 diferent lines aredrawn on a sheet of paper
+what is the largest posible number of points of intersection of these figures?
+
+answer:
+case 1, all ines are paralel
+intersection point = 3 + 3 = 6
+
+case 2, two lines area paralel and 1 line intersect with it all
+intersection point = 6 + 2 = 8
+
+case 3, three lines are forming a triangle inside
+intersection point = 6  + 3 = 9
+
+couldnt think of another posibility here i think
+so im guessing 9 is the largest number of intersection point
+
+
+11.3.4
+the ratio of circumference of two circles is 3 : 5
+what is the ratio of teir areas
+
+answer:
+C = pi . d
+d = c/pi
+2r = c/pi
+r = c/pi : 2
+r = c/pi . 1/2
+r = c/2pi
+r = 3/2pi
+
+therefore
+r2 = 5/2pi
+
+ratio of area = r1/r2
+pi . (3/2pi)^2 : pi . (5/2pi)^2
+pi . 9/4pi^2 
+9/4pi
+
+pi . 25/4pi^2
+25/4pi
+
+9/4pi . 4pi/25
+9/25
+
+or alternatively use shortcut
+
+3^2 : 5^2 = 9 : 25
+
+11.3.5
+area = half circle - right tri
+area of the half circle = pi . 10^2 . 1/2 = pi . 100 . 1/2 = 50pi
+
+are of the right tri = 1/2 . 16 . 12 = 8 . 12 = 96
+
+so total = 50pi - 96
+50 . 3.14  - 96
+157 - 96 = 61
+
+11.3.6
+divide into 4 shapes
+outermost shaded
+outermost negative space
+innermost shaded
+innermost negative space
+
+area = shape1 + shape2
+area = (outermost shaded - outermost negative space) + (innermost shaded - innermost negatiev space)
+
+
+outermost shaded
+r = 8 -> pi . 64 = 64pi
+
+outermost negative space
+pi . 6^2 = 36pi
+
+innermost shaded
+pi . 4^2 = 16pi
+
+innermost negative space
+pi . 2^2 = 4pi
+
+shape1
+64pi - 36pi = 28pi
+
+shape2
+16pi - 4pi = 12pi
+
+total = 28+12 = 40pi
+since they are all half circles just divide by 2
+so 20pi
+
+CHALLENGE PROBLEMS
+11.39
+points a,b,c,d lie ona line in alphabetical orde
+if AB:BD = 5:7
+AC:CD = 13:11
+determine the ratio of AB:BC:CD
+
+answer:
+
+since we know ab:bd = 5:7
+AB = 5/12 . AD
+AB = 10/24 . AD
+AC = 13/24 . AD
+
+and
+BC = AD - (AB + CD)
+BC = AD - (10/24 AD + 11/24 AD)
+BC = AD - (10+11/24 AD)
+BC = AD - (21/24 AD)
+BC = 24/24AD - 21/24AD
+BC = 3/24AD
+BC = 1/8AD
+
+therefore the ratio of AB:BC:CD is
+5/12 : 1/8 : 11/24
+10 : 3 : 11
