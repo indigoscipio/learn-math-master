@@ -1661,3 +1661,36 @@ BC = 1/8AD
 therefore the ratio of AB:BC:CD is
 5/12 : 1/8 : 11/24
 10 : 3 : 11
+
+11.40
+in the rectangle ABCD
+point X is the midpoint of AD and Y is the midpoint of CD
+what fraction of the area of the rectangle is enclosed by triangle AXY?
+
+answer:
+
+hmm i  know its less than a half of the rectangle but how much
+
+area of the rectangle = w . l = AD . AB
+area of the triangle = 1/2 . AX . DY
+where AX = 1/2 AD = 1/2 W
+and DY = 1/2 DC = 1/2 L
+
+1/2 . 1/2L . 1/2W
+1/2 . 1/2 . 1/2 . L . W
+1/8 L . W
+
+alternatively
+
+1/2 . 1/2AD . 1/2 DC
+since ad = length and dc = width
+1/2 . 1/2 w . 1/2l
+
+11.41
+point T is on side QR of triangle PQR
+find the ratio QT/QR if the area of triangle PQT is 75
+and the area of triangle PTR is 40
+hint: we are given areas of triangles. QT and QR are bases of triangles
+
+answer:
+
