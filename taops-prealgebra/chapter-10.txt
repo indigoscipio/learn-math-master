@@ -1694,3 +1694,160 @@ hint: we are given areas of triangles. QT and QR are bases of triangles
 
 answer:
 
+ok so we wanna find the ratio of QT/QR
+we dont know the height
+
+we know the area of pqt is 75
+75 = 1/2 . qt . h
+qt = 150/h
+
+and ptr is 40
+40 = 1/2 . tr . h
+tr = 80/h
+
+and wek now qr = qt + tr
+qr = 150/h + 80/h
+qr = 230/h
+
+therefore the ratio qt to qr is
+150/h : 230/h
+150/h . h/230
+150/230
+15/23
+
+
+11.42
+ZXA = 36
+ZA = 3AY
+
+a. XY = 12
+WXYZ = ??
+
+length/ZY = 3ay+ay = 4ay
+width = 12
+
+[wxyz] = 4AY.12 = 48AY
+
+confirmation
+[ZXY] = 1/2 . 4AY . 12
+2AY . 12 = 24AY -> wxyz is twice as this
+
+ZXA = 1/2 . ZA . XY
+36 = 1/2 . 3AY . 12
+36 = 3AY . 6
+6 = 3AY
+AY = 6/3
+AY = 2
+
+WXYZ = 48.2 = 96
+
+b. if XY = 9 then what is the area of rectangle WXYZ?
+answer:
+ok so the width/height of the rectangle gets abit shorterh ere
+
+new [wxyz] = 4AY.9 = 36AY
+
+recalculate ZXA - wait doi needtorecalculate this? since the height changes
+36 = 1/2 . ZA . XY
+36 = 1/2 . 3AY . 9
+36 = 1/2 . 27AY
+72 = 27AY
+AY = 72/27 = 8/3
+
+36AY = 36 . 8/3 = 96
+
+c. also the same, 96
+
+d. yes because the area is given a fixed value
+the area of the rectangle will 'match' uatomaticly
+if the height is shorter thent he base needs to be larger
+
+11.43
+what is the side length of a rectangular polygon whose interior angles
+each measure 168 degree and whose perimeter is 120cm
+
+answer:
+since the interior angle is 168deg -> exterior angle = 180-168=12 degree each
+polygon ext angle needs to sum to 360 so 360/12 -> this is a 30 side polygon
+
+
+and we know perimeter is 120cm
+so 120/30 = 4 cm each
+
+11.44
+in quadrlateral ABCD each of the side length is an integer
+and AD = BC
+if we have AB : AD = 2 : 5 and 
+AD : CD = 3 : 4
+then what is the smallest possible perimeter of the quadrilateral?
+
+hint: AD is in both of the given ratio relationships
+hint: we are given that ab:ad = 2 : 5 and that ab and ad both integers
+could ad possible by 4? why or why not? just from these given facts what are the possible values of ad?
+
+
+answer:
+if we have AB:AD = 2 : 5
+ad : ab = 4 : 10
+
+ad = 10 => ab = 4
+ad = 4 -> ab = 2 . 4/5
+
+so for the ratio to work AD needs to be multiple of 5
+
+AD = 15
+AB : AD = 2 : 5
+AD : CD = 3 : 4
+
+AB = 6
+BC = 16
+
+altnerative
+AB : AD = 2 : 5
+AB = 2x
+AD = 5x
+
+AD = 3y
+CD = 4y
+
+5x = 3y
+smallest posibite integer 
+x = 3, y = 5
+
+
+11.45
+abcdef is a rectangular hexagon in which diagonal ad has length 16
+find the perimeter of abcdef
+answer:
+
+draw all three long diagonals
+
+answer:
+since ad is 16then the halfway is 8
+and since we divide regular hexagon they have equilateral triangle
+
+therefore the perimeter is
+8*8 = 64
+
+11.46
+rebecca walks 100 feet in straight line
+she then turns 20deg to the left and walks another 100 feet
+and turns 20deg to left again
+she continues the patter until she reaches the point where she started
+how far did she walk?
+
+hint: what shape does rebecas path form? what angles of this shape do you know?
+
+asnwer:
+ok so it seems like she slowly walk and draws a polygon
+wait no
+the pattern is walk 100 -> turn 20deg
+
+we know she eventually ends so how many of those '20deg' angle she makes
+
+360/20 = 18 turns until she reaches the start again
+and since the patter is walk -> turn
+then its 18 walk -> 18 turn, so 100*18 = 1800 feet
+
+
+11.47
