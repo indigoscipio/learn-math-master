@@ -1851,3 +1851,132 @@ then its 18 walk -> 18 turn, so 100*18 = 1800 feet
 
 
 11.47
+if we rearrange this into simple shape i thikn
+this is basicaly just a rectangle (semicircle DFE + the two 'circle edge' DB + EB) and a circle (ADB + BEC)
+ i think but let me just try it
+
+the circle (ABD + BEC)
+area = pi . 1^2
+area = pi
+
+the rectangle
+has a width of 1 and length of  2
+so area = 1.2  = 2
+
+so the shaded area is 2
+
+11.48
+teri has sticks of length 9 inches 12 inches and 14 inches
+she cuts the same amt off of each stick
+after cutting this amount off each stick she is no longer able to make a triangle by attaching the sticks to the end
+
+what is the smalest amount teri could have cut off of each sticks?
+
+answer:
+ok i think this can be solved by the triangle inequality thing
+original
+let a = 9
+b = 12
+c = 14
+
+a + b > c
+a + c > b
+b + c > a
+
+9 + 12 > 14
+9 + 14 > 12
+12 + 14 > 9
+
+so the origianl size satisfies the inequalityhowever
+
+so 
+a = 9-x
+b = 12-x
+c = 14-x
+
+9-x + 12-x > 14-x
+21-2x >14-x
+21-14 > 2x-x
+7 > x
+
+9-x + 14-x > 12-x
+23-2x > 12-x
+23-12>x
+11>x
+
+12-x + 14-x > 9-x
+26-2x>9-x
+14>x
+
+to form a proper triangle x must be less than 7
+if its 7 then it forms a straight linetherefore it 
+7 is the smallest value
+
+11.49
+suppose we have ab = 8
+bc = 10
+cd = 16
+da = 12
+
+in quadrilateral abcd
+how many different possible integer value are there for ac
+
+answer:
+the diagonal ac
+1/2 . ac . h2 or
+1/2 . ac . h1
+
+hmm we dontknow the height lets try another approach
+
+ABC
+let a = 8 b = 10 and c = x
+
+8 + 10 > x
+18 > x
+
+8 + x > 10
+x > 2
+
+10 + x > 8
+x > -2
+
+so x must be less than 18 and greater than 2
+
+ADC
+a = 12 b = 16 c = x
+
+12 + 16 > x
+28 > x
+
+12 + x > 16
+x > 4
+
+16 + x > 12
+x > -4
+
+so x must be less than 28 and greater than 4
+
+find the 'intersection'
+x must be greater than 4 and less than 18
+so its (17 - 5) + 1 = 13 
+
+everytime theres a qusetion 'possible integer value' its most likely triangle inequality thing?
+
+11.50
+we know ab is 20
+then ah is 10
+since efgh is midpoint then
+
+the shaded area is
+the main square - ahd - fbc
+
+and ahd = fbc = gdc = abe
+
+[abcd] = 20*20= 400
+[ahd] = 1/2 . 20 . 10 = 100 units
+
+hmm how doyou mean outside the box, i cant think of it
+
+
+square piece = 1/5 of the square area
+1/5 . 400 = 80
