@@ -1,0 +1,201 @@
+Review Problems
+
+11.17
+
+segment LN has midpoint M and point N is the midpoint of segment lp
+that is the ratio of MN to LP
+
+we know m is the midopint of LN so
+MN = 1/2 LN
+
+and we know N is the midpoint  LP so
+LN =  1/2 LP
+
+
+so 
+MN = 1/2 . (1/2 LP)
+MN = 1/4 LP
+
+so the ratio of MN to LP is
+0.25 to 1
+
+11.18
+the length and with of a rectangle are each increased by 10%
+a. by what percent is the perimeter of the rectangle increased
+
+answer:
+perimeter of rectangle = 2(w+l)
+since we knoew the increase its
+2(110%w + 110%l)
+2(110%(w+l))
+threfore its just 10% increase
+alternativelt
+
+2(1.1w+1.1l)
+2 . 1.1 (w + l)
+1.1 . 2(w+l)
+
+
+b. by what percent is the area of the rectangle increased?
+
+we know the area of rectangle is w . l
+area = 1.1w . 1.1l
+area = 1.21 . w . l 
+therefore its a 21% inrease
+
+
+11.19
+the perimeter of hexagon is 300 units
+one side of the hexagon is 45 units long and th lengths of the other sides are in the
+ratio of 1:2:3:4:5
+find the positive difference between the lengths of the longest and shortest sides
+
+answer:
+ok so wek now hexagon has 6 sides and its perimeteris 300 units
+normally you'd just do 300/6 but this one has weird length
+and we only know one ofthe side is 45 units
+
+and the other has ration 1:2:3:4:5
+i dont understand does the 45 unit is part of the ratio here? not sure
+
+45 + 1x + 2x + 3x + 4x + 5x = 300
+45 + 15x = 300
+15x = 255
+x = 17
+
+so the smallest one is 17units long and longest = 17*5=85
+the positive difference is 85-17=68
+
+
+===================================
+if its about RATIO just do x -> something x, 3x, 5y, etc
+===================================
+
+11.20
+an architect draws a rectangular room to scale
+the drawing is 12cm long and 8cm wide
+the shorter dimension of the actual room is 20 feet
+what is the perimeter of the actual room?
+
+answer:
+w:l = 8:12
+and widthe in real life is 20 feet
+
+8/12 = 20/x
+2/3 = 20/x
+2/3x = 20
+2x = 60
+x = 30
+
+so the length is 30feet
+the perimeter should be 2(30+20) = 2.50 = 100
+
+11.21
+square tiles 9 inches on a side exactly cover the floor of a rectangular room
+the border tiles are white and all other tiles are blue
+the room measures 18 feet by 15 feet. how many tiles are white?
+
+answer:
+lets find the total area
+so we have a tile 9in -> tile covers 9*9= 81 inches
+and the ratio of inches to foot = 1 : 12
+
+the whole room is 18 by 15 ft which is 270feet -> 3240 inches
+
+length should be 18ft = 216inches
+216/9 = 24 tiles long
+
+height should be 15 = 180inches
+180/9 = 20 tiles long
+
+so we know its a 24x20 tiles the question is the outer border how many is it
+
+just add 2x row + 2xcol (minus 2 tiles - the corner overlap for the col)
+
+so 2(24) + 2(20-2)
+= 48 + 36
+= 84 tiles
+
+11.22
+
+
+6+3+2+3+2+2+5+4+2+2+2+6+1+8
+48
+
+alternativelt
+2(10+14)
+2(24) = 48
+
+forget about the little things
+just find the width and length
+
+11.23
+i start with a piece of paper thats an eqilateral triangle with side langth 9 inches
+from each corner of this triangle i cut away an equilateral with side length 3 inches
+what is the perimeter of the figure that remains after i have removed these 3 pieces
+
+answer:
+
+since its equilateral all side length is the same so 9inches on all sides
+so this is liek a zelda triangle but larger on the center  like a hexagon
+6.3= 18
+
+11.24
+abc is an equilateral triangle
+ABUVWXYZ is a regular octagon and
+BCMNO is a regular pentagon
+the triangle is outside both the octagon and pentagon
+but shares a side with each
+if the perimeter of BUVWXYZACMNO is 160
+then what is the perimeter ABC
+
+answer
+
+160/12
+40/3
+
+40/3 . 3
+= 40
+
+11.25
+lets try something simple
+1 pentagon train = 1.5 = 5 inches perimeter
+2 pentagon = 5.1 + 5.1 = 10 - 2 (the 'chain') = 8 inches ->
+3 pentagon = 2 pentagon (the ends) + 1 pentagon = 8 + 3 (minus the two side) + 11 inches
+4 pentagon = the 2 ends + 2 pentagon = 8 + 2(5-2) =  8 +6 = 14 inches
+5 pentagon = 2 ends + 3 pentagon = 8 + 3(5-2) = 8 + 9 = 17 inches
+
+so it seems the formula is
+the two ends + the remaining pentagon
+
+since we have 85 pentagons connected
+the perimeter is just the 2 ends + 83 pentagons inside
+8  + 83(5-2)
+8 + 83.3
+8 + 249
+257 inches perimeter total
+
+11.26
+how many different integers can possible be the third side length of a triangle inwhcich the other two sides have lengths
+7 and 19?
+
+answer:
+ok letstry with triangle inequality maybe
+let a = 7, b = 19, c = x
+
+a + b > c
+a + c > b
+b + c > a
+
+7 + 19 > x
+26 > x so x must be smaller than 26
+
+7 + x > 19
+x > 12 x must be bigger than 12
+
+19 + x > 7
+x > -12 and x must be greater than -12
+
+so the values are 26 > x > 12
+so its between 25 and 13
+25 - 13 + 1 = 13 idfferent integers that satisfy

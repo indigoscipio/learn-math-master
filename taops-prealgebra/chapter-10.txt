@@ -1980,3 +1980,5 @@ hmm how doyou mean outside the box, i cant think of it
 
 square piece = 1/5 of the square area
 1/5 . 400 = 80
+
+; ==================================================
