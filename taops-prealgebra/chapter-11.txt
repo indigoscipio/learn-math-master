@@ -403,6 +403,23 @@ therefore from smallest to largest
 3 -> 3.14 -> 4
 circle z -> circle x -> circle y
 
+11.36
+a farmer has square lot thats 200ft on each side
+she has a powerful sprinkler that sprays water in circle
+she doesn't want to waste any water
+so she'll set her sprinkler so that it doesn't apray any water outside her lot
+what is the largest percentage of her lot that she can water? (answer to the whole percent)
 
+answer:
+we know the saure side length = 200ft on each side
+so the square area = 200^2 = 40000squareft
 
+so just spray it with circle radius of 100ft, so the square shape fits the entire square
 
+area of circle = pi . 100^2 = pi . 10000 = 3.14 . 10000 = 31400 square fft
+
+find the percentage difference
+31400/40000 . 100 = 314/400 = 157/200 . 100 = 15700/200 = 78.5%
+therefore its 79& rounded
+
+141.37
