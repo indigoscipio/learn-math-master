@@ -199,3 +199,61 @@ x > -12 and x must be greater than -12
 so the values are 26 > x > 12
 so its between 25 and 13
 25 - 13 + 1 = 13 idfferent integers that satisfy
+
+11.27
+the perimeters of two squares are int he ratio 2 : 7
+what is the ratio of the area of the smaller square to the area of the larger square?
+
+answer:
+
+let the side length = a
+we know perimeter of square is side length . 4 -> 4a
+
+let the sides be 2k and 7k
+since perimeter is in ratio 2 : 7
+
+the sides also just scales by 4 for both ratio
+however for the area it scales by a square
+
+we know area is a^2
+so just square it
+(2k)^2 : (7k)^2
+4k^2 : 49k^2
+
+therefore the are ratio is 4 : 49
+
+
+alternatively
+2x : 7x
+(2x)^2 : (7x)^2
+
+
+========================
+if ther perimeter is n
+then the area is awlasy n^2
+==========================
+
+11.28
+the area of square is 36 square centimeter
+a rectangle has the same perimeter as the square
+the length of rectangle is twice its width
+whta is the area of the rectangle
+
+answer:
+since the area of the square is 36
+then its side length is sqrt(36) = 6 centimeter
+therefore the squares perimeter is 4.6 = 24cm
+
+then we have the rectangle which has a ratio of w:l = 1:2
+so we have width = w and length = 2w
+
+2(w+l) = 24
+2(w + 2w) = 24
+2(3w) = 24
+6w = 24
+w = 24/6
+w= 4
+
+the width of the rectangle is 4 and therefore the length is 2.4 = 8
+then finally we can calculate teh rectangle area
+8.4 = 32
