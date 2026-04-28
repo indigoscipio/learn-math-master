@@ -257,3 +257,150 @@ w= 4
 the width of the rectangle is 4 and therefore the length is 2.4 = 8
 then finally we can calculate teh rectangle area
 8.4 = 32
+
+11.29
+the 'negative' white space
+1/2.12.8 -> 6.8 = 48
+
+the whole rectangle
+8.12 = 96
+
+the shaded area = 96-48 = 48 square centimeter
+
+alternative approach -> rearrange the triangle
+form a single triangle
+1/2 . 12 . 8 = 6 . 8 = 48
+
+11.30
+a rectangular floor, 9ft by 11ft is covered completely by tiles
+each tile is either a 2ft by 3ft rectangle
+or a square 1ft on a side
+no tiles overlap
+what is the least total number of tiles that could have been used to cover the floor?
+
+answer:
+ok ill try to make as many possibility here
+
+case: all tile is covered by 2x3
+vertical placement
+since the length is 11ft it leaves a reminder if we put it vertically -> 11/2 = 5 with 1 remainder
+so horizontally it fits 5 2x3 tiles leaving 1ft 'col' at the end
+and vertically 9/3 = 3 tiles which fits perfectly
+that leaves us with 1 feet row which we can fill with the 1x1 tile
+
+so total tile
+horizontal = 5
+vertical = 3
+3.5 = 15 tiles + 9 remainder = 24 tiles
+
+
+horizontal placement
+length -> 11 / 3 = 3 with remainder of 2
+height -> 9 / 2 = 4 with a remainder of 1
+
+that leaves us with 3*4 = 12 tiles
+fill the bottom row completely with 1x1 = 11 tiles
+and the right col (excluding the very bottom) -> 3 2x3 tiles
+therefore the total tile is 23+3 = 26 tiles
+
+case: all tile is covered by 1x1
+this just leaves us with 9*11 = 99 tiles which is ineffective
+
+case: a mixture of calculation
+area of the rec tile = 2x3 = 6cm
+area of square tile = 1x1 = 1cm
+
+total rectangle room = 9*11 = 99
+
+99/6 = 16 with a remainder of 3
+so at most we can fix in 16 2x3 tiles
+
+and the remainig 3 wecan fit with 1x1
+therefore the most optimal is 16+3 = 19 tiles
+
+11.31
+area of current triangle =  1/2 . 8 . 5 =4 . 5 = 20
+
+now find the altitute, let the altitute from b to ac = h
+1/2 . 6 . h = 20
+3 . h = 20
+h = 20/3
+
+
+11.32
+split into 2, rectangle and right triangle
+
+rectangle area = 4.6 = 24
+right triangle area = 1/2 . 5 . 6 = 3 . 5 = 15
+
+therefore the total area = 24+15 = 39
+
+alternatively
+2 triangle -> one right angle the other one on the right
+1/2 . 4 . 6 = 4 . 3 = 12
+
+1/2 . 9 . 6 = 9 . 3 = 27
+total = 27+12 =
+
+11.33
+the ratio of the radii of two circles is 5:2
+what is the ratio of their areas
+
+answer:
+
+we have radius 5x : 2x
+since area = pi . r^2
+
+
+area = pi . (5x)^2
+area = pi . 25x^2
+
+area = pi . (2x)^2
+area = pi . 4x^2
+
+so the area is ^2 proportionally
+
+therefore its 25x^2 : 4x^2 -> 25 : 4
+
+11.34
+what is the greatest number of points at which a circle and a hexagon can intersect?
+
+answer:
+
+
+12 points. put the circle around the perimeter of the hexagon so it almost  has the same size as the hexagon itself
+then for each point we have 2 intersections
+2.6 = 12
+
+11.35
+circle x has a radius of pi
+circle y has a circumference of 8pi
+circle z has an area of 9pi
+
+list the circles in order from smallest to largest ratius
+lets find each radius
+circle x
+radius = pi = 3.14
+
+circle y
+circumference = 8pi
+since we know pi = c/d
+then c = pi . d -> c = pi . 2r
+8pi = pi . 2r
+8 = 2r
+r = 8/4
+r = 4
+
+circle z
+area = 9pi
+since we know area = pi . r^2
+9pi = pi . r^2
+9 = r^2
+r = sqrt(9)
+r = 3
+
+therefore from smallest to largest
+3 -> 3.14 -> 4
+circle z -> circle x -> circle y
+
+
