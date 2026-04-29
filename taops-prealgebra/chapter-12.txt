@@ -1,0 +1,146 @@
+PYTHAGOREAN THEOREM
+
+Problems 12.1
+
+a. why PWS = 180deg and why PQRS is a square
+since pws is a straight line then its angle is 180 de
+it is a square because all side have equal length
+PQ = QR = SR = PS = 7
+
+b. area of pqrs
+7 . 7 = 49
+
+c. area of WXYZ
+[WXYZ] = [PQRS] - total area of the four right triangle
+
+find area of right triangle
+1/2 . 4 . 3 = 2 . 3 = 6
+4 . 6 = 24
+
+so area of WXYZ = 49-24 = 25
+
+
+d. find wx
+since we know the area of WXYZ = 25
+and wxyz is a square
+the area of a square is side length^2
+
+let s be the eisde length
+s^2 = 25
+s = sqrt(25)
+s = 5
+
+thefore the hypothenuse/line WX is 5
+
+Problem 11.2
+
+a. area of [WXYZ] in terms of c
+[WXYZ] = c^2
+since c is the side length area of square wxyz is c^2
+
+b. area of [PQRS] in terms of a and b
+since pqrs is a square
+and its side lengh is  a+b
+therefore the area of the square is (a+b)^2
+(a+b)(a+b)
+a^2 + 2ab + b^2
+
+c. area of WXYZ in terms of a and b
+subtract the big sqyare PQRS with the 4 side triangle
+[PQRS] - the 4 triangle
+
+since we know are of  pqrs is a^2 + 2ab + b^2
+a^2 + 2ab + b^2 - 4 . 1/2 . ab
+a^2 + 2ab + b^2- 2ab
+a^2 + b^2
+so the area of WXYZ is a^2 + b^2
+
+d. show that a^2 + b^2 = c^2
+
+since in part a the area if square WXYZ is c^2
+and in part c the area of wxyz is a^2 + b^2
+
+therefore c^2 = a^2 + b^2
+
+12.3
+x^2 + 7^2 = 25^2
+x^2 + 49 = 625
+x^2 = 576
+x = 24
+
+5^2 + 8^2 = x^2
+25 + 64 = x^2
+x = sqrt(89)
+
+7^2 + 15 = x^2
+49 + 15 = x^2
+64 = x^2
+x = 8
+
+
+problem 12.4
+must the hypotenuse of a right triangle be the longest side of the triangle?
+why or why not?
+
+answer:
+yes i think because in a right triangle
+if the hypotenuse is equal to the leg then it wouldnt form a proper right triangle (maybe a acute triangle)?
+so you'd have to 'bend' it therefore losing the right angle
+
+but if its the longest then we can just 'distribute' the length of the two legs to keep forming a proper right triangle
+so the right triangle strcuture is intact
+
+alternative
+
+a^2 + b^2 = c^2
+c must be larger than a^2 + b^2 combined
+so its alrways be the longest
+
+12.5.
+in problems 12.1 and 12.3 wwe have seen two right triangles in which all three side lengths are integers
+can you find any more right triangles in which all three side lengths are integeres
+
+hint: make a list of the first 20 positive perffect squares
+ansnwer:
+
+since we know a^2 + b^2 = c^2
+previous exercise have 3^2 + 4^2 = 5^2
+
+144 = 81+49
+
+169-144=25
+5^2 + 12^2 = 13^2
+6^2 + 8^2= 10^2
+
+12.6
+a. find the hypotenuse of right angle triangle whose legs are 3 . 4 and 4 . 4
+b. find hypotenuse of right triangle whose legs are 3 . 5 and 4 . 5
+b. find hypotenuse of right triangle whoselegs are 3 . 2011 and 4 . 2011
+b. find hypotenuse of right triangle whose legs are 3/100101 and 4/100101
+
+let x be the hypotenuse
+a.
+(3.4)^2 + (4.4)^2 = x^2
+12^2 + 16^2 = x^2
+144 + 256 = x^2
+400 = x^2
+x = 20
+
+
+b.
+15^2 + 20^2 = x^2
+225 + 400 = x^2
+x^2 = 625
+x = 25
+
+c. (3.2011)^2 + (4.2011)^2 = x^2
+let k be 2001
+3k^2 + 4k^2 = xk^2 - divide all by k
+3^2 + 4^2 = x^2
+9 + 16 = x^2
+25 = x^2
+x = 5
+
+add k again so its
+5k^2
+5.2011^2

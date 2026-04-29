@@ -422,4 +422,32 @@ find the percentage difference
 31400/40000 . 100 = 314/400 = 157/200 . 100 = 15700/200 = 78.5%
 therefore its 79& rounded
 
-141.37
+11.37
+reposition the quarter circle so it forms a half circle, then the shaded region is just the rectnagle - the half circle
+
+half circle
+1/2 . pi . 6^2
+18pi
+
+rectangle
+w . l
+6 . 12
+72
+
+therefore the shaded area is
+72-18[pi]
+
+11.38
+1foot = 12 inches
+since the semi has d = 2 inches
+so it has 12/2 = 6 semicircles
+
+so 6 semicircles total
+calculate the area
+d = 2 inches -> r = 1 inces
+
+calculate area
+6 . pi . r^2
+6 .  pi . 1
+6pi squaread inches
+
