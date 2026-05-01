@@ -272,9 +272,153 @@ total = 192 + 144 + 50.pi + 96
 = 589
 
 12.1.6
-find hypotenuse of a right triangle whose legs have lengths 4900049 and 6300063
+find hypotenuse of a right triangle whose legs have lengths 4,900,049 and 6,300,063
 
 answer:
-(49,001,049)^2 + (6,300,063)^2 = x^2
+(49,001,049)^2 + (63,000,063)^2 = x^2
 
-let k be the scale factor 1,000,001
+let k be the scale factor 700,007
+(7k)^2 + (9k)^2 = x^2
+49k^2 + 81k^2 = x^2
+130k^2 = x^2
+130 . (700007)^2 = x^2
+x = sqrt(130 . 700007^2)
+x = sqrt(130) . 700007
+
+12.2.2
+some special triangles
+12.8
+
+DEF is an isoceles triangle with DE = EF = 26 and DF = 20
+a. suppose M is on the base DF such that EM is the altitute of the isoceles triangle. 
+why must M be the midpoint of DF?
+b. find the area of triangle DEF
+
+answer:
+
+a. because the line EM divides the isoceles perfectly by two,creating two equal right triangle that makes
+up the entrity of DEF.
+
+
+b. 
+EMF = EMD
+area of DEF = EMF + EMD
+lets try tofind the altitude/height EM
+let X be EM
+10^2 + x^2 = 26^2
+100 + x^2 = 676
+x^2 = 576
+x = 24
+so EM is 24
+
+EMF = 1/2 . 10 . 24 = 5.24 = 120
+since EMF = EMD therefore DEF is 120*2 = 240
+
+alternatively just use
+1/2 . 20 . 24 = 24 . 10 = 240
+so it divides perfectly therefore EM has to be the point
+
+12.9
+a. suppose ABC is equilateral with side length 6. find the length of altitute of ABC
+b. find the area of ABC
+
+a. lets find the height first
+divide the triangle into 2 right triangles
+let x be the height
+
+3^2 + x^2 = 6^2
+9 + x^2 = 36
+x^2 = 36-9
+x^2 = 27
+x = sqrt(27)
+
+b. area of abc
+1/2 . b . h
+1/2 . 6 . sqrt(27)
+3.sqrt(27)
+3.3sqrt(3)
+9sqrt(3)
+
+12.10
+a. if one leg of an isoceles right triangle has length 5
+then what are the lengths of the other leg and hypotenuse of triangle
+
+b. if one leg of isoceles right triangle has length 8
+then wat are the lengths of the other leg and the hypotenuse of the trigangle
+
+c. if we know the length of one leg of isoceles right triangle
+then whats a fast way to find the length of the hypotenuse?
+answer:
+
+a. if one of the leg is 5 then the other is also 5
+5^2 + 5^2 = h^2
+25 + 25 = h^2
+h^2 = 50
+h = sqrt(50)
+
+
+b. same as a
+8^2 + 8^2 = h^2
+64 + 64 = h^2
+128 = h^2
+h = sqrt(128)
+
+c. based on the pattern previously 
+let s be the side lengths and h be the hypotenuse
+
+s^2 + s^2 = h^2
+2(s^2) = h^2
+h = sqrt(2 . s^2)
+h = s . sqrt(2)
+
+12.11
+a 30 60 90 triangle is a triangle whose angles maeasure 30deg, 60deg and 90deg
+a. describe how to divide an equilateral triangle into two identical 30 60 90 triangle.
+
+b. suppose the leg opposite the 30deg angle in a 30 60 90 triangle has length 2
+use your answer to part a to find the hypotenuse ofthe triangle
+what is the length of the other leg?
+
+c. suppose th eleg opposite 30deg angle in 30 60 90 triangle has length s
+in terms of s what are th lengths of the hypotenuse and the other leg of the triangle?
+
+answer:
+a. let abc be a equilateral triangle
+where AC = AB which is the two equal elgs
+and BC is the base
+let m is the midpoint of the base.
+the line AM divides the equilateral in half with two right triagnle
+those two right triangle is the 30 60 90 trignale.
+
+b. if the length opposite the 30deg is 2
+then that makes the side length of the equilateral triangle has total length = 4
+since its equilateral therefore allsides have 4 length
+therefore the hypotenuse has a lenght of 4
+
+to find the height
+2^2 + AM^2 = 4^2
+4 + am^2 = 16
+am^2 = 16-4
+am^2 = 12
+am = sqrt(12)
+am = sqrt(3.4)
+am = 2sqrt(3)
+
+c. use the same previous logic
+if the opposite has length of s then the side lenght is 2s and since its equilateral
+all side has 2s length. so base = s and hypotenuse = 2s
+
+let x be the other leg of the triangle (height)
+s^2 + x^2 = (2s)^2
+s^2 + x^2 = 4s^2
+x^2 = 4s^2 - s^2
+x^2 = 3s^2
+x = sqrt(3s^2)
+x = s.sqrt(3)
+
+
+
+=======================================================
+in isoceles right triangle
+the legs are congruent and the hypotenuse is sqrt(2) times the leg
+=======================================================
