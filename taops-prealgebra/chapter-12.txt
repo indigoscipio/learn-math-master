@@ -587,17 +587,20 @@ so [xyz] = 2. (8.sqrt(3))
 
 now for the general formula itseems we just multiply the side length by 2 and sqrt 3
 let s be the side length
-so [xyz] = s .  2.sqrt(3)
+so [xyz] = s .  2.sqrt(3)??
 
-alternatively
+
+mathematically
 since xyz is an equilateral
 the angle of the right triangle is in ratio 1 : sqrt(3) : 2
 let s be the side angle
 
-thefeore
-s : s.sqrt(3) : 2s
-where s = short leg, s.sqrt(3) = long leg, and 2s is the hypotenuse
+short leg = 1/2s
+long leg (height) = 1/2 . s.sqrt(3) = s.sqrt(3) /  2
+hypotenuse = s
 
-to find the area
-2 . 1/2 . s . s.sqrt(3)
-...
+plug in to find the area
+1/2 . 1/2s . s.sqrt(3)/ 2
+s^2 . sqrt(3)/4
+
+b. 
