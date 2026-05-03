@@ -604,3 +604,204 @@ plug in to find the area
 s^2 . sqrt(3)/4
 
 b. 
+area = [slice of pie] - [the triangle]
+find the "slice of pie" - from previous exercise we know <O is 60 degree
+
+area of the circle = pi . 12^2 = 144pi
+since this is 1/6 -> 1/6 . 144 = 24pi
+
+area of equilateral triangle -> from prev chapter = s^2 . sqrt(3)/4
+12^2 . sqrt(3)/4
+144 . sqrt(3)/4
+36 . sqrt(3)
+
+or manually
+6^2 + h^2 = 12^2
+36 + h^2 = 144
+h^2 = 108
+h = sqrt(108)
+h = sqrt(4 . 9 . 3)
+h = 2.3.sqrt(3) -> 6.sqrt3
+
+area = 1/2 . 12 . 6.sqrt(3)
+= 6.6.sqrt(3)
+= 36.sqrt(3)
+
+so the total area , just plug it in
+[slice of pie] - [the triangle]
+24pi - 36.sqrt(3)
+
+
+; =========================================================
+12.3 TYPES OF QUADRILATERALS
+rectangle:
+quad in whicih all four angles are right angles
+the opposite sides of a rectangle are parallel and have the same length
+
+square:
+rectangle in which all four sides are congruent
+
+Problems 12.12
+a rhombus is a quad in which all four sides have same length
+a. is every square also a rhombos?
+b. is every rhombus also a square?
+
+answer:
+a. yes since a square has all four side with same length
+
+
+b. by definition of a square, a square is a rectangle in which all four sides are congruent
+and by definiton of rectangle, all sides are right angles and opposites are parellel and have the same length
+
+since isn't not mentioned if a rhombus has a 90 degree angle therefore its not
+
+====================================
+every square is a rhombus but a rhombus is only a square if it has fou right angle
+====================================
+
+
+12.13
+explain howto arrange four 3-4-5 right triangles so that together they form a rhombus with side length 5
+
+answer:
+let ABC be the 345 triangle
+the hypothenuse is facig up right
+copy ABC and mirror it vertically, now it has a 'right arrow' shape
+now mirror the wbole thing horizontally and stick hem together forming a kite
+we have the hypotenuse as the side length of the rhombus  = 5
+
+
+===============================
+
+12.14
+abcd is rhombus in which the diagonals have length AC = 8
+and BD = 12
+in this problem, well find the area of ABCD
+
+a. what is the area of triangle ABC?
+whint: what kind of triangle is ABC?
+
+b. what is the area of ABCD?
+
+answer:
+a. abc is isoceles
+with base = 8 (diagonal ac) and height = 6
+1/2 . 8 . 6 = 4 . 6 = 24
+
+area of ABCD =
+just multiple abcd * 2
+24 . 2 = 48
+
+======================================
+area of rhombus = 1/2 . d1 . d2
+if we just do d1.d2 that would be just the area of the rectangle
+we can rearrange the four right triangle into another rectangle that fits exactly half of d1.d2
+======================================
+
+12.15
+find the formula of the area of a rhombus with diagonals of lengths x and y
+based on previous exercise
+divide the rhombus into 4 congruent right triangle
+
+on the right section we have triangle madeup with 2 right triangle
+base of triangle x, height of the triangle = 1/2y
+
+find the area of this triangle
+1/2 . x . 1/2y
+
+since the rhombus is made up of two of these just multiply
+2 . (1/2 . x . 1/2y)
+x . 1/2y
+1/2 . x . y
+
+======================================
+
+12.17
+a parallelogram is quadrilateral in which both pairs of opposite sides are parallel
+a. is every rectangle also a paralleogram
+b. is every paralleogram also a rectangle
+
+answer:
+a. yes since by efiion of rectangle it has opposite angle are parallel
+therefore it fits
+
+b. we dontknow if the angles produced by paralelogram can produce 90 deg
+since by definitoin of rectangle all four sides have to be 90deg
+if those are true then yes it is a rectangle
+
+======================================
+
+12.18
+in this problem we find a method to calculate area of paralelogram shown at the right
+a. find way to cut paralelogram into two pieces and reassemble these two pieces to form a rectangle
+
+b. explain method for finding area of paralleogram
+
+answer;
+a. let abcd be paralogram
+form point c make a cut upward vertically - it forms a right triangle
+from point a make a cut downward verticaly - it forms a another right triangle 
+this makes the paralelogram into 3 pieces - a square and two right triangle
+
+move te rightmost triangle to the left and stick it to the left right triangle
+together they make a perfect rectangle
+
+so now if you lookatit the paralelogram consists of only 2 piece:
+the center square and the additional rectangle on the left
+
+
+b. 
+let abcd be a paralelogram with side length s
+since its just a rectangle
+
+with base b and height h just multiply b . h
+
+======================================
+
+12.19
+a trapezoid is quadrilateral with two sides are parallel
+the two parallel sides of trapezoid are called bases
+and other sides are called legs
+on left below AB and CD are bases of trapezoid abcd and ad and bc are legs
+the distance between the two bases of trapezoid is called height of the trapzeoid
+in this problem we discover a method for finding the area of trapezoid
+
+a. find way to rearrange the two identical trapezoid so they form a paralleogram
+b. find area of paralelogram from part a interms of the base alengths and height of the trapzeoid
+c. explain why the folowng method for finding the area of trapezoid works
+
+area = 1/2 . height . sum of base lengths
+
+answer:
+a. mirrro WZYX vertically.
+now mirror it horizontally
+stick two leftmost side to CB which now fits perfectly
+
+now DY = AX = DA = YX
+
+b. let bases of single trapezoid b1 (AB) and b2 (WX)
+total base is b1 + b2, height is just height.
+so the area of the paralleogram is (b1 + b2) . height
+
+
+c. if the two area of the two combined trapezoid is (b1 + b2) . height
+then to find area of a single trapezoid just divide it by half
+
+so 1/2 . (b1+b2) . height
+
+======================================
+
+12.20
+a. since this is a trapezoid
+1/2 . (7+9) . 4
+1/2 . 16 . 4
+8 . 4
+32
+
+b since this is parallelogram
+8 . 5 = 40
+
+c. this is a rhombus
+6 . 7 = 42
+
+d.
