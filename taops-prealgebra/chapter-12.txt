@@ -921,8 +921,10 @@ and rectangle has same diagonal
 
 divide it into triangle and comapre the hypotenuse
 
+ =====================================
+
 12.3.3
-if EFGH is a parallelgram and <E = 41deg
+a. if EFGH is a parallelgram and <E = 41deg
 then find the other angles of the paralelogram
 answer:
 since <E is 41deg since thisis paralelogram the opposide angle is also equal
@@ -934,3 +936,99 @@ so both <H and <F are 139 degree
 
 verify sum all 360deg
 139+139+41+41 = 360
+
+b. explain why the opposite angles of parallelogram are congruent
+answer:
+let EFGH be a paraleogram
+HG = EF and HE = GF
+
+now divide the paralelogram by drawing diagonal EG
+divides into two congruent shape
+so are aof EFGH = EFG + EGF and EFG = EGF
+since theyare identical <H = <F
+
+
+alternatively
+E+F = 180
+E = 180 -F
+G = 180-F
+
+ ======================================
+
+12.3.4
+shaded area 
+basically if you rearrange the right triangle
+it forms 3 squares total
+so one square = 9.9 = 81
+3 square= 81*3 = 243
+
+total are of the backyard
+729
+
+just calculate the difference
+486
+
+ ======================================
+
+12.3.5
+PQRS is a rhombus since ithas congruent sidelengths
+find the height
+using pythagorean theorem
+
+
+h^2 + 5^2 = 7^2
+h^2 + 25 = 49
+h^2 = 24
+h = sqrt(24) -> sqrt(4.6) -> 2.sqrt(6)
+
+therefore the second diagonal is 2.2.sqrt(6) = 4.sqrt(6)
+
+now find the area
+1/2 . d1 . d2
+1/2 . 10 . 4.sqrt(6)
+5 . 4sqrt(6)
+20sqrt(6)
+
+======================================
+
+ 12.3.6
+
+area = 12 . 6 = 72
+
+rotate the view
+
+9 . h = 72
+h = 72/9
+h = 8
+
+
+======================================
+
+12.3.7
+one base of a trapezoid has lengh 8 inces and height trapezoid is 4 inches
+if the trpaezoid area is 80 squarei nches
+then what is the length of the other base of the trapezoid
+
+answer:
+we know area of trapzeoid is
+1/2 . sumofbase . height
+1/2 . (8+b2) . 4 = 80
+2 . (8+b2) = 80
+16 + 2b2 = 80
+2b2 = 64
+b2 = 32
+
+12.3.8
+in trapzeoid wxyz
+we have wx ||yz
+and <w = 39deg
+which otherangle measures of the trapezoid canwe determine and whataretheirvalues
+
+answer:
+since wx = yz
+wecan find z
+180-39 = 141
+
+======================================
+
+12.3.9
