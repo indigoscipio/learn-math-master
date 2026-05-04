@@ -715,6 +715,25 @@ x . 1/2y
 1/2 . x . y
 
 ======================================
+Problem 12.16
+
+find area of a square that has a diagonal length 8.sqrt(2)
+use rhombus one
+1/2 . d1 . d2
+since thisone has he same diagonal therefore d1 == d2
+1/2 . 8.sqrt(2) . 8.sqrt(2)
+1/2 . 64.2
+64
+
+alternatively
+since the shape form by dividing
+is a isoceles right triangle
+weknow its diagonal is s.sqrt(2) where s is the eisdelength
+
+so side length is 8
+
+
+======================================
 
 12.17
 a parallelogram is quadrilateral in which both pairs of opposite sides are parallel
@@ -801,7 +820,117 @@ a. since this is a trapezoid
 b since this is parallelogram
 8 . 5 = 40
 
+correction: 8 is not the height
+so it should be
+6 . 5 = 30
+
 c. this is a rhombus
 6 . 7 = 42
 
 d.
+idonthink this is a rhombus or paralleogram
+focus on triangle on the right
+
+base =24
+hypotenuse=15
+
+let x be the base
+b^2 + 12^2 = 15^2
+b^2 + 144  = 225
+b^2 = 81
+b = 9
+
+left triangle
+b^2 + 12^2 = 13^2
+b^2 + 144 = 169
+b^2 = 25
+b = 5
+
+area = right triangle + left triangle
+right one
+1/2 . 24 . 9 = 12 . 9 = 108
+
+left one
+1/2 . 24 . 5 =  12 . 5= 60
+
+total = 108 + 60 = 168
+
+
+======================
+opposite side of rhombus is parlale
+======================
+opposite side of paralelogram is congruent
+opposide angle of parallelogram is also congruent
+======================
+
+; ==========================================================
+Exercise 12.3.1
+a square and triangle have equal perimeter
+the lengths of the three sides of the triangel are 6.2, 8.3 and 9.5cm
+what is the area of the square
+answer:
+
+fiindtheperimeter of the triangle
+6.2+8.3+9.5 = 24
+
+so thesquare has 24 perimeter
+24/4 = 6 side length
+
+are of the square is therefore 6^2 = 36
+
+
+=============================================
+
+12.3.2
+label each statment as true or false and explain why your answer is corect
+
+a. if a quadliateral has four euqal sides then it is a square
+answer:
+wrong because bydefinition a square is rectangle which has four sides equal
+and all angle is 90deg
+
+b. if a quadrilateral has at least one pair of equal sides
+then it is a rectangle
+
+answer:
+wrong because rectangle all angle needs to be 90deg
+which means need two pair with two same length
+if its one pair itcouldbe paralelogram orsometihng
+
+c. a quadrilateral can have exactly two right angles among its interior angles
+answer:
+
+notsure about thisone.
+square & rectangle has 4 right angle
+rhombus maynot have 90deg
+parlelogram maynothave 90deg
+trapezoid maynothave 90deg
+
+if its next to eachtoer then it canbild a trapezoid
+if its opposite its gottabe a square or rectangle or kite
+
+alternatively
+interior angle needtosum to 360deg
+
+so the answer is true
+
+d. the diagonals of a rectangle have the samelength
+answer:
+true. square has same diagonal
+and rectangle has same diagonal
+
+divide it into triangle and comapre the hypotenuse
+
+12.3.3
+if EFGH is a parallelgram and <E = 41deg
+then find the other angles of the paralelogram
+answer:
+since <E is 41deg since thisis paralelogram the opposide angle is also equal
+therefore <G is also 41deg
+
+and for H and F using external angle
+180-41 = 139 degree
+so both <H and <F are 139 degree
+
+verify sum all 360deg
+139+139+41+41 = 360
