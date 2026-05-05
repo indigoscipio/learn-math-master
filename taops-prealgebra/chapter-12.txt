@@ -1032,3 +1032,116 @@ wecan find z
 ======================================
 
 12.3.9
+in problem 12.19 we foun a method for arranging two identical trapezoid
+suchthat together they form a parallogram
+a. explain why the figure formed in our solution to part (a) in this section here is indeed a paralleogram
+
+a. let ABCD and WXYZ be two identical trapezoids
+mirror WXYZ vertically -> then horizontally
+so we have DW = AZ - two side of opposite angle is parallel
+and AD = WZ which has the samelength is also parallel
+
+C + X = 180deg because its identical
+B = x
+
+by definition of parallelogram ithas sides paralle.
+
+======================================
+
+
+12.3.10
+let ABCD be a trapezoid
+a = top left, D = bottom left
+median is line from AD to BC, height is line between the two bases AB and DC
+then from the endpoints of the median
+draw a vertical line - it forms a 'h' shaped line
+then on the left part
+the line cut through the triangle near D. place and mirror that triangle vertically near A.
+so now side A and D has 90deg angle
+do the same to hte other side
+area is basically a rectangle -> m .h
+
+
+======================================
+
+CHALLENGE Problems
+
+12.37
+we know area  of circle = 100pi
+find the radius
+
+pi . r^2 = 100pi
+r^2 = 100
+r = 10 -> so the radius of the circle is 10
+
+therefore we know OM has length of 10
+since MNOP is a rectangle, the diagonal NP and OM is congruent
+therefore NP = OM
+therefore NP has length 10 also.
+
+======================================
+
+12.38
+answer:
+we know abcd is a trapezoid
+and we know AB + CD = 77
+therfore AB = 77 - CD and CD = 77 - AB
+and we know [ABD] = 2.5[BCD]
+so total [ABCD] = 2.5[BCD] + [BCD] -> 3.5[BCD]
+
+we wanna know the length of AB
+area of trapezoid = 1/2 . 77 . height
+since  AB is parallel to CD the height is the same/they share the same height
+
+ABD = 1/2 . AB .  h
+BCD = 1/2 . CD .  h
+since we know ABD = 2.5[BCD]
+2.5[BCD] = 1/2 . AB .  h
+
+we know AB = 2.5 . CD
+AB + cd = 77
+(2.5 CD) + cd = 77
+3.5CD = 77
+CD = 22
+
+AB + 22 = 77
+AB = 77 = 22
+AB = 55
+
+alternatively
+quick and simple. from the book
+AB . h / 2 = 2.5CD . h / 2
+AB = 2.5CD
+
+======================================
+
+12.39
+ABCD is a square. M and N are midpoints of AB and BC respectively
+what isthe ratio of the area of MBN ot the area of MDN? epress your answer as
+fraction in simplest form.
+
+hint: what does the two triangles have in common?
+
+answer:
+ok so similarities
+MDN and MBN -> both share the same base MN
+they are both isoceles
+MBN is isoceles with right angle
+MDN is isoceles
+
+idontknow the height
+if we have BN=BM= side length = s -> then the hypotenuse is s.sqrt(2)
+
+let h be the height of MBN
+therefore we have the heightof MDN = 3h
+
+so the ratio of the height is 1 : 3
+since both triangles share the same base
+the ratio of their area is identical to their height
+
+therefore 1:3 or 1/3
+
+
+======================================
+
+12.40
