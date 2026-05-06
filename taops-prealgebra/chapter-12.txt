@@ -1145,3 +1145,175 @@ therefore 1:3 or 1/3
 ======================================
 
 12.40
+1 : sqrt(3) : 2
+
+since ABC is equilateral
+and BCD is a right triangle 30 60 90
+ABCD is a trapezius - notsure ifthis willbeuseful but ill just put here for fafct
+
+and since we know CD is 6
+cd is the shorter leg
+
+using the 30 60 90 ratio we get
+6 : 6sqrt(3) : 12
+therefore the length of BC is 12 and the length of BD is 6sqrt(3) units
+and we know AC = BC = AB
+
+to find the length AD
+we cut another triangle inside the trapezoid
+cut a line AD, which makes a triangle ACD
+we know cd is 6 which is the base
+and the height is 6.sqrt(3) and AD is basically the hypotenues
+
+add another right triangle to the left sde of ABC
+call the top left point E
+now ABCE is a rectangle with sides 
+6 and 6.sqrt(3)
+divide the rectangle by drwaing a line at AD
+now we have ABD
+with base AB = 12 and height BD = 6.sqrt(3)
+
+now we can use pythagorean to find the hypotenuse
+let x be AD/the hypotenuse 
+
+12^2 + (6.sqrt(3))^2 = x^2
+144 + 36 . 3 = x^2
+144 + 108 = x^2
+x^2 = 252
+x = sqrt(252)
+x = sqrt(36 . 7)
+x = 6.sqrt(7)
+
+therfore the length AD is 12 units.
+
+======================================
+
+
+12.41
+quadrilateral ABCD is a trapezoid with AB parallel to CD
+we know AB = 20 and cD = 12
+what is the ratio of area triangle ACB to the area of trapezoid ABCD
+
+hint: what length do you need in order to determine the area of ABC?
+what length do you need in order to determine the area of ABCD?
+hint: how do these lengths affect the ratio of these areas?
+
+answer:
+
+ok so find 'similar' length first then see how it can affect the area
+similar lengt is the base AB which is 20
+
+we need AB and the height of the triangle ABC in order to determine the area of ABC
+[ABC] =  1/2 . b . h
+since we know b = AB = 20
+[ABC] = 1/2 . 20 . h
+
+next [ABCD]
+for a trapezoid we need to know the two bases and the height. since we already know the two bases
+[ABCD] = 1/2 . (b1 + b2) . h
+[ABCD] = 1/2 . (20 + 12) . h
+[ABCD] = 1/2 . 32 . h
+
+comparing the area
+1/2 . 20 . h = 1/2 . 32 . h
+10h = 16h
+5h = 8h
+
+wait idont think thats correct
+1/2 . 20 . h = 1/2 . 32 . h
+since both share the same height and bases
+the ratio is 20 : 32
+10 : 16
+5 : 8
+
+12.42
+ok so we want to measure the perimeter
+lets assume the ant walks clockwise
+a -> f -> g ... -> a
+
+lets divide into 3 parts
+[square perim]
+[circle perim]
+[equialteral triangle perim]
+
+total ant walking distance = [sp] + [cp] + [etp]
+
+calculate each
+[square perim]
+1+2+2 = 5
+
+[circle perim]
+since CDE is equilateral <D is 60+90 = 150degree
+therefore the we justneed to focus one 360-150 = 210 degree
+210/360 = 21/36 = 7/12 full circle
+
+calculating the circumference
+pi = c/d
+c = pi . d
+since the diameter is 2 just plug in
+7/12 . pi . 2
+7/6pi
+
+[equialteral triangle perim]
+since the triangle is equilateral
+and we know the base DC is 1+1=2, then CE = DE = 2
+so  2+1 = 3
+
+so the total is
+5 + 3 + 7/6pi
+8 + 7/6pi
+
+12.43
+the diagonals of a rhombus are perpendicular and
+area of a rhombus is half the product of the lenghts of its diagonals
+
+similarly the diagonals of a kite are perpendicuar and
+area of kite is half the product of its diagonals
+
+is it true that for any quadlilateral with perpendicular diagonals
+the area of the quadrilateral equals half the product of its diagonals?
+why or why not?
+
+hint: the diagonals split the quad into 4 pieces.
+do you know how to find the areas of those pieces?
+can you easily combine a pair of these pieces to make another figure whose area
+is easy to find?
+
+answer:
+lets take a small example with a rhombus, let ABCD be a rhombus
+and point P is atthecenter, dividing it into 4 equal right triangle/ pieces
+
+then we have 4 equal pieces -> ABP = BCP = CDP = ADP
+1/2 . 1/2(d1) . 1/2(d2)
+since we have D1 = D2
+1/2 . 1/2d . 1/2d)
+1/2 . 1/4d^2
+1/8 . d^2
+
+since we have 4 of em
+4 . 1/8 . d^2
+1/2 . d^2 since D1 = D2
+1/2 . d1 . d2
+
+or if we divide by half (symettrical)
+1/2 . d . 1/2d
+1/2d . 1/2d
+1/4d^2 -> since we have 2 just do
+2 . 1/4d^2 -> 1/2 d^2 -> 1/2 . d1 . d2, same result
+
+now for kite, im guessint its also similar here bu the thing
+is its diagonal isnot equal
+
+let abcd be a kite with point p at the midle dividing into 4 quadrants
+then we have 4 parts. actualy lets just divide into2 parts
+ABC = ADC coz symetrical and congruent
+height of ABC = 1/2d1 and base of ABC = d2
+
+ABC = 1/2 . d2 . 1/2d1
+ABC = 1/2d2 . 1/2d1
+since we have two of them
+2(1/2.d2 . 1/2.d1)
+2(1/4 . d2 . d1)
+1/2 . 2d2 .2d1
+
+now for a general formula
