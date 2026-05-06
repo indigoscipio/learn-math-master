@@ -1317,3 +1317,11 @@ since we have two of them
 1/2 . 2d2 .2d1
 
 now for a general formula
+d2 is the hared base, d1 = x + y
+1/2 . d2 . x 
+1/2 . d2 . y
+
+total = 1/2.d2(x+y)
+where x+y is the other diagonal
+
+12.44
