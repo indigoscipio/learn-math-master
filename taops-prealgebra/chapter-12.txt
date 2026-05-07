@@ -1325,3 +1325,132 @@ total = 1/2.d2(x+y)
 where x+y is the other diagonal
 
 12.44
+a. in the text we discover pythagoraean triples
+3 4 5, 5 12 13, and 7 24 25
+notice each of these triples one leg is odd and the other two numbers differ by 1
+find pyhagorean triple that has 9 and two oter numbers that are 1 apart
+
+hint: add the greatest two lengths in each triple
+in each case how does the sum relate to the smallest length?
+
+answer:
+
+lets try the hint
+3 4 5 -> greates two lnegth = 4+5=9.
+5 12 13 -> greatest two length = 12+13=25
+7 24 25 -> greatest two length = 24+25 = 49
+
+ok so it seems the greatest two length is the perfect square of the smallest length
+9 -> 3^2
+25 -> 5^2
+49 -> 7^2
+
+so following the pattern
+9 x x -> the other two legs must sum to 9^2 = 81
+finding two numbers with 1 difference
+9 40 41 maybe?
+
+test algebraicaly
+b + (b+1) = 81
+2b + 1 = 81
+b = 80
+
+or alternatively use algebraicaly
+9^2 + b^2 = (b+1)^2 -> expand and youll find it
+
+9^2 + 40^2 = 41^2
+81 + 1600 = 1681
+fits perfectly, therefore the answer is 40 and 41
+
+b. (star exercise) for every odd number n greater than 1
+is there a pythagorean triple with n and two other numbers that are 1 apart?
+
+answer:
+hmm lets try it with odd shortest leg
+n = 3
+3 4 5 -> two other legs are 1 apart
+n = 5 -> same, 12 and 13, 1 apart
+n = 7 -> 24 and 25, from previous exercise
+
+so seems to be true so far. we wanan show if this pattern continues for all odd ns
+let n be an odd number.
+
+b + (b+1) = n^2
+2b + 1 = n^2
+b = n^2-1 / 2
+
+since n is odd, therefore n^2-1 is even
+so b is an integer.
+
+therefore the hypotenuse is
+(b+1)
+n^2-1 / 2  + 1
+n^2-1/2 + 2/2
+n^2 + 1 / 2
+
+c. do all pythagorean triples have form described in the first two parts?
+no, we have 6 8 10 which breaks the pattern since 8 10 is 2 units apart.
+
+============================================
+
+12.45
+let a be a point extended from hq and divides PR at midpoint. now we have  the right triangle.
+let h = SA
+let b = 1/2 PR
+
+[small tirangle]
+b^2 + h^2 = 15^2
+
+[larges triangle]
+b^2 + (h+7)^2 = 20^2
+
+b^2 = 225-h^2
+
+substitute to large triangle
+225-h^2 + (h+7)^2 = 20^2
+225-h^2 + h^2 + 7h + 7h + 49 = 20^2
+225 + 14h + 49 = 400
+14h = 400-49-225
+14h = 126
+h = 9
+
+b^2 + 81 = 225
+b^2 = 144
+b = 12
+
+calculate the area
+[pqrs] = [parq] - [pars]
+
+[parq]
+since the b = 1/2pr, the base PR is 2.12 = 24
+1/2 . 24 . 9
+12 . 9
+108
+
+[pars]
+1/2 . 24 . 9+7
+12 . 16
+192
+
+therefore 192-108 = 84
+
+provind with 1/2 . d1 . d2
+1/2 . 7 . 24
+12 . 7
+84
+
+
+============================================
+
+12.46
+the unshaded pieces are right triangles
+from the look of it CEF is equilateral
+so im guessing the right trangle its a 30 60 90 triangle with 1 : sqrt(3) : 2? not sure
+
+and we have points A = C
+lets use A from now on for simplicity
+
+[AEF] = [ADEFB] - [ABF] - [ADE]
+
+and we know base BF = DE = x
+and let hepotenuse AF = AE = y
