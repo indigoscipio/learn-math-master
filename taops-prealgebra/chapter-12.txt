@@ -1452,5 +1452,155 @@ lets use A from now on for simplicity
 
 [AEF] = [ADEFB] - [ABF] - [ADE]
 
-and we know base BF = DE = x
-and let hepotenuse AF = AE = y
+and we know base BF = DE = b
+and let hepotenuse AF = AE = h
+
+since we know
+AB = BF + AF (before the fold)
+therfoer AB = b + h
+and since we know AB is 18
+
+18 = b + h
+b = 18 - h
+
+now to find the area of the right triangle
+12^2 + (18-h)^2 = h^2
+144 + 324 - 36h + h^2 = h^2
+468 = 36h
+h = 13
+
+so the hypotenuse of the triangle is 13
+
+b = 18 - 13
+b = 18 - 5
+b = 5
+
+since we already know the hypotenuse
+the base of the triangle is AF = 13
+and the height is AD = 12
+
+1/2 . 13 . 12
+6 . 13
+78 inches
+
+12.47
+find the area of  a tirnagle whose sides have lengths 13, 14, 15
+
+hint:we need an altitude length. when we draw an altitude lengh in an acute triangle
+we split the triangle into two right triangles
+hint: each right triangle has a hypotenuse among the sides of the original triangle
+
+answer:
+
+let abc be a acute triangle with ac = 13, ab = 15 and bc = 14
+draw a line downward from point A, lets call it point x
+this splits the triangle into 2 right angle triangle
+
+left part = ACX
+right part = ABX
+
+[ABC] = [ACX] + [ABX]
+
+now lets find the height
+we know CX = BC - BX
+CX = 14 - BX
+
+let AX = height of the triangle
+since ACX and ABX shares the same height lets call it h
+
+left triangle
+(CX)^2 + h^2 = 13^2
+(14-BX)^2 + h^2 = 169
+(14-BX)(14-BX) + h^2 = 169
+196 -28BX + BX^2 + h^2 = 169
+
+right triangle
+bx^2 + h^2 = 15^2
+bx^2 + h^2 = 225
+
+since we know bx^2 + h^2 = 225, just subtitute into 1st part
+196 -28BX + (225) = 169
+196 - 28BX + 225 = 169
+- 28BX = 169-225-196
+-28BX = -252
+BX = 252/28
+BX = 9
+
+therefoer CX is 14-9 = 5
+
+now find the height
+9^2 + h^2 = 15^2
+81 + h^2 = 225
+h^2 = 225-81
+h^2 = 144
+h = 12
+
+alternatively since this is a right triangle it has to follow pythagoran triplet
+5,x,13 -> x = 12
+
+now find the area
+[ACX]
+1/2 . 5 . 12
+6 . 5
+30
+
+[ABX]
+1/2 . 9 . 12
+6 . 9
+54
+
+therefore [ABC] = 30+54 = 84
+
+
+12.48
+let ABC be the triangle inside the circle with the two equal lenghts s.
+so AC = BC = s
+
+since the tirangle is isoceles right triangle using the ratio
+we get the hypotenuse AB = s.sqrt(2)
+
+[area of big circle]
+since the equal side length is s we can just use it to find the area
+pi . s^2
+
+[area of top semicircle]
+since we know the diaemter/hypotenuse is s.sqrt(2)
+the radius is 1/2 . s . sqrt(2)
+are of the semicircle is
+1/2 . pi . 2s^2/4
+1/2 . pi . s^2/2
+1/4 . pi . s^2
+
+now find area of the lune
+lets find area of the triangle first
+wait do we even need to find the area here
+actualy yes we need it to find the top pizza "crust" - not sure what you call it, segment?
+
+[lune] = [semicircle] - [segment/crust]
+
+and in order to find the crust
+[crust/segment] = [the pizza] - [the triangle]
+
+now the pizza portion
+since the triangle is isoceles right triangle
+its angle is 90deg
+so its 90/360 = 9/36 -> 1/4 of a full circle.
+
+so [pizza]
+1/4 . pi . s^2
+
+and the [triangle]
+1/2 . s . s
+1/2 . s^2
+
+therefore the crust area is
+1/4 . pi . s^2 - 1/2 . s^2
+
+now we found the crust lets calculate the lune
+[lune] = [semicircle] - [segment/crust]
+1/4 . pi . s^2 - (1/4 . pi . s^2 - 1/2 . s^2)
+1/4 . pi . s^2 - 1/4 . pi . s^2 + 1/2 . s^2
+1/4 pi . s^2 cancels
+1/2 . s^2
+
+therefore it matches the area of the isoceles.
