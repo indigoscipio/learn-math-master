@@ -1604,3 +1604,132 @@ now we found the crust lets calculate the lune
 1/2 . s^2
 
 therefore it matches the area of the isoceles.
+
+================================================================
+
+Review Problems
+12.21
+Two bicyclists start at intsersection of two perpendicular roads
+one rides east at rate of 9 miles per hour
+while the other rides south at rate of 12 mph
+how many miles are in the shortest distance between them at the end of 3 hours?
+
+answer:
+9.3 = 27
+12.3 = 36
+
+let x be the hypotenuse
+9^2 + 12^2 = x^2
+81 + 144 = x^2
+x^2 = 225
+x = 15
+
+so the hypotenuse is 15
+15 . 3 = 45
+
+
+================================================================
+
+12.22
+A right triangle has one leg of length 48 and hypotenuse with length 52
+what is the length of the other leg
+
+divide by 4
+48^2 + x^2 = 52^2
+12 + 5 = 13
+
+following pythagorean tiples, {5 12 13}
+therefore the other leg is 5 . 4 = 20 unit length
+
+================================================================
+
+12.23
+pat knows that one leg of a certain right triangle is 300cm and hypotenuse is 400cm.
+pat notes that 300 = 3 . 100 and 400 = 4 . 100
+and then he uses {3,4,5} pythagorean triple to determine that the other leg must be 5 . 100 = 500cm
+explain why pats method ddnt work and determine the corect length of the other leg of the triangle
+
+answer:
+he is incorrect because he the hypotenuse is the largest one the other leg is NOT the hypotenuse
+he thought correspind wrong the 3 -> 300, the 4 -> the 'other leg', the 5 -> 500 (should be the hypotenuse)
+
+so the corect one should be
+let x be the other leg of the triangle
+3^2 + x^2 = 4^2
+9 + x^2 = 16
+x^2 = 16-9
+x^2 = 7
+x = sqrt(7)
+
+the corect length is sqrt(7) . 100
+
+
+================================================================
+
+12.24
+a. what is the area of a right triangle that has legs with lengts 7 inches and 24 inches?
+according to pythagorean triplet its {7 24 25}
+so the hypotenuse is 25
+wait we don't need the hypotenuse lol
+
+and the area is 
+1/2 . 7 . 24
+7 . 12
+84
+
+b. height to hypotenuse is
+7 : 25
+i dont understand this question at all
+
+
+12.25
+base 1
+14^2 + b^2 = 28^2
+196 + b^2 = 784
+b^2 = 784 - 196
+b^2 = 588
+b = sqrt(588)
+b = sqrt(4 . 49 . 3)
+b = 2.7.sqrt(3)
+b = 14.sqrt(3)
+
+base 2
+b^2 + 26^2 = 28^2
+b^2 + 676 = 784
+b^2 = 108
+b = sqrt(108)
+b = sqrt(4 . 9 . 3)
+b = 2.3.sqrt(3)
+b = 6.sqrt(3)
+
+total area = [triangle 1] + [trianlge 2]
+[triangle1]
+1/2 . 14.sqrt(3) . 14
+7 . 14 . sqrt(3)
+98.sqrt(3)
+
+
+[triangle2]
+1/2 . 6.sqrt(3) .26
+13 . 6 . sqrt(3)
+78.sqrt(3)
+
+
+total = 98.sqrt(3) + 78.sqrt(3) = 176.sqrt(3)
+
+12.26
+push thefour triangles into the center
+creating a square with equal side length 16.16ft
+
+so the total area is just 16^2 = 256
+
+
+12.27
+in ABC we have A = 30deg
+b = 60deg
+and AB = 8
+
+find BC, AC, and the area of ABC
+
+answer:
+this is a  30 60 90 triangle
