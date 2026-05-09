@@ -1850,3 +1850,57 @@ and reectangle has opposite side parallel to each other
 c. if both pairs of opposite angles of quadrialteral are euqla
 then the quadrilateral is a parallelogram
 
+answer:
+if bboth pair of oppste angle are euqal
+then their side lengths must also be equal in length and match
+and is therefore a paralelogram too
+
+2x + 2y = 360deg
+x + y = 180deg
+
+so the pair must sum up to 180 degree
+and if the interior angle line up to 180 degree
+yhey area paralel line
+
+d. the diagonals of a rhombus have the same length
+answer:
+idont thik this is tru ecoz we can have rhombus that have unequal diagonal
+liek a diamond shape
+by definiiotn opposite side parallel and equal angle so we can still have like diamond shape
+
+12.34
+the measure of one interior angle of a rhombs is 79deg
+what are the measures of other three inteiror angles
+
+answer:
+since on e of the angle is 79reg
+then the angle oppsite it has to be 79deg too
+and the remaining is 360-(79+79) = 360-158 = 202
+
+202 / 2 = 101 therefore the two remainig lenghs i 101 degree
+
+12.35
+the midpoints of the sides of square WXYZ are connected to form another quadrilateral
+a. explain why the new quadrilateral must also be a square
+
+answer:
+so basicaly we have a square and inside is like a equal diamond rhombus fit perfectly in midpoint
+because the new quadrilateral has opint from the midpoint of the square
+therefore eahc of the side lenght has equal length and equal angle
+by definitoin of square its a rectangle with equal opposite side and all 90deg angle
+
+algebraicelay
+the outer square has side length s
+and has midpoint so half segment = 1/2 . s
+
+if we divide the inner rhombus into 4 segment
+and focus on one griangle
+we have the angle 90deg and the other two legs must be equal
+the remaing = 90 deg/2 = 45deg
+so the triangle is a equilateral rigt triangle
+since its eqilateral righ ttriangle four corners are congruent
+1. f all four corner triangle are identical then the hypotenus is also congruent therefore
+hypotenuse =  side length are all equal
+
+
+b. 
