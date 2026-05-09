@@ -1733,3 +1733,120 @@ find BC, AC, and the area of ABC
 
 answer:
 this is a  30 60 90 triangle
+
+nad we have the hypotenuse 8
+since the ratio is
+s : s.sqrt(3) : 2s
+
+where the hypotenuse is 8 so
+4 : 4.sqrt(3) : 8
+
+therefore to find the area
+1/2 . 4 . 4.sqrt(3)
+2 . 4.sqrt(3)
+8.sqrt(3)
+
+12.28
+a. what is the greatest possible angle measure in isoceles triangle
+that has an angle measuring 54 degrees?
+
+answer:
+since this is isocles
+if we have 54 as the vertex angle
+then the remainig 2 would sum up to 180-54 = 126 degrees
+126/2 = 63 degree
+
+if we have 54 as the two equal legs
+then the reaminig vertex angle would sum up to 180-2.54 = 180-108=72
+
+so the greates possible angle measure is 72degree which is the second one
+
+b. what is the least possible angle measure in an isoceles triangle that has an angle
+measuring 54 degres?
+answer:
+same approach as part a
+of we have 54 as vertex angle, the msallest is 54
+if we have it as qual legs, the smallest would also be 54
+
+therefore the answer is 54
+
+12.29
+perimeter:
+area: [rectangle] + [right triangle]
+
+
+
+[rectangle] = 9*3 = 27
+
+[triangle]
+1/2 . 9 . 12 = 9 . 6 = 54
+
+total area = 27+54=81
+
+perimeter
+hypotenuse
+9^2 + 12^2 = x^2
+81 + 144 = x^2
+x^2 = 225
+x = 15
+
+3+9+15+15
+42
+
+12.30
+the lengths of  the diagonals of a rhombus are 10 inches and 24 inches
+what are the perimeter and area of th rhombus
+
+perimeter =
+
+area = 1/2 . 10 . 24 = 5 . 24 = 120
+
+hypotenuse
+13 {5 12 13} -> therefore perimeter = 4.13 = 52
+
+12.31
+trapezeus
+base 1 = 4, base 2 = x
+
+24^2 + b^2 = 25^2
+by pythagorean tirples we know the base extende is 7
+
+
+12.32
+sum of angle for hexagon = 
+6-2 . 180
+4 . 180
+720
+
+therefore each angle has 720/6 =  120reg
+
+sum of angle for rhombus
+360 -120-120
+120
+
+therefoer the acute nagle is 120/2
+60 degree
+
+
+12.33
+label each statement asture or fasle
+and explain why tyour answer is correct
+a. a quadrilateral can have exactly ythree right angles among its interior angles
+
+3 rihgt angle then the sum = 3.90 = 270
+quadrilateral with 3 right angle is valid i but
+sum of degree quadrilateral = 4-2.180 = 360deg
+so remainign nagle must be 360-270=deg
+so itmust force the 4th one must be 90deg
+if it has 3 90deg then the 4th one must be 90deg therefore a rectangle or square
+therefore false
+
+b. all squares a rea paralleogram
+true because by definition of paralelogram
+the ooposite side has to be paralel
+and in all square is rectangle
+and reectangle has opposite side parallel to each other
+
+c. if both pairs of opposite angles of quadrialteral are euqla
+then the quadrilateral is a parallelogram
+
