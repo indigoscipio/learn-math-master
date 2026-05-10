@@ -1903,4 +1903,47 @@ since its eqilateral righ ttriangle four corners are congruent
 hypotenuse =  side length are all equal
 
 
-b. 
+b. if the area of WXYZ is 900, then what is the area of the newquadrilateral?
+answer:
+
+if [WXYZ] = 900
+then we know its side lenghts =  sqrt(900) = 30
+
+and therefore WA = 1/2WX = 15
+
+since we know the quad inside the square is also a rectangle then
+we can just calculate its hypotenuse/side lenggh
+
+15^2 + 15^2 = x^2
+225 + 225 = x^2
+x^2 = 450
+x = sqrt(450)
+x = sqrt(2 . 25 . 9)
+x = 3 . 5sqrt(2)
+x = 15.sqrt(2)
+
+or using the ratio of equilateral right triangle we can also get 15.sqrt(2)
+
+then calculate the area of [ABCD]
+(15.sqrt(2))^2
+15.15 . sqrt(2).sqrt(2)
+225.2
+450
+basically just half of wxyz
+
+12.36
+the measures of two angles in paralleogram add up to 204degre
+find the measure of each of the other two angles
+
+answr:
+if the two angles of the paralleogram add up to 204
+then the rest of the angle should add up to 360
+
+and since by definition of parallelogram
+opposite angle are equal
+and adjacent angles must add up to 180 degree
+
+therefore the two angles told are not adjacent
+and must therefore be opposite angles
+so the remaining angle is 360-204 = 156 degres
+156 / 2 = 78 degrees each
