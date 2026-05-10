@@ -122,6 +122,12 @@ x = 672-572
 x = 98
 so i would need to score a high 98
 
+alternaive answer
+first 7 test = 82*7 = 574
+first 8 test = 84*8 = 672
+doesn't matter just multiply the total with the average you'd the the total sum
+changing the first 7 socrest o 82 doesn't change the avg of the first 8 scores
+
 =============================================================
 
 13.5
@@ -231,3 +237,40 @@ x1 + x2 + x4 + x5 = 57 so the remainig 4 must sum up to 57
 and the smallest two score must be less than 18 so x1 + x2 < 18
 and the largest to must be more than 18 so x3 + x4 > 18
 
+if we want x5 to be the maximum possible value
+that means we need to pick x1 and x2 to be the smallest minimum
+since the requirement is for x to be positiev integer and x different
+x1 = 1, x2 = 2
+and x4 needs to be different and smallest so next after 18 = 19
+
+xo x1 = 1, x2 = 2, x3 = 18, x4 = 19, and x5 = ?
+now find x5
+1+2+18+19+x5 = 75
+40 + x5 = 75
+x5 = 35
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+avg of a list of number give us information about
+the sum of the numbers in the list. we can solve many problems
+about averages by thinking about sums
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sum of below avg numbers are less than avg = sum of above avg numbers that are above avg
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+avg of a list of num only depend on num of items in the list
+and sum of item in the list
+if we change all items in the list = list's avg, we dont change the avg of the list
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+suppose we have a list of numbers and make a new list by adding the same number n
+to each number in the original list
+the avg of the numbers in the new list is n + the avg of the original list numer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
