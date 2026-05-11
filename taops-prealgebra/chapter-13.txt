@@ -274,3 +274,188 @@ suppose we have a list of numbers and make a new list by adding the same number 
 to each number in the original list
 the avg of the numbers in the new list is n + the avg of the original list numer
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+Exrcise 13.1.1
+
+Compute the avg, median and mode of the following list of numbers:
+34,13,37,24,25,13,41,23,28,31
+
+answer:
+lets sort it first
+
+34,13,37,24,25,13,41,23,28,31
+13,13,23,24,25,28,31,34,37,41
+
+avg:
+269/10 = 26.9
+
+median:
+since this is even
+25+28 / 2 = 53/2 =26.5
+
+mode:
+most ocuring number is 13 with 2x frequency
+
+
+13.1.2
+Jane averages 143 in her first six bowling games
+her scores in her next four games are all the same
+if her bowling average over the ten games is also 143
+then what did she bwol in each of the final four games?
+
+answer:
+first 6 bowling games = 143
+which means
+(x1 + ... + x6) / 6 = 143
+(x1 + ... + x6) = 858
+
+average for her 10 games is also 143
+(x1 + ... + x10) / 10 = 143
+(x1 + ... + x10) = 1430
+
+so that means
+(x7 + ... + x10)  / 4 = 143
+(x7 + ... + x10)  = 572
+
+572 / 4 = 143
+
+13.1.3
+in my science class
+my teacher assigns each student a semester grade
+by finding the median of that students test scores
+there are seven tests each semester
+i have scored 55, 78, 63, and 91 on the first four tests
+what is the highest possible semester grade i can earn?
+
+answer:
+
+ok so semester grade is earned by finding the median of student test scores
+and there are 7 tests each semester
+
+so far i have only 4 test, so 3 tests is a mystery
+55 78 63 91 x5 x6 x7 
+the question asks for highest semester grade i can earn
+since semester grade is earned through median
+that means x5,x6,andx7 has to be higher than 91 to keep 91 the median
+even if the 3 remaining test scores are all above 91 eg 98 99 100 the median would still be 91
+if one of them <91 then the 91 would slide to the right so the new median would be that <91 number
+so the highest semester grade i can earn is 91
+
+13.1.4
+IN a list of positive integers all have different values
+their sum is 350
+their average is 50
+one of the integers if 100
+what is the greatest integer that can be in the list
+
+answer:
+ok so we have posint list
+we dont have th length but they all have different values
+sum = 350
+avg = 50
+one of the integer is 100
+
+(x1 + ... + xn) / n = 50
+and we know the sum is 350 just substitute
+350 / n = 50
+350 = 50n
+n = 350/50
+n = 7
+
+so the list length of the positive integer is 7
+ans we know one if it is 100
+
+(x1 + x2 + x3 + x4 + x5 + x6 + 100) / 7 = 50
+(100 + remaining 6 ints) / 7 = 50
+100 + remaining 6 ints = 350
+remainng 6 ints = 250
+
+to make the remaining 6 integer as large as possible
+we need to make the rest 5as small as possible
+1,2,3,4,5 -> sum = 15
+250-15 = 235
+
+13.1.5
+what number should be removed from the list
+
+1,2,3,4,5,6,7,8,9,10,11
+
+so that the average of the remaining numbers is 6.1
+
+answer:
+total sum is 66, lenght/n = 11
+average of the list is 66/11 = 5
+
+now we want the new avarege ith n = 10
+that means sum/10 = 6.1
+that means the sum must add up to 61
+
+66-61 = 5
+so just remove the number 5 so the sum becomes 1+2+3+4+6+7+8+9+10+11 = 61
+61/10 = 6.1
+
+
+13.1.6
+in a group of five children
+the average childs weight was 72 lbs
+when a sixth child joined the group
+the avr child's weight become 73 pounds
+what was the weight of the sixth child?
+
+answer:
+let x be the  chidlren
+(x1 + ... + x5) / 5 = 72 
+sum of the first five children = 72 . 5 = 360
+
+sum of the first 6 children = 73 . 6 = 438
+
+difference = 438-360
+78 lbs
+
+alternatively using the 'fair share' teechnique
+
+since the first 5 children already avg 72lbs
+when 6th child joins everyone's fair share goes up to 73 lbs
+that means the first 5 has a surplus of 1lb each
+5 . 1 = 5lb
+
+73 + 5 = 78
+
+13.1.7
+in theresa's first 8 basketball games she scored 7,4,3,6,8,3,1 and 5 pts
+in her ninth game she scored fewer than 10 pts and her pts per game avg for the first nine games
+was an integer
+
+in her tenth game she scored fewer than 10 pts and her pts per game avg for the 10 games was an integer
+what is the product of the number of pts she scored in the ninth and 10 games?
+
+answer:
+
+sum of first 8 games = 37
+avr = 37/8 = 4.625
+
+now on the 9th game
+she cored < 10 pts
+and her avg was integer that means
+(sum of first 8 games + x)  / 9 = y where y is an integer
+
+but the thign is we only know in the new game she scored fewer than 10 pts
+so y  could be 1 - 9 and we just know the new avr becomes an integer
+so new avr could be either 4 (decresase) or 5 (increase) than the previous 4.625
+let stry 5
+
+37 + x / 9 = 5
+37 + x = 45
+x = 8
+
+lets try 4
+37 + x / 9 = 4
+37 + x = 36
+x = -1 which is impossible since the constraint ins only posint
+therefore the new score must be 8
+
+
+
+and now 10th GAMES, same approach
+...
