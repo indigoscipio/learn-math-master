@@ -666,8 +666,23 @@ if the person has over one million dollars. Can we tell which town has more filt
 Will the average wealth of Richville go up or down?
 
 answer:
+a. im not sure, based onthe data it only give me the average of the two towns
+there might be a person in poorvile that makes $1M but maybe its like 1 in a million
+then the rest is super duper poor so it averages out to $20k
+but its still possible
 
+b. yes, town 1 has higher median wealth since
+the average is already high therefore the median has to sit in the middle value easeir
 
+whereas in poorvile since the avg is only $20k
+even if we add a higher income people it would just lean to the right more, i think
+
+c. yes
+if we have 3 people in richville -> 150000*3 =  450000
+if we have 3 peple in pporfile -> 20000*3 = 60000
+either way ppoorvile has lower total wealth
+
+d. 
 
 Problem 13.10
 The median wealth of a person in Goldtown is $150,000 and the median wealth of
