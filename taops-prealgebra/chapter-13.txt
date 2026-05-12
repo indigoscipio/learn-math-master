@@ -453,9 +453,231 @@ lets try 4
 37 + x / 9 = 4
 37 + x = 36
 x = -1 which is impossible since the constraint ins only posint
-therefore the new score must be 8
-
-
+therefore the new score must be 8 -> so x9 = 8
+sum of first 9 games = 45
+and avr ov first 9 = 5
 
 and now 10th GAMES, same approach
-...
+(x1+...+x9+x10) / 10 = z where z is new avg
+since we know the first 9 scores (lets call it x)
+45 + x / 10 = z
+
+so new avg can either stay 5 or 6 or 4?
+lets try z = 5
+45 + x / 10 = 5
+45 + x = 50
+x = 5
+
+x = 6
+45 + x / 10 = 6
+45 + x = 60
+x = 15 -> way more than the limit
+
+x = 4
+45 + x / 10 = 4
+45 + x = 40
+x = -5 -> invalid, needs to be posint
+
+therefore her tenth score is 5
+so the product of x9 and x10 is
+8 . 5 = 40
+
+alternatively
+after 9 games the score needs to be a multiple of 9
+first 8 sum = 37 -> add 8 = 45
+then in 10th game add 5 to be multiple of 10
+
+13.1.8
+there is a set of five positive integers whose average (mean) is 5
+whose median is 5 and whose only mode is 8
+wiat is the difference between the largest and smallest integers in the set?
+
+answer:
+ok so we have 5 posint
+x1 x2 x3 x4 x5
+
+and we know the rules are
+median = 5, so we know x3 = 5
+average = 5
+mode = 8, so 8 occurs more than the rest of the number
+
+now the question asks for the largest and smallest number
+we only know 5 and 8 so far, could there be a larger number than this?
+
+(x1 + .. + x5 + 5) / 5 = 5
+(rest of 4 num + 5) / 5 = 5
+(rest of 4 num + 5) = 25
+so the sum of all of the numbers need to add up to 25
+which means the rest of 4 numbers must sum to exactly 20
+
+x1 x2 x4 x5
+the requirement to be mode 8 if it occurs than any other number
+if we let x1 x2 x4 be 8 -> remaining sum = 20-24 -> negative, so the 8 need to occur at most 2 times
+if we let x1 x2 be 8 -> remaining sum = 20-16  = 4
+if we let x1 be 8 -> does not fit requirement to be mode, needs to occur at least 2 time
+
+so 2 of the remaining numbers is 8
+8 8 x4 x5 with sum = 4
+now since it wants the smallest integer since this is posint that means one of them needs to be >0
+8 8 1 x5 -> sum = 3 , leaving the last number to be 3
+
+so we have the largest = 8 and smallest = 1
+therefore the difference between the largest and smallest is
+8 - 1 = 7
+
+
+13.1.9
+a. what is the average of the smallest 7 positive integers?
+
+answer:
+1 2 3 4 5 6 7 / 7
+28 / 7
+4
+
+b. what is the avg ofthe smallest n posiitve integers if n is odd?
+n = 1
+1 / 1 = 1
+
+if n = 3
+1 + 2 + 3 / 3 -> 6/3 -> 2
+
+if n = 5
+1 + 2 + 3 + 4 + 5 / 5 -> 15 / 5 -> 3
+
+if n = 7
+1 + ... + 7 / 7 -> 28 / 7 -> 4
+
+n = 9
+1 + ... + 9 / 9 -> 45 / 9 - >5
+
+im trying to guess a pattern here
+each time it goes to next odd integer it increases the avg by 1
+the sum of the first n odd integer isn't always orr or even so maybe itsnot about that
+so im thinking
+
+the average is n + 1 / 2
+
+c. what is the average of the smallest n positive integers if n is even?
+
+n = 2
+1 + 2 / 2 = 3/2 = 1.5
+
+n = 4
+1 + ... + 4 / 4 = 10/4 = 2.5
+
+n = 6
+1 + ... + 6 / 6 = 21/6 = 3.5
+
+n = 8
+1+ .... + 8 / 8 = 4.5
+
+its abit similar to the ood one but the result is not integer since all ends in .5
+so im thinking
+
+(n + 1) / 2
+or
+(n/2) + 1/2
+
+d. what is the average of the integers from 21 to 31, including 21 and 31?
+
+answer:
+286/11 = 26
+
+
+e. jenny makes a list of all ints from a to b
+including a and b
+find the formula in terms of a and b for the avg of jenn's numbres
+
+answer:
+
+ok so jeny has a list of ints
+{a, ... , b}
+
+we wanna know the formula for jennys avg
+actually we dont know her lenghts yet
+let n be the length of jennys integers.
+
+smallest number = a
+largest number = b
+
+a+b/2
+
+
+13.2 Limits of basic statistics
+
+
+Problem 13.8
+You have to choose one of four people in your math club to
+be your partner on a math assignment. You'd like to choose someone who is
+very good at math! Here are the four students' scores on their previous seven assignments:
+
+Anna:94, 93, 90, 93, 92, 91, 0
+Bob:98, 94, 33, 33, 96, 97, 23
+Carol:89, 88, 86, 88, 87, 84, 85
+Doug: 100, 14, 3, 100, 11, 2, 21
+
+(a) Which student has the highest average score?
+(b) Which student has the highest median score?
+(c) Which student has the highest mode score?
+(d) Which student would you choose as your partner?
+
+answer:
+
+a. lets calcualte each averages
+anna:553/7 = 79
+bob: 474/7 ~67.7
+Carol: 607/7 ~86.7
+doug: 251/7 ~35.8
+
+b. highest median
+lets sort it first
+Anna: 0, 90, 91, 92, 93, 93, 94 -> 92
+Bob: 23, 33, 33, 94, 96, 97, 98 ->94
+Carol: 84, 85, 86, 87, 88, 88, 89 ->87
+Doug: 2, 3, 11, 14, 21, 100, 100 -> 14
+
+so bob has the highest median
+
+c. highest mode
+anna -> 93
+bob -> 33
+carol -> 88
+doug -> 100
+
+d. im guessing it depends but id' choose one with highest average since it guaratees consistency
+and spreads thorught the test
+highest median doesn't guarantee you always score high rank, maybe first and last score is shit
+and highest mode doesn't guarantee you consistently score good grade, maybe the rest of the score is bad
+so i think i'd pick carol
+
+
+Problem 13.9
+The average wealth of a person in Richville is $150,000
+and the average wealth of a person in Poorville is $20,000.
+
+(a) Suppose a person is called "filthy stinking rich"
+if the person has over one million dollars. Can we tell which town has more filthy stinking rich people?
+
+(b) Can we tell which town has the higher median wealth?
+
+(c) If both towns have the same number of people, can we tell which town has the higher total wealth?
+
+(d) Suppose a person with $1,000,000 and 4 people who have $0 move into Richville.
+Will the average wealth of Richville go up or down?
+
+answer:
+
+
+
+Problem 13.10
+The median wealth of a person in Goldtown is $150,000 and the median wealth of
+ a person in Tintown is $20,000. Each town has 8000 people.
+
+(a) Suppose a town qualifies for special government subsidies if
+each of at least half of its residents has less than $60,000.
+Does either town necessarily qualify for the subsidies?
+
+(b) Can we tell which town has the higher average wealth?
+
+(c) Suppose a person with $1,000,000,000 and 4 people who have $0 move into Goldtown.
+Will the median wealth of Goldtown go up or down?
