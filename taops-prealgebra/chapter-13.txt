@@ -671,8 +671,8 @@ there might be a person in poorvile that makes $1M but maybe its like 1 in a mil
 then the rest is super duper poor so it averages out to $20k
 but its still possible
 
-b. yes, town 1 has higher median wealth since
-the average is already high therefore the median has to sit in the middle value easeir
+b. since w don't know the discribution (how money is spread out)
+we cannot know for sure about the median
 
 whereas in poorvile since the avg is only $20k
 even if we add a higher income people it would just lean to the right more, i think
@@ -682,7 +682,15 @@ if we have 3 people in richville -> 150000*3 =  450000
 if we have 3 peple in pporfile -> 20000*3 = 60000
 either way ppoorvile has lower total wealth
 
-d. 
+d. 1 person with $1m
+4 person with 0
+
+then the avg of that group would be 
+1m / 5 = 200000
+
+since 200000 is still above the average of richville
+then the average wealth of ricville will  go up
+
 
 Problem 13.10
 The median wealth of a person in Goldtown is $150,000 and the median wealth of
@@ -696,3 +704,26 @@ Does either town necessarily qualify for the subsidies?
 
 (c) Suppose a person with $1,000,000,000 and 4 people who have $0 move into Goldtown.
 Will the median wealth of Goldtown go up or down?
+
+answer:
+ok so we know
+median goldtown -> $150,000
+median tintown -> $20,000
+population for both = 8000
+
+a. so the subsidy only apply if 1/2 of its residents
+which is 4000 people 
+but we only know the middle value here
+so we dont know the quantity but im not sure
+
+
+b. im not sure here, we only know the median but
+the median is like the middle value
+
+if out of those 8000 people
+150k sits inthe middle then if we just spreaditout/ordered tehcnically
+godltown has higher average welath? vs the 8000 peopele with 20k spread out.
+
+c. 4000 -> 4005
+with 1m and 4 people with $0
+yeah im not sure here i dont think this will affect the median that much
