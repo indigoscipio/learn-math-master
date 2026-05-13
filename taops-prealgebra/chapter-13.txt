@@ -713,17 +713,120 @@ population for both = 8000
 
 a. so the subsidy only apply if 1/2 of its residents
 which is 4000 people 
-but we only know the middle value here
-so we dont know the quantity but im not sure
+
+goldtown has median 150k
+that means atleast 4k people have < 150k
+and the remaining 4k have > 150k
+
+for tintown has median 20k
+thatmeans 4k have < 20k
+and remaining have > 20k 
+
+so tintown satisfies the subsidy
+but godltown does not satisfy since we dont know if
+the rest of the 4k have income < 60k
 
 
-b. im not sure here, we only know the median but
-the median is like the middle value
+b. we cannot tell
+since what if in tintown
+the remaining we have one or two billionaires but the rest is super poor
 
-if out of those 8000 people
-150k sits inthe middle then if we just spreaditout/ordered tehcnically
-godltown has higher average welath? vs the 8000 peopele with 20k spread out.
 
 c. 4000 -> 4005
 with 1m and 4 people with $0
-yeah im not sure here i dont think this will affect the median that much
+so it shift 1 to the top
+and tugs 4 to the bottom
+the bottom wins so the new median will be lower
+therefore it will go down
+
+correction: it might be equal but it cannot be
+higher than the new median.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+median is blind to extreme values at the ends of the list
+average is sensitive to outliers
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+=============================
+neither avg nor median tell us anything about
+how many numbers are in the group
+=============================
+
+=============================
+we cant know median of data based on average
+we cant know average based on median
+=============================
+
+=============================
+we cant compare sums of data by comparing avgs
+without knowing the size of data setse
+=============================
+
+=============================
+only the middle value (or middle 2 if its even) is used to compute median
+increasing the value above/below the median does not affect the median
+=============================
+
+=============================
+outliers can have significant effect on avg
+but it will not affect median
+=============================
+
+
+Exercises
+13.2.1
+the median height of the players on my basketball team is 6ft 4 inches
+what is the shortest that the tallest player on the team
+could possibly be?
+
+answer:
+lets see, we dont know how many players are on the team
+but wek now atleast half of those players have height shorter than 6ft 4in
+i donkt now, half of those could be 5feet, 4 feet, can even be a midget
+but right half is above 6ft 4 inches
+
+let see,
+it should sandwith the tallest player as short possible to the median as they can be
+
+p1 - 6ft 3.98in
+p2 - 6ft 3.99in
+p3 - 6ft 4in
+p4 - 6ft 4.01in
+p5 - 6ft 4.02in
+
+but wait we can make it the same
+
+p1 - doenst matter
+p2 - doesnt matter
+p3 - 6ft 4in
+p4 - 6ft 4in
+p5 - 6ft 4in
+
+
+13.2.2
+the avg wealth of person in richville is $150k
+avg wealth of a person in poorville is $20k
+suppose richville and poorville combine to form mediumville
+
+a. is it possible that the avg wealth in mediumville is exactly $20,000?
+answer:
+im not sure but i dont think is possible
+we also dontknow howmany people in those town or combined
+
+if we have 10 total peopl
+richvile -> each of those haee 150k -> 150k vavg
+poorvie -> each have 20k -> 20k avg 
+
+combine it
+20 total people, but avg is 'combined'
+150+20/2 = 85k
+that is the minimum so it cannot be 20k i think
+or sit somewhere in the middle
+
+but that depends on the number of population/people for each town.
+
+if the original avg is A
+you add a new value where X > A
+the new avg will always be greater
+
+b.
