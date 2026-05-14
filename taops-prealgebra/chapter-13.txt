@@ -920,3 +920,81 @@ which means first half if his tests is < 70
 then the 2nd half after that he went like extremely bad, probably like zeroes.
 so i think he fits the category 'when he does badly, he does very badly'
 
+===============================================================================
+
+13.3: Tables, graphs, and charts
+
+13.11
+a. west middle school total = 397
+north middle school 8th grade = 174
+south middle school 7th grade = 343
+
+b. 339 - 217 = 122
+c. 
+6th grade = 919 
+7th grade = 856
+8th grade = 850
+so 6th grade has the most students
+
+d. 
+east = 223.6
+west = 132.3
+north = 178
+south = 341
+therefore south has highest avg number of students per grade
+
+------
+
+13.12
+a. true. history = around 11, math around 50 so itslike 5x
+b. wii is like 35 and rubiks ube is like 25 and math around 50
+combines ts 60 to 50 so its false
+c. ok so weneed to get the total people here lets justdo approximation
+math = around 50
+history = 11
+wii = 35
+facebook = 65
+rubik = 25
+harry potter = 24
+
+total = around 210
+facebook is 65 so
+half the class = 210/2 = 110 so it doesnt fit the 'more than half' thing, therefore flase
+
+d. we dont know if some student spend moretime thinking baout wii or rubik
+we only know the cart display the number of student not the amount of time
+
+
+------
+13.13
+
+a. ok so the statme say
+bots score < monster score on monday
+but bots score more at the end of friday
+
+on monday bots has around 100 and monster has around 290
+so thats true
+
+and end of friday bots has like 108 and mosnter around 300
+so its false
+
+thefore is false
+
+b.
+
+
+c.
+d.
+e.
+
+
+------
+13.14
+
+------
+13.15
+
+------
+13.16
+
+===============================================================================
