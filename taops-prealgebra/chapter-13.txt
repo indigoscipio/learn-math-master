@@ -829,4 +829,94 @@ if the original avg is A
 you add a new value where X > A
 the new avg will always be greater
 
-b.
+b. suppose one person from richville refuses to join mediumville
+then is it possible that the avg wealth of mediumville is less than $20k?
+
+answer:
+
+ok so we know only average welath from two towns
+and those 2 town combine to make mediumville
+
+richvile has 150k avg wealth but we dont know the distribution or how many people is there
+say we have 1 person from richville which has $0/nothing
+
+then it moves to mediumville
+we know from previous part mediumville total wealth is like 150000r + 20000p
+so if one person from richvile refuse it would be 150000(r-1) + 20000p / 2
+
+but if the person is like crazy rich outlier who has million and the rest of richville is poor
+and somehow that rich person alone 'contributes' to the average of richville to 150k
+then its entirely possible if he does not join
+then the average would be below 20k.
+
+c. if there were the same number of people in poorville and richville
+then what isthe aveage wealth of mediumville?
+
+answer:
+ok lets say theres
+2 peopl in richville -> 150k avg
+
+2 people in poorvile -> 20k avg,
+
+then medium ville is 4 people
+with combined average
+sum of avg / sum of people
+
+let t be the number of people in richvillle and poorville
+150000t + 20000t = 170000t
+
+170000t / 2t = 85000
+
+d. if the average wealth of mediumville is $120000
+then which city was larger, richville or poorville?
+
+answer:
+richville avg = $150k
+poorvile avg = $20k
+
+mediumville avg = $120k
+
+difference is closer with richville so most people come from richville
+
+or algebraicaly
+total wealth from mediumville = total wealth from p + total welath from r
+120000(p+r) = 120000p + 120000r
+
+20000p + 150000r = 120000p + 120000r
+r = p . 100000/30000
+p = 10/3
+p = 3 1/3
+
+13.2.3
+below are the average and median of test scores for nick and omar
+nick: avg 70, median 50
+omar: avg 50, median 70
+
+one of the students usually does ok but when he does badly he does very badly
+the other one usually doesnt do very well
+but when he does well he does extremly well
+which is which?
+
+answer:
+ok lets analyze this one by one
+
+nick
+avg 70
+median 50
+
+on average he does ok but median is 50 which means
+if he has like multipel tests
+the first half he does badly, like <= 50 but the remaining afterthat he does very well.
+whichis probably why he averages to 70
+so i think nick fits the 2 category
+'when he does well, he does extremely well'
+
+omar
+avg 50
+median 70
+now omar has shit average but ok median
+that means on avg he doesn't givea shit about the test but somehow he got a 70 median
+which means first half if his tests is < 70
+then the 2nd half after that he went like extremely bad, probably like zeroes.
+so i think he fits the category 'when he does badly, he does very badly'
+
