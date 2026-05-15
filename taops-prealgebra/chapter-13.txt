@@ -1083,3 +1083,47 @@ and n is odd so the median is 29th item so 2 pencil
 
 
 13.3.2
+a.
+total hairs = 
+0 -> 1 1 3 5 6 8 -> total: 24, count: 6
+1 -> 10 12 12 12 14 -> total: 60, count: 5
+2 -> 23 29 -> total: 52, count: 2
+4 -> 40 45 -> total: 95, count: 2
+5 -> 56 58 -> total: 114, count: 2
+7 -> 75 76 79 -> total: 230, count: 3
+
+total hair: 575
+no of people: 20
+
+avg: 28.75
+median: 20/2 -> sits between 10th and 11th
+12+14 / 2 = 13
+mode: 12
+
+b. if 1 person joins with 0 hair
+then it would add 0 to the 0th digit so new 0 will be
+0 -> 0 1 1 3 5 6 8 -> total: 24, count: 7
+
+i think it will affect the average the most
+the mode will stay exactly the same
+and the median will shift to the 11th item -> 12
+
+c. 
+
+x/20 = 26.75
+x = 26.75*20
+x = 535
+
+so the total sum must be 535
+previous sum = 565
+difference = 30
+
+change 7 to 6
+
+
+===============================================================================
+
+13.3.3
+a. 2 -> 3 year
+b. 4
+c. 
