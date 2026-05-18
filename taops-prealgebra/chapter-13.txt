@@ -1127,3 +1127,208 @@ change 7 to 6
 a. 2 -> 3 year
 b. 4
 c. 
+
+lets calculate inches per year
+1 -> 0
+2 -> 15
+3 -> 60
+4 -> 81
+5 -> 82
+6 -> 84
+7 -> 89
+8 -> 90
+
+total = 501 / 8
+~62.6 inches but again its hard to approximate
+its difficult to see but let me try to approximate
+
+13.3.4
+a. so we know the total is 650 characters
+lets calculate bart
+x/650= 36/100
+x = 36/100 . 650
+x = 9/25 . 650
+x = 9.26
+x = 234
+so 234 people voted for bart
+
+buggs bunny
+x/650 = 28/100
+x = 28/100 . 650
+x = 7/25 . 650
+x = 7/25 . 650
+x = 7.26
+x = 182
+
+differnce = 234-182
+52 people
+
+
+==================================================
+
+Challenge problems
+
+13.27
+there's a list of 7 numbers. the avg of the first 4 numbers is 5
+the avg of the last 4 numbers i 8
+if the avg of all seven numbers is 6 4/7 then what number is common to both sets of four numbers?
+
+hint: problem involving averages can often be solved by thinking about sums.
+
+answer:
+so we know theres seven numbers
+{x1, ..., x7} with avg of the first 4 = 5
+that means
+{x1, x2, x3, x4} / 4 = 5
+{x1,x2,x3,x4} = 20 -> the sum of the first 4 number must be 20
+
+and last 4 number is 8 that means
+{x4,x5, x6 ,x7} / 4 = 8
+{x4,x5,x6,x7} = 32 -> sum of last 4 number is 32
+
+then lastly all number averages to 6 4/7
+{x1, ... , x7} / 7 = 6 4/7
+{x1, ... , x7} = 6 4/7 . 7
+{x1, ... , x7} = 46/7 . 7
+{x1, ... , x7} = 46
+
+so the sum of all number is 46
+since we nkow
+first 4 -> 20
+last 4 -> 32
+all 7 -> 46
+
+hmm
+first 4 + (last 4 - intersect) = 46
+20 + 32 - x = 46
+52 - x = 46
+-x = 46-52
+-x = -6
+x = 6
+
+therefore the intersect number is 6
+
+=================================================
+
+13.28
+the mean, median, and mode of all five numbers 5,7,8,A,B are equal
+(the list has a single mode). Find all possible values of A + B
+
+answer:
+ok so this is a possibility question thing
+since it has a single mode it means that atleast it must have two equal same numbers
+
+lets try with a = 8, b = 12
+5,7,8,8,12
+median -> 8
+avg -> 8 
+mode -> 8
+so a=8 and a=12 fits
+basically we need to find a number such that a and b is more than or equal to 8
+and a + b sums up to 20 (since first 3 number sums up to 20) to make the median = avg
+
+so next possibility would be
+a=7, b= 13
+5,7,7,8,8
+median -> 7
+avg -> 7 
+mode -> 7
+however this does not fit since it has two mode
+
+next one
+a=5, b= 0
+0,5,5,7,8
+median -> 5
+avg -> 5
+mode -> 5
+
+5+7+8+a+a/5
+20+2a/5 = A
+
+
+13.29
+total
+50s -> 2
+60s -> 4
+70s -> 8
+80s -> 10
+90s -> 7
+
+31, so median is the 16th member
+80s
+
+b. 89
+
+c.
+50 * 2 + 60 * 4 + 70 * 8 + 80 * 10 + 90 * 7
+100 + 240 + 560 + 800 + 630
+2330 / 31
+~75.1
+
+
+d.
+59 * 2 + 69 * 4 + 79 * 8 + 89 * 10 + 99 * 7
+118 + 276 + 632 + 890 + 693
+2609 / 31
+~84.1
+
+===================================================
+
+13.30
+a. two lists of numbers that have the same average are cmobined to form a longer list
+must the average of the new list be the same as average of each of the original shorter list?
+
+answer:
+ok lets say we have
+{1,2,3} -> avg = 2
+{0,1,5} -> avg = 2
+
+say we combine them both
+{0,1,1,2,3,5} -> avg = 2
+
+its still the same average
+so i dont think it matters if include/group lists that have the same avg
+when we add them together the avg will still be the same
+
+like a see saw
+the numbers above avg pushes up
+the numbers below avg pushes down
+
+b. 2 lists of numbers that have the same median are combined to form a longer list
+must the median of the new list be the same as the median of each of the original shorter lsit?
+
+answer:
+lets try the same example
+{1,2,3} -> median = 2
+{0,2,5} -> median = 2
+
+now combine it
+{0,1,2,2,3,5} -> median = 2+2/2 = 2
+seems tobethe same
+
+letstry another example
+{2} -> median = 2
+{0,2,3} -> median = 2
+{0,2,2,3} -> median = 2+2/2 = 2
+
+yeah ithink this is the same as part a it wont change anything
+
+
+c. 2 lists of numbers that have the same mode are combined to form a longer list
+must the mode of the new list be the same as the mode of each of the original shorter lsit?
+answer:
+
+{1,1,8,2} -> mode = 1
+{1,1,2} -> mode = 1
+combined
+{1,1,1,1,8,2,2} -> mode = 1
+
+yes i think its also still true
+
+d. yes
+{1,2,1} -> mode = 1
+{3,3,3,3,3,3,3,3} -> mode = 3
+
+combined -> {1,2,3,3,3,3,3,3,33,}
+
+13.31
