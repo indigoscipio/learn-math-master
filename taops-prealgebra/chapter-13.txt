@@ -1447,6 +1447,8 @@ sum of 3 cats weight = 287-252
 sum of 3 cats weight = 35 lbs
 so avg weight of the cats = 35/3 = ~11.6 lbs
 
+-----
+
 13.17
 the avg age of the 10 people on my basketball team was 13.5
 but then a 15yr old joined our team and an 11yr old quit the team
@@ -1461,6 +1463,8 @@ sum of age changes
 11yr old quit -> -11
 new sum of age = 135+15-11 = 139
 new avg = 139/10 = 13.9
+
+-----
 
 13.18
 the avg of 5 numbers is 18
@@ -1482,3 +1486,70 @@ the increase
 total increase = 1+2+3+4+5 = 15
 new sum  = 90+15 = 105
 new avg = 105/5=21
+
+-----
+
+13.19
+suppose you took 8 math tests this semester
+if ur avg score on your first 6 tests was 84
+and your avg score on all eight tests was 86
+then wat was the avg of your last two test scores
+
+answer:
+{x1 + ... + x6} / 6 = 84
+{x1 + ... + x6} = 504
+so the sum of the test for the first 6 is 504
+
+(504 + x7 + x8) / 8 = 86
+x7 + x8 = 688 - 504
+x7 + x8 = 184
+
+so the avg of the last 2 score is 184/2 = 92
+
+
+-----
+
+13.20
+must the median ofa group of consecutive integers equal the average of the group?
+
+answer:
+
+lets test with a simple example
+
+{1,2,3} -> median = 2
+average = 6/3 = 2
+
+{99,100,101,102,103} -> median = 101
+505/5 = 101
+
+{-2,-1,0} -> median = -1
+avg = -3/3 = -1
+
+seems to be true, so yes?
+im guessing because the group is restricted to consecutive number
+it forces the average to be equal to median?
+
+consecutive ints are symetrical
+they go up the same amount each time
+number on high end balances the number on low end
+so average will lawlays the same as median
+
+-----
+13.21
+
+
+-----
+
+-----
+
+-----
+
+-----
+
+-----
+
+-----
+
+-----
+
+-----
