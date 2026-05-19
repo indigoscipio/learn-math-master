@@ -1331,4 +1331,154 @@ d. yes
 
 combined -> {1,2,3,3,3,3,3,3,33,}
 
+=========================================================
+
 13.31
+my four closest friends have weekly allowences of 
+$13, $17, $24, and $30
+what are the possible values of my weekly allowance if the median of our allowences equals
+the averages of our allowences?
+
+answer:
+ok so we have so far
+x 13 17 24 30 where x is my allowence
+we wanna find what my allowence is and we only know 2 things
+
+avg and median of all 5 is the same
+
+lets try to find the avg first
+
+case: avg = median = 17
+lets say its 17
+(x + 13 + 17 + 24 + 30) / 5 = 17
+x+84 = 85
+x = 85-84
+x = 1
+
+so x = 1 works here
+lets try other values
+
+case: avg = median = 24
+(x + 13 + 17 + 24 + 30) / 5 = 24
+x+84 = 120
+x = 36
+so x = 36 also works
+
+case: x is the median = x is the average
+(x + 13 + 17 + 24 + 30) / 5 = x
+x+84 = 5x
+84 = 4x
+x = 21
+
+since we cant make x lower than 17 or more than 24 since it would 'push' the median too far its meaningless
+so the possible values are: 1, 36, and 21
+
+=========================================================
+
+13.32
+ok so we have 124 people total
+
+row -> every person cast their 'rank'
+col -> every person choose their 'card brand'
+
+
+row 1 -> 124
+row 2 -> 128 - exceeds 4
+row 3 -> 124
+row 4 -> 130 -> exceeds 6
+
+col 1 -> 124
+col 2 -> 130 -> exceeds 6
+col 3 -> 128 -> exceeds 4
+col 4 -> 124
+
+change 38 -> 34
+change 19 -> 13
+
+========================================================
+
+13.33
+for a set of ten numbers removing the largest number descreases the avg by 1
+removing the smallest number increases the avg by 2
+
+whats the positive difference between largest and smallest of these 10 numbers?
+
+hint: sometimes thinking of the avg of a list of numbers as 'balancing' the list helps solve problems
+hint: how far must the largest number be from the avg of the original list?
+
+answer:
+ok so we have a set of 10 numbers
+{x1, ... , x10}
+lets say x1 is smallest and x10 is largest so numberis sorted
+
+removing x10 reduces the avg by 1 so
+{x1, ...., x9} / 9 = avg-1
+
+but removing x10 increases the avg by 2 so
+{x2, ..., x10} / 9 = avg+2
+
+lets find what these two numbers are first
+if removing x10 reduces the avg by only 1
+
+that means if 9 nums lose 1 thats a total loss of 9 from the sum
+so x10 was carrying its avg plus the 9
+
+and +2 avg all numbers gain +2 so +18 total
+18+9 = 27
+
+
+========================================================
+
+Review Problems
+
+13.16
+i have four dogs whose avg weight is 63lbs
+i also have 3 cats
+the avg weight of all 7 of my animals is 41lbs
+what is the avg weight of my cats
+
+answer:
+dogs
+sum of the 4 dogs weight /4 = 63
+sum of the 4 dogs weight = 63.4 = 252
+
+sum of 3 cats weight + 252 / 7 = 41
+sum of 3 cats weight = 287-252
+sum of 3 cats weight = 35 lbs
+so avg weight of the cats = 35/3 = ~11.6 lbs
+
+13.17
+the avg age of the 10 people on my basketball team was 13.5
+but then a 15yr old joined our team and an 11yr old quit the team
+what's the average age of my team now?
+
+answer:
+sum of age of the 10 people / 10 = 13.5
+sum of age of the 10 people = 135
+
+sum of age changes
+15 year old joined -> +15
+11yr old quit -> -11
+new sum of age = 135+15-11 = 139
+new avg = 139/10 = 13.9
+
+13.18
+the avg of 5 numbers is 18
+let the firist number be increased by 1
+the second number by 2
+the third number by 3
+the fourth 4
+fifth 5
+whats the average of the list of increased number?
+
+answer:
+lets try to figure out the original number first
+
+{x1 + ... + x5} / 5 = 18
+{x1 + ... + x5} = 18*5 = 90
+so the sum of the original first 5 number is 90
+
+the increase
+total increase = 1+2+3+4+5 = 15
+new sum  = 90+15 = 105
+new avg = 105/5=21
