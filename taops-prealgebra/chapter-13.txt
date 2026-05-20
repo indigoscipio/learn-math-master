@@ -1537,19 +1537,198 @@ so average will lawlays the same as median
 -----
 13.21
 
+larry writes a list of numbers that has average 14, median 21 and mode 11
+a. moe creates a list by adding 12 to each number in larrys list
+whats the average median and mode of moes liest
+
+answer:
+ok so we have a list of number we dont know how many
+but avg = 14, median = 21 and mode = 11
+adding 12 to each number means basically will increase the whole distribution at once so
+
+lest test with simple example
+if we have {1,2,3,3}
+avg = 9/4=2.25
+median = 2+3/2 = 2.5
+mode = 3
+
+if we increase 10 to each
+{11,12,13,13}
+avg = 49/4=12.25 -> +10 increase
+median = 12+13/2 = 12.5 -> +10 increase
+mode = 13 -> +10 increase
+
+so the avg, median and mode will also increase by 12 in this case
+so new avg = 14+12 = 26 
+new median =  21+12 = 33
+new mode =  11+12 = 23
+
+when adding the same value to every number indataset
+you are essentially 'shifting' the entire distribution without changing its shape
+
+b. curly creates a list by multiplying each number in larrys list by 2
+what are the av,g median and mode of curly's list?
+
+answer:
+ok lets do another simple example
+if we have {1,2,3,3}
+avg = 9/4=2.25
+median = 2+3/2 = 2.5
+mode = 3
+
+if we mult 2 to each
+{2,4,6,6}
+avg = 49/4=12.25 -> 4.5 -> 2x increase
+median = 12+13/2 = 12.5 -> 5 -> 2x increase
+mode = 6 -> 2x increase
+
+so it appears its the same as a,
+the new avg, median and mode is twice the previous ony
+
 
 -----
 
------
+13.22
+Find the average of the following numbers
+940385988
+940385994
+940386003
+940385981
+940385991
+
+answer:
+subtract everything by 940385900 to keepit simle
+88
+94
+103
+81
+91
+
+average = 457/5 = 91.4
+add the number back
+940385900 + 91.4
+940385991.4
+
+
 
 -----
 
------
+13.23
+each of 9 friends chooses her favorite positive integer
+a. the median of the chosen numbers is 91
+what is the smallest the average of the 9 chosen numbers could be ?
+
+answer:
+ok so we know we have 9 posint
+{x1,...,x9} with median 91
+which means since this is odd integer x5 is 91 
+x1,x2,x3,x4,91,x6,x7,x8,x9,
+
+so {x1,...,x4} <= 91
+and {x6,...,x9} >=91
+
+now we want to find the smallest average
+to make it the smallest average since the requirement is to be posint
+just make {x1,...,x4} the minimum number in this case 1
+
+and on the other spectrum make {x6,...,x9} smallest largest
+inthiscase just do 91 for all of it
+
+so {1,1,1,1,91,91,91,91,91} with total sum = 455+4 = 459
+and therefore the smallest average = 51
+
+
+b. the median of the chosen number is 91
+is there a limit to how large the average of the chosen numbers can be?
+if so what is the largest average can be?
+
+ok so we know in part a the 'lower bound' average is 51
+now we need to find the upper limit
+since the reqrueiement is positive integer
+{x6,...,x9} can be any positive integer largest enough
+up to infinity so i don't think theres a limit here
+
+c. the average of the chosen numbers is 91
+what is the smallest the median of the 9 chosen numbers could be ?
+
+answer:
+ok so this part we only know about the avg
+which means {x1,...,x9} / 9 = 91
+{x1,...,x9} = 819 so that means the sum of the whole 9 number is 819
+
+and we want to find about the smallest median of those 9
+honestly itcan be any positive integer
+
+lets just try if its possible with median the smallest (1)
+{1,1,1,1,1,1,1,1,811} here we shift thelastone to have the largest possible value
+still satisfies the average therefore 1 is the smallest median
+
+d. the average of the chosen numbers is 91
+what is the largest the median of the chosen numbers could be?
+hint: problems involving averages can often be solved by thinking about sums
+
+answer:
+ok so we know in part c the smallest is 1 now we wanna find the largest
+we know the sum of the 9 numbers is 819
+
+lets try if its posible if its 819 or max value
+{1,1,1,1,819,1,1,1,1} -> not possible, totally exceeds
+
+hmm lets try another approach
+since {x1,...,x4} holds the value <= 91 lets just make this the smallest value which is 1
+{1,1,1,1,x5,x6,x7,x8,x9} 
+
+now we have the sum 819-4 = 815 left and we need to redistribute this such that
+x5 is the largest, how do i do it.
+since {x6,...,x9} >= 91 and we want x5 the median to be the largest
+{x6,...,x9} cannot be largest than x5 so this means we need to distribute this evenly
+
+815/5 = 163
+so the remaining should be 163
+
+{1,1,1,1,163,163,163,163,163} 
+therefore the largest median is 163
+
 
 -----
 
------
+13.24
+consider the two lists of numbers below:
+List A: 34, 54, 161, 443, 87, 43, 76, 339, 38, 654, 75, 164, 876
+List B: 56747884, 54, 65, 12, 654, 765, 12, 34, 98, 56, 72, 34, 86
+
+a. is it easy to tell quickly which list has the higher average?
+
+yes, list b has a higher average you can just spot
+the 56747884 which has like way lots of digits compared to the rest of the numbers
+its weighing up the average of list b by a lot of digit
+
+b. is it easy to tell quickly which list has the higher median?
+answer:
+no, the list is not even sorted properly so i dont know but judjing by the range
+and we dont evn know the count of list a and b or if they have the same count at a glance
+i know list b has that huge number but we cant find the exact median just by a glance
+
+the 'outlier' does not dominate here, its just a single value -> only shift the place by 1
+
+c. what do the first two parts tell us about outliers?
+
+answer:
+ok im guessing
+if the list has a exterme 'outlier' ten it will compltely dominate the average of that list
+but it will not affect the median of that list since it will only 'shift' the place by 1
+
 
 -----
 
+13.25
+20 percent of 880
+0.2 . 880 = 176 students
+
+
 -----
+
+13.26
+
+b. farthest = adrian to laurie
+closest = jon to walkter
