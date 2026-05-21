@@ -3,13 +3,12 @@ CHAPTER 14: COUNTING
 - when 2 events cant happen at the same time
 you add the number of possibilities
 
-14.1
-Problems
-
 Problem 14.1
 How many numbers are in the list
 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16?
 answer: there are 16 numbers;
+
+================================================================
 
 Problem 14.2
 How many numbers are in the list
@@ -18,6 +17,12 @@ We could also ask this problem as "How many numbers are there between 9 and 27 i
 (Inclusive means that we include the 9 and the 27 in our count.)
 answer: 19 total numbers inclusive
 
+another alternative:
+subtract 8 from all list
+so it becomse 1,2,...,19
+so the total is 19
+
+================================================================
 
 Problem 14.3
 Given two integers a and b, with b> a, find a formula for how many integers
@@ -32,6 +37,13 @@ a = 4, b = 19
 plus the one to make sure we count the end
 15 + 1 = 16
 
+alternative solution
+a, a+1, a+2, ..., b
+-(a-1), -(a-2), ..., -(a-1)
+1,2,3,...,b-a+1
+
+================================================================
+
 Problem 14.4
 How many multiples of 4 are between 25 and 101?
 answer:
@@ -42,22 +54,195 @@ we know 100 / 4 = 25 so theres like 25 multiples of 4
 now the range is between 25 and 101
 so just remove the first multiples up to 25
 25 / 4 = around 6 so there are like 6 multiples
-so 25 - 4 = 21 multiples of 4
+so 25 - 6 = 19 multiples of 4
 
+alternative solution
+find the range
+smallest multiple of 4 (low bound) = 4.7 = 28
+largest multiple of 4 (high bound) = 4.25 = 100
+
+find the range 28,32,36,...,100
+divide each number by 4
+7,8,9,...,25
+then subtract by 6
+1,2,3,...,19
+so there are 19
+
+
+================================================================
 
 Problem 14.5
 (a) How many multiples of 10 are between 9 and 101?
 (b) How many multiples of 10 are between 11 and 103?
-(c) We know that (1019) (10311) = 92, so shouldn't your answers to (a) and (b) be the same? Why aren't they?
+(c) We know that (101-9) (103-11) = 92, so shouldn't your answers to (a) and (b) be the same? Why aren't they?
+
+a. we know 101 / 10 = ~10.1
+so there are 10 multiples with some reminder
+since it starts between 9 the first 10 is counted so its 10 total
+10 20 30 ... 100
+
+b. this one is similar to previousone different since the startiis 11
+the first 10 is excluded
+20 30 ... 100 so total is 10-1 = 9
+
+c. hmm let me think
+so basically the question subtracts the high - low from both and the reqult is equal
+but the minus thing is only work for like total range/total 'step' between both integer
+so it does not include the multiples of 10
+
+================================================================
 
 Problem 14.6
-
 At Brown High School, there are 12 players on the basketball team.
 All of the players are taking at least one foreign language class.
 The school offers only Spanish and French as its foreign language classes.
 8 of the players are taking Spanish and 5 of the players are taking both languages.
 How many players are taking French?
 
+answer:
+ok so we know there are 12 plyers
+all 12 of them are taking at least one foreign language class
+and school only offer spanish and french language classes
+
+8 of them are taking spanish ->  8.1 = 8
+5 of the rest are taking both -> 5.2 = 10
+hmm im guessing since the rest of the 5 taking 2 class therefore
+they also must take french then? so 5 people also take french
+but what if they 'intersect'? not sure
+
+if of the 8 players it contains the '5' then only 3 player are taking spanish
+so the 5 is learning both
+the 3 learns spanish
+the rest is 12-8 = 4 so only 4 learns french only
+
+so total learning french is 5+4 = 9
+
+================================================================
+
 Problem 14.7
 Paul has 27 pet cats. 14 of them are short-haired. 11 of them are kittens.
 5 of them are long-haired adult cats (not kittens). How many of them are short-haired kittens?
+answer:
+
+cats = 27
+14 -> short haired
+11 -> kittens
+5 -> long-haired adult cat (not kittens)
+
+lets tackle this one by one
+we wanna know how many of them are short haired kittens
+14 -> short haired
+here we know tere are 14 short haired cats. we don't know if theyre adult or kitten
+
+11 -> kittens
+we know out of the 27 , only 11 are kittens
+so 11 kittens and 16 adults
+
+5 -> long-haired adult cat (not kittens)
+ok so we can filter more then
+since we know ther are 16 adult cats
+then out of those 16, we know theres 5 long haired, therefore we know 
+there are 11 short haired adult cat
+
+therefoer connecting back
+since we know there are 14 short haired
+11 of them are adult
+therefore 14-11 = 3 of them are kittens
+so ther eare 3 short hair kittes
+
+alternative: use venn diagram
+and solve it algebraically
+
+================================================================
+
+Exercises
+14.1.1
+how many numbers are in each of the folllowing lists:
+45,46,47,...,92,93
+
+answer:
+subtract whole list by 44
+1,2,3,...,48,49
+therefore there are 49 numbers
+alternatively
+93-45+1 = 49
+
+b. -27,-23,-19,...,33,37
+answer:
+add whole list by 28
+1,5,9,...,61,65
+
+hmm there doesn't seem to be any pattern
+wait actually it increases by 4 , lets add +3 to whole list
+4,8,12,...,64,68 then divide by 4
+1,2,3,...,16,17
+therefore there are 17 numbers
+
+c. 162,159,156,...,69,66
+answer:
+seems like the list is 3 apart
+divide all by 3
+54,53,52,...,23,22
+now subtract whole by 21
+33,32,31,...,2,1
+
+so there are a total of 33 numbers
+
+14.1.2
+im waiting in the lunch line
+im the 18th in line when counting from thefront
+and 24th when counting from the back
+how many people are in the line?
+
+answer:
+ok so we know hes 18th in line from the front
+so there are 17 person on the front
+and 24th from the back
+so there are 23 person on te back
+
+the total is therefore
+17+23+1
+41
+
+14.1.3
+there are 220 students in my school
+70 of them took french
+140 took spanish
+23 took both languages
+how many students took neither french nor spanish?
+
+answer:
+ok we know total is 220
+70 of them took french
+140 spanish
+23 both language
+
+we wanna know the students that take neither
+70+140 = 210 -> so out of this 210 students there are possibly 23 person who 'overlaps'
+
+so 210-23 = 187
+subtract from the total 220-187 = 33
+
+14.1.4
+of all the mathletes at wantagh middle school
+80% own computers and 40% are in band
+however 10% of all mathletes neither own computers nor are in band
+what percent of all the mathletes both own computers are in band?
+
+answer:
+ok so we know
+80% of all mathletes own computers
+40% of all mathletes are in band
+
+these two may intersect, so could be both own computers and are in band
+but since we know 10% of all mathletes neither own computers nor are in band
+that means the 'whole' mathlete pool is reduced by 10%
+
+let x be the intersection where mathlete own computer and in band
+80%-x + 40%-x + x= 90%
+120-x = 90%
+-x = -30
+x = 30
+so thereore 30%
+
+14.1.5
