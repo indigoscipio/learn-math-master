@@ -246,3 +246,70 @@ x = 30
 so thereore 30%
 
 14.1.5
+for how many positive integer values of n are both n/3
+and 3n three digit integers?
+
+answer
+ok so to make 3 digit integer it starts with
+100 and ends with 999
+
+300 is one of them since
+n/3 = 300/3 = 100
+3n = 3.300 = 900 so this one fits
+
+now to find the range
+we know 300 is the lowest since n/3 satisfites the minimum bound
+now to find the upper limit 999
+333.3 = 999 so 333 is the max limit
+and 333/3 gives 111 so thats still valid
+
+therefore the range is between
+n = 300 up to n = 333
+333-300+1 = 34 numbers
+
+double check
+subtract all by 299
+1 - 34 so 34 numbers total
+
+but these numbers arent integer when divided by n/3
+300,303,306,...,333 divide all by 3
+100,101,102,...,111 subtract by 99
+1,2,3,...,12
+so there are 12 diivisble by 3 from 300 - 333
+
+14.1.6
+at annville junior high school, 30% of the studnets in mat club are in the science club
+and 80% percent of students in the science club are in math club
+there are 15 students in science club
+how many students are in the math cluub?
+
+answer:
+ok so we know
+30% math club student -> in science club
+80% science club student -> in math club
+and we know there are 15 student in science club
+we dont know the all total student
+there might be intersect where student join both club but we dont know
+and we wan t ot find ow many student in math club
+
+
+80% student in science club are in math club ->
+.8 * 15 = 12 student is in math club
+
+30% math club student are in science club ->
+30/100  . x = 12
+3/10 . x = 12
+3x = 120
+x = 40
+
+14.1.7
+there are 24 cars in my building parking lot
+all cars are red or white and have 2 or 4 doors
+15 of them are red
+8 of them are 4 door
+4 of them are 2 door and white
+how many of the cars are 4 door and red
+
+answer:
+
+
