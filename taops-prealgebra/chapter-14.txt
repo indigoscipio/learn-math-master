@@ -311,5 +311,40 @@ all cars are red or white and have 2 or 4 doors
 how many of the cars are 4 door and red
 
 answer:
+oks so total car = 24
+color is either red or whtie
+door is either 2 or 4
+
+15 of the total cars are red
+8 of them are 4 door
+4 of them are 2 door and white
+
+we want to find cars that are 4 door and red
+lets decduce this one by one
+since we know 15 are red, therfore the rest is white so 9 is white
+red = 15, white = 9
+
+next we know 8 of them are 4 door which means the rest is 2 door so
+4d = 8, 2d = 16
+
+next we know
+4 of them are 2 door and white
+that leaves us with
+which means the remaining have 4 door
+so 5 white car have 4 door
+
+since we know there are 8 total car with 4 door
+therefore the rest 3 of 4 car door is red
+
+alternative: use a table
+
+14.1.8
+how many two digit positive numbers are divisible by 3 or 5?
+
+hint: if you put the numbers that are diviisble by 3 in one list
+and the numbers that are divisible by 5 in another list
+then which list is 15 in? how does the answer to that affect your counting?
+
+answer:
 
 
