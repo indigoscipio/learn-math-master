@@ -347,4 +347,87 @@ then which list is 15 in? how does the answer to that affect your counting?
 
 answer:
 
+ok so we wanna find 2 digit numbers
+that means the range is 10 - 99
 
+we want to find from those list that are divisible by 3 or 5
+lets seperate it
+
+divisible by 3
+12,15,18,...,99 - divide by 3
+4,5,6,...,33 - subtract by 3
+1,2,3,...,30
+so there are 30 numbers divisible by 3
+
+divisible by 5
+10,15,20,...,95 - divide by 5
+2,3,...,19 - subtract by 1
+1,2,...,18
+so ther are 18 numbers divisible by 5
+
+now the hint says which list if 15 in
+does this mean divisble by 15? 15 is in both list
+15,30,...,90 - divide by 15
+1,2,...,6
+so 6 numbers are divisible by 15
+
+
+so we need to exclude the multiples of 15 here because it will get counted twice
+30+18-6 = 42
+
+
+=================================
+
+14.8
+you have 3 shirts and 4 pairs of pants
+how many outfits consisting of one shirt and one pair of pants can you make?
+
+answer:
+s1
+s2
+s3
+
+p1
+p2
+p3
+p4
+
+(s1,p1)
+(s1,p2)
+(s1,p3)
+(s1,p4)
+
+repeat 3 times for each shirt
+so 4.3 = 12
+
+14.9
+in how many ways can we form a international comission
+if wem ust choose one european country among 6 european countries
+one asian country among 4,
+one NA country from among 3,
+and one african country from among 7?
+
+answer:
+
+EU
+EU1 EU2 EU3 EU4 EU5 EU6
+
+ASIA
+ASIA1 ASIA2 ASIA3 ASIA4
+
+NA
+NA1 NA2 NA3
+
+AF
+AF1 AF2 AF3 AF4 AF5 AF6 AF7
+
+(EU1, ASIA1, NA1, AF1)
+(EU1, ASIA1, NA1, AF2)
+(EU1, ASIA1, NA1, AF3)
+(EU1, ASIA1, NA1, AF4)
+(EU1, ASIA1, NA1, AF5)
+(EU1, ASIA1, NA1, AF6)
+(EU1, ASIA1, NA1, AF7)
+
+ok this is taking too long so ithink the result is huge here
+6*4*3*7 = 504 ways
