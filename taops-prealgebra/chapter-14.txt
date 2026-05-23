@@ -671,4 +671,103 @@ how many words are possible?
 
 answer:
 
+ok so 6 alphabets - a,b,c,d,e,f
+and 3 slots max [slot1 slot2 slot3]
+2 slot is stil allowed [slot1 slot2]
+and 1 slot minimum = [slot1]
+word can be repeated but 0 letter not allowed = 0 slot s now allowed
+
+3 slot case
+slot1 -> 6
+slot2 -> 6
+slot3 -> 6
+total = 6*6*6 = 216
+
+2 slot case 
+slot1 -> 6
+slot2 -> 6
+total = 6*6 = 36
+
+1 slot
+slot1 -> 6
+total = 6
+
+sine choosing a word is a mutually exclusive operation
+a word can only be 3 letter or 2 letter or 1 letter word
+and cannot be multiple lengths at the same time
+so total is 216+36+6 = 258 ways
+
+
+14.15
+how many pairs of positive integer (a,b) satisfiy a^2 + b < 24?
+
+answer:
+ok lets find the possibilities
+
+the sum must be < 24
+that means a cnnot be 5 since 5^2 > 24
+so a must be 1 to 4, so 4 possibility
+
+as for b
+case: a = 1
+1^2 + b < 24
+1 + b < 24
+b < 23
+
+case: a = 2
+2^2 + b < 24
+4 + b < 24
+b < 20
+
+case: a = 3
+3^2 + b < 24
+9 + b < 24
+b < 15
+
+case: a = 4
+16 + b < 24
+b < 8
+
+so for b the possibility is 22+19+14+7 = 62
+combine for the total = 62
+
+14.16
+a digital clock shows time in form HH:MM
+on certain day what is the number of mintues between 7:59 AM and 2:59 PM that
+HH is greater tham MM?
+
+answer:
+
+ok lets evaluate this one by one
+that means the range start from 8:00AM and 3:00 PM
+
+HH -> 8,9,10,11,12,1,2 = 6 ways
+MM -> 60 ways to choose
+
+now we want to find a case where HH > MM
+eample 12:00 -> 12 > 00
+
+case: hh = 8
+8 > HH
+that means from 0 - 7 so 7 numbers + 1 (zero) = 8
+
+hh = 9
+9 numbers
+
+hh = 10
+10 numbers
+
+hh = 11
+11 numbers
+
+HH = 12
+12 numbers
+
+hh = 1
+1 numbers (0)
+
+hh = 2
+2 numbers
+
+so total = 8+9+10+11+12+1+2 = 53 ways
 
