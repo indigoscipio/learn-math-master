@@ -400,6 +400,10 @@ p4
 repeat 3 times for each shirt
 so 4.3 = 12
 
+alternatively: visualize using a tree or grid table
+
+=================================
+
 14.9
 in how many ways can we form a international comission
 if wem ust choose one european country among 6 european countries
@@ -431,3 +435,240 @@ AF1 AF2 AF3 AF4 AF5 AF6 AF7
 
 ok this is taking too long so ithink the result is huge here
 6*4*3*7 = 504 ways
+
+14.10
+in how many ways can we form license plate only digits (0-9) and capital letters
+other than O and I given that each pplate has 6 characters
+the firstof which is a digit and the second of which is a letter?
+
+answer:
+ok so total combinations of all digits and letters  =
+10 * 24 = 240
+
+and each plate has 6 char slot
+first is digit -> so 10 possible choice
+second is letter -> 24 coice
+the rest slot (3,4,5,6) -> 10+24 choice = 34 choice
+10*24*34*34*34*34 = 10*24*34^4
+
+
+===========================================
+AND -> multiply the number of options
+OR -> adding number of options
+===========================================
+
+14.11
+in how many ways can i arrange four different books from left to right on a shelf?
+answer:
+
+im not sure how you can arrange it here or if i understand the question
+
+ok so we have
+b1 b2 b2 b4
+
+1st book -> 4 choicse
+2nd book -> 3 choce
+3rd book -> 2 choice
+4 book -> 1 choice
+
+so total possibilities = 4*3*2*1 = 24
+
+14.12
+your math club has 16 members. in how many ways can it select a president, vice president
+and a treasurer if no member can hold more than one office?
+
+answer:
+16 members
+so only 3 open slot
+
+president -> 16 posibility
+vp -> 15 possibility
+treasurer -> 14 possibility
+
+different ways to select = 16*15*14 = 3360
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+we use multiplication to count no of outcomes from sequence of independent events
+permutation is a dependent event where the order matters
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Exercise 14.2.1
+Suppose i have 7 shirts and 4 ties many shirt and tie outfits can i make?
+
+answer:
+ok so since this is independent even we can just multiply
+4 . 7 = 28 ways to choose
+
+14.2.2
+for each of 9 colors
+i have one shirt and one tie of that color
+how many shirt and tie outfits can i make if i refuse to wear a shirt and a tie of the same color?
+
+answer:
+ok so we have 9 colors, lets represent as umber
+1,2,3,...,9
+
+and i have 1 short of 1 tie of each
+so
+s1,s2,...,s9
+and
+t1,t2,...,t9
+
+now we wanna find the possibility to choose
+if i refuse to wear shirt and tie of the same color
+
+so no (s1,t1), (s2,t2), ... (s9,t9) which is 9 ways/possibility
+now to find the total
+9*9 = 81 ways
+subtract it with 9 so 81-9 = 72 ways
+
+14.2.3
+in how many ways can 5 people stand in a line?
+answer:
+
+ok so this one is a depenent event where the order matteres
+say we have p1,p2,...,p5
+
+p1 -> 5 choicse
+p2 -> 4 choices
+p3 -> 3 choices
+..
+p5 -> 1 hoices
+
+so the total possiblity is 5*4*3*2*1 = 120
+
+14.2.4
+a shopkeeper sells house numbers
+she has a large supply of the digits 1,2,7,8
+but no other digits
+how many different 3 digit house numbers could be made using only the digits in her supply?
+
+answer:
+ok so here im assuming large supply means like infinite
+so the order does not really matter since the supply wont exhaust
+but the question ask for different house number
+
+1st slot -> 4 ways to choose
+2nd slot -> 4 ways to choose - does not  decrease
+last slot -> 4 ways to choose - does not descrease
+
+4*4*4 = 64 ways
+however the restriction it needs to only have idfferent number
+
+
+14.2.5
+how many four digit positive integer are there
+such that the leftmost digit is odd
+and the second digit is even
+and all four digits are diffrent?
+
+answer:
+ok so we have 4 posint slot digit
+digits are 0,1,2,...9
+1st must be odd -  1,3,5,7,9 = 5 ways
+2nd digit must be even - 0,2,4,6,8 = 5 ways
+
+so [even odd slot3 slot4]
+and for slot3 = 10 ways
+slot4 = 10 ways
+
+so total from all = 5*5*10*10 = 2500 ways
+however the number need to be unique and idfferent
+lets go back
+
+1st slot -> 5 ways
+2nd slot -> 5 ways
+3rd slot -> 8 ways
+4th slot -> 7 ways
+so this guarantees the previously chosen is discarded
+so total ways is 5*5*8*7 = 1400
+
+14.2.6
+when the order of the digits of 2552 is reversed
+the number remains the same
+such number is called a palindrome
+how many integers between 100 and 1000 are palindromes?
+
+answer:
+between 100 and 1000 so its 101 to 999
+ok so we wanna  find how many 3 digit palindromes
+
+slot1 slot2 slot3
+
+for a number to be palindrome in this case slot1 should be equal to slot3 and slot2 can be anything
+slot1 -> 9 waus (exclude 0)
+slot2 -> 10 ways
+slot3 -> 1 way
+
+so total = 9*10*1 = 90
+
+
+
+14.2.7
+suppose that i have 5 different books
+2 of whic hare math books
+in how many different ways can i place my 5 books
+left to right on a shelf
+if i want a math book on both ends?
+
+asnwer:
+
+ok so we have 5 book, so 5 slot
+
+[slot1 slot2 slot3 slot4 slot5]
+and 2 of which is math book
+we wanna find how many different ways to place LTR but math book must be on both ends
+
+slot1 -> 2 way, must put 1st math book on the start but we have 2 different way here
+slot2 -> here we only have 3 choice since we want to keep the other math book for the end
+slot3 -> 2 choice
+slot4 -> 1 choice, the last book (toher than math book)
+slot5 -> 1 cohice, the last math book
+
+so total = 2*3*2*1*1 = 12 ways
+
+14.2.8
+how many integers between 99 and 999 contian exactly one zero?
+answer:
+ok so we have the range 100 - 998 so its 3 digit slot
+
+[slot1 slot2 slot3]
+we wanna find integers that contain exactly one zero, like 101, 110, etc
+
+slot1 -> can onlu be any digit from 1-9 so no zero = 9 choices
+slot2 -> here we want to put the zero so only 1 choise
+slot3 -> here canbe any digit but no zero so same as 1 - > 9 choices
+
+total = 9*1*9 = 81 ways
+
+other slot config, her we make the slot 3 hold the zero
+slot1 -> can onlu be any digit from 1-9 so no zero = 9 choices
+slot2 -> here canbe any digit but no zero so same as 1 - > 9 choices
+slot3 -> here we want to put the zero so only 1 choise
+
+different ways = same as the 2nd slot os 81 ways
+
+so depending on the slot config a number can belong to either case 1 or case 2
+so 81+81 = 162
+
+
+========================================================================
+
+14.3 - Casework
+up (ABD) - 4*3 = 12 ways 
+down (ACD) - 2*5 = 10 ways
+
+total = 22 ways
+since mutually exclusive
+
+14.4
+on the island of abcdef
+the alphabet has only 6 letters
+and every word in their language has no more than 3 letters in it
+how many words are possible?
+(a word can use a ltter more than once, but 0 letters does not count as  a word)
+
+answer:
+
+
