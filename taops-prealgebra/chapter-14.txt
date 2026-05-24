@@ -771,3 +771,123 @@ hh = 2
 
 so total = 8+9+10+11+12+1+2 = 53 ways
 
+=====================================================
+
+14.3.1
+we write the integers from 1 to 150 inclusive
+what is the total of digits that must be written?
+
+answer:
+
+ok lets divide into 3 3case
+1 digit
+1 - 9 which is the baseu nites = 9 numbers
+
+2 digit
+10 - 99 -> subtract by 9
+1 - 90 = 90 numbers * 2 = 180
+
+3 digit
+100 - 150 -> subtract b 99
+1 - 51 -> 51 numbers * 3 = 153
+
+so total = 9 + 180 + 153 = 342 digits
+
+14.3.2
+i have 2 hats
+in one hat are bells numbered 1 - 15
+in other hat are balls unmbered 16 - 25
+i first choose a hat then from that hat i choose 2 balls
+without replacing the balls between selections
+
+how many different ordered selections of 2 balls are possible
+(by 'ordered' selections we mean that ball 1 then ball 2 is considered different from
+ball 2 then ball 1)
+
+answer:
+ok lets try this
+initially
+ball a has 15 total
+ball b has 10 ttoal
+
+case a: pick hat a
+hat a
+we have 2 slot, and we must choose first ball and then choose second ball
+
+slot 1 -> 15 ways
+slot 2 -> 14 ways
+
+since this is exclusive 'ordered' event
+total = 15*14 = 210 ways to chose
+
+case b: hat b
+slot 1 -> 10 ways
+slot 2 -> 9 ways
+
+total = 10*9 = 90 ways
+
+since we want to find ordered ways to choose the event is independent
+so 210+90 = 300
+
+14.3.3
+a. how many paths are there from a to d in the diagram shown below
+if we only travel in the direction of the arrows
+
+ok so we wanna find a to d
+
+we must start from a theres 2 path to choose from
+UP
+then b only has 1
+so 2*1 = 2
+
+DOWN
+a to c = 2 ways to choose
+c to d = 3 ways
+2 * 3 = 6 ways
+
+since the even is independent we want to choose either the up or down path
+so 6 + 2 = 8 ways to choose
+
+
+b. 
+MID WAY
+2*3 = 6
+
+UP WAY
+1 way
+
+DOWN WAY
+2 way
+
+total = 6+1+2 = 9 ways
+
+c.
+since wek now from a - d is 8 ways
+and d - h is 8+9 = 17 ways
+
+or maybe not, alternatively
+
+UP WAY - 3 ways
+UW1 - 2*1*1*1 = 2
+UW2 - 2*1*2*3 = 12
+UW3 - 2*1*2*1 = 4
+total = 18 ways
+
+DOWN WAY - 3 ways
+DW1 - 2*3*1*1 = 6
+DW2 - 2*3*2*3 = 36 ways
+DW3 - 2*3*2*1 = 12 ways
+total = 54 ways
+
+72 ways
+
+alternatively
+8 * 9 = 72 ways since the path from A -> d is independent from the path from
+d -> h
+
+
+14.3.4
+how many positive 3 digit numbers have the property that
+the first digit is at least three times as the second digit?
+
+answer:
