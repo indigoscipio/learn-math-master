@@ -891,3 +891,67 @@ how many positive 3 digit numbers have the property that
 the first digit is at least three times as the second digit?
 
 answer:
+ok so we have 3 slots since its 3 digits
+and the range is 100 - 999
+
+[slot1 slot2 slot3]
+where slot1 is 1 - 9 -> 9 numbers
+slot2 = 10 numbers (0-9)
+slot3 = 10 numbers (0-9)
+
+however the requirement is that the first digit (slot1) is at least three times the second digit
+so
+
+d1 is at least 3.d2
+d1 >= 3.d2
+
+case: d2=0
+d1 >= 0
+d1 can be 1-9 = 9 digits
+
+case: d2=1
+d1 >= 3
+d1 can only be 3,4,...,9 = 7 ways
+
+d2 = 2
+d1 >= 6
+d1 can be 6,7,8,9 = 4 ways
+
+d2 = 3
+d1 >= 9
+d1 can be 9 = 1 way
+
+d2 = 4 -> 0 ways since 3.4 is 12
+d2 = 5 -> 0 ways
+d2 = 6 -> 0 ways
+d2 = 7 -> 0 ways
+d2 = 8 -> 0 ways
+d2 = 9 -> 0 ways
+
+so total ways for 1st digit = 9+7+6+4+1 = 21
+21*10 = 210
+
+
+========
+mutually exclusive = sum
+independent = multiply
+========
+
+14.3.5
+how many positive 4 digit numbers have the last digit equal to the sum of the first two digits?
+
+asnwer:
+ok so we have 4 digit numbers
+so the range is 1000 - 9999
+
+[slot1 slot2 slot3 slot4]
+[d1 d2 d3 d4]
+
+where slot1 must be 1 - 9 = 9 digits
+and slot2 - slot4 = 10 digits
+and we have restriction where last digit equal sum of first two digit
+
+so d4 = d1 + d2
+
+case: d4 = 0
+in order for 
