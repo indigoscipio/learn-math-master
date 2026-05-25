@@ -1049,3 +1049,106 @@ total = 40
 ================================
 
 14.4 Counting Pairs
+
+14.17
+a round robin tennis tournament consists of each player playing every other player exactly once
+how many matches will be held during an 8 person round robin tennis tournament?
+
+asnwer:
+ok so theres 8 person
+and each player playing every other player exactly once
+we wanna find out how many matches will be held
+since this is round robin no elimination but each palyer will play the rest exactly once
+
+lets say im palyer 1
+round 1 -> compete with 7 players
+round 2 -> compete with 6 players
+round 3 -> compete with 5 players
+round 4 -> compete with 4 players
+round 5 -> compete with 3 players
+round 6 -> compete with 2 players
+round 7 -> compete with 1 players
+so 7 rounds for 1 player?
+
+since we have like 8 players
+7 * 8 = 56 but since each palyer play with each other
+56 / 2 = 28 to remove the double counting
+
+14.18
+a round robin tennis tournament oncsists of each player playing every other player exactly once
+find a fomula for number of matches that will be held during an n person round robin tennis tournament,
+where n >= 2
+
+answer:
+ok lets try smallest case first
+n = 2
+if we have 2 players a and b
+just play a with b, so 1 time
+
+n = 3 -> a,b,c
+a vs b
+a vs c
+b vs c
+so 3 times
+
+n=4 -> a,b,c,d
+ifi  was player a
+round 1 -> 3 players
+round 2 -> 2 players
+round 3 -> 1 players
+
+a vs b
+a vs c
+a vs d
+
+b vs c
+b vs d
+
+c vs d
+so there are 6 rounds
+
+and we know from previous answer if n = 8 its 28 rounds
+
+so im guessing the formula is
+n * (n-1) / 2
+
+top part: there are n players and each individual player must play against each other (n-1)/therest
+bottom part: since every match involve 2 players to avoid double count we divide by 2
+
+
+14.19
+five women and four men are at a party
+a. if each person shakes hands with each other person then how many total handshakes are there 
+b. if no two men shake hands but each women shakes hands with each other person
+how many total handshakes are there?
+
+answer:
+ok so we have 
+5w and 4m where w is woman and m is men
+
+a. say im the 1 person, so total pool = 9 person, doesn't matter what gender is
+shake1 -> 8 persons
+shake2 -> 7 persons
+shake3 -> 6 persons
+shake4 -> 5 persons
+shake5 -> 4 persons
+shake6 -> 3 persons
+shake7 -> 2 persons
+shake8 -> 1 persons
+
+so 9 shakes for 1 person
+9 * 8 / 2 = 72/2 = 36 handhakes
+
+b. ok now we apply restriction here
+the 5 men does not shake hand with each other
+but woman can shake hands with either woman or man
+
+lets count the possibility of if each men shake hand with each other men
+4m
+shake1 -> 3m
+shake2 -> 2m
+shake3 -> 1m
+
+so 4*3 / 2 = 6 handshakes if eachmen shakehands witheach other
+since we know the total handshake betweean all is 45 just subtract so
+36 - 6 = 30 handshakes?? notsure
