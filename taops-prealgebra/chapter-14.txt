@@ -1074,6 +1074,15 @@ since we have like 8 players
 7 * 8 = 56 but since each palyer play with each other
 56 / 2 = 28 to remove the double counting
 
+another way to solve:
+7+6+5+4+...+1 = 28
+basically person 1 plays 7 matches,
+person 2 plays 6 (minus the aready played with 1st player)
+etc
+
+================================
+
+
 14.18
 a round robin tennis tournament oncsists of each player playing every other player exactly once
 find a fomula for number of matches that will be held during an n person round robin tennis tournament,
@@ -1116,6 +1125,28 @@ top part: there are n players and each individual player must play against each 
 bottom part: since every match involve 2 players to avoid double count we divide by 2
 
 
+another approach
+if we have n players
+player 1 plays player 2,3,.... n with total of n-1 matches
+player 2 plays player 1,3,4,...n with total of n-2 matches (excluding 1st player)
+player 3 plays player 1,2,4,...n with total of n-3 matches (excluding 1 & 2nd player)
+
+so total is
+n-1 + n-2 + n-3 + ... + 2 + 1
+
+S = 1+2+...+ k-1 + k or
+s = k + k-1 + ... + 1 (reverse order)
+
+or 
+n-1 + n-2 + ... + 2 + 1
+1 + 2 + ... + n-2 + n-1
+the column when summed add up to n
+since we have n-1 we just multiply so n * n-1
+
+
+================================
+
+
 14.19
 five women and four men are at a party
 a. if each person shakes hands with each other person then how many total handshakes are there 
@@ -1130,7 +1161,7 @@ a. say im the 1 person, so total pool = 9 person, doesn't matter what gender is
 shake1 -> 8 persons
 shake2 -> 7 persons
 shake3 -> 6 persons
-shake4 -> 5 persons
+shake4 -> 5 personss
 shake5 -> 4 persons
 shake6 -> 3 persons
 shake7 -> 2 persons
@@ -1149,6 +1180,185 @@ shake1 -> 3m
 shake2 -> 2m
 shake3 -> 1m
 
+
 so 4*3 / 2 = 6 handshakes if eachmen shakehands witheach other
 since we know the total handshake betweean all is 45 just subtract so
-36 - 6 = 30 handshakes?? notsure
+36 - 6 = 30 handshakes
+
+
+================================
+
+
+14.20
+a. how man diagonals hdoes a triangle havge?
+b. how many diagonals does a quadrilateral ahve?
+c. how mny diagonla does a pentagon have?
+d. how many diagonals does a hexagon have?
+e. find a formula for the number of diagonlas in a polygon with n sides
+where n is an integer greater than 2
+
+answer:
+
+a. ok so a triangle have 3 diagonals
+actually wait maybe it doe not have any diagonals
+we could have 3 diagonals but if we draw a line from a point to the midline so itgethave 3 but
+idont think thats a diagonal so 0
+
+b. as for quadrilateral
+it can have 2 diagonals total
+
+c. for pentagon with sides  = 5
+it has 5 diagonals, forming a 'star'
+assuming a diagonal is drawn from point to point instead of from point to midline
+
+d. for hexagon we with sides = 6have
+each point draws like 3 lines to cross to the other side forming a diagonal
+9 diagonals total
+
+e. ok so for the formula
+a point cannot draw a diagonal direct from its neighbor so it needs like atleast 1 distance
+so a single point can draw a n-3 diagonal (minus the two neighbor and itself)
+and since we have n vertex 
+
+so n-3 * n -> for n=6 thats 6-3*6 = 18 diagonals
+and to avoid the double counting thing we divide by 2 since each point connects to itself so
+so n-3 * n / 2
+so if n=6
+3*6/2 = 18/2 = 9
+
+difference between the round robin thing
+n-1 -> can play against everyone except yourself, which is why its n-1
+n-3 -> you cannot draw diagonal with yourself (1), you cannot draw diagnoal with two adjacent neighbor (2) so n-3
+
+=====
+
+14.4.1
+there are five girls in a tennis class
+how many different doubles teams of two girls each can be formed
+from the students in the class?
+
+answer:
+ok so we have 5 girls
+g1 g2 g3 g3 g5
+we wanna form different team of two girls so like
+(g1, g2)
+(g1, g3)
+(g1, g4)
+(g1, g5) etc..
+
+say im g1 => ican form with the other 4
+g2 -> form with the 3, excluding g1
+g3 -> form with the 2, excluding g1 and g2
+g4 -> form with the 1
+g5 -> 0
+
+so total is 4+3+2+1 = 10
+
+alternatively using the formula
+(5 * 4) / 2 = 20/2 = 10
+
+14.4.2
+a club has 12 members and needs to choose 2 mmebers to be copresidents
+how many different pairs of co presidents are possible?
+
+answer:
+
+ok so we have 12 members
+m1, m2, m3, ..., m12
+and we need to chooes 2 members to be copresidents
+
+so like
+(m1, m2)
+(m1, m3) etc
+
+using the sum approach if im m1
+m1 -> 11 ways
+m2 -> 10 ways
+m3 -> 9 ways
+...
+m12 -> 0 wys
+
+so its the sum from 1 + 2 + ... + 11 = 66
+
+alternativel using the formula
+12*11/2 = 66 ways
+
+14.4.3
+two students are needed to work in school store during lunch hour everyday
+and four students volunteer for this work
+what is the greatest number of days that cna be arranged
+in which no pair of four students work together more than once?
+
+answer:
+ok so we have 4 students
+s1, s2, s3, s4
+and for schoolwork we only want to allocate 2 students for lunch work
+
+and we wanna find the greatest num or days
+where no pair of four students work together more than once
+
+ok so
+day1 - (s1,s2)
+day2 - (s1,s3)
+day3 - (s1,s4)
+
+day4 - (s2,s3)
+day5 - (s2,s4)
+
+day6 - (s3,s4)
+
+day7 - ..
+actually theres no day7 here since s4 already matches with everyeone
+so total is 6 days
+so its justthe sum 3+2+1 =6 days
+or alternatively 4*3/2 = 12/2 = 6
+
+14.4.4
+six people participated in a checkers tournament
+each participant played exactly three games with each of the other participants
+how many games were played in all?
+
+answer:
+ok so we have 6 people in the tourney
+each player play three games with each other so 3x per person
+and we wanna find how many games were played
+
+so we have
+p1,p2,p3,p4,p5,p6
+
+if i play each other exactly once then thats just
+6*5/2 = 15
+
+but here we play 3 times so
+3*15 = 45
+
+14.4.5
+a sports conference has 12 teams in two divisions of 6
+how many games are in a complete season for the conference if each team
+must play every other team in its own division twice and every tema in the other division once?
+
+answer:
+ok so the question is realy hard to understnd here but let me tjust try to understand
+so we have 12 teams into 2 divions of 6
+
+t1,t2,t3,...,t12
+
+division 1 -> can be any of the 6 teams
+division 2 -> can be any of the 6 teams
+
+we wanna find out about how many games if each team must play every other team
+in its own division twice (so lets say division 1 compete against each other 2 times)
+and only copmete division 1 vs diviiosn 2 once
+
+so lets compute the inside division match first
+so we have 6 teams anwe we play 2 times
+6*5/2=15 total games
+since we play twice thats 15*2 = 30
+but thats just for one diviosn
+since we have two division the total is 30*2 = 60
+
+then we have interdiviison thing
+since there are 12 teams with 6 and 6
+6*6 = 36 interdivision games
+
+so total rounds should be 60+36 = 96
