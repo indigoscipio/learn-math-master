@@ -1362,3 +1362,104 @@ since there are 12 teams with 6 and 6
 6*6 = 36 interdivision games
 
 so total rounds should be 60+36 = 96
+
+14.4.6
+find a formula for the sum of the first n even integers: 2+4+6+...+2n
+
+answer:
+ok so we know sum of first n even integer is n(n+1)/2
+which is achieve from
+1 + 2 + ... + n-1 + n
+n + n-1 + ... + 2 + 1 sum the col thing
+
+but here we have even ints
+factor out the 2 to become 2 (1+2+...+n)
+since we know the sum of n integer is n(n+1)/2 just substitute it
+
+2 . n(n+1)/2
+so it becomes n(n+1)
+
+
+14.4.7
+how many interior diagonals does an icosahedron have? 
+in icosahedron is a 3d figure with 20 triangleular faces and 21 vertices
+with 5 faces meeting at each vertex
+
+an interior diagonal is a segment connecting two vertices that do not lie on a common face
+
+hint: consider a simpler problem, how did we solve the problem about polygon diagonals in the text?
+hint: each vertex is connected to how many other vertices by an edge of the icosahedron?
+hint: each vertex is connected to how many other vertices by an interior diagonal of the icosahedron?
+
+answer:
+ok so we have a 3d shape with
+20 trianglular faces
+12 total vertices
+
+5 faces meeting at each vertex so that makes like a pentagon
+ok lets consider simple problem like the hint
+
+in the previous exercise we know polygon diagonals with nside is
+n(n-3)/2 
+
+triangle has 0 diagonal
+pentagon has 5 side = 5(5-3)/2 = 5 diagonals
+hexagon = 6.3/2 = 9 diagonals
+
+but here the shape is 3d but we know it has 20 faces
+and hint says each vertex is connected to how many other vertices by an edge?
+each vertex connects with 5 other vertices thorugh an adge.
+
+and each vertex connects other vertices through interior diagonal by, lets see
+since total is 12 vertices we subtract 6
+cause it cant connect with the other 5 neighbors plus itself so (n-6)
+so each vertex is connected to other vertices by interior diagnoal = 6
+
+so maybe this is just aguess but something like
+n(n-6)/2 - divide by two to avoid double counting
+12(12-6)/2 12*6/2 = 72/2 = 36
+
+
+14.5 Probability
+why does probability exist
+because we want  measure event that is not definite
+
+probability = number of succesful outcomes / total possible outcomes
+
+==================================================================
+
+14.2.1
+the faces of a fair 6 sided die are numbered: 1,2,3,4,5,6
+fair means that each side is equally likely to be rolled
+what is the probability that when the die is rolled, a two is facing up?
+
+answer:
+ok im guessing since there are 6 possible outcome
+and 2 accounts for 1 out of those 6
+therefore the probability is 1/6 
+
+==================================================================
+
+14.22
+what's the probability when a fair 6 sided die is rolled
+an odd number faces up?
+
+answer:
+since the range is 1,2,3,4,5,6
+odd = 1,3,5 = 3 out of 6
+so 3/6 = 1/2
+
+==================================================================
+
+14.23
+what is the greates possible probability ofr any even?
+what is the least possible probability for any event?
+
+answer:
+im guessing it depends on the total possible event and outcomes but
+greatest is like 100% = 1 -> certain event
+and least is 0% = 0 -> impossible event
+
+==================================================================
+
+==================================================================
