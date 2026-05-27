@@ -1462,4 +1462,65 @@ and least is 0% = 0 -> impossible event
 
 ==================================================================
 
+14.24
+a standard deck of cards have 52 card divided into 4 suits
+each of which has 13 cards
+2 of the suits (hearts and diamonds) are red
+and spades and clubs are black
+
+the cards in the deck are placed in random order (usually by a process of shuffling)
+what is the probability that the top two cards are both red?
+
+answer:
+ok so total possible card is 52
+since 2 of the suits are red and two of the clubs are black that makes
+13.2 = 26 red
+and 26 black
+
+so probability of red = 26/52 = 1/2 = 0.5
+but thesecond time the total card is reduced
+so now it becomes 25 red and 26 black
+so otal probability is
+25/51 = ~0.49
+
+now we combine the probability
+since we want to pick 1st AND then pick 2nd
+0.5*0.49 = ~0.245
+
+
 ==================================================================
+
+14.25
+suppose weh ave 2 fair 6 sided dice numbered from 1 to 6
+if we roll them both
+then whats the probability that the two numbers shown sum to 7?
+
+answer:
+
+ok so we have 2 dice
+so min range = 2
+max range = 12
+
+we wanna find probability the sum is 7
+so something like
+(d1, d2) pair
+(1,6)
+(2,5)
+(3,4)
+(4,3)
+(5,2)
+(6,1)
+
+so that's like 6 possibility
+each dice covers the value 1-6
+
+so 6 d1 outcomes
+and 6 d2 outcomes
+
+we want to roll d1 and d2 at the same time
+so 6*6 = 36 total possibilies
+
+6/36 = 1/6
+
+Exercises
+14.5.1
