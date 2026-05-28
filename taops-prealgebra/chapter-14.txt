@@ -1635,4 +1635,190 @@ which means we want penny to choose head AND we wannt nickel to choose head AND 
 
 
 b. the penny and nickel both come up heads?
+ok so since each coin has 1/2 probability of come up heads
+but we only want penny and nickle to come up heads
+
+Penny: H, Nickel: H, Dime: H, Quarter: H
+Penny: H, Nickel: H, Dime: H, Quarter: T
+Penny: H, Nickel: H, Dime: T, Quarter: H
+Penny: H, Nickel: H, Dime: T, Quarter: T
+
+since total probability of all coin is 16
+4/16 = 0.25
+
+
+c. at least 15c worth of coins come up heads?
+
+answer:
+sinc we know 
+Penny: 1 cent ($0.01)
+Nickel: 5 cents ($0.05)
+Dime: 10 cents ($0.10)
+Quarter: 25 cents ($0.25)
+
+since we only have 4 coins
+the only possibility of atleast 15c out of those 4 is
+1 dime and 1 nickel (15c)
+1 dime and 1 quarter (35c)
+1 quarter
+1 quarter and 1 penny (26c)
+
+8/16
+2
+
+10/16 = 5/8
+
+14.5.5
+suppose that we roll two 6 fair sided dice
+what is the probability that the two numbers rolled sum to five
+
+answer:
+ok we have 2 sided dice
+so range is from 2 - 12
+
+we wanna find thw two number sum to 5
+thats
+
+(d1,d2)
+(1,4)
+(2,3)
+(3,2)
+(4,1)
+
+5 cant be sum and also 6 is way bove 5
+so four total
+d1 has 6 probability
+d2 has 6 probability
+total = 6*6 = 36 probability
+
+so 4/36 = 1/9
+
+14.5.6
+two dice aret hrown
+what is the probability that the product of the two numbers is a multiple of 5?
+
+answer:
+ok so simialr to previous one but we wnana find the sum is multiple of 5
+
+
+d1,d2
+we wanna find the product thats amultiple of 5
+so must include 5 atleast as 1 dice as factor
+
+d2 is the 5
+(1,5) -> 5
+(2,5) -> 10
+(3,5) -> 15
+(4,5) -> 20
+(5,5) -> 25
+(6,5) -> 30
+
+d1 is the 5
+(5,1) -> 5
+(5,2) -> 10
+(5,3) -> 15
+(5,4) -> 20
+(5,5) -> 25
+(5,6) -> 30
+
+with (5,5) as double count 
+so total is 11 out of 36 = 11/36
+
+14.5.7 (star question)
+a pair of 8 sided dice has sides of each die numbered 1 - 8
+each side has the same probability of landing face up
+
+what is the probability that the product of the two numbers
+on the sides that land face up is greater than 36?
+
+answer:
+ok so we have 2 8 sided dice
+that means the probability is 8^2 = 64 total possibilies
+
+the question asks for probability that the product of those 2
+numbers that lands face up is greater than 36
+
+so d1 . d2 > 36
+
+lets do a quick check
+(d1,d2)
+
+fix d1
+d1 is 1 -> cannot exceed 36 with other dice, max is 1*8 = 6
+d1 is 2 -> cannot exceed 36 with other dice, max is 2*8 = 16
+d1 is 3 -> cannot exceed 36 with other dice, max is 3*8 = 24
+d1 is 4 -> cannot exceed 36 with other dice, max is 4*8 = 32
+d1 is 5 -> possible, but other dice needs to be atleast 8 -> 5*8 = 40 -> 1 possibility
+d1 is 6 -> possible, other dice needs to be atleast 7 or 8 -> 6*7 = 42, 6*8 = 48 -> 2 possibility
+d1 is 7 -> possible, other dice needs to be atleast 6,7,8 = 3 possibility
+d1 is 8 -> possible, other dice needs to be atleast 5,6,7,8 = 4 possibility
+
+
+so total is 1+2+3+4 = 10
+so total probability is
+10/64 = 5/32
+
+14.5.8
+at aparty, there are only single women and married men with their wives
+the probability that a randomly selected woman is single is 2/5
+what fraction of the people in the room are married men?
+
+answer:
+ok so we know a few things
+in the party theres only the following
+
+single women
+married couple (men + woman)
+
+and we know probability of randomly selected woman is single is 2/5
+we wanna find what fraction of people in the room are married men
+
+
+if single women randomly selected is 2/5 that means
+the rest of 3/5 accounts for randomly selected married women
+
+since married woman paris with married men
+that means its equal to married men, so married man = married woman
+
+single women -> 2/5
+married women -> 3/5
+married man -> 3/5
+
+so there are a total of 8 parts for all people in the room
+so for married men = 3/8
+
+alternative answer:
+
+single woman : married woman : married men = 2 : 3 : 3
+total parts = 8
+
+
+============
+
+Review problems
+14.26
+how many numbers are in the following lists?
+a. -7,-6,-5,...,23,24
+add by 8 for each item
+1,2,...,31,32
+so total is 32 items
+or alternatively (24-(-4) + 1) = 32
+
+b. 7,14,21,...,686
+divide by 7
+1,2,3,...98
+so there are 98 numbers
+
+c. 3.5, 6.5, 9.5, 12.5, ..., 87.5, 90.5
+subtract by 0.5
+3,6,9,12,...,87,90 -> multiples of 3
+1,2,3,...,29,30
+so there are a  total of 30 numbers.
+
+d. 86,82,78,...,14,10
+divide by 2
+43,41,39,...,7,5 -> add1
+44,42,40,...,8,6 -> subtract 5
+39
+
 
