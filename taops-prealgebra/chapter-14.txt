@@ -1818,7 +1818,65 @@ so there are a  total of 30 numbers.
 d. 86,82,78,...,14,10
 divide by 2
 43,41,39,...,7,5 -> add1
-44,42,40,...,8,6 -> subtract 5
-39
+44,42,40,...,8,6 -> divide 2
+22,21,20,...,4,3 -> subtract 2
+20,19,18,...,2,1 -> subtract 2
 
+so there are 20 numbers
+
+
+14.27
+in a group of 25 girls, 8 joined the track team
+13 joined the math team
+and 6 joined both teams
+how many of the girls did not join either team?
+
+answer:
+ok so total is 25 girls
+8 -> track
+13 -> math
+6 -> both (track or math)
+
+10
+
+14.28
+there are 40 students in mrs ruzcyks first grade class
+if there are three times as many students with blond hair as with blue eyes
+3 students with lbond hair and blue eyes
+and 15 students with neither blond hair nor blue eye
+how many students have blue eyes
+
+answer:
+ok so we have 40 total students
+blond hair = 3x blue eyes
+3 students with blond hair and blue eyes
+15 students with neither blond hair nor blue eye
+
+let x be the student with blue eyes
+so blond hair = 3x
+
+3x + x - 3 = 40-15
+4x - 3 = 25
+4x = 28
+x = 28/4
+x = 7.
+
+14.29
+you have 4 shirts, 3 pairs of pants and 6 hats
+how many outfits can you make consisting of one shirt, one pair of pants and one hat?
+
+answer:
+ok so we have
+shirt, pant and hats
+and for each we have only 1 slot
+
+(s,p,h) -> 4s, 3p, and 6h
+
+we want to find the combinations
+
+(s1, p1, h1)
+(s1, p1, h2)
+(s1, p1, h3) ... etc
+
+so 4*3*6 = 72 possibility
 
