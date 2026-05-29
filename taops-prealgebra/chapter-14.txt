@@ -2020,46 +2020,73 @@ answer:
 ok so we have 3 digit
 
 [d1,d2,d3]
-whre d1,d2,d3 are even
-where d1 is 1 - 9 -> 9 possibility  but since its even
-2,4,6,8 -> 4 possibility
+since this asks for even that means
+only d3 must have even digits 
 
-and d2 and d3 range from 0 - 9 so 10 possibility
-but they must also be even
-so 0,2,4,6,8 -> 5 possibility for d2 and d3
+so
+d1 -> 1 - 9 (9 possibility, any digit excluding 0)
+d2 -> 0 - 9 (10 possibility, any digit)
+d3 -> 0 - 9 -> even -> 0,2,4,6,8 -> 5 possibility
 
-and hundreds + tens = unit digit
+and we know 
 d1 + d2 = d3
 
-case: d3 = 0
-since d1 cant be zero thehres only 1 possibilty -> d2 = 0
+case:
+d3 = 0
+d1 + d2 = 0
+since d1 cannot be 0
+no possibility
 
-case: d3 = 1
-1 possibility -> d2 = 0
+d3 = 2
+d1=1, d2=1
+d1=2, d2=0
+2 possibility
 
-case: d3 = 2
-d1 + d2 = 2
-since d1 cant be zero theres only 1
-d1 = 1, d2 = 1
-but these arent even numbers so 0
+d3 = 4
+d1 + d2 = 4
+d1=1,d2=3
+d1=2,d2=2
+d1=3,d2=1
+d1=4,d2=0
+4 possibiilty
 
-case: d3 = 3
-d1 = 1, d2 = 2
-d1 = 2, d2 = 1
-d1 = 3 ,d2 = 0
-but these arent even numbers so 0
+d3 = 6
+d1 + d2 = 6
+d1=1,d2=5
+d1=2,d2=4
+d1=3,d2=3
+d1=4,d2=2
+d1=5,d2=1
+d1=6,d2=0
+6 possibility
 
-case: d3 = 4
-d1 = 1, d2 = 3
-d1 = 2, d2 = 2
-d1 = 3, d2 = 1
-d1 = 4, d2 = 0
-4 possibility
+d3 = 8
+d1 + d2 = 8
+d1=1,d2=7
+d1=2,d2=6
+d1=3,d2=5
+d1=4,d2=4
+d1=5,d2=3
+d1=6,d2=2
+d1=7,d2=1
+d1=8,d2=0
+8 possibility
 
-case: d3 = 5
-d1 = 1, d2 = 4
-d1 = 2, d2 = 3
-d1 = 3, d2 = 2
-d1 = 4, d2 = 1
-d1 = 5, d2 = 1
+so combinig those
+2+4+6+8 = 20
 
+14.35
+a baseball league has nine temas
+during the season each of th nine teams play exactly three games with each
+of the other teams. what is the total numbr of games played?
+
+answer:
+ok so we have 9 teams
+{t1,t2,t3,...,t9}
+
+those 9 plays three games with other
+if theyplayed only 1 game
+(9*8/2) = 36
+
+but since 3 game
+3 * (9*8/2) = 36*3 =  108
