@@ -2031,10 +2031,35 @@ so 0,2,4,6,8 -> 5 possibility for d2 and d3
 and hundreds + tens = unit digit
 d1 + d2 = d3
 
+case: d3 = 0
+since d1 cant be zero thehres only 1 possibilty -> d2 = 0
+
+case: d3 = 1
+1 possibility -> d2 = 0
+
 case: d3 = 2
 d1 + d2 = 2
-since d1 cant be zero the only possibilty is
-d2 = 2
+since d1 cant be zero theres only 1
+d1 = 1, d2 = 1
+but these arent even numbers so 0
 
-case: d3 = 
+case: d3 = 3
+d1 = 1, d2 = 2
+d1 = 2, d2 = 1
+d1 = 3 ,d2 = 0
+but these arent even numbers so 0
+
+case: d3 = 4
+d1 = 1, d2 = 3
+d1 = 2, d2 = 2
+d1 = 3, d2 = 1
+d1 = 4, d2 = 0
+4 possibility
+
+case: d3 = 5
+d1 = 1, d2 = 4
+d1 = 2, d2 = 3
+d1 = 3, d2 = 2
+d1 = 4, d2 = 1
+d1 = 5, d2 = 1
 
