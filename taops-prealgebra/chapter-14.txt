@@ -1880,3 +1880,161 @@ we want to find the combinations
 
 so 4*3*6 = 72 possibility
 
+14.30
+a haunted house has 6 windows
+how many ways can georgie the ghost enter the house by one window and leave
+by a diferent window?
+
+answer:
+ok so the house has 6 windows
+the question asks how many ways the ghost can enter and leave by different window
+so when leaving it cannot be the same window
+
+so we have (w1,w2,w3,w4,w5,w6)
+
+enter -> 6 possibility
+leave -> 5 possibility since this is diferent
+
+and the ghost wants to enter AND then elave so multiply it
+6*5 = 30 ways
+
+
+14.31
+how many 3 letter combinations can be formed if the first letter must be
+a vowel (A,E,I,O, or U) and the second letter must be different
+from the third letter?
+
+anwswer:
+ok so we have 3 letter combination so 3 slot
+
+[slot1, slot2, slot3]
+
+slot1 must be a vowel
+slot2 must be different from 3rd letter
+both slot2 and slot3 can be any of the 26 alphabet
+
+slot1 -> 5 ways
+slot2 -> 26 ways
+slot3 -> 25 ways
+
+so total combination is
+pick slot1 and then slot2 and then slot 3
+5*26*25 = 3250
+
+14.32
+how many 5 digit numbers have the second digit odd
+and fifth digit at least 4 times the second digit?
+answer:
+
+ok so now we have 5 slots
+
+[d1,d2,d3,d4,d5]
+and we have 2 restriction, first on the 2nd digit and second on the fifth digit
+the restriction is that 2nd digit must be odd
+and fifth digit > 4 . d2
+
+so d2 = odd
+and
+d5 >= 4 . d2
+
+the remainig digit (d1,d3,d4) has no restriction so
+d1 -> 9 ways (first digit cannot be 0)
+d3 -> 10 ways
+d4 -> 10 ways
+
+now lets calculate possibility for d2 and d5
+
+since d2 is odd, there are only 5 possiblity:
+d2 = {1,3,5,7,9} -> 5 ways
+
+and for d5, since it depends on d2
+d5 >= 4 . d2
+
+case: d2 = 1
+d5 >= 4 . 1
+d5 has 6 possible value : {4,5,6,7,8,9}
+
+case: d2 = 3
+d5 >= 4 . 3
+d5 >= 12
+there's no digit that satisfies this, so 0 possibility
+
+case: d2 = 5
+d5 >= 20 -> no digit satisfies
+
+case: d2 = 7
+d5 >= 28 -> no digit satisfies
+
+case: d2 = 9
+d5 >= 36 -> no digit satisfies
+
+so theres only 6 possible value for d5
+since questions asks for d2 = odd AND d5 >= 4.d2
+thatmeans theres only 1 valid choice for d2 (d2 = 1)
+
+so combining all possibility
+9*1*10*10*6
+5400
+
+======
+n digit number, the first digit (leading digit) cannot be 0
+a number like 05,400 is just 4 digit
+======
+
+14.32
+pat peano has plenty of 0s, 1s, 3s, 4s, 5s, 6s, 7s, 8s, and 9s
+but he has only twenty two 20s
+how far can he number the pages of his scrapbook with these digits?
+
+answer:
+ok so we have infinite number of digit except for 2
+2 -> 20
+the rest -> unlimited
+
+now the question asks how far can he number the pages
+
+so lets start with base iwth initial twos = 22
+1, 2, ... 9 -> 21 2s left
+teens
+11, 12, ... 19 -> 20 2s left
+tens
+20,21,22,23,24,25,26,27,28,29 -> uses 9 twos -> 7 2s left
+31,32,33, ... , 39 -> uses 1 twos -> 8 2s left
+41,42,43, ... , 49 -> uses 1 twos -> 7 2s left
+51,52,53, ... , 59 -> uses 1 twos -> 6 2s left
+61,62,63, ... , 69 -> uses 1 twos -> 5 2s left
+71,72,73, ... , 79 -> uses 1 twos -> 4 2s left
+81,82,83, ... , 89 -> uses 1 twos -> 3 2s left
+91,92,93, ... , 99 -> uses 1 twos -> 2 2s left
+100,101,102, ..., 109 -> 1 2s left
+111, 112 -> 0 twos
+113, 114, ... 119 -> end since 120 needs a two
+
+
+14.34
+how many positive, even three digit numbers can exist suchthat
+the sum of the hundreds digit and the tens idgit
+equals the units digit?
+
+answer:
+ok so we have 3 digit
+
+[d1,d2,d3]
+whre d1,d2,d3 are even
+where d1 is 1 - 9 -> 9 possibility  but since its even
+2,4,6,8 -> 4 possibility
+
+and d2 and d3 range from 0 - 9 so 10 possibility
+but they must also be even
+so 0,2,4,6,8 -> 5 possibility for d2 and d3
+
+and hundreds + tens = unit digit
+d1 + d2 = d3
+
+case: d3 = 2
+d1 + d2 = 2
+since d1 cant be zero the only possibilty is
+d2 = 2
+
+case: d3 = 
+
