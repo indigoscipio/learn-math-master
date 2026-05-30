@@ -2090,3 +2090,42 @@ if theyplayed only 1 game
 
 but since 3 game
 3 * (9*8/2) = 36*3 =  108
+
+14.36
+tyler has entered a buffet line in which he chooses 1 kind o f meat
+2 kind of veggies
+and 1 dessert from the selections below
+
+if the order of the food is not important
+how many different meals might he choose?
+
+meat: beef, chicken, pork
+vegetables: baked beans, corn, potatoes, tomatoes
+dessert: brownies, chocolate cake, chocolate pudding, ice cream
+
+answer:
+ok so we have 3 type: meat vegetables and desert
+1 meat
+2 veggie
+1 dessert
+
+and in total we have
+m1,m2,m3
+v1,v2,v3,v4
+d1,d2,d3,d4
+
+so for meat -> 3 choice
+veggie
+(v1,v2)
+(v1,v3)
+(v1,v4)
+(v2,v3)
+(v2,v4)
+(v3,v4)
+so thats 6 choices
+or alternativel 4.3/2 = 12/2 = 6 choices
+
+and for desert -> 4 choice
+
+combining the posiblities
+3 * 6 * 4 = 72 choices
