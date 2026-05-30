@@ -2332,3 +2332,38 @@ case: d2 = d4 = 9
 so total = 9*6 = 54 possibility
 
 combining both
+3 + 54 = 57
+
+14.42
+diana and apolo each rolled a standard die obtaining an umber at random from 1 - 6
+what is the probability that dianas number is large than apolos number
+answer:
+
+ok so we have 2 dice
+lets say diana = d1 and apolo = d2
+(d1,d2) with both 1 - 6 range
+
+we wanna find probability such that d1 > d2
+case: d1 = 1
+impossible, even with d2 min 1 > 1 cnanot be true
+
+case: d1 = 2
+d2 needs to be 1 -> 1 possibility
+
+case: d1 = 3
+d2 can be {2,1} -> 2 possiblity
+
+case: d1 = 4 
+d2 can be {3,2,1} -> 3 possibility
+
+case: d1 = 5
+d2 can be {4,3,2,1} -> 4 possibility
+
+case: d1 = 6
+d2 can be {5,4,3,2,1} -> 5 possibility
+
+so combining the total
+1+2+3+4+5 = 15 possibility
+
+with 36 possible outcomes
+15/36
