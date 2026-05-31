@@ -2366,4 +2366,197 @@ so combining the total
 1+2+3+4+5 = 15 possibility
 
 with 36 possible outcomes
-15/36
+15/36 = 6/12
+
+======
+
+Challenge Problems
+14.43
+which integers n satisfy 1/2 > 1/n > 3/100
+and how many such inteers are there?
+
+answer:
+
+ok so we want to find a range
+for starters its definetely not 1 or 2
+
+3/100 -> 0.03
+so between 0.5 and 0.03
+
+1/100 -> 0.01
+so thats 3 - 100 so far -> 98 ints
+
+need to find the max limit/bound
+
+3/100 = 1/n -> mult both sides by 100
+3 = 100 . 1/n
+3 = 100/n
+3n = 100
+n = 100/3
+
+so the upper bound is 100/3 =  33 1/3 = aorund 33
+so the number is between
+2 < n <= 33
+so 3,4,...,33 -> sbutract by 1 -> 1,2,...,31
+so there are a total of 31 integers
+
+
+=====
+
+
+14.44
+my classroom has 11 rows of chairs
+with 11 chairs in each row
+the chairs in each row are numbered from 1 - 11
+a. how many chairs have odd numbers?
+
+answer:
+so we have 11x11 grid of chairs
+row1 -> 11
+row2 -> 11, etc
+
+calculate odd numbers in each row then multiply by totla number of row
+total odd in 1 row = {1,3,5,7,9,11} = 6
+so total odds = 6*11 = 66
+
+
+b. suppose we replaced all occurence of 11 in this problems with n
+where n is odd number
+can you find a formula in terms of n for the number of chairs with odd numbers?
+is the formula different if n is even?
+
+answer:
+ok so we want to generalzie into formula
+so class has n rows of chairs with n chairs each.
+chairs in each row are numbered {1,2,...,n}
+
+row1 -> {1,2,...,n},
+row2 -> {1,2,...,n}, etc
+
+lets say n = 1, so 1 row of chair with 1 chair -> total chair = 1
+total odd number chairs = 1
+
+n = 2 -> 2 row with 2 chair -> total chair = n*n = 4
+row1 -> {1,2}
+row2 -> {1,2}
+each row has 1 odd number of chair, so total = 1*n = 1*2 = 2
+
+n = 3 -> 3 row with 3 chair -> total chair = n*n = 9
+row1 -> {1,2,3}
+row2 -> {1,2,3}
+row3 -> {1,2,3}
+each row has 2 odd number, so total odd number of chair = 2*n = 2*3 = 6
+
+n = 5
+row1 -> {1,2,3,4,5}
+row2 -> {1,2,3,4,5}
+row3 -> {1,2,3,4,5}
+row4 -> {1,2,3,4,5}
+row5 -> {1,2,3,4,5}
+each row has 3 odd number, so total odd number of chair = 3*n = 3*5 = 15
+
+so the formula is to find the total odd number in one row
+then once you find it, multiply it by n
+
+by case:
+n is odd
+(n+1/2) * n
+
+n is even
+n/2 * n
+
+
+14.45
+there are 7 married couples at a party
+every person shakes hands once with every other person except his or
+her spouse how many handshakes are there?
+
+answer:
+ok so we have 7 married couples (husband, wife pair)
+(h1,w1), (h2,w2), ... , (h7,w7)
+so total peopleh ere is 7*2 = 14
+
+so if i was h1, i exluding shaking w1
+shake -> 12 people
+
+12 * 14 = 168
+exclude duplicates 168/2 = 84
+
+alternatively
+14*13 / 2 = 91 totla handshakes
+minus 7 (spouse pair) = 91-7 = 84
+
+14.46
+when writing the numbers 1 to 500
+how many times will you write the digit 3?
+
+hint: can you split the problem into cases you can handle?
+hint: how many times does 3 appear as the 10s digit?
+
+answer:
+lets split into cases
+base digit (0-9): 1 time
+
+teens (11-19): 1 time
+
+tens (20-99):
+20 - 29 -> 1
+30 - 39 -> 10 + 1 = 11 times
+40 - 49 -> 1
+50 - 59 -> 1
+60 - 69 -> 1
+70 - 79 -> 1
+80 - 89 -> 1
+90 - 99 -> 1
+so total is 18
+
+hundreds (100-500):
+100 - 199: 18 + 1 + 1 = 20 (base digit, teens, tens)
+200 - 299: 20
+300 - 399: 20 + 100 (hundreds digit exclusive) = 120
+400 - 500: 20
+
+so total occurence is
+1+1+18+20+20+120+20
+20+20+20+120+20
+200
+
+14.47
+in a sports league there are 20 total teams
+divided into 4 divisions of 5 teams each
+over the course of a season each team plays each of the other teams
+in its own division 3 times
+and each of the other teams in the other divisions twice
+how many games does the league have in in a complete season?
+
+answer:
+ok so we have 20 teams total
+divided into 4 with 5 each
+
+d1 -> {t1,t2,t3,t4,t5}
+d2 -> {t1,t2,t3,t4,t5}
+d3 -> {t1,t2,t3,t4,t5}
+d4 -> {t1,t2,t3,t4,t5}
+
+each team plays each other teams in its division 3 times
+so each division plays ->  3. (5*4 / 2) = 3 . 10 = 30 games
+since we have 4 division -> total = 30*4 = 120
+
+then each other teams in other divisions twice
+so interdivision is 2 times
+since we have 4 diviisons -> 4*3/2 = 6 total possiblity
+zoom in
+(d1,d2) -> 5*5 = 25
+(d1,d3)
+(d1,d4)
+
+(d2,d3)
+(d2,d4)
+
+(d3,d4)
+so when we zoom in we have 25 rounds for each
+
+so 2*25*6 = 300
+
+so total = 300+120 = 420
+
