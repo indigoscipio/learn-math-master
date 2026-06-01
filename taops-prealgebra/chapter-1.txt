@@ -1,668 +1,678 @@
 Problem 1.7
-using the two pictures below, explain why 2 x 3 = 3 x 2
+Using the two pictures below, explain why 2 x 3 = 3 x 2
 
-the image on the left has 3 col and 2 row with a tocal of 6 boxes
-the image on the right has 2col and 3 row with a total of 6 boxes
-the total is the same, its the image that looks rotated
+The image on the left has 3 columns and 2 rows with a total of 6 boxes.
+The image on the right has 2 columns and 3 rows with a total of 6 boxes.
+The total is the same, it's the image that looks rotated.
 
-problem 1.8
-by counting the dots in the picture below in two different ways, explain why
+Problem 1.8
+By counting the dots in the picture below in two different ways, explain why
 (2x3)x4 = 2x(3x4)
 
-we have 6 boxes and within those boxes theres 4 dots
-the total of the dots are 6x4 = 24
-which is the same, just the grouping of the number thats different
+We have 6 boxes and within those boxes there's 4 dots.
+The total of the dots are 6x4 = 24.
+Which is the same, just the grouping of the numbers that's different.
 
 1.9
 600000
 
-1.10 using the picture below explain why 2x1 = 2
-the image depicts two box stacked vertically
-the total numbero f box is 2
-and theres only one stack of that box
+1.10
+Using the picture below explain why 2x1 = 2.
+The image depicts two boxes stacked vertically.
+The total number of boxes is 2.
+And there's only one stack of that box.
 
 1.11
-a. compute (5+6)x7
-11 x 7 = 77
-b. compute 5+(6x7)
-5 x 42 = 47
+a. Compute (5+6)x7
+   11 x 7 = 77
+
+b. Compute 5+(6x7)
+   5 + 42 = 47
 
 1.12
-using the picture below, explain why 2x(3+4) = (2x3) + (2x4)
+Using the picture below, explain why 2x(3+4) = (2x3) + (2x4).
 
-the image depicts 7 col x 2 row of boxes -> 14 total boxes
-with the first 3 col and 2 row highlighted -> this is 2x3
-and the remaining unhighlighed boxes is 2x4
+The image depicts 7 columns x 2 rows of boxes -> 14 total boxes.
+With the first 3 columns and 2 rows highlighted -> this is 2x3.
+And the remaining unhighlighted boxes is 2x4.
 
-the total of the boxes is 14
+The total of the boxes is 14.
 
 1.13
-comput 51.9 + 51.31
+Compute 51.9 + 51.31
 459 + 1581
 
 1.14
-what is the value of 
+What is the value of
 17 . 13 + 51 . 13 + 32 . 13
-=13(17 + 51 + 32)
-=13(100)
-=1300
+= 13(17 + 51 + 32)
+= 13(100)
+= 1300
 
-= 221 + 663 +   416
+= 221 + 663 + 416
 = 1300
 
 1.15
-a. pattern: first is descreasing but 2nd remains
+a. Pattern: first is decreasing but 2nd remains
 b. 0
 
+================================
 
 Exercises
+
 1.3.1
-what is the value of the prodcut
+What is the value of the product
 25 . 17 . 4 . 20?
 = 100 . 20 . 17
 = 2000 . 17
 = 34000
 
 1.3.2
-compute 1 . 100 . 2 . 50 . 4 . 25 . 5 . 20
+Compute 1 . 100 . 2 . 50 . 4 . 25 . 5 . 20
 = 1 . 2 . 4 . 5 . 20 . 25 . 50 . 100
 = (1 . 100) (2 . 50) (4 . 25) (5 . 20)
 = 100 . 100 . 100 . 100
-= 100.000.000
+= 100,000,000
 
 1.3.3
-compute 2.2.2.2.2.5.5.5.5.5
+Compute 2.2.2.2.2.5.5.5.5.5
 = 10 . 10 . 10 . 10 . 10
-= 100.000
+= 100,000
 
 1.3.4
-compute 1 . 1995 . 1 = 1995
+Compute 1 . 1995 . 1 = 1995
 
 1.3.5
-compute 1 . 5 . 1 . 5 . 1 . 5
+Compute 1 . 5 . 1 . 5 . 1 . 5
 = 5 . 5 . 5
 = 125
 
 1.3.6
-Using the distributive property, evaluate the following expressions
+Using the distributive property, evaluate the following expressions:
+
 a. 11 . 43 + 11 . 57
-= 11 (43 + 57)
-= 11 (100)
-= 1100
+   = 11(43 + 57)
+   = 11(100)
+   = 1100
 
 b. 22 . 6 + 6 . 38
-= 6 (22 + 38)
-= 6 (60)
-= 360
+   = 6(22 + 38)
+   = 6(60)
+   = 360
 
 c. 32 . 16 + 16 . 48
-= 16 (32 + 48)
-= 16 (80)
-= 1280
+   = 16(32 + 48)
+   = 16(80)
+   = 1280
 
 1.3.7
-find numbers a,b,c such that a + (b.c) is not equal to (a + b) . (a + c)
-in other words find example to illustrate that addition does not distrubute over multiplication
+Find numbers a, b, c such that a + (b.c) is not equal to (a + b) . (a + c).
+In other words, find an example to illustrate that addition does not distribute over multiplication.
 
-let a = 1
-let b = 1
-let c = 2
+Let a = 1
+Let b = 1
+Let c = 2
 
 1 + (1 . 2)
 = 1 + 2
 = 3
 
-(1 + 1) (1 + 2)
+(1 + 1)(1 + 2)
 2 . 3
 = 6
 
-LHS and RHS are not equal
+LHS and RHS are not equal.
 
 1.3.8
-compute 456 + 456 + 456 + 456 + 456 + 456 + 456 + 456 + 456 + 456
-= 10 (456)
+Compute 456 + 456 + 456 + 456 + 456 + 456 + 456 + 456 + 456 + 456
+= 10(456)
 = 4560
 
 1.3.9
-what is the product of the number 1,2,3,4,5,6,7,8,9 and 0
-answer = 0
+What is the product of the numbers 1, 2, 3, 4, 5, 6, 7, 8, 9 and 0?
+Answer = 0
 
 1.3.10
-compute 10 + 110 . 0 . 101 + 111
-= 10 + 0 +  111
+Compute 10 + 110 . 0 . 101 + 111
+= 10 + 0 + 111
 = 121
 
- ====================
+================================
 
- Negation
+Negation
 
- the negation of a number x, written -x
- is the number that we add to x to get 0
+The negation of a number x, written -x, is the number that we add to x to get 0.
 
- -x + x = 0
+-x + x = 0
 
- Problems 1.18
- mltiplying by -1: let x be a number then
- -x = -(1)x
+Problem 1.18
+Multiplying by -1: Let x be a number, then
+-x = (-1)x
 
-using the fact that -x = (-1)x explain why
- (-2) . 3 = -(2 . 3)
+Using the fact that -x = (-1)x, explain why
+(-2) . 3 = -(2 . 3)
 
- LHS
-=((-1) . 2) . 3
-= -1 (2 . 3)
-= - (2 . 3)
+LHS
+= ((-1) . 2) . 3
+= -1(2 . 3)
+= -(2 . 3)
 
 Problem 1.19
-using problem 1.18, explain why
+Using problem 1.18, explain why
 (-2)(-3) = 2 . 3
 
 LHS
 = ((-1) . 2) . ((-1) . 3)
-= (-1 . -1) (2 . 3)
+= (-1 . -1)(2 . 3)
 = 1 . (2 . 3)
 = (2 . 3)
 
 Problem 1.20
-using the fact that -x = (-1)x explain why
-
+Using the fact that -x = (-1)x, explain why
 -(4 + 5) = (-4) + (-5)
+
 LHS
-(-1) (4 + 5)
-= (-1 . 4) + (- 1 . 5)
+= (-1)(4 + 5)
+= (-1 . 4) + (-1 . 5)
 = -4 + -5
 
-=======================
+================================
 
 Exercises
 
 1.4.1
-compute -631 + (114 + 631)
+Compute -631 + (114 + 631)
 = 114
 
-
 1.4.2
-what is the sum of all the negative integers that are greater than 5?
+What is the sum of all the negative integers that are greater than -5?
 = -4 + -3 + -2 + -1
 = -(4 + 3 + 2 + 1)
 = -10
 
 1.4.3
-what is the sum
--10 + - 9  + - 8 + ... + 9 + 10 + 11 + 12
-10  to 1 cancel each other
-so only 11 +  12
+What is the sum
+-10 + -9 + -8 + ... + 9 + 10 + 11 + 12
+
+-10 to 10 cancel each other.
+So only 11 + 12
 = 23
 
 1.4.4
-what is the value of 210. 5 + 105 . (-9)
+What is the value of 210 . 5 + 105 . (-9)?
 = 105 . 2 . 5 + 105 . -9
-= 105 (10 - 9)
+= 105(10 - 9)
 = 105
 
 1.4.5
-what is 
+What is
 9342 + (-438)719 + (-9340) + (-438)(-719)
-= 9342 - 9340 + (-438) (719) + (-438) (-719)
-= 2 + -438 (719 - 719)
+= 9342 - 9340 + (-438)(719) + (-438)(-719)
+= 2 + -438(719 - 719)
 = 2
 
-===================
+================================
 
 1.5 Subtraction
 
-let a and b be any numbers
-subtraction a - b is defined as
+Let a and b be any numbers.
+Subtraction a - b is defined as
 
 a - b = a + (-b)
-subtracting a number just means adding its opposite
 
+Subtracting a number just means adding its opposite.
 
-problem 1.21
-use the definition of subtraction to answe the following questions
-a. what is 0 - 17?
-b. what is 17 - 17?
-c. what is 17-  0 ?
+Problem 1.21
+Use the definition of subtraction to answer the following questions:
+a. What is 0 - 17?
+b. What is 17 - 17?
+c. What is 17 - 0?
 
-answer:
-by the definition of subtraction,
+Answer:
+By the definition of subtraction,
 the subtraction of a - b is defined as
 a - b = a + (-b)
 
 a. 0 - 17
-= 0 + (- 17)
-= -17
+   = 0 + (-17)
+   = -17
 
 b. 17 - 17
-= 17 + (- 17)
-= 0
+   = 17 + (-17)
+   = 0
 
 c. 17 - 0
-= 17 + (- 0)
-= 17
+   = 17 + (-0)
+   = 17
 
 Problem 1.22
-use the definition of subtraction to answe the following questions
+Use the definition of subtraction to answer the following questions:
 a. 11 - (-13) = 11 + 13
 b. -11 - 13 = -(11 + 13)
-c. 11 -13 = -(13 - 11)
+c. 11 - 13 = -(13 - 11)
 
-by the definition of subtraction,
+By the definition of subtraction,
 the subtraction of a - b is defined as
 a - b = a + (-b)
 
-a. LHS -> 11 - (- 13)
-= 11 + (- (- 13 ))
-= 11 + 13
+a. LHS -> 11 - (-13)
+   = 11 + (-(-13))
+   = 11 + 13
 
 b. LHS -> -11 - 13
-= -11 + (- 13)
-= -1 (11 + 13) by distributive property
-= -(11 + 13)
+   = -11 + (-13)
+   = -1(11 + 13) by distributive property
+   = -(11 + 13)
 
 c. RHS -> -(13 - 11)
-= -(13 + (-11))
-= - 13  + -(-11)
-= -13 + 11
-= 11 - 13 by commutative property
+   = -(13 + (-11))
+   = -13 + -(-11)
+   = -13 + 11
+   = 11 - 13 by commutative property
 
-=================================================
+================================
 
-Important property
+Important Properties:
 subtraction of negation: x - (-y) = x + y
-substraction from negation: -x -y = -(x + y)
-negation of subtraction: -(x-y) = -x + y = y - x
+subtraction from negation: -x - y = -(x + y)
+negation of subtraction: -(x - y) = -x + y = y - x
 
-=================================================
-
+================================
 
 Problem 1.23
-find numbers a and b csuch that a - b is not equal to b - a
-let a = -1
-let b = -1
+Find numbers a and b such that a - b is not equal to b - a.
+
+Let a = -1
+Let b = -1
 
 -1 - 1 = -2
 -1 - (-1) = 0
 
 Problem 1.24
-find numbers a,b,c such that (a-b)-c is not equal to a - (b-c)
-let a = 0
-let b = -2
-let c = 1
+Find numbers a, b, c such that (a - b) - c is not equal to a - (b - c).
 
-(0-(-2)) - 1 = 1
-0 - (-2-1) = 0 - (-3) = 3
+Let a = 0
+Let b = -2
+Let c = 1
 
-problem 1.25
-what is the value of 1643 - 1997 - 1643
-answer: -1997
+(0 - (-2)) - 1 = 1
+0 - (-2 - 1) = 0 - (-3) = 3
+
+Problem 1.25
+What is the value of 1643 - 1997 - 1643?
+Answer: -1997
 
 Problem 1.26
-what is the value of 268 + 1375 + 6179 - 168 - 1275 - 6079
-answer:
-rearrange and regroup
+What is the value of 268 + 1375 + 6179 - 168 - 1275 - 6079?
+
+Answer:
+Rearrange and regroup
 = (268 - 168) + (1375 - 1275) + (6179 - 6079)
 = 100 + 100 + 100
 = 300
 
 Problem 1.27
-a. explain why (26 - 24) . 64 = 26 . 64 - 24 . 64
-b. compute 26 . 64 - 24 . 64
+a. Explain why (26 - 24) . 64 = 26 . 64 - 24 . 64
+b. Compute 26 . 64 - 24 . 64
 
-answer:
-a. LHS -> 64 . (26 - 24) by commutative 
-= (64 . 26) - (64 . 24) by distributive
-= (26 . 64) - (24 . 64) by commutative
+Answer:
+a. LHS -> 64 . (26 - 24) by commutative
+   = (64 . 26) - (64 . 24) by distributive
+   = (26 . 64) - (24 . 64) by commutative
 
 b. 2 . 64 = 128
 
 Problem 1.28
-Use the fact that 999 = 1000 - 1 to evaluate 999 (345)
-answer:
+Use the fact that 999 = 1000 - 1 to evaluate 999(345).
 
-(345)(1000 - 1) 
+Answer:
+(345)(1000 - 1)
 = 345000 - 345
 = 344655
 
 Exercises
+
 1.5.1
-What is the value of 85(33.22) - 33(22.85)
-= 22 . 33 . 85 - 22 . 33 . 85 = 0
+What is the value of 85(33.22) - 33(22.85)?
+= 22 . 33 . 85 - 22 . 33 . 85
+= 0
 
 1.5.2
-compute (1992 + 1992) (1992 - 1992)
-= (1992 + 1992) . 0 = 0
+Compute (1992 + 1992)(1992 - 1992)
+= (1992 + 1992) . 0
+= 0
 
 1.5.3
-city of alexandria had a high temp of 18deg and low temp of -5deg on the same day
-by how many deg did the high temp exceed low temp?
+City of Alexandria had a high temp of 18deg and low temp of -5deg on the same day.
+By how many deg did the high temp exceed low temp?
 
-answer:
-find the difference
+Answer:
+Find the difference.
 18 - (-5) = 23 degrees
 
-
 1.5.4
-evaluate 3 + -9 - (-5)
+Evaluate 3 + -9 - (-5)
 = 3 - 9 + 5
-= -6 + 5 = -1
+= -6 + 5
+= -1
 
 1.5.5
-if x and y are numbers such that y - x = 7, what is the value of x - y?
-from definition of negation of difference, -(x - y) = y - x
+If x and y are numbers such that y - x = 7, what is the value of x - y?
 
-then the value of x - y is -(7)
+From definition of negation of difference, -(x - y) = y - x.
 
+Then the value of x - y is -(7).
 
 subtraction of negation: x - (-y) = x + y
-substraction from negation: -x -y = -(x + y)
-negation of subtraction: -(x-y) = -x + y = y - x
-
+subtraction from negation: -x - y = -(x + y)
+negation of subtraction: -(x - y) = -x + y = y - x
 
 1.5.6
-compute
+Compute
 100 - 2 + 101 - 4 + 102 - 6 + 103 - 8 + 104 - 10
-(100 + 101 + 102 + 103 + 104) + (-2 - 4 - 6 - 8 - 10)
+= (100 + 101 + 102 + 103 + 104) + (-2 - 4 - 6 - 8 - 10)
 = 510 + -30
 = 480
 
 1.5.7
-compute (1901 + 1902 + ... + 1993) - (101 + 102 + ... + 193)
+Compute (1901 + 1902 + ... + 1993) - (101 + 102 + ... + 193)
 = (1901 - 101) + (1902 - 102) + ... + (1993 - 193)
-= 1800 . 93 = 167400
+= 1800 . 93
+= 167400
 
 1.5.8
-by how much does the sum
+By how much does the sum
 19 + 28 + 37 + 46 + 55 + 64 + 73 + 82 + 91
-
 exceed the sum
-18 + 27 + 36 + 45 + 54 + 63 + 72 + 71 + 90
+18 + 27 + 36 + 45 + 54 + 63 + 72 + 71 + 90?
 
-answer:
-9 - its just shifted by -1 and since we hanve 9 numbers 1 * 9
+Answer:
+9 - it's just shifted by -1 and since we have 9 numbers, 1 * 9
 
 1.5.9
-compute 1990 . 1991 - 1989 . 1990
+Compute 1990 . 1991 - 1989 . 1990
 = 1990 . 1991 - 1990 . 1989 by commutative
-= 1990 (1991 - 1989)
-= 1990 (2)
+= 1990(1991 - 1989)
+= 1990(2)
 = 3980
 
 1.5.10
-compute 998 . 23 in your head
-= 23 . (1000 - 2) 
-= 23000 - 64
+Compute 998 . 23 in your head.
+= 23 . (1000 - 2)
+= 23000 - 46
 = 22954
 
 1.5.11
-the sum of the first 10000 positive even numbers is how much more
+The sum of the first 10000 positive even numbers is how much more
 than the first 10000 positive odd numbers?
 
-answer:
-difference = sum of first 10k even numbers - sum of first 10k odd integers
+Answer:
+Difference = sum of first 10k even numbers - sum of first 10k odd integers
 
-= (2+4+6+8+...) - (1+3+5+7+...)
-= (2+4+6+8+...) + (-1-3-5-7-...)
-= (2 - 1) + (4 - 3) + (6 - 5) + (8 - 7) ... (10000 - 99999)
+= (2 + 4 + 6 + 8 + ...) - (1 + 3 + 5 + 7 + ...)
+= (2 + 4 + 6 + 8 + ...) + (-1 - 3 - 5 - 7 - ...)
+= (2 - 1) + (4 - 3) + (6 - 5) + (8 - 7) + ... + (10000 - 9999)
 = 1 + 1 + 1 + 1 + ...
 = 10000
 
-============================
-
+================================
 
 1.6 Reciprocals
 
-identity for summation = 0
-since x + 0 = x itself
+Identity for summation = 0
+Since x + 0 = x itself
 
-identity for multiplicatoin = 1
+Identity for multiplication = 1
 
-
-The reciprocal of x, written 1/x is the number such that
+The reciprocal of x, written 1/x, is the number such that
 
 1/x . x = 1
-this is also called the multiplicative inverse of x
+
+This is also called the multiplicative inverse of x.
 
 Problems
+
 1.29
-a. what is the product of 0 and any number?
-b. using part a, explain why 0 doesn't have a reciprocal
+a. What is the product of 0 and any number?
+b. Using part a, explain why 0 doesn't have a reciprocal.
 
-answer:
-a. x . 0 = 0 so its always 0
-b. by the definition of reciprocal
-
-1/0 . 0 = 1
-but since any number times 0 equals 0 therefore no solution exist
-and it's impossible 
-
+Answer:
+a. x . 0 = 0, so it's always 0.
+b. By the definition of reciprocal,
+   1/0 . 0 = 1
+   But since any number times 0 equals 0, therefore no solution exists
+   and it's impossible.
 
 Problem 1.30
-explain why the reciprocal of 1 is 1
-answer: by the definition of reciprocal,
+Explain why the reciprocal of 1 is 1.
+
+Answer:
+By the definition of reciprocal,
 1/x . x = 1
 
-so 1/1 . 1 = 1
+So 1/1 . 1 = 1
 
 Problem 1.31
-a. what is the product of 1/2 and 2?
-by definition of reciprocal, the product of 1/2 . 2 = 1
-answer: 1/2 . 2 = 1
-b. using part a, explain why the reciprocal of 1/2 is 2
-by the definition of reciprocal any number if the product is 1 is its reciprocal
-___ . 1/2 = 1
+a. What is the product of 1/2 and 2?
+   By definition of reciprocal, the product of 1/2 . 2 = 1.
+   Answer: 1/2 . 2 = 1
 
+b. Using part a, explain why the reciprocal of 1/2 is 2.
+   By the definition of reciprocal, any number if the product is 1 is its reciprocal.
+   ___ . 1/2 = 1
 
 Problem 1.32
-a. what is the product of 5.7 and 1/5 . 1/7
-b. using part a explain why the reciprocal of 5 . 7 is 1 / 5 . 1 / 7
+a. What is the product of 5.7 and 1/5 . 1/7?
+b. Using part a, explain why the reciprocal of 5 . 7 is 1/5 . 1/7.
 
-answer:
-a. by definition of reciprocal
-the product of (5 . 7) . (1/5 . 1/7) = 1
-= 35 . 1/35 = 1
-or = (5 . 1/5) . (7 . 1/7) = 1 . 1
+Answer:
+a. By definition of reciprocal,
+   the product of (5 . 7) . (1/5 . 1/7) = 1
+   = 35 . 1/35 = 1
+   or = (5 . 1/5) . (7 . 1/7) = 1 . 1
 
 b. __ . 1/35 = 1 -> x = 35
 
 Problem 1.33
-a. what is the product of -8 and -1/8
-b. using part a explain why the reciprocal of -8 is -1/8
+a. What is the product of -8 and -1/8?
+b. Using part a, explain why the reciprocal of -8 is -1/8.
 
-answer:
-a. by definition of reciprocal
--8 . - 1/8 = 1
+Answer:
+a. By definition of reciprocal,
+   -8 . -1/8 = 1
 
-===========
+================================
 
 Exercises
+
 1.6.1
-what is the reciprocal of -1?
+What is the reciprocal of -1?
 -1/1, since -1 . -1/1 = 1
 
 1.6.2
-what number is not the reciprocal of any number?
-answer: 0 since anything divided by 0 is undefined
+What number is not the reciprocal of any number?
+Answer: 0, since anything divided by 0 is undefined.
 
 1.6.3
-what is the product of any nonzero number and twice its reciprocal?
+What is the product of any nonzero number and twice its reciprocal?
 
-from the definition of reciprocal,
-x.  1/x = 1
+From the definition of reciprocal,
+x . 1/x = 1
 
-but we have
+But we have
 x . 2 . 1/x
 = x . 1/x . 2
 = 1 . 2
 = 2
 
-1.64
-multiply the negation of a positive number by the reciprocal of that same posistive number
-what is the product?
+1.6.4
+Multiply the negation of a positive number by the reciprocal of that same positive number.
+What is the product?
 
-answer:
+Answer:
 -x . 1/x = ??
-since we know x . 1/x = 1
+Since we know x . 1/x = 1
 = -1(x) . 1/x
 = -1 . x . 1/x
 = -1 . 1
 = -1
 
 1.6.5
-compute (2.3.4) (1/2 + 1/3 + 1/4)
-= (2.3.4) 1/2 + (2.3.4) 1/3 + 2.3.4 . 1/4
+Compute (2.3.4)(1/2 + 1/3 + 1/4)
+= (2.3.4)1/2 + (2.3.4)1/3 + (2.3.4)1/4
 = 12 + 8 + 6
 = 26
 
-=============================
+================================
 
 Division
-is a combination of multiplication and reciprocation
 
-let a and b be numbers such that b is nonzero
-the quotient a : b is defined as
+Division is a combination of multiplication and reciprocation.
+
+Let a and b be numbers such that b is nonzero.
+The quotient a : b is defined as
 
 a/b = a . 1/b
 
-Problem
-1.34
-using the definition of division and the fact that 
+Problem 1.34
+Using the definition of division and the fact that
+10 = 5 . 2, explain why 10 / 2 = 5.
 
-10 = 5 . 2 explain why 10 / 2 = 5
-
-by the definition of division,
+By the definition of division,
 a/b = a . 1/b
 
 10 / 2 = 10 . 1/2
 = (2 . 5) . 1/2
-= 5 . (2.  1/2) < by the definition of reciprocal, we have 1
+= 5 . (2 . 1/2)
+By the definition of reciprocal, we have 1.
 = 5 . 1
 = 5
 
-problem 1.3.5
-let x be any nonzero number
-use the definition of division to answer the following quetions
+Problem 1.35
+Let x be any nonzero number.
+Use the definition of division to answer the following questions:
 a/b = a . 1/b
 
-a. what is 0 / x ?
-b. what is x / x ?
-c. what is x / 1?
-d. what is 1 / x ?
+a. What is 0 / x?
+b. What is x / x?
+c. What is x / 1?
+d. What is 1 / x?
 
-answer:
+Answer:
 a. 0 / x = 0 . 1/x
-= 0
+   = 0
 
 b. x / x = x . 1/x
-= 1 by the definition of reciprocal
+   = 1 by the definition of reciprocal
 
 c. x / 1 = x . 1/1
-= x
+   = x
 
 d. 1 / x = 1 . 1/x
-= 1/x
+   = 1/x
 
 1.36
-use the definition of division to explain why
+Use the definition of division to explain why
 17 : 1/5 = 17 . 5
 
-answer:
+Answer:
 a/b = a . 1/b
 
-= 17 . 1/1/5
+= 17 . 1/(1/5)
 = 17 . 5 by reciprocal of reciprocals
 
 1.37
-use the definition of division to compute the following quantities
+Use the definition of division to compute the following quantities:
 a. -10 / 2
 b. 10 / -1
 c. -10 / -2
 
-answer:
+Answer:
 a/b = a . 1/b
+
 a. -10 . 1/2
-= -5
+   = -5
 
 b. 10 . 1/-2
-= (2 . 5) . 1/-2
-= 5 . -1
-= -5
+   = (2 . 5) . 1/-2
+   = 5 . -1
+   = -5
 
 c. -10 . 1/-2
-= 5
+   = 5
 
 Problem 1.38
-a. find positive numbers a and b such that a / b is not equal to b / a
-b. find positive number a, b, and c such that (a / b) / c is not equal to a / (b / c)
+a. Find positive numbers a and b such that a / b is not equal to b / a.
+b. Find positive numbers a, b, and c such that (a / b) / c is not equal to a / (b / c).
 
-answer:
-a. let a = 1, b = 2
-therefore 1/2 is not equal to 2/1
+Answer:
+a. Let a = 1, b = 2
+   Therefore 1/2 is not equal to 2/1.
 
-b. let a = 1, b = 2, c =4
-therefore
-(1 / 2) / 4 is not equal to 1 / (2 / 4)
-= 1/2 / 4 is not equal to 1 / 1/2
-= 1/8 is not equal to 1 .
+b. Let a = 1, b = 2, c = 4
+   Therefore
+   (1 / 2) / 4 is not equal to 1 / (2 / 4)
+   = 1/2 / 4 is not equal to 1 / 1/2
+   = 1/8 is not equal to 2
 
-
-problem 1.39
-what is 
+Problem 1.39
+What is
 20 . 24 . 28 . 32 : (10 . 12 . 14 . 16)
-= 20 . 24 . 28 . 32 . (1/10 . 12 . 14 . 16)
-= 2 . 2 . 2 . 2 
+= 20 . 24 . 28 . 32 . (1/10 . 1/12 . 1/14 . 1/16)
+= 2 . 2 . 2 . 2
 
 Problem 1.40
-compute (116.93) / (116 . 31)
-= 116 . 93 . (1/ 116 . 31)
+Compute (116.93) / (116 . 31)
+= 116 . 93 . (1/116 . 1/31)
 = (116 . 1/116) . (93 . 1/31)
 = 1 . 3
-=3 
+= 3
 
-problem 1.41
-a. using definiton of division explain why
-(12 + 18) / 3 = 12 / 3 + 18 / 3
+Problem 1.41
+a. Using definition of division, explain why
+   (12 + 18) / 3 = 12 / 3 + 18 / 3
 
-b. is 6 / (2 + 1) equal to 6 / 2 + 6 / 1?
+b. Is 6 / (2 + 1) equal to 6 / 2 + 6 / 1?
 
-answer:
-a.
-= (12 + 18) . (1/3)
-= 12 / 3 . 18 / 3
+Answer:
+a. = (12 + 18) . (1/3)
+   = 12/3 + 18/3
 
-b. 6 / 3 = 1/2
-3 + 6 = 9
-therefore not equal
+b. 6 / 3 = 2
+   6/2 + 6/1 = 3 + 6 = 9
+   Therefore not equal.
 
-=========================================
+================================
 
 Exercises
-(2+4+6+8+10) / (10 + 8 + 6 + 4 + 2)
-= (2+4+6+8+10) . 1/10+8+6+4+2
+
+(2 + 4 + 6 + 8 + 10) / (10 + 8 + 6 + 4 + 2)
+= (2 + 4 + 6 + 8 + 10) . 1/(10 + 8 + 6 + 4 + 2)
 = 1
 
-
-1.7.2 divide 205 . 205 by 205 what is the result?
+1.7.2
+Divide 205 . 205 by 205. What is the result?
 (205 . 205) / 205
 = 205 . 205 . 1/205
 = 205
 
-what is 64000 / 800
+What is 64000 / 800?
 = (640 . 100) / (8 . 100)
 = 640 / 8
 = 80
 
 1.7.4
-compute 777,777,777,770 / 77,777,777,777
+Compute 777,777,777,770 / 77,777,777,777
 = (10 . 77,777,777,777) / 77,777,777,777
 = 10
 
 1.7.5
-what is 28 / 1/7?
-= 28 . 7 = 194
+What is 28 / 1/7?
+= 28 . 7
+= 196
 
 1.7.6
-what number is 10 more than the quotient whe 78 is divided by 1/2?
+What number is 10 more than the quotient when 78 is divided by 1/2?
 
 = 10 + (78 / 1/2)
 = 10 + 78 . 2
@@ -670,94 +680,98 @@ what number is 10 more than the quotient whe 78 is divided by 1/2?
 = 166
 
 1.7.7
-what is the value of 1/2 : 1/2 : 1/2 : 1/2?
-1 : 1/2 : 1/2
+What is the value of 1/2 : 1/2 : 1/2 : 1/2?
+= 1 : 1/2 : 1/2
 = 1 . 2 : 1/2
-= 2 / 1.2
+= 2 / 1/2
 = 2 . 2
 = 4
 
-1.78
-compute (27 . 31 . 35 . 39 . 43) : (43 . 39 . 35 . 31)
-= (27 . 31 . 35 . 39 . 43) . 1 / (43 . 39 . 35 . 31)
+1.7.8
+Compute (27 . 31 . 35 . 39 . 43) : (43 . 39 . 35 . 31)
+= (27 . 31 . 35 . 39 . 43) . 1/(43 . 39 . 35 . 31)
 = 27
 
 1.7.9
-compute (50 . 60 . 70 . 80) / (5 . 6 . 7 . 8)
+Compute (50 . 60 . 70 . 80) / (5 . 6 . 7 . 8)
 = 10 . 10 . 10 . 10
 = 10000
 
 1.7.10
-compute (77,777,777,777 + 77,077) / 7
+Compute (77,777,777,777 + 77,077) / 7
 = (77,777,777,777 / 7) + (77,077 / 7)
 = 11,111,111,111 + 11,011
 = 11,111,122,122
 
 1.7.11
-compute (124 + 104 + 84 + 64 + 44 + 24) / (62 + 52 + 42 + 32 + 22 +12)
+Compute (124 + 104 + 84 + 64 + 44 + 24) / (62 + 52 + 42 + 32 + 22 + 12)
 = 2(62 + 52 + 42 + 32 + 22 + 12) / (62 + 52 + 42 + 32 + 22 + 12)
 = 2
 
 1.8 Summary
 
-1.63
-Challenge problems
-what is the sum of the first 61 positive integers?
-answer:
+1.8.3
+Challenge Problems
 
+What is the sum of the first 61 positive integers?
+
+Answer:
 (1 + 2 + 3 + ... + 61)
 = (1 + 61) + (2 + 60) + (3 + 59) + ... + (whatever the half point is)
-= 62 + 62 + 62 + ... 62
-since the total range = 1 up to 61
+= 62 + 62 + 62 + ... + 62
+Since the total range = 1 up to 61
 = 30(62) + 31
 = 1891
 
-1.64
-what is the value of the sum
+1.8.4
+What is the value of the sum
 5 + 10 + 15 + ... + 95 + 100?
-answer:
-5 (1 + 2 + 3 + ... + 20)
-= 5 (whatever the sum from 1 up to 20 is)
-= 5 ((1 + 20) + (2 + 19) + ... + (midpoint) )
-= 5 (21 . 10)
-= 5 (210)
+
+Answer:
+5(1 + 2 + 3 + ... + 20)
+= 5(whatever the sum from 1 up to 20 is)
+= 5((1 + 20) + (2 + 19) + ... + (midpoint))
+= 5(21 . 10)
+= 5(210)
 = 1050
 
-1.65
-what is the sum
-- 100 + (-99) + (-98) + ... + 97 + 98
-answer:
-additive inverse property
+1.8.5
+What is the sum
+-100 + (-99) + (-98) + ... + 97 + 98?
+
+Answer:
+Additive inverse property
 -98 up to 98 = 0
-just sum the -100 - 99
+Just sum the -100 - 99
 = -199
 
-1.66
-find the sum
+1.8.6
+Find the sum
 (-39) + (-37) + (-35) + ... + (-1)
 
-lets see, they're all odd numbers and each sum skips 1 number
+Let's see, they're all odd numbers and each sum skips 1 number.
 = (-39 - 1) + (-37 - 3) + ...
 = -40 - 40 ...
-number of terms = 20 , so 10 pairs
-= 10 (-40)
+Number of terms = 20, so 10 pairs.
+= 10(-40)
 = -400
 
-1.68
-what is the prodcut 
-(40 + -(10)) (36 + -(9)) (32 + -(8)) ... (-32 + 8) (-36 + 9) (-40 + 10)
+1.8.8
+What is the product
+(40 + -(10))(36 + -(9))(32 + -(8)) ... (-32 + 8)(-36 + 9)(-40 + 10)?
+
 (16 - 16)
 = 0
 
-1.69
-echoing is a 1 digit number to make it a two digit
-eg making 2 into 22 is euivalent to multiplying by 11
+1.8.9
+Echoing is taking a 1 digit number to make it a two digit.
+E.g., making 2 into 22 is equivalent to multiplying by 11.
 
-echoing a 2 digit number to make it a 4 digit number
-eg makin 23 into 2323 is equivalent to multiplying the two digit number by what value?
+Echoing a 2 digit number to make it a 4 digit number.
+E.g., making 23 into 2323 is equivalent to multiplying the two digit number by what value?
 
-answer:
-lets see
+Answer:
+Let's see:
 2 echo = 22
 2 . 11 = 22
 where 11 = 22 / 2
@@ -766,277 +780,293 @@ where 11 = 22 / 2
 where
 2323 = (something involving 23) + (something involving 23)
 2323 = 2300 + 23
-= 23 (100) + 23
-= 23 (100 + 1)
-= 23 (101)
+= 23(100) + 23
+= 23(100 + 1)
+= 23(101)
 = 101
 
-1.70
-the number 222,222 is equal to the product 37,037 . 6
-what is the product of 37,037 and 27?
+1.8.10
+The number 222,222 is equal to the product 37,037 . 6.
+What is the product of 37,037 and 27?
 
-answer:
-we konw that 222222 = 37037 . 6
+Answer:
+We know that 222222 = 37037 . 6
 
-we need to find x = 37037 . 27
+We need to find x = 37037 . 27
 27 = 9/2 . 6
 
 x = 37037 . 9/2 . 6
 x = 37037 . 6 . 9/2
 x = 222222 . 9/2
 x = 111111 . 9
-x = 999999 
+x = 999999
 
-other apporach
-since we know 2222222 = 37037 . 6
-then we know 111111 = 37037 . 3
+Other approach:
+Since we know 222222 = 37037 . 6
+Then we know 111111 = 37037 . 3
 
 x = 37037 . 27
-x = 37037 . 3 (9)
+x = 37037 . 3(9)
 x = 111111 . 9
 = 999999
 
-1.71
-given numbers a and b, let a O (operation) b equal 2a + 2b
-for example, 3 O 4 equals 14
+1.8.11
+Given numbers a and b, let a O (operation) b equal 2a + 2b.
+For example, 3 O 4 equals 14.
 
-a. show that O is commutative
-to check commutativity, we need to show
-a O b = b O a by definition of commutative property
+a. Show that O is commutative.
 
-since we know that a O b = 2a + 2b, we need to show b O a = 2b + 2a
+To check commutativity, we need to show
+a O b = b O a by definition of commutative property.
 
-from the example we have
+Since we know that a O b = 2a + 2b, we need to show b O a = 2b + 2a.
+
+From the example we have:
 3 O 4 = 3(2) + 4(2) = 6 + 8 = 14
-check for commutative
+
+Check for commutative:
 4 O 3 = 4(2) + 3(2) = 8 + 6 = 14
-still equals. 
-the commutative property of addition states for any numbers x and y,
-x + y = y + x
-since 2a and 2b are numbers, we can conclude that 2a + 2b = 2b + 2a
-therefore, a O b = b O a. The operation is commutative
+Still equals.
 
-b. show that O is not associative
-to show O is associative, we must show
+The commutative property of addition states for any numbers x and y,
+x + y = y + x.
+Since 2a and 2b are numbers, we can conclude that 2a + 2b = 2b + 2a.
+Therefore, a O b = b O a. The operation is commutative.
 
+b. Show that O is not associative.
+
+To show O is associative, we must show
 (a O b) O c = a O (b O c)
-LHS
+
+LHS:
 2a + 2b O c
 2(2a + 2b) + 2c
 = 4a + 4b + 2c
 
-RHS
+RHS:
 a O (2b + 2c)
 = 2a + 2(2b + 2c)
 = 2a + 4b + 4c
 
-therefoer the two sides are not equal, and not associative.
+Therefore the two sides are not equal, and not associative.
 
-1.72
-given numbers a and b,
-let a O b equal a. for example, a O b equals 3
-a. show that O is associative
-b. show that O is not commutative
+1.8.12
+Given numbers a and b,
+let a O b equal a. For example, a O b equals 3.
 
-answer:
-a. we know a O b = a that and a O b = 3
-to show O is associative, we need to show
+a. Show that O is associative.
+b. Show that O is not commutative.
 
-(a O b) O c = a O (b O c)
-LHS
-= a O c
-= a
+Answer:
+a. We know a O b = a and that a O b = 3.
+   To show O is associative, we need to show
 
-RHS
-= a O b
-= a
+   (a O b) O c = a O (b O c)
 
-therefore the two sides are equal and is associative
+   LHS
+   = a O c
+   = a
 
-b. by definition of commutative law
-a O b = b O a
-we need to show a O b is not commutative, that is,
-we need to show LHS and RHS is not equal
+   RHS
+   = a O b
+   = a
 
-LHS
-a O b = a
+   Therefore the two sides are equal and is associative.
 
-RHS
-b O a = b
-therefore the equation is not commutative.
+b. By definition of commutative law
+   a O b = b O a
 
-1.73
-let a, b, x, and y be numbers
-show that (a + b)(x + y) equals ax + ay + bx + by
-answer:
+   We need to show a O b is not commutative, that is,
+   we need to show LHS and RHS are not equal.
 
-distribute
+   LHS
+   a O b = a
+
+   RHS
+   b O a = b
+
+   Therefore the equation is not commutative.
+
+1.8.13
+Let a, b, x, and y be numbers.
+Show that (a + b)(x + y) equals ax + ay + bx + by.
+
+Answer:
+Distribute:
 = (a + b)x + (a + b)y
-= ax + bx + ay + by 
+= ax + bx + ay + by
 = ax + ay + bx + by by commutative property
 
-1.74
-let a,b, and c be numbers
-simplify the following expession
-(a - (b - c))-((a - b) - c)
+1.8.14
+Let a, b, and c be numbers.
+Simplify the following expression:
+(a - (b - c)) - ((a - b) - c)
 
-answer:
-divide into 2 parts
+Answer:
+Divide into 2 parts:
+
 (a - (b - c))
 = a - b + c
 
 ((a - b) - c)
 = a - b - c
 
-combine
+Combine:
 (a - b + c) - (a - b - c)
-= a - b + c -a + b + c
+= a - b + c - a + b + c
 = a + (-b) + c + (-a) + b + c
 = a - a + b - b + c + c
 = 2c
 
-1.75
-find the sum of digits in the answer to
+1.8.15
+Find the sum of digits in the answer to
 9999..999 (94 nines) x 4444...44 (94 fours)
 
-the first number has 94 digits each of which si a 9
-the second number has 94 digits each of which is a 4
+The first number has 94 digits each of which is a 9.
+The second number has 94 digits each of which is a 4.
 
-hint: simplify the problem: how would you handle 99 . 44, 999 . 444 or 9999 . 4444?
-hint: multiplying 9999...99 (94 nines) by 444...44(94 fours) loks hars
-is there really long numbers thats easy to multiply 4444...44 by?
+Hint: simplify the problem: how would you handle 99 . 44, 999 . 444 or 9999 . 4444?
+Hint: multiplying 9999...99 (94 nines) by 444...44 (94 fours) looks hard.
+Is there really long numbers that's easy to multiply 4444...44 by?
 
-answer:
+Answer:
 9 . 4 = 36
 99 . 44 = (11 . 9) . (11 . 4)
 999 . 444 = (111 . 9) . (111 . 4)
-obvervation: whenever the digit increaes, you add 1 extra digit to 11
-99...99 . 44...99 = (11...11 . 9) . (11..11 . 4)
+Observation: whenever the digit increases, you add 1 extra digit to 11.
+99...99 . 44...44 = (11...11 . 9) . (11..11 . 4)
 
-
-lets do another approach
+Let's do another approach:
 99 = (100 - 1)
 999 = (1000 - 1)
 99..999 = (10....0 (95 digits) - 1)
 
-= (10...0 - 1) * (44....44)
+= (10...0 - 1) * (44...44)
 = (10...0 * 44...44) - (1 * 44...44)
 = 94 * 94 - 94
-= 
+=
 
-1.76
-given numbers a and b, define a O B to be a + ab + b
-for example, 2 O 3 = 2 + 2(3) + 3 = 11
+1.8.16
+Given numbers a and b, define a O b to be a + ab + b.
+For example, 2 O 3 = 2 + 2(3) + 3 = 11.
 
-a. show that the operation O is commutative
-b. show thta O is associative
-c. what is the identity of O? that is, what si the identity of the
-number I such that x O I = 1 for all values of x?
-d. what is the inverse of 1 with respect to O, that is, what number goes in the
-blank to solve __ O 1 = I, where I hs the number that you found if part c?
+a. Show that the operation O is commutative.
+b. Show that O is associative.
+c. What is the identity of O? That is, what is the identity of the
+   number I such that x O I = x for all values of x?
+d. What is the inverse of 1 with respect to O, that is, what number goes in the
+   blank to solve __ O 1 = I, where I is the number that you found in part c?
 
-answer:
-a. to show commutativity, we must show
+Answer:
+a. To show commutativity, we must show
+   a + b = b + a for all numbers a and b.
 
-a + b = b + a for all numsber a and B
+   Since we know a O b = a + ab + b and 2 O 3 = 2 + 2(3) + 3,
 
-since we know a O b = a + ab + b and 2 O 3 = 2 + 2(3) + 3
+   we need to show b O a = b + ba + a.
 
-we need to show b O a = b + ba + a
-by commutative multiplication, ba = ab
-by comutatie adidtion, a + ab + b  therefore tewo sides are equal.
+   By commutative multiplication, ba = ab.
+   By commutative addition, a + ab + b.
+   Therefore two sides are equal.
 
-b. to show a O b is associative, we need to prove
-(a O b) O c = a O (b O c)
-LHS
-= (a + ab + b) O c
-let x = (a + ab + b)
-= x O c
-= x + xc + c
-substitute back
-= (a + ab + b) + (a + ab + b)c + c
-= (a + ab + b) + (ac + abc + bc) + c
-= a + b + c + ab + ac + bc + abc
+b. To show a O b is associative, we need to prove
+   (a O b) O c = a O (b O c)
 
-RHS
-a O (b O c)
-= a O (b + bc + c)
-let y = (b + bc + c)
-= a O y
-= a + ay + y
-= a + a(b + bc + c) + (b + bc + c)
-substitute back
-= a + (ab + abc + ac) + (b + bc + c)
-= a + b + c + ab + ac + bc + abc
+   LHS
+   = (a + ab + b) O c
+   Let x = (a + ab + b)
+   = x O c
+   = x + xc + c
+   Substitute back:
+   = (a + ab + b) + (a + ab + b)c + c
+   = (a + ab + b) + (ac + abc + bc) + c
+   = a + b + c + ab + ac + bc + abc
 
-therefore the two sides are ual, associativity is proven
+   RHS
+   a O (b O c)
+   = a O (b + bc + c)
+   Let y = (b + bc + c)
+   = a O y
+   = a + ay + y
+   = a + a(b + bc + c) + (b + bc + c)
+   Substitute back:
+   = a + (ab + abc + ac) + (b + bc + c)
+   = a + b + c + ab + ac + bc + abc
 
-c. number I such that x O I = x
+   Therefore the two sides are equal, associativity is proven.
 
-x + xI + I = x
-subtract both sides by x
-xI + I = 0
-= I(x + 1) = 0 by multiplicative identity property
-I must be 0 for this to equal 0
-threfore the identity element is 0
+c. Number I such that x O I = x
 
-d. finding the inverse
-a O 1 = I
-since we found the identity = 0, we can substitute
-a O 1 = 0
+   x + xI + I = x
+   Subtract both sides by x:
+   xI + I = 0
+   = I(x + 1) = 0 by multiplicative identity property
 
-a + a1 + 1 = 0
-a + a + 1 = 0
-2a + 1 = 0
-a = -1.2
+   I must be 0 for this to equal 0.
+   Therefore the identity element is 0.
 
-================
+d. Finding the inverse:
+   a O 1 = I
+   Since we found the identity = 0, we can substitute:
+   a O 1 = 0
 
-review problems
+   a + a1 + 1 = 0
+   a + a + 1 = 0
+   2a + 1 = 0
+   a = -1/2
+
+================================
+
+Review Problems
+
 1.42
-compute (90 + 91 + 92 + 93 + 94 + 95 + 96 + 97 + 98 + 99)
-answer:
-= (90 + 99) + (91 + 98) + ... 
-= 189 * (10 / 2)
+Compute (90 + 91 + 92 + 93 + 94 + 95 + 96 + 97 + 98 + 99)
+
+Answer:
+= (90 + 99) + (91 + 98) + ...
 = 189 * 5
 = 100 * 5 + 80 * 5 + 9 * 5
 = 500 + 400 + 45
 = 945
 
-1.4
-compute the product 25 . (12 . 8) in your head
-answer:
+1.43
+Compute the product 25 . (12 . 8) in your head.
+
+Answer:
 = 200 . 12
 = 2400
 
-1.44 compute
-3 (101 + 103 + 105 + 107 + 109 + 111 + 113 + 115 + 117 + 119)
-= 3 . (119 + 101) (103 + 117) + ...
+1.44
+Compute
+3(101 + 103 + 105 + 107 + 109 + 111 + 113 + 115 + 117 + 119)
+= 3 . (119 + 101)(103 + 117) + ...
 = 3 . (220 * 5)
-= 3 . (200 . 5) +(20 . 5)
+= 3 . (200 . 5) + (20 . 5)
 = 3 . 1100
 = 3300
 
 1.45
-simplify the expression
+Simplify the expression
 ((1 . 2) + (3 . 4)) - ((5 . 6) + (7 . 8)) . (9 . 0)
 = (2 + 12 - 30 + 56) . 0
 = 0
 
 1.46
-what is
-42 + 7 - 6 . 6 + 3 . -1 . 0  -  (42 + 7 - 6 . 6 + 3 - 4) . 0
-1st exp
+What is
+42 + 7 - 6 . 6 + 3 . -1 . 0 - (42 + 7 - 6 . 6 + 3 - 4) . 0?
+
+1st expression:
 = 42 + 7 - 36 + 0
 = 49 - 36 + 0
 = 13
 
-2nd exp
+2nd expression:
 (42 + 7 - 6 . 6 + 3 - 4) . 0
 = 0
 
-answer = 13 - 0 = 13
-what is the vale of
+Answer = 13 - 0 = 13
+
+What is the value of
 (185 + 378 + 579) - (85 + 178 + 279)
 = 185 + 378 + 579 - 85 - 178 - 279
 = (185 - 85) + (378 - 178) + (579 - 279)
@@ -1044,7 +1074,7 @@ what is the vale of
 = 600
 
 1.48
-calculate
+Calculate
 11 + (-15) + 11 - (-15) + 11 - 15 - (11 + 15)
 = 11 - 15 + 11 + 15 + 11 - 15 - 11 - 15
 = 11 + 11 + 11 - 11 - 15 + 15 - 15 - 15
@@ -1053,15 +1083,15 @@ calculate
 = -8
 
 1.49
-express in simplest from
+Express in simplest form:
 6((25 - 98) - (19 - 98))
 = 6(25 - 98 - 19 + 98)
-= 6 (25 - 19)
-= 6 (6)
+= 6(25 - 19)
+= 6(6)
 = 36
 
 1.50
-compute:
+Compute:
 1 - 3 + 5 - 7 + 9 - 11 + 13 - 15 + 17 - 19 + 21 - 23 + 25
 = -2 -2 -2 -2 -2 -2 + 25
 = -2(6) + 25
@@ -1069,104 +1099,107 @@ compute:
 = 13
 
 1.51
-evaluate 693 . 1587 - 692 . 1587
-= 1587 (693 - 692)
+Evaluate 693 . 1587 - 692 . 1587
+= 1587(693 - 692)
 = 1587 . 1
 = 1587
 
 1.52
-express in the simplest form
-(-20) ((-3)(-15) - (-6)(3))
-= (-20) (45 - (-18))
-= (-20) (45 + 18)
+Express in the simplest form:
+(-20)((-3)(-15) - (-6)(3))
+= (-20)(45 - (-18))
+= (-20)(45 + 18)
 = -20 . 63
 = -1260
 
 1.53
-compute 4(299) + 3(299) + 2(299) + 298
+Compute 4(299) + 3(299) + 2(299) + 298
 = 9(299) + 298
 = 9(299) + 1(299) - 1
 = 10(299) - 1
-= 2990 - 1 
+= 2990 - 1
 = 2989
 
 1.54
-evaluate 40 . 1/8 + 40 : 1/8 + 40 . 1/5 + 40 : 1/5
-= 40/8 + 40.8 + 40/5 . 40.5
+Evaluate 40 . 1/8 + 40 : 1/8 + 40 . 1/5 + 40 : 1/5
+= 40/8 + 40.8 + 40/5 + 40.5
 = 40/8 + 40/5 + 40.8 + 40.5
 = 5 + 8 + 320 + 200
 = 13 + 520
-= 533  
+= 533
 
 1.55
-express in simplest form
-(6 : (-3)) (4 - 12)
-= (6 . -1/3) (-8)
+Express in simplest form:
+(6 : (-3))(4 - 12)
+= (6 . -1/3)(-8)
 = -6/3 . -8
 = 48/3
 = 16
 
 1.56
-simplify
+Simplify:
 (-13) + (-13) : (-13) . (-13) - (-13)
 = -13 + 1 . -13 + 13
-= -13 -13 + 13
+= -13 - 13 + 13
 = -13
 
 1.57
-what is the value of 123,123 divided by 1001?
-answer:
+What is the value of 123,123 divided by 1001?
+
+Answer:
 (100100 + 23,203) : 1001
 = 100 + 23
 = 123
 
-alternative
+Alternative:
 = 123000 + 123
 = 123 . 1000 + 123 . 1
-= 123 (1001)
+= 123(1001)
 
-123 (1001) / 1001
+123(1001) / 1001
 = 123 / 1
 
+1.58
+What is the reciprocal of 2.3.1/4.1/9?
 
-what is the reciprocal of 2.3.1/4,1/9?
-answer:
+Answer:
 1/2 . 1/3
 = 1/6
 = 6
 
 1.59
-compute 1/2 : 1/6
+Compute 1/2 : 1/6
 = 1/2 * 6
-= 6/2 = 3
+= 6/2
+= 3
 
 1.60
-compute (3.4) : (1/5 . 1/6)
+Compute (3.4) : (1/5 . 1/6)
 = 12 : 1/30
 = 12 . 30
 = 360
 
 1.61
-sean adds up all even integers from 2 - 500, inclusive (500 included)
-julie adds up al integers from 1 to 250, inclusiev
-what sean's sum divided by julie's sum?
+Sean adds up all even integers from 2 - 500, inclusive (500 included).
+Julie adds up all integers from 1 to 250, inclusive.
+What is Sean's sum divided by Julie's sum?
 
-sean's sum:
-2(1+2+3+4+5...250)
+Sean's sum:
+2(1 + 2 + 3 + 4 + 5 + ... + 250)
 
+Julie's sum:
+All integers from 1 to 250.
 
-julie's sum
-all integers from 1 to 250
-
-therefore 250 / 250 = 1
+Therefore 250 / 250 = 1.
 
 1.62
-gary wanted to compute 200 : 10 : 2 and his reasoning was
-well 10 : 2 is 5 so 200 : 10 : 2 is the same as 200 : 5
-which is 40 so the answer is 40
-is gary correct? why or why not
+Gary wanted to compute 200 : 10 : 2 and his reasoning was:
+"Well, 10 : 2 is 5, so 200 : 10 : 2 is the same as 200 : 5,
+which is 40, so the answer is 40."
 
-answer:
-incorrect because division is not commutative
-200 : 10 : 2 you must ocmpute left to right
-20 : 2 = 10 is the correct result
+Is Gary correct? Why or why not?
+
+Answer:
+Incorrect because division is not associative.
+200 : 10 : 2 - you must compute left to right.
+20 : 2 = 10 is the correct result.
