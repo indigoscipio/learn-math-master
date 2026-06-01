@@ -2560,3 +2560,194 @@ so 2*25*6 = 300
 
 so total = 300+120 = 420
 
+14.48
+keiko tosses 1 penny and 
+ephraim tosses 2 pennis
+
+whats the proability that ephraim gets the same number of heads that keiko gets?
+
+answer:
+
+ok so we have 
+a total of 3 pennies
+keiko => 2 possibility -> head or tail
+ephraim => 4 possibility -> (h,h)(t,t)(h,t)(t,h)
+
+the question asks the probability tphraim gets the same number of heads that keiko gets
+that means 
+
+case: if keiko gets head
+1 possiblity out of 2 -> thats 1/2 probability
+
+epharim must get with a maxmimum of 1 head
+so either (h,t) or (t,h) -> 2 possibility out of 4 = 1/2 probability
+
+case: if keiko gets tail (no head)
+probability = 1/2
+
+for epharim
+in this case the posibility is (t,t)
+so 1 possibility out of 4 =? 1/4 probability
+
+so combining
+1/2 * 1/2 + 1/2 * 1/4
+1/4 + 1/8
+3/8
+
+14.49
+if two dice are tossed whats the probability that the product of numbers
+showing on the tops of the dice is greater than 10?
+
+answer:
+ok so we have two dice
+with total probability = 36
+
+(d1,d2)
+we wanna find probability such that the product of numbers showing on top is greater than 10
+
+d1 . d2 > 10
+
+case: d1 = 1
+1 . d2 > 10
+no d2 can satisfy this
+
+case: d1 = 2
+2 . d2 > 10
+d2 can be 6 -> 1 possibility
+
+case: d1 = 3
+3 . d3 > 10
+d2 can be {4,5,6} -> 3 possibiilty
+
+case: d1 = 4
+4 . d3 > 10
+d2 can be {3,4,5,6} -> 4
+
+case: d1 = 5
+5 . d3 > 10
+d2 can be {3,4,5,6} -> 4
+
+case: d1 = 6
+d2 can be {2,3,4,5,6} -> 5
+
+
+
+so total = 1+3+4+4+5 = 17/36
+
+
+14.50
+paco uses a spinner to select a number from 1 - 5 inclusive
+with each equal probability
+manu uses a different spinner to select a nmber form 1 - 10 inclusive
+each wih equal probability
+what is the probability that the product of their numbers is less than 30?
+
+answer:
+oks so we have paco
+total possibility = {1,2,3,4,5} = 5
+manu = {1,2,3,...,10} = 10
+total = 5*10 = 50
+
+(p,m)
+we wanna find probability that tthe product of their numbers is less than 30
+so p . m < 30
+
+case: p = 1
+1 . m < 30
+possibility = {1,2,...,10} = 10
+
+case: p = 2
+2 . m < 30
+m < 15
+possibility = {1,2,...,10} = 10
+
+case: p = 3
+3 . m < 30
+m < 10
+possibility = {1,2,...,9} = 9
+
+case: p =4
+4 . m < 30
+m < 7.5
+possiblity = {1,2,3,4,5,6,7} = 7
+
+case: p = 5
+5 . m < 30
+m < 6
+possibility = {1,2,3,4,5} = 5
+
+so total probability is
+10+10+9+7+5 = 41/50
+
+14.51
+in park scools 8 grade
+33 students like voleyball
+39 liike baseketball
+20 like voleyball and softball
+10 like voleyball and basketball
+8 like softball and basketball
+3 like all 3 sports
+and 12 like none of these sports
+
+how many students are in park school's 8th grade?
+
+hint: this sure looks like a venn diagram problem but there are 3 catogeis
+hint: so you shuld start iwth three circles
+
+answer:
+
+
+
+voleyball = 33-17-7-3 = 6
+softball = 34-17-3-5 = 9
+basketball = 39-7-3-5 = 24
+
+combining
+6+9+24+7+17+5+3
+71 tota students + 12
+83
+
+14.52
+in my fencing club there are twice as many boys who are in hish school
+as there are boys who are in middle  school
+of the students in the club who are in middle school
+there are three times as many girls as there are boys
+half of the girls who are in the club are in high school
+if there are 72 people in my fencing club
+how many are middle school boys
+
+hint: assign a variable
+
+answer:
+ok so fencing club = 72
+in this fnecing club
+2 . boys in high school = boys in middle school
+2bh = bm
+
+and zoom in to the boys in middle school
+bm = 3 . girls = boys
+3gm = bm
+
+and zoom in to the girls
+1/2 . girls = in high school
+
+lets actually start from the top and keep this simple
+72 = 2s + s
+72 = 3s -> s = 24
+so there are
+48 students in high school
+24 students in middle school
+
+then
+24 = 3b + b
+24 = 4b
+so boys in middle school = 6
+girls in middle school = 18
+
+then we know
+half of the girls who are in the club arein hish school
+which means
+
+in high school
+48 = boys + girls
+48 = ...
