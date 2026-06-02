@@ -2710,44 +2710,74 @@ combining
 14.52
 in my fencing club there are twice as many boys who are in hish school
 as there are boys who are in middle  school
+
 of the students in the club who are in middle school
 there are three times as many girls as there are boys
+
 half of the girls who are in the club are in high school
+
 if there are 72 people in my fencing club
 how many are middle school boys
 
 hint: assign a variable
 
 answer:
+
 ok so fencing club = 72
 in this fnecing club
-2 . boys in high school = boys in middle school
-2bh = bm
+BH = 2BM
+let x be the number of middle schol boys
+BM = x
+BH = 2x
 
 and zoom in to the boys in middle school
-bm = 3 . girls = boys
-3gm = bm
+girls = 3.BM
+MG = 3x 
 
-and zoom in to the girls
+
 1/2 . girls = in high school
+so split 5050 wich is equal to MG
+HG = 3x
 
-lets actually start from the top and keep this simple
-72 = 2s + s
-72 = 3s -> s = 24
-so there are
-48 students in high school
-24 students in middle school
+combining
 
-then
-24 = 3b + b
-24 = 4b
-so boys in middle school = 6
-girls in middle school = 18
+[total people] = [boys in high school] + [boys in middle school] +
+[girls in high school] + [girls in middle school]
 
-then we know
-half of the girls who are in the club arein hish school
-which means
+72 = 2x + x + 3x + 3x
+72 = 9x
+x = 8
+so there are 8 boys in middle school.
 
-in high school
-48 = boys + girls
-48 = ...
+alternative: do a venn diagram
+
+14.53
+there are 120 seats in a row
+what is the fewest number of seats that must be occupied so that
+the next person to be seated must sit next to someone?
+
+answer:
+
+ok so we have 120 seats
+{s1,s2,s3,...,s120}
+
+if we have 3 seats
+[s1,s2,s3] -> put 1 person in the middle
+
+if we have 4 seats
+[s1,s2,s3,s4] -> we need atleast 2 person here
+either place them in [s1,s3] or [s2,s4]
+therefore the nextperson assign wil be adjacent regardless where he is
+
+if we have 5 seats
+[s1,s2,s3,s4,s5] -> we need 2 people
+put them in [s2, s4]
+
+6 seats
+[s1,s2,s3,s4,s5,s6] -> 3 people
+
+so 1 person can handle/blocks 3 seats
+
+120/3
+40
+we need 40 pople to fill
