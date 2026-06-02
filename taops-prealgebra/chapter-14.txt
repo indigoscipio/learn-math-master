@@ -2781,3 +2781,81 @@ so 1 person can handle/blocks 3 seats
 120/3
 40
 we need 40 pople to fill
+
+14.54
+in how many wasy can you spell the word NOON
+in the grid below? you can start on any letter
+then on each step you can move one letter in any direction (up down left right or diagonal)
+you cannot visit the same letter twice
+
+N N N N
+N O O N
+N O O N
+N N N N
+
+hint: experiment, start from an N in the corner
+how many options do you have?
+what if you start from an N that's not in a corner?
+
+answer:
+corners (4 origins)
+- top left:
+10 + 5 = 15
+since it has 4 corners 15*4 = 60
+
+edges (8 origins)
+4+5+5+5+5+3
+4 + 20 + 3
+23 + 4
+27
+
+since it has 8 edges
+27*8 = 216
+
+combining the total
+60 + 216
+
+276
+
+
+14.55
+two thirds of the dogs at the dog pound are pit bulls
+half the dogs at the pound are female
+three quarters of the male dogs at the pound are pit bulls
+if there are 14 female pit bulls at the pound
+how many dogs are at the pound?
+
+answer:
+
+let x be the total number of dogs on the pound
+total pb = 2/3x
+fd = 1/2x
+md = 1/2x
+mpb = 3/4 . md = 3/4 . 1/2x = 3/8x
+fpb = 14
+
+and we know female dogs = 14
+total pb + male pb + female pb
+2/3x = 3/8x + 14
+2/3x - 3/8x = 14
+16-9/24x = 14
+7/24x = 14
+7x = 336
+x = 48
+
+
+14.56
+we conenct dots with toothpicks in a grid as shown at the right
+if there are 10 horizontal toothpicks in each row
+and 20 vertical ones in each column
+how many total toothpicks are there?
+
+hint: how many horizontal rows of toothpicks are there?
+
+answer:
+ok so this means
+20 vertical toothpicks = 20 rows
+10 horizontal toothpicks = 10 columns
+
+so maybe just mltiply
+20*10 = 200 or smt
