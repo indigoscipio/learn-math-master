@@ -1,0 +1,175 @@
+PROBLEM SOLVING STRATEGIES
+
+15.1 find a pattern
+problems
+
+15.1
+what is the 2010th letter in the sequence below?
+ABCDEDCBAABCDEDCBAABCDEDCBAABCDEDCBA...
+
+answer:
+since we knowthe pattern repeats every
+ABCDEDCBA
+ABCDEDCBA ...
+
+ABCDEDCBA -> takes 9 characters
+so 1st and 9th character is the foundation of this seqeuence
+
+lets take small example
+whats the 13th character of this sequence
+
+ABCDEDCBA -> 9 - remaining = 13-9 = 4
+ABCD -> so D is the 13th character
+
+so thats the remainder when 13 / 9 = 4
+
+now to just map this and confirm
+1st -> A
+2st -> B
+3st -> C
+4st -> D
+5st -> E 
+6st -> D
+7st -> C 
+8st -> B
+9st -> A
+10th -> loops back (A)... continued
+
+
+ok onw lets find the 2010th letter
+need to find the remainder when 2010 is divided by 9
+then map that number to the sequence above
+
+2010 / 9 = 3
+so that translates to 3rd letter = C
+therefore the 2010th letter is C
+
+===============================
+
+15.2
+in this problem we find the units digit (ones digit) of 2^2011
+a. find the units digit of each of the first 8 powers of 2, starting with 2^1
+b. find the units digit of 2^2011
+
+answer:
+ok lets try this
+a. 
+2^1 = 2
+2^2 = 4
+2^3 = 8
+2^4 = 16
+2^5 = 32
+2^6 = 64
+2^7 = 128
+2^8 = 256
+
+b. lets analyze the pattern before
+we know each power incremnet always ends in an even number so the final result should be even
+but the quetsion is what number it is and whats the final digit
+or maybe we dont even need to find the full number just the final digit
+
+ok so we knwo 2^2011 -> its a odd power/expo
+lets compare to
+2^1 -> 2
+2^3 -> 8
+2^5 -> 32
+2^7 -> 128
+
+so maybe it ends in either 2 or 8 here
+this is just my intuitiion but not sure
+
+or wait
+the last digit actually repeats from
+2 4 8 6 2 4 8 6 ....
+so now we actually find the patten here
+2 4 8 6 -> 4 slots, repeats eveyrtime we increment the power + 1
+so like previous exercise we need to find the remainder here when its divided by 4
+
+so the map is
+1 -> 2
+2 -> 4
+3 -> 8
+4 -> 6
+
+lets do a small test -> 2^10
+remainder when 10 / 4 = 2
+
+so 2^10 should have the last digit end in 4
+let me verify that
+2^10 = 512*2 = 1024 so thats correct
+
+now lets find the 2^2011th digit
+find the remainder when 2011 / 4 -> thats three
+so the third from the map is 3 -> 8
+
+so 2^2011 should end with a digit unit of 8.
+
+
+===============================
+
+15.3
+michelle's number recycling machine obeys two rules
+1. if an inserted number has exactly one digit double the number
+2. if an inserted number has exactly two digits, compute the sum of the digits
+
+the first number michelle inserts is 1
+then every answer she gets back gets inserted back in to the machine until  
+fifty numbers are inserted. what is the fiftieth number to be inserted?
+
+answer:
+
+ok i feel like ive come across this question before but lets just try it
+
+so we know michellse machine is like a function with 2 rule
+it takes a number and outputs a number
+
+1. d -> 2 . d (exactly 1 digit)
+2. d1 d2 -> d1 + d2 (exactly 2 digit)
+
+and we start with the first input which is 1
+then michelle did dis until the fifty number is inserted
+we want to find what the fiftieth number to be inserted is (before, not after its 'consumed')
+
+ok lets start simple, so we have
+1st iter: d = 1 -> 1 digit (rule1) -> 2
+2nd iter: d = 2 -> 1 digit (rule1) -> 4
+3rd iter: d = 4 -> 1 digit (rule1) -> 8
+4nd iter: d = 8 -> 1 digit (rule1) -> 16
+5th iter: d = 16 -> 2 digit (rule2) -> 1 + 6 = 7
+6th iter: d = 7 -> 1 digit (rule1) -> 14
+7th iter: d = 14 -> 2 digit (rule2) -> 1 + 4 = 5
+8th iter: d = 5 -> 1 digit (rule1) -> 10
+9th iter: d = 10 -> 2 digit (rule2) -> 1
+10th iter: d = 1 -> 1 digit (rule1) -> 2
+11th iter: d = 2 -> 1 digit (rule1) -> 4
+12th iter: d = 4 -> 1 digit (rule1) -> 8
+13th iter: d = 8 -> 1 digit (rule1) -> 16
+
+hmm why am i not seeing a pattern here, lets pause a bit
+wait actually it loops back on the start of the 10th iteration (end of 9th iteration)
+it loops back to 1 where d = 1 so i think we can solve this now
+
+so the quesion ask for the input for the 50th iteration (result of end of 49th iteration)
+since we know it loops back every start of 10th iteration
+
+remainder when 50 / 9 = 5 so 
+looking at the 5th iter -> 16 input, 7 output
+so the answer is 16
+
+===============================
+
+15.4
+in the figure below each row of *s has two or more *s then the row above it
+altogether how many *s are contained in the first 30 rows?
+
+answer:
+*
+* * *
+* * * * *
+* * * * * * *
+* * * * * * * * * 
+* * * * * * * * * * *
+...
+
+answer:
+

@@ -2843,7 +2843,6 @@ total pb + male pb + female pb
 7x = 336
 x = 48
 
-
 14.56
 we conenct dots with toothpicks in a grid as shown at the right
 if there are 10 horizontal toothpicks in each row
@@ -2853,9 +2852,76 @@ how many total toothpicks are there?
 hint: how many horizontal rows of toothpicks are there?
 
 answer:
-ok so this means
-20 vertical toothpicks = 20 rows
-10 horizontal toothpicks = 10 columns
+lets do simple
 
-so maybe just mltiply
-20*10 = 200 or smt
+2x3 'grid'
+row = 2, column = 3
+
+inside
+4 horizontal toothpicks to build 1 row
+since we have 2 rows mult
+total toothpicks = 2.4 = 8
+
+outside (edges + corners)
+needs 3 toothpicks for top, bottom, and middle
+so 3*3 = 9
+
+total = 8 + 9 = 17
+
+
+now 10 * 20
+10 vertical
+20 horizontal
+
+horizontal
+10*21 = 210
+each row has 10 horizontal toothpicks
+grid = 20 tall -> needs 21 rows
+
+20*11 = 220
+each col has 20 vertical toothpicks
+grid is 10 wide -> needs 11 to frame
+
+430
+
+14.57
+i have 120 blocks
+each block is one of 2 different materials
+3 different colors
+4 different sizes
+5 different shapes
+no 2 blocks have exactly the same all four properties
+i take 2 blocks at random
+what is the probability the two blocks
+have exactly two of these four properties the same?
+
+hint: not all problems have pretty solutions
+sometimes you haveto get your hands dirty with some
+pretty gurngy casework
+
+answer:
+ok so we have 120 blocks
+2 material (m1,m2)
+3 colors (c1,c2,c3)
+4 sizes (s1,s2,s3,s4)
+5 shapes (x1,x2,x3,x4)
+
+no duplicate/sharep roperty
+itake 2 blocks at random
+we wanna find probability of the two blocks
+that have exaclty two of these properties the same
+
+(b1, b2)
+so each block has 2*3*4*5 = 120 probabilities to pick from
+
+b1 -> (m1,c1,s1,x1)
+b1 -> (m1,c1,s1,x2)
+b1 -> (m1,c1,s1,x3)
+b1 -> (m1,c1,s1,x4), etc
+
+then we pick b2
+
+case: material & color match
+4 total size and 5 total shapes
+total probability = 4*5 = 20
+1/20
