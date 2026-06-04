@@ -173,3 +173,71 @@ answer:
 
 answer:
 
+ok so jlets try to analyze thi
+row 1 -> 1 -> 1
+row 2 -> 1 + 2 -> 3
+row 3 -> (1 + 2) + 2 -> 5
+row 4 -> ((1 + 2) + 2) + 2 -> 7
+row 5 -> (((1 + 2) + 2) + 2) + 2 -> 9
+row 6 -> 11
+row 7 -> 13
+row 8 -> 15
+row 9 -> 17
+row 10 -> 19
+row 11 -> 21
+...
+
+
+the question asks for the sum of the first *s for th efirst 30 rows
+since each row just increments the * by 2
+thats like the sum of first 30 odd integers
+
+lets do a simple example
+first 3 = sum of first 3 odd integers
+(1+3+5) = 4+5 = 9
+
+first 5 rows
+[1 + 3 + 5 + 7 + 9] = 25
+
+to find row n, since this is odd do 2n - 1
+first  10 rows
+[1,3,...,19]
+
+hmm im not seeing the pattern here
+actually i think i found it, each 5 row the last unit alternates from
+[1, 3, 5, 7, 9] so to map to index it repeats every
+1 -> 1
+2 -> 3
+3 -> 5
+4 -> 7 
+5 -> 9
+
+and the tens digit increases every 5 rows
+so frist 5 rows = base
+6 - 10 row -> 10
+11 - 15 -> 20
+16 - 20 -> 30
+21 - 25 -> 40
+26 - 30 -> 50
+so 30th digit must have 50 as the tens digit
+
+now to find the actual value
+the remainder when 30 / 6 is 5, we know row 10 ends in 9
+so the 30th odd digit should be 59 i think
+
+now to find the sum
+if i remember the number sum formula thing for 1 increment is
+n . (n+1) / 2
+
+im not sure if this is gonna work with odd numbers but let me try this
+so we know theres like 30 total digits here
+
+[1,3,5,...,55,57,59]
+[59,57,55,...,5,3,1]
+
+60 + 60 + 60 + ... + 60 + 60 + 60
+so the sum is 30 . 60 = 1800
+divide that by 2 to remove the duplicate
+1800 / 2 = 900
+so i think it should be something like 900, not sure
+
