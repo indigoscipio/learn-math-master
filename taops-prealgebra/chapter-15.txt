@@ -542,5 +542,42 @@ maybe prime factorization of 15 and 31
 31 = 31
 
 3*5*31 = 465
+thye dont share a common factor
 hmm maybe not use this lets try another approach
+lets just brute force this until can be divided by 15
 
+31*1 -> 700-31 -> 669
+31*2 -> 638
+..
+
+actually theres a simpler approach
+31 * 10 = 310
+
+700 - 310 = 390
+390 / 15 = 26
+
+so she bought 10 31c stamps
+and 26 15c stamps
+with that exact amount the money fits
+
+
+Problem 15.7
+a partition of a posint n is a way of writing n as the sum of positive integers
+in which the order of the numbersi n the sum doesnt matter
+for example the partitions of 3 are 3, 2+1, and 1 + 1 + 1
+we consider 2 + 1 and 1 + 2 to be the same
+so there are 3 partitions of 3
+how many partitions of 6 are there?
+
+answer:
+ok lets start with simple example
+
+partition of 1 = 1 = 1
+partition of 2 = (2),(2+1) = 2
+so partition of 3 = (3),(2+1),(1+1+1) = 3
+partition of 4 = (4),(3+1),(2+2),(2+1+1),(1+1+1+1) = 5
+partition of 5 = (5),(4+1),(3+2),(3+1+1),(2+1+1+1),(1+1+1+1+1) = 6
+
+hmm im not sure if this is correct or not
+i dont think i can sense any pattern
+3 -> 4 jumps + 2
