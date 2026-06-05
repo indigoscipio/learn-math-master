@@ -399,3 +399,148 @@ since we know row 4 packs 7 nmber and our remaining is 4
 find remainder when 7 / 4 -> 3
 wait maybe im overcomplicating this
 
+ok lets try another angle
+on each  rightmost row
+the pattern is [1,4,9,16,25]
+this is basically just a perfect square
+1^2, 2^2, 3^2, 4^2
+
+now lets find where 119 sits
+sqrt(119) so closest is 10^2 = 100
+and 10 is located in the 10th row
+and closest to that is 11^2 = 121
+
+so 119 is located somewhere in the 11th row
+now find the total number for this row
+so total row = (2.11) - 1 =  22 - 1 = 21 numbers
+
+and row 11 starts with 101 (after 100)
+
+so it starts in 101 and ends in 121
+lets confirm the total number, subtract by 100 -> 1 - 21 = 21 number so its correct
+(121 - 119) + 1  = 3 from the right which means
+on the top of that is the 10^2 with (2.10)-1 = 19 total numbers
+
+which means on the 10th row its just (3-2) = 1 from the right
+so the number sis 99
+
+
+15.1.4
+all of the even nubers from 2 through 288, except those ending in 0
+are multiplied together
+what is the unit digit (ones digit) of the product?
+
+hint: we aren't multiplying the same units digit over and over again.
+but we are multiplying the same group of units of digits over and overagain
+
+answer:
+ok lets try a simple problem
+lets say the even numbers are from 2 to 12
+
+lets find the numbers
+[2,4,6,8,12] - no that ends with 0 skipped
+now the hint says same group of units of digits
+
+2*4*6*8*12 = 4608
+
+ok i cant find any pattern here lets try larger pboelm
+numbers from 2 - 28
+[2,4,6,8,12,14,16,18,22,24,26,28]
+2*4*6*8 = 384
+12*14*16*18 = 48384
+22*24*26*28 = 384384
+
+so the pattern here, the units digit always repeat 4 times
+and every new tens always end in 4
+
+what if
+first 1 (2) (12) (22) 
+2, 12, 22 -> ends in 2
+
+first 2 (2,4) (12,14)
+8, 168 -> ends in 8
+
+first 3 (2,4,6) (12,14,16)
+48, 2688 -> ends in 8
+
+first 4 (2,4,6,8) (12,14,16,18)
+384, 48384 -> ends in 4
+
+so this confirms the pattern
+now we have 2 - 288
+first 100 (2 - 98) -> 4*10 = 40
+so first 200 = 80 numbers
+
+then 200 - 288
+thats just 88 -> 4*8 = 32 numbers which leaves 2,4,6,8
+so this is the first 4 pattern
+which means it ends in 4
+
+alternatively
+power of 4
+{2,4,6,8} -> results in a unit digits of 4
+since we only care about the units digit
+
+find how many time it repeats
+(unit digit of g1) x (unit digit of g2) x (unit digit of g3) x ...
+4 x 4 x 4 .. = 4^n
+
+4^1 = 4 (ends in 4)
+4^2 = 16 (ends in 6)
+4^3 = 64 (ends in 4)
+repeats forever
+
+====================
+
+Exercise 15.2
+make a list
+
+problems 15.5
+find a two digit positive integer with all three properties
+1. the tens digit is larger than the ones digit (units digit)
+2. the difference between the digits is greater than 3
+3. the sum of the digits is greater than 10
+4. and the integer is a multiple of 12
+
+answer:
+ok lets start with the easy one thne narrow it down
+integer is a multiple of 12
+thers only 12
+(12),(24),(36),(48),(60),(72),(84),(96)
+
+sum of digit is greater than 10, this narrows to 3
+(48) -> 12
+(84) -> 12
+(96) -> 15
+
+diff between digit > 3, narrows down to 2
+(48) -> true
+(84) -> true
+
+then finally the tens digit is larger than the ones digit (units digit)
+theres only one result which is 84
+
+so the answer is 84
+
+======================================================
+
+Exercise 15.6
+elizabeth spent exactly $7 for some 15 cent stamps
+and some 31 cent stamps
+how many 15 cent stamps did she buy?
+
+answer:
+so she bought 15c stamps and some 31c stamps
+and spent $7 for it. so we need fit these with the exact amoutn
+
+since we know $1 = 100 cents
+she spents equal to 700 cents
+
+now what can we do with the 700 so thati t can fit
+maybe prime factorization of 15 and 31
+15 = 3 * 5
+31 = 31
+
+3*5*31 = 465
+hmm maybe not use this lets try another approach
+
