@@ -648,3 +648,41 @@ rule2 -> 49 -> 1 more than 48 (8.6)
 so this satisfies both
 and 49 sits between 24 < 49 < 72
 therefoer this fits the criteria
+
+alternatively make a table
+mult of 7         remiander when divised by 6
+28                4
+35                5
+...               ...
+
+15.2.3
+list all two digit positive integers that satisfty both the following
+1. the tens and ones digits are consecutive numbers
+2. the integer is the product of two consecutive numbers
+
+answer:
+ok lets narrow this down, lets go with #1
+since its posint ignore 0
+
+(1,2)
+(2,3)
+(3,4)
+(4,5)
+(5,6)
+(7,8)
+(8,9)
+
+next integer is the product of two consecutive number
+(1,2) -> 12 does not equal 1.2
+
+(2,3) -> 
+
+(3,4) -> 
+
+(4,5) 
+
+(5,6)
+
+(7,8)
+
+(8,9)
