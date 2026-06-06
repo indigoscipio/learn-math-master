@@ -818,3 +818,73 @@ finally 1
 1 0 5
 
 total = 1+2+3+4+5+6 = 21
+
+==========================================
+
+15.3 - Draw a Picture
+Problem 15.8
+wally the wandering walrus swims 6 miles north
+then 3 miles east
+then 3 miles north
+then 15 miles west
+
+how far is he from where he started (you can assume earth is flat for this problem)
+
+from left its 6+3+3+15 = 27
+
+perimeter wisefrom right its just 
+12+9 = 21
+
+from diagonal its just
+9^2 + 12^2 = h^2
+81 + 144 = h^2
+225 = h^2
+h = 15
+
+notsure what the question want me todohere
+
+15.9
+a frog is at the bottom of 12 meter well
+each morning he climbs up 5 meteres
+each night he slides down 3 meters
+if he starts climbing on sunday
+on which day will he reach the top of well and escape?
+answer:
+
+okay so lets calculate how far he really went in aday
+
+morning = 5
+night = 3
+so in a day his true distance is 5-3 = 2 meters
+
+so he climed up 2 meters daily
+
+12 / 2 = 6
+so it would take him 6 days to be completely at the top of the well
+
+since he starts at sunday
+lets say monday = 1, sunday = 7
+
+7 + 6 = 13
+remainder when 13 / 7 = 6 which is the sixth day
+so he would be on top on next saturday
+
+
+15.10
+abel, bernoulli, cantor, and descartes have a race
+bernoulli finished between abel and descartes
+cantor is happy that he didn't finish last
+and descartes bragged all day long about beating abel
+
+if no one finished between cantor and abel
+then in what order did the participants finish?
+
+15.11
+below are the pairs of cities connected by direct flights by
+getuthere airlines
+for each pair of cities
+there are fligts in both directins.
+is it possible to get from boston to philadelphia on a series of getuthere flights?
+
+
+answer:
