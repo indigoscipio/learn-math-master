@@ -949,3 +949,41 @@ a lumberjack can cut a log into 5 pieces in 20m
 how long would it take to cut a log of the same size and shapes into seven pieces?
 
 answer:
+
+okay so we know the lumberjack can cut 1 -> 5 in 20m
+first cut -> 2 pieces
+2nd cut -> 3 pieces
+3rd cut -> 4 pieces
+4th cut ->5 pieces
+
+so totla cut = 4
+20/4 = 1 cut every 5 minute
+
+so for seven pieces
+we would need 6 cuts
+so 6*5 = 30 mnutes
+
+15.3.2
+the lengths of three rods are 6cm, 10cm, and 11cm
+how can you use these rods to measure te length of 15cm?
+
+answer:
+ok so we have
+rod1: ------
+rod2: ----------
+rod3: -----------
+
+we wanna measure the elngth of 15cm
+lets find factors of 15 -> 1, 3 and 5
+
+first horizontally stack 5x 11cm rod -> gives us 55 total length
+then on top of that, at the end of the 55cm horizontally stack 4x 10cm
+
+wait theres only 3 rods right, let me think
+
+ok so first stack horizontally to the right the 10cm + 11cm -> this gives us 21 cm
+then on top of that, at the end of the 21cm mark, use the 6cm rod to measure left
+
+the distance from the start of the first rod and the start of the 6cm rod is 15cm
+
+15.3.3
