@@ -857,18 +857,11 @@ morning = 5
 night = 3
 so in a day his true distance is 5-3 = 2 meters
 
+
 so he climed up 2 meters daily
+first 4 days = 4.2 = 8m
 
-12 / 2 = 6
-so it would take him 6 days to be completely at the top of the well
-
-since he starts at sunday
-lets say monday = 1, sunday = 7
-
-7 + 6 = 13
-remainder when 13 / 7 = 6 which is the sixth day
-so he would be on top on next saturday
-
+then on thursday morning he escaped
 
 15.10
 abel, bernoulli, cantor, and descartes have a race
@@ -879,6 +872,34 @@ and descartes bragged all day long about beating abel
 if no one finished between cantor and abel
 then in what order did the participants finish?
 
+answer:
+we know
+d > a
+a > b > c or c > b > a or somewhere in between
+
+c is not last one
+
+no one finished between cantor and abel which means
+cantor and abel is the last one
+
+lets try one by one
+a -> b -> c -> d
+satisfies d > a
+satisfies a > b > c 
+but does not satisfy no one finished between cantor and abel
+
+c -> a -> d -> b
+does not satisfy 'b' between a and d
+
+a -> c -> b -> d
+this one satisfies all therefore in order
+d = 1st
+b = 2st
+c = 3rd
+a = 4th
+
+alternatively use a table with X an dO
+
 15.11
 below are the pairs of cities connected by direct flights by
 getuthere airlines
@@ -886,5 +907,45 @@ for each pair of cities
 there are fligts in both directins.
 is it possible to get from boston to philadelphia on a series of getuthere flights?
 
+
+Boston-New York
+Baltimore-Washington
+Buffalo-Albany
+New York-Baltimore
+Newark-Albany
+Buffalo-Newark
+Philadelphia-Erie
+New York-Washington
+Erie-Newark
+Albany-Philadelphia
+Baltimore-Boston
+Newark-Philadelphia
+
+answer:
+
+lets see where boston can take us
+
+and where certain city can travel to philadelphia
+
+from boston, possible city choice is
+New York
+
+then from new york we can do
+Baltimore -> can only travel to boston again, making aloop, can also travel to washington but no destination
+Washington -> no destination from here
+so its a dead end
+
+city that can travel to philadelphia
+Newark
+Albany
+
+so its not possible
+
+alternatively sketch a node (graph theory)
+
+
+15.3.1
+a lumberjack can cut a log into 5 pieces in 20m
+how long would it take to cut a log of the same size and shapes into seven pieces?
 
 answer:
