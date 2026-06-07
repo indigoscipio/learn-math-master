@@ -987,3 +987,42 @@ then on top of that, at the end of the 21cm mark, use the 6cm rod to measure lef
 the distance from the start of the first rod and the start of the 6cm rod is 15cm
 
 15.3.3
+alberts house is 5 miles east of belles house and 3 miles west of carnot house
+dollys house is 6 miles east of carnot house, and 4 miles east of elis house
+franks house is 5 miles north of elis house and 8 miles north of gretas house
+to the nearest tenth of a mile, how far apart are belle's house and greta's house
+
+answer:
+
+distance BE = 5+3+2 = 10
+EG = 3
+
+calc the hypotenuse
+10^2 + 3^2 = x^2
+100 + 9 = x^2
+109 = x^2
+x= sqrt(109)
+x = ~10.44
+so 10.4
+
+15.3.4
+a man wearing red pants has red shoes
+a man with blue pants has blue shoes
+a man with green pants has green shoes
+they exchange shoes so that each man is wearing one shoe from each of the other two men
+after they leave you only remember that the man in green pants had a red shoe on his right foot
+
+what color show is each man wearing on each foot?
+
+answer:
+
+PANT LSHOE RSHOE
+🔴   🟢   🔵
+🔵   🔴   🟢
+🟢   🔵   🔴
+
+ok so after the table
+RED PANT -> left shoe = green, right shoe = blue
+BLUE PANT -> left shoe = red, right shoe = green
+GREEN PANT -> left shoe = blue, right shoe = red
+
