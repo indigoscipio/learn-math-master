@@ -1120,4 +1120,64 @@ ok so at this point each have 24
 a = 24
 b = 24
 
-ok so maybe i dont understand the question is confusing
+bob 18 and alice 30
+
+15.16
+in the sequence of five integers
+the third intger is the sum of the previous two, the fourth integer is the sum of the previous three
+and the fifth integer is the sum of the previous four
+
+if the sum of the five integers is 248
+what is the third integer in the sequence?
+
+answer:
+ok so we have a sequence of 5 integers
+[x1,x2,x3,x4,x5]
+
+where x3 = x1 + x2
+x4 = (x1 + x2) + x3 -> x4 = x3 + x3 = 2x3
+and x5 = x1 + x2 + x3 + x4 -> x4 + x4 = 2x4 = 2(2x3) = 4x3
+
+
+the question asks for the third integer in sequence
+we only know the sum of first five integer is 248
+248 = x1 + x2 + x3 + x4 + x5
+248 = x3 + x3 + 2x3 + 4x3
+248 = 2x3 + 2x3 + 4x3
+248 = 8x3
+x3 = 31
+
+15.4.1
+granny smith has $63
+elberta has $2 more than anjou and anjou has 1/3 as much as granny smith
+how many dollars does elberta have?
+
+answer:
+ok so we know granny has $63
+
+elberta has $2 more than anjou 
+e = a + 2
+
+anjou has 1/3 as much as granny smith
+a = 1/3 . 63
+a = 21
+
+e = 21 + 2 = 23
+
+15.4.2
+suppose you enter an elevator at certain floor
+then the elevator move up 6 floors
+down 4 floors
+and up 2 floors
+you are then at floor 7
+at which floor did you initially enter the elevator?
+
+answer:
+ok so the final floor is 7
+and up 2 floors -> 7-2 = 5
+down 4 floors -> 5+4 = 9
+move up 6 floors -> 9-6 = 3
+
+so initial floor is 3
+
+15.4.3
