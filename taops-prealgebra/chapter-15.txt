@@ -1026,3 +1026,98 @@ RED PANT -> left shoe = green, right shoe = blue
 BLUE PANT -> left shoe = red, right shoe = green
 GREEN PANT -> left shoe = blue, right shoe = red
 
+-----------------------------------------------
+
+15.3.5
+one line divides a plane into 2 regione
+two lines can divide a plane into at most 4 regions
+what is the maximum number of regions possible using eight lines?
+
+hint: draw a picture. keep adding lines.
+count the regions you have each line. do you see a pattern in your results?
+
+answer:
+1 line -> 2
+2 line -> 4 (+2)
+3 line -> 7 (+3)
+4 line -> 11 (+4)
+5 line -> 16 (+5)
+6 line -> 22 (+6)
+7 line -> 29 (+7)
+8 line -> 37 (+8)
+
+so 36
+
+-----------------------------------------------
+
+15.3.4
+Work Backwards
+
+Problem 15.12
+david buys a beanie baby
+he later sells it to jessica and loses $3 on the deal
+Jessica makes a profit of $6 by selling it to Bryan for $25
+how much did david pay for the beanie baby
+
+answer:
+let x be the price of beanie baby
+
+jessica maeks a profit of $6
+25-6 = 19 so this is the price that jessica sold
+
+since we know david sell to jesica and loses $3 -> 19+3
+so the original price is $22
+
+-----------------------------------------------
+
+15.13
+danielle chooses a number
+she multiplies it by 3
+and then adds 6
+divides by 3
+finally subtracts 6
+her end result if 4
+what number did she choose?
+
+answer:
+we know end result is 4
+subtracts 6 -> 4+6 = 10
+divides by 3 -> 10*3 = 30
+adds 6 -> 30-6 = 24
+multiples by 3 -> 24/3 = 8
+
+therefore the number is 8
+
+-----------------------------------------------
+
+15.14
+the surface of a pond is covered by oil leaking from a pipeline
+the amount of surface area covered by the oil is doubling each day
+at this rate the surface of the pond will be covered with oil at the end of the 25th day
+what fraction of the surface area of the pond will be covered by oil at the end of 20 days?
+
+answer:
+ok so we know the surface area covered is doubling daily
+
+and it will be fully covered at the end of 25th day
+which means EOD day 25 represents 1/1 = 100%
+day 24 = 1/2 = 50%
+day 23 = 1/4
+day 22 = 1/8
+day 21 = 1/16
+day 20 = 1/32
+
+so the fraction is around 1/32
+
+15.15
+alice gave bob as many dollars as bob had
+bob then gave alice as many dollars as alice then had
+at this point each had 24 dollars
+how much did alice have at the beginning?
+
+answer:
+ok so at this point each have 24
+a = 24
+b = 24
+
+ok so maybe i dont understand the question is confusing
