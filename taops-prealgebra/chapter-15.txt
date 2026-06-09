@@ -1181,3 +1181,79 @@ move up 6 floors -> 9-6 = 3
 so initial floor is 3
 
 15.4.3
+early one morning
+joy took out 1/2 of the coins from her coin bank
+and in the evening she put in 10 coins
+the next morning she took out 1/3 of the coins in the bank
+and that evening she put in 4 coins
+the next morning she took out 1/2 of the coins in the bank, leaving 15 coins
+how many coins were in the bank to begin with?
+
+answer:
+since we know final state = 15 coins
+she took out 1/2 of the coins in the bank -> 15*2 = 30
+and that evening she put in 4 coins -> 30-4 = 26
+the next morning she took out 1/3  -> 39
+and in the evening she put in 10 coins -> 39-10 = 29
+joy took out 1/2 of the coins from her coin bank -> 29*2 = 58
+
+so inital money = 58
+
+15.4.4
+a listo f 8 nums if formed by beginning with two given numbers
+each two new number in the list is the product of the two previous numbers
+find the first number if the last three are shown
+
+
+x1,x2,x3,x4,x5,16,64,1024
+
+answer:
+
+since we konw the last one is the product of previous two
+
+then lets try x5
+64 = 16 . X5
+x5 = 64/16
+x5 = 4
+
+so 4 is before 16
+im also sensing a pttern
+2^0
+2^2
+2^4
+2^8
+2^10
+but lets verify
+
+x1,x2,x3,x4,4,16,64,1024
+
+x4
+16 = 4 . x4
+x4 = 4
+
+x1,x2,x3,4,4,16,64,1024
+
+x3
+4 = 4 . x3
+x3 =1
+
+x1,x2,1,4,4,16,64,1024
+
+x2
+4 = 1 . x2
+x2 = 4
+
+x1,4,1,4,4,16,64,1024
+1 = 4 . x1
+x1 = 1/4
+
+15.4.5
+Serena and visala had a combined total of $180
+serena then gave visala $20 and then visala gave serena a quarter
+of the money visala had
+after this they each had the same amount
+how much money did serena start with?
+
+answer:
+ok so we know total is $180
+
