@@ -1257,3 +1257,57 @@ how much money did serena start with?
 answer:
 ok so we know total is $180
 
+at the end - s: 90, v: 90
+
+
+middle state -> visala gave serena a quarter
+s: 60 v: 120
+
+
+beginning state 
+serena 80 visala 100
+
+=================================================================
+
+Review problems
+the last monday of a particular month is on the 27th day of the month
+what day of the week is the first day of the month?
+
+answer:
+if last monday is on the 27th
+then
+m1
+
+last week
+wed -> 1
+thu -> 2
+fri -> 3
+sat -> 4
+sun -> 5
+
+last week
+mon -> 13-7 = 6
+
+last week
+mon -> 20-7 = 13
+
+last week
+mon -> 20 -> 27-7 = 20
+tue -> 21
+wed -> 22
+thu -> 23
+fri -> 24
+sat -> 25
+su -> 26
+
+m -> 27
+
+therefore wednesday
+
+15.18
+glen, harry and kim each like different sport amont tennis, baseball and soccer
+glen does not like baeball or soccer
+henry does not like baeball
+name favorite sport of each person.
+
+answer:
