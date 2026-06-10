@@ -1437,20 +1437,80 @@ lets trace the sample so i can understand this
 ok i think i get where this is going
 lets find the 98th term
 
-98 -> R2 -> 49
-49 -> R3 -> 44
-44 -> R2 -> 22
-22 -> R2 -> 11
-11 -> R3 -> 6
-11 -> R3 -> 6
+1: 98 -> R2 -> 49
+2: 49 -> R3 -> 44
+
+3: 44 -> R2 -> 22
+4: 22 -> R2 -> 11 -- start of loop
+5: 11 -> R3 -> 6
+6: 6 -> R1 -> 54
+7: 54 -> R2 -> 27 
+
+8: 27 -> R3 -> 22 -- end of 1st loop
+9: 22 -> R2 -> 11
+10: 11 -> R3 -> 6
+11: 6 -> R1 -> 54
+12: 54 -> R2 -> 27 
+
+13: 27 -> R3 -> 22 -- end of 2nd loop
+...
+
+ok so i think i can sense the pattern here
+it starts to repeat on term 3 - 7
+with the pattern result [22,11,6,54,27]
+1 -> 22 
+2 -> 11
+3 -> 6 
+4 -> 54 
+5 -> 27
+
+ok lets try to simplify the question
+find the 11th term of the sequence that begins with 98,49,...
+
+remainder of 11 + 2 / 5 = 13 / 5 = 2 -> 11
+quotienf of 11 + 2 / 5 = 13 / 5 = 2 -> 2nd loop
+
+now lets try to find the 98th
+remainder 98 + 2 / 5 = 100 / 5 = 0 -> so at 5th one -> 27
+quotient 98 + 2 / 5 = 100 / 5 = 20 -> so at the 20th loop
 
 
+15.23
+Adnan began with a number. he divided his number by 2
+subtracted 6 from the quotient
+took out the sqrt of the differnce,
+added 1 to the square root
+and took the square root of the sum.
+his final result was 3.
+what was adnan's original number?
 
+answer:
+ok so in the end we hve 3, lets work backward
+took sqrt -> 3^2 = 9
+added 1 to the sqrt -> 9-1 = 8
+took out the sqrt -> 8^2 = 64
+subtracted 6 -> 64+6 = 70
+divided his number by 2 -> 70*2 = 140
 
+lets verify
+140 : 2 -> 70
+70-6 = 64
+sqrt 64 = 8
+8 + 1 = 9
+sqrt 9 = 3
 
+15.24
+in the table below the integers from 100 down to 0 are arranged in cols P,Q,R,S,T
+write the letter of the column that contains the number 25
 
+answer:
 
+A  B  C  D  E 
+   10099 98 97  -> row 1
+93 94 95 96     -> row 2
+   92 91 90 89  -> row 3
+85 86 87 88     -> row 4
+   84 83 82 81  -> row 5
+77 78 79 80     -> row 6
 
-
-
-
+ok lets try to analyze this
