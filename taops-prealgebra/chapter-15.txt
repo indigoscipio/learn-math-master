@@ -1385,3 +1385,72 @@ so it ends at the last place of row 17
 since its odd row it moves to the right so it ends at F
 
 15.21
+find the largest integer that is less than 1000
+two more than a multiple of 3,
+two more than a multiple of 5,
+and odd
+
+answer:
+ok so we wanna find x where
+
+x < 1000
+3x + 2
+5x + 2
+x is odd
+
+x = 999
+999 = 3x + 2
+997 = 3x -> not diviisble
+
+
+x = 995
+995 = 3x + 2
+993 = 3x
+x = 331
+
+995 = 5x + 2
+993 = 5x -> not divisible
+
+lets try multiple of 15
+990 -> 66 -> even
+
+975 -> 977 -> satisfies
+
+15.22
+Terri produces a sequence of positive intesgers by following the three rules below.
+she starts with a positive integer
+then applies the appropriate rule to the result and repeats
+
+R1: if the integer is < 10, multiply it by 9
+R2: if the integer is even AND > 9, divide it by 2
+R3: if the integer is odd AND > 9, subtract 5 from it
+
+here is a sample sequence: 23,18,9,81,76,...
+find the 98th term of the sequence that begins 98,49,...
+
+answer:
+lets trace the sample so i can understand this
+23 -> R3 -> 18
+18 -> R2 -> 9
+9 -> R1 -> 81
+
+ok i think i get where this is going
+lets find the 98th term
+
+98 -> R2 -> 49
+49 -> R3 -> 44
+44 -> R2 -> 22
+22 -> R2 -> 11
+11 -> R3 -> 6
+11 -> R3 -> 6
+
+
+
+
+
+
+
+
+
+
+
