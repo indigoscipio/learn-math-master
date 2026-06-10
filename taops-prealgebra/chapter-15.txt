@@ -1311,3 +1311,77 @@ henry does not like baeball
 name favorite sport of each person.
 
 answer:
+           G H K
+tennis     V X X
+baseball   X X V
+soccer     X V X
+
+glen tennis
+harry socer
+kim baseball
+
+15.19
+in a "Tribonacci" sequence, each number after the 3rd number is the sum
+of the preceding 3 numbers
+for example, if the first three numbers are 5,6,7
+then the fourth number is 18 becuase 5+6+7 = 18 and
+the fifth is 31 because 6+7+18 = 31
+the first five numbers of another tirbonaci sequence are P,Q,86,158 and 291
+in that order what is the value of P
+
+ok so we know
+291 = Q + 86 + 158
+Q = 291 - 158 - 86
+Q = 47
+
+now lets find p
+158 = 86 + 47 + p
+p = 158-86-47
+p = 25
+
+verifying
+25+47+86 -> 158
+
+15.20
+in the table below
+all the positive integers are arranged in columns
+under what letter will the number 100 appear?
+
+answer:
+A  B  C  D  E  F
+      1  2  3  4   -> row 1
+10 9  8  7  6  5   -> row 2
+11 12 13 14 15 16  -> row 3
+22 21 20 19 18 17  -> row 4
+23 24 25 26 27 28  -> row 5
+...
+
+answer:
+ok lets try to analyze this one by one
+lets map index A = 1, ..., F = 6
+
+it starts at C so at index 2
+for the direction
+the row starts moving to the right -> so odd row moves to the right
+then it alternates to the left <- everytime the row is even
+
+it repeats / 'cuts' every 6 numbers
+
+lets simplify the question
+under what letter wil the number 17 appear?
+since it starts at 1
+remainder when 17 / 6 = 2 with remainder of 5
+but since we shift the index add + 2 so 19/6 = 3 with remainder of 1 so at row 4
+since its even it moves left 1st position from the right so F
+
+ok lets try another
+under what letter will the number 23 appear
+25 / 6 = 4 with remainder of 1
+so it starts at row 5 , odd row = move to right so first palce at A
+
+lets try 100
+102 / 6 = 17 with remainder of 0
+so it ends at the last place of row 17
+since its odd row it moves to the right so it ends at F
+
+15.21
