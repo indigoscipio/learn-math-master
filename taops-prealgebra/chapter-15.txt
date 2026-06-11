@@ -1628,9 +1628,54 @@ answre:
 
 first t has 36
 
-1st -> a give j & t 2x what they have
-2nd -> j give a & t 2x what they have
-3rd -> t give a & j 2x what they have
+1st -> a give j & t enough to double their amounts
+2nd -> j give a & t enough to double their amounts
+3rd -> t give a & j enough to double their amounts
 
 finally t has 36 when they end
 the question asks the total amount that all three friends have
+
+lets work from start
+
+t has 36
+1st -> t now has 2.36 = 72
+2nd -> t now has 2.72 = 144
+
+3rd -> 
+since we know t at the end of round 3 has 36
+144-36 = 108
+total money = $252
+
+15.28
+2/3rd of the people in a room are seated in 3/4 of the chairs
+the rest of the people are standing
+if there are 6 empty chairs
+how many people are in the room?
+
+answer:
+
+if 3/4 of the chairs are seated
+then 1/4 of it is the empty chairs
+1/4 -> 6
+so 3/4 -> 18
+with 24 total chairs
+
+2/3x = 18
+2x = 54
+x = 27
+
+so total is 27
+not sure
+
+15.29
+a box contains gold coins
+if the coins are equally divided among six people, four coins are left over
+if the coins are equally divided among five people, three coins are left over
+if the box holds the smallest number of coins that meets these two conditiosn
+how many coins are left over when equally divided among 7 people?
+
+answer:
+ok so let x represent the amount of gold coints
+
+the rules are
+if its divisble by 6, then it leaves a reminder
