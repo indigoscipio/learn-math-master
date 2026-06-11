@@ -1551,4 +1551,86 @@ so its located at row 3, 2nd palce
 since row is odd it starts at Q so row 3 at 3rd palce (R)
 
 okay lets try the number 25
-()
+(100-25+1) = 76
+
+remainder 76 / 4 -> 0
+quotinet 76 / 4 -> 19
+
+so its located at row 19, the last one
+since row 19 is odd, it starts at Q
+therefore the number 25 is located at the last column T
+
+alternatively
+row 1 -> 3 = minus 8
+
+15.25
+luyi went to a store where she spent 1/2 of her money and then $16 more
+she then went to another store where she spent 1/3 of her remaining money
+and then $16 more
+she then had $4 left. how much did she have when she entered the first store?
+
+answer:
+
+ok lets work from the end
+at the end she had $4
+
+she then went to another store where she spent 1/3 of her remaining money
+and then $16 more
+
+2/3x = 20
+2x = 60
+x = 30
+
+30 + 16 = 46
+1/2x = 46
+x = 92
+
+15.26
+find the units digit (ones digit) of 3^50
+
+ok lets tackle this one by one
+3^1 -> 3
+3^2 -> 9
+3^3 -> 27
+3^4 -> 81
+3^5 -> 243
+3^6 -> 729
+3^7 -> 2187
+3^8 -> 6561
+...
+
+ok so the last digit repeats at
+[3,9,7,1] infinitely
+
+so lets map this out
+1 -> 3
+2 -> 9
+3 -> 7
+4 -> 1
+
+lets do a simple test first, ones digit of 7
+remainder 7 / 4 = 3 -> ends with 7 -> confirmed 2187
+
+now lets do 3^50
+remainder 50 / 4 = 2
+therefore the last digit of 3^50 is 9
+and 3^80 -> 0 -> 1
+
+15.27
+three generous friends each with some cash redistribute their money as follows
+ami gives enough money to jan and toy to double the amount of money that each has
+jan then gives enough to ami and toy to double their amounts
+finally toy gives ami and jan enough to double their amounts
+if toy has $36 when they begin and $36 when they end what is the total amt that
+all three friends have?
+
+answre:
+
+first t has 36
+
+1st -> a give j & t 2x what they have
+2nd -> j give a & t 2x what they have
+3rd -> t give a & j 2x what they have
+
+finally t has 36 when they end
+the question asks the total amount that all three friends have
