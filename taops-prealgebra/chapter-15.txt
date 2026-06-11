@@ -1505,7 +1505,7 @@ write the letter of the column that contains the number 25
 
 answer:
 
-A  B  C  D  E 
+P  Q  R  S  T 
    10099 98 97  -> row 1
 93 94 95 96     -> row 2
    92 91 90 89  -> row 3
@@ -1514,3 +1514,41 @@ A  B  C  D  E
 77 78 79 80     -> row 6
 
 ok lets try to analyze this
+its similar to the previous question but this time
+evey row always has 4 numbers, lets try to map this first
+and the question only cares about the column
+
+1 -> P
+2 -> Q
+3 -> R
+4 -> S
+5 -> T
+
+even row -> ascending, skips T
+odd row -> descending, starts at Q
+
+ok lets simplify the question,
+letter that contains the number 83
+
+remainder 83 / 4 = 3
+quotinet 83 / 4 = 20
+
+since it starts at 100 (100-83+1)
+
+remainder 18/4 -> 2
+quotient 18/4 -> 4
+so its located at 5th row, second index
+since row is odd, it decsencds so its actually at row 3 which is R
+
+lets try another example to confirm
+location of 91
+(100-91+1) = 10
+
+remainder 10 / 4 -> 2
+quotinet 10 / 4 -> 2
+
+so its located at row 3, 2nd palce
+since row is odd it starts at Q so row 3 at 3rd palce (R)
+
+okay lets try the number 25
+()
