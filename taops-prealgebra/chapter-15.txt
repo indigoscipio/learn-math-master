@@ -1935,3 +1935,62 @@ halfway there she turns back to other direction
 then halfway there she finds her phone and turns back around to walk to jennys
 
 arives at 10am
+
+let x be the distance to cindy's house to jennys house
+midway (when she forgot) = 1/2x
+quarter (when she picks phone) = 1/2 . 1/2 = 1/4x
+
+total distance = distance halfway + distance when picking up phone + the rest of the way
+total distance = 1/2x + 1/4x + 3/4x = 2/4x + 1/4x + 3/4x = 3/4x + 3/4x = 6/4x = 3/2x
+
+speed = distance/time
+distance = speed . time
+3/2x = 2 . 1
+3/2x = 2
+3x = 4
+x = 4/3
+so distance is 4/3 miles
+
+======================================================
+
+Challenge problems
+15.36
+there are 24 four digit posint that use each of four digits
+2,4,5,7 exactly one
+listed in numerical order from smallest to largest, what integers is in the 17th
+position in the list?
+
+answer:
+
+ok lets just try to list them all
+2 - 4 hundred digit
+2,4,5,7 -> 1st
+2,4,7,5 -> 2nd
+
+2 - 5 hundred digit
+2,5,4,7 -> 3rd
+2,5,7,5 -> 4th
+
+2 - 7 hundred digit
+2,7,4,5 -> 5th
+2,7,5,4 -> 6th
+
+4 - 2 hundred digit
+4,2,5,7 -> 7th
+4,2,7,5 -> 8th
+
+4 - 5 hundred digit
+4,5,2,7 -> 9th
+4,5,7,2 -> 10th
+
+4 - 7 hundred digit
+4,7,2,5 -> 11th
+4,7,5,2 -> 12th
+
+5 -> 2 hundred digit
+5,2,4,7
+5,2,7,4
+
+5 -> 2 hundred digit
+5,2,4,7
+5,2,7,4
