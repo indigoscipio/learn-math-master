@@ -1827,10 +1827,111 @@ person B in 2 minutes
 person C in 5 minutes
 person D in 8 minutes
 
-then two people cross the bridge ogether
+when two people cross the bridge together
 they must move at the slower person's pace
 the torch burns out in 15 minutes
 find a way for all four people to get across the bridge before the torch burns out
 
 answer:
 
+ok so i feel like ive encountered this problem before but not sure
+seems like an optimization problem
+lets try it
+
+so 4 people wanna cross the bridge but the torch has a time limit which is 15m
+i think instinctively lets just use A as the one who wield the torch so lets try it
+
+1st step
+A + D -> cross to other side with A holding the torch, leave D there and let A come back
+total duration: 8+1, remaining torch lifetime = 15-8-1 = 6min
+2nd step
+A + C -> same method, leave C there and let A come back
+total duration: 5+1, remaining torch lifetime: 6-6 = 0
+
+hmm this is weird, almost looks impossible
+ lets try another approach here it seems the torch ran out of time
+
+1st step
+A + B -> cross with a holding the torch, leave A and let B come back
+total duration: 2+2 = 4 miuts -> torch lifetime = 15-3 = 11
+
+2nd step:
+C + D -> cross with C holding the torch, leave C and D and come back with A holding the torch
+total duration: 8+1 = 9 minutes -> 11-9 = 2
+
+3rd step
+A + B -> now a and b together, cross the river together
+total duration = 2, remaining = 2-2 = 0 so in time
+
+15.34
+there are positive integers that have these properties
+
+1. the sum of squares of their digits is 50 and
+2. each digit is larger than the one to its left
+
+what is the largest integer with both properties?
+
+answer:
+lets tackle this one by one
+the question doesn't specify how many idgits but it gives a restriction
+sum of squares of their digits = 50
+each digit is larger than the one to its left
+
+so if we have
+13 -> sum of squares = 1^2 + 3^2 = 1 + 9 = 10
+each digit is larger than the one to its left
+3 > 1 so this satisfites
+
+lets find another number, actually lets make a quick square
+1^2 = 1
+2^2 = 4 
+3^2 = 9
+4^2 = 16
+5^2 = 25
+6^2 = 36
+7^2 = 49
+8^2 = 64
+9^2 = 81
+
+55
+sum of squares = 25 + 25 = 50
+5 > 5 false
+
+321 -> 9+4+1=14
+44411 -> 16 + 16 + 16 + 1 + 1 =? 50, does not satisfy #2
+
+543 -> 25+16+9 = 50
+satisfies #2 -> checks
+
+lets try to find if theres another number large than this
+5421 -> 25 + 16 + 4 + 1 -> fails #1
+65x -> 36+25 alreayd fails #2
+6321 -> 36+9+4+1 = 50, satisfies #2, so check
+lets try if we can find somoething bigger than 6321
+
+71 -> satisfies both but clearly only 2 digit
+8 and above digit -> already fails #1
+it seems 6321 is the largest digit here
+
+1236
+
+15.35
+cindy walk at a constant rate of 2 miles per hour
+she leaves home to walk to her friend jenny's house at 9am
+when she is halfway there she thinks that she left her phone at home
+she turns around and begins to walk back home
+but when she is halfway home (from where she turned around) she finds her phone
+she turns back around to walk to jennys and arrives there at 10am
+how far apart are cindys house and jenny house?
+
+hint: draw a diagram!
+
+answer:
+c ->> 2mph
+start: 9am
+halfway there she turns back to other direction
+
+
+then halfway there she finds her phone and turns back around to walk to jennys
+
+arives at 10am
