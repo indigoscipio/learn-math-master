@@ -2292,6 +2292,47 @@ and starts hiking back towards original  starting point along the same path
 he gets back to the starting point 8h after he starts walking
 he doesn't necessarily walk at a constant rate either day
 show that there is a point on the path that marco visits at the exact sametime
-one both days
+on both days
 
 answer:
+time 12PM -> 8PM
+
+following day -> rest
+
+next day -> hikes back to starting point -> takes 8h
+
+marco A -> starts at start at noon and walks
+marco b -> start at the end, go backward
+
+eventually they will meet at a certain point regardless
+if the speed is variative
+
+alternatively, 'mirror' graph where the line will eventually intersect forming an
+'X'
+
+b. suppose marco only takes 4h on his return trip
+musut there still be a point on the path that marco visits at exactly
+the same time on both days?
+
+answer:
+yeah i think this is the same right? if we do the two marco thing
+ifthey go at the same time and takes 4 hour both with variative speed
+then its still be the same
+as for the cart thing they will also intersect
+
+15.44
+in the game of triball
+each team has 3 players
+in my triball league each player is on exactly two different teams
+and no two players are teammates on two different teams
+what is the smallest possile number of players in my triball league?
+
+hint: draw a picture. let each player be a point. what will teams be?
+hint: each team is a triangle connecting three points. how many points
+do you need to satisfy the conditions in the problem?
+
+answer:
+
+ok so we have
+team = [p1,p2,p3]
+
