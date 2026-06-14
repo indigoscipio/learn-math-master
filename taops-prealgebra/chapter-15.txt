@@ -2083,5 +2083,176 @@ so we wanna find unique product of those integers
 3 has 3 unique
 
 15.39
-a 2x2 square is divided into 1x1 squares
-each of the small
+a 2x2 square is divided into 4 1x1 squares
+each of the small squares is to be painted either white or gray
+in how many different ways can the painting be accomplished so that no
+gray squares share its top or right side with any white square?
+there may be as few as zero or as many as four small gray squares.
+
+answer:
+ok so we have
+[X X]
+[X X]
+square where x can be either W or G
+
+the question asks for how many different ways
+can the painting be done so that no gray squares share its top / right side with
+any white square
+
+so let me think
+[G][G]
+[W][W]
+this is invalid since right side has G + W
+
+so one way is
+[G][W]
+[G][G]
+wait this is invalid since top and right shares with W
+
+0 gray
+[W][W]
+[W][W]
+
+1 gray
+[W][G]
+[W][W]
+
+2 gray
+[G][G]
+[W][W]
+
+[W][G]
+[W][G]
+
+3 gray
+[G][G]
+[W][G]
+
+4 gray
+[G][G]
+[G][G]
+
+so total ways is 1+1+2+1+1 = 6
+
+15.40
+a certain calculator has only two keys +1 and x2
+when you press one of the keys the calculator automatically displays the result
+for instance if the calc originally displayed '9' you pressed +1 it would
+display '10'. if you then pressed x2 it would display '20'
+starting with the display '1' what is the
+fewest number of keystrokes you would reach to need '200'?
+
+hint: its not immediatly obvious what our first few pressed should be if we want to get
+from 1 to 200 as fast as possible. if we just double 7 times, well get to 128.
+then what? if its not obvious how to proceed going forward...
+
+hint: what is probably the last button we'll press if we ghen from 1 to 200 as fast
+as possible?
+
+answer:
+
+ok let me think
+the last button should probably be a multiplication
+so we need to quickly sum up the multiples of that then just quickly double it
+
+lets find factor of 200
+2 . 5 . 2 . 2 . 5 -> 2^3 . 5^2 = 8 . 25
+
+wait hold on we dont need to find factors the hint already shows it
+wait if we double 128 then it becomes 256 so its way more than 200 let me think
+
+initial: '1'
+1st press -> +1 -> display: '2'
+2nd press -> x2 -> display: '4'
+3nd press -> x2 -> display: '8'
+4nd press -> x2 -> display: '16'
+5nd press -> x2 -> display: '32'
+6nd press -> x2 -> display: '64'
+7nd press -> x2 -> display: '128'
+
+yeah this isnt working let me rethink maybe on the 5ft press we can add to 35
+70 -> 140 -> 280 yeah no
+
+25-16 = takes 9 +1s to get that factor
+75 - 64 = 11 +1s
+50-32 = 18 +1s
+100-64 = 36 +1s
+
+so 25 is the closest whch takes 9 +1s
+initial: '1'
+1st press -> +1 -> display: '2'
+2nd press -> x2 -> display: '4'
+3nd press -> x2 -> display: '8'
+4nd press -> x2 -> display: '16'
+5nd press -> +1 -> display: '17'
+6nd press -> +1 -> display: '18'
+7nd press -> +1 -> display: '19'
+8nd press -> +1 -> display: '20'
+9nd press -> +1 -> display: '21'
+10nd press -> +1 -> display: '22'
+11nd press -> +1 -> display: '23'
+12nd press -> +1 -> display: '24'
+13nd press -> +1 -> display: '25'
+14nd press -> x2 -> display: '50'
+15nd press -> x2 -> display: '100'
+16nd press -> x2 -> display: '200'
+
+total presses = 16
+
+now lets verify if there are other quicker ways
+25 75 50 100 takes more than 9 +1s
+
+lets say we change course, add 4 + 1 then go to 20
+initial: '1'
+1st press -> +1 -> display: '2'
+2nd press -> x2 -> display: '4'
+3nd press -> +1 -> display: '5'
+4nd press -> x2 -> display: '10'
+5nd press -> x2 -> display: '20'
+6nd press -> +1 -> display: '21'
+7nd press -> +1 -> display: '22'
+8nd press -> +1 -> display: '23'
+9nd press -> +1 -> display: '24'
+10nd press -> +1 -> display: '25'
+11nd press -> x2 -> display: '50'
+12nd press -> x2 -> display: '100'
+13nd press -> x2 -> display: '200'
+
+ok so this actuallly works and saves a few presses
+total presses = 13
+so the idea is you wanna get to 25 first as quick as possible
+then once you erach 25 just multiply it by 2 to get 200
+
+lets think of another alternative, walk backward
+200 / 2 -> 100
+100 / 2 -> 50
+50 / 2 -> 25
+25 - 1 -> 24
+24 / 2 -> 12
+12 / 2 -> 6
+6 / 2 -> 3
+3 - 1 -> 2
+2 - 1 -> 1
+
+total steps = 9
+
+15.41
+the product of three posint (not necessarily different) is 40
+how many sets of 3 ints have this property if hte order of the 3 ints
+in a set does not matter?
+
+answer:
+ok lets just list this all
+
+x * y * z = 40
+
+lets find factor of 40
+40 = 2 . 2 . 2 . 5 = 2^3 . 5^1
+= (2 . 2) . 2 . 5
+= 2 . (2 . 2) . 5
+= 2 . 2 . (2 . 5)
+
+so first one
+4 . 2 . 5
+2 . 4 . 5
+2 . 2 . 10
