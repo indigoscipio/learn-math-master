@@ -2251,8 +2251,47 @@ lets find factor of 40
 = (2 . 2) . 2 . 5
 = 2 . (2 . 2) . 5
 = 2 . 2 . (2 . 5)
+= 1 . 2 . 20
+= 1 . 4 . 10
+= 1 . 4 . 10
 
 so first one
-4 . 2 . 5
+x=1
+1 . 2 . 20
+1 . 4 . 10
+1 . 8 . 5
+1 . 1 . 40
+
+x = 2
 2 . 4 . 5
-2 . 2 . 10
+2 . 10 . 2
+
+x = 4
+i dont think theres anyvalid left
+
+4+2 = 6
+
+15.42
+how many paths with length 8 units are there from a to b
+along the grid at the right?
+notice that one segment in the grid is missing!
+w canot travel along the missing segment
+
+hitn:
+
+top -> 1
+right -> 1
+zigzg ->
+
+
+15.43
+a. marco starts hiking on a path at noon
+and stops at 8am
+he rests until noon the following day
+and starts hiking back towards original  starting point along the same path
+he gets back to the starting point 8h after he starts walking
+he doesn't necessarily walk at a constant rate either day
+show that there is a point on the path that marco visits at the exact sametime
+one both days
+
+answer:
