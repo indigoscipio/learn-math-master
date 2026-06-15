@@ -2336,3 +2336,79 @@ answer:
 ok so we have
 team = [p1,p2,p3]
 
+
+players = dots
+teams = triangles connecting 3 dots
+
+15.45
+find the last 2 digits (the tens digit and the units digit of) 7^2011
+
+answer:
+
+ok lets try to find a pattern here
+7^1 -> 7
+7^2 -> 49
+7^3 -> 343
+7^4 -> 2401
+7^5 -> 16807
+7^6 -> 117649
+7^7 -> 823543
+
+the pattern repeats every 4 time
+[7,9,3,1] or [07,49,43,01] for the 2 digit
+
+lets map this out
+1 -> 7 [07]
+2 -> 9 [49]
+3 -> 3 [43]
+4 -> 1 [01]
+
+remainder whne 2011 / 4 = 3
+so it lands on the 3rd index which is 43
+
+15.46
+sixtown is a country with six towns
+each pair of towns is directly connected
+by either a train route or by an airplane route
+explain why there must be three towns such that
+all three are directly connected to each other by the same mode of transportation
+
+hint: let each town be apoint
+hint: is it possible for one town to be connected to exactly two towns by train and
+exactly two towns by airplane?
+
+answer:
+if we draw a line through each of the point
+each town will have 5 lines to connect to each other town
+if yu drawit it looks like a hexagram lines
+
+zoom in at town A
+it radiates 5 lines which has either red or ble
+
+
+15.47
+a cryptarihtm is a math puzzle in which the digits in simple equation
+are replaced with letters
+each digiti is represented by only one letter
+and each letter represents a different digit
+so for example we might represent 51 + 50 = 101 as
+AB + AC = BCB
+in the cryptarithm send + more = money what digit does the letter Y represent
+
+answer:
+
+15.48
+five married couple gets together at party
+at the start of party each person shakes hands with everyone
+they didnt know before the party. after all the handshakes kyle one of the husbands
+asks everyone else how many hands they shook he received each number from
+0 to 8 as an answer once how many hands did kyle shajke
+
+ansewr:
+
+at beginign
+5 married -> 5 husband, 5 wife total = 10 person
+
+10*9 / 2 = 45 handshakes with everyone
+
+after handshakes asks eveyrone ...

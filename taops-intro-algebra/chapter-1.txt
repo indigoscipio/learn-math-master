@@ -1,0 +1,111 @@
+CHAPTER 1
+
+conways game of life
+1. <2 neighbour-> dies
+2. >3 neighbour -> dies
+3. exactly 2 / 3 -> stays alive
+4. cell is dead but have 3 neighbour -> springs to live
+
+
+
+
+Chapter 1 - Follow the rules
+algebra is an abstraction of arithmetic
+
+in arithmetic -> 5 + 3 = ??
+
+in elgabra -> a + b = c
+
+arith -> concret
+algebra -> generalized
+
+1 + 2 = 3
+a + b = b + a
+
+
+NUMBERS
+x<0 -> negative
+x>0 -> positve
+0 is neither negative or positive
+
+ratioanl -> when we divide integer with nonzero integer
+
+=========================
+Order of Operations
+1. () -> first
+2. exponent
+3. mult/div
+4. add/subtr
+
+1.1
+a. 6+3*8 = 6 + 24 = 30
+b. (6+3)*8 = 9*8 = 72
+c. 17-2*3^2 = 17-2*9 = 17-18 = -1
+d. 17 - (2*3)^2 = 17 - (6)^2 = 17 - 36 = -19
+e. (17-2*3)^2 = (17-6)^2 = 11^2 = 121
+f. [(15-3)/2] * 3 - (2^2 * 3) / 6 =
+[12/2] * 3 - (4 * 3) / 6
+6 * 3 - 12 / 6
+18 - 12 / 6
+18 - 2
+16
+
+1.2.1
+a. 3^2 + 4 * 2 = 9 + 8 = 17 
+b. (5-8) * (2+7) = -3 * 9 = -27
+c. (3^3 - 5^2) * 5 - 8 = (27 - 25) * 5 - 8 = 2 * 5 - 8 = 10 - 8 = 2
+d. 8 / (6-2) + 5 = 8 / 4 + 5 = 2 + 5 = 7
+e. 8^2 / 4^2 + 3 * 4 = 64 / 16 + 3 * 4 = 4 + 3 * 4 = 4 + 12 = 16
+f. 11 * 6^(2^2 - 3) = 11 * 6^(4-3) = 11 * 6^1 = 66
+
+1.3 when does order matter?
+1.2 josey has 14 marbles and beth has 8 marbles
+josey counts all the marbles by starting with her marbles
+then adding on beths marbles
+beth counts all the marbles by starting with her marbles
+then adding on josey's marbles
+if they add correctly will josey and beth find the same number of marbles?
+
+answer:
+
+ok so j = 14
+b = 8
+
+joeys method -> 14 + 8 = 22
+beths method -> 8 + 14 = 22
+
+commutative principle
+both approach works the same since the total result remains the same
+
+1.3
+Joe and Renee are ocunting the tiles on their deck
+their deck is shown below
+
+[][][][][][]
+[][][][][][]
+[][][][][][]
+[][][][][][]
+
+joe says there are 6 cols with 4 tiles each
+so there are 6*4 tiles
+renne says there are 4 rows with 6 tiles each, so there are 4*6 tiles
+
+who is correct?
+answer:
+
+both are correct. simlar to previuso ne
+6*4 = 24 and 4*6 = 24
+visually we can arrange in either configuration and the total result would still the same
+
+1.4
+state wheter each of the equation below is true or false
+a. 2 - 5 = 5 - 2
+b. 2 + -5 = -5 + 2
+c. 8/4 = 4/8
+d. 8 * 1/4 = 1/4 * 8
+
+a. false -> subtraction is not commutative
+b. true -> subtraction in termso f addition
+c. false 
+d. true
+
