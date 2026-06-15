@@ -50,6 +50,8 @@ f. [(15-3)/2] * 3 - (2^2 * 3) / 6 =
 18 - 2
 16
 
+===============
+
 1.2.1
 a. 3^2 + 4 * 2 = 9 + 8 = 17 
 b. (5-8) * (2+7) = -3 * 9 = -27
@@ -77,6 +79,8 @@ beths method -> 8 + 14 = 22
 commutative principle
 both approach works the same since the total result remains the same
 
+===============
+
 1.3
 Joe and Renee are ocunting the tiles on their deck
 their deck is shown below
@@ -97,6 +101,8 @@ both are correct. simlar to previuso ne
 6*4 = 24 and 4*6 = 24
 visually we can arrange in either configuration and the total result would still the same
 
+===============
+
 1.4
 state wheter each of the equation below is true or false
 a. 2 - 5 = 5 - 2
@@ -109,3 +115,37 @@ b. true -> subtraction in termso f addition
 c. false 
 d. true
 
+===============
+
+1.5
+touch -> 7
+field -> 3
+safe -> 2
+
+eagles vs cowboys
+
+1st quarter
+eagles -> 1x field, 1x touchdown
+cowboys -> 1x field
+
+2nd quarter
+eagles -> 1x safety
+cowboys -> 1x touchdown, 1x safety
+
+a.
+1st quarter
+eagles = f+t = 3+7 = 10
+cowboys = f = 3
+
+b.
+2nd quarter
+eagles = s = 2
+cowboys = t + s = 7 + 2 = 9
+
+at the end of 2nd = cowboys win
+in entirety
+total score
+eagles = 10 + 2 = 12
+cowboys = 12 so its a tie
+
+1.6
