@@ -149,3 +149,183 @@ eagles = 10 + 2 = 12
 cowboys = 12 so its a tie
 
 1.6
+
+lisa -> 3*4 = 12
+5 * 12 = 60
+
+bart -> 4*5 = 20
+3 * 20 = 60
+
+they are both right
+it sums to 60
+
+1.7
+a. 47+99-45 = 101
+b. 315 - 311 = 4
+c. 64
+d. 3
+
+commutative -> order doesn't matter
+associative -> grouping doesn't matter
+
+1.3.1
+Which of the following equals 63 - 27?
+a. 27-63
+b. -27 -63
+c. 27+63
+d. -27+63
+
+lets calc 63-27 = 36
+a. false
+b. false
+c. false
+d. true
+
+1.3.2
+compute each of the following
+a. -25
+b. 273-274+8200-8198 = -1 + 2 = 1
+
+1.3.3
+compute each of the following
+a. 63 * 2/7 * 2/63
+2/7 * 2 = 4/7
+
+b. 1/4 * 48 * 97 * 1/12
+1/48 * 48 * 97 = 97
+
+1.3.4
+we saw in the text 5 - 2 does not equal 2 - 5
+is it ever possible to switch order of number in subtraction prbolem without
+changing the value of the diffrence?
+
+answer:
+yeah i guess if both or all numbers are 0 doesn't matter if we subtract in what order iguess
+eithe way subtraction is not commutative in general butican work in terms of addition
+
+a - b = b - a
+add a -> 2a - b = b -> 2a = 2b -> a = b
+add b -> a = 2b - a -> 2a = 2b -> a = b
+
+so itwill work when both numbers are the same
+eg if both result is zero
+
+==========================
+
+1.4 Distribution and Factoring
+
+(4 x 3) + (3 * 5)
+12 + 15 = 27
+
+1.8
+c = 5
+d = 7
+each has 4 legs
+
+a. cat legs = 5.4 = 20
+b. dog legs = 7.4 = 28
+c. animals = 5+7 = 12
+d. animals legs = 20+28 = 48
+
+1.9
+9 children
+99 goldfish
+72 angelfish
+
+
+total fish = 99+72 = 171
+19 fish each childreen
+
+alternatively
+11 + 8
+
+
+==============
+DISTRIBUTIVE
+a x (b + c) = (a * b) + (a * c)
+if a is -1 just do -(b + c)
+==============
+
+==============
+FACTORING (REVERSE DISTRIBUTION)
+a * b + a * c = a * (b + c)
+==============
+
+
+Exercises
+1.4.1
+a. 6 * (3 + 5)
+b. (4 + 8) * (-2)
+c. 7 * (5 - 2)
+d. (8 - 13) * (-3)
+
+answer:
+a. 
+normal way -> 6 * 8 = 48
+distributive way -> 6*3 + 6*5 = 18+30 = 48
+b. 
+normal way -> 12 * -2 = -24
+distributive way -> -2 * 4 + -2 * 8 = -8 + -16 = -24
+c. 
+normal way -> 7 * 3 = 21
+distributive way -> 7 * 5 - 7*2 = 35-14 = 21
+d. 
+normal way -> -5 * -3 = 15
+distributive way -> (-3 * 8) - (-3 * -13) = (-3 * 8) + (3*13) = -24 + 39 = 15
+
+
+1.4.2
+richard expanded the product (-2) * (5-3) like this
+(-2) * (5-3) = (-2) * 5 + (-2) * 3 = -10 + (-6) = -16
+where did he go wrong?
+
+asnwer:
+so without distribution istjust -2 * 2 = -4
+
+with distribution it should be 
+(-2 * 5) - (-2 * -3)
+-10 - 6
+
+wait 
+(-2 * 5) + (-2 * -3)
+-10 + 6 = -4
+so he is incorrec in the sign it should be plus not minus
+
+1.4.3
+factor a 4 outof each expr in parts below . for example 36 + 44 = 4 * (9+11)
+
+a. 88 + 16 = 4 (44 + 4)
+b. 400 - 32 = 4 (100 - 8)
+c. -24 + 16 + 72 = 4 (-6 + 4 + 18)
+d. 92 - 160 + 36 = 4(23 - 40 + 9)
+
+1.4.4 evaluate (99 + 88 - 77 + 66)  / 11 by factoring the numerator
+
+11 (9 + 8 - 7 + 6) / 11 = 9+8-7+6 = 16
+
+1.4.5
+simplify the folowing fractions by canceling common terms
+
+a. 6
+b. 8/9
+
+
+1.10
+yes it would still balance coz the total would still be 3
+
+1.11
+scale 1 -> 1+5+1+2 = 9
+scale 2 -> 7+2 = 9
+
+a. 1+5+1+2 = 7+2
+b. yes
+c. 1+5+1+2+3 = 7+2+3
+d. yes
+
+1.12
+17-7 = 9+1 -> 10 = 10
+a. 3(17-7) = 3(9+1)
+3(10) = 3(10) = 30 = 30
+51 - 21 = 27+3 = 30
+
+b. 
