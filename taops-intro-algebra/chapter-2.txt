@@ -1,0 +1,39 @@
+Chapter 2; X MARKS THE SPOT
+
+
+EXPR
+when we mult constant like 6 with variable
+6x
+coeficient = 6
+variable = x
+
+3x+7
+3x = term
+7 = term
+
+a. 4 + 3 = 7
+b. 2 . 4 = 8
+c. 4 + 12 / 4 = 16/4 = 4
+d. 3 . 4^2 = 3 . 16 = 48
+
+2.2
+a. 9
+b. 12
+c. 39
+d. 3
+e. 36*3 = 108
+f. 5
+
+2.1.1
+eval each of the folowing when r = 3
+a. 3-7 = -7
+b. -3.3 = -9
+c. sqrt(3^2 + (3+1)^2) = sqrt(3^2 + 4^2) = 5
+d. 5 - 3 = 2
+
+2.1.2
+eval each of the folowing when s = -4
+a. 13+4 = 17
+b. sqrt(-9.-4) = sqrt(36) = 6
+c. 16 - 16 - 12 = -12
+d. -4-8 / 3 = -12/3 = -4
