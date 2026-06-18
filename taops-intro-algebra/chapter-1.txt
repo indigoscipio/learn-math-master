@@ -615,3 +615,82 @@ x = 1/3
 
 1.7 Fractional exponents
 
+b^n/d ->
+
+x^ how many sub-steps you take / how many sub-stops you spltit the big step into
+denominator 2 -> break into 2 equal parts (sqrt)
+denominator 3 -> cuberoot
+
+
+
+1.26
+in this problem we eval 25^1/2
+a. suppose the law of expo from last section work for fract exponents
+then what is the value of (25^1/2)^22
+
+b. use the prev part to figure out what pos num equals 25^1/2
+c. what is 25^3/2?
+
+answer:
+a. 25^(1/2.2) = 25^1 = 25
+b. x^2 = 25 -> x = sqrt(25) -> x = 5
+c. 25^3/2 = (25^1/2)^3
+5^3 = 125
+
+==========================
+if x is nonneg, then x^1/2 is the nonneg numbe whose square is x
+x^1/3 -> number whose cube equals (cube root)
+x^1/4 -> number whose fourth power is x (fourth root)
+==========================
+
+Problems
+
+1.2.7
+evaluate each of thefollowing
+a. 27^1/3
+(3^3)^1/3
+3^1
+3
+
+b. 100^5/2
+(10^2)^5/2
+10^5
+100000
+
+c. (9^1/4)^2
+((3^2)^1/4)^2
+(3^1/2)^2
+3^1
+3
+
+d. 32^1/5
+(2^5)^1/5
+2^1
+2
+
+e. (25/4)^1/2
+(5^2/2^2)^1/2
+5/2
+
+f.(4^2/3)^6
+((2^2)^2/3)^6
+(2^4/3)^6
+2^8
+
+
+1.28
+a. evaluate (2^6 . 3^4)^1/2
+b. in this part, we evaluate (13824)^1/3
+i. finr prime factorization of 13824
+ii. eval 13824^1/3
+
+a. (2^3 . 3^2)
+8 . 9 = 72
+
+b. 
+i. 2 . 3 . 2 . 3 . 2 . 2 . 3 . 2 . 2 . 2 . 2 . 2
+2^9 . 3^3
+ii. (2^9 . 3^3)^1/3
+2^3 . 3^1
+8.3
+24
