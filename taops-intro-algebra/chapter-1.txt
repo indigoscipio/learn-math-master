@@ -754,8 +754,152 @@ add the expo
 5^2 / 1. 6^2
 25/36
 
-===================
+=============================================================
+When encountering negative frac expo
 a^m/n -> (a^m)^1/n -> take expo of m, then take the nth root
-a^m/n -> (a^1/n)^m -> take the nth root, then take expo of m 
-===================
+a^m/n -> (a^1/n)^m -> take the nth root, then take expo of m
+both approaches are valid
+
+example: (-1)^2/3 -> ((-1)^2)^1/3 -> 1^1/3 -> 1
+==============================================================
+
+Exercises
+1.7.1
+evaluate each of the following without calculator
+
+a. 64^1/3
+b. 10000^1/2
+c. (-216)^1/3
+d. 7056^1/2
+
+answer:
+a. 4
+b. 100
+c. (-1 . 6^3)^1/3
+(-1)^1/3 . (6^3)^1/3
+-1 . 6
+-6
+d. 84
+
+1.7.2
+what is 0^1/2?
+answer:
+ok so were looking for a number when squared by itself gets a 0
+in other words the square root of 0
+0 . 0 is zero
+therefore 0
+
+1.7.3
+evaluate each of thefollowing without a calculator
+a. 4^5/2
+b. (-1)^36/5
+c. 27^5/3
+d. (-8)^-4/3
+
+answer:
+a. (4^1/2)^5
+2^5
+32
+
+b. ((-1)^36)^1/5
+(1)^1/5
+1
+
+c. (27)^5/3
+(27^1/3)^5
+3^5
+3 . 3 . 3 . 3 . 3
+9 . 27
+243
+
+d. (-8)^-4/3
+(-1 . 2^3)^-4/3
+(1/(-1 . 2^3))^4/3
+(1^4/3) / (-1 . 2^3)^4/3
+1 / (-1)^4/3 . (2^3)^4/3
+1 / ((-1)^4)^1/3 . 2^4
+1 / 1^1/3 . 2^4
+1 / 2^4
+1 / 16
+
+1.7.4
+a. is there positive or negative number that equals 4^1/4?
+b. is there positive or negative number that equals (-4)^1/4?
+
+answer:
+ok so the question is basically asking for frouth root here
+a. 4throot(4) = ??
+(2^2)^1/4
+2^1/2
+so its basically asking the same question as square root of 2
+im not sure what the exact number is but since this is sqrt
+it must be a number with lots of decimal
+there are must be two solutions so positie and negative must exist
+
+b. 4throot(-4) = ??
+(-1 . 2^2)^1/4
+((-1)^1/4 . 2^1/2)
+this does not exist since what regular number multiplies itself 4 times equals -1
+is basically
++ . + . + . + = +
+- . - . - . - = +
+
+1.7.5
+evaluate each of the following without a  calculator
+a. (5^1/3)^2 . 5^4/3
+b. (-2^1/3)^9
+c. (12^1/2)^3/2 . 3^1/4 . 2^1/2
+d. (8^2 . 5^3)^3/5 / 2^3/5 . 5^-1/5
+
+answer:
+a. 5^2/3 . 5^4/3
+5^(2/3 + 4/3)
+5^6/3
+5^2
+25
+
+b. (-2^1/3)^9
+(-1 . 2^1/3)^9
+(-1)^9 . (2^1/3)^9
+-1 . 2^3
+-1 . 8
+-8
+
+c. 
+(12^1/2)^3/2 -> ((3 . 4)^1/2)^3/2 -> (3^1/2 . 4^1/2)^3/2 -> 3^3/4 . 4^3/4 ->
+3^3/4 . (2^2)^3/4 -> 3^3/4 . 2^3/2
+
+3^3/4 . 2^3/2 . 3^1/4 . 2^1/2
+3^3/4+1/4 . 2^3/2+1/2
+3^4/4 . 2^4/2
+3 . 2^2
+3 . 4 
+12
+
+d. (8^2 . 5^3)^3/5 / 2^3/5 . 5^-1/5
+numerator
+((2^3)^2 . 5^3)^3/5 
+(2^6 . 5^3)^3/5 
+2^18/5 . 5^9/5 
+
+denominator
+2^3/5 . 5^-1/5
+2^3/5 . 1/5^1/5
+
+combine
+2^18/5 . 5^9/5 
+---------------
+2^3/5 . 1/5^1/5
+
+2^18/5-3/5 . 5^9/5 . 5^1/5
+2^15/5 . 5^9+1/5
+2^15/5 . 5^10/5
+2^3 . 5^2
+8 . 25
+200
+
+
+
+1.8
+Radicals
 
