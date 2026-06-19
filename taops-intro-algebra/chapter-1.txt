@@ -925,12 +925,16 @@ sqrt(8^2 . 4^2 . 3^2 . 2)
 evaluate sqrt(3)^6
 sqrt(3).sqrt(3).sqrt(3).sqrt(3).sqrt(3).sqrt(3)
 3 . 3 . 3
-9
+27
 
 or
 sqrt(3^2)^3
 3^3
-9
+27
+
+or
+
+(3^1/2)^6 -> 3^3 -> 27
 
 1.3.4
 in this problem we see why simplifying radicals can be useful
@@ -950,7 +954,8 @@ sqrt(338) -> sqrt(169 . 2) -> 13.sqrt(2)
 combine
 5.sqrt(2) + 4.sqrt(2) + 4sqrt(2) - 13.sqrt(2)
 5+4+4-13 sqrt(2)
-sqrt(2)
+0 sqrt(2)
+0
 
 b. 
 sqrt(8.64) -> wait is this a decimal or multiply not sure
@@ -962,7 +967,13 @@ sqrt(486/25) -> sqrt(81 . 6 / 5^2) -> sqrt(9^2 . 6 / 5^2) -> 9/5 sqrt(6)
 combine
 16sqrt(2) - 4sqrt(6) + 9/5 sqrt(6)
 16sqrt(2) - 4+9/5 sqrt(6)
-16sqrt(2) - 29/5 sqrt(6)
+16sqrt(2) - 20-9/5 sqrt(6)
+16sqrt(2) - 11/5 sqrt(6)
+
+====================
+
+ok so its actually a decimal
+sqrt(8.64) -> sqrt(864/100) -> 6.sqrt(6) / 5
 
 
 1.3.5
@@ -970,3 +981,61 @@ suppose n in a positive integer
 what must be true about n if it is not possible to simplify sqrt(n)
 
 answer:
+if n is perfect square then we can just simplify sqrt(n) without 'remainder'
+so if we want to simplify n that means there must be like a factor of 
+perfect square within in, eg (4,9,16,etc)
+if it cannot be simplified anymore then it means it does not contain factor of thoes
+
+example
+sqrt(50) -> sqrt(25 . 2) -> 25 here is perfect square
+while 2 is not perfect square
+
+cuberoot(2) -> 2^1/3
+routhroot(2) -> 2^1/4, etc
+
+Problem 1.36
+
+evaluate each of the following
+a. cuberoot(216)
+b. sixthroot(1000000)
+c. (fourthroot(2))^24
+d. fifthroot(-32/243)
+e. cuberoot(21952)
+f. (cuberoot(4))^9/2
+
+answer:
+a. 6
+b. 10
+c. (2^1/4)^24 -> 2^6 -> 64
+d. fifthroot((-1) . 32 / 243)
+fifthroot((-1) . 2^5 / 3^5)
+fifthroot(-2^5 / 3^5)
+-2/3
+e. 32 . 343 . 2
+7 . cuberoot(64)
+7 . 4
+28
+
+f. (4^1/3)^9/2
+4^9/6
+4^3/2
+(4^1/2)^3
+2^3
+8
+
+1.37
+suppose m and n are positive integers and n> 2
+write 2^m/n using radical
+
+2^1/2 -> root(2)^1
+2^1/3 -> cuberoot(2)^1
+2^1/4 -> fourthroot(2)^1
+
+so for 2^m/n
+(n-root(2))^m
+
+1.38
+simplify cuberoot(625) * cuberoot(40) + 5.cuberoot(-135)
+answer:
+
+cuberoot(625) -> 625^1/3 -> (25^2)^1/3 -> 25^2/325*25
