@@ -993,6 +993,8 @@ while 2 is not perfect square
 cuberoot(2) -> 2^1/3
 routhroot(2) -> 2^1/4, etc
 
+================================================
+
 Problem 1.36
 
 evaluate each of the following
@@ -1034,8 +1036,152 @@ write 2^m/n using radical
 so for 2^m/n
 (n-root(2))^m
 
+alternatively
+(n-root(2^m))
+
 1.38
-simplify cuberoot(625) * cuberoot(40) + 5.cuberoot(-135)
+simplify cuberoot(625) - cuberoot(40) + 5.cuberoot(-135)
 answer:
 
-cuberoot(625) -> 625^1/3 -> (25^2)^1/3 -> 25^2/325*25
+cuberoot(625) -> 625^1/3 -> (5^3 . 5)^1/3 -> (5^3)^1/3 . (5^1)^1/3 -> 5 . cuberoot(5)
+cuberoot(40) -> cuberoot(8 . 5) -> cuberoot(2^3 . 5) -> 2 . cuberoot(5)
+5 . cuberoot(-135) -> 5 . cuberoot(-1 . 135) -> 5 . cuberoot(-1 . 27 . 5)
+-> -1 . 3 . 5 . cuberoot(5) -> -15 . cuberoot(5)
+
+combine
+
+5 . cuberoot(5) - 2 . cuberoot(5) + -15 . cuberoot(5)
+3cuberoot(5) - 15cuberoot(5)
+-12cuberoot(5)
+
+===========================================
+if n is posint with n > 2 thenx^m/n = (n-root(x))^m = (n-root(x^m))
+===========================================
+
+1.8.1
+simplify each of the following without a calculator
+a. sqrt(121)
+b. sqrt(36000)
+c. sqrt(1323)
+d. sqrt(6.76)
+e. sqrt(2)^8
+f. (-sqrt(27))^3
+
+answer:
+a. 11
+b. 60
+c. pf -> 9 . 49 . 3
+sqrt(9 . 49 . 3)
+3 . 7 . sqrt(3)
+21 . sqrt(3)
+
+d. sqrt(6.76)
+sqrt(676/100) -> sqrt(26^2/ 10^2) -> 26/10 -> 13/5
+
+e. sqrt(2)^8
+(2^1/2)^8
+2^4
+16
+
+f. (-sqrt(27))^3
+(-1 . sqrt(27))^3
+(-1)^3 . sqrt(27)^3
+-1 . sqrt(9 . 3)^3
+-1 . sqrt(3^2 . 3)^3
+-1 . 3 . sqrt(3)^3
+-1 . 3 . sqrt(3^3)
+-1 . 3 . sqrt(3^2 . 3^1)
+-1 . 3 . 3 . sqrt(3)
+-9 sqrt(3)
+
+1.8.2
+simplify each of the following without a calculator
+a. cuberoot(80) 
+b. fourthroot(81)
+c. fourthroot(32/625)
+d. cuberoot(-0.001)
+e. (cuberooot(7))^9
+f. fourthroot(2^4/3)
+
+answer:
+a. cuberoot(8 . 10) -> 2 . cuberoot(10)
+b. fourthroot(81) -> 3
+alternatively (81)^1/4 -> (9^2)^1/4 -> 9^1/2 -> 3
+c. fourthroot(32/625)
+fourthroot(16 . 2/5^4)
+fourthroot(2^4 . 2/5^4)
+2/5 . fourthroot(2)
+
+d. cuberoot(-0.001)
+cuberoot(-1 . 1/1000) -> cuberoot(-1 . 1/10^3) -> -1 . 1/10 -> -1/10
+
+e. cuberoot(7)^9
+(7^1/3)^9
+7^3
+49 . 3
+147
+
+
+1.8.3 sppose n is posint. what must be true about n if it is not possible to simplify cuberoot(n)?
+if its not possible to simplify cuberoot(n) further
+then it means that n does not contain a perfect cube as a factor anymore
+thres no cube to factor out
+
+cuberoot(16) -> cuberoot(8 . 2) -> the 8 here is a perfect cube of 2^3 we can factor it out
+8 . cuberoot(2) -> here 2 is not a perfect cube and no number multipled itself 3 times
+can result to 2, so it cannot be simplified further
+
+1.8.4
+simplify each of the following without a calculator
+a. sqrt(28) + sqrt(63) - sqrt(175)
+b. sqrt(135) - 3sqrt(1500) + sqrt(960)
+c. cuberoot(375) - cuberoot(192)
+d. cuberoot(256/27) + cuberoot(32) - cuberoot(12/81)
+
+answer:
+a. sqrt(28) + sqrt(63) - sqrt(175)
+sqrt(28) -> sqrt(4 . 7) -> 2.sqrt(7)
+sqrt(63) -> sqrt(9 . 7) -> 3.sqrt(7)
+sqrt(175) -> sqrt(25 . 7) -> 5.sqrt(7)
+
+combine -> 2.sqrt(7) + 3.sqrt(7) - 5.sqrt(7) -> 5.sqrt7 - 5.sqrt7 -> 0.sqrt7 -> 0
+
+b. sqrt(135) - 3sqrt(1500) + sqrt(960)
+sqrt(135) -> sqrt(27 . 5) -> sqrt(9 . 3 . 5) -> 3.sqrt(15) 
+3sqrt(1500) -> 3.sqrt(15 . 100) -> 3.10.sqrt(15) -> 30sqrt(15)
+sqrt(960) -> qsrt(60 . 16) -> 4sqrt(60) -> 4.sqrt(15.4) -> 4.2.sqrt(15) -> 8.sqrt15
+
+combine -> 3sqrt15 - 30sqrt15 + 8sqrt15 -> -27sqrt15 + 8sqrt15 -> -19sqrt15 
+
+c. cuberoot(375) - cuberoot(192)
+cuberoot(375) -> cuberoot(125 . 3) -> 5.cuberoot(3)
+cuberoot(192) -> cuberoot(64 . 3) -> 4.cuberoot(3)
+combine -> 5cuberoot3 - 4cuberoot3 -> 1cuberoot3 -> cuberoot(3)
+
+d. cuberoot(256/27) + cuberoot(32) - cuberoot(12/81)
+cuberoot(256/27) -> cuberoot(64 . 4/ 3^3) -> cuberoot(4^3 . 4 / 3^3) -> 4/3 . cuberoot(4)
+
+cuberoot(32) -> cuberoot(8 . 4) -> 2.cuberoot(4)
+
+cuberoot(12/81) -> cuberoot(4 . 3 / 27 . 3) -> cuberoot(4/27) -> cuberoot(4/3^3) -> 1/3 . cuberoot(4)
+
+combine
+4/3 . cuberoot(4) + 2.cuberoot (4) - 1/3 . cuberoot(4)
+4/3 + 2 - 1/3 -> 3/3 + 2 -> 2 + 1 -> 3cuberoot(4)
+
+1.8.5
+a. what number x makes the equation sqrt(3) . cuberoot(3) = 3^x correct?
+b. what number x makes the equation sqrt(8) . fifthroot(4) = 2^x correct?
+
+answer:
+a. sqrt(3) . cuberoot(3) = 3^x
+3^1/2 . 3^1/3 = 3^x
+3^1/2+1/3 = 3^x
+3^3+2/6 = 3^x
+3^5/6 = 3^x
+therefore x = 5/6
+
+b. sqrt(8) . fifthroot(4) = 2^x
+sqrt(4 . 2) . fifthroot(2^2) = 2^x
+4.sqrt(2) . (2^2)^1/5 = 2^x
+4.sqrt(2) .
