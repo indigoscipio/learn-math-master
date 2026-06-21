@@ -26,7 +26,7 @@ f. 5
 
 2.1.1
 eval each of the folowing when r = 3
-a. 3-7 = -7
+a. 3-7 = -4
 b. -3.3 = -9
 c. sqrt(3^2 + (3+1)^2) = sqrt(3^2 + 4^2) = 5
 d. 5 - 3 = 2
@@ -35,5 +35,119 @@ d. 5 - 3 = 2
 eval each of the folowing when s = -4
 a. 13+4 = 17
 b. sqrt(-9.-4) = sqrt(36) = 6
-c. 16 - 16 - 12 = -12
+c. -(-4)^2 + 4(-4) - 12
+-16 + -16 - 12 -> -32 - 12 -> -44
 d. -4-8 / 3 = -12/3 = -4
+
+
+=============================
+
+2.3
+michelse has 5 lego sets and adam has 3 lego sets
+a. michelle = 5x
+adam = 3x
+
+b. 5x + 3x = 8x
+
+2.4
+a.
+packs of gum = x pieces of gum
+lisa = 4x + 5
+b. 7x + 3
+c. 4x+5 + 7x+3
+d. 11x + 8
+e. 3r+3r-5r -> r
+-2-4+7 -> 1
+r + 1
+
+2.5
+a. simplify the product y^2 . y^4
+y^6
+b. (2x) . (3x^3)
+2 . x . 3 . x^3
+2 . 3 . x . x^3
+6 . x^4
+6x^4
+
+c. write (v^3)^5 as vraised to a single power
+v^15
+
+d. write (2x)^3 as a constant times some power of x
+2^3 . x^3
+8 . x^3
+
+2.6 simplify each
+a. x^7/x^3
+x^7-3
+x^4
+
+b. 4x^9/20x^2
+4 . x^9 / 20 . x^2
+1 . x^9-2 / 5
+1 . x^7 / 5
+x^7/5 or 1/5 . x^7
+
+c. (5t^-3) . (3t^4 / 20t^8) . (8t^12)
+
+5t^-3 . 3t^4 . 8t^12 / 20t^8
+5.3.8.t^-3+4+12 / 20t^8
+120t^13 / 20t^8
+6t^5
+
+2.7
+a. simplify cuberoot(27x^9)
+b. suppose r is positive. simplify sqrt(200r^10)
+c. look at what happens to your answer to part b is r = -1
+why is it necessary to state that r is positive?
+
+answer:
+
+a. cuberoot(27x^9)
+3 . cuberoot(x^9)
+3 . cuberoot(x^3)^3 or 3 . cuberoot(x^3 . x^3 . x^3)
+3 . x^3 or 3 . x . x . x
+3x^3
+
+b. sqrt(200r^10)
+sqrt(2 . 100 . r^10)
+10 . sqrt(2 . r^10)
+10 . sqrt(2 . (r^5)^2)
+10r^5 . sqrt(2)
+
+c. if we use r = -1
+10r^5 . sqrt(2)
+10 . -1^5 . sqrt(2)
+-10 . sqrt(2)
+
+in b we have positive value
+in c we have negative value
+in the original ^10 it handles negative input to positive since expo is even
+but simplified b is odd
+
+hmm im guessing cause sqrt of negative has like 2 possible solution so we need to limit
+to just posint
+
+becayuse a positive number cannot equal to negative number
+10r^5 . sqrt(2) is only legally true when r is positive
+
+=============================
+SEPERATE LIKE TERMS -> ORGANIZE
+keep careful track of our signs when rearranging roup of numbers
+(2 + x)^3 does not equal 2^3 + x^3
+=============================
+
+=============================
+CANCEL COMMON FACTORING
+3c / 5c = 3/5
+because 3/5 . c/c = 3/5 . 1/1 = 3/5
+DOES NOT WORK IF ITS A sums
+3 + 2c / 5 + 3c 
+=============================
+
+=============================
+cuberoot(27 + x^9) canno be seperated into cuberoot(27) + cuberoot(x^9)
+=============================
+
+=============================
+sqrt(n) always represents a nonnnegative number -> principal square root
+=============================
