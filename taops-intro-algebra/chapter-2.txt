@@ -150,4 +150,225 @@ cuberoot(27 + x^9) canno be seperated into cuberoot(27) + cuberoot(x^9)
 
 =============================
 sqrt(n) always represents a nonnnegative number -> principal square root
+What numbers square to 25 -> both -5 and 
+sqrt(25) -> think as afunction with nonneg input that always outputs non negative.
+sqrt(a^2) = a is true if a is nonnegative
 =============================
+
+
+EXERCISES
+
+2.2.1
+simplify each of the following
+a. (3x-8)+(5x+7)
+b. (3-3x)+(-19x+27)
+
+answer:
+a. 3x + 5x -8 + 7 = 8x -1
+b. 3 + 27 -3x - 19x -> 30 + -22x
+
+===========================================
+
+2.2.2
+simplify each of the following
+a. t^3 . t^4
+b. (16x^2)(4x^5) 
+c. (y^5)^9
+d. (3x^2)^6
+
+answer:
+a. t^3+4 = t^7
+b. 16 . 4 . x^2 . x^5
+64 . x^7 = 64x^7
+c. y^5.9 = y^45
+d. (3x^2)^6 = (3)^6 . (x^2)^6 = 3^6 . x^12 = 729x^12
+
+===========================================
+
+2.2.3
+simplify each of the followoing:
+a. p^7 / p^2
+b. 25z^3 / 30z^7
+c. (4x^3)(2x^5) / 6x^4
+d. 24t^3/15t^4 . 5t^8 / 3t^6
+
+answer:
+a. p^7-2 = p^5
+b. 25/30 . z^3/z^7 = 5/6 . z^3-7 = 5/6 . z^-4 = 5/6 . 1/z^4 = 5/6z^4
+c. numerator -> 4 . 2 . x^3 . x^5 = 8 . x^8
+8x^8 / 6x^4 = 8/6 . x^8 / x^4 = 4/3 . x^4 = 4x^4 / 3
+d. (24 . 5 / 15 . 3) (t^3 . t^8 / t^4 . t^6)
+8/3 . t^11 / t^10
+8/3 . t
+8t/3
+
+===========================================
+
+2.2.4
+write each of the following without negative exponents:
+a. 3^-1
+b. 5^-3
+c. 2x^-3 / x^5
+d. 4/x^-4
+
+answer:
+a. 1/3^1
+b. 1/5^3
+c. 2x^-3 / x^5 = 2/x^3 : x^5 =  2/x^3 . 1/x^5 = 2 / x^3 . x^5 = 2 / x^8 
+d. 4/1/x^4 = 4 : 1/x^4 = 4 . x^4 = 4x^4
+
+===========================================
+
+2.2.5
+simplify each of the following:
+a. (2t-7) + (2t-7)
+b. (2t-7) + (2t-7) + (2t-7)
+c. (2t-7) + (2t-7) + (2t-7) + (2t-7)
+
+notice anything interesting?
+
+answer:
+a. (2t-7) + (2t-7) = (2t + 2t) + (-7 + -7) = 4t - 14
+b. use result from previous, justadd 2t-7
+(4t - 14) + (2t - 7) = 4t + 2t - 14 - 7 = 6t - 21
+c. same, use from previous
+(6t - 21) + (2t - 7) = 8t - 28
+
+im not sure what notice anything interesting here
+maybe its just the same as
+2(2t - 7) -> (2 . 2t)+(2.-7) -> 4t - 14
+3(2t - 7) same etc
+
+===========================================
+
+2.26
+how many r^4s must be multiplied to gether to get r^20?
+answer:
+ok so we know (r^4)^5 = r^20
+so we need to multiply 5 r^4s
+
+===========================================
+
+2.27
+Is the following correct:
+5x + 3 = 5 + 3x(x is slased) / x(x is slased) = 5 + 3 = 8?
+If not, explain why it is not correct:
+
+answer: it is not correct. we cannot factor  out the common x if inside summation
+if it smultiple we can 'split' the common factor into x/x = 1 
+it works for multiplication but nor if its inside sum
+
+let x be 2
+origianl -> 5 + 3(2) / 2 = 5 + 6 / 2 = 11 / 2 = 5.5 
+incorrect version -> 5 + 3 = 8 -> does not equal
+
+
+===========================================
+
+2.2.8
+a. suppose t is positive. simplify sqrt(96t^6) 
+b. simplify cuberoot(125x^12)
+c. simplify cuberoot(27p^5) - 2.cuberoot(p^8)/p
+
+answer:
+a. sqrt(96t^6) 
+sqrt(16 . 6 . t^6)
+4 . sqrt(6 . t^6)
+4 . sqrt(6 . (t^3)^2)
+4 . t^3 . sqrt(6)
+4t^3 . sqrt(6)
+
+b. cuberoot(125x^12)
+cuberoot(125 . x^12)
+cuberoot(5^3 . x^12)
+5 . cuberoot((x^4)^3)
+5 . x^4
+5x^4
+
+c. cuberoot(27p^5) - 2.cuberoot(p^8)/p
+first part
+cuberoot(27p^5)
+cuberoot(3^3 . p^5)
+3 . cuberoot(p^5)
+3 . cuberoot(p^3 . p^2)
+3p . cuberoot(p^2)
+
+second part
+2.cuberoot(p^8)/p
+2.cuberoot(p^8) / p
+2.cuberoot(p^3 . p^5) / p
+2p .cuberoot(p^5) / p 
+2 . cuberoot(p^5)
+2 . cuberoot(p^3 . p^2)
+2p . cuberoot(p^2)
+
+combine with -
+3p . cuberoot(p^2) - 2p . cuberoot(p^2)
+p . cuberoot(p^2)
+
+==============================
+2x^-3 -> the negative expo only belongs to the x, does not apply to coeff 2
+why? order of operations. expo is like a very powerful magnet, sticks to whichever
+is closest to, unless its under parenthesis (2x)^-3
+==============================
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+2.3 Distribution, Subtraction and FACTORING
+Problem 2.8
+a. expand the product 2(x + 6) 
+b. 2(x^2 + 3) + 3(x^2 - 9) by first expnading both products then combining like terms
+
+answer:
+a. (2 . x) + (2 . 7) = 2x + 14
+b. (2 . x^2) + (2 . 3) + (3 . x^2) + (3 . -9)
+2x^2 + 6 + 3x^2 + -27
+2x^2 + 3x^2 + 6 -27
+5x^2 - 21
+
+2.9
+a. manute = 7ft 7in
+earl = 5ft 3in
+difference in ft -> 7-5 = 2
+diff in in -> 7-3 = 4
+so its 2ft 4 inches
+
+b. (x + 3) - (3x + 9)
+(x + 3) + -1.(3x + 9)
+(x + 3) + (-1 . 3x + -1 . 9)
+(x + 3) + (-3x - 9)
+x -3x + 3 - 9
+-2x + -6
+
+c. (t^2 - 5t + 4) - (t^2 - 7)
+(t^2 - 5t + 4) + -1(t^2 - 7)
+(t^2 - 5t + 4) + (-1.t^2 - -1.7)
+(t^2 - 5t + 4) + (-t^2 - -7)
+(t^2 - 5t + 4) + (-t^2 + 7)
+t^2 - t^2 - 5t + 4 + 7
+-5t + 4 + 7
+-5t + 11
+
+2.11
+in this problem we factor the expression n(2n + 1) + 5(2n + 1).
+a. what expression is a factor of both n(2n + 1) and 5(2n + 1)?
+b. notice that n . n + 5 . n = (n + 5)(n)
+
+use this and your observation from the first part to factor n(2n + 1) + 5(2n + 1)
+
+answer:
+a. n(2n + 1) = (n . 2n + n . 1) = 2n^2 + n
+5(2n + 1) -> (5 . 2n) + (5 . 1) = 10n + 5
+wait it doesnt told me to expand, but find common factor of both of those
+the common factor is n
+
+b. n(2n + 1) + 5(2n + 1)
+..
+
+2.12
+shuana did a number trick with zach.
+she told him to pick an even number, double it, add 48, divide 4 subtract 7
+multiply by 2 and subtract his origial number
+she then told him the result he should have attained
+a. 
+b. 
