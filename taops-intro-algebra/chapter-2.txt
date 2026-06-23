@@ -349,26 +349,90 @@ t^2 - t^2 - 5t + 4 + 7
 -5t + 4 + 7
 -5t + 11
 
+2.10
+a. factor a 3 out of 3x + 6 to write it as product of 3 and an expr
+b. facor -15a^2+35
+c. write 3x^2 + 2x as the product of x and another expr
+d. factor 2a^3 + 16a^2 - 8a as completely as you can
+
+answer:
+a. 3x + 6 -> 3(x + 2)
+b. -15a^2+35 -> 5(-3a^2 + 7)
+c. (3x^2 + 2x) -> x(3x + 2)
+d. 2a^3 + 16a^2 - 8a -> 2a(a^2 + 8a - 4)
+
+
 2.11
 in this problem we factor the expression n(2n + 1) + 5(2n + 1).
 a. what expression is a factor of both n(2n + 1) and 5(2n + 1)?
-b. notice that n . n + 5 . n = (n + 5)(n)
-
+b. notice that (n . n) + (5 . n) = (n + 5)(n)
 use this and your observation from the first part to factor n(2n + 1) + 5(2n + 1)
 
 answer:
-a. n(2n + 1) = (n . 2n + n . 1) = 2n^2 + n
-5(2n + 1) -> (5 . 2n) + (5 . 1) = 10n + 5
-wait it doesnt told me to expand, but find common factor of both of those
-the common factor is n
+a. common factor is (2n + 1)
 
 b. n(2n + 1) + 5(2n + 1)
-..
+n . (2n + 1) + 5 . (2n + 1)
+so here im assuming the n is (2n + 1)? so
+(n + 5)(2n + 1)
+
 
 2.12
 shuana did a number trick with zach.
 she told him to pick an even number, double it, add 48, divide 4 subtract 7
 multiply by 2 and subtract his origial number
 she then told him the result he should have attained
-a. 
-b. 
+a. let x be zachs number. write an expr that describe the operations
+shauna tells zach to perform on the number
+b. simplify your expr from part (a) to find the result shauna tells zach
+
+answer:
+
+a. let x be zachs even number
+double it -> (2x) -> 2x
+add 48 -> 2x + 48
+divide by 4 -> 2x + 48 / 4 -> 2x / 4 + 48 / 4 = 1/2x + 12 
+subtract 7 -> 1/2.x + 12 -7 = 1/2x + 5
+mult by 2 -> (1/2.x + 5) . 2 = 1/2 . x . 2 + 5 . 2 = x + 10 
+subtract his original number ->  x + 10 - x
+
+b. simplified is 10
+
+====================================
+
+instead of writing 1/2x -> write 1/2 . x
+or x / 2 -> build this as good habit
+
+====================================
+5x^2 + 6x -> cant add different coeffs
+====================================
+
+
+2(2x+48)/4 = (2x+48)/2 = 2(x+24)/2 = x+24
+OR
+2x + 48 / 2 = 2x/2 + 48/2 = x + 24
+
+====================================
+
+EXERCISES
+2.31
+expand each of the following products
+a. 2(2t-7)
+b. x(x+9)
+c. (x^3 - 2x^2 + x + 1) . (3x^2)
+
+answer:
+a. 2(2t-7) -> (2 . 2t) + (2 . -7) -> 4t  + -14 -> 4t - 14
+b. x(x+9) -> (x . x) + (x . 9) -> x^2 + 9x
+c. (x^3 - 2x^2 + x + 1) . (3x^2)
+(3x^2 . x^3) + (3x^2 . 2x^2) + (3x^2 . x) + (3x^2 . 1)
+(3x^5) + (3x^2 . 2x^2) + (3x^2 . x) + (3x^2 . 1)
+
+2.32
+2.33
+2.34
+2.35
+2.36
+
+====================================
+
