@@ -426,13 +426,79 @@ a. 2(2t-7) -> (2 . 2t) + (2 . -7) -> 4t  + -14 -> 4t - 14
 b. x(x+9) -> (x . x) + (x . 9) -> x^2 + 9x
 c. (x^3 - 2x^2 + x + 1) . (3x^2)
 (3x^2 . x^3) + (3x^2 . 2x^2) + (3x^2 . x) + (3x^2 . 1)
-(3x^5) + (3x^2 . 2x^2) + (3x^2 . x) + (3x^2 . 1)
+(3x^5) + (6x^4) + (3x^3) + (3x^2)
 
 2.32
+simplify each of the following:
+a. (3x + 7) - (4x + 9)
+b. (r^2 + 3r - 2) - (r^2 + 7r - 5)
+c. 3(t + 7) - t(t + 9)
+
+answer:
+a. (3x + 7) - (4x + 9)
+(3x + 7) + (-1)(4x+9)
+(3x + 7) + (-1.4x + -1.9)
+(3x + 7) + (-4x + -9)
+(3x + 7) + (-4x - 9)
+3x - 4x + 7 - 9
+-x - 2
+
+b. (r^2 + 3r - 2) - (r^2 + 7r - 5)
+(r^2 + 3r - 2) + ((-1)(r^2 + 7r - 5))
+(r^2 + 3r - 2) + ((-1 . r^2) + (-1 . 7r) - (-1 . 5))
+(r^2 + 3r - 2) + (-r^2 + -7r - -5)
+(r^2 + 3r - 2) + (-r^2 - 7r + 5)
+r^2 - r^2 + 3r - 7r - 2 + 5
+-4r + 3
+
+c. 3(t + 7) - t(t + 9)
+3(t + 7) + (-1)(t(t + 9))
+(3t + 21) + (-1)(t^2 + 9t)
+(3t + 21) + (-1 . t^2 + -1 . 9t)
+(3t + 21) + (-t^2 - 9t)
+-t^2 + 3t - 9t + 21
+-t^2 + -6t + 21
+
 2.33
+factor each of the following:
+a. 12a-18
+b. 7x^2 - 30x
+c. -8t^2 + 4t + 16
+d. 9z^3 - 27z^2 + 27z
+
+answer:
+a. 12a-18 -> 6(2a - 3)
+b. 7x^2 - 30x -> x(7x - 30)
+c. -8t^2 + 4t + 16 -> 4(-2t^2 + t + 4)
+d. 9z^3 - 27z^2 + 27z -> 9z(z^2 - 3z + 3)
+
 2.34
+i have a magic machine, if you stick a num in magic machine machine adds 8 to the
+num, then mults the reulst by 6, then subtract 12 from this product
+the mchn then divide the diff by 2, then subtracts from this quot the number thats
+18 more than your original number
+
+a. try out my machine by putting a few numbers in it. what does it look
+like my machine really does to each number you put in? 
+
+b.  show that my machine does what your trials in part a suggests by putting x
+into that machine. write an expr reprenting the machines actions then simplify it
+
+answer:
+
+
 2.35
+in our solutino to problme 2.12 we split a frac into 2 fracts like this:
+2x + 48 / 2 = 2x/2 + 48 / 2
+why is thispossible? what arith prop are we using todothis?
+
 2.36
+factor the expr 2x(x-3) + 3(x-3)
+answer: let x-3 = u
+2x . u + 3 . u
+u (2x + 3) -> substitute back
+(x - 3) (2x + 3)
+
 
 ====================================
 
