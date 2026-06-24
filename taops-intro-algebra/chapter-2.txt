@@ -425,8 +425,9 @@ answer:
 a. 2(2t-7) -> (2 . 2t) + (2 . -7) -> 4t  + -14 -> 4t - 14
 b. x(x+9) -> (x . x) + (x . 9) -> x^2 + 9x
 c. (x^3 - 2x^2 + x + 1) . (3x^2)
-(3x^2 . x^3) + (3x^2 . 2x^2) + (3x^2 . x) + (3x^2 . 1)
-(3x^5) + (6x^4) + (3x^3) + (3x^2)
+(3x^2 . x^3) + (3x^2 . -2x^2) + (3x^2 . x) + (3x^2 . 1)
+(3x^5) + (-6x^4) + (3x^3) + (3x^2)
+3x^5 - 6x^4 + 3x^3 + 3x^2
 
 2.32
 simplify each of the following:
@@ -485,12 +486,56 @@ b.  show that my machine does what your trials in part a suggests by putting x
 into that machine. write an expr reprenting the machines actions then simplify it
 
 answer:
+a. let x be the number
+x = 2 ->
+2 + 8 -> 10
+10 * 6 -> 60
+60 - 12 -> 48
+48 / 2 -> 24
+24 - (2 + 18) -> 24 - 20 -> 4
+
+x = 3
+3 + 8 -> 11
+11 * 6 -> 66
+66 - 12 -> 54
+54 / 2 -> 27
+27 - (3 + 18) -> 27 - 21 -> 6
+
+x = 5
+5 + 8 -> 13
+13 * 6 -> 78
+78 - 12 -> 66
+66 / 2 -> 33
+33 - (5 + 18) -> 33 - 23 - > 10
+yeah im not sure, maybe its like doubling it rougly in the end
+
+b. let x be the number
+adds 8 -> (x + 6)
+mult by 6 -> (x + 8) * 6 -> (6 . x + 8 . 6) -> 6x + 48
+subtract 12 -> 6x + 48 - 12 -> 6x + 36
+divide 2 -> 6x + 36 / 2 -> 6x / 2 + 36 / 2 -> 3x + 18
+subtract 18more than x -> (3x + 18) - (18 + x) -> (3x + 18) + (-1)(18 + x) ->
+(3x + 18) + (-1 . 18 + -1 . x) -> (3x + 18) + (-18 - x) -> 3x - x + 18 - 18 ->
+2x
+
+so it just doubles our original number so it appears my guess correct
 
 
 2.35
 in our solutino to problme 2.12 we split a frac into 2 fracts like this:
 2x + 48 / 2 = 2x/2 + 48 / 2
 why is thispossible? what arith prop are we using todothis?
+
+answer:
+its possible because when we divide the whole numerator by 2
+this means both the 2x and 48 must be divided by 2, not just one
+
+so the split approach is valid. im not sure what arithmetic property but
+i guess its just simple fraction so something like
+1+x / 2 -> 1/2 + x/2 
+
+1/2 . (x + 3) -> 1/2 . x + 1/2 . 3 -> x/2 + 3/2 -> x+3 / 2
+
 
 2.36
 factor the expr 2x(x-3) + 3(x-3)
@@ -502,3 +547,86 @@ u (2x + 3) -> substitute back
 
 ====================================
 
+FRACTIONS
+
+2.13
+factoring helps simplify functions
+for example, 40/64 = 5 . 8 / 8 . 8 = 5 / 8
+
+a. 
+3(2x + 3) / 12 -> 2x + 3 / 4
+b. t(7t + 3) / t -> 7t + 3
+c. 3x - 6 / x^2 - 2x -> 3(x - 2) / x(x - 2) -> 3/x
+
+2.14
+a. multiply by 3
+b. we must also multiply it
+c. (2/3x) + (3/x) -> 2/3x + 3(3/x) -> 2/3x + 9/3x -> 11/3x
+
+2.15
+a. 2/x^3 + 3x/5
+b. 4/3y - 5-y/5y^2
+
+a. 2/x^3 + x^3 . (3x/5)
+2 / x^3 + (x^3 . 3x / x^3 . 5)
+2 / x^3 + 3x^4 / 5x^3
+10 / 5x^3 + 3x^4 / 5x^3
+10 + 3x^4 / 5x^3
+
+b. 4/3y - 5-y/5y^2
+common denum 15y^2
+
+(4.5y)/(3y.5y) - (15-3y)/(5y^2.3)
+20y/15y^2 - 15-3y/15y^2
+20y/15y^2 + (-1)(15-3y/15y^2)
+20y/15y^2 + (-1 . 15 + -1 . -3y/15y^2)
+20y/15y^2 + -15 + 3y/15y^2
+20y-15+3y/15y^2
+23y-15/15y^2
+
+problem 2.16
+3s - (7s / s + 2)
+
+a. common denominator is s(s+2) = s^2 + 2s
+b. and c
+(3 . (s+2))/(s.(s+2)) - ((7s . s)/((s+2) . s))
+(3s + 6/s^2 + 2s) - (7s^2/s^2 + 2s)
+(3s + 6/s^2 + 2s) + (-1)(7s^2/s^2 + 2s)
+(3s + 6/s^2 + 2s) + (-7s^2/s^2 + 2s)
+3s + 6 - 7s^2/s^2 + 2s
+
+=================
+negatvie sign in front of fraction
+apply it to either num or denumerator but never both!
+numerator strictly is the standard
+-6/2 -> -3
+6/-x -> -3
+never both
+=================
+(-1)(7 + s^2) -> split into 2
+(-1)(7s^2) -> do not split into two different part!
+=================
+
+Review Problems
+2.17
+evaluate each of the following when x = 3
+a. x^2 - 3
+b. 3x/4 + 7/4
+c. (2x-3)(2x+3)
+d. 2^2x
+
+2.18
+evaluate each of the following when t = -7
+a. -t + 4
+b. (5-t)^2/(t+6)
+c. t^5/t^3
+d. 2t^2 - 3t / 7 + 8
+
+2.19
+a. p^8 . p^3 . p^4
+b. (4x^4)(6x^6) 
+
+2.20
+what must we multiply 3y^5 by to get 36y^8?
+
+answer:
