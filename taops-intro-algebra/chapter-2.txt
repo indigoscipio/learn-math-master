@@ -676,7 +676,7 @@ f. (4r^5)^1/2 . (81r^7)^-1/2
 answer:
 a. x^20
 b. (2^4 . k^4) (3^3 . (k^2)^3)
-16k^4 . 27k^6
+16k^4 . 27k^6 -> 432k^10
 
 c. sqrt(484t^9) -> sqrt(121 . 4 . (t^4)^2 . t^1) -> 11 . 2 . t^4 sqrt(t) -> 22t^4.sqrt(t)
 d. cuberoot(243y^12) -> cuberoot(27 . 9 . y^12) -> cuberoot(3^3 . 9 . (y^4)^3 ) ->
@@ -774,24 +774,24 @@ a. (7 - 8 - 3x + 5x) -> -1 + 2x -> 2x - 1
 b. (y^3-2y+1) + (-1)(y^2-2y+8)
 (y^3-2y+1) + ((-1 . y^2) + (-1 . -2y) + (-1 . 8)) ->
 (y^3-2y+1) + (-y^2 + 2y + -8) ->
-y^3 - y^2 - 2y + 1 - 8 ->
-y^3 - y^2 - 2y - 7
+y^3 - y^2 - 2y + 2y + 1 - 8 ->
+y^3 - y^2  - 7
 
 2.27
 simplify the expr 2(t^2 - 4t + 1) - t(t+7)
 first part
 (2 . t^2) + (2 . -4t) + (2 . 1) ->
-(4t^2) + (-8t) + (2) ->
-(4t^2 - 8t + 2)
+(2t^2) + (-8t) + (2) ->
+(2t^2 - 8t + 2)
 
 second part
 - t(t+7) ->
 (-t)(t+7) -> ((-t . t) + (-t . 7)) -> (-t^2 + -7t)
 
 combine
-(4t^2 - 8t + 2) + (-t^2 + -7t) ->
-4t^2 - t^2 - 8t - 7t + 2 -> 
-3t^2 - 15t + 2
+(2t^2 - 8t + 2) + (-t^2 + -7t) ->
+2t^2 - t^2 - 8t - 7t + 2 -> 
+t^2 - 15t + 2
 
 2.28
 each can of tennis balls has x balls
@@ -855,7 +855,8 @@ mult by 3 -> 3(7 - x) -> 21 - 3x
 1/2 the diff -> 8x - 36 / 2 -> 8x / 2 - 36 / 2 -> 4x - 18
 21 - 3x + 4x - 18
 x + 3
-so to quickly identify just add 3 to whatever the number chosen is
+so to quickly identify final number just add 3 to whatever the number chosen is
+and to quickly identify the first starting number just subtract 3 from the chosen number
 
 
 2.31
@@ -921,7 +922,8 @@ b. common denom: 10r
 (4-2r^2/10r) + ((-1)(5r^2 /10r))
 (4-2r^2/10r) + (-1 . 5r^2 /10r)
 (4-2r^2/10r) + (-5r^2 /10r)
-4 - 2r^5 - 5r^2 /10r
+4 - 2r^2 - 5r^2 /10r
+4 - 7r^2 /10r
 
 c. common denom: 8z^4
 (z . 2/ z . 8z^3) - (4 . (3-z)/ 4 . (2z^4))
@@ -932,6 +934,9 @@ c. common denom: 8z^4
 (2z/ 8z^4) + (-12 + 4z/ 8z^4)
 2z - 12 + 4z / 8z^4
 6z - 12 / 8z^4
+2(3z-6) / 2(4z^4)
+2 / 2 . (3z-6) / (4z^4)
+3z-6 / 4z^4
 
 
 d. common denom: (a^2-1) . (49a^4)
@@ -957,7 +962,39 @@ a/1 + 1/7a -> common denominator = 7a
 write 1/z^2+1 - 1/z^2 as a single fraction
 answer:
 
+common denominator: z^2 + 1 . z^2 = z^2(z^2 + 1) = (z^2 . z^2) + (z^2 . 1)
+= z^4 + z^2
+
+(z^2 . 1 / z^2 . (z^2 + 1)) - ((z^2 + 1) . 1 /(z^2 + 1) . z^2)
+(z^2 / z^4 + z^2) - (z^2 + 1 / z^4 + z^2)
+(z^2 / z^4 + z^2) + (-1)(z^2 + 1 / z^4 + z^2)
+(z^2 / z^4 + z^2) + ((-1 . z^2) + (-1 . 1) / z^4 + z^2)
+(z^2 / z^4 + z^2) + (-z^2 + -1 / z^4 + z^2)
+(z^2 / z^4 + z^2) + (-z^2 - 1 / z^4 + z^2)
+z^2 - z^2 - 1 / z^4 + z^2
+- 1 / z^4 + z^2
+- (1/z^4 + z^2)
+- (1/z^2(z^2 + 1)
 
 =================
 
 Challenge Problems
+
+2.36
+factor the expr 
+2r^2(r^2 + 1) - 8r(r^2 + 1) as completely as you can
+
+answer:
+let u be (r^2 + 1)
+u . (2r^2 - 8r)
+(r^2 + 1) . (2r^2 - 8r)
+(r^2 + 1) . 2r(r - 4)
+
+
+2.37 write the expr 2 + (4/2z-1) - (3/z) + (z/2z^2-z)
+
+2.38
+What number must be in the blank expr
+
+
+
