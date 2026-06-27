@@ -992,9 +992,188 @@ u . (2r^2 - 8r)
 
 
 2.37 write the expr 2 + (4/2z-1) - (3/z) + (z/2z^2-z)
+answer:
+
+lets find common factor
+2z-1, 3/z, z/2z^2-z
+
+CF is 2z-1 . z = 2z^2 - z
+
+(2 . (2z^2 - z) / 2z^2 - z) + (z . 4/ z . 2z-1) - (2z-1 . 3 /2z-1 . z) + (z / 2z^2 - z)
+(4z^2 - 2z/2z^2-z) + (4z / 2z^2-z) - (6z-3 / 2z^2-z) + (z / 2z^2 - z)
+(4z^2 - 2z/2z^2-z) + (4z / 2z^2-z) + ((-1)(6z-3 / 2z^2-z)) + (z / 2z^2 - z)
+(4z^2 - 2z/2z^2-z) + (4z / 2z^2-z) + ((-1 . 6z)+ (-1 . -3) / 2z^2-z) + (z / 2z^2 - z)
+(4z^2 - 2z/2z^2-z) + (4z / 2z^2-z) + (-6z + 3 / 2z^2-z) + (z / 2z^2 - z)
+(4z^2 - 2z + 4z - 6z + 3 + z) /2z^2-z
+4z^2 - 3z + 3 /2z^2-z
 
 2.38
 What number must be in the blank expr
+3(x+7) - _(2x+9)
+if the expression is the same for all values of x?
+
+answer:
+not sure what if its the same for all values of x, but maybe
+itneeds to be the same wheter its negative or positive
+
+first instinctive though is just 0 honestly
+let x = 2
+3(2+7) - 0(2.2+9)
+3(2+7) - 0
+3(9) - 0
+27 - 0
+27
+
+let x = 0
+3(0+7) - 0(2.0+9)
+3(7) - 0
+21 - 0
+
+so its not zero, lets try other values
+actually if we wanna make expression the same for all values x
+we need to make te frist one ocmpletely subtract
+2nd one so the value always result to 0
+
+we know first one is 3(x+7) -> 3x+21
+so we need to find away too equalize to this so they both cancel i thnk
+
+we need to just make the x dissapear
+_(2x + 9)
+
+let y be the blank number
+2x . y = 3x
+y = 3x / 2x
+y = 3/2 . x/x
+y = 3/2
+
+so the blank number is 3/2
+
+
+=======
+
+2.39
+factor the expression 2r(r-7) + 8r - 56
+
+answer:
+2r(r-7) thing is completely factored i think
+
+8r - 56 -> 8(r-7)
+
+2r(r-7) + 8(r-7)
+let u be (r-7)
+
+2r . u + 8 . u
+u (2r + 8)
+(r-7)(2r+8)
+(r-7)2(r+4)
+
+=======
+
+2.40
+
+a. expand the product x(x+2)
+b. expand the product (x+1)(x+2)
+c. factor the expr (x^2 + 5x + 4) by finding the numbers that correctly
+fill in the blank below:
+(x + _) (x + _)
+
+answer:
+a. (x . x) + (x . 2) -> x^2 + 2x
+
+b. (x . x) + (x . 2) + (x . 1) + (1 . 2)
+(x^2) + (2x) + (x) + (2)
+x^2 + 3x + 2
+
+c. (x+1)(x+4) ->
+(x . x) + (x . 1) + (x . 4) + (4 . 1)
+(x^2) + (x) + (4x) + (4)
+x^2 + 5x + 4
+
+=======
+
+2.41
+alice bob and carol each think of an expr that is a fraction wiht 1 as numerator
+and constant integer times some power of x as the denominator
+
+the simplest common denominaor of alice and bob expr is 4x^2. the simplest
+common denom of bob and carols expr is 12x^3. the simplest common denom of alice
+and carols expr is 6x^3
+
+find all possible expressions that could be carols expr
+
+answer:
+a,b,c => thinks of expr => 1/c.x^p
+
+a and b -> common denum is 1/4x^2
+b and c -> common denum is 1/12x^3
+a and c -> common denum is 1/6x^3
+
+we want to find all possible expressions that could be carol's expression
+12x^3 and 6x^3 -> factors of 6
+common factor = 1,2,3,6
+
+since a and b highest power isx^2
+carols highest power is x^3
+
+x^3
+2x^3
+3x^3
+6x^3
+
+=======
+
+2.42
+a. find the sum 1+2+3
+b. find the sum 1+2+3+4
+c. find the sum 1+2+3+4+5
+d. compare the answers for the first three parts to 3.4, 4.5, 5.6 respectively
+use your obsevation to uess what 1+2+3+4...+10 is then add the 10 numbers and  see
+to see if youre right
+e. guess an expr in terms of n that is awlsy euqal to
+1+2+3+...+(n-1)+n, no matter what posint n is
+f. add n+1 to your epxr from part e. find a common denominaor add the fractions
+thenfactor num as much as possible does the result confrim your guess from part e?
+
+answer:
+a. 1+2+3 = 6
+b. 10
+c. 15
+d. 3.4 = 12
+4.5 = 20
+5.6 = 30
+
+12 vs 6
+20 vs 10
+15 vs 30
+they divide by 2
+6 = 12/2,
+10 = 20/2
+15 = 30/2
+
+so for 10 im assuming its 10 . 11 / 2 = 55
+now check -> 1+2+....+10 = 55 so correct
+
+e.
+n = 5
+e. 1+2+...+4+5 ->
+5+6 / 2 = 30/2 = 15
+so its n . (n+1) / 2
+
+f. (n . (n+1)) / 2 + (n + 1)
+n.n+1/2 + (n + 1)
+n.n+1/2 + 2(n + 1)/2
+n.n+1/2 + (2 . n + 2 . 1)/2
+n.n+1/2 + (2n + 2)/2
+n(n+1)/2 + 2(n + 1)/2
+n(n+1) + 2(n+1)/2
+
+let u be n+1
+n(u) + 2(u) / 2
+u(n+2) / 2
+(n+1)(n+2)/2
 
 
 
+=======
+
+=======
