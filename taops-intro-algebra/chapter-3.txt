@@ -130,11 +130,252 @@ a. 3t + 2t -7 -6 = 4t -6t + 2
 5t-13 = -2t+2
 
 b. add 2t
-5t + 2t + 13 = -2t + 2t + 2
-7t + 13 = 2
+5t + 2t - 13 = -2t + 2t + 2
+7t - 13 = 2
 
+c. 7t = 2 + 13
+7t = 15
+t = 15/7
 
+3.9
+a. 3t = -13-9 -> 3t = -22 -> t = -22/3 
+b. -y/7 = 19-5 -> -y/7 = 14 -> -7 . -y/7 = 14 . -7 -> y = -98
+c. -3x -2x = -6 -8 ->  -5x = -14 -> x = -14 . -1/5 -> 14/5
+d. 2 - y + 10 + y/2 = 3y - 7/3 + 2y
+2 + 10 - y + y/2 = -7/3 + 3y + 2y
+12 - y + y/2 = -7/3 + 5y
+-y + y/2 - 5y = -7/3 - 12
+y/2 - 6y = -7/3 - 12
+y-12y/2 = -7-36/3
+-11y/2 = -43/3
+-11/2 . y = -43/3
+y = -43/3 . -2/11
+y = 86/33
 
+3.10
+a. find all values z that satisfy 2z + 3 - 4 = 3z - 5 - z
+b. find all values of r that satisfy 3r + 5 + r = 7r - 2 + 7 - 3r
 
+answer:
+a. 2z + 3 - 4 = 3z - 5 - z
+2z - 3z + z = -5 -3 +4
+3z - 3z = -4
+0 = -4
+im guessthing no value can satisfy here?
 
+b. 3r + r - 7r + 3r = -2 + 7 - 5
+7r - 7r = -7 + 7
+0 = 0
+all value can satisfy
 
+3.11
+the equaitons 2x+7=3 and bx-10=-2 have the same solution x
+a. what is the value of x?
+b. what is the value of b?
+
+answer:
+a. 2x + 7 = 3
+2x = 3-7
+2x = -4
+x = -2
+
+b. since they have the same solution x just substitute
+-2b - 10 = -2
+-2b = -2+10
+-2b = 8
+-1/2 . -2b = 8 . -1/2
+b = -8/2
+b = -4
+
+3.2.1
+solve each following equations
+
+a. 3x-4 = 17
+b. 4 - 2r = 17 + 5r
+c. 4 + 2.3y = 1.7y - 20
+d. -2t + 3/2 = t/4 - 12
+e. -27u + 13u - 5 = 3 - 14u
+f. 3 - 2y + 5 = 8 - 17y
+g. -3(r+7) = 5(3-r)
+h. x-7/5 = x-2/3
+
+answer:
+a. 3x = 17+4 -> 3x = 21 -> x = 21/3 -> x = 7
+b. -2r-5r=17-4 -> -7r=13 -> -1/7 . -7r = -1/7 . 13 -> r = -13/7
+c. 4 + 20 = 1.7y - 2.3y -> 24 = -0.6y -> 24 = -6/10 . y -> 24 . -10/6 = y -> -40 = y
+d. -2t + 3/2 = t/4 - 12
+-2t - t/4 = -12 - 3/2
+-8t-t/4 = -3-24/2
+-9t/4 = -27/2
+-9/4 . t = -27/2
+t = -4/9 . -27/2 
+t = 108 / 18
+t = 6
+
+e. -27u + 13u - 5 = 3 - 14u
+-27u + 13u + 14u = 3 + 5
+0 = 8
+the equation is false for all u
+
+f. 3 + 5 - 8 = 2y - 17y
+0 = -15y
+-1/15 . 0 = -1/15 . -15y
+0 = y
+
+g. -3(r+7) = 5(3-r)
+(-3 . r + -3 . 7) = (5 . 3 - 5 . r)
+(-3r + -21) = (15 - 5r)
+-3r - 21 = 15 - 5r
+-3r + 5r = 15 + 21
+2r = 36
+r = 36/2
+r = 18
+
+h. x-7/5 = x-2/3
+15 . (x-7/5) = 15 (x-2/3)
+15 . (x-7/5) = 15 (x-2/3)
+3 . (x-7) = 5 . (x-2)
+3x - 21 = 5x - 10
+3x - 5x = -10 + 21
+-2x = 11
+x = -11/2
+
+------
+
+3.2.2
+Tommy solved the equation 3x-7 = x/2 + 9 and found x = 5
+he then shakes his head and starts over
+how did he know so quickly that he made a mistake?
+
+answer:
+coz if we focus on the 3x
+thats 15 - 7 =  8
+
+on rhs if we do 5/2 thats a small value
+5/2 + 9 = 2.5 + 9 = 11.5 so thats difrent
+
+------
+
+3.2.3
+for what value of a does the equation 3y + 2a = 4y + 7 - y + 3
+have infinitely many solutions for y?
+
+answer:
+3y + 2a = 4y + 7 - y + 3 ->
+2a = 4y -y +10 -3y
+2a = 3y + 10 -3y
+2a = 10
+a = 10/2
+a = 5
+
+not sure what infintely many solution mean but i found a = 5
+ah so infinitely many solution  = identity/mirror
+
+so it should by 3y + 2a = 3y + 10
+a should be 5
+
+------
+
+3.2.4
+joan cant quite read the board in her math class
+she writes down the euation she reads on the board as 3x-7 = 38
+she curently solves the equation she wrote down but is surprised to hear the
+teacher the answer is 6 less than the answer she found
+when she asks the teacher to check her work the teacher says that joan copied
+the coefficient of x incorrecly (but copied everything lese correctly)
+what should the coefficient of x have been?
+
+answer:
+ok so we know the original equation on the board is
+3x-7 = 38
+teacher says answer is 6 less then the answer she found.
+
+lets solve the original equation first
+3x - 7 = 38
+3x = 38+7
+3x = 45
+x = 15
+so the answer to the original equation is 15
+
+since the answer is 6 less then what she found the ntis
+15-6 = 9
+
+c.x -7 = 38
+9x - 7 = 38
+9x = 45
+x = 5
+
+======================================================
+
+3.3
+3.12
+word Problems
+three less than two times a number equals four times the number plus eight
+a. x is a number
+b. 2x - 3
+4x + 8
+c. 2x-3 = 4x + 8
+d. 2x - 4x = 8 + 3 -> -2x = 11 -> x = -11/2
+
+3.13
+a. 
+apple sack = x
+7 -> mamma excellent apple pies
+3x + 2 -> 5 excellent apple pies
+
+b. 3x+2 = 5.7
+3x + 2 = 35
+3x = 33
+x = 11
+
+3.14
+i am now 3y younger than twice what my age was 6 years ago
+wha t is my age now?
+
+answer:
+let x be my current age in year
+
+what my age was 6 years ago
+(x - 6)
+
+twice
+2(x-6)
+
+3y younger
+2(x-6) - 3
+
+i am now ...
+x = 2(x-6) - 3
+x = (2.x - 2.6) - 3
+x = (2x -12) - 3
+x = 2x - 12 - 3
+x = 2x - 15
+x - 2x = -15
+-x = -15
+(-1)-x = (-1)-15
+x = 15
+
+3.15
+al gets the desiase algebritis and must take one geren pill and one pink pill
+each day for 2 weeks
+a pink pill costs 1 more than a green pill
+and als pills cost a total of $546 for the two weeks
+how much does one green pill cost?
+
+answer:
+let x be the price of one green pill
+pp = x + 1
+
+1 week = 7day
+2 week = 14day
+total pill taken
+gp = 14
+pp = 14
+
+total price = 2wk pink pill + 2wk green pill
+546 = 14(x+1) + 14(x)
+546 = 14x + 14 = 14x
+546 = 28x + 14
+532 = 28x
+x = 532/28
+x = 19
