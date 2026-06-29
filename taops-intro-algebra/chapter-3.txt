@@ -379,3 +379,205 @@ total price = 2wk pink pill + 2wk green pill
 532 = 28x
 x = 532/28
 x = 19
+
+==================
+
+Exercises
+3.3.1
+three times a number is 7 more than double the number
+whats the number?
+
+answer:
+let x be the number
+three thimes a number -> 3x
+7 more than double the number -> 2x + 7
+
+is -> 3x = 2x + 7
+solve
+
+3x - 2x =  7
+x = 7
+so the number is 7
+
+3.3.2
+my brother is 4 times as old as i am
+six years from now he will be twice as old as i will be
+how old is my brother now?
+
+answer:
+let x by my age right now
+brothers age = 4x
+
+
+4 times as old as me -> 4x
+twice as old as i will be -> 2(x + 6)
+six years from now -> 4x + 6
+
+4x+6 = 2x + 12
+2x = 12-6
+2x = 6
+x = 3
+
+
+3.3.3
+recall captain hooks clue to find his treatures:
+
+get ye to the palm tree at the middle of the isle
+face ye to the west
+think ye of the numer thats seventeen more than the quotient when
+six times the number of paces to the treasure is divided by two
+this number be equal to the sum when twelve more than nine minus fifteen is added
+to four times the number of paces to the treasure
+dig ye only once for if ye dig in the wrong spot the treasure will dissapear
+
+how many paces shoud you take?
+
+answer:
+let x be number of paces
+
+the quotient when six times the number of paces to the treasure the divided by two
+-> (6x / 2)
+
+seventeen more -> (6x / 2) + 17 -> (6/2 . x/2) + 17 -> 3x + 17
+
+four times the number of paces to the treasure
+4x
+
+twelve more than nine minus fifteen is added
+4x + (12 + (9 - 15)) -> 4x + 12 - 6 -> 4x + 6
+
+3x + 17 = 4x + 6
+3x -4x = 6 - 17
+-x = -11
+-1 . -x = -1 . -11
+x = 11
+
+3.3.4
+bocephus has a bag full of nicles and dimes
+if ther are 3 times as many dimes as nicles and he has $36.05 in his bag
+how many nicles does he have?
+answer:
+
+so if i remmeber nickel is 5 cent
+dime is 10 cent
+
+let x be the number of nickles
+
+3 times as many dimes as nicles
+dimes = 3x
+
+total money = total bag of nickel + total bag of dimes
+36.05 = x + 3x
+36.05 = 0.05x + 0.1 . 3x
+36.05 = 0.05x + 0.3x
+36.05 = 0.35x
+3605 = 35x
+x = 103
+
+3.3.5
+cindy was asked by her teacher to subtract 3 from a certain number and
+then divide th result by 9. instead she subtracted 9 and then
+divided the result by 3 giving an answer of 43
+what would her answer have been had she worked the problem correctly?
+
+answer:
+let x be the certain number
+
+teacher asked -> (x - 3) / 9
+what cindy did -> (x - 9) / 3
+
+(x - 9) / 3 = 43
+x-9 = 43 . 3
+x - 9 = 129
+x = 138
+
+(138-3)/9
+135/9
+15
+
+3.3.6
+at the end of 1994 walter was half as old as his grandmother
+the sum of the years in which they were born is 3838
+how old will walter be at the end of 1999?
+
+answer:
+let x be walter's age at the end of 1994
+
+grandmother age = 2x
+
+birth year = 1994 - age
+
+walters birth year = 1994-x
+grandmothers birth year = 1994-2x
+
+
+3838 = 1994-x + 1994-2x
+3838 = 3988 - 3x
+3838-3988 = -3x
+-150 = -3x
+150 = 3x
+x = 150/3
+x = 50
+50 + 5 =  55
+
+=====================================
+
+3.4
+linear equations in disguise
+
+3.16
+solve for x in 3 sqrt(x) - 2 = 30 - sqrt(x)
+a. let y = sqrt(x)
+
+3y-2 = 30-y
+3y + y = 30+2
+4y = 32
+y = 8
+
+sqrt(8) = sqrt(4 . 2) -> 2.sqrt(2)
+
+3.17
+3/x - 2 = 7 + 2/x
+
+a. multiply by x
+x(3/x - 2) = x(7 + 2/x)
+(3x/x - 2x) = (7x + 2x/x)
+3 - 2x = 7x + 2
+3 - 2  = 7x + 2x
+1 = 9x
+x = 1/9
+
+c. subtract 2/x to both sides
+d. 3/2 - 2/x - 2 = 7 + 2/x - 2/x
+1/x - 2 = 7
+1/x = 9
+1 = 9x
+x = 1/9
+
+3.4
+linear equations in disguise
+
+3.18
+solve the following equations:
+a. cuberoot(2z+1) - 5 + 2 . cuberoot(2z+1) = -14
+b. 2 . sqrt(r) + 13 - sqrt(r) = 9 - sqrt(r)
+c. x/x-1 + 2/3 = 2/x-1
+
+answer:
+a. let x = cuberoot(2x+1)
+x - 5 + 2x = -14
+3x = -14 + 5
+3x = -9
+x = -3
+
+cuberoot(2z+1) = -3
+(2z+1)^1/3 = -3
+
+cube both sides
+(2z+1)^1/3.3 = -3^3
+2z+1 = -27
+2z = -27-1
+2x = -28
+x = -14
+
+b. 
