@@ -534,7 +534,8 @@ a. let y = sqrt(x)
 4y = 32
 y = 8
 
-sqrt(8) = sqrt(4 . 2) -> 2.sqrt(2)
+8 = sqrt(x)
+x = 64
 
 3.17
 3/x - 2 = 7 + 2/x
@@ -580,4 +581,116 @@ cube both sides
 2x = -28
 x = -14
 
+b. 2 . sqrt(r) + 13 - sqrt(r) = 9 - sqrt(r)
+let y = sqrt(r)
+2 . y + 13 - y = 9 - y
+2y + 13 - y = 9 - y
+y + 13 = 9 - y
+y + y = 9 - 13
+2y = -4
+y = -4/2
+y = -2
+
+sqrt(r) = -2
+no solution exist -> sqrt only outputs positive numbers or zero
+it can never output a negaive number
+
+c. x/x-1 + 2/3 = 2/x-1
+mult both sides by x-1
+(x-1) . (x/x-1 + 2/3) = (x-1) . (2/x-1)
+(x-1 . x/x-1) + (x-1 . 2/3) = (x-1 . 2/x-1)
+x + 2(x-1)/3 = 2
+x + 2x-2/3 = 2
+3.x + 3.(2x-2/3) = 2(3)
+3x + 2x-2 = 6
+5x-2 = 6
+5x = 8
+x = 8/5
+
+============================================
+CROSS MULTIPLICATION
+2/3 = 2-x/x-1
+
+2(x-1) = 3(2-x)
+which is the same as (3)(x-1)(2/3) = (3)(x-1)(2-x/x-1)
+===================================================
+
+
+3.4.1
+find x if 2/x - 3/5 + 1/x = 1/5
+
+answer:
+2/x - 3/5 + 1/x = 1/5
+2/x + 1/x = 1/5 + 3/5
+3/x = 4/5
+(x)(5)(3/x)=(x)(5)(4/5)
+5.3=x.4
+15=4x
+x=15/4
+
+3.4.2
+find r if 4-sqrt(2r) = sqrt(2r) - 6
+
+answer:
+let y be sqrt(2r)
+4-y = y-6
+10=2y
+y=10/2
+y=5
+
+5 = sqrt(2r) -> square both sides
+5^2 = (sqrt(2r))^2
+25 = 2r
+r = 25/2
+
+3.4.3
+the denominator of a fraction is 7 less than 3 times the numerator
+if the fraction is equivalent to 2/5 what is the numerator of the fraction?
+
+answer:
+let x be the numerator of the fraction
+denominator -> 7 less than 3 times the numerator -> 3x-7
+fraction is equivalent 2/5
+we need to find the numerator
+
+x/3x-7 = 2/5 -> mult both sides by (5)(3x-7)
+(5)(3x-7)(x/3x-7) = (5)(3x-7)(2/5)
+(5)(x) = (3x-7)(2)
+5x = 6x-14
+5x-6x = -14
+-x = -14 -> mult boht sides by -1
+x = 14
+
+3.4.4
+at the end of the section we let r = 1/x-1 in x/x-1 + 2/3 = 2/x-1 to get
+xr + 2/3 = 2r
+
+while at first we may seem stuck because we have 2 variables instead of one
+we can still use this substituion to solve the problem
+a. solve the equation r=1/x-1 for x in terms of r. in other words manipulate
+the equation until you have x equal to an expr with rs in it, but no xs
+b. substitute this expr for x in the equation xr + 2/3 = 2r. do you have a lienar
+equation now? solve that equatin for r. use your value of r to find x.
+
+answer:
+
+xr + 2/3 = 2r
+a. 
+r = 1/x-1
+(x-1).r = (x-1).1/x-1
+xr-r = 1
+xr = 1+r
+x = (1+r)/r
+
 b. 
+(1+r)/r . r + 2/3 = 2r
+1 + r + 2/3 = 2r
+1 + 2/3 = 2r-r
+3+2/3 = r
+5/3 = r
+
+x = (1+5/3)/5/3
+x = 8/3 : 5/3
+x = 8/3 . 3/5
+x = 24/15
+x = 8/5
