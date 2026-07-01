@@ -706,13 +706,19 @@ your work by working on the problem with paper and pencil
 a. 6 = 2 + r
 b. t/3 - 7 + 2t/3 = -3-4
 c. 15 + 3t -5 -2t = 8 - 4
-d. (4x-3x+2x-x/2) - (4-3+2-1/4) = -2
+d. ((4x-3x+2x-x)/2) - ((4-3+2-1)/4) = -2
 
 answer:
 a. r = 4
 b. t-7=-7 -> t = 0
 c. 10+t=4 -> t = -6
-d. x - 1/2 = -2 -> x = -2 + 1/2 -> x = -1.5
+d. 3x-x/2 - 1/2 = -2
+6x-x/2 - 1/2 = -2
+5x/2 = -2 + 1/2
+5/2.x = -4+1/2
+5/2.x = -3/2
+x = -3/2 . 2/5
+x = -3/5
 
 3.20
 solve each of the following equations without a calc
@@ -746,16 +752,196 @@ the equation is false/never true for all y
 d. 3 - (8-2y)/5 = 2(y-9) ->
 mlt both sides by 5
 5(3) - 5(8-2y/5) = 5(2y-18)
-15 - 8-2y = 10y-90
-7-2y = 10y-90
-7+90 = 12y
-97 = 12y
-y = 97/12
-
-3.21 solve each of the following equations
-a. 
-b. 
-c. 
-d.
+5(3) + -5(8-2y/5) = 5(2y-18)
+5(3) + -1(8-2y) = 5(2y-18)
+5(3) + (-8+2y) = 10y - 90
+15 -8 + 2y = 10y - 90
+15 - 8 + 90 = 10y -2y
+15 - 8 + 90 = 10y -2y
+97 = 8y
+y = 97/8
 
 3.22
+im thinking of a nuber
+my number is 5 more than one half my number
+whatis my number?
+
+answer:
+let x be the number
+
+one half my number -> 1/2 . x -> x/2
+5 more -> x/2 + 5
+my number is -> x = x/2 + 5 ->
+mult both sides by 2
+2 . x = 2 (x/2) + 2 . 5
+2x = x + 10
+x = 10
+
+3.23
+kyle is taking the sat. hes asked to solve equation 5x + 10 = x/3 + 24
+the question is multiple choice with the folowing options for answers
+a. 1
+b. 2
+c. 3
+d. 4
+e. 5
+
+hw does kyle know the corec answer si c without solving the equation or testing the
+five choices?
+
+answer:
+just multiply both sides by 3
+15x + 30 = x + 72
+14x = 42
+x = 3
+
+because if we subtitute x/3 -> 3/3 thats just 1 and 1 + 24 = 25
+this makes the fractions dissapear
+and on LHS its also 15 + 10 = 25
+
+3.24
+a bag containing some widgets weighs 81 kg
+when 2 of the widgets are rmoved
+the weight of the bag of widgets drops to 73kg
+the bag weighs 1kg when empty
+how many widgets are left inthe bag?
+
+answer:
+
+we wanna find how many widgets are left in te bag
+let x be the amount of widget in the bag
+
+a bag containing some widget -> 81kg
+2 of the widgets are removed -> 73kg
+when empty -> 1kg
+
+x = 81
+x = 73
+difference = 81-73 = 8
+this 8 represents 2 widget so 1 widget = 4
+
+empty widget = 73-72 = 1
+72/4 = 18
+so 18 widget
+
+3.25
+six years ago i was half as old as i will be four years from now
+how old will i be five years from now?
+
+answer:
+let x represent my current age
+six years ago -> (x-6)
+half as old as i will be four years from now ->  1/2 . (x + 4)
+
+x-6 = 1/2 . (x + 4)
+x-6 = x/2 + 2
+x = x/2 + 8
+x - x/2 = 8
+2/2x - 1/2x = 8
+1/2x = 8
+x = 16
+
+16 + 5 = 21
+
+===============================================
+
+3.26
+find all values of z such that 2/z + 5 = 5z - 4
+answer:
+mult both sides by z
+
+z(2/z + 5) = z (5/z - 4)
+(z.2/z + z.5) = (z.5/z - z.4)
+2 + 5z = 5 - 4z
+5z+4z = 5-2
+9z = 3
+z = 3/9
+z = 1/3
+
+alternatively
+2/z - 5/z = -4-5
+2-5/z = -9
+-3/z = -9
+-3 = -9z
+z = -3/-9
+z = 1/3
+
+3.27
+find all values x such that 1/x-1 + 2x/x-1 = 5
+mult both sides by x-1
+
+(x-1)(2x+1/x-1) = (x-1)5
+2x+1 = 5x-5
+2x-5x = -5-1
+-3x = -6
+x = -6/-3
+x = 3
+
+3.28
+members of the rockham soccer league buy socks and tshirts
+socks cost $4 per pair and each t shirt costs $5 more than a pair of socks
+each member needs 2 pairs of socks and 2 t shirts
+if the total cost for the socks and t shirts is $2366
+how many members are in the league?
+
+answer:
+sock -> $4
+t shirt -> sock + $5 -> 4+5 = $9
+each member -> 2.socks + 2.shirts
+total cost -> $2366
+
+let x represent the total members in the league
+however eahc member needs 2 pair of socks and 2 t shirts
+total cost = x.2(sock-price) + x.2(shirt-price)
+total cost = x.2(4) + x.2(9)
+2366 = 8x + 18x
+2366 = 26x
+x = 2366/26
+x = 91
+
+alternative
+ok so 1 member we know heneeds
+2 pair of socks -> $8
+2 t shirts -> $18
+so 1 member needs $26
+
+2366 = 26x
+x = 2366/26
+x = 91
+so there is a total of 91 members in the league
+
+3.29
+three plus the reciprocal of a number equals 7 divided by that number
+what is that number?
+
+answer:
+let x be the target number
+3 + 1/x = 7/x
+x(3 + 1/x) = x(7/x)
+3x + x . 1/x = x . 7/x
+3x + 1 = 7
+3x = 6
+x = 2
+
+3.30
+five years ago my grandfather as five times as old as i was
+three years from now my grandfather will be three times as old as i will be
+how old am i now?
+answer:
+
+3.31
+five consecutive integers are added
+the resulting sum is 6 more than the greatest of the five ints
+what was the smallest of the five ints?
+answer:
+
+3.32
+for what value of b is x=3 a solution to the equation bx^2 + 3x - 2b = 0?
+answer:
+
+3.33 for what values of z satisfy the equation cubroot(z)-13 = 5 - cuberoot(z)
+answer:
+
+3.34
+for what values of z does (4-z)/(4+z) = z/(z+z+z+z)?
+answer:
