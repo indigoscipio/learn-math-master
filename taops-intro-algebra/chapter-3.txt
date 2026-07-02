@@ -875,7 +875,7 @@ mult both sides by x-1
 2x-5x = -5-1
 -3x = -6
 x = -6/-3
-x = 3
+x = 2
 
 3.28
 members of the rockham soccer league buy socks and tshirts
@@ -924,10 +924,27 @@ x(3 + 1/x) = x(7/x)
 x = 2
 
 3.30
-five years ago my grandfather as five times as old as i was
+five years ago my grandfather was five times as old as i was
 three years from now my grandfather will be three times as old as i will be
 how old am i now?
 answer:
+
+ok so we have
+grandpa 5y ago = 5.whatever my age was back then
+
+3y from now
+grandpa = 3.whatever my future age will be
+
+let x represent my current age
+my age 5 years ago => x-5
+grandpas age -> 5(x-5) back then
+
+then 3y from nwo
+5(x-5) + 8 = 3(x + 3)
+5x-25+8=3x+9
+5x-3x=9+25-8
+2x=26
+x=13
 
 3.31
 five consecutive integers are added
@@ -935,13 +952,223 @@ the resulting sum is 6 more than the greatest of the five ints
 what was the smallest of the five ints?
 answer:
 
+ok so we know 5 consecs integer
+(x)+(x+1)+(x+2)+(x+3)+(x+4) = (x+4)+6
+
+we wanna basically find smallest wich is x
+(x+x+x+x+x) + (1+2+3+4) = (x+4) + 6
+5x + 10 = x + 10
+5x - x = 10 - 10
+4x = 0
+x = 0/4
+x = 0
+
 3.32
 for what value of b is x=3 a solution to the equation bx^2 + 3x - 2b = 0?
 answer:
 
+ok so we know x=3, just subst
+bx^2 + 3x - 2b = 0
+b(3)^2 + 3x - 2b = 0
+b.9 + 3(3) - 2b = 0
+9b + 9 - 2b = 0
+9b-2b+9=0
+7b + 9 = 0
+7b = -9
+b = -9/7
+
+
 3.33 for what values of z satisfy the equation cubroot(z)-13 = 5 - cuberoot(z)
 answer:
+cubroot(z)-13 = 5 - cuberoot(z)
+let y be cuberoot(z)
+
+y-13 = 5 - y
+y+y = 5 + 13
+2y = 18
+y = 18/2
+y = 9
+
+subst back -> cuberoot(z) = 9 -> raise to 3rd power -> z = 9^3 -> z = 729
 
 3.34
 for what values of z does (4-z)/(4+z) = z/(z+z+z+z)?
+answer:
+
+lets simplify this
+(4-z)/(4+z) = 1/4
+
+mult both sides by (4+z)(4)
+(4+z)(4) (4-z)/(4+z) = (4+z)(4) 1/4
+4(4-z) = 4+z
+16-4z = 4 + z
+-4z-z = 4-16
+-5z = -12
+-1/5 . -5 z = -1/5 . -12
+z = 12/5
+
+==============================================
+
+Challenge problems
+3.35
+find r if 3r^2 + r = 27 + 3r - 2r
+answer:
+
+3r^2 + r - 3r + 2r = 27
+3r^2 - 3r + 3r = 27
+3r^2 = 27
+r^2 = 27/3
+r^2 = 9
+r = sqrt(9)
+r = 3
+
+3.36
+find y if fourthroot(y) + fourthroot(16y) - 2 = 4
+
+fourthroot(y) + fourthroot(16y) - 2 = 4
+fourthroot(y) + fourthroot(16y) = 6
+fourthroot(y) + 2.fourthroot(y) = 6
+3.fourthroot(y) = 6
+fourthroot(y) = 6/3
+fourthroot(y) = 2
+expo both sides by 4
+(fourthroot(y))^4 = 2^4
+y = 16
+
+3.37.
+find all values of y such that 3/(x+sqrt(y)) + 4/2+(sqrt(y)) = 1
+
+7/2+sqrt(y) = 1
+mult both sides by 2+sqrt(y)
+
+2+sqrt(y).7/2+sqrt(y) = 2+sqrt(y) . 1
+7 = 2+sqrt(y)
+5 = sqrt(y)
+sqrt(y) = 5 -> square both sides
+y = 25
+
+3.38
+stan has an equal positive number of quarters, dimes and nickels in his bag
+the total amount of money stan has in his bag is a whole number of dollars
+what is the smallest mount of money stan could have? 
+
+answer:
+ok i hate this type of questions
+so quarter is 25c -> 0.25x
+dimes is 10c -> 0.10x
+nickels is 5c -> 0.05x
+
+we know the total is a whole number
+total money in the bag = total quarter + total dime + total nickel
+we wanna find the smallest amount of money
+
+we know the count of the 3 are all equal so q = d = n
+
+minimal integer needed is 1 which is composed of atleast 4 quarter bt lets try if 3 works
+
+actually lets try to solve algebraically
+25 + 10 + 5 = 40
+40/100 -> 2/5 -> needs to be divisble by 5
+
+10 = q = d =  n
+2.5+1+0.5 -> 3+1 = 4
+
+5 = q=d=n
+need to check if theres smaller
+1.25+0.5+0.25 -> 2
+
+need to check if theres smaller
+2=q=d=n
+.5 + .2 + .1 -> .8 -> not int
+
+3 = q=d=n
+.75+.3+.15 -> 1.2, not int
+
+so i guess 5 is the answer here?
+so that means 2usd
+
+
+3.39
+a. let x be middle int of 3 consecutive integers. what is the sum of these 3 integers
+in terms of x?
+b.the sum of 23 consecutive integers is 2323. what is the largest of the
+integers?
+
+(x-1) + x + (x+1) = sum
+x + x + x + 1 - 1 = sum
+3x = sum
+sum = 3x
+
+3.40
+ok so we know
+x + (x+1) + ... + (x+22) = 2323
+23x + (1+...+22) = 2323
+23x + 23.11 = 2323
+23x + 253 = 2323
+23x/23 + 253/23 = 2323/23
+x + 11 = 101
+x = 101 + 11
+x = 112
+
+alternatively
+in terms of middle integer
+since there are 23 toal -> 11 left, 1 middle, 11 right
+(x-11)+(x-10 ),..., x, ..., (x+10)+(x+11)
+they cancel each other
+
+23x = 2323
+x = 101
+since x is the middle number
+need to find the largest
+101 + 11 -> 112
+
+3.40
+what values of z satisfy the equation 3/(1-2/z) = 3z?
+
+answer:
+
+simplify denominator
+1 - 2/z
+z/z - 2/z
+(z-2)/z
+
+3 : (z-2)/z = 3z?
+
+LHS
+3 . z/(z-2)
+3z / z-2
+
+3z / z-2 = 3z
+mult both sides by (z-2)
+(z-2) . (3z / x-2) = 3z(z-2)
+3z = 3z^2 - 6z
+9z = 3z^2
+z^2 = 9z/3
+z^2 = 3z
+z^2 - 3z = 0
+z(z - 3) = 0
+
+z = 0
+z = 3
+
+
+=================
+zero product peroprty
+if a . b = 0 -> a = 0 or b = 0 or both = 0
+=================
+
+
+
+3.41
+after lois picks a vlue for b clark must solve the equation
+
+2x + 7 - x = 4x + 2b - 3x - 3b
+
+
+clark uses loiss b then tries to solve the quation by repeatedly guessing
+values of x until the guesses the right one
+however for eveyr x he picks the left side is awlasy 3 more than the right side
+what value of B did lois give clark?
+
+
 answer:
