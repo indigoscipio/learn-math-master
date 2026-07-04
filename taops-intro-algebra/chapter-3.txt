@@ -1371,3 +1371,180 @@ answer:
 a. 3/6 . x/x . y/z -> 1/2 . 1 . y/z -> 1/2 . y/z -> y/2z
 b. 8 . x^4-3 . y^2-3 -> 8 . x . y^-1 -> 8 . x . 1/y -> 8x/y
 
+==================================
+
+4.2.1
+simplify each of the following:
+a. (2a-3b)+(4a+7b)
+b. (6x-9y+2z)+(3y-2z+9x)
+c. d^2/2 + 3c^2 - 7d^2 + 5c^2
+d. a/d + 3a/d + 2/d + 2a-2/d
+
+answer:
+a. (2a+4a)+(-3b+7b)
+6a+4b
+b. (6x+9x)+(-9y+3y)+(2z-2z)
+15x-6y
+c. d^2/2 + 3c^2 - 7d^2 + 5c^2 ->
+d^2/2 -7d^2 + 3c^2 + 5c^2 ->
+d^2-14d^2/2 + 8c^2 ->
+-13d^2/2 + 8c^2
+
+d. a/d + 3a/d + 2/d + 2a-2/d ->
+a+3a+2+2a-2/d ->
+6a+2-2/d ->
+6a/d
+
+-----
+4.2.2 simplif each of the follownig:
+
+a. x . y . y . z . y . z . x
+b. a . b . a^3 . a^2 . b^2
+c. (3x^3y^2z)(2xy^5z^5)
+d. (3r^3)(2s^5)(2rs)(4r^2s^3)
+
+answer:
+a. x^2 . y^3 . z^2 -> x^2y^3z^2
+b. a^6 . b^3 -> a^6b^3
+c. 3 . 2 . x^3 . x . y^2 . y^5 . z . z^5
+6 . x^4 . y^7 . z^6
+6x^4y^7z^6
+d. 3 . 2 . 2 . 4 . r^3 . r . r^2 . s^5 . s . s^3
+48 . r^6 . s^9
+48r^6s^9
+
+-----
+4.2.3
+simplify each of the following:
+a. (x^7y^3)^4 
+b. (-3v^3z^4)^5
+
+answer:
+a. ((x^7.4) . (y^3.4)) -> x^28 . y^12 -> x^28y^12
+b. ((-3)^5 . (v^3)^5 . (z^4)^5) ->
+-243 . v^15 . z^20 -> -243v^15z^20
+
+-----
+
+4.2.4
+simplify each of the following:
+a. (14a^2b^3)/(21a^3b^7)
+b. (-2x^3y^5z)/(-8x^3y^2z^3)
+
+answer:
+a. 14/21 . a^2/a^3 . b^3/b^7 ->
+2/3 . a^2-3 . b^3-7 ->
+2/3 . a^-1 . b^-4 ->
+2/3 . 1/a . 1/b^4 ->
+2/3ab^4
+
+b. (-2x^3y^5z)/(-8x^3y^2z^3) ->
+-2/-8 . x^3/x^3 . y^5/y^2 . z/z^3 -> 
+1/4 . 1 . y^5-2 . z^1-3 ->
+1/4 . y^3 . z^-2 ->
+1/4 . y^3 . 1/z^2 ->
+y^3/4z^2
+
+
+-----
+
+4.2.5
+by what expr can we muly 2xt^3 to get 32x^3t^8?
+
+answer:
+(2xt^3) . (?) = 32x^3t^8
+
+32/2 -> 16
+x^3 - x^1 -> x^2
+t^8 - t^3 -> t^5
+
+so mult by 16x^2t^5
+
+-----
+
+==================================
+
+DISTRIBUITION AND FACTORING
+
+4.6
+
+bigville
+baseball -> x players
+footbal -> y players
+
+a. 7 . (2x + 4y)
+b. 14x + 28y
+c. 7 . 2x = 14x
+d. 7 . 4y = 28y
+e. 7 . (2x + 4y)
+
+-----
+
+4.7
+smallville
+2x
+4y
+
+bigville
+14x
+12y
+
+a. baseball -> 14x, football -> 12y
+b. baseball -> 2x, footballe -> 4y
+c. 14-2 = 12 more baseball player in bigvile
+12-4 = 8 more football in bigville
+d. 14x-2x + 12y-4y
+12x+8y
+
+-----
+
+4.8
+a. (5t + 15s)
+b. 3xy(x-y) ->
+ (3xy . x + 3xy - y) ->
+(3x^2y + - 3xy^2) ->
+3x^2y - 3xy^2 ->
+
+4.8
+c. simplify the expr 
+(t+3r) - (2t-5r+1) ->
+(t+3r) + (-1)(2t-5r+1) ->
+(t+3r) + ((-1 . 2t) + (-1 . -5r) + (-1 . 1)) ->
+(t+3r) + (-2t + 5r - 1) ->
+(t+3r) + (-2t + 5r - 1) ->
+-2t + t + 3r + 5r - 1 ->
+-t + 8r - 1
+
+d. simplif the expr
+3(x-xy+3) - 4(x+xy+7) ->
+3(x-xy+3) + (-4)(x+xy+7) ->
+((3 . x) + (3 . -xy) + (3 . 3)) + ((-4 . x) + (-4 . xy) + (-4 . 7)) ->
+(3x - 3xy + 9) + (-4x + -4xy + -28) ->
+3x - 4x - 3xy - 4xy + 9 - 28 ->
+-x - 7xy -19
+
+-----
+
+4.9
+a. factor a 3 out of 3x+6y to write it as producto f 3 and an epxr
+b. factor -15ab + 35cd
+c. factor 3x^2 + 2xz
+d. factor 7r^2s^2 - 21rs^3 + 14rs^4 as completely as you can
+
+answr:
+a. 3(x+2y)
+b. 5(-3ab + 7cd)
+c. x(3x+2z)
+d. 7rs^2(r - 3s + 2s^2)
+
+-----
+
+4.10
+simplify the product (2x+4y)/8 . (3xy)/(x^2+2xy). make sure your final fraction is
+simplified as much as possible
+
+answer:
+2(x+2y)/8 . 3xy/x(x+2y) ->
+(x+2y)/4 . 3y/(x+2y) ->
+3y/4
+
