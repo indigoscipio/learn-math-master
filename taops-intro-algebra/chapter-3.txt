@@ -1492,6 +1492,7 @@ bigville
 a. baseball -> 14x, football -> 12y
 b. baseball -> 2x, footballe -> 4y
 c. 14-2 = 12 more baseball player in bigvile
+difference = [players in bigville] - [players in smallville]
 12-4 = 8 more football in bigville
 d. 14x-2x + 12y-4y
 12x+8y
@@ -1548,3 +1549,106 @@ answer:
 (x+2y)/4 . 3y/(x+2y) ->
 3y/4
 
+
+==============================
+
+sidenote
+am + an = a(m + n)
+am = area 1
+an = area 2
+
+combine them together
+height is still a
+but width is now m + n
+
+==============================
+
+4.3.1
+expand thef ollowing:
+a. 3(2r-8s) 
+b. (x+y-3z).(2x)
+
+answer:
+a. (3.2r)+(3.-8s)
+6r+-24s
+6r-24s
+
+b. (2x)(x+y-3z)
+((2x . 2)+(2x . y)+(2x . -3z))
+(4x+2xy+-6xz)
+4x + 2xy - 6xz
+
+-----
+
+4.3.2
+simplify the following:
+a. (x+2y)-(3x-2y)
+b. 2(t^2-2ts+s^2)-4(t^2+2ts+s2)
+
+answer:
+a. (x+2y)+(-1)(3x-2y) ->
+(x+2y)+((-1 . 3x)+(-1 . -2y)) ->
+(x+2y) + (-3x + 2y) ->
+x - 3x + 2y + 2y ->
+-2x + 4y
+
+b. 1st part 2(t^2-2ts+s^2)->
+((2 . t^2) + (2 . -2ts) + (2 . s^2)) ->
+(2t^2 + -4ts + 2s^2) -> 
+(2t^2 - 4ts + 2s^2) -> 
+
+2nd part -4(t^2+2ts+s^2) ->
+((-4 . t^2)+(-4 . 2ts)+(-4 . s^2)) ->
+(-4t^2 + -8ts + -4s^2) -> 
+(-4t^2 - 8ts - 4s^2) -> 
+
+combine
+(2t^2 - 4ts + 2s^2) + (-4t^2 - 8ts - 4s^2) ->
+2t^2 -4t^2 - 4ts - 8ts + 2s^2 - 4s^2 ->
+-2t^2 -12ts -2s^2
+
+-----
+
+4.3.3
+factor thw following:
+a. -8x + 24y
+b. 20x^2y - 5xy
+c. 3r^3t^2 - 3r^2t + 7r
+d. -9a^3c^2 + 18a^2c^3 - 3abc
+
+answer:
+a. 8(-x+3y)
+b. 5xy(4x-1)
+c. r(3r^2t^2 - 3rt + 7)
+d. 3ac(-3a^2c + 6ac^2 - b)
+
+-----
+
+4.3.4
+simplify the product 2/(3a^2-6b) . (9a^3-18ab)/10a^2 as much as possible.
+
+answer:
+first part
+2/(3a^2-6b) -> 
+
+second part
+(9a^3-18ab)/10a^2 ->
+
+-----
+
+4.3.5
+how many copies of -4x + 3y must be added to gether to get -24x + 18y?
+
+answer:
+
+-----
+
+4.3.6 (star problem)
+
+answer:
+
+-----
+
+4.3.7 (star problem)
+
+answer:
