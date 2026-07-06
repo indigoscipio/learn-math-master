@@ -1877,16 +1877,23 @@ b. -8 / 1/2
 -8 . 2/1 ->
 -16
 
-c. 4(-8^2 . 1/2 + (1/2)^2 . -8 )
-4(-64 . 1/2 + 1/4 . -8) ->
-4(-32 + -2) ->
-4(-34) ->
-136
+c. 4((-8)^2 . 1/2 + (1/2)^2)
+4(64 . 1/2 + 1/4) ->
+4(32 + 1/4) ->
+4.32 + 4.1/4
+128 + 1
+129
 
-d. (-8 - 2) . sqrt(-8 . 1/2) ->
--10 . sqrt(-4) ->
--10.sqrt(-4)
-sqrt of negative so no real solution exits
+
+d. (-8 - 2) . sqrt(-((-8).1/2)) ->
+d. (-8 - 2) . sqrt(-(-4)) ->
+-10 . sqrt(4) ->
+-10.2
+-20
+
+============================
+sqrt(-ab) means sqrt(-(ab))
+============================
 
 -----
 
@@ -1949,7 +1956,7 @@ e. (-2c^3d)^2 + (4cd^2)(-c^5)
 f. a^3b^2 . sqrt(4a^4b^8)
 
 answer:
-a. r^5t^4
+a. t.r^3+3+2 -> t.r^8
 b. 3 . 2 . x^3 . x^3 . y . y^3 . z^2 ->
 6 . x^6 . y^4 . z^2 ->
 6x^6y^4z^2
@@ -1962,12 +1969,11 @@ d. (8a^9) (9a^2b^4) ->
 e. (-2c^3d)^2 + (4cd^2)(-c^5)
 1st part -> (-2c^3d)^2 -> 4c^6d^2
 
-(4cd^2)(-c^5) -> 4 . -3 . c . c^5 . d^2 ->
--12 . c^6 . d^2 ->
--12c^6d^2
-
-4c^6d^2 + -12c^6d^2 ->
--8c^6d^2
+(4cd^2)(-c^5) -> 4 .  c . -c^5 . d^2 ->
+4 . -c^6 . d^2
+-4c^6d^2
+4c^6d^2 - 4c^6d^2 ->
+0
 
 f. a^3b^2 . sqrt(4a^4b^8) ->
 second part
@@ -2101,10 +2107,10 @@ lets just substitute this later, simplify first
 
 subst y now
 4(-y)^2 - 8y - 4y^2 - 8(-y) + 24 ->
-4y - 8y - 4y^2 - -8y + 24 ->
-4y - 8y - 4y^2 + 8y + 24 ->
-4y - 4y^2  + 24 ->
-4(y-y^2+8)
+4y^2 - 8y - 4y^2 - -8y + 24 ->
+- 8y + 8y + 24 ->
+24
+
 
 -----
 
@@ -2118,7 +2124,7 @@ d. 12rst^2+24r^2st-18rs^2t
 a. 7(x-5y^2)
 b. 3a(7b^2 - 8)
 c. x^2(-20x - 13yz)
-d. 6rst(2t + 4r + 3t)
+d. 6rst(2t + 4r - 3s)
 
 -----
 
@@ -2176,3 +2182,146 @@ answer:
 3x + 2y + z = 4
 3x = 4 - 2y - z
 x = (4-2y-z) / 3
+
+
+========================
+
+CHALLENGE PROBLEMS
+
+4.34
+simplify the frac
+
+((3r^2t - 6rt^2) / (6r^2t^3)) / ((8t^3r-4t^2r^2)/(6r^3t^4))
+
+answer:
+divide into parts, simplify
+first big numerator
+
+(3r^2t - 6rt^2) / (6r^2t^3) ->
+3rt(r-2t) / 3rt(2rt^2) -> (r-2t) / (2rt^2)
+
+big denominator
+(8t^3r-4t^2r^2)/(6r^3t^4) ->
+2rt^2(4t - 2r) / 2rt^2(3r^2t^2) -> (4t-2r) / (3r^2t^2)
+
+combine
+(r-2t) / (2rt^2) : (4t-2r) / (3r^2t^2) ->
+(r-2t) / (2rt^2) . (3r^2t^2) / (4t-2r) ->
+(r-2t)(3r^2t^2) / (2rt^2)(4t-2r) ->
+(r-2t)(3r^2t^2) / (2rt^2)(-2)(-2t+r) ->
+(3r^2t^2) / (2rt^2)(-2) ->
+(3r^2t^2) / (-4rt^2) ->
+-3/4. r^2/r . t^2/t^2 ->
+-3/4 . r . 1
+-3r/4
+
+
+-----
+
+4.35
+a. expand the product (x+1)(y+1)
+b. expand the product (x+3)(y-7)
+
+answer:
+a. (x+1)(y+1) ->
+(x.y)+(x.1)+(1.y)+(1.1) ->
+(xy)+(x)+(y)+() ->
+xy+x+y+1
+
+b.  (x+3)(y-7) ->
+(x.y)+(x.-7)+(3.y)+(3.-7) ->
+(xy)+(-7x)+(3y)+(-21) ->
+xy-7x+3y-21
+
+-----
+
+4.36
+by what fraction can we multiply
+
+3x^3 / 2y^5 to get 6y^2/5x^2?
+
+answer:
+
+reciprocal transformation
+x/y -> y^2 / x^2
+
+first just cancel into 1
+2y^5/3x^3
+
+then just build from scratch
+6y^2 / 5x^2
+
+so (2y^5/3x^3)(6y^2/5x^2) ->
+2y^5.6y^2 / 3x^3.5x^2 ->
+12y^7 / 15x^5 ->
+4y^7/5x^5
+
+-----
+
+4.37
+fiona george and henry each think of a diferent fraction
+the simplest comon denom of fionas fraction and georges frac is 10ab^2
+the simplest comon denom of george fraction and henrys frac is 20a^3b^2
+the simplest common denom of fionas fraction and henrys fraction is 4a^3b
+
+a. whose frac has highest power of b? what is the pwoer
+b. whose frac has largest constant? (assum all const in denoms are positive)
+c. what is tsimplest common demon of all three fractions?
+
+answer:
+
+f and g -> 10ab^2
+g and h -> 20a^3b^2
+f and h -> 4a^3b
+
+
+a. g has highest power of b -> 2
+b. largest is 20 -> not sre whose
+fh -> doesnt have factor of 5, only 4
+therefore george is largest
+GH -> 20
+
+c. 20a^3b^2
+
+-----
+
+4.38
+
+a. expand the rpdocut (x-2)(x+2)
+b. factor the expr x^2 - y^2 by writing it as the product of two expr
+such that neither expr is a constant
+
+a. (x.x)+(x.2)+(x.-2)+(-2.2) ->
+(x^2)+(2x)+(-2x)+(-4) ->
+(x^2)+(-4) ->
+x^2 - 4 ->
+x^2 - 2^2
+
+b. x^2 - y^2 ->
+x . x - y . y
+...
+
+-----
+
+4.39
+if x = a/b with a does not equal b and b does not equal 0
+then express a+b/a-b in terms of x.
+
+answer:
+
+-----
+
+4.40
+for what values of a does the eqation
+
+1 / (1 + 1/x) = a
+have no solution for x?
+
+answer:
+
+-----
+
+4.41
+
+for what value of a does the equation
+6x-a/x-3 = 3 have no solution for x?
