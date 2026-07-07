@@ -1,0 +1,1131 @@
+
+4.1
+a. 1
+b. 2.3.-2 -> -12
+c. 9 + 4 -> 13
+d. 9-(3(3))/4(-2) -> 9-9/-8 -> 0/-8 -> 0 
+e. sqrt(7(3)-2(3)^2(-2)) -> sqrt(21 - 2(9)(-2)) -> sqrt(21 - 18(-2)) ->
+sqrt(21 - (-36)) -> sqrt (21+36) -> sqrt(57)
+f. (3-(-2))^2 + (3+(-2))^2 ->
+5^2 + 1^2 -> 25+1 -> 26
+
+4.1.1
+evaluate each of the following hwen x=-2 and y=6
+
+a.  y - 2x
+b. 3xy
+c. 2x^2y+xy^2
+d. x^2/y+6
+e. x^y
+f. (2x-y)(2x+y)
+
+answer:
+a. 6 - 2(-2) -> 6 - -4 -> 10
+b. 3(-2)(6) ->-6(6) -> -36
+c. 2.(-2)^2.6 + -2 . 6^2 -> 2.4.6 + -2.36 -> 48 + - 72 -> -24
+d. (-2)^2 / 6 + 6 -> 4 / 12 -> 1/3
+e. (-2)^6 -> 64
+f. (2(-2)-6)(2(-2)+6) -> (-4-6)(-4+6) -> (-10)(2) -> -20
+
+4.1.2
+eval each when a=3/2, b=-1 and c=6
+substitute these and put inside parenthesis to be safeer
+a. ab+bc+ca
+b. ab^2c
+c. (2a+b)(c-2)/abc
+d. ca^b
+
+answer:
+a. (3/2)(-1) + (-1)(6) + (6)(3/2) ->
+-3/2 - 6 + 9 -> -3-12+18/2 -> 3/2
+
+b. (3/2) . (-1)^2 . (6)
+3/2 . 6 . 1
+9
+
+c. (2(3/2)+(-1))(6-2) / (3/2)(-1)(6) ->
+(2)(4) / -9 -> -8/9
+
+d. (6)(3/2)^-1 -> (6) . 1/(3/2) -> (6) . 1 . (2/3) -> 6 . 2/3 = 4
+
+
+===================================================
+when substituting a number always use parenthesis !
+===================================================
+
+
+4.2
+Still more arithmetic
+
+sack of apples -> x apples
+sack of oranges -> y ornages
+
+flip -> 5x + 4y
+kren -> 2x + 1y
+
+a. 
+flip -> 5x + 4y
+
+b. 
+kren -> 2x + 1y
+
+c. 5x+4y + 2x+y
+
+d. 5x+4y + 2x+y
+7y + 5y
+
+4.3
+a. 2x+3x+3y-4y-2 -> 5x-y-2
+b. 5x+3x+2x+5y+3y+3z-15z = 10x+8y-12z
+c. 
+
+(3ab-ab-ab/2)  + (-4cd + 2cd) + 3/2+2+3
+2ab-ab/2 -> 4ab-ab/2 -> 3ab/2
+
+3ab/2 -2cd + 3/2+2+3
+3ab/2 -2cd + 3/2+5
+3ab/2 - 2cd + 13/2
+
+4.4
+a. a^3 . b^2
+b. (3rs^2)(2rs^3) -> no plus or minus signs, can open the bracket
+3 . r . s^2 . 2 . r . s^3
+3 . 2 . r . r . s^2 . s^3
+6 . r^2 . s^5
+6r^2s^5
+
+c. (2xy^2)^5 -> (2^5 . x^5 . y^10) -> 32 . x^5 . y^10 -> C
+d. cuberoot(27a^6b^3) ->
+cuberoot(3^3 . (a^2)^3 . b^3 ) ->
+3 . a^2 . b -> 3a^2b
+
+4.5
+a. simplify 3xy/6xz
+b. simplify 8x^4y^2 / x^3y^3
+
+answer:
+a. 3/6 . x/x . y/z -> 1/2 . 1 . y/z -> 1/2 . y/z -> y/2z
+b. 8 . x^4-3 . y^2-3 -> 8 . x . y^-1 -> 8 . x . 1/y -> 8x/y
+
+==================================
+
+4.2.1
+simplify each of the following:
+a. (2a-3b)+(4a+7b)
+b. (6x-9y+2z)+(3y-2z+9x)
+c. d^2/2 + 3c^2 - 7d^2 + 5c^2
+d. a/d + 3a/d + 2/d + 2a-2/d
+
+answer:
+a. (2a+4a)+(-3b+7b)
+6a+4b
+b. (6x+9x)+(-9y+3y)+(2z-2z)
+15x-6y
+c. d^2/2 + 3c^2 - 7d^2 + 5c^2 ->
+d^2/2 -7d^2 + 3c^2 + 5c^2 ->
+d^2-14d^2/2 + 8c^2 ->
+-13d^2/2 + 8c^2
+
+d. a/d + 3a/d + 2/d + 2a-2/d ->
+a+3a+2+2a-2/d ->
+6a+2-2/d ->
+6a/d
+
+-----
+4.2.2 simplif each of the follownig:
+
+a. x . y . y . z . y . z . x
+b. a . b . a^3 . a^2 . b^2
+c. (3x^3y^2z)(2xy^5z^5)
+d. (3r^3)(2s^5)(2rs)(4r^2s^3)
+
+answer:
+a. x^2 . y^3 . z^2 -> x^2y^3z^2
+b. a^6 . b^3 -> a^6b^3
+c. 3 . 2 . x^3 . x . y^2 . y^5 . z . z^5
+6 . x^4 . y^7 . z^6
+6x^4y^7z^6
+d. 3 . 2 . 2 . 4 . r^3 . r . r^2 . s^5 . s . s^3
+48 . r^6 . s^9
+48r^6s^9
+
+-----
+4.2.3
+simplify each of the following:
+a. (x^7y^3)^4 
+b. (-3v^3z^4)^5
+
+answer:
+a. ((x^7.4) . (y^3.4)) -> x^28 . y^12 -> x^28y^12
+b. ((-3)^5 . (v^3)^5 . (z^4)^5) ->
+-243 . v^15 . z^20 -> -243v^15z^20
+
+-----
+
+4.2.4
+simplify each of the following:
+a. (14a^2b^3)/(21a^3b^7)
+b. (-2x^3y^5z)/(-8x^3y^2z^3)
+
+answer:
+a. 14/21 . a^2/a^3 . b^3/b^7 ->
+2/3 . a^2-3 . b^3-7 ->
+2/3 . a^-1 . b^-4 ->
+2/3 . 1/a . 1/b^4 ->
+2/3ab^4
+
+b. (-2x^3y^5z)/(-8x^3y^2z^3) ->
+-2/-8 . x^3/x^3 . y^5/y^2 . z/z^3 -> 
+1/4 . 1 . y^5-2 . z^1-3 ->
+1/4 . y^3 . z^-2 ->
+1/4 . y^3 . 1/z^2 ->
+y^3/4z^2
+
+
+-----
+
+4.2.5
+by what expr can we muly 2xt^3 to get 32x^3t^8?
+
+answer:
+(2xt^3) . (?) = 32x^3t^8
+
+32/2 -> 16
+x^3 - x^1 -> x^2
+t^8 - t^3 -> t^5
+
+so mult by 16x^2t^5
+
+-----
+
+==================================
+
+DISTRIBUITION AND FACTORING
+
+4.6
+
+bigville
+baseball -> x players
+footbal -> y players
+
+a. 7 . (2x + 4y)
+b. 14x + 28y
+c. 7 . 2x = 14x
+d. 7 . 4y = 28y
+e. 7 . (2x + 4y)
+
+-----
+
+4.7
+smallville
+2x
+4y
+
+bigville
+14x
+12y
+
+a. baseball -> 14x, football -> 12y
+b. baseball -> 2x, footballe -> 4y
+c. 14-2 = 12 more baseball player in bigvile
+difference = [players in bigville] - [players in smallville]
+12-4 = 8 more football in bigville
+d. 14x-2x + 12y-4y
+12x+8y
+
+-----
+
+4.8
+a. (5t + 15s)
+b. 3xy(x-y) ->
+ (3xy . x + 3xy - y) ->
+(3x^2y + - 3xy^2) ->
+3x^2y - 3xy^2 ->
+
+4.8
+c. simplify the expr 
+(t+3r) - (2t-5r+1) ->
+(t+3r) + (-1)(2t-5r+1) ->
+(t+3r) + ((-1 . 2t) + (-1 . -5r) + (-1 . 1)) ->
+(t+3r) + (-2t + 5r - 1) ->
+(t+3r) + (-2t + 5r - 1) ->
+-2t + t + 3r + 5r - 1 ->
+-t + 8r - 1
+
+d. simplif the expr
+3(x-xy+3) - 4(x+xy+7) ->
+3(x-xy+3) + (-4)(x+xy+7) ->
+((3 . x) + (3 . -xy) + (3 . 3)) + ((-4 . x) + (-4 . xy) + (-4 . 7)) ->
+(3x - 3xy + 9) + (-4x + -4xy + -28) ->
+3x - 4x - 3xy - 4xy + 9 - 28 ->
+-x - 7xy -19
+
+-----
+
+4.9
+a. factor a 3 out of 3x+6y to write it as producto f 3 and an epxr
+b. factor -15ab + 35cd
+c. factor 3x^2 + 2xz
+d. factor 7r^2s^2 - 21rs^3 + 14rs^4 as completely as you can
+
+answr:
+a. 3(x+2y)
+b. 5(-3ab + 7cd)
+c. x(3x+2z)
+d. 7rs^2(r - 3s + 2s^2)
+
+-----
+
+4.10
+simplify the product (2x+4y)/8 . (3xy)/(x^2+2xy). make sure your final fraction is
+simplified as much as possible
+
+answer:
+2(x+2y)/8 . 3xy/x(x+2y) ->
+(x+2y)/4 . 3y/(x+2y) ->
+3y/4
+
+
+==============================
+
+sidenote
+am + an = a(m + n)
+am = area 1
+an = area 2
+
+combine them together
+height is still a
+but width is now m + n
+
+==============================
+
+4.3.1
+expand thef ollowing:
+a. 3(2r-8s) 
+b. (x+y-3z).(2x)
+
+answer:
+a. (3.2r)+(3.-8s)
+6r+-24s
+6r-24s
+
+b. (2x)(x+y-3z)
+((2x . x)+(2x . y)+(2x . -3z))
+2x^2 + 2xy - 6xz
+
+-----
+
+4.3.2
+simplify the following:
+a. (x+2y)-(3x-2y)
+b. 2(t^2-2ts+s^2)-4(t^2+2ts+s2)
+
+answer:
+a. (x+2y)+(-1)(3x-2y) ->
+(x+2y)+((-1 . 3x)+(-1 . -2y)) ->
+(x+2y) + (-3x + 2y) ->
+x - 3x + 2y + 2y ->
+-2x + 4y
+
+b. 1st part 2(t^2-2ts+s^2)->
+((2 . t^2) + (2 . -2ts) + (2 . s^2)) ->
+(2t^2 + -4ts + 2s^2) -> 
+(2t^2 - 4ts + 2s^2) -> 
+
+2nd part -4(t^2+2ts+s^2) ->
+((-4 . t^2)+(-4 . 2ts)+(-4 . s^2)) ->
+(-4t^2 + -8ts + -4s^2) -> 
+(-4t^2 - 8ts - 4s^2) -> 
+
+combine
+(2t^2 - 4ts + 2s^2) + (-4t^2 - 8ts - 4s^2) ->
+2t^2 -4t^2 - 4ts - 8ts + 2s^2 - 4s^2 ->
+-2t^2 -12ts -2s^2
+
+-----
+
+4.3.3
+factor thw following:
+a. -8x + 24y
+b. 20x^2y - 5xy
+c. 3r^3t^2 - 3r^2t + 7r
+d. -9a^3c^2 + 18a^2c^3 - 3abc
+
+answer:
+a. 8(-x+3y)
+b. 5xy(4x-1)
+c. r(3r^2t^2 - 3rt + 7)
+d. 3ac(-3a^2c + 6ac^2 - b)
+
+-----
+
+4.3.4
+simplify the product 2/(3a^2-6b) . (9a^3-18ab)/10a^2 as much as possible.
+
+answer:
+first part
+2/(3a^2-6b) -> 2/3(a^2-2b)
+
+second part
+(9a^3-18ab)/10a^2 -> 9a(a^2-2b)/10a^2
+
+combine
+
+2/3(a^2-2b) . 9a(a^2-2b)/10a^2
+2/3 . 9a/10a^2 ->
+2.9a / 3.10a^2 ->
+2.3a/10a^2 ->
+6a/10a^2 ->
+3a/5a^2 ->
+3a/a(5a) ->
+3/5a
+
+
+-----
+
+4.3.5
+how many copies of -4x + 3y must be added to gether to get -24x + 18y?
+
+answer:
+
+(z)(-4x+3y) = -24x+18y
+24/4 -> 6
+18/3 -> 6
+
+therefore it must be multiplied with
+6, so 6 copies
+
+
+-----
+
+4.3.6 (star problem)
+
+factor 2x(y+1) - 6x^2(y+1) as completley as you can
+
+answer:
+let z be (y+1)
+2x(z) - 6x^2(z) ->
+z(2x-6x^2) ->
+z(2x(1-3x)) ->
+z(2x)(1-3x)
+
+subst back
+(y+1)(2x)(1-3x)
+
+-----
+
+4.3.7 (star problem)
+expand the product (x+7)(y-4)
+
+answer:
+(x . y)+(x . -4)+(7 . y)+(7 . -4) ->
+(xy)+(-4x)+(7y)+(-28) ->
+xy-4x+7y-28
+
+======================================
+
+4.4 fractions
+
+4.11
+2s/rs + 3r/rs = 2s+3r/rs
+
+4.12
+
+write 5y/(6x^2) - 4/(3xy) as a single fraction
+find common denominator -> 6x^2y
+
+(y. 5y /y. 6x^2) - (2x . 4 /2x . 3xy)
+5y^2 / 6x^2y - 8x/6x^2y
+5y^2 - 8x/6x^2y
+
+4.13
+
+(2a^3/a^3b) + (3b/a-1) - (3b-3/6ab-6a)
+a. simplify each fraction if possible
+b. find common denom then combine fracs into single frac
+
+a. 
+(2a^3/a^3b) -> 2/b
+(3b-3/6ab-6a) -> 3(b-1)/3(2ab-2a) -> (b-1)/(2ab-2a) -> (b-1)/2a(b-1) -> 1/2a
+
+combine
+(2/b) + (3b/a-1) - (1/2a)
+find common denominator
+
+b, (a-1), 2a
+b(a-1) -> ba-b
+2a(ba-b) ->
+2a^2b - 2ab -> 2ab(a-1)
+
+
+(2a(a-1) . 2/2a(a-1) . b) + (2ab . 3b / 2ab . a-1) - (b(a-1) . 1 /b(a-1) . 2a) ->
+
+(2a^2-2a . 2 / 2ab(a-1)) + (6ab^2 / 2ab(a-1)) - (ab-b/2ab(a-1)) ->
+(4a^2-4a / 2ab(a-1)) + (6ab^2 / 2ab(a-1)) - (ab-b/2ab(a-1)) ->
+(4a^2-4a / 2ab(a-1)) + (6ab^2 / 2ab(a-1)) + (-1)(ab-b/2ab(a-1)) ->
+(4a^2-4a / 2ab(a-1)) + (6ab^2 / 2ab(a-1)) + (-ab+b/2ab(a-1)) ->
+4a^2 - 4a + 6ab^2 - ab + b / 2ab(a-1) ->
+4a^2 - 4a + 6ab^2 - ab + b / 2ab(a-1)
+
+=========================
+always leave the denominator in facored form
+=========================
+
+
+4.4.1
+write -4/x + 7/y as a single fraction
+
+answer:
+common denominator -> xy
+
+y.-4/xy + x.7/y ->
+-4y/xy + 7x/y ->
+-4y+7x/xy
+
+4.4.2
+write 2y/9x^2 - 6-y/3x as a single fraction
+answer:
+
+common denominator-> 9x^2
+
+(2y/9x^2) - (3x . 6-y/3x . 3x) -> 
+(2y/9x^2) - (18x-3xy/9x^2) -> 
+(2y/9x^2) + (-1)(18x-3xy/9x^2) -> 
+(2y/9x^2) + ((-1 . 18x) - (-1 . 3xy)/9x^2) -> 
+(2y/9x^2) + (-18x - (-3xy)/9x^2) -> 
+(2y/9x^2) + (-18x + 3xy)/9x^2) -> 
+2y - 18x + 3xy / 9x^2
+
+4.4.3
+write 2+a/6ab^2 + 9-b/9a^2b as a single fraction
+answer:
+
+common denominator -> 18a^2b^2
+
+(3a . 2+a/3a . 6ab^2) + (2b . 9-b/2b . 9a^2b)
+(6a + 3a^2/18a^2b^2) + (18b-2b^2/18a^2b^2)
+6a + 3a^2 + 18b - 2b^2/18a^2b^2 ->
+
+
+4.4.4
+write 8r-8s/2r^2-2rs + 3r^2/rs-r as a single fraction.
+answer:
+
+simplify first
+8r-8s/2r^2-2rs -> 8(r-s) / 2r(r-s) -> 8/2r -> 4/r
+
+3r^2/rs-r -> 3r^2 / r(s-1) -> 3r/(s-1)
+
+combine:
+4/r + 3r/s-1
+
+common denom
+r, s-1 -> 
+r(s-1) -> rs-r
+
+(s-1 . 4 /rs-r) + (r . 3r/rs-r) ->
+4s-4 + 3r^2 / rs-r ->
+4s + 3r^2 - 4 / rs-r
+
+
+=========================
+
+4.5 Equaions
+
+4.14
+x = c - b
+
+4.15
+x = c/a
+
+4.16
+x = (c - b) / a
+
+4.17
+
+ax + bc = 3c - 2d^2x
+a. rearange equation so all terms with x are on one side and all terms wihtout x
+are on the other side
+b. solve the equation for x interms of a,b,c,d
+
+answer:
+a. ax + 2d^2x = 3c - bc
+
+b.
+factor this out, why didn't i think of this
+x(a+2d^2) = 3c - bc
+x = 3c - bc / a+2d^2
+
+===========================================================
+
+4.5.1
+consider the equation x/a + b = c
+a. solve the equation for x in terms of a,b and c
+b. solve the equation for b in terms of a,c, x
+c. solve the equation for a interms of b,c, and x
+
+answer:
+a. a(x/a + b) = a(c)
+(a . x/a + a .b) = a . c
+x + ab = ac
+x = ac - ab
+x = a(c-b)
+
+b. b = c - x/a
+
+c. mult both sides by a
+(a . x/a + a . b) = c . a
+x + ab = ac
+x = ac - ab
+x = a(c-b)
+x/c-b = a
+a = x/c-b
+
+-----
+
+4.5.2
+solve the equation 3xy+4 = 8y - 2x for x in terms of y
+
+answer:
+3xy + 2x = 8y - 4
+x(3y + 2) = 8y - 4
+x = 8y - 4 / 3y + 2
+
+===========================================================
+
+
+REVIEW PROBLEMS
+4.18
+eval each of the following when a = -8 and b = 1/2
+
+a.  ab + 2b + 3a
+b.  a/b
+c.  4(a^2b + b^2)
+d. (a-2) . sqrt(-ab)
+
+answer:
+a. -8.1/2 + 2.1/2 + 3.-8
+-4 + 1 + -24
+-27
+
+b. -8 / 1/2
+-8 : 1/2 ->
+-8 . 2/1 ->
+-16
+
+c. 4((-8)^2 . 1/2 + (1/2)^2)
+4(64 . 1/2 + 1/4) ->
+4(32 + 1/4) ->
+4.32 + 4.1/4
+128 + 1
+129
+
+
+d. (-8 - 2) . sqrt(-((-8).1/2)) ->
+d. (-8 - 2) . sqrt(-(-4)) ->
+-10 . sqrt(4) ->
+-10.2
+-20
+
+============================
+sqrt(-ab) means sqrt(-(ab))
+============================
+
+-----
+
+4.19
+suppose
+r = -2
+s = 6 
+t = 3r-2s
+
+evaluate the following:
+a. t 
+b. (2t-r)(s-1)
+c. (3r-2s-t)
+d. (t/r + t/s)
+
+
+answer:
+a. 3(-2) - 2(6) -> -6 - 12 -> -18
+b. (2(-18)-(-2))(6-1) -> (-36+2)(5) -> -34.5 = -170
+c. (3(-2) - 2(6) - (-18)) -> -6 -12 +18 -> 0
+d. -18/-2 + -18 / 6 -> 9 + -3 -> 6
+
+4.20
+simplify the expression 2a + 3b + 7 - a + 2b + 5
+when a = -5b
+
+answer:
+2(-5b) + 3b + 7 - (-5b) + 2b + 5 ->
+-10b + 3b + 7 + 5b + 2b + 5 ->
+-10b + 3b + 5b + 2b + 7 + 5 ->
+-10b + 10b + 7 + 5 ->
+7 + 5 ->
+12
+
+-----
+
+4.21
+simplify the following:
+a. (6a-7b)+(3a-2b+9)
+b. (6ab+2ac+3bc)+(2ab-3ac-4bc)
+
+answer:
+a. 6a + 3a - 7b - 2b + 9 ->
+9a - 9b + 9 ->
+9(a-b+1)
+
+
+b. 6ab + 2ab + 2ac - 3ac + 3bc - 4bc ->
+8ab - ac - bc
+
+-----
+
+4.22
+simplify the following:
+a. r^2 . t . r^3 . r^3
+b. (3x^3yz^2)(2x^3y^3)
+c. (x^2y^5)^7
+d. (2a^3)^3(3ab^2)^2
+e. (-2c^3d)^2 + (4cd^2)(-c^5)
+f. a^3b^2 . sqrt(4a^4b^8)
+
+answer:
+a. t.r^3+3+2 -> t.r^8
+b. 3 . 2 . x^3 . x^3 . y . y^3 . z^2 ->
+6 . x^6 . y^4 . z^2 ->
+6x^6y^4z^2
+c. x^14y^35
+d. (8a^9) (9a^2b^4) ->
+8 . 9 . a^9 . a^2 . b^4 ->
+72 . a^11 . b^4
+72a^11b^4
+
+e. (-2c^3d)^2 + (4cd^2)(-c^5)
+1st part -> (-2c^3d)^2 -> 4c^6d^2
+
+(4cd^2)(-c^5) -> 4 .  c . -c^5 . d^2 ->
+4 . -c^6 . d^2
+-4c^6d^2
+4c^6d^2 - 4c^6d^2 ->
+0
+
+f. a^3b^2 . sqrt(4a^4b^8) ->
+second part
+sqrt(4a^4b^8) ->
+sqrt(2^2 . (a^2)^2 . (b^4)^2 ) ->
+2 . a^2 . b^4
+
+combine
+a^3 . b^2 . 2 . a^2 . b^4 ->
+2 . a^3 . a^2 . b^4 . b^2 ->
+2a^5b^6
+
+-----
+
+4.23
+let x y z be pos numbers
+whats the fourth root of the xpr
+16x^8y^4z^16?
+
+answer:
+cuberoot(16x^8y^4z^16) ->
+cuberoot(16 . x^8 . y^4 . z^16) ->
+cuberoot(2^4 . (x^2)^4 . (y^1)^4 . (z^4)^4) ->
+2 . x^2 . y . z^4
+2x^2yz^4
+
+-----
+
+4.24
+a. 15a^2b^3/5a^3b
+b. 2x^3z^5/(2xz)^4
+
+answer:
+a. 15/5 . a^2/a^3 . b^3/b ->
+3 . a^-1 . b^2 ->
+3 . 1/a . b^2 ->
+3 . b^2 / a -> 3b^2 / a
+
+b. 2x^3z^5/(2xz)^4 ->
+bottom part
+(2xz)^4 -> 2^4 . x^4 . z^4 -> 16x^4z^4
+
+combine
+2x^3z^5/16x^4z^4
+
+2/16 . x^3/x^4 . z^5/z^4 ->
+1/8 . x^-1 . z ->
+1/8 . 1/x . z ->
+z/8x
+
+====================================================
+
+4.25
+expand the following:
+a. 2(a+b-3c-5)
+b. 2x^2y(x^3y+4/xy)
+answer:
+
+a. ((2 . a)+(2 . b)+(2 . -3c)+(2 . -5)) ->
+(2a + 2b - 6c - 10) ->
+2a + 2b - 6c - 10
+
+b. 2x^2y(x^3y+4/xy) ->
+(2x^2y . x^3y) + (2x^2y . 4/xy) -.
+2x^5y^2 + 2x.4 ->
+2x^5y^2 + 8x
+
+-----
+
+4.26
+what expr must be subtracted from 2x-3y+z to give 3x + 2y?
+answer:
+
+2x-3y+z - (???) = 3x + 2y
+
+difference
+z must dissapear
+x + 1
+y + 5
+
+since its negation
+-x
+-5y
++z
+
+2x-3y+z - (-5y-x+z) = 3x + 2y
+2x-3y+z + (5y+x-z) = 3x + 2y
+2x-3y+z+5y+x-z = 3x + 2y
+2x+x-3y+5y+z-z = 3x + 2y
+3x+2y  = 3x + 2y
+
+so the expr is (-5y-x+z)
+
+-----
+
+4.27
+simplify the following
+a. -3w-2x+5-(2w-3x-4)
+b. 2(r^2-3s)-3(2r^2+2r-s)
+
+answer:
+a. -3w-2x+5-(2w-3x-4) ->
+-3w-2x+5 + (-1)(2w-3x-4) ->
+-3w-2x+5 + ((-1 . 2w) + (-1 . -3x) + (-1 . -4)) ->
+-3w-2x+5 + (-2w + 3x + 4) ->
+-3w - 2x + 5 -2w + 3x + 4 ->
+-3w - 2w -2x + 3x + 5 + 4 ->
+-5w + x + 9 ->
+
+b. 2(r^2-3s)-3(2r^2+2r-s) ->
+((2 . r^2) - (2 . 3s)) - 3(2r^2+2r-s) ->
+(2r^2 - 6s) + (-3)(2r^2+2r-s) ->
+(2r^2 - 6s) + ((-3 . 2r^2)+(-3 . 2r)+(-3 . -s)) ->
+(2r^2 - 6s) + (-6r^2 + -6r + 3s) ->
+2r^2 - 6s - 6r^2 - 6r + 3s ->
+2r^2 - 6r^2 - 6r - 6s + 3s ->
+-4r^2 - 6r - 3s ->
+
+-----
+
+4.28
+evaluate 4(x^2-2y+7)-2(2y^2+4x+2) when x = -y
+answer:
+lets just substitute this later, simplify first
+4(x^2-2y+7)-2(2y^2+4x+2) ->
+((4 . x^2)+(4 . -2y)+(4 . 7)) + ((-2 . 2y^2)+(-2 . 4x)+(-2 . 2)) ->
+(4x^2 + -8y + 28) + (-4y^2 + -8x + -4) ->
+(4x^2 - 8y + 28) + (-4y^2 - 8x + -4) ->
+4x^2 - 8y + 28 - 4y^2 - 8x + -4 ->
+4x^2 - 8y - 4y^2 - 8x + 24 ->
+
+subst y now
+4(-y)^2 - 8y - 4y^2 - 8(-y) + 24 ->
+4y^2 - 8y - 4y^2 - -8y + 24 ->
+- 8y + 8y + 24 ->
+24
+
+
+-----
+
+4.29
+factor the following:
+a. 7x-35y^2
+b. 21ab^2-24a
+c. -20x^3-13x^2yz
+d. 12rst^2+24r^2st-18rs^2t
+
+a. 7(x-5y^2)
+b. 3a(7b^2 - 8)
+c. x^2(-20x - 13yz)
+d. 6rst(2t + 4r - 3s)
+
+-----
+
+4.30
+express 1/a + 1/b + 1/c as a single fraction
+
+answer:
+common denominator: a,b,c -> abc
+1.bc+1.ac+1.ab/ac
+bc + ac + ab/abc
+
+-----
+
+4.31
+express 3x/(14y^2z^4) - 5y/(18x^3z^2) as a single fraction
+
+answer:
+common denominator
+126
+y^2
+z^4
+x^3
+126x^3y^2z^4
+
+(9x^3 . 3x /9x^3 . 14y^2z^4) - (7z^2y^2 . 5y/7z^2y^2  . 18x^3z^2) ->
+(27x^4 /126x^3y^2z^4) - (35y^3z^2/126x^3y^2z^4) ->
+(27x^4 /126x^3y^2z^4) + ((-1)35y^3z^2/126x^3y^2z^4) ->
+(27x^4 /126x^3y^2z^4) + (-35y^3z^2/126x^3y^2z^4) ->
+27x^4 - 35y^3z^2 /126x^3y^2z^4 ->
+
+-----
+
+4.32
+express (2a^2-4a)/(3a-6) + (2b^2-4b)/(8b-16) as a single fraction/
+
+answer:
+simplifu first
+first part
+(2a^2-4a)/(3a-6)  -> 2a(a-2)/3(a-2) -> 2a/3
+
+second part
+(2b^2-4b)/(8b-16) -> 2b(b-2)/8(b-2) -> 2b/8 -> b/4
+
+combine
+2a/3 + b/4
+common demon -> 12
+8a + 3b/12
+
+-----
+
+4.33
+solve the equation 3x + 2y + z = 4 for x in terms of y and z.
+
+answer:
+3x + 2y + z = 4
+3x = 4 - 2y - z
+x = (4-2y-z) / 3
+
+
+========================
+
+CHALLENGE PROBLEMS
+
+4.34
+simplify the frac
+
+((3r^2t - 6rt^2) / (6r^2t^3)) / ((8t^3r-4t^2r^2)/(6r^3t^4))
+
+answer:
+divide into parts, simplify
+first big numerator
+
+(3r^2t - 6rt^2) / (6r^2t^3) ->
+3rt(r-2t) / 3rt(2rt^2) -> (r-2t) / (2rt^2)
+
+big denominator
+(8t^3r-4t^2r^2)/(6r^3t^4) ->
+2rt^2(4t - 2r) / 2rt^2(3r^2t^2) -> (4t-2r) / (3r^2t^2)
+
+combine
+(r-2t) / (2rt^2) : (4t-2r) / (3r^2t^2) ->
+(r-2t) / (2rt^2) . (3r^2t^2) / (4t-2r) ->
+(r-2t)(3r^2t^2) / (2rt^2)(4t-2r) ->
+(r-2t)(3r^2t^2) / (2rt^2)(-2)(-2t+r) ->
+(3r^2t^2) / (2rt^2)(-2) ->
+(3r^2t^2) / (-4rt^2) ->
+-3/4. r^2/r . t^2/t^2 ->
+-3/4 . r . 1
+-3r/4
+
+
+-----
+
+4.35
+a. expand the product (x+1)(y+1)
+b. expand the product (x+3)(y-7)
+
+answer:
+a. (x+1)(y+1) ->
+(x.y)+(x.1)+(1.y)+(1.1) ->
+(xy)+(x)+(y)+() ->
+xy+x+y+1
+
+b.  (x+3)(y-7) ->
+(x.y)+(x.-7)+(3.y)+(3.-7) ->
+(xy)+(-7x)+(3y)+(-21) ->
+xy-7x+3y-21
+
+-----
+
+4.36
+by what fraction can we multiply
+
+3x^3 / 2y^5 to get 6y^2/5x^2?
+
+answer:
+
+reciprocal transformation
+x/y -> y^2 / x^2
+
+first just cancel into 1
+2y^5/3x^3
+
+then just build from scratch
+6y^2 / 5x^2
+
+so (2y^5/3x^3)(6y^2/5x^2) ->
+2y^5.6y^2 / 3x^3.5x^2 ->
+12y^7 / 15x^5 ->
+4y^7/5x^5
+
+-----
+
+4.37
+fiona george and henry each think of a diferent fraction
+the simplest comon denom of fionas fraction and georges frac is 10ab^2
+the simplest comon denom of george fraction and henrys frac is 20a^3b^2
+the simplest common denom of fionas fraction and henrys fraction is 4a^3b
+
+a. whose frac has highest power of b? what is the pwoer
+b. whose frac has largest constant? (assum all const in denoms are positive)
+c. what is tsimplest common demon of all three fractions?
+
+answer:
+
+f and g -> 10ab^2
+g and h -> 20a^3b^2
+f and h -> 4a^3b
+
+
+a. g has highest power of b -> 2
+b. largest is 20 -> not sre whose
+fh -> doesnt have factor of 5, only 4
+therefore george is largest
+GH -> 20
+
+c. 20a^3b^2
+
+-----
+
+4.38
+
+a. expand the rpdocut (x-2)(x+2)
+b. factor the expr x^2 - y^2 by writing it as the product of two expr
+such that neither expr is a constant
+
+a. (x.x)+(x.2)+(x.-2)+(-2.2) ->
+(x^2)+(2x)+(-2x)+(-4) ->
+(x^2)+(-4) ->
+x^2 - 4 ->
+x^2 - 2^2
+
+b. x^2 - y^2 ->
+(x-y)(x+y)->
+(x^2)+(xy)+(-xy)+(-y^2) ->
+(x^2)(-y^2) ->
+x^2 - y^2
+
+-----
+
+4.39
+if x = a/b with a does not equal b and b does not equal 0
+then express a+b/a-b in terms of x.
+
+answer:
+ok so we know x = a/b
+
+dnominator is b
+a + b
+
+we want to achieve the denominator a-b
+x + x -> a/b + a/b -> 2a/b
+
+maybe wecan try find a
+a = x . b
+
+subst
+xb + b / xb - b
+b(x+1)/b(x-1)
+(x+1)/(x-1)
+
+
+-----
+
+4.40
+for what values of a does the eqation
+
+1 / (1 + 1/x) = a
+have no solution for x?
+
+answer:
+ok so no solution for x means denom is 0?
+
+let try to find it
+x = -1
+1/1+1/-1 -> 1/1-1 = a- > 1/0 = 
+
+or maybe lets try to simplify frac
+
+1 + 1/x -> x/x + 1/x -> (x + 1) / x
+
+combine
+1 : (x+1/x) -> 1 . x/x+1 -> x/x+1
+
+x/x+1 = a
+x/x+1 = 0
+
+solution 1
+(x+1) . (x/x+1) = (x+1).0
+x = 0
+
+solution 2
+x/x+1 = a
+x = a(x+1) ->
+x = ax + a -> don't divide by x, just move ax  to the left side
+move ax to the left side
+x - ax = a
+x(1-a) = a
+x = a / (1-a)
+a is 1
+
+
+-----
+
+4.41
+
+for what value of a does the equation
+6x-a/x-3 = 3 have no solution for x?
+
+answer:
+lets simplify the fraction first
+wait i think its already simplified
+
+6x-a/x-3 = 3
+
+maybe try isolate x or a
+6x-a = 3(x-3)
+6x-a = 3x-9
+
+6x -3x = a - 9
+3x = a - 9
+x = (a - 9) / 3
+
+if x is 3 we'd make the denom invalid since 3 - 3 = 0
+3 = (a-9)
+9 = a - 9
+9+9 = a
+a = 18
