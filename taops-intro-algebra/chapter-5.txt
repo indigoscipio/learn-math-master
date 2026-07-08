@@ -118,14 +118,196 @@ q=9,p=11
 find ordered pair (x,y) that satisfies both equations below:
 
 2x - 3y = -5
-5x-2y = 4
+5x - 2y = 4
+
+answer:
+part a
+top equation:
+x=1 -> y= 2(1)-3y = -5 -> 2-3y = -5 -> -3y =-3y=-7 -> y=7/3
+x=2 -> y= 2(2)-3y = -5 -> 4-3y = -5 -> -3y = -9 -> y = 9/3 -> y = 3
+x=3 -> y= 2(3)-3y = -5 -> 6-3y = -5 -> -3y = -11 -> y = 11/3
+x=4 -> y= 2(4)-3y = -5 -> 8-3y = -5 -> -3y = -14 -> y = 13/3
+x=5 -> y= 2(5)-3y = -5 -> 10-3y = -5 -> -3y = -15 -> y = 15/3 -> y = 5
+here everytime x increments by one, y increments by 2/3
+
+bottom equation
+x=1 -> 5(1) - 2y = 4 -> 5 - 2y = 4 -> -2y = -1 -> y = 1/2
+x=2 -> 5(2) - 2y = 4 -> 10 - 2y = 4 -> -2y = -6 -> y = 6/2 -> y  =3
+x=3 -> 5(3) - 2y = 4 -> 15 - 2y = 4 -> -2y = -11 -> y = 11/2
+x=5 -> 5(5) - 2y = 4 -> 25 - 2y = 4 -> -2y = -21 -> y = 21/2
+x=6 -> 5(5) - 2y = 4 -> 25 - 2y = 4 -> -2y = -21 -> y = 21/2
+here eveyrtime x increment by 1 y increments by 5/2
+
+(x=2,y=3) is the pair
+
 
 5.1.4
 a. find three different odered pairs tha satisfy both equations below
+
+5x-6y = 1
+15x-18y = 3
+
 b. is it possible to find a pair (x,y) that satisfies the first equation but
 does not satisfy the second?
 
 answer:
+a. top equation
+x=1 -> 5(1)-6y = 1 -> 5 - 6y = 1 -> -6y = -4 ->  y = 4/6 -> 2/3
+x=2 -> 5(2)-6y = 1 -> 10 - 6y = 1 -> -6y = -9 ->  y = 9/6
+x=3 -> 5(3)-6y = 1 -> 15 - 6y = 1 -> -6y = -14 ->  y = 14/6 -> 7/3
+x=5 -> 5(5)-6y = 1 -> 25 - 6y = 1 -> -6y = -24 ->  y = 24/6 -> 4
+everytime x incremenets by 1 y increments by 5/6
+
+bottom equation
+x=1 -> 15(1)-18y = 3 -> 15 - 18y = 3 -> -18y = -12 -> y = 12/18 -> 2/3
+x=2 -> 15(2)-18y = 3 -> 30 - 18y = 3 -> -18y = -27 -> y = 27/18
+x=3 -> 15(3)-18y = 3 -> 45 - 18y = 3 -> -18y = -42 -> y = 42/18 -> 21/9 -> 7/3
+x=5 -> 15(5)-18y = 3 -> 75 - 18y = 3 -> -18y = -72 -> y = 72/18 -> 4
+everytime x increments by 1 y increments by 15/18
+
+now finding the pair
+(1,2/3),(3,7/3),(5,4)
+
+b. im not sure about this one
+if we multiply 1st eq by 2
+5x - 6y = 1
+3(5x) - 3(6y) = 3(1)
+15x-18y=3
+thats literally the second equation
+
+so i dont think its possible since theyre both basically the same??
+
 
 5.1.5
-..
+one solution to the qeuqation 3x-5y = -1.9 is (x,y) = (1.2,1.1). how can we quickly find three more
+solutions to the equation without writing anything?
+
+answer:
+hmm lets try solve this
+3x - 5y = -1.9
+3x = -1.9 + 5y
+x = (-1.9 + 5y) / 3
+
+yeah not sure
+
+everytime x increment by 1, LHS gains 3
+everytime y increment by 1, LHS decrement 5
+
+add 5 to x -> LHS gains 3(5) = 15
+add 3 to y -> LHS decrese by 5(3) = 15
+cancel each other perfectly
+
+x -> add 5
+y -> add 3 (since already subtract to balance)
+
+therefore the oher three is
+(6.2,4.1),(11.2,7.1),(16.2,10.1)
+
+alternative, look for way that we can increase x and y by certain number
+the value remains unchanged
+3(x+5) - 5(y+3) = 3x + 15 - 5y - 15 = 3x - 5y
+
+=======================================
+
+5.2 SUBSTITUTION
+
+4.3
+a. x + 3y = 4 -> x = 4 - 3y
+b.
+-2(4 - 3y) + 5y = -30
+-8+6y + 5y = -30
+11y=  -30+8
+11y = -22
+y = -2
+
+c. x = 4 - 3(-2)
+x = 4 - (-6)
+x = 10
+
+d.
+10 + 3(-2) = 4
+10 - 6 = 4
+
+5.4
+
+a. 2nd part is easier
+b. 5x - y = 9
+5x = 9 + y
+x = (9 + y) / 5
+
+3x - 2y = 7
+3(9+y)/5 - 2y = 7
+27+3y/5 - 2y = 7
+27+3y-10y/5 = 7
+27-7y/5 = 7
+27-7y = 35
+-7y = 8
+y = -8/7
+
+x = 9 + (-8/7) / 5 -> x = 55/7 : 5 -> x = 55/7 .  1/5 -> x = 55/35 -> x = 11/7
+
+5.5
+solve the  two systems of equations
+a. 
+3r + s/2 = 33/2 ,
+-5r/2 - 2s = -37/2
+
+b. 1.2y = 0.93-0.3x,
+2x-0.5 = 1.3 + 0.8y
+
+answer:
+first eq
+a. 3r + s/2 = 33/2 ->
+3r = 33/2 - s/2
+3r = (33-s) / 2
+r = ((33-s) / 2) : 3 ->
+r = (33-s)/2 . 1/3 ->
+r = (33-s)/6
+
+2n eq
+mult both sides by 2
+2(-5r/2 - 2s) = 2(-37/2) ->
+(2 . -5r/2 - 2 . 2s) = -37 ->
+-5r -4s = -37
+
+-5((33-s)/6) - 4s = -37
+-5((33-s)/6) = -37 + 4s
+-165+5s / 6 = -37 + 4s
+-165 + 5s = 6(-37 + 4s)
+-165 + 5s = -222 + 24s
+5s - 24s = -222 + 165
+-19s = -57 -> mult both by -1
+s = 57/19
+s = 3
+
+r = (33-3)/6
+r = 30/6 ->
+r = 5
+
+b. 1.2y = 0.93-0.3x,
+2x-0.5 = 1.3 + 0.8y
+
+1st eq
+y = 0.93 - 0.3x / 1.2
+y = 0.03(31-10x) / 0.03(40) -> 31-10x /40
+
+2nd eq
+2x-0.5 = 1.3 + 0.8y ->
+2x = 1.3+0.5+0.8y ->
+2x = 1.8+0.8y ->
+x = (1.8+0.8y) / 2 ->
+x = 0.2(9+4y) / 0.2(10) -> x = 9+4y/10
+
+subst
+x = 9+4(31-10x/40)/10 ->
+4(31-10x/40) -> (31-10x/10)
+
+
+x = 9 + (31-10x/10) : 10 -> 
+x = 9 + (31-10x/10) . 1 / 10 -> 
+x = 9 + 31-10x/100 -> 
+x = 900/100 + 31-10x/100 -> 
+x = 900-31-10x/100 -> 
+x = 869-10x/100 -> 
+100x = 869-10x -> 
+110x = 869 -> 
