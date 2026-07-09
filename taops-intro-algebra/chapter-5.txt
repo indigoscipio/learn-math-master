@@ -246,6 +246,10 @@ y = -8/7
 
 x = 9 + (-8/7) / 5 -> x = 55/7 : 5 -> x = 55/7 .  1/5 -> x = 55/35 -> x = 11/7
 
+alternatively, just solve for y lol, this way you can avoid dfraction (-y = 9 -5x)
+
+=====
+
 5.5
 solve the  two systems of equations
 a. 
@@ -263,6 +267,11 @@ a. 3r + s/2 = 33/2 ->
 r = ((33-s) / 2) : 3 ->
 r = (33-s)/2 . 1/3 ->
 r = (33-s)/6
+
+or alternatively, easiest here, ignore the fractions!
+s = 33 - 6r
+
+-----
 
 2n eq
 mult both sides by 2
@@ -302,12 +311,278 @@ subst
 x = 9+4(31-10x/40)/10 ->
 4(31-10x/40) -> (31-10x/10)
 
+x = (9 + (31-10x/10)) : 10 -> 
+x = 9/10 + 31-10x/100  -> 
+x = 90/100 + 31-10x/100  -> 
+x = 90+31-10x/100  -> 
+x = 121-10x/100  -> 
+100x = 121-10x
+110x = 121
+x = 121/110
+x = 1.1
 
-x = 9 + (31-10x/10) : 10 -> 
-x = 9 + (31-10x/10) . 1 / 10 -> 
-x = 9 + 31-10x/100 -> 
-x = 900/100 + 31-10x/100 -> 
-x = 900-31-10x/100 -> 
-x = 869-10x/100 -> 
-100x = 869-10x -> 
-110x = 869 -> 
+y = 31 - 10(1.1) / 40
+y = 31 - 11 / 40
+y = 20/40
+y = 2/4
+y = 0.5
+
+
+================
+solve problems / subsitute variable that doesnt involve fractions,
+variables that are the easiest, don't make problems harder then they have to be.
+================
+
+Exercises
+
+5.21
+solve each of the following systems of equations:
+a.  2x + y = 10,
+3x - 4y = 37
+
+b. 5x = 6y-4,
+2y = 3x + 4
+
+c. 2r/3 + 5s/6 = 11/2,
+7/3 + r/2 = 2s/3
+
+d. 2x-3y = -3.2-0.2x+0.1y,
+x=0.6x-y+8.8
+
+answer:
+a. isolate y on 1st equation
+y = 10 - 2x
+
+subst to 2nd
+3x - (4(10-2x)) = 37
+3x - (4.10 - 4.2x) = 37
+3x + (-1)(40-8x) = 37
+3x + (-1 . 40 - -1 . 8x) = 37
+3x + (-40 - -8x) = 37
+3x + (-40 + 8x) = 37
+3x - 40 + 8x = 37
+3x + 8x = 37 + 40
+11x = 77
+x = 7
+
+subst back
+y = 10 - 2(7)
+y = 10 - 14
+y = -4
+
+_
+
+b. 5x = 6y-4,
+2y = 3x + 4
+
+isolate y on second eq
+y = (3x + 4) / 2
+
+5x = 6((3x+4)/2) - 4
+5x = 3(3x+4) - 4
+5x = 9x+12 - 4
+5x - 9x = 12 - 4
+-4x = 8
+x = -2
+
+subst back
+y = (3(-2) + 4) / 2 ->
+y = -6+4 / 2
+y = -2/2
+y = -1
+
+_
+
+c. 2r/3 + 5s/6 = 11/2,
+7/3 + r/2 = 2s/3
+
+isolate 2nd equation, mult both sides by 6
+
+6(2s/3) = 6(7/3 + r/2) ->
+4s = (6 . 7/3 + 6 . r/2) ->
+4s = (14 + 3r) ->
+s = (14 + 3r) / 4
+
+subst into 1st eq
+actually lets simplify 1st eq, mult both sides by 6 also
+6(2r/3 + 5s/6) = (6)11/2 ->
+(6 . 2r/3 + 6 . 5s/6) = (6)11/2
+(4r + 5s) = 33
+4r + 5((14 + 3r) / 4) = 33
+4r + (70 + 15r / 4) = 33
+mult both sides by 4
+16r + 70 + 15r = 132
+31r = 62
+r = 2
+
+s = (14 + 3(2)) / 4 ->
+s = 14+6 / 4 ->
+s = 20/4
+s = 5
+
+d. 2x - 3y = -3.2 - 0.2x + 0.1y,
+x = 0.6x - y + 8.8
+
+isolate x on 2nd eq
+x - 0.6x = -y + 8.8
+0.4x = -y + 8.8
+x = (-y + 8.8) / 0.4
+
+subst into 1st eq
+but simplify first
+
+2x - 3y = -3.2 - 0.2x + 0.1y ->
+2x + 0.2x = -3.2 + 0.1y + 3y
+2.2x = 3.1y - 3.2
+x = (3.1y - 3.2) / 2.2
+
+(-y + 8.8) / 0.4 = (3.1y - 3.2) / 2.2
+mult both sides by 2.2
+5.5(-y + 8.8) = 3.1y - 3.2
+-5.5y + 48.4 = 3.1y - 3.2
+-5.5y - 3.1y = -3.2 - 48.4
+-8.6y = 51.6
+y = -51.6/8.6
+y = 6
+
+x = (3.1(6) - 3.2) / 2.2 
+x = 18.6 - 3.2 / 2 .2
+x = 15.4 / 2.2
+x = 7
+
+-----
+
+5.2.2
+suppose that x = 2-t and y = 4t+7
+a. if x = 7 what is y?
+b. if x = -3, what is y?
+c. find y in terms of x
+
+answer:
+a. 7 = 2-t
+5 = -t
+t = -5
+
+y = 4(-5)+7
+y = -20+7
+y = -13
+
+_
+
+b. -3 = 2-t
+-3-2 = -t
+-5 = -t
+t =5
+
+y = 4t+7
+y = 4(5) + 7
+y = 27
+
+_
+
+c. find y in terms of x
+y = ??
+we know that
+x = 2 - t
+-t = x - 2
+t = -(x - 2)
+t = -x + 2
+
+subst into 2nd eq
+y = 4t+7
+y = 4(-x + 2) + 7
+y = ((4 . -x)+(4 . 2)) + 7
+y = -4x + 8 + 7
+y = -4x + 15
+
+-----
+
+5.2.3
+in exercise 5.1.4 we found several ordered pairs that satisfy both eq
+
+5x - 6y = 1
+15x - 18y = 3
+
+a. solve the first eq for x
+b. subst your result from a into second eq. after u simplify as much as pssible
+do you still have an x in your eq? is the equation you have after simplifying true>
+c. how does the result of part b tell us that every ordered paird (x,y) that satisfies
+the first eq also satisfies the second eq?
+
+
+answer:
+a. 5x - 6y = 1
+5x = 1 + 6y
+x = (1 + 6y)/5
+
+b.
+15((1 + 6y)/5) - 18y = 3
+3(1+6y) - 18y = 3
+3+18y - 18y = 3
+3 = 3
+yeah thres no more x here
+but the equation is true -> 3 = 3
+
+c. the equation is identical? 5x-6y = 1 is equal to
+15x - 18y = 3 this is just a multiplied version
+3(5x - 6y) = 3(1)
+
+
+-----
+
+5.2.4
+
+solve the systems of equations
+13p-92q = 273,
+12p-91q = 273
+
+answer:
+isolate second eq
+12p = 273 + 91q
+p = 273 + 91q / 12
+p = 91(3+q)/12
+
+subst into 1st eq
+13p-92q = 273 ->
+13(91(3+q)/12) - 92q = 273 ->
+1183(3+q)/12 - 92q = 273 -> mult both sides by 12
+1183(3+q) - 12(92q) = 12.273 ->
+3549 + 1183q - 1104q = 3276
+79q = -273
+q = -273/79
+
+subst into 1st eq
+p = 91(3+(-273/79))/12
+
+wait just subtract the two exprs
+
+p - q = 0
+p = q
+
+13p-92p = 273,
+-79p = 273
+p = -273/79
+
+since p = q therefore q is also -273/79
+
+isntead of substituting since we know
+
+13p-92q = 273,
+12p-91q = 273
+
+that means 
+13p-92q = 12p-91q 
+13p - 12p = -91q + 92q
+p = q
+then just subst back
+
+-----
+
+5.3 ELIMINATION
+problem 5.6
+
+problem 5.6
+
+problem 5.6
+
+problem 5.6
