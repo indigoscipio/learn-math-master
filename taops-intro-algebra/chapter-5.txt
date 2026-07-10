@@ -580,9 +580,280 @@ then just subst back
 
 5.3 ELIMINATION
 problem 5.6
+a. (2x + 5x) + (3y - 3y) = (-11 + 67)
+7x  = 56
+x = 8
 
-problem 5.6
+b. 
+2(8) + 3y = -11
+16 + 3y = -11
+3y = -11 - 16
+3y = -27
+y = -9
 
-problem 5.6
+_
 
-problem 5.6
+problem 5.7
+a. mult second eq by -2
+b. -2(2x + 3y) = -2(-5)
+-4x - 6y = 10
+
+ 4x - 7y =  13
+-4x - 6y = 10
+_______________
+(4x + -4x) + (-7y + -6y) =  (13)+(10)
+-13y = 23
+y = -23/13
+
+4x - 7(-23/13) = 13
+4x + (-7)(-23/13) = 13
+4x + 161/13 = 13 -> mult all sides by 13
+13.4x + 161 = 169
+52x = 169-161
+52x = 8
+x = 8/52
+x = 2/13
+
+_
+
+problem 5.8
+5x - 2y = 12
+y - 9x + 22 = -2y
+
+ill use elimination
+y + 2y - 9x = -22
+3y - 9x = -22
+so its
+
+5x - 2y = 12
+3y - 9x = -22
+
+eliminate y, mult top by 3 and bottom by 2
+3(5x-2y) = 3(12)
+2(3y-9x) = 2(-22)
+
+ 15x - 6y =  36
+-18x + 6y = -44
+_________________+
+(15x + -18x) = (36 + -44)
+-3x = -8
+x = 8/3
+
+5(8/3) - 2y = 12
+40/3 - 2y = 12
+3(40/3) - 3(2y) = 3(12)
+40 - 6y = 36
+-6y = 36-40
+-6y = -4
+y = 4/6
+y = 2/3
+
+_
+
+problem 5.9
+solvethe folowing systemes of equation
+
+a. -u + 3v = 8,
+10v - 2u = 16+4v
+
+b. 2t - r = 1,
+5t = 2.5r + 7
+
+answer:
+a. lets use subst for this, isolate u in 1st eq
+-u + 3v = 8 ->
+-u = 8 - 3v ->
+u = (-1)(8-3v) ->
+u = (-8+ 3v) ->
+u = -8 + 3v
+
+subst to 2nd eq
+simplify it first
+10v - 2u = 16 + 4v
+10v - 4v = 16 + 2u
+6v = 16 + 2u
+lets divide allside by 2
+3v = 8 + u
+subst u
+3v = 8 + (-8 + 3v)
+3v = 8 - 8 + 3v
+3v = 3v
+
+ok unless im mistaken so this seems to be a true equations?
+infinitely many solutions, represent the exact same line
+
+_
+
+b. 2t - r = 1,
+5t = 2.5r + 7
+
+lets use subst again, isolate r in first eq
+-r = 1 - 2t
+r = (-1)(1 - 2t)
+r = -1 + 2t
+r = 2t - 1
+
+subst to 2nd eq
+5t = 2.5(2t - 1) + 7
+5t = (2.5 . 2t + 2.5 . -1) + 7
+5t = (5t + -2.5) + 7
+5t = 5t - 2.5 + 7
+5t - 5t = 4.5
+0 =  4.5
+
+
+so unless im mistaken this is not a true solution?
+contradiction
+
+======================================================
+
+5.3.1
+solve each of the following systems of equations
+a. 3x - 7y = 14,
+2x + 7y = 16
+
+b. 5u = -7 - 2v,
+3u = 4v - 25
+
+c. 2x/13 + 2y = -2(y+1),
+-3x/13 = -5(6-y)
+
+d. -2.5a + 5b = 25,
+42 + 10b = 15 + 3.75a + 4b
+
+answer:
+a. solve by elim, just add bothsides to elim y
+3x - 7y = 14,
+2x + 7y = 16
+_______________ +
+5x = 30
+x = 6
+
+subst back
+2(6) + 7y = 16
+12 + 7y = 16
+7y = 16 - 12
+7y = 4
+y = 4/7
+
+b. 5u = -7 - 2v,
+3u = 4v - 25
+
+solve by elim, mult 1st eq by 2 to elim v
+
+(2)5u = (2)(-7 - 2v) ->
+10u = -14 - 4v
+3u  = -25 + 4v
+_______________ +
+13u = -39
+u = -39/13
+u = 3
+
+subst back
+3(3) = 4v - 25
+9 = 4v - 25
+9 + 25 = 4v
+34 = 4v
+v = 34/4
+v = 17/2
+
+c. 2x/13 + 2y = -2(y+1),
+-3x/13 = -5(6-y)
+
+lets try to simplify the eq
+2x/13 + 2y = -2y - 2
+2x/13 + 4y = -2
+
+-3x/13 = -5(6-y)
+-3x/13 = -30+5y
+-3x/13 - 5y = -30
+
+mult top eq by 3 and bottom eq by 2 to get rid of the frac
+3(2x/13 + 4y) = 3(-2)
+2(-3x/13 - 5y) = 2(-30)
+
+6x/13 + 12y = -6
+-6x/13 - 10y = -60
+______________+
+2y = -66
+y = -33
+
+subst back
+2(-33)/13 + 4y = -2
+-66/13 + 4y = -2
+4y = -2 + 66/13
+4y = -26+66/13
+4y = 40/13
+y = 40/13 : 4
+y = 40/13 . 1/4
+y = 40/52
+y = 10/13
+
+d. -2.5a + 5b = 25,
+42 + 10b = 15 + 3.75a + 4b
+
+lets clean up 2nd eq
+42 + 10b = 15 + 3.75a + 4b
+42 - 15 = 3.75a + 4b - 10b
+27 = 3.75a - 6b
+3.75a - 6b = 27
+
+-2.5a + 5b = 25,
+3.75a - 6b = 27
+
+mult top by 6 and bottom by 5 to get rid of b
+6(-2.5a + 5b) = 6(25)
+5(3.75a - 6b) = 5(27)
+
+15a    + 30b    = 150
+18.75a - 30b = 135
+______________________ +
+(15a + 18.75a) = (150+135)
+33.75a = 285
+a = 285/33.75
+a = 28500/3375
+a = 1900/225
+a = 76/9
+
+subst back
+-2.5(76/9) + 5b = 25
+-190/9 + 5b = 25
+-190 + 45b = 225
+45b = 415
+b = 415/45
+b = 83/9
+
+_
+
+5.3.2
+describe all solutions to each of the following equations:
+a. 2x + 3y = 7,
+14x = 49 - 21y
+
+b.
+
+answer:
+
+_
+
+
+5.3.3
+
+_
+
+
+5.3.4
+
+======================================================
+
+-u + 3v = 8
+-u = 8 - 3v
+u = -8 + 3v
+u = 3v - 8
+
+let v = t
+u = 3t - 8
+
+(u,v) = (3t - 8 ,t)
+
+
