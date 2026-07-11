@@ -1114,11 +1114,218 @@ g = 7.8
 g = 56
 
 b.
-g = 5c
-g = 5(8)
-g = 40
-....
+g+x = 5(c + x)
+56 + x = 5(8 + x)
+56 + x = 40 + 5x
+56 - 40 = 5x - x
+16 = 4x
+x = 16/4
+x = 4
+4 years from nw
 
 
+===============================
 
+EXERCISES
+5.4.2
+my parents started a small farm after they retired
+on their farm they have chieckens and pigs
+in total there are 40 animal legs among the chicken and pigs
+there are 16 animal heads
+how many chickens do my parents have?
+
+answer:
+ok so we know
+40 legs, these could be chicken or pigs
+16 animal heads but we dont know which one belogs to who
+
+what we know
+[total chicken legs] + [total pig legs] = 40
+[total chicken heads] + [total chicken legs] = 16
+we dont know how many chicken or pigs
+
+
+let chkicken = c, pigs = p
+1st eq - legs
+2c + 4p = 40 -> c + 2p = 20
+
+2nd eq - head
+c + p = 16
+c = 16 - p
+
+(16 - p) + 2p = 20
+16 + p = 20
+p = 20 - 16
+p = 4
+so there are 4 pigs
+
+c = 16 - 4
+c = 12
+and 12 chickens
+
+
+5.4.3
+the sum of erics and bobs weights is 9 times the diff of their weights
+the pos diff of their weights is also 240 lbs less than the sum
+if eric weighs less than bob, find bobs weight
+
+answer:
+let e = eric weight
+let b = bobs weight
+
+we know e < b
+so positive diff is b - e
+
+1st expr -> sum of erics ...
+e + b = 9(b - e)
+e + b = 9b - 9e
+e + 9e = 9b - b
+10e = 8b -> 5e = 4b
+e = (4b / 5)
+
+2nd expr -> pos diff...
+(b - e) = e + b - 240
+b - b - e - e = -240
+-2e = -240
+e = 120
+
+subst to 1st eq
+120 = (4b / 5)
+120 = 4b / 5
+120.5 = 4b
+600 = 4b
+b = 150
+so bob is 150 lbs
+
+5.4.4
+5 geen balls and 2 red balls together weigh 10lbs
+1 green ball and 4 red balls together weigh 7lbs
+if all red balls weigh the same amt and all green balls weight the same
+wht is the weight of 8 red and 8 green balls together?
+
+answer:
+let g be weight of green balls
+let r be weight of red balls
+
+5g + 2r = 10
+1g + 4r = 7
+
+mult 1st eq by -2 to get rid of r
+-10g - 4r = -20
+  1g + 4r = 7
+______________________ +
+(-10g + 1g) = (-20 + 7)
+-9g = -13
+g = 13/9
+
+1(13/9) + 4r = 7
+13/9 + 4r = 7 -> mult both sides by 9
+9(13/9 + 4r) = 9(7)
+(9 . 13/9 + 9 . 4r) = 63
+13 + 36r = 63
+36r = 50
+36r = 50
+r = 50/36
+r = 25/18
+
+8 . 13/9 + 8 . 25/18
+104/9 + 200/18
+208+200/18
+408/18
+204/9
+68/3 lbs
+
+5.4.5
+at a certain time janice notices her digital watch reads a minutes after two o clock
+fifteen minutes later it reads b minutes after three o clock
+she is amused to note that a is six times b
+what time was it when she looked at her watch for the second time?
+
+answer:
+
+we know a = 6b
+
+first time -> a minutes past 2:00
+
+second time -> b minutes past 3:00
+60 + b
+
+a + 15 = 60 + b
+a - b = 45
+
+6b - b = 45
+5b = 45
+b = 9
+
+
+; =============================
+5.5
+more linear equations in disguise
+
+5.14
 a. 
+sum of their sqrt... -> sqrt(a) + sqrt(b) = 37
+sqrt of a is ... -> sqrt(a) = 2(sqrt(b)) + 10
+
+b. 
+sqrt(a) + sqrt(b) = 37
+sqrt(a) = 2.sqrt(b) + 10
+
+
+2.sqrt(b) + 10 + sqrt(b) = 37
+2.sqrt(b) + sqrt(b) = 27
+3.sqrt(b) = 27
+sqrt(b) = 27/3
+sqrt(b) = 9
+
+sqrt(a) + sqrt(b) = 37
+sqrt(a) + 9 = 37
+sqrt(a) = 37-9
+sqrt(a) = 28
+
+b = 81
+a = 784
+
+5.1.5
+find all pairs (x,y) that satisfy both equations below
+3/x - 2/y = -7/2,
+6/x + 4/y = 9
+
+lets get rid of the fractions
+mult 2nd eq by xy
+
+xy(6/x + 4/y) = xy(9)
+(xy . 6/x + xy . 4/y) = 9xy
+6y + 4x = 9xy
+
+actually lets go bakc mult 2nd eq by 1/2
+1/2 . (6/x + 4/y) = 1/2 . 9
+3/x + 2/y = 9/2
+
+3/x - 2/y = -7/2
+3/x + 2/y = 9/2
+______________________+
+6/x = (-7+9/2)
+6/x = 2/2
+6/x = 1
+x = 6
+
+6/(6) + 4/y = 9
+1 + 4/y = 9
+4/y = 8
+4 = 8y
+y = 4/8
+y = 1/2
+
+therefore the pair xy is (6,1/2)
+
+alternative, let x be 1/x and y = 1/y
+the reciprocals, we have
+
+-4x + 6y = -7xy
+4x + 6y = 9y
+
+========================
+try substituting  a variable for the whole expr
+reciprocal, square root, etc
+========================
