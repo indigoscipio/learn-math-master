@@ -1749,30 +1749,36 @@ v  24  w
 answer:
 ok so we wanna find y + z
 
-3rd row horizontal ->
-25 + z + 21
 
-1st col vertical ->
-v + 18 + 15
+v + 18 + 25 -> v + 43
+v + x  + 21 
 
-25 + z + 21 = v + 18 + 15
-z + 46 = v + 33
-z - v = 33 - 46
-z - v =  -13
-z = -13 + v
+v + x + 21 = v + 43
+v - v + x = 43 - 21
+x = 22
 
-wait does this mean 2 sum diag is also equal?
-so 18 + 24 = 18 + z
-42 = 18 + z
-42 - 18 = z
-z = 24
-...
+w + 22 + 25 = w + y + 21
+w + 47 = w + y + 21
+w - w - y = 21 - 47
+-y = -26
+y = 26
+
+
+so the sum is 18 + 22 + 26 = 66
+
+25 + z + 21 = 66
+z + 46 = 66
+z = 66 - 46
+z = 20
+
+so y + z = 26 + 20 = 46
+
 
 _
 
 5.6.4
 consier the system of equations
-2a + 3c - 4c = 7,
+2a + 3b - 4c = 7,
 a - b + 2c = 6
 
 a. can you find an ordered triple numbers (a,b,c) that satisfies both euqations 
@@ -1781,3 +1787,32 @@ c. solve for b in terms of a, and solve for c in terms of a.
 how many solutions does this system have?
 
 answer:
+a  - b  + 2c = 6 
+a = 6 + b - 2c
+
+subst a to 1st eq
+2(6 + b - 2c) + 3b - 4c = 7
+(12 + 2b - 4c) + 3b - 4c = 7
+2b + 3b - 4c - 4c = 7 - 12
+5b - 8c = -5
+
+
+2a + 3b - 4c = 7,
+2a - 2b + 4c = 12
+______________________+
+4a + b = 19
+4a = -b + 19
+a = (-b + 19)/4
+
+4a + b = 19
+b = 19 - 4a
+
+a  -(19 - 4a)  + 2c = 6
+a -19 + 4a + 2c = 6
+5a + 2c = 25
+2c = 25 - 5a
+c = (25 - 5a) /2
+c = 5(5 - a) / 2
+
+a can be any eal number which is perfectly valid
+therefore it has infintely many solutions.
