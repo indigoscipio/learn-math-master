@@ -1643,3 +1643,141 @@ subst x = -1
 A = C
 
 therefore A = C and B = D
+
+==================
+EXERCISES
+5.6.1
+find all solutions to the following euqations
+
+x + 3y + 2z = 6,
+-3x + y + 5z = 29
+-2x - 3y + z = 14
+
+answer:
+1st eq, focs on x
+x = 6 - 3y - 2z
+
+subst x into 2nd eq
+-3(6 - 3y - 2z) + y + 5z = 29
+-18 + 9y + 6z + y + 5z = 29
+-18 + 10y + 11z = 29
+10y + 11z = 29+18
+10y + 11z = 47
+
+subst x into 3rd eq
+-2(6 - 3y - 2z) - 3y + z = 14
+-12 + 6y + 4z - 3y + z = 14
+-12 + 3y + 5z = 14
+3y + 5z = 14 + 12
+3y + 5z = 26
+
+combie
+ 3y +  5z = 26 -> mult 10
+10y + 11z = 47 -> mult -3
+
+ 30y + 50z =  260
+-30y - 33z = -141
+______________________+
+17z = 119
+z = 7
+
+3y + 5(7) = 26
+3y + 35 = 26
+3y = 26 - 35
+3y = -9
+y = -3
+
+x + 3(-3) + 2(7) = 6,
+x + -9 + 14 = 6,
+x - 9 + 14 = 6,
+x + 5 = 6
+x = 1
+
+therefore x = 1, y = -3, y = z
+
+_
+
+5.6.2
+find all solutions to the following system of equations
+2x - 5y + 3z = 25,
+-x - y + 4z = -6,
+3x + 3y - z = -4
+
+focus on 2nd eq, isolate x
+-x = -6 + y - 4z
+x = (-1)(-6 + y - 4z)
+x = 6 - y + 4z
+
+subst x into 2nd 1st eq
+2(6 - y + 4z) - 5y + 3z = 25
+(12 - 2y + 8z) - 5y + 3z = 25
+-2y + 8z - 5y + 3z = 25 - 12
+-7y + 11z = 13
+
+subst x into 3rd eq
+3(6 - y + 4z) + 3y - z = -4
+(18 - 3y + 12z) + 3y - z = -4
+-3y + 12z + 3y - z = -4 - 18
+11z = -4 - 18
+11z = -22
+z = -2
+
+-7y + 11(-2) = 13
+-7y - 22 = 13
+-7y = 35
+y = -5
+
+-x - (-5) + 4(-2) = -6
+-x + 5 - 8 = -6
+-x - 3 = -6
+-x = -6 + 3
+-x = -3
+x = 3
+
+
+_
+
+5.6.3
+in the magic square shown , the sum of num in each row, col, diag are the same
+fife of these numbers are represented by v,w,z,y,z
+find y + z
+
+v  24  w
+18  x  y
+25  z  21
+
+answer:
+ok so we wanna find y + z
+
+3rd row horizontal ->
+25 + z + 21
+
+1st col vertical ->
+v + 18 + 15
+
+25 + z + 21 = v + 18 + 15
+z + 46 = v + 33
+z - v = 33 - 46
+z - v =  -13
+z = -13 + v
+
+wait does this mean 2 sum diag is also equal?
+so 18 + 24 = 18 + z
+42 = 18 + z
+42 - 18 = z
+z = 24
+...
+
+_
+
+5.6.4
+consier the system of equations
+2a + 3c - 4c = 7,
+a - b + 2c = 6
+
+a. can you find an ordered triple numbers (a,b,c) that satisfies both euqations 
+b. canyoufind a second ordered triple that satisfies both equations
+c. solve for b in terms of a, and solve for c in terms of a.
+how many solutions does this system have?
+
+answer:
