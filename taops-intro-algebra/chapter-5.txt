@@ -1442,9 +1442,110 @@ y = 2
 
 subst original equation back
 3 = cuberoot(r) -> cube each side
-r = 9
+r = 27
 
 2 = sqrt(s) -> square each side
 s = 4
 
-therefore r is 9 and s if 4
+therefore r is 27 and s is 4
+
+==============================
+
+5.6 MORE variables
+5.16
+a. 
+x = 25 - 3y + 4z
+
+b.
+plug x into 2nd eq
+-2(25 - 3y + 4z) + 5y + 7z = -66
+-50 + 6y - 8z + 5y + 7z = -66
+-50 + 11y - z = -66
+11y - z = -66 + 50
+11y - z = -16
+
+plug x into 3rd eq
+3(25 - 3y + 4z) - 2y + 3z = 7
+75 - 9y + 12z - 2y + 3z = 7
+-11y + 15z = 7 - 75
+-11y + 15z = -68
+
+c.
+-11y + 15z = -68
+ 11y - z = -16
+______________________+
+14z = -84
+z = -6
+
+
+11y - (-6) = -16
+11y + 6 = -16
+11y = -16 - 6
+11y = -22
+y = -2
+
+x = 25 - 3(-2) + 4(-6)
+x = 25 - (-6) + (-24)
+x = 25 + 6 - 24
+x = 7
+
+5.1.7
+solve the following system of linear eq
+
+2x - 3y + 6z = -12
+5x + 2y - 8z = 29
+7x + 6y + 4z = 49
+
+answer:
+focus on 1st and second eq
+
+2x - 3y + 6z = -12 -> mult by 2,
+5x + 2y - 8z = 29 -> mult by 3, get rid of y
+
+4x - 6y + 12z = -24
+15x + 6y - 24z = 87
+______________________ +
+19x - 12z  = 63
+
+now focus on 1st and 3rd
+2x - 3y + 6z = -12 -> mult by 2, get rid of x
+7x + 6y + 4z = 49
+
+4x - 6y + 12z = -24
+7x + 6y +  4z =  49
+______________________ +
+11x + 16z = 25
+
+combine
+19x - 12z  = 63 -> mult by 4
+11x + 16z  = 25 -> mult by 3
+
+76x - 48z  = 252
+33x + 48z  = 75
+___________________+
+109x = 327
+x =  3
+
+19(3) - 12z  = 63
+57 - 12z = 63
+-12z = 63 - 57
+-12z = 6
+z = -1/2
+
+2(3) - 3y + 6(-1/2) = -12
+6 - 3y + (-3) = -12
+6 - 3y - 3 = - 12
+3y = -12 + 3 - 6
+3y = -12 - 3
+3y = -15
+y = -5
+
+
+
+answer:
+
+5.1.8
+answer:
+
+5.1.9
+answer:
