@@ -1535,17 +1535,111 @@ z = -1/2
 2(3) - 3y + 6(-1/2) = -12
 6 - 3y + (-3) = -12
 6 - 3y - 3 = - 12
-3y = -12 + 3 - 6
-3y = -12 - 3
-3y = -15
-y = -5
-
-
-
-answer:
+-3y = -12 + 3 - 6
+-3y = -12 - 3
+-3y = -15
+y = 5
 
 5.1.8
 answer:
+ok so each vowel (a,i,u,e,o) -> different price
+all consontants  -> free
 
-5.1.9
+triangle -> $6
+square -> $9
+pentagon -> $7
+cube -> $7
+tetrahedron -> $8
+
+what is the dollar cost for octahedron?
+
 answer:
+ok so we dont know what each vowel pricing is, 
+we need to figure it out then we can figure out the word price
+
+triangle -> i,a,e
+square -> u,a,e
+pentagon -> e,a,o
+cube -> u,e
+tetraherdon -> e,a,e,o
+octahedron -> o,a,e,o
+
+lets start with e,
+square and cube both has e
+a + e = 7
+u + a + e = 9 -> mult this by -1
+
+
+ u +     e =  7
+-u - a - e = -9 -> mult this by -1
+___________________+
+-a = -2
+a = 2
+so the price of a is $2
+
+next lets find e
+triangle -> i + 2 + e = 6
+pentagon -> o + 2 + e = 7
+
+mult pentagon by -1
+i  + 2 + e = 6
+-o - 2 - e = 7
+______________________+
+i - o = 13
+
+pentagon -> o + 2 + e = 7
+tetraherdon -> e + 2 + e + o = 8 -> 2e + 2 + o = 8
+
+ e + 2 + o = 7 -> mult by -1
+-e - 2 - o = -7
+2e + 2 + o = 8
+______________________+
+e = 1
+
+o + 2 + e = 7
+o + 2 + 1 = 7
+o + 3 = 7
+o = 7 - 3
+o = 4
+
+so a=2, e=1, o=4
+octahedron -> o,a,e,o -> 4+2+1+4 -> 11
+
+5.19
+answer:
+ax - 3 = 2x + b
+
+a. 
+let x = 1
+a(1) - 3 = 2(1) + b
+a - 3 = 2 + b
+a = 2 + b + 3
+a = b + 5
+
+x = 0
+a(0) - 3 = 2(0) + b
+0 - 3 = 0 + b
+-3 = b
+
+a = -3  + 5
+a = 2
+
+b. Ax + B = Cx + D
+subst x = 0
+A(0) + B = C(0) + D
+B = D
+
+subst x = 1
+A + B = C + D
+A + B = C + B
+A = C + B - B
+A = C
+
+subst x = -1
+-A + B = -C + D
+-A + B = -C + B
+-A = -C + B - B
+-A = -C
+A = C
+
+therefore A = C and B = D
