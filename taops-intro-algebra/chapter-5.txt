@@ -1366,6 +1366,8 @@ y = -1/2
 1 = 3x
 x = 1/3
 
+_
+
 5.5.2
 the area of a square equals the square of a length of the side of the square
 the perim of a square = the sum of the lengghts of all four sides
@@ -1373,3 +1375,76 @@ the sum of these areas of two squares is 65
 while the diff in their areas is 33
 find the sum of their perimeters
 
+answer:
+ok so we know
+
+area = (s)^2
+perim = 4(s)
+
+we know sum of area of two square is 65
+lets say square x and square y
+area of x + area of y = 65
+area of x - area of y - 33
+
+let p be area of x
+let q be area of y
+we wanna find the sum of their perim
+p + q = 65
+p - q = 33
+
+p = 65 - q
+65 - q - q = 33
+65 - 2q = 33
+-2q = 33-65
+-2q = -32
+q = 16 -> area of y is 16, so its side length is sqrt(16) = 4
+
+p + 16 = 65
+p = 65-16
+p = 49 -> area of x is 49, so its side length is sqrt(49) = 7
+
+now sum finding the perim
+4x + 4y
+4(7) + 4(4)
+28 + 16
+44
+
+_
+
+5.5.3
+find r and s if
+cuberoot(r) + 9.sqrt(s) = 21, and
+10.cuberoot(r) - sqrt(s) = 28
+
+answer:
+lets find a way to simplify this
+
+   cuberoot(r) + 9.sqrt(s) = 21
+10.cuberoot(r) -   sqrt(s) = 28
+
+let x = cuberoot(r)
+let y = sqrt(s)
+
+  x + 9y = 21
+10x -  y = 28 - mult 2nd eq by 9 to get rid of y
+
+  x + 9y =  21
+90x - 9y = 252
+______________________+
+(x + 90x) = (21+252)
+91x = 273
+x = 3
+
+3 + 9y =  21
+9y = 21-3
+9y = 18/9
+y = 2
+
+subst original equation back
+3 = cuberoot(r) -> cube each side
+r = 9
+
+2 = sqrt(s) -> square each side
+s = 4
+
+therefore r is 9 and s if 4
