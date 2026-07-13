@@ -1816,3 +1816,219 @@ c = 5(5 - a) / 2
 
 a can be any eal number which is perfectly valid
 therefore it has infintely many solutions.
+
+==================================
+REVIEW PROBLEMS
+
+5.20
+FIND THREE ORDERED PAIRS (A,B) that satisfy the equation
+3a - 5b = 9
+
+answer:
+3a = 9 + 5b
+a = (9 + 5b) / 3
+
+a = (9 + 5(0)) / 3
+a = 9 / 3
+a=3
+b=0
+
+a = (9 + 5) / 3
+a = 14 / 3
+a=14/3
+b=1
+
+
+a = (9 + 10) / 3
+a = 19 / 3
+b = 2
+
+the pairs are (3,0),(14/3,1),(19/3,2)
+
+_
+
+5.21
+use substitution to solve the two systems of equations below
+a. x + 4y = -5,
+3x - 8y = 45
+
+b. 3a - b = 11,
+6a + 4b = 1
+
+answer:
+a. focus on 1st eq, isoalte x
+x + 4y = -5
+x = -5 - 4y
+
+subst into 2nd eq
+3(-5 - 4y) - 8y = 45
+(-15 - 12y) -8y = 45
+-15 - 12y -8y = 45
+-20y = 45 + 15
+-20y = 60
+y = -60/20
+y = 3
+
+x = -5 - 4(3)
+x = -5 - 12
+x = -17
+
+therefore the solutions are (-17,3)
+
+b. 3a - b = 11,
+6a + 4b = 1
+
+isolate b on 1st eq
+-b = 11 - 3a
+b = (-1)(11 - 3a)
+b = ((-1 . 11)+(-1 . -3a))
+b = -11 + 3a
+b = 3a - 11
+
+subst  into 2nd eq
+6a + 4(3a - 11) = 1
+6a + (4 . 3a - 4 . 11) = 1
+6a + 12a - 44 = 1
+18a = 45
+a = 45/18
+a = 5/2
+
+
+b = 3(5/2) - 11
+b = 15/2 - 11
+b = 15-22/2
+b = -7/2
+
+therfore the solution a,b is (5/2,-7/2)
+
+
+_
+
+5.22
+use elim to solve the two systems of equations below
+a. 5x-6y = -64,
+7x + 3y = -44
+
+b. 3x + 8y = -7,
+6x + 16y = 4
+
+answer:
+
+a. mult 2nd equation by 2 to elim y
+5x - 6y = -64
+14x + 6y = -88
+______________________+
+19x = -152
+x = -8
+
+5(-8)-6y = -64,
+-40 - 6y = -64
+-6y = -64 + 40
+-6y = -24
+y = 4
+
+threfore the solution x,y is (-8, 4)
+
+b. 3x + 8y = -7,
+6x + 16y = 4
+
+mult 1st eq by -2 to elim x
+-2(3x + 8y) = -2(-7),
+
+-6x - 16y = 14
+ 6x + 16y = 4
+ ______________________+
+ 0 + 0 = 18
+
+there are no solution to this eqations
+
+_
+
+5.23
+use any tehcnique to oolsve each systems of equations below
+a. 3x - 4y = 26,
+5x + 8y = 3
+
+b. r/3 - s/6 = 1/2,
+r + 2s + 4 = -3s + 6r + 14
+
+c. 5a + 5b + 4 = 17 + 3b,
+16a - 40 = 6a - 4b - 14
+
+d. 5 = -5x + 6y + 17,
+2x - 4y + 3 = 3y + 17
+
+answer:
+a.  mult 1st eq by 2 to elim y
+
+6x - 8y = 52,
+5x + 8y = 3
+______________________+
+11x = 55
+x = 5
+
+5(5) + 8y = 3
+25 + 8y = 3
+8y = 3 - 25
+8y = -22
+y = -22/8
+y = -11/4
+
+therefore the solution x,y is (5, -11/4)
+
+b. lets simplify 2nd eq
+r + 2s + 4 = -3s + 6r + 14
+r - 6r + 2s + 3s = 14 - 4
+5r + 5s = 10 -> divide all by 5
+r + s = 2
+
+r/3 - s/6 = 1/2 -> mult both side by 6
+6(r/3 - s/6) = 6(1/2)
+(6 . r/3 - 6 . s/6) = 3
+2r - s = 3
+
+ r + s = 2
+2r - s = 3
+______________________+
+3r = 5
+r = 5/3
+
+5/3 + s = 2
+s = 2 - 5/3
+s = 6-5/3
+s = 1/3
+
+threfore the solutions r,s is (5/3, 1/3)
+
+c. lets simplify both eqs
+
+5a + 5b + 4 = 17 + 3b
+5a - 3b + 5b = 14 - 4
+5a + 2b = 10
+
+16a - 40 = 6a - 4b - 14
+16a - 6a + 4b = -14 + 40
+10a + 4b = 26 -> divide by 2
+5a + 2b = 13
+
+5a + 2b = 10 -> mult by -1
+-5a - 2b = -10
+ 5a + 2b =  13
+______________________+
+0 + 0 = 3
+
+therefore there are no solution for this equation
+
+d. lets simlify both equations
+
+
+
+_
+
+5.24
+find the value of the constant a such that the ystem of equation
+
+3x + 2y = 8,
+6x = 2a - 7 - 4y.
+
+has infinitely many solutions (x,y)
