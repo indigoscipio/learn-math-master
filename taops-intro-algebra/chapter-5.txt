@@ -1867,13 +1867,14 @@ subst into 2nd eq
 -20y = 45 + 15
 -20y = 60
 y = -60/20
-y = 3
+y = -3
 
-x = -5 - 4(3)
-x = -5 - 12
-x = -17
+x = -5 - 4(-3)
+x = -5 - (-12)
+x = -5 + 12
+x = 7
 
-therefore the solutions are (-17,3)
+therefore the solutions are (7,-3)
 
 b. 3a - b = 11,
 6a + 4b = 1
@@ -1979,45 +1980,43 @@ therefore the solution x,y is (5, -11/4)
 b. lets simplify 2nd eq
 r + 2s + 4 = -3s + 6r + 14
 r - 6r + 2s + 3s = 14 - 4
-5r + 5s = 10 -> divide all by 5
-r + s = 2
+-5r + 5s = 10 -> divide all by 5
+-r + s = 2
 
 r/3 - s/6 = 1/2 -> mult both side by 6
 6(r/3 - s/6) = 6(1/2)
 (6 . r/3 - 6 . s/6) = 3
 2r - s = 3
 
- r + s = 2
+-r + s = 2
 2r - s = 3
 ______________________+
-3r = 5
-r = 5/3
+r = 5
 
-5/3 + s = 2
-s = 2 - 5/3
-s = 6-5/3
-s = 1/3
+2(5) - s = 3
+10 - s = 3
+-s = 3 - 10
+-s = -7
+s = 7
 
-threfore the solutions r,s is (5/3, 1/3)
+threfore the solutions r,s is (5, 7)
 
 c. lets simplify both eqs
 
 5a + 5b + 4 = 17 + 3b
-5a - 3b + 5b = 14 - 4
-5a + 2b = 10
+5a - 3b + 5b = 17 - 4
+5a + 2b = 13
 
 16a - 40 = 6a - 4b - 14
 16a - 6a + 4b = -14 + 40
 10a + 4b = 26 -> divide by 2
 5a + 2b = 13
 
-5a + 2b = 10 -> mult by -1
--5a - 2b = -10
- 5a + 2b =  13
-______________________+
-0 + 0 = 3
+then we have
+5a + 2b = 13
+5a + 2b = 13
 
-therefore there are no solution for this equation
+therefore ths systme of equations have infinite solutions (identical)
 
 d. lets simlify both equations
 5 = -5x + 6y + 17,
@@ -2249,3 +2248,273 @@ n = 8
 
 therfore you must take 8 steps north and 4 steps east
 
+_
+
+5.29
+find all ordered pairs (x,y) that satisfy the system of equations
+
+x/y - 3 = 2/y,
+2x-9y = -8
+
+answer:
+mult 1st eq by y
+(y)x/y - (y)3 = (y)2/y
+x - 3y = 2
+
+x  - 3y =  2 -> mult by -2
+2x - 9y = -8
+
+-2x + 6y =  -4
+ 2x - 9y =  -8
+ ______________________+
+ (6y - 9y) = (-4 + -8)
+ -3y = -12
+ y = 4
+
+ x - 3(4) = 2
+ x - 12 = 2
+ x = 2 + 12
+ x = 14
+
+ therfore the ordered pairs (x,y) is (14,4)
+
+_
+
+5.30
+solve the system of equations below;
+
+p + 3q - 2r = 19,
+-2p + 7q - 6r = 26,
+-p -2q + 8r = -31
+
+answer:
+1st eq -> isolate p
+p = 19 - 3q + 2r
+
+subst into 2nd eq
+-2(19 - 3q + 2r) + 7q - 6r = 26
+-38 + 6q - 4r + 7q - 6r = 26
+13q - 10r = 64
+
+subst into 3rd eq
+-(19 - 3q + 2r) -2q + 8r = -31
+-19 + 3q - 2r -2q + 8r = -31
+q + 6r = -31 + 19
+q + 6r = -12
+
+13q - 10r = 64 
+  q + 6r = -12  -> mult by -13 to elim q
+
+ 13q - 10r =  64 
+-13q - 78r = 156  -> mult by -13 to elim q
+______________________+
+-88r = 220
+r = -220/88
+r = -110/44
+r = -55/22
+r = -5/2
+
+q + 6(-5/2) = -12
+q - 15 = -12
+q = -12 + 15
+q = 3
+
+p = 19 - 3(3) + 2(-5/2)
+p = 19 - 9 - 5
+p = 5
+
+5.31
+a box containing 3 oranges
+2 apples and one banana wiehgts 15 units
+another box containing 5 oranges 7 apples and 2 bananas
+weighs 44 units
+a third box containing 1 oranges 3 apples and 5 bananas
+weighs 26 units
+how much does each fruit weigh?
+
+answer:
+let a = apples
+let b = bananas
+let o = oranges
+
+box 1 -> 3o + 2a + b = 15
+box 2 -> 5o + 7a + 2b = 44
+box 3 -> o + 3a + 5b = 26
+
+lets isolate box1 b
+3o + 2a + b = 15
+b = 15 - 2a - 3o
+
+subst to 2nd eqations
+5o + 7a + 2(15 - 2a - 3o) = 44
+5o + 7a + (30 - 4a - 6o) = 44
+5o - 6o + 7a - 4a = 44 - 30
+-o + 3a = 14
+
+
+subst to 3rd eq
+o + 3a + 5(15 - 2a - 3o) = 26
+o + 3a + 75 - 10a - 15o = 26
+o - 15o + 3a - 10a = 26 - 75
+-14o - 7a = -49
+
+  -o + 3a =  14 -> mult by -14
+-14o - 7a = -49
+
+ 14o - 42a = -196 -> mult by -14
+-14o - 7a  =  -49
+______________________+
+-49a = -245
+a = 5
+
+-o + 3(5) = 14
+-o + 15 = 14
+-o = 14 - 15
+-o = -1
+o = 1
+
+b = 15 - 2(5) - 3(1)
+b = 15 - 10 - 3
+b = 15 - 13
+b = 2
+
+===========================================
+
+Challenge Problems
+
+5.32
+I am thinkgin of a two digit number
+if the digits of my number are reversed
+the new number is 36 reater than my original number
+if the tens digit of my original number is doubled
+and hte units digit is halved
+the new number is 17 greater than my original number
+what is my original number?
+
+answer:
+let x be the two digit origianl number
+
+if digit reversed -> x + 36
+if tens digit is doubled and units digit halef -> x + 17
+
+so lets say x is 12
+is 12 reversed? i dont know what the fuck that means
+so ti should be 21??
+
+let t = tens digit
+let u = units digit
+
+original  -> (10 . t) + u -> 10t + u
+reversed -> (10 . u) + t -> 10u + t
+
+if the digits ...
+10u + t = 10t + u + 36
+
+if the tens digit..
+2(10t) + u(1/2) = 10t + u + 17
+
+simpilfy both eq
+10u + t = 10t + u + 36
+10u + t - 10t - u = 36
+9u -9t = 36 -> divide all sides by 9
+u - t = 4
+u = t + 4
+
+2(10t) + u(1/2) = 10t + u + 17
+20t + 1/2u - 10t - u = 17
+10t - 1/2u = 17 -> mult both sides by 2
+20t - u = 34
+20t -(t+4) = 34
+20t -t - 4 = 34
+19t = 38
+t = 2
+
+u = 2 + 4
+u = 6
+
+therefore the original number is
+10t + u
+10(2) + 6
+20 + 6
+26
+
+_
+
+5.33
+suppose x = 3 - 4t and y = 5 + 2t
+find x in terms of y
+
+answer:
+x = 3 - 4t
+x + 4t = 3
+
+y = 5 + 2t
+y - 2t = 5
+
+x + 4t = 3
+y - 2t = 5 -> mult by 2
+
+ x + 4t = 3
+2y - 4t = 10
+______________________+
+(x + 2y) = (3 + 10)
+x + 2y = 13
+x = 13 - 2y
+
+_
+
+5.34
+find x and y if sqrt(x) + 2.sqrt(y) = 3 and
+2.sqrt(x) + sqrt(y) = 0
+
+let p = sqrt(x)
+let q = sqrt(y)
+
+rewrite the epxr
+  sqrt(x) + 2.sqrt(y) = 3 -> p + 2q = 3
+2.sqrt(x) +   sqrt(y) = 0 -> 2p + q = 0
+
+ p + 2q = 3
+2p +  q = 0 -> mult by -2 to elim q
+
+  p + 2q = 3
+-4p - 2q = 0
+______________________+
+-3p = 3
+p = -1
+
+(-1) + 2q = 3
+2q = 4
+q = 2
+
+-1 = sqrt(x) -> since sqrt(x) can never be negative number
+this means there is no soution for this system ofequation
+
+_
+
+5.35
+the product of two nonzero numbers is equal to twice the sum
+find the sum of their reciprocals
+
+answer:
+ok so we know
+a . b = 2(a + b) where a and b are nonzero
+
+and sum of their reciprocal is
+1/a + 1/b -> lcm = ab
+b/ab + a/ab
+
+a+b/ab
+a+b/2(a+b)
+1/2
+
+_
+
+5.36
+find all orderd pairs (x,y) that satisft boyh
+3x-4y / xy = -8 and
+2x + 7y / xy = 43
+
+_
+
+5.37
