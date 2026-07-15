@@ -2515,6 +2515,207 @@ find all orderd pairs (x,y) that satisft boyh
 3x-4y / xy = -8 and
 2x + 7y / xy = 43
 
+answer:
+mult both sides by xy
+
+1st eq
+xy(3x-4y)/xy = xy(-8)
+3x - 4y = -8xy
+
+2nd eq
+xy(2x + 7y)/xy = xy(43)
+2x + 7y = 43xy
+
+3x - 4y = -8xy -> mult by -2
+2x + 7y = 43xy -> mult by 3
+
+-6x + 8y = 16xy
+ 6x + 21y = 129xy
+_________________+
+29y = 145xy
+y = 145xy/26
+y = 5xy -> divide both sides by y
+1 = 5x
+x  = 1/5
+
+3(1/5) - 4y = -8xy
+3/5 - 4y = -8xy
+-4y + 8xy = -3/5
+4y(-1 + 2x) = -3/5
+(-1 + 2x) = -3/5 . 1/4y
+-1 + 2x = -3/20y
+-1 + 2(1/5) = -3/20y
+-5+2/5 = -3/20y
+-3/5 = -3/20y
+20y(-3/5) = -3
+4y . -3 = -3
+-12y = -3
+y = 3/12
+y = 1/4
+
 _
 
+
 5.37
+comput x/y if x + 1/y = 4 and y + 1/x = 1/4
+
+answer:
+ok so we have
+x + 1/y = 4
+y + 1/x = 1/4
+
+y(x + 1/y) = y(4) - mult 1st eq with y
+x(y + 1/x) = x(1/4) - mult 2nd eq with
+
+yx + 1 = 4y
+yx + 1 = x/4
+
+4y = x/4
+y = x/4 : 4
+y = x/4 . 1/4
+y = x/16
+16y = x
+x/y = 16
+
+hmm wait a miunute does this mean the equation are not equal???
+
+_
+
+
+5.38
+one morning each member of angelas family drank an 8ounce mixure
+of coffee with milk
+the amt of cofee and milk varied from cup to cup but were never zero
+angela drank a quarter of the ttotal amaount of milk
+and a sixth of the total amount of ocffee
+how many people are in the famil?
+
+answer:
+ok so we know
+full thing = 8 ounce mixture of coffee with milk
+coffee and milk varied but never zero
+
+total mixture = total milk + totla coffee
+
+let milk = m
+let coffee = c
+angela -> 1/4 . total milk + 1/6 . total coffee
+1/4m + 1/6c = 8
+mult both sides by 24
+6m + 4c = 192 -> div 2
+3m + 2c = 96
+m + c = 8n
+m = 8n - c
+
+ 3m + 2c = 96
+-3m - 3c = -24n
+______________________+
+-c = (96 - 24n)
+c = -96 + 24n
+c = 24n - 96
+
+m = 8n - c
+m = 8n - (24n - 96)
+m = 8n -24n + 96
+m = -16n + 96
+
+c = 24n - 96
+if n = 4, c = 0 but c cannot be zero
+so at minumum n should be 5
+
+m = -16n + 96
+if n = 6, m = 0 but m cannot be zero
+so at minimum n should be 5
+
+therefore there are 5 people
+
+
+_
+
+5.39
+solve the systm of euqations
+
+2a - 3b + 5c + d = -41
+7a + 2b - c = -28
+-a + 2b - 7c - 2d = 46
+3a + 7b - 6c + d = 31
+
+answer:
+1 and 4th eq
+2a - 3b + 5c + d = -41
+3a + 7b - 6c + d = 31 -> mult by -1
+
+ 2a - 3b + 5c + d = -41
+-3a - 7b + 6c - d = -31 -> mult by -1
+______________________+
+-a -10b + 11c = -72
+
+3rd eq and 4th eq
+-a + 2b - 7c - 2d = 46
+3a + 7b - 6c + d = 31 -> mult by 2
+
+-a +  2b -  7c - 2d = 46
+6a + 14b - 12c + 2d = 62 -> mult by 2
+______________________+
+5a + 16b -19c = 108
+
+now 2 have 3
+7a + 2b - c = -28
+-a - 10b + 11c = -72
+5a + 16b -19c = 108
+
+let use subst to find a on 2nd eq
+-a = -72 + 10b - 11c
+a = -1(-72 + 10b - 11c)
+a = 72 - 10b + 11c
+
+subst to 1st eq
+7(72 - 10b + 11c) + 2b - c = -28
+504 - 70b + 77c + 2b - c = -28
+-68b + 76c = 476 -> divideby 2
+-34b + 68c = 238
+-17b + 34c = 119 -> divide by 17
+-b + 2c = 7
+
+
+subst to 3rd eq
+5(72 - 10b + 11c) + 16b -19c = 108
+360 -50b + 55c + 16b - 19c = 108
+-34b + 36c = -252
+
+now we have 2eq
+-68b + 76c = 476
+-34b + 36c = -252 -> mult by 
+
+
+_
+
+
+5.40
+when we place four numbers in a 2x2 grid we form a matrix
+we find the determinant of such a 2x2 matrix as follows
+
+| a b |
+| c d |
+= ad - bc
+
+for exampel:
+
+| 3 -2 |
+| 5 7  |
+= (3)(7)-(-2)(5) = 31
+
+auppose a,b,c,d,e,f are const in the system of linear eq
+
+ax + by = e,
+cx + dy = f.
+
+cramers rule states that if | a b  c d | is nonzero then the solution
+to this system is 
+x = |e b f d| / |a b c d| and y = |a e c f | / |a b c d |
+
+prove cramers rule. what happens if the determinant |a b c d | equal 0?
+
+answer:
+
+_
