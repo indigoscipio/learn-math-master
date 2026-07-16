@@ -2577,7 +2577,6 @@ y = x/16
 16y = x
 x/y = 16
 
-hmm wait a miunute does this mean the equation are not equal???
 
 _
 
@@ -2672,10 +2671,8 @@ a = 72 - 10b + 11c
 subst to 1st eq
 7(72 - 10b + 11c) + 2b - c = -28
 504 - 70b + 77c + 2b - c = -28
--68b + 76c = 476 -> divideby 2
--34b + 68c = 238
--17b + 34c = 119 -> divide by 17
--b + 2c = 7
+-68b + 76c = -532 -> divideby 2
+-34b + 38c = -266
 
 
 subst to 3rd eq
@@ -2683,10 +2680,34 @@ subst to 3rd eq
 360 -50b + 55c + 16b - 19c = 108
 -34b + 36c = -252
 
-now we have 2eq
--68b + 76c = 476
--34b + 36c = -252 -> mult by 
 
+now we have 2eq
+-34b + 38c = -266
+-34b + 36c = -252 -> mult by -1
+
+-34b + 38c = -266
+34b - 36c = 252 -> mult by -1
+______________________+
+2c = -14
+c = -7
+
+-34b + 36(-7) = -252
+-34b - 252 = -252
+-34b = - 252 + 252
+-34b =  0
+b = 0
+
+a = 72 - 10(0) + 11(-7)
+a = 72 - 77
+a = -5
+
+-(-5) + 2(0) - 7(-7) - 2d = 46
+5 + 49 - 2d = 46
+54 - 2d = 46
+-2d = 46 - 54
+-2d = -8
+d = 8/2
+d = 4
 
 _
 
@@ -2718,4 +2739,125 @@ prove cramers rule. what happens if the determinant |a b c d | equal 0?
 
 answer:
 
+ok so those crossing negative thing is called the determinant
+
+if the determinant
+
+| a b |
+| c d |
+
+equals zero then that means the determinant thing is
+ad - bc = 0
+ad = bc
+a = bc/d
+
+let me just understand this so
+x = | e b f d | / | a b c d |
+basically means
+x = ed - bf / ad - bc
+y = af - ec / ad - bc
+
+and the supposition have
+ax + by = e -> mult by d
+cx + dy = f -> mult by b
+
+dax + bdy = de -> mult by d
+bcx + bdy = bf -> mult by b
+______________________-
+(dax - bcx) = (de - bf)
+(adx - bcx) = (de - bf)
+x(da - bc) = (de - bf)
+x = (de - bf) / (da - bc)
+x = (ed - bf) / (ad - bc)
+
+ax + by = e -> mult by c
+cx + dy = f -> mult by a
+
+cax + cby = ce -> mult by c
+cax + ady = af -> mult by a
+______________________- 
+(cby - ady) = (ce - af)
+y(cb - ad) = (ce - af)
+y = (ce - af) / (cb - ad) -> mult by -1
+y = (af - ec) / (ad - bc)
+
+since we have
+x = ed - bf / ad - bc
+y = af - ec / ad - bc
+and we know ad - bc = 0
+then it means
+
+x = ed - bf / 0
+y = af - ec / 0
+therefore undefined because division by 0
+
+
+============================
+when you elim, safer to mult by -1 then add it
+instead of subtracting everything
+============================
+
 _
+
+5.4.1
+assume that x1, x2 , ... , x7 are real numbers such that
+
+x1 + 4x2 + 9x3 + 16x4 + 25x5 + 36x6 + 49x7 = 1
+4x1 + 9x2 + 16x3 + 25x4 + 36x5 + 49x6 + 64x7 = 12
+9x1 + 16x2 + 25x3 + 36x4 + 49x5 + 64x6 + 81x7 = 123
+
+find the value of 16x1 + 25x2 + 36x3 + 49x4 + 64x5 + 81x6 + 100x7
+
+answer:
+
+ok lets try to solve this, first eq
+x1 + 4x2 + 9x3 + 16x4 + 25x5 + 36x6 + 49x7 = 1
+
+i think  the coefficiet is basically perfect suare
+1^2x + 2^2x + 3^2x + 4^2x + 5^2x + 6^2x + 7^2x = 1
+
+
+but then if we let x = 1 they just equal the sum of squares up to 7th sqr
+1 + 4 + 9 + 16 ... = 1 so it cannot be 1
+but i dont think x1, ... , x7 can also be 0 because everyting sum to 0 then
+
+the only possbility is that each x1 need to be like 1/7
+so 1/7 + 1/7 + 1/7 + ... = 1 i think this makes the most sense
+
+1 . 1/7(1) + 4 . 1/7(4) + 9 . 1/7(9) + 25 . 1/7(25) + 36 . 1/7(36) + 49 . 1/7(49)
+1/7 + 1/7 + 1/7 + ... + 1/7
+i think something like this woudl work maybe
+
+so x is something like 1/7c whatever the coefficient c is
+
+but then when it goes to 2nd equation i think this would probably break
+cos the sum will awlays be 1
+let me think
+
+
+find the diffrence
+x1 -> 1,4,9,16 -> +3, +5, + 7
+x2 -> 4,9,16,25 -> +5, +7, +9
+x3 -> 9,16,25,36 -> +7, +9, +11
+x4 -> 16, 25,36,49 -> +9,+11,+13
+
+so it seems its increasing + 2 for every term increase so
+
+now lets paly around with the result value
+
+v1 -> 1
+v2 -> 12
+v3 -> 123
+
+v2-v1 -> 11
+v3-v2 -> 123-12 = 111
+
+difference = 111 - 11 = 100
+111 + 100 = 211
+123 + 211 = 334
+
+aleranative
+subtract 2nd with 1st
+
+x1 + 4x2 + 9x3 + 16x4 + 25x5 + 36x6 + 49x7 = 1
+4x1 + 9x2 + 16x3 + 25x4 + 36x5 + 49x6 + 64x7 = 12
