@@ -179,7 +179,8 @@ land area / population = land area per sqr mile / population per sqr mile
 68x = 570000
 x = 570000/68
 x = ~8382.352
-x = 8352.35
+x = 8382.35
+x = 8400
 
 alternatively
 just divide by 68 to find population per square mile
@@ -225,14 +226,56 @@ _
 
 6.1.5
 alice changes size several times
-the ratio of her original height
-to hter second height is 24 : 5
+the ratio of her original height to her second height is 24 : 5
 the ratio of her second height to her third height is 1 : 12
 the ratio of her original height to her fourth height is 16 : 1
-the tallest of these four heights if 10 feet
+the tallest of these four heights is 10 feet
 what is her shortest height?
 
 answer:
 
+lets tackle this one by one
 
+original : 2nd = 24 : 5
+lets name original 1st
 
+1st : 2nd = 24 : 5
+2nd : 3rd = 1 : 12
+1st : 4th = 16 : 1
+
+so we have 4 diffrent things here
+and we know the tallest of these four heights is 10 feet
+and we wanna find the shortest height
+
+i can just do the one with hihgest ratio eg 24 is tallest but
+that would be assumption since it doesn't represen quantity
+
+i think i need to like normalize the ratio
+
+1st : 2nd = 24 : 5 -> mult by 2 = 48 : 10
+2nd : 3rd = 1 : 12 -> mult by 10= 10 : 120
+1st : 4th = 16 : 1 -> mult by 3 = 48 : 3
+
+so now we can just chain it i think
+1st : 2nd : 3rd : 4th = 48 : 10 : 120 : 3
+and we know the tallest is 10 feet
+so total ratio = 181
+
+120/181 . x = 10 -> wrong, doesn't say sum of all her height is 10
+
+120 blocks = 10 feet
+1 block = 10/120
+1 block = 1/12 feet
+
+since there are 3 therefore 3 * 1/12 = 3/12 = 1/4 feet
+
+; ==========================================
+
+6.2
+MORE CHALLENGING RATIO PROBLEMS
+
+6.4
+
+6.5
+
+6.6
