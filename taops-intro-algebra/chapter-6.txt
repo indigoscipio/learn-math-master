@@ -275,7 +275,261 @@ since there are 3 therefore 3 * 1/12 = 3/12 = 1/4 feet
 MORE CHALLENGING RATIO PROBLEMS
 
 6.4
+g : t = 2 : 5 -> 2 blocks of gren
+therefore
+r : t = 3 : 5 -> 3 blocks of red
++4 g, -10 red
+
+we know green marble / red madble = 2 / 3
+added green / subtracted red = g + 4 / r - 10
+and g = 2r
+
+new green / new red = total green / total red
+2x + 4 = 2(3x - 10) -> new ratio is changing, do not equalize to 1st statement
+2x + 4 = 6x - 20
+2x - 6x = -20 - 4
+-4x = -24
+x = 6
+
+since we have 5 total 'blocks' -> 6  . 5 = 30
+
+alternative
+number of green marbles / totla = 2/5
+g / g + r = 2/5
+3g = 2r
+
+g + 4 / r - 10 = 2
+twice as many -> 10/5 = 2
+if i have 5 red marbles, i must have 2 . 5 = 10 green marbles
+green / red = 2 / 1
+
+substitute
+g + 4 = 2r - 20
+g + 4 = 3g - 20
+g - 3g = - 20 - 4
+-2g = -24
+g = 12 -> subst back
+
+
+__________
 
 6.5
+what is the ratio of x to y if 
+10x - 3y / 13x - 2y = 3 / 5 ?
+
+answer:
+i think this is just systems of two equations? not sure
+
+10x - 3y = 3 -> mult by 2
+13x - 2y = 5 -> mult by -3
+
+ 20x - 6y =  6 -> mult by 2
+-39x + 6y = -15 -> mult by -3
+_______________________+
+-19x = 9
+x = -19/9
+
+10x - 3y = 3
+10(-19/9) - 3y = 3
+-190/9 - 3y = 3
+-3y = 3 + 190/9
+-3y = 199/9
+3y = -199/9
+y = -199/9 . 1/3
+y = -199/27
+
+system doesnt owrk -> number is locked
+hmm maybe not the answer lets try crosscheck
+
+5(10x - 3y) = 3(13x-2y)
+50x-15y = 39x-6y
+50x - 39x = -6y + 15y
+11x = 9y -> divide by 11y
+11x/11y = 9x/11y
+x/y = 9/11
+
+__________
+
 
 6.6
+if x/y = 2/3 and y/z = 7/5, then what is z/x?
+
+answer:
+x : y = 2 : 3 -> mult by 7
+y : z = 7 : 5 -> mult by 3
+
+x : y = 14 : 21
+y : z = 21 : 15
+
+therefore z : x is 14 : 15
+
+alternative: substitution
+x/y = 2/3
+x = 2y/3
+
+y/z = 7/5
+y = 7/5z
+z = 5y/7
+
+z/x = 5y/7 : 2y/3 -> 5y/7 . 3/2y -> 15y / 14y -> 15/14
+
+
+
+__________
+
+6.7
+a. minutes after 10 a clock at which the minutes hand and hour hand
+are pointing in the same direction = x
+m/60
+
+b. m/60
+
+c. m/720
+
+d. 
+minute hand -> m/60
+hour hand -> 10/12
+m/720
+
+m/60 = 10/12 + m/720
+m/60 = 600+m/720
+720m = 60(600+m)
+720m = 3600+60m
+720-60m = 3600
+660m = 3600
+m = 3600/660
+m = 360/66
+m = ~5.45
+
+alternative
+distance hour hand moves / distance minutes hand move
+5 / 60
+
+_______________
+
+ExERCISES
+
+6.21
+the ratio of men to women in smalltown is 3 : 2
+the population of bigtown is 3 tmies as large as that of smalltown
+and the ratio of men to women in bigtown is 2 : 3
+if smalltown and bigtown are combined
+what is the ratio of men to women in the combination?
+
+answer:
+ok we know
+men smalltown : women smalltowwn = 3 : 2
+bigtown population : smalltown population = 3 : 1
+men bigtown : women bigtown = 2 : 3
+
+so in smalltown lets say population is 5
+for every 3 men there exists 2 women
+M M M W W -> 1 group
+
+since bigtown is 3x larger therfore
+its population is 15
+and ratio is 2 : 3
+so men -> 2/5 . 15 = 2 . 3 = 6
+women -> 3/5 . 15 = 3 . 3 = 9
+
+total men combined = 3 + 6 = 9
+total woman combined = 2 + 9 = 10
+
+so ratio is 9 / 10
+
+_
+
+6.2.2
+my piggy bank only has pennises and nickels in it 
+and 2/7 of the coins are nickels
+if i remove 84 pennies then 1/3 of the remaining coins are pennies
+
+a. suppose there are initially p pennies and n nickels in the piggy bank
+write an equation using the fact that 2/7 of the coins initially
+in the piggy bank are nickels
+
+b. write second eq repsesening situation after 84 pennies are removed
+c. how many nickels are in piggy bank?
+
+answer:
+a. p penines
+n nickels
+2/7 are nickels therefore 5/7 are pennies
+total number of coins = pennies + nickels
+total number of coins = p + n
+
+n = 2/7(p + n)
+7n = 2p + 2n
+5n = 2p
+
+b. new piggy bank = new penny coins + nickel coins
+p - 84 -> penny removed
+
+p - 84 = 1/3((p + n) - 84)
+p - 84 = p+n/3 - 28
+p - 84 + 28 = p+n/3
+p - 56 = p + n / 3
+3p - 168 = p  + n
+3p - p - 168 = n
+2p = n + 168
+
+5n = n + 168
+4n = 168
+n = 42
+
+_
+
+6.2.3
+my baseball team won 2/9 of its games this season
+if we lost 15 more games than we won
+how many games did we play this season?
+
+answer:
+ok so weknow total game block is 9
+win = 2/9
+which means lose = 7/9
+so win to lose ratio is 2 : 7
+
+let x be total numberof games played
+
+losses - wins = 15
+7/9x - 2/9x = 15
+5/9x = 15
+5x = 135
+x = 27
+
+6.2.4
+if a/b = 3/4
+and a/c = 5
+what is b/c?
+
+answer:
+a/b = 3/4
+a/c = 5/1
+
+a/b = 3/4 -> mult 5
+a/c = 5/1 -> mult 3
+
+a/b = 15/20 -> mult 5
+a/c = 15/3 -> mult 3
+
+thereore b/c is 20/3
+
+6.25
+joe and joann each bought 12 ounces of cofee in 16 ounce cup
+joe drank 2 ounces of his coffee and added 2 ounces of cream
+joann added 2 ounces of cream stirred thecoffe well and drank 2 ounces
+what is the resultig ratio of the amount of ice cream in
+joes coffee to that
+in joeanns cofee?
+
+answer:
+coffee / cup = 12 / 16
+
+joe -> drank 2 ounces of his coffee
+coffee = (coffee - 2) + (2 ounces of cream)
+so the 2 ounces of cream remain
+
+joann -> drank both the coffee and cream so bth gone
+2/14 -> cream / liquid mixture
+she drinks the 2 ounce of this
