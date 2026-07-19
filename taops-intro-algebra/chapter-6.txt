@@ -433,9 +433,37 @@ so men -> 2/5 . 15 = 2 . 3 = 6
 women -> 3/5 . 15 = 3 . 3 = 9
 
 total men combined = 3 + 6 = 9
-total woman combined = 2 + 9 = 10
+total woman combined = 2 + 9 = 11
 
-so ratio is 9 / 10
+so ratio is 9 / 11
+
+Alternative
+smalltown
+men : women = 3 : 2
+lets represents the total amount of people in smalltown
+men -> 3/5s
+women -> 2/5s
+
+bigtown
+bigtown : smalltown = 3 : 1
+bigtown = 3s
+bigtown men : women = 2 : 3
+men -> 2/5(3s) -> 6s/5
+women -> 3/5(3s) -> 9s/5
+
+count both
+men
+3/5s + 6s/5 = 9/5s
+9s/5 + 2s/5 = 11/5s
+
+therefore the ratio is
+9/5s : 11/5s
+9/5s . 5/11s
+45/55
+9/11
+
+
+
 
 _
 
@@ -476,6 +504,16 @@ p - 56 = p + n / 3
 5n = n + 168
 4n = 168
 n = 42
+
+alternative
+we know nickel / total coins = 2/7 so
+n / n+p = 2/7
+
+next remove penny
+penny removed / total coins = 1/3 
+p-84 / n+p-84 = 1/3
+
+just simpify from here
 
 _
 
@@ -531,5 +569,207 @@ coffee = (coffee - 2) + (2 ounces of cream)
 so the 2 ounces of cream remain
 
 joann -> drank both the coffee and cream so bth gone
-2/14 -> cream / liquid mixture
+2/14 -> 1/7 -> cream / liquid mixture
 she drinks the 2 ounce of this
+
+so total liquid = 12 ounces
+1/7 . 12 = cream
+12/7 = cream
+
+joes cream = 2
+joanns crema = 12/7
+
+2 : 12/7
+14 : 12
+
+=====================
+
+CONVERSION FACTORS
+
+1 foot / 12 inches = 1
+
+6.8
+a. 1f = 12in
+64in . 1f/12in = ~5.3
+
+b. 1lbs = 454g
+1lbs / 454g = 1
+
+
+0.35lbs . 454g/1lbs = 454 . 0.35 = 158.9 -> 159
+
+=====================
+problem 6.9
+there are exactly 3.28 feet in a meter
+in this problem we determine to nearest sqr foot how many
+sqr feet are there in 28 square mter
+a. create conversion factor between feet and meters
+b. we can wrtie 28 square meter as 28 m^2
+notice that meters are squared. by how many copies of the conversion
+factor will we need to mult 28m^2 in order to convert it to ft^2?
+c. how many square feet are there in 28 square metrer
+
+answer:
+a. 1m/3.28ft = 1
+or 3.28ft/1m = 1
+b. two copies? so like square it right?
+c. 
+28m^2 . (3.28ft/1m)^2
+28m^2 . 3.28ft^2/1m^2
+28m^2 . 3.28ft^2/1m^2
+28 . 10.76ft^2
+~301.28 ft^2
+
+__
+
+6.10
+32 ml per one kilogram the patient weighs
+
+a. 
+1lbs = 0.4536kg -> 1lbs/0.4536kg = 1
+
+b. 32mL/1kg . 0.4536kg/1lbs ->
+32 . 0.4536 / 1lbs
+14.5152 / 1 lbs
+
+__
+
+6.11
+1gal / 300ft^2
+store only seels cans 4L of paint
+client -> 370m^2 painted
+1L = 0.264 gal
+1m = 3.28ft
+
+a. 370m^2 -> cans of paint
+370m^2 . (3.28ft/1m)^2 ->
+370m^2 . 10.76ft^2/1m^2 ->
+370 . 10.76ft^2  ->
+3981.2ft^2
+
+b. 3981.2ft^2 . 1gal / 300ft^2 ->
+3981 / 300 ->
+~13.27gal
+
+c. 13.27gal . 1L/0.264gal ->
+13.27 / 0.264
+~50.265 L
+
+sells in 4L cans
+50/4 ->
+12.5
+since we wanna fill eveyrthing gotta buy 1 more so 13 cans
+
+
+_______________________
+
+6.12
+2 gheeps = 3 ghiips
+2 ghiips = 5 ghoops
+3 ghoops = 2 ghuups
+
+we wanna find worth of 7 gheeps in ghuups
+7gheeps . 3ghipps/2gheeps . 5ghoops/2ghiips . 2 ghuups / 3 ghoops
+7 . 3/2 . 5/2 . 2/3
+7 . 5 / 2
+35/2
+17.5
+
+;==========================================
+
+6.3.1
+ther are approx 0.4536kg in a pound
+to nearest whole pound how many lbs does a steer that weighs 200kg weigh
+
+answer:
+so we know 1lbs = 0.4536kg -> 1lbs/0.4536kg = 1
+200kg . 1lbs/0.4536kg = 200/0.4536 = ~440.9 lbs
+441 lbs
+
+_
+
+6.3.2
+there are 2.54cm in an inch find your height in cm and inches
+answer:
+lets say my height is 170cm
+1in = 2.54cm
+170cm . 1in/2.54cm = 170in/2.54 = ~66.9 in
+
+_
+
+6.3.3
+janie can stuff 30 envelops in one minute
+find expr for the number of invelopes she can stuff in n hours
+
+answer:
+1 minute -> 30
+1 hour = 60 minutes so mult it
+30 . 60 = 1800 envelops per hours
+
+for the expr
+amount of envelope she can stuff = amt she stuff in minutes * 60
+lets say 0.5 hour
+30 . (0.5(60)) ->
+30 . 30 = 900 envelops is 0.5 hours
+
+2 hour
+30 . (2(60)) -> 30 . 120 -> 3600
+
+so for n hour
+30 . 60n where n is the hour
+
+_
+
+6.3.4
+im visiting germany
+but forgot to exchange dollars for euros
+meal costs 17 eur i give cashier 40 dollars
+if 1 eur is worth $1.32 then how much change in euro shuld i receiv
+
+answer:
+ok so meal cost = 17EUR
+i give 40USD
+
+1 EUR = 1.32USD
+40USD . 1EUR/1.32USD
+40/1.32 -> ~30.3EUR amount i gave
+
+30.3 - 17 = 13.3 EUR -> change i should receive
+
+_
+
+6.35
+in a far off land three fish can be traded for 2 loaves of bread
+and a loaf of bread can be traded for four bags of rice
+how many bags of rice is one fiish worth?
+
+answer:
+3fish = 2bread
+1bread = 4rice
+
+we wanna find how many bags of rice is one fish worth?
+
+1 fish . 2bread/3fish . 4rice/1bread ->
+2/3.4/1
+8/3 -> ~2.6
+
+so 1 fish is worth ~2.67 bags of rice
+
+_
+
+6.36
+clints cowboy shop buys horse feed for $10 per cubic meter (m^3)
+clints customer dont like metric system so theyll only buy horse feed
+by the cubic foot. how much should clint charge for a cubic foot (ft^3)
+in order to double his money? assume 1m = 3.28ft
+
+answer
+1m^3 = 10USD
+1m = 3.28ft -> 1m^3 = ~35.31ft^3 -> 10USD = ~35.31ft^3
+
+hmm not sure what double his money means, so maybe profit
+price per cubic foot . 35.31ft^3 = $20
+price per cubic foot = $20/35.31ft^3
+price per cubic foot = $0.566
+
+
