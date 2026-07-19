@@ -773,3 +773,242 @@ price per cubic foot = $20/35.31ft^3
 price per cubic foot = $0.566
 
 
+====================================
+
+6.4 PERCENT
+6.13
+X = 60/100 . 250
+x = 6/10 . 250
+x = 6 . 25
+x = 150
+
+alternative
+x/250 = 60/100
+x = 60/100 . 250
+
+alternatively
+0.60 . 250 = 150
+
+_
+
+6.14
+48 = x/100 . 240
+
+a. 48 = x% . 240
+or latenatively
+48/240 = x / 100
+
+
+b. 48 = x/100 . 240
+48 = 240/100 . x
+4800 = 240x
+4800/240 = x
+x = 20
+
+c. im thinking maybe
+multiply the numnber by 100
+48 * 100 = 4800
+then divide by the 'what percent' - 240
+4800 / 240 = 20
+not sure
+
+_
+
+6.15
+36 is 120% of what number?
+36 = 120/100 . x
+3600 = 120x
+x = 3600/120
+x = 30
+
+alternative, build ratio
+36/x = 120/100, same remaining approach
+
+alternative, with decimal
+36 = 1.2x
+
+
+_
+
+6.16
+a. increase 24 by 75 ->
+24 + (24 . 75/100) -> 
+24 + (24 . 3/4) -> 
+24 + (6 . 3) -> 
+24 + 18 -> 
+42
+
+or alternatively
+24 . 175/100 ->
+24 . 7/4 -> 6 . 7 -> 42
+
+b. decrease 60 by 40%
+60 - (60 . 40/100)
+60 - (60 . 2/5)
+60 - 24
+36
+
+alternatively
+60 . 60/100
+60 . 3/5
+12 . 3
+36
+
+c. increase x by k%
+x + (x . k/100) -> x (1 + k/100)
+
+decrease by k%
+x - (x . k/100) -> x(1 - k/100)
+
+======================
+percent means per hundred
+if a is x percent of b, then
+a/b = x/100 ->
+a = x/100 . b
+======================
+
+Exercises
+6.4.1
+a. what number is 24% of 140
+b. what number is 5% of 10% of 1200?
+
+answer:
+a.
+24/100 = x/140
+x/140 = 24/100
+x = 24/100 . 140
+x = 0.24 . 140
+x = 33.6
+
+b. 10% of 1200 -> 10/100 . 1200 = 120
+5% of 120 -> 5/100 . 120 = 1/20 . 120 = 6
+
+_
+
+6.4.2
+a. what percent of 88 is 66?
+b. waht percent if 84 is 210?
+
+answer:
+66/88 = x/100
+a. 66 = x/100 . 88
+66 = 88/100 . X
+66 = 0.88x
+x = 75
+
+b. 84/210 = x/100
+210 = x/100 . 84
+210 = 84/100 . x
+210 = 0.84x
+x = 250
+
+_
+
+6.4.3
+a. 63 is 30% of wht number?
+b. 125 is 75% of wht number?
+
+answer:
+a. 
+number we know / total numnber = percentage we know / total percent
+63/x = 30/100
+63 = 30/100 . x
+6300 = 30x
+x = 6300/30
+x = 210
+
+b. 125/x = 75/100
+125 = 75/100 . x
+125 = 3/4 . x
+125 . 4/3 = x
+500/3 = x 
+x = ~166.6
+
+_
+
+6.4.4
+what numbe results when 42 is increased by 120%
+
+answer:
+42 + (42 . 120/100) ->
+42 + 42 . 6/5 ->
+42 + 50.4 -> 92.4
+
+alternatively
+220/100 . 42 = 9240/100 = 92.4
+
+
+_
+
+6.4.5
+when a number is reduced by 40% the result is 36
+what is the original number?
+
+x + x(k/100) -> x(1 + k/100)
+x - x(k/100) -> x(1 - k/100)
+
+
+x(1 - 40/100) = 36
+x(1 - 0.4) = 36
+x(0.6) = 36
+x = 36/0.6
+x = 60
+
+alternativley
+x - (40/100)x = 36
+(100/100)x - (40/100)x = 36
+60/100x = 36
+60x = 3600
+x = 3600/60
+x = 60
+
+;=====================================
+
+Percentage Problems
+
+6.17
+target -> $450/wk
+income tax -> 25%
+
+25/100 . 450
+1/4 . 450
+112.5
+450 - 112.5 = 337.5 -> not enough to pay $450
+
+so just add the 112.5 to 450
+450+112.5 -> 562.5
+
+_____
+
+6.18
+monday -> +20% avocado
+tuesday -> +25% avocado
+
+a. let x be the original price of the avocado
+monday -> x(1 + 0.2) -> 1.2x
+tuesday -> 1.2x(1 + 0.25) -> 1.2x(1.25) -> 1.5x
+
+wait let me double check
+original = x
+20% -> 120/100 . x ->  6/5x
+25% -> 125/100(6/5x) -> 5/4(6/5x) -> 30/20x -> 3/2x
+
+so  is almost 150% of orignal -> price increase is 50%
+
+b.
+so on tue we have 50% price increase
+to return to oringla price
+
+starting value . (1-k/100) = target value
+
+1.5x(1-k/100) = x
+divid eboth sides by x
+1.5(1-k/100) = 1
+..
+_____
+
+6.19
+
+_____
+
+6.20
