@@ -969,14 +969,19 @@ Percentage Problems
 6.17
 target -> $450/wk
 income tax -> 25%
+75% is not taxed so
+
+3/4 . 450 -> 337.5
 
 25/100 . 450
 1/4 . 450
 112.5
 450 - 112.5 = 337.5 -> not enough to pay $450
 
-so just add the 112.5 to 450
-450+112.5 -> 562.5
+
+alternative
+after tax pay / pre tax pay = 75/100
+450/x = 3/4
 
 _____
 
@@ -1004,11 +1009,113 @@ starting value . (1-k/100) = target value
 1.5x(1-k/100) = x
 divid eboth sides by x
 1.5(1-k/100) = 1
-..
+1 - k/100 = 2/3
+-k/100 = 2/3 - 3/3
+-k/100 = -1/3
+-k = -100/3
+k = 100/3
+k = 33.3
+
+he must decrease by 33.3%
+
+
 _____
 
 6.19
 
+3% of seventh graders -> 3/100 of total participate
+96% seventh grader didn't participate
+6% of eighth graders -> 6/100 of total parcicpate
+94/100 didn't participate
+
+
+ih the washington junior high
+8th graders = 1.5 more than 7th graders
+
+
+question ask for percentage of 7th and 8th graders
+participate in mathcounts?
+
+need to find the total people who paricipate
+
+let x = 7th grader
+let y = 8th grader
+and we know
+y = 1.5x
+
+total participate = 7th grader + 8th grader
+3/100x + 6/100y
+3/100x + 6/100(1.5x)
+3/100x + 9/100x
+12/100x -> 0.12x
+
+percent = total participants / total studnets . 100
+
+0.12x / x + 1.5x . 100
+0.12x / 2.5x . 100
+0.12 / 2.5 . 100
+12/2.5
+4.8
+
 _____
 
 6.20
+
+180mL solution -> 20% acid
+30% acid = ?
+
+0.2/180 = 0.3/x
+0.2x = 0.3 . 180
+0.2x = 54
+x = 270
+
+20/100 . 180 = 1/5 . 180 = 36ml starting acid
+so 180 is not changed, the 20% means 36ml
+
+36/2 -> 10% of this means 18ml
+so to achieve 30% acid just do 18*3 = 54
+
+difference = 54 - 36 = 18ml
+for eveyr 1ml  i remove and repalce, i lose 0.20
+
+
+30/100 . 270 = 3/10 . 270 = 3 . 27 = 81
+22.5
+
+
+===================
+EXERCISE
+
+6.5.1
+while eating out mike and joe tipped their server $2
+mike tipped 10% of his bill and joe tipped 20% of his bill
+what is the difference in dollars between their bills?
+
+answer:
+we know both tips $2
+let x be the food price
+10/100 . x = $2
+1/10.x = $2
+x = 20
+so mike original food price was $20
+
+joe
+20/100 . x = 2
+1/5x = 2
+x = 10
+and joes original food price was $20
+
+difference is 20-10 =$10
+
+_
+
+6.5.2
+every day 20% of the fish in a fish store are sold
+there are 2000 fish left in the store at the end
+of the day on tuesday.
+how many were there when the store opened on monday
+
+answer:
+
+
+_
