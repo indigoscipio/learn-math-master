@@ -1117,5 +1117,35 @@ how many were there when the store opened on monday
 
 answer:
 
+ok so we wanna find how many fish when store opene on monday
+
+on tuesday
+let x rperesents the total fish sold
+20/100 -> fish sold
+which means 80/100 -> fish available during the day
+80/100 . x = 
+
+0.80 . 0.80x = 0.64x
+0.64x = 2000
+x = 3125
+
+_
+
+6.5.3
+a solution thats 20% acid and 80% water is mixed with solution thats
+50% acid and 50% water
+if twice as much 50% acid solution is used as 20% solution then
+whats the ratio of acid to water in the mixture of the sotlusion
+
+answer:
+ok we know
+original soluton -> 20% acid : 80% water
+mixed with solution -> 50% acid : 50% water
+
+suppose we start with 100mL of 20% acid
+
+_
+
+
 
 _
