@@ -1143,9 +1143,130 @@ original soluton -> 20% acid : 80% water
 mixed with solution -> 50% acid : 50% water
 
 suppose we start with 100mL of 20% acid
+20/100 -> 1/5 . 100 -> 20ml acid
+80/100 -> 4/5 . 100 -> 80ml water
+
+we used twice as much of the 50% acid solution
+100ml acid, 100ml water
+
+20 + 80 : 100 + 100
+120 : 180
+12 : 18
+2 : 3
 
 _
 
+6.5.4
+if t is 25% of u, then what percent of 4t is 2u?
+
+answer:
+we know t = 25/100 . u -> t = 1/4u
+
+we wanna know what percent of 4t is 2u?
+this is abit ocnfusing
+
+let simplify the question
+what percent of 8 is 2? thats basicaly the asme
+2 is what percent of 8? right
+
+2/8 = x/100
+2 = x/100 . 8
+2 = 8/100 X
+200 = 8x
+x = 25%
+
+2u = x/100 . 4t
+2u = x/100 . 4(1/4u)
+2u = x/100 . u -> divide both side by u
+2 = x/100
+x = 200
+
+_
+
+6.5.5
+twenty percent of Poe MS students walk to school
+if the number of walkers doubles
+and there is no change in the number of non walkers
+what fraction of the students are now wlkers?
+
+asnwer
+let s be the allpoe ms students
+so ratio of students who walk to shcool = 20/100 . s -> 1/5s
+and the ratio who doesnt walk = 80/100 s = 4/5s
+so original raito = 1 : 4
+
+lets say total student is 100
+so number of student walker is 1/5.100 -> 20
+and non walkter -> 80
+
+number of walker doubles -> 40
+but non walker does not change -> 80
+total student is now 120 which exceeds
+so we have to like bring the nonwalker down to fit
+
+so new walker = new walker / new students
+40 / 120 -> 4 / 12 -> 1 / 3 
 
 
 _
+
+6.5.6
+heavy cream is 36% butterfat
+while whole milk contains only 4% butterfat
+in order to make a deliciosu pint of ice cream
+recipe calls for 2 cups of mixture that's 24% butterfat
+how many cups of heavy cream should be used ot produce the correct
+butterfat percentage?
+
+answer:
+heavy cream -> 36% butterfat
+whole milk -> 4% butterfat
+
+recipe -> 2cups of mixture that is 24% butterfat
+
+total butterfat = butterfat from cream + butterfat from milk
+24 * 2 = 0.48 cups of pure butterfat
+
+x = heavy cream (0.36x)
+whole milk = 2 - x
+
+0.36x + 0.04(2-x) = 0.48
+0.36x + 0.08 - 0.04x = 0.48
+0.32x = 0.48 - 0.08
+0.32x = 0.40
+x = 0.40 / 0.32
+x = 1.25
+
+_
+
+6.5.7
+the state income tax where kristin lives is charged at
+the rate of p% of the first 28000 of anual income (p+2)%
+of any amount above 28000
+kristin notices that the state income tax she paid ammounted to
+(p+0.25)% of her annual income. what was her annual income?
+
+answer:
+ok sowe know <= 28000 -> p%
+> 28000 -> (p+2)%
+
+and question said she paid (p + 0.25)%?
+not sure how to tackle this
+
+overall tax = first chunk + second chunk
+(p + 0.25%) . I = (p% . 28000) + ((p+2)% . (I - 28000))
+(p + 0.25) . I = 28000p + (p+2) (I-28000)
+pI + 0.25I = 28000p + pI - 28000p + 2I - 56000
+pI + 0.25I = pI + 2I - 56000
+0.25I = 2I - 56000
+0.25I - 2I = -56000
+-1.75I = -56000
+1.75I = 56000
+I = 56000/1.75
+I = 32000
+
+========================
+
+a is x% of b
+a/b = x /100
+a = x/100 . b
