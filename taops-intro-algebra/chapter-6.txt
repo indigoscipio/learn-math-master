@@ -1333,19 +1333,67 @@ _
 a. what number is 15% of 26?
 b. what number is 20% of 150% of 60?
 
+answer:
+a. x = 0.15 . 26
+x = 3.9
+
+b. 1.5 . 60 -> 90
+0.20 . 90 -> 18
+
 _
 
 6.24
 a. what percent of 75 is 30?
 b. what percent of 20 is 12 1/2?
 
+answer:
+a. 30 = 75/100 . x
+30 = 3/4 . x
+120 = 3x
+x = 40
+
+alternatively
+30/75 = x/100
+30x = 7500
+x = 7500/30 -> 40
+
+b. 12 1/2 -> 12.5
+12.5 = 20/100 . x
+12.5 = 1/5 . x
+62.5 = x
+
 _
 
 6.25
-a. 48 is 37.5 of what number?
+a. 48 is 37.5% of what number?
 b. 1/2 is 140% of what number?
 
+a. 48 = 37.5/100 . x
+4800 = 37.5x
+x = 4800/37.5
+x = 128
+
+b. 0.5 = 140/100 . x
+50 = 140x
+x = 50/140
+x = 5/14
+
 _
+
+6.26
+one liter of soda contains 450cal
+how many calories are in 250ml of soda?
+there are 1000ml is 1L
+
+answer:
+we know
+1L = 450cal
+1L = 1000ml
+
+250ml . 1L/1000ml . 450cal/1L
+
+
+
 
 important statement/ratio
 use decimal?
