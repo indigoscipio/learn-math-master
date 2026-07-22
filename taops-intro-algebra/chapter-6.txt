@@ -1504,23 +1504,189 @@ if there are 0.9144m in each yard, how many square meters of cloth must 1 buy?
 answer:
 ok so i need -> 40yd^2
 store sells only in m^2
+and 1yd = 0.9144m
+
+question asks how many square meter i must buy
+since 1yd = 0.9144m,
+1yd^2 = (0.9144m)^2
+1yd^2 = 0.8361m^2
+
+40 . 0.8361m^2 = ~33.44 square meters
 
 
 _
 
 6.32
+i have 2 carton eggs. 20% of the eggs in the fist carton are red
+while 25% of the eggs in the second carto nare red
 
+if the second carton has 3 times as many eggs as the first,
+what percentage of my eggs are red?
+
+answer:
+ok so we have 2 cargon of eggs
+carton 1 -> 20% red
+carton 2 -> 25% red
+
+2nd carton = 3(1st cartoon)
+
+we wanna know what percent of the total eggs are red
+percentage of red = total red eggs / all eggs . 100
+
+lets assume carton one has 100 eggs
+since carton 2 is 3x the size therefore it has 3(100) = 300 eggs
+
+1st carton -> 20/100 . 100 -> 1/5 . 100 = 20 red eggs
+2nd cartoon -> 25/100 . 300 = 1/4 . 300 = 75 red eggs
+
+total red eggs = 75+20 = 95 red eggs
+total eggs = 100+300 = 400 eggs
+
+therefore the 
+percentage = 95/400 . 100 = 95/4 = 23.75%
+
+alternative, algebraiclay
+let x be the amount of total eggs
+1st carton -> red eggs = 0.2x, remaining eggsare 0.8x
+2nd carton -> red eggs = 3(0.25x) -> 0.75x
+
+total red eggs -> 0.2x + 0.75x = 0.95x 
+total eggs -> x + 3x = 4x
+
+find the percentage
+p = 0.95x / 4x . 100
+p = 0.2375 . 100
+p = 23.75
+
+=================
+ALGEBRAIC PERCENTAGE
+total target part / total whole
+TOTAL TARGET / TOTAL WHOLE
+=================
 _
 
 6.33
+two thirds of people in a room are seated in
+three fourth of the chairs
+the rest of the people are stnading
+if ther are 6 empty chairs
+hoy many people are in the room?
+
+answer:
+ok so we know
+
+2/3 of people -> seated in 3/4 of the chairs
+rest of people are standing
+
+and we know there are 6 empty chairs
+we wanna know how many people are in the room
+
+we know 2/3 people are seated
+so 1/3 remaining ones are standing
+
+and the sitting people occupies only 3/4 of the chair so that mean
+so the 6 empty chairs represents the 1/4 of the chair
+so 3/4 -> 6 . 3 = 18 chairs seated
+total chairs = seated chair + empty chair
+c = 3/4c + 6
+1/4c = 6
+c = 24
+
+so the 2/3 people = 18 chairs
+which means 1 'block' = 9
+so total people = 9 . 3 = 27
+
+alternative, solve algebraicaly
+let x be the total of peole in the room
+total people in the room = people standing + people in chair
+
+[number of seated people] = [number of occupied chair]
+we set this because all seated people sits
+1/4c = 6
+c = 24
+
+seated people = 2/3x
+occupied chair = 3/4c
+
+2/3x = 3/4c
+2/3x = 3/4 . 24
+2/3x = 18
+x = 18 . 3/2
+x = 9 . 3
+x = 27
+
+so total people is 27
+
 _
 
 6.34
+On tuesday a radio store reduces all its monday prices by 20%
+on wednesday by what percet must the store reduce the tuesday price
+such that each radio costs half its monday price?
+
+answer:
+ok so we know
+original price (monday) = x
+tue -> 0.8x
+wed -> we wanna find by what % must the store reduce tue price
+so radio costs 1/2 . x (mon/original price)
+
+if i remember
+decreased/target price = x - (x . k/100) = x(1 - k/100)
+lets hope im right
+
+we know target price is 1/2x
+1/2x = 0.8x . (1 - k/100)
+divide both sides by x
+1/2 = 0.8 . (1 - k/100)
+divide both sides by 0.8
+1/2 : 8/10 = (1 - k/100)
+1/2 . 10/8 = (1 - k/100)
+5/8 = 1 - k/100
+100(5/8) = (100 . 1) + (100 . -k/100)
+62.5 = 100 - k
+62.5-100 = -k
+-37.5 = -k
+k = 37.5
+
+so price must be reduces by 37.5%
 
 _
 
+6.35
+francesca uses 100g of lemon juice
+100g of sugar
+400g of watr to make lemonade
+
+ther are 25 calories in 100g of lemon juice
+386 calories in 100g of sugar
+water contains no calories
+
+how many calories are in 200g of lemonade?
+
+answer:
+ok so the lemonade conssits of 
+lemondae = [100g lemon juice] + [100g sugar] + [400g water]
+and 1 lemonade = 100 + 100 + 400 = 600g
+
+100g lemon juice = 25cal
+100g sugar = 386cal
+
+we wanna find how many calories in 200grams of lemonade
+so thats like asking for 1/3 of lemonade (since 1 lemonade = 600g)??
+
+lets find the amount of calory for 1 lemonade
+total cal in 1 lemonade = 25 + 386 = 411
+so 1 lemonade contains 411 calories
+
+1/3 . 411 = 137 cal
 
 _
+
+6.36
+some students are taking a math contest in which each student takes
+on of four test.
+one third of the students take the first test, one fourth take the second test, one fiftsh
 
 
 _
