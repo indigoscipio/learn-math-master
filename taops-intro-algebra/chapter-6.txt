@@ -1383,7 +1383,7 @@ _
 6.26
 one liter of soda contains 450cal
 how many calories are in 250ml of soda?
-there are 1000ml is 1L
+(there are 1000ml is 1L)
 
 answer:
 we know
@@ -1391,6 +1391,142 @@ we know
 1L = 1000ml
 
 250ml . 1L/1000ml . 450cal/1L
+1/4 . 450cal
+450/4 cal
+112.5cal
+
+_
+
+6.27
+how many minutes are in 20% of a day?
+answer:
+
+in a day theres 24 hours
+we know 1 hour = 60 minutes
+so 1 day = 60 . 24 = 1440 minutes
+
+1/5 . 24
+4.8
+4.8 . 60 = 288
+
+alternatively
+20/100 . 1440
+1/5 . 1440
+288 minutes
+
+_
+
+6.28
+two 600ml pitchers contain orange juice
+one pitcher is 1/3 full
+other pitcher is 2/5 full
+water is added to fill each pitcher completely
+then bth pitchers are poured into one large container
+what fraction of the mixture in the large container is orange juice?
+
+answer:
+
+ok so we have 2 .  600 = 1200ml pitchers total
+pitcher 1 -> a -> 1/3 full which means 2/3 empty
+pitcher 2 -> b -> 2/5 full which means 3/5 empty
+
+and water is added o fill each pitcher
+then those pitchers are mixed in into one single large container
+we wanna know fraction of mixture in large container is the orange juice
+eg not water
+
+OJ in new container/size of new container = OJ from both pitchers / total of those pitchers
+or smt like that maybe lets try
+
+so pitcher 1
+1/3 . 600 =  200
+so pitcher 1 is 200ml filled with orange juice
+pitcher 2
+2/5 . 600 = 120.2 = 240ml filled with  orange juice
+total orange juice = 440
+
+then water is added to each pitcher completely
+so pitcher 1
+water = 2/3 . 600 -> 400ml
+pitcher 2
+water = 3/5 . 600 -> 360ml
+total water = 400+360 = 760
+
+so now the ratio of orange juice/water is 
+440 : 760
+
+but we wanna find the fraction that is orange juice so
+total = 440+760 = 1200ml
+
+orange juice / total = 440/1200 = 44/120 = 22/60 -> 11/30
+
+_
+
+6.29
+my supersonic jet burns 4 gallons of jet fuel in 3 seconds
+ow many gallons of jet fuel do i need o fly for an hour?
+
+answer:
+so we know 
+3 seconds = 4 gallons which means
+1 second = 4/3 gallons
+
+1 miute = 60 seconds
+since an hour contains 60 minutes thats 60 . 60 = 3600 seconds
+3600 . 4/3 = 4800 gallons
+
+alternatively
+3s = 4g
+3600s . 4g/3s -> 4800g
+
+_
+
+6.30
+if 1 ounce is equivalent to 28.35 grams
+how many ounces are in 541 grams? (answer to newrest tenth of an ounce)
+
+answer:
+ok so we know the conversion unit is
+1ou = 28.25g
+
+581g . 1ou/28.25g -> ~20.566ou
+nearest tenth so
+~20.6ou
+
+_
+
+6.31
+i need 40 square yards (40yd^2) of cloth to make curtains for my room
+unfortunately the store only sells cloth in square meters (m^2)
+if there are 0.9144m in each yard, how many square meters of cloth must 1 buy?
+(answer to the nearest 0.01m^2)
+
+answer:
+ok so i need -> 40yd^2
+store sells only in m^2
+
+
+_
+
+6.32
+
+_
+
+6.33
+_
+
+6.34
+
+_
+
+
+_
+
+
+_
+
+
+_
 
 
 
