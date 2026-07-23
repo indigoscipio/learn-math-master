@@ -1684,16 +1684,170 @@ so 1 lemonade contains 411 calories
 _
 
 6.36
-some students are taking a math contest in which each student takes
-on of four test.
-one third of the students take the first test, one fourth take the second test, one fiftsh
+some students are taking a math contest in which each student takes on of four test.
+one third of the students take the first test, one fourth take the second test, one fifth
+take the third test and 26 of the students take the fourth test.
+
+how many students are taking the contest in total?
+
+answer:
+ok so some students are taking math contest where each takes one of four tests
+so they can only pick one
+
+let x be the total students whos taking the test
+1/3x -> 1st test
+1/4x -> 2nd test
+1/5x -> 3rd test
+26 -> 4th test
+
+we only know total student who took teh 4th test, the rest is just ratio
+totla student = [student taking 1st] + [student taking 2nd] + [3rd] + [4th]
+x = 1/3x + 1/4x + 1/5x + 26
+x = x(1/3 + 1/4 + 1/5) + 26
+x = x(20+15+12/60) + 26
+x = 47/60x + 26
+x - 47/60x = 26
+60-47/60x = 26
+13/60x = 26
+13x = 1560
+x = 120
+
+so the total student is 120
+
+_
+
+6.37
+if p is 50% of q and r is 40% of q
+then what percent of r is p?
+
+answer:
+ok so we know 
+p = 50/100 . q -> p = 0.5q
+r = 40/100 . q -> r = 0.4q
+
+the question is asking what percent of r is p
+p/r = x/100
+p = x/100 . r -> subst
+0.5q = x/100 . 0.4q -> mult both sides by 100
+100(0.5q) = 100(x/100 . 0.4q)
+100(0.5q) = 100 . x/100 . 0.4q
+50q = x . 0.4q ->divide both sides by q
+50 = 0.4x
+x = 50/0.4
+x = 125
+
+_
+
+6.38
+how many pounds of water must be evaporated from 50 pounds of a 3% salt solution
+so that the remaininig solution will be 5% salt?
+
+answer:
+ok so we know
+50lbs -> 3% salt solution
+remaining solutin = 5% salt
+
+0.03 . 50 -> 1.5lbs of salt initially
+new concentration -> same 1.5lbs of salt now makes 5% remaining solution
+
+0.05 . new weight = 1.5
+nwe weight = 30 lbs
+50 - 30 = 20
+
+_
+
+6.39
+The redl amp brigade patrols the 3600 sectors of the galaxy along with their
+better known counterparts, green lantern corps
+each sector has eiether one corps member or one brigadier
+in the first 2400 sectors the ratio corps members to brigadiers is 3 : 1
+if ther are an equal number of brigadiers and corps members in the galaxy
+what is the ratio of corps members to brigadiers in the other sectors?
+
+answer:
+
+ok so we know
+total = 3600 sectors
+
+1 sector = 1C or 1B -> so cant be both?
+first 2400 -> 3C : 1B
+equal number of brigadiers and corps -> total b = total c -> b = c
+
+we wanna know ratio of C : B in the remainig sectors (3600-2400 = 1200 sectors)
+
+2400 -> 3C : 1B
+3/4 . 2400 = 1800 -> 1800 corps 
+1/4 . 2400 = 600 -> 600 brigadiers
+so here 1 'unit' = 600 people
+
+since there are euqla number of brigadiers and coorps
+the rest of the sectors = 1200
+1800-600 = 1200 short so remainig brigadiers must match?
+all brigadiers and 0 corps then for the 1200 sectors?
+so ratio is 0 : 1200 -> 0 : 1
+
+_
+
+6.40
+retail store pays a price of $6.25 per toy
+it prices the toy at $K so that at a 25%-off sale,
+the store still makes a profit of 20%. compute K.
+
+answer:
+ok so we know retial store pays some price per toy
+
+selling price = retail price + profit offset
+lets see if i can still remember the increase/decrease thing
+
+increase = x + (x . k/100)
+0.25x = x (1 - k/100)
+
+profit base
+selling price = cost price . (1 + k/100)
+since k/100 is already kknown -> 20% profit
+selling price = 6.25 . 1.20
+selling price =  7.5
+
+
+discount base
+selling price = cost price . (1 - k/100)
+7.50 = cost price . 0.75
+cost price = 7.50/0.75
+cost price = $10
+
+_
+
+6.41
+Some marbles in a bag are red and the rest are blue.
+if one red marble is removed, then one seventh of the rmaining marbles are red
+if two blue marbles are removed instead of one red, the one fifth of the
+remaining marbles are red. how many marbles were in the bag originally?
+
+answer:
+ok so we know
+
+total marbles = red + blue
+x = r + b
+
+1 red marble remove -> 1/7 of remaining marbles are red
+which means 6/7 are blue
+
+2 blue marble removed -> 1/5 of remaining marbles are red
+which means 4/5 is blue
+
+we wanna know how many matbles in the bag originally
+lets say total marble is 100
+
+1 red marble removed
+100 = r + b
+99 = 1/7
 
 
 _
 
+6.42
 
 _
-
 
 
 
