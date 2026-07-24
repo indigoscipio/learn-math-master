@@ -1932,3 +1932,68 @@ now for the remaining 20% (20)
 480 = 20x
 x = 24%
 so itwould need 24% for a tie so more than 24%
+
+
+===============================
+
+CHALLENGE PROBLEMS
+
+6.44
+gregor is planting pea plants in his backyard
+some of the plants are tall and the rest are short
+some of the plants are yellow and the rest are green
+the numbers of different plant types are in the ratio
+
+tall green : tall yellow : short green : short yellow = 8 : 5 : 2 : 1
+
+if there are 1080 green plants
+then how many total plants are in gregors yard?
+answer:
+
+lets simplify the ratio first
+
+for color we have 2 variant: Y and G
+for type we have also 2 variant : T and S
+so quantity ratio is
+TG : TY : SG : SY = 8 : 5 : 2 : 1
+
+ratio of tall : short = 13 : 3
+ratio of gren : yellow = 10 : 6
+wait is this allowed? lets hold and isolate
+
+total block = 8+5+2+1 = 16
+ratio of TG : SG = 8 : 2 -> 4 : 1
+so for each 1 SG there is 4TG
+we know TG + SG = 1080
+SG -> 1/5 . 1080 = 216
+TG -> 4/5 . 1080 = 864
+
+now to find the rest, TY and SY
+
+
+
+
+
+_
+
+6.45
+
+_
+
+6.46
+
+_
+
+6.47
+
+_
+
+6.48
+
+_
+
+6.49
+
+_
+
+6.50
