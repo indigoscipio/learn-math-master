@@ -1969,14 +1969,47 @@ SG -> 1/5 . 1080 = 216
 TG -> 4/5 . 1080 = 864
 
 now to find the rest, TY and SY
+since green : yellow ratio is 10 : 6 -> 5 : 3
+and theres a total of 1080 green
+green ratio / yellow ratio = green quantity / yellow quantity
+5 / 3 = 1080 / x
+5x = 1080 . 3
+5x = 3240
+x = 648
+
+so total plant is
+1080 + 648 = 1728?? notsure
 
 
-
-
+======
+alternative
+find how much '1 part' quantity
+green plants = 10 parts ->
+1080 / 10 = 108 plants
+108 * 16 = 1728
 
 _
 
 6.45
+40% of one spig is a spoog
+25% of a speeg is a spoog
+70% of a speeg is a spug
+what percent of 1 spig is 5 spugs?
+
+answer:
+lets simplify this question cause this shit gives me stroke
+spig = a
+spoog = b
+speeg = c
+spug = d
+
+40% of a is b
+25% of c is b
+70% of c is d
+what percent of 1a is 5d?
+
+letshope im correct here with the mapping
+
 
 _
 
