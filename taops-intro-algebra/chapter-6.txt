@@ -2008,20 +2008,144 @@ spug = d
 70% of c is d
 what percent of 1a is 5d?
 
-letshope im correct here with the mapping
 
+b = 0.4a
+b = 0.25c
+d = 0.70c
+
+the question asks
+5d = x/100 . 1a
+
+we know
+b = 40/100 . a
+b = 4/10 . a
+a = 10/4 . b
+
+b = 25/100 . c
+b = 1/4 . c
+c = 4b
+
+d = 70/100 . c
+d = 7/10 . c
+c = d . 10/7
+c = 10/7d - notsure if we need thisone
+
+so just subtitute
+5d = x/100 . a
+5(7/10 . c) = x/100 . a
+5(7/10 . 4b) = x/100 . a
+5(7/10 . 4(0.4a)) = x/100 . a
+
+5(7/10 . 4(0.4a)) ->
+5(7/10 . 1.6a) ->
+5(7/10 . 16/10a) ->
+5(112/100a) ->
+112/20a ->
+112/20a ->
+
+28/5a = x/100 . a
+100 . 28/5a = 100 . x/100 . a
+560a = x . a
+560 = x
 
 _
 
 6.46
+in the recent election for mayor
+there was three candidates
+smith, williams and krzyewski
+the ratio of kryzewski voters to smith voters is the same as the
+ratio of smith voters to williams voters.
+if there are 800 kryzewski voters and 200 williams voters in my town
+how many people voted in my town (assuming these were the only 3 choisces)?
+
+answer:
+ok so we have 3 cands
+s, w , and k
+
+ratio of total votes
+k/s = s/w
+k : s = s : w
+
+we dont know the total voter
+but we know there are 800 k voters and 200 w voters in the town
+we wanna find the total voter
+
+let x be the totla voter
+x = kx + sx + wx, or maybe something like
+total voter = [k voter] + [s voter] + [w voter]
+
+k voter / s voter = s voter / w voter
+800 / s = s / 200 -> cross mult?
+s.s = 800.200
+s^2 = 160000
+s = 400
+
+so its seems the people who vote for smith is 400?
+lets check
+
+800 / 400 = 400 / 200
+8/4 = 4/2
+2 = 2
+
+so total voter = 800 + 200 + 400 = 1400
 
 _
 
 6.47
+each 25 square inch (in^2) thermal tile on the space shuttle cost $130
+how much does it cost to cover the entire 2000ft^2 bottom surafce
+of the shuttle? (there are 12 inches in a foot).
+
+answer:
+ok so we know
+1ft = 12in -> ft : in = 1 : 12
+so forthe square
+(1ft)^2 = (12in)^2 =
+1ft^2 = 144in^2 
+1 : 144
+
+and
+25in^2 -> $130
+lets convert to square feet
+
+25in^2 . 1ft^2 / 144in^2  = ~0.173611 ft^2
+so it costs 130 for each of this
+
+2000 / 0.1736 = ~11.520.7
+11.520 * 130 = 1.497.600
+
+
+the question is asking how much it cost to cover
+2000ft^2 bottom surface
+
 
 _
 
 6.48
+given that yz : zx : xy = 1 : 2 : 3
+and x/yz : y/zx = 1 : k
+
+find k
+
+answer:
+lets focus on 2nd equation
+x/yz : y/zx = 1 : k
+i dont know if this is legal but
+x/yz : y/zx -> mult both by z
+x/y : y/x = 1 : k
+wait im not sure if this is legal or if i have to mult the RHs
+
+lets try subst, not sure if this is allowed since its ratio
+x/yz : y/zx ->
+x / 1 : y / 2 = 1 : k
+x/1 . 2/y = 1 : k
+2x / y = 1 : k
+x/y . 2 = 1 : k
+3 . 2 = 1 : k
+...
+
+
 
 _
 
