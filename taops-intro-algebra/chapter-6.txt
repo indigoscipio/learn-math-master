@@ -2134,23 +2134,80 @@ x/yz : y/zx = 1 : k
 i dont know if this is legal but
 x/yz : y/zx -> mult both by z
 x/y : y/x = 1 : k
-wait im not sure if this is legal or if i have to mult the RHs
 
-lets try subst, not sure if this is allowed since its ratio
-x/yz : y/zx ->
-x / 1 : y / 2 = 1 : k
-x/1 . 2/y = 1 : k
-2x / y = 1 : k
-x/y . 2 = 1 : k
-3 . 2 = 1 : k
-...
+yz : zx = 1 : 2
+yz : zx -> divide both sides by z
+y : x = 1 : 2
+therefore x/y = 2/1 = 2
+and y/x = 1/2
 
-
+its the reciprocal thing
+2/1 : 1/2 = 1 : k
+2 : 1/2 -> divide both sides by 2 o match 1 : k
+2/2 : (1/2)/2 ->
+1 : 1/2 . 1/2 ->
+1 : 1/4 = 1 : k
 
 _
 
 6.49
+99% of trees in our neighborhood are eucalyptus
+the town planing comussion wants to get of rid of some of these coz they spread quickly
+however people in my neighbourhood like the trees
+
+the comision argues their new eucalyptus tree removal plan will
+cut down so few eucalyptus trees that 98% of the trees in our
+neihgbourhood will be eucalyptus trees
+if the plan only involves removing eucalyptus trees what
+percent of the existing trees in my neighbourhood would the plan rmoev?
+
+answer:
+ok so initially there was 0.99x eucalyptus tree -> 0.01x are random tre
+new plan -> 0.98x , 98% trees stilll eucalyptus
+
+question asks if the plan only remove eucalyptus
+what percent of existig tree would the plan remove
+
+focus on non eucalyptus
+lets assume there are 100 total tree total
+so 99 eucalyptus, 1 regular
+
+then after the plan -> only cut eucalyptus
+98% of remaining trees are eucalptus
+x eucalyptus
+1 regular -> stil remains
+
+1 regular tree represents 2% of the new total
+whichmeans 98/2 = 49 eucalyptus tree
+total = 50
+
+so difference of eucalyptus
+99-49 = 50
+
+total diffrence / total trees
+50 / 100 = 50%
 
 _
 
 6.50
+a dealer currently makes a profit of x% of his cost whne he sell good
+if the dealer could get his goods for 8%
+
+_
+
+6.51
+the acceleration caused by gravity is about 32.2ft/s^2
+
+
+_
+
+6.52
+
+_
+
+6.53
+
+_
+
+6.54
+
