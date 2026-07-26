@@ -2190,19 +2190,70 @@ total diffrence / total trees
 _
 
 6.50
-a dealer currently makes a profit of x% of his cost whne he sell good
-if the dealer could get his goods for 8%
+a dealer currently makes a profit of x% of his cost
+whne he sells goods.
+if the dealer could get his goods for 8% less while keeping his
+selling price fixed, his profit would be increased to (x+10)%
+of his cost.
+
+find x. (by profit of x%, we mean the price at which he sells his
+goods is x% higher than his cost)
+
+answer:
+
+ok so we know a dealer makes a profit of x% of his cost
+what exactly is ocst? total cost to produce/obtain the product?
+
+s = selling price
+let the cost price be c
+profit = x% . c
+
+s = c . (1 + x/100)
+
+dealer get his goods for 8% less while keping his seling pricefixed
+new cost is
+s = 0.92c . (1 + x/100) 
+
+c . (1 + x/100) = 0.92c . (1 + x/100)  - divide both sides by c
+(1 + x/100) = 0.92 . (1 + (x+10))/100) - mult both side sby 100
+100 + x = 92 . 100+x / 100
+10000 + 100x = 9200 . (100+x)
+10000 + 100x = 920000 + 9200x
+10000 + 100x = 10120 + 92x
+100x-92x = 10120-10000
+8x = 120
+x = 15
 
 _
 
 6.51
-the acceleration caused by gravity is about 32.2ft/s^2
+the acceleration caused by gravity is about 32.2ft/s^2.
+there are approximately 3.28ft in a meter
+there are 60secs in a minutes
+determine the acceleration caused by gravity in meters per minu squared
+(m/min^2). answer to the nearest 100m/min^2
+
+answer:
+acc -> 32.2ft/s^2
+1met = 3.28ft -> 1 : 3.2
+
+1min = 60sec -> 1 : 60
+doi also have to square the time here?? notsure
+1min^2 = 60sec^2 -> 1min^2 : 3600sec^2
+
+convert ft to meter
+convert secto min
+$$32.2 \times \frac{1}{3.28} \times 3600 \approx 35341.46 \text{ m/min}^2$$
+round to nearest hundred:
+35.3
+
 
 
 _
 
 6.52
-
+cassandra sets her watch to correct time at noon
+at the actual time of 1pm her watch reads
 _
 
 6.53

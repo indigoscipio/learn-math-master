@@ -1,0 +1,149 @@
+CHAPTER 7
+
+proportion
+
+7.1
+a.
+x = 5
+y = 9
+
+x/y = 5/9
+
+5/9 = 14/y
+9.14 = 5y
+126 = 5y
+y = 129/5
+
+
+b.
+a/b^2 = 5/(9)^2
+
+5/(9)^2 = a/(12)^2
+5/81 = a/144
+81a = 144 . 5
+81a = 720
+a = 720/81
+a = 80/9
+
+_
+
+7.2
+mary = 5ft
+shadow = 12ft
+flagpole = x
+flagpole shadow = 42ft
+
+a. height of object / length of shadow
+5 / 12 = x / 42
+12x = 210
+f = 17.5
+
+b. 42 : 12
+3.5 : 1
+3.5 * 5 = 17.5
+
+_
+
+7.3
+140lbs -> 100mm
+120lbs => ??
+
+answer:
+140/100 = 120/x
+120 . 100 = 140x
+7/5 = 120/x
+120.5 = 7x
+600 = 7x
+x = 85.71
+
+
+
+================================
+if x and y are directly proportional
+quotient x/y is constant
+x/y = k for some constant number k
+x = ky (x is a constant multiply of y,
+x = ky for some nonzero constant k)
+================================
+
+EXERCISES
+7.1.1
+if x and r are directly proportional and x = 5
+when r = 25
+then what is x when r = 40?
+
+answer:
+ok so we know 
+x/r = 5/25
+
+5/25 = x/40
+25x = 200
+x =8
+
+_
+
+7.1.2
+a choco chip cookie recipe that produces 30cookies calls for
+2 1/4 cups of flour. if the math clud decide to make fifteen dozen
+cookies for a bake sale, how many cups of flour will they need?
+
+answer:
+ok so the recipe
+30 cookies -> 2.25 cups of flour
+
+15 dozen = 15 * 12 = 180
+180 cookies -> x cups of flour?
+
+recipe cookie / recipe flour = target cookie / target flour
+30 / 2.25 = 180 / x
+30x = 2.25 . 180
+30x = 405
+x = 13.5 cups of flour
+
+_
+
+7.1.3
+lewis wishes to make a scale drawing of his mansion
+if his mansion is 50ft tall
+and he wishes to scale his diagram so that 3 inches represnt 8ft
+how tall is the mansion on paper
+
+answer:
+ok so we know
+real mansion = 50ft
+diag mansion: ??
+scale -> 3in = 8ft
+
+we wanna know how tall the manision is on the paper diagram
+3/8 = x/50
+8x = 150
+x = 150/8
+x = 18.75in
+
+_
+
+7.1.4
+robin is standing on the top of a 40foot flagpole at 1pm
+at the same time a 4foot child on the ground casts a shadow
+of length 0.8ft. if robin is 6ft tall
+how much longer is the shadow of the flagpole and robin together
+than the shadow of the flagpole alone?
+
+answer:
+so we know
+robin height -> 6ft
+robin shadow -> ??
+
+flagpole height ->
+flagpole shadow -> 
+
+robin + flagpole height -> ??
+robin + flagpole shadow -> 
+
+child height -> 4ft
+child shadow -> 0.8ft
+
+_
+
+
+
