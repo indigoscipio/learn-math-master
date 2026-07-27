@@ -131,17 +131,51 @@ than the shadow of the flagpole alone?
 
 answer:
 so we know
-robin height -> 6ft
-robin shadow -> ??
+r height -> 6ft
+r shadow -> ??
 
-flagpole height ->
-flagpole shadow -> 
+f height -> 40ft
+f shadow -> ??
 
-robin + flagpole height -> ??
-robin + flagpole shadow -> 
+r + f height -> ??
+r + f shadow -> ??
 
-child height -> 4ft
-child shadow -> 0.8ft
+c height -> 4ft
+c shadow -> 0.8ft
+
+the question asks for the differnce
+(r + f shadow) - f shadow
+
+let x be robins shadow
+6/x = 4/0.8
+4x = 6 . 0.8
+4x = 4.8
+x = 1.2ft
+so robins shadow is 1.2ft
+
+so the proportion between real height : shadow is
+4 : 0.8 -> 40 : 8 -> 5 : 1
+6 : 1.2 -> 60 : 12 -> 5 : 1
+
+therefore since we know the f height just calc the shadow
+40 : (40/5) -> 40 : 8
+so the flag shadow is 8ft
+
+alternatively
+40/4 = x/0.8
+4x = 40 . 0.8
+4x = 32
+x = 8ft
+
+now calc the diff
+(r + f shadow) - f shadow
+(1.2  + 8) -  8
+9.2 - 8
+1.2
+so the difference is 1.2ft
+
+
+
 
 _
 
