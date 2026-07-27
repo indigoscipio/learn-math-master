@@ -175,9 +175,190 @@ now calc the diff
 so the difference is 1.2ft
 
 
+_
+
+7.2 INVERSE proportion
+direct proportion -> speed + gas consumed (more speed = more gas)
+inverse proportion -> speeed + time (more speed = less time)
+constant stays the same
+
+
+a. p = 7
+q = 24
+
+p = ??
+q = 12
+
+product of 2 var remains constant
+p . q = k
+
+k = 7 . 24 = 168
+
+p . 12 = 168
+p = 168 / 12
+p = 14
+
+alternative
+one goes up, other goes down
+q = 24 -> 12
+p = 7 -> double it -> 14
+
+b. w = 3
+z = 12
+
+w = 6
+z = ??
+
+(w^2) . (z^3) = k
+3^2 . 12^3 = k
+9  . 1728 = k
+15552 = k
+
+(6^2) . z^3 = 15552
+36 . z^3 = 15552
+z^3 = 432
+z = cuberoot(432)
+z = ~7.55
+
+_
+
+7.5
+12 people -> 18h
+9 people -> ??
+
+p . t = k
+12 . 18 = k
+216
+
+9 . t = 216
+t = 216/9
+t = 24
+so 24h
+
+alternative
+12p = 18h
+12p -> 1/18 of the field every hour
+
+field clear per hour / total people
 
 
 _
 
+7.6
+proof that if pos num
+x and y are inversely proportional and
+y and z are inverely proportional
+then x and z are directly proportional
+
+answer:
+x and y are inversely proportional ->
+x . y = k1
+y = k1/x
+
+y and z are inverely proportional
+y . z = k2 -> subst y
+y = k2/z
+
+therefore 
+k1/x = k2/z
+k1 . z = k2 . x -> divide by z on both side
+k1 = (k2 . x) / z
+k1 = k2 . x / z
+divide both sides by k2
+k1 / k2 = x / z
+
+left side -> k1/k2 is constant number / constant number k
+right side is quotient x/z
+
+since x/z = k, the ratio of x/z is constant
 
 
+
+=========================
+when dividing (a.b)/c, divide one of the factor by c
+a/c . b or a . b/c but never a/c . b/c (unless its addition?)
+3x.2/8 -> 3x . 2/8  3x . 1/4 -> 3x / 4
+=========================
+
+=========================
+if x and y are inversely prportional
+the product x . y = k
+
+if x and y are directly proportional
+quotient is constant -> x / y = k
+=========================
+
+
+exercises
+7.2.1
+if x and r are ivnversel proortional and x =5
+when r = 25, then what is x when r = 40
+answer:
+x = 5
+r = 25
+
+x = ??
+r = 40
+
+x . r = k
+5 . 25 = k
+125 = k
+
+x . 40 = 125
+x = 125/40
+x = 3.125
+
+_
+
+7.2.2
+five people can mow lawn in 12h
+how mant more people are needed to mow lawn in just 3h
+asuming each person mows same rate
+
+answer:
+5p -> 12h
+?p -> 3h
+
+5p . 12h = 60
+
+x . 3 = 60
+x = 60/3
+x = 20
+
+so 20 more people therefore differnece is
+20 - 5 = 15
+so needs 15 more people
+
+_
+
+7.2.3
+suppose x and y are inversely proportional
+whily y and z are directly proposrtional
+when x = 5, we have y=6 and z=30
+what is the value of x when z = 5?
+
+answer:
+
+x and y are inversely proportional
+x . y = k1
+5 . 6 = k1
+30 = k1
+
+y and z aredirectly proportional
+y/z = k2
+6/30 = k2
+1/5 = k2
+
+hmm neds to find relationship between x and z
+
+x . y = k1
+x = k1 / y or
+y = k1 / x
+
+y/z = k2
+(k1/x)/z = k2
+k1/x . 1/z = k2
+k1 / zx = k2
+k1 = k2 . zx
+k1/x2 = z . x
+...
