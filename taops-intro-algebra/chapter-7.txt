@@ -462,6 +462,7 @@ start
 1w - 1h - 0.8w
 1w - 24h = 0.8*24 = 19.2
 
+alternative
 
 
 =============================
@@ -471,6 +472,8 @@ start
 - scale it up
 outcome = rate . worker . hours
 =============================
+
+_
 
 
 7.9
@@ -504,14 +507,29 @@ here the duration is like much longer than speed
 2 : 3 ratio so techiically it would take abit longer right?
 since the time duration 'overpowers' the balance?
 
-im not sure how to do this algebraicaly
+100 = r . t
 
-d = 2r . 3t
-100 = 2r . 3t
-2r = 3t / 100
-r = 3t / 200
+double the speed
+100 = 2r . t 
+since speed si twice faster it covers more distance
+so total distance  = 100 * 2 = 200
 
-100 = 2r . 3t
-3t = 100 / 2r
-3t = 50/r
-t = 50/3r
+triple the time
+new distance = r . 3t  -> 3 . r . t
+3 . 200 = 600
+
+Alternatively
+6 . (2r) . (3r) = 6 . (r . t) -> 6 . 100
+
+
+===========================
+distance = r . t
+new distance = 2r . t = 2 (r . t)
+===========================
+
+
+===========================
+x is jointly proportional to y and z
+x / yz = k or alternatively
+x = k . y . z for some constant k
+===========================
