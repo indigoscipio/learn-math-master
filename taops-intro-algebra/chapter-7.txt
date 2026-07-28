@@ -375,7 +375,143 @@ x = 30
 
 7.7
 PV = nRT
-assume n and R constant
-whichmeans value doesnot change??
-
 a. 
+if n and R constant
+and temperatore T is also constant
+whichmeans the whole nRT is constant? so nRT = k
+so p . v = k where k = nRT
+whichmeans this is a inversion proportion pattern?
+
+
+b. if the volume of ideas gas remains constant
+so the only constant here is 
+n, R and V => V = k
+we wanna know how P and T relates
+P(k) = nRT since NR is constant
+p(k1) = (k2)T
+p (k1) = T (k2)
+which means. im notsure so p depends on k1 and
+t depends on k2?
+
+p . k1 = t . k2
+p = t . k2 / k1
+p/t = k2/k1
+
+so maybe this is like directly proportional?
+so p is directly proportional to t ?
+
+c. ok so this time its asking for C and F
+hmm im not sure if i remember the formula thing
+c =  32 . f or something
+quick google -> (C * 9/5) + 32
+
+ok i guess if we try to subtract the temperature for the formula above
+im guessing it needs to be constant? since it needs to be like
+directly proportional to t? not sure
+
+ok fo F = 9/5C + 32 -> 32 = k which is constant
+y = x . k -> directly proporational
+whn y= 0, then x = 0
+if celcius is 0, then according to PV = nRT
+it should also be zero
+since it directly proportional when its negative itshuld also
+be negative right?
+
+
+d. volume is triple when pressure halfed
+how does tempreatur change?
+im not sure here, we have
+
+p . v = k
+and p/t = k2/k1
+so maybe its directly proportional? tmeperature needs to scale
+direclty with pressure?
+
+new temp becomes 1.5 times the origianl temp
+
+_
+
+Problem 7.8
+let woodchucks = b
+let wood = w
+let hour = h
+
+5b . 8w = 2h
+1b . ?w = 24h
+
+w = k . b . h
+8 = k . 5 . 2
+8 = k . 10
+k = 8/10
+k = 4/5
+
+w = 4/5 . 1 . 24
+w = 24 . 4 / 5
+w = 19.2
+
+
+find how much b can chuck how many wood in 1h
+
+5b = 2h / 8w
+5b = 1/4 -> 1b can chuck xxx ??
+
+intuitive approach
+start
+5w - 2h - 8w
+1w - 2h - 8/5 w = 1.6w
+1w - 1h - 0.8w
+1w - 24h = 0.8*24 = 19.2
+
+
+
+=============================
+1 worker, 1 hour
+- whats being produced
+- find constant k (howmuch 1 woeker prodce in 1h)
+- scale it up
+outcome = rate . worker . hours
+=============================
+
+
+7.9
+a.
+dale -> r mph for t hours
+distance covered = d miles
+
+suppose dale drives 50mph
+1 hour -> 50mph
+2 hour -> 100mph
+5 hours -> 50 . 5 = 250mph
+
+so the connection is
+distance covered = rate of speed per hour . duration
+d = r . t
+t = d/r
+
+b. dale drives 100 miles
+so distance is 100miles
+
+double his speed -> 2r
+tripled the time duration -> 3t
+
+intuitively if we double the speed then 
+it takes much faster to arrive
+
+but if we triple the time duration then it takes
+longer to arrive
+
+here the duration is like much longer than speed
+2 : 3 ratio so techiically it would take abit longer right?
+since the time duration 'overpowers' the balance?
+
+im not sure how to do this algebraicaly
+
+d = 2r . 3t
+100 = 2r . 3t
+2r = 3t / 100
+r = 3t / 200
+
+100 = 2r . 3t
+3t = 100 / 2r
+3t = 50/r
+t = 50/3r
