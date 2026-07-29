@@ -763,6 +763,8 @@ _
 total pages (work) = 500 page
 flo -> 1 page per minute
 carl -> 1 page every 50 seconds -> 1 page per 5/6 minute
+so carl reads faster than flo
+we wanna find the time carl catch up
 
 flo -> start at 1:00
 carl -> starts at 1:30
