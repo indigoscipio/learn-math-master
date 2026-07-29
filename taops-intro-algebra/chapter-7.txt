@@ -740,13 +740,32 @@ sam woud have already completed 2/12 fence => 1/6
 
 from here
 d = r . t
-do i need d = r t thing here? not sure
+
+work done = rate . time
 
 
 sam and pippin together = 
-1/12 + 1/8 = 2+3/24 = 5/24??
-wait that does not look right
+1/12 + 1/8 = 2+3/24 = 5/24
 
+since sam already completed 1/6 -> remaining work is 5/6
+5/6 = 5/24 . t -> mult by 6
+5 = 5/4 . t
+20 = 5t
+t = 20/5
+t = 4
+so ittake 4 hour from the 3 pm mark
 
-time to finish = sam output + pippin output
-not sure how i can translate this to math intutively
+3 + 4 = 7pm
+
+_
+
+7.13
+total pages (work) = 500 page
+flo -> 1 page per minute
+carl -> 1 page every 50 seconds -> 1 page per 5/6 minute
+
+flo -> start at 1:00
+carl -> starts at 1:30
+
+d = r . t
+amount of work = speed . time
