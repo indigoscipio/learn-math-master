@@ -627,4 +627,126 @@ f = 3d^2 . k
 mass is doubled
 f1/f2 = m1/m2
 f1 / f2 = 2m1 / 2m2
-...
+
+start
+f = m1 . m2 / d^2
+
+
+double m1
+f = 2m1 . m2 / d^2 -> since directly proportional, also multiple
+2f = 2m1 . m2 / d^2
+
+double m2
+2.2f = 2m1 . 2m2 / d^2 -> same, double force since directly propotional
+4f = 2m1 . 2m2 / d^2
+
+triple distance
+4f = 2m1 . 2m2 /9d^2 -> since its inversel propotional, divide
+4/9f = 2m1 . 2m2 / 9d^2
+
+
+
+===================================
+directly proportional
+output = k . (direct varialbe)
+
+inversly proportional
+output = k / (ivnerse var)
+
+example:
+sales = k . t/p
+sales is directly proportional to t. hotter days = more sales
+sales is inversely proportional to price. high price = few sales
+===================================
+
+; ========================================
+
+RATE PROBLEMS
+
+7.10
+11:00
+rate/speed = 45mph
+duration = 40m -> 40/60 -> 4/6 -> 2/3 hour
+
+10:30
+rate/speed = ??
+duration = 30m
+
+for the 40m
+d = r . t
+d = 45 . 2/3
+d = 30 miles
+
+so total distance is 30 miles
+30 = r . 1/2
+r = 30 . 2
+r = 60
+so she would need to go 60mph
+
+_
+
+7.11
+go to work -> speed = 30mph
+back home -> speed = 45mph
+a. 
+d = distance from home -> work
+d = r . t
+d = 30 . t
+
+b.
+d = 45 . t
+t = d/45
+
+c. total distance =
+[distance from home -> work] + [distance from work -> home]
+d1 + d2 = 30t + 45t = 75t??
+
+d + d = 2d
+
+d. 
+75t/2 = 37.5t
+
+average speed = total distance / total time
+total distance = 2d
+total time = d/45 + d/30 = 2d+3d/90 = 5d/90 = 1/18d
+
+avg speed = 2d : 1/18d
+2d . 18/1d
+36
+
+_
+
+7.12
+sam -> 12h
+pippin -> 8h
+
+sam -> 1pm
+pippin -> joing at 3pm
+
+a. 
+sam paints 1/12 fence in 1 hour
+pippin paints  1/8 fence  1 hour
+
+b. 
+individually
+sam finises in the 12th hour
+pippin finishes in 8th hour
+
+since sam starts at 1pm
+and pippin joins at 3pm
+
+by the time pipin join
+sam woud have already completed 2/12 fence => 1/6
+
+from here
+d = r . t
+do i need d = r t thing here? not sure
+
+
+sam and pippin together = 
+1/12 + 1/8 = 2+3/24 = 5/24??
+wait that does not look right
+
+
+time to finish = sam output + pippin output
+not sure how i can translate this to math intutively
