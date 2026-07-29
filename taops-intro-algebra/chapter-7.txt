@@ -463,6 +463,11 @@ start
 1w - 24h = 0.8*24 = 19.2
 
 alternative
+amt of wood / (woodchucks)(time) = k
+wood is proportional to worker
+wood is proportional to time
+
+8 / 5.2 = x / 1.24
 
 
 =============================
@@ -533,3 +538,93 @@ x is jointly proportional to y and z
 x / yz = k or alternatively
 x = k . y . z for some constant k
 ===========================
+
+
+EXERCISES
+7.31
+five chickens eat 10 bags of scratch in 20 days
+how long does it take 18 chickens to eat 100 bags of scratch?
+
+answer:
+let chicken = c
+let bags = b
+let tmie = t
+
+more bags, same chicken => chicken takes more tmie
+more chicken, same bag => chicken consumer faster
+
+yeah im not sure, lets try anothr appraoch
+5c - 10b - 20d
+1c - 10/5b=2b - 20d
+
+more chicken = more bags eaten
+chicken is the worker
+
+bags / worker . time
+amount of bags eaten / number chicken . time = k
+
+10 / 5 . 20 = 100 / 18 . t
+10 / 100 = 100 / 18t
+10000 = 18t . 10
+10000 = 180t
+t = 10000/180
+t = ~55.5 
+
+_
+
+7.32
+suppose a is jointly proportional to b and c
+if a = 4 whne b = 8 and c = 9
+then what is a when b = 2 and c = 18
+answer
+since a is jointly proportioanl to b an c we can write as
+
+a/b.c = k
+or alternatively
+a = k . c . b
+
+4/8.9 = k
+4/72 = k
+1/18 = k
+
+subst 2nd equation
+a/2.18 = 1/18
+a/36 = 1/18
+36 = 18a
+a = 36/18
+a = 2
+_
+
+7.33
+
+the force of graviational attraction between 2 bodies is
+directly proportional to the mass of each body and inversely
+propoortioal to the square of distance between them
+if the distance between two bodies is tripled and the mass of
+each is doubled
+what happens to the force ofgragivational attraction between them?
+
+answer:
+
+d = r . t
+
+let gravity force = f
+let mass = m
+distance = d
+body 1 = b1, body 2 = b2
+
+directly proportional part 
+f1/f2 = m1/m2 -> f/m??? not sure
+
+inversely proportional 
+f = (d)^2 . k
+
+
+distance is tripled
+f = 3(d^2) . k
+f = 3d^2 . k
+
+mass is doubled
+f1/f2 = m1/m2
+f1 / f2 = 2m1 / 2m2
+...
