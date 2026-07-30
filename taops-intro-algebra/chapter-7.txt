@@ -770,4 +770,152 @@ flo -> start at 1:00
 carl -> starts at 1:30
 
 d = r . t
+r = d/t
 amount of work = speed . time
+
+for flo
+total pages = 1 . 60  = 60
+
+in 1 hour, flo reads 3600/60 . 60 page
+in 1 hour, carl reads 3600/50 = 72 page
+
+flos rate => 1
+carls rate =  1 page / 5/6 -> 1 . 6/5 -> 6/5 -> 1.2
+
+
+
+flo starts reading at 1:00
+at the 1:30 mark, flo would have read
+30 = 30 pages
+
+when carl joins, it looks like
+1:30
+flo -> 30
+carl -> 0
+
+2:30
+flo -> 90
+carl -> 72
+
+3:30
+flo -> 150
+carl -> 144
+
+4:30
+flo -> 210
+carl -> 216
+
+let t be number of minutes after 1:30
+flos total pages = carls total pages -> why setup equation?
+
+catches up = exact moment they are on the same exact page number
+30 + 1t = 1.2t 
+30 = 0.2t
+t = 150 minutes
+so its 150/60 = 2.5 hours after 1:30
+so around 4 PM
+
+_
+
+7.14
+river -> rate = 3mph
+barry -> wants home at 5pm
+
+start -> noon
+downstream with the current
+so speed is faster
+
+return -> 5pm
+
+so duration = 5 hour
+barrys speed = 5mph
+
+so total distance = [rowing downstream] + [way back home/upstream]
+we wanna know the time barry should turn around and row home
+which means generally downstream is faster and rquires less time
+and upstream is slower and takes more time
+
+downstream
+in 1 hour, barry with no current can acheive 5 miles
+in 1 hour, barry with downstream can achieve 5+3 = 8 miles
+downstream rate = 8mph
+with this rate, in 5 hour it can cover 8 . 5 = 40miles
+
+upstream
+in 1 hour, barry with upstream can achieve 5-3 = 2 miles
+upstream rate = 2mph
+with this rate, in 5 hour it can cover 5 . 2 = 10 miles
+
+so i think we need to 'balance' downstream + upstream distance
+question is at what time
+d = r . t
+t = d/r
+
+upstream is so slow it takes major time
+distance downstream = distance upstream
+
+let t represents the total time barry spends rowing (in hour)
+tdown + tup = 5
+tup = 5 - tdown
+
+ddown = dup
+rdown . tdown = rup . tup
+8 . tdown = 2 . (5 - tdown)
+8tdown = 10-2tdown
+8tdown + 2tdown = 10
+10tdown = 10
+tdown = 1
+
+so he needs to spend 1 hour downstream
+which means he needs the remainig 5-1 = 4 hours upstream
+
+
+_
+
+7.15
+yeah this is a dumbass question
+train1 -> 20mph
+train2 -> 20mph
+initial distance = 60mi apart
+
+bee -> front of train2 -> go to train2 -> to train 1
+bee speed = 30mph
+
+we wannak now how far dose the bee fly before the trains collide
+need to find the distance and when train collide
+
+say the whole thing starts at 12 noon
+1h later -> 1pm -> 
+distance between = 60-20-20 = 20
+
+1.5h later -> 1:30pm ->
+distance between = 20 - 10 - 10 = 0
+
+2h later -> 2pm ->
+distance between = 20-20-20 = -20 -> alreadh crash
+
+so the crash happened between 1pm and 2pm / hour 1 and 2
+more precisely at 1:30
+
+alternatively
+train speed = 20 + 20 = 40mph
+distance = 60 miles
+
+d = r . t
+r = d/t
+t = d/r
+t = 60/40 = 6/4 = 1.5
+
+distance flown by bee
+30 . 1.5 = 45
+
+_
+
+
+7.16
+2/5 of tunnel distance -> hears train 60mph
+
+tunnel length - 1l
+d = r . t
+
+1/5 . 60 = 12
