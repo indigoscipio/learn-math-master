@@ -869,6 +869,9 @@ tdown = 1
 so he needs to spend 1 hour downstream
 which means he needs the remainig 5-1 = 4 hours upstream
 
+alternative
+d + u = 5
+8d = 2u
 
 _
 
@@ -919,3 +922,71 @@ tunnel length - 1l
 d = r . t
 
 1/5 . 60 = 12
+
+
+=========================
+amt of work = rate of work . time
+=========================
+
+=========================
+if 2 objects are moving
+consider how objects are moving relative to each other
+than to consider the two seperately
+=========================
+
+
+EXERCISES
+7.4.1
+jack drives at 40mph an hour
+then at 50mph an hour
+what is his avg speed?
+
+answer:
+d = r . t
+
+total distance =  40 + 50 = 90
+total time = 1 + 1 = 2 hours
+
+average rate = total distance / total time
+average rate = 90 / 2 = 45
+
+
+_
+
+7.4.2
+alone brenda can dig a ditch in 5 hours
+if jack helps her the two of them can dig the ditch in 3h
+how long would it take to dig the ditch himself?
+
+answer:
+brenda -> 1 ditch in 5h
+jack -> combined = 1 ditch in 3h
+
+d = r . t
+1 = r . 5
+r = 1/5 -> brendas rate of speed
+
+combined rate of speed = (jacks speed + brendas speed) -> x + 1/5
+1 = (r + 1/5) . 3
+1 = 3r + 3/5
+1-3/5 = 3r
+2/5 = 3r
+r = 2/15
+
+hmm not sure here
+maybe since brenda is 1/5 so jack is 4/5 then?
+d = r . t
+1 = 4/5 . t
+...
+
+
+_
+
+7.4.3
+mr earl e bird leaves his houre for work at exactly 8am
+eveyr morning. when he averages 40 mph he arrives at his workplace
+three minutelate. when he averages 60mph he arrives 3m early
+a. suppose his house is x miles from work, find in terms of x howlong in
+minuetes it takes earl to get to work when he drives 40mph. what if he drives 6omph 
+b. find x using the information you found in part a
+c.
