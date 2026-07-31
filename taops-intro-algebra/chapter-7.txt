@@ -973,12 +973,10 @@ combined rate of speed = (jacks speed + brendas speed) -> x + 1/5
 2/5 = 3r
 r = 2/15
 
-hmm not sure here
-maybe since brenda is 1/5 so jack is 4/5 then?
 d = r . t
-1 = 4/5 . t
-...
-
+1 = 2/15 . t
+t = 15/2
+t = 7.5
 
 _
 
@@ -989,4 +987,103 @@ three minutelate. when he averages 60mph he arrives 3m early
 a. suppose his house is x miles from work, find in terms of x howlong in
 minuetes it takes earl to get to work when he drives 40mph. what if he drives 6omph 
 b. find x using the information you found in part a
-c.
+c. at what average speed, in miles per hour, should mr bird drive to
+arrive at his workplace precisely on time?
+
+answer:
+
+leave -> 8am
+speed -> 40mph
+
+leave -> 8am
+speed -> 60mph
+
+a. d = r . t
+ok so x is distane and we wanna find time? which is t in minutes
+40mph
+t = d/r
+t = x/40 hr
+t = x/40 hr . 60m/1h = x/40 . 60  = 60/40x = 6/4x = 3/2x min
+
+
+60mph
+t = x/60 hr
+t = x/60 hr . 60m/1hr = 60/60x min = x min
+
+b. 
+40pmh -> 3m late
+60mph -> 3m faster
+diffrence = 6m
+difference = slower time - faster time
+in minute
+6 = 3/2x - x
+6 = 0.5x
+6/0.5 = x
+x = 12 miles
+
+c. 60mph -> 12m
+12m leaves him 3 mintues early
+x+3 -> 15 minutes
+0.8 . 60
+48
+
+
+_
+
+7.4.4
+a plane is traveling between city a and city b
+which are 2000 miles apart
+city a is due north of city b and theres a strong
+constant wind bloewing due south
+at constant speed it takes a plane 5h to go from a t ob
+with the wind at its tail but 8h to go back when fafcing this headwind
+what is the speed of the wind?
+
+answer:
+distance = 2000
+
+city a
+  |
+city b
+
+wind is blowing due south (a to b)
+a -> b = 5h (faster, wind already included)
+b -> a = 8h (slower since wind resistance)
+
+we wanna find the speed
+d = r . t
+r = d / t
+
+find each indifuvual trip speed
+a->b
+2000 = r . 5
+r = 400
+
+b->a
+2000 = r . 8
+r = 250
+
+avg speed = 400+250 = 625/2 = 325
+
+plane speed + wind speed = 400
+wind speed = 400-325
+75
+
+
+
+
+
+_
+
+7.4.5
+bart is writing lines ona charlkboard thatsempty
+it orinarily takes bart 50m to cover the hwole board
+hoever today nelson is earsing theb oard while bart is writing
+nelson can erase the board in 80m by himself
+if they work simultaneously
+howlong willitbe until the wholeboard is covered
+
+_
+
+7.4.6
+when kelsey
