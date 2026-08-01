@@ -1083,7 +1083,113 @@ nelson can erase the board in 80m by himself
 if they work simultaneously
 howlong willitbe until the wholeboard is covered
 
+answer:
+bart -> 50m per 1 board
+nelson is erasing
+
+nelsons -> 80m per 1 board
+
+so nelsons rate is much slowe to erase and faster to fil
+we wanna know the time when the whole board is covered
+
+in 1h -> bart can fill 1/50/60 -> 1 : 5/6 -> 6/5 board
+in 1h -> nelson can erase 1/80/60 -> 1 : 8/6 -> 6/8 -> 3/4 board
+
+d = r . t
+t = d / r
+
+total 'net' rate
+since filling is much faster than erasing
+6/5 - 3/4 = 24 - 15 /20 = 9/20
+
+t = 1 / 9/20
+t = 1 . 20/9
+t = 20/9
+
+so it takes 20/9 hour
+20/9 . 60 = 1200/9 = ~133.33 minutes
+
 _
 
 7.4.6
-when kelsey
+when kelsey is not on the moving sidewalk she can walk the length
+of hte sidewalk in 3m
+if she stands on the sidewalk as she moves she can tavel
+the length in 2m
+if kelsey walks on the sidewalk as it moves, how many minutes will it
+take her to travel the same distance? assume she always walks at the
+same speed
+
+answer:
+
+kelsey on regular sidewalk -> 3m to walk whole length
+kelsey on moving sidewalk (without walking) -> 2m to walk whole elngth
+
+we wanna know the minutes it take to travel
+if kelsey is on the moving sidewalk + walking
+
+d = r . t
+t = d / r
+
+let x be kelsey normal walking rate speed
+regular sidewalk
+d = x . 3
+x = d/3
+
+moving sidewalk
+d = (moving sidewalk rate) . 2
+moving sidewalk rate = d/2
+
+combined rate = d/3 + d/2 = 2d+3d/6 = 5/6d
+
+time = distance / (kelyse move speed + moving sidewalk speed)
+t = d / 5/6d
+t = d . 6/5d
+t = 6/5 = 1.2 minutes
+
+_
+
+7.4.7
+sunny runs a steady rate
+and moonbeam runs m times as fast
+where m is a number greater than 1
+
+if moonbeam gives sunny a head start of h meteres
+how many meters must moonbeam run to overtake sunny?
+give your answer as an expr in terms of h and m
+
+answer:
+
+_
+
+sunny -> runs x speed
+moonbeam -> runs m.x speed
+
+d = r . t
+
+moonbeams give sunny a head start of h meters
+we wanna find how many meters must moonbeam run to overtaek sunny
+
+sunny distance
+d = x . t
+
+moonbeam distance
+d = mx . t
+
+
+overtakes means both distance are equal
+sunny distance = moonbeam distance
+since moonbeam give sunny a head start of h meters
+
+(x . t) + h = mx . t
+...
+
+
+===============================
+RECIPROCATE
+(6/5) . d -> 6d/5 -> 5/6d
+===============================
+
+
+
+REVIEW PROBLMES;
