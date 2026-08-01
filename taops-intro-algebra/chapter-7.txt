@@ -1175,6 +1175,7 @@ d = x . t
 
 moonbeam distance
 d = mx . t
+d = m . xt
 
 
 overtakes means both distance are equal
@@ -1182,7 +1183,15 @@ sunny distance = moonbeam distance
 since moonbeam give sunny a head start of h meters
 
 (x . t) + h = mx . t
-...
+h = mxt - xt
+h = xt(m-1)
+xt = h / (m-1)
+
+
+subst to moonbeam dist
+d = m . (h / m-1)
+d = mh / m-1
+
 
 
 ===============================
@@ -1191,5 +1200,125 @@ RECIPROCATE
 ===============================
 
 
+======================================================
 
-REVIEW PROBLMES;
+REVIEW PROBLEMS
+7.17
+suppose s and t are directly proportional. if s = 14
+when t = 12, what is s when t = 7?
+
+answer:
+directly proportional
+s/t = k
+
+14/12 = k
+s/7 = k
+
+14/12 = s/7
+12s = 98
+s = 98/12
+s = 49/6
+
+_
+
+7.18
+suppose x is inversely proposrtional to y
+if x is tripled, what happens to y?
+
+answer:
+
+inverse proportaionl means
+x . y = k
+3x . y = k
+x . y = k/3
+
+lets do small example, say x = 1, y = 3
+1 . 3 = 3
+
+triple the x
+3(1) . 3 = 9 -> diffrent
+3 . 3/3 = 3 -> same
+
+so y needs to be divided by 3 to keep the constant
+
+alternatively
+
+origianl eq
+x . y = k
+
+new equation
+3x . ynew = k -> divide both side by 3x
+ynew = k/3x
+ynew = x . y / 3x
+ynew = y/3
+
+_
+
+7.19
+
+if a^2 and b are directly proportional 
+and a = 2 when b = 9
+then what is b when a = 6
+answer:
+
+a^2/b = k
+4/9 = k
+
+6^2/b = k
+36/b = k
+
+4b = 36 . 9
+4b = 324
+b = 324/4
+b = 81
+
+_
+
+7.20
+jean ries her biike to work
+the office is 8 miles from her home
+and she reads 12mph
+at what time should she leave to get to work at 8am
+
+answer:
+
+distance = 8miles
+rate =  12mph
+
+d = r . t
+t = d / r
+t = 8 / 12
+t = 2/3 hour
+
+2/3 . 60 = 40 minutes
+so she shuold leave at 8:40
+
+_
+
+7.21
+suppose a is directly proportional to b
+but inversely proportional to c
+
+if a = 2
+when b = 5
+and c = 9
+
+then what is c when b = 3?
+
+answer:
+
+a is proportional to b
+a/b = k
+
+a is inversely proportional to c
+a . c = k
+
+we wanna know what c is when b = 3
+
+
+
+_
+
+7.22
+
+_
