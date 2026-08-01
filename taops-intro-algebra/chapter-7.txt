@@ -1306,14 +1306,16 @@ and c = 9
 then what is c when b = 3?
 
 answer:
+a is proportional to b but inversely proportional to c
 
-a is proportional to b
-a/b = k
+k = a . c /b
+k = 2 . 9 / 5
+k = 18 / 5
 
-a is inversely proportional to c
-a . c = k
+18/5 = a . c / 3
+18/5 . 3 = ac
+54/5 = ac
 
-we wanna know what c is when b = 3
 
 
 
