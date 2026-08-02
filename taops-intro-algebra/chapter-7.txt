@@ -1453,15 +1453,97 @@ and b and c are directly proportional
 then how are a and c related?
 
 answer:
+a/b = k1
+b/c = k2
 
+a/b = k1
+a = kb
+b = a/k1
+
+subst
+(a/k1) : c = k2
+(a/k1) . 1/c = k2
+a / k1.  c = k2
+a/c = k1 . k2
+since k2 and k2 are constants
+
+a is directly proportional to c??
 
 _
 
 7.27
+i can finish the problems in onechapter of my physics book in 8h
+suppose that the problem in each chapter take the same amt of time
+to solve and that there are 30 chapters
+how many people working together at the same rate as me would it take to finish
+the whole book in one day>?
+
+answer:
+
+alone
+1 chapter = 8h
+30 chapters = 8 . 30 = 240h
+
+2 people
+1 chapter = 2h
+30 chapters = 240/2 = 120h
+
+find how how much i can do in 1 hr
+1h = 1/8 chapter, so
+since rate is the same among person
+8 person = 1 chapter per hour with the same rate
+8 person = 30 hour to complete the book
+
+
+rate of work . time worked = amount of work done
+rate of work . 24 = 30
+rate of work = 30/24
+rate of wokr = 15/12 = 5/4 chapters per hour
+so the combined rate needs to be 5/4 chapters per hour
+
+5/4 : 1/8
+5/4 . 8/1
+40/4 = 10 person
 
 _
 
 7.28
+each good worker can paint my new house alone in 12h
+each bad worker can paint my house alone in 36h
+i need my house painted in3h
+if i can only find 3 good workers
+how many bad workers must i also find in order to have my house
+painted on time?
+
+answer:
+good worker -> 12h per 1 house
+bad worker -> 36h per 1 house
+so the ratio is 1 : 3 in terms of time
+
+the house needs to be painted in 3h
+only 3 good workers are working
+
+question asks for how many bad workers needed to be on time
+
+good woeker
+in 1 hour each can pain 1/12 house
+3 good worker can paint 3/12 house = 1/4 house
+
+bad worker
+in 1 hour can paint 1/36 house
+
+work done = [good worker rate + bad worker rate] . time
+
+1 = (1/4 + 1/36x) . 3
+1 = (9+1/36x) . 3
+1 = 10/36x . 3
+1 = 5/18x . 3
+1 = 5/6x
+6 = 5x
+x = 6/5
+
+...
+
 
 _
 
