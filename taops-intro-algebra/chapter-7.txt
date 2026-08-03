@@ -1671,28 +1671,120 @@ t = 100/b seconds
 
 
 so the entire b team has a total time of
-4(100/b) = 400/b
+time_team_b = 4(100/b) = 400/b
 
 now for team a
 lets do one, the 5b/6
 d = r . t
-100 = 5b/6 . t
-100 = 5/6b . t
-100 . 6/5 = b . t
-20 . 6 = b . t
-120 = b . t -> subst b maybe??
-120 = 100/t . t
-120 = 100
-hmm notsure
+t = d / r
+t = 100 / 5b/6
+t = 100 : 5b/6
+t = 100 . 6/5b
+t = 600/5b
+t = 120/b
 
+since the first 3 runs that speed therefore
+timef3a = 3(120/b) = 360/b
+
+and the last one has a rate of a mps
+d = r . t
+100 = a . t
+t = 100/a
 
 so the entire team a has a total time of
+time_team_a = 360/b + 100/a
 
-since the race is a tie therefore the
-distance covered is equal. wait or is it time?
-
-
-team a total distance = team b total distance
-...
+therfore we can map
+team a total time = team b total time
+360/b + 100/a = 400/b
+100/a = 400/b - 360/b
+100/a = 40/b -> mult both sides by ab
+100b = 40a
+100b/40 = a
+100/40 = a/b
+5/2 = a/b
 
 _
+
+7.32
+two sisters ascend 40 step escalators that arem oving
+at the same speed, the older sister can only take
+10 steps up the crowded 'up' escalator, while the younger sister
+runs up the emtpy 'down' escalator unimpended
+arriving at the top at the same time at her sister
+how many steps does the younger sister take?
+
+answer:
+ok so we have 2 sisters
+total escalator step = 40
+
+s1 = sister that takes up
+s2 = sister that takes down
+
+so by my understaing s1 technically faster butits crowded
+after 10 steps so its gotta wait
+
+and  unless im mistaken s2 runs up the opposite way
+so it goes against the 'current' but theres no crowd at all
+so technically she moves at diferent speed
+
+now both arrive top at the same time
+
+d = r . t
+
+the question asks how many steps does the younger sister take
+which is s2
+
+since s1 only takes 10 steps
+the escalator does the remaining job which is 30 steps
+so the escalator rate is 30 steps
+
+now for s2
+she arrives at the same exact time
+at that time it pushes her 30 setps down
+
+so she must have walked at a rate much faster
+40 = r - 30
+r = 70
+
+s2_distance = s2_rate . s2_time
+40 = (her actual rate - the escalator rate) . s2_time
+
+_
+
+7.33
+8 workers can clear 20 acres of afield in 3 days
+how many workers are needed to clear 50 acres in 5 days?
+
+answer:
+
+ok so we have
+8 workers -> 20 acres of field in 3 days
+
+question asks how many workers are needed to clear 50 acres
+in just 5d
+
+d = r . t
+
+total work done = rate of speed . total time
+total work done / (worker . rate) = time
+
+
+if we have 8 worker that can clear 20 acres in 3d
+then in 1d those 8 worker can do 1/3 . 20 = 20/3 acres
+in 5d those worker can do 20/3 . 5 = 100/3 = 33.3 so thats abitlow
+
+find out howmuch work 1 worker can do
+if 8 worker can do 20/3 acres per day
+then its 20/3/8 = 20/3 : 8 = 20/3 . 1/8 = 20/24 = 10/12 = 5/6 acres
+so 1 worker can do 5/6 acres per day
+
+let x represent the number of worker
+d = r . t
+50 = 5/6x . 5
+50 = 25/6x
+50 . 6/25 = x
+300/25 = x
+x = 12
+
+so it needs around 12 workers
