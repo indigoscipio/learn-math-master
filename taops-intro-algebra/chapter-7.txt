@@ -1554,16 +1554,145 @@ _
 
 7.29
 jayne drove 20mph to her grandparents house
-how fast must she drive on the return trip to avg 30mph for the round trip
+how fast must she drive on the return trip to
+avg 30mph for the round trip
 
 rate = 20mph
+if he went back and forth at the same 20mph rate then
+
+20 + 20 / 2 = 40/2 = 20 mph on avg
+
+20 + x / 2 = 30
+20+x = 30 . 2
+20 + x = 60
+x = 60 - 20
+x = 40
+
+d = r . t
+avg speed = distnace / time
 
 
+lets say the distance is 60 miles,
+
+first leg (20mph)
+60 = 20 . t
+60/20 = t
+t = 6/2 = 3 hours
 
 
-total average = total distance/ total time
-30 = 
+total hours if she wants her avg to be 30
+120 = 30 . t
+t = 120/30 hours
+t = 4 hours
+
+difference = 1 hour left
+so it must be 60 hours
+
+alternatively
+algebraic method
+
+t1 = d/20
+t2 = d/v
 
 _
 
 7.30
+joe and renne are building a fence
+joe can build the fence alone in 4 hours
+if renee starts helping joe after he was already worked
+on the fence for 2 hours
+they will finish the fence in 90 minutes
+after she joins him
+how long would it take renee to build teh fence alone?
+
+answer:
+joe rate -> 1 fence in 4h 
+renne helps after joe worked for 2h
+the two will finish in 90minutes -> 1.5h (3/2h)
+
+question asks how long it would take for renne to build the fence alone
+
+answer:
+joe rate -> 1/4 fence in 1h
+which means after 2 hours he will have completed 1/2 fence
+renees rate = ??
+combined rate = joes rate + rennes rate
+
+let x be rennes rate
+combined rate is
+d = r . t
+1/2 = (1/4 + x) . 3/2
+1/2 = ((1/4 . 3/2) + (x . 3/2))
+1/2 = 3/8 + 3/2x
+1/2 - 3/8 = 3/2x
+4-3/8 = 3/2x
+1/8 = 3/2x
+1/8 . 2/3 = x
+2/24 = x
+x = 1/12
+so rennes rate is 1/12 fence per hour?
+
+d = r . t
+t = d / r
+t = 1 / 1/12 -> 1 . 12/1 = 12
+so to build the fence alone she neneds 12 hour?
+
+_
+
+7.31
+two teams compete in relay race
+they are compoesed of four members
+each of whom runs 100m
+all members of team b run at b meter per second (mps)
+the first 3 members of team a can only run 5b/6mps
+while the fourth member runs at a mps
+find a/b if the race is a tie
+
+answer:
+ok so we have 2 teams
+each have 4 members
+
+each runs 100 meters
+a -> 4 members -> first 3 run 5b/6 mps
+b -> 4 members -> b meter/s
+so total distance = 8 . 100 = 800 meters
+
+answer:
+
+since each member of team b runs b meter/s
+each member then have the same speed distance basically
+
+so b is a rate of meter per second
+lets take 1 member of team b
+d =  r . t
+100 = b . t
+b = 100 / t and
+t = 100/b seconds
+
+
+so the entire b team has a total time of
+4(100/b) = 400/b
+
+now for team a
+lets do one, the 5b/6
+d = r . t
+100 = 5b/6 . t
+100 = 5/6b . t
+100 . 6/5 = b . t
+20 . 6 = b . t
+120 = b . t -> subst b maybe??
+120 = 100/t . t
+120 = 100
+hmm notsure
+
+
+so the entire team a has a total time of
+
+since the race is a tie therefore the
+distance covered is equal. wait or is it time?
+
+
+team a total distance = team b total distance
+...
+
+_
