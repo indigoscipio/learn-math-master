@@ -1788,3 +1788,232 @@ d = r . t
 x = 12
 
 so it needs around 12 workers
+
+work = rate . time
+work = (rate of 1 worker) . N . T
+rate of 1 worker = work / n . t
+
+===========================
+
+CHALLNGE PROBLEMS
+7.34
+a man walked a certain distance at constant rate
+if he'd gone 1/2 mile per hour faster
+he would have walked the distance in four fifths the time
+if he'd gone 1/2 mile per hour slower
+he would've been 2 1/2 hours longer on the road
+how far did he walk?
+
+answer:
+ok so we have
+a man traveled a certai ndistance, lets call it d
+
+d = r . t
+
+so rate in in mph and t is in hour
+if the rate is 1/2 mph faster, he woudlve walked the distance
+in 4/5 the time
+d = (r + 1/2) . 4/5t
+hmm woulve walked the distance in 4/5th the time so its faster
+so the time is faster but the distance is the same so only
+the time is changing
+
+if he'd gone 1/2 mph slower he would've been
+2 1/2 hours longer on the road
+d = (r - 1/2) . (t + 2 1/2)
+
+question asks for the distance that he wakled
+hmm we still have 2 variables here r and t not sure how to
+make it dissapear, so maybe this is a 2 variable thing??
+
+
+r . t = (r + 1/2) . 4/5t
+divide both sides by t
+r = (r + 1/2) . 4/5
+r = (r . 4/5 + 1/2 . 4/5)
+r = 4/5r + 4/10
+r = 4/5r + 2/5
+r - 4/5r = 2/5
+1/5r = 2/5
+r = 2/5 . 5
+r = 10/5
+r = 2
+
+so the rate is 2 miles per hour
+
+d = r . t
+d = (r - 1/2) . (t + 2 1/2)
+
+r . t = (r - 1/2) . (t + 2 1/2)
+2t = (2-1/2) . (t + 5/2)
+2t = 3/2 . (t + 5/2)
+2t = (3/2 . t + 3/2 . 5/2)
+2t = 3/2t + 15/4
+2t - 3/2t = 15/4
+1/2t = 15/4
+t = 15/4 . 2 
+t = 30/4
+t = 15/2
+t = 7.5
+so the time is 7.5 hours?
+
+d = r . t
+d = 2 . 7.5
+d = 15
+
+_
+
+
+7.35
+according to us census beurau
+the worlds population passed 6 billion people on july 18
+1999. further an avg of 4.2 births and 1.7 deaths occur every
+second. if these rates were to remain constant, in what year
+will the population reach 7 billion? assume there are
+365 years in a year
+
+answer:
+
+ok so heres what we know
+july 18, 1999 -> 6bil population
+4.2 births every year
+1.7 deaths every year
+and assume these rates remain constant
+
+we wanna know in what year will the population reach 7 billion
+
+d = r . t
+t = d / r
+time to reach 7bil population = total births / true birth rate
+
+
+since we know birth rate > death rate
+the 'true' birth rate is 4.2 - 1.7 =  2.5 births every second
+
+now calculate total babies birthed starting from july 1999
+in 1 minute -> 2.5 * 60 = 150
+in 1 hour -> 150 * 60 = 9000
+in 1 day -> 9000 * 24 = 216000
+in 1 year -> 216000 * 365 = 78840000
+
+t_7bil = 1000000000 / 78840000
+t_7bil = around ~12.683 years
+
+
+July 18, 1999 + 12.683 years
+so thats around year 2011
+ad 12 full years -> july 18, 2011
+add remaining 0.683 years -> 8.2 months
+march 2012
+
+_ 
+
+7.36
+the tail of a 1mile long train exits a tunnel exactly 3 minutes
+after the front of the train entered the tunnel
+if the train is moving 60mph how long is the tunnel?
+
+answer:
+ok so we have a 1 mile long train
+
+the train exits tunnel 3 minutes after the front entered
+so each minute it goes 1/3 of the whole tunnel after the front enter
+
+
+the train is moving at 60mph -> 1 mile per minute
+the question asks how long the tunnel is
+whichmeans the tunnel distance is just the minute the front train
+hit the end mark so maybe wecan offset this at the end??
+
+d = r . t
+tunnel_dist = train_rate . train_time
+tunnel_dist = 1 . 3
+tunnel_dist = 3 miles
+
+with the offset thats like 2 miles right? not sure
+
+alternatively
+tunnel length + train length = total distance
+tunnel length + 1 mile = 3 miles
+tunnel lengh = 2 miles
+
+_
+
+7.37
+suppose trains leave NY for atlanta every 20min starting at 1am
+and trains leave atlanta for NY every 30min starting at 1:10am
+if it takes each train 10h to travel from one city to another
+how many trains traveling from atlanta to NY are passed by the train
+that leaves NY at 1pm and arrives in atlanta at 11pm?
+
+answer:
+ok so we have  2 train
+
+train A
+train_ny_to_at
+- leave every 20 min
+- starting at 1AM
+
+train B
+train_at_to_ny
+- leave every 30 min
+- starting at 1:10AM
+
+im assuming the train here is like unlimited?
+each train takes 10h to travle from one city to another
+
+question asks how many trains traveling from atlanta to new york
+(train_at_to_ny) are passed by the train that leaves ny
+(train_ny_to_at) at 1pm and arrives in atlanta at 11pm?
+
+lets think this one by one
+so train_ny_to_at leave every 20min
+in 1 hour theres 3 trains bounded to AT
+which means in 10 hours = 30 trains
+
+im also assming the train B here unlimited so it keeps
+like spawning every30min? not sure
+since train B leaves at 1:10
+
+earliest time for train A since the limit is 1pm
+
+3 am
+so its between 3:10 and 10:40
+8 . 2 = 16
+
+20 . 2 = 40 trians
+
+_ 
+
+7.38
+jenna and ginny are 20 miles from home
+they have 1 pair of roller blades
+jenna walks 4mph and skates 8mph
+they start for home at the same time
+first ginny has the roller blades and jenna walks
+ginny skates for a whie
+then takes the roller blades off and starts walking
+when jenna reaches the roller blades
+she puts them on and starts skating
+if they both start at 4:00 and arrive home at the same time
+what time is it when they get home?
+
+answer:
+ok so we have distance
+jenna_house to ginny_House = 20miles
+
+RATES
+j_walk_rate = 4mph
+k_skate_rate = 9mph
+g_walk_rate =  3mph
+g_skate_rate = 8mph
+
+both start at the same time
+
+
+
+_
+
+7.39
+superman and flash are running around the worl in
+opposite directions. superman
