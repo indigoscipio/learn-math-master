@@ -1988,7 +1988,8 @@ _
 7.38
 jenna and ginny are 20 miles from home
 they have 1 pair of roller blades
-jenna walks 4mph and skates 8mph
+jenna walks 4mph and skates 9mph
+ginny walks 3mph and skates 8mph
 they start for home at the same time
 first ginny has the roller blades and jenna walks
 ginny skates for a whie
@@ -2004,16 +2005,233 @@ jenna_house to ginny_House = 20miles
 
 RATES
 j_walk_rate = 4mph
-k_skate_rate = 9mph
+j_skate_rate = 9mph
 g_walk_rate =  3mph
 g_skate_rate = 8mph
 
-both start at the same time
+both start at the same time at 4:00
+and arrive at the sametime
 
+1st
+ginny use roller blade
+jenna walks
+
+2nd
+ginny walks
+jenna use roller blade
+
+d = r . t
+t = d / r
+time they get home = distance from start to finish / combined rate
+or maybe
+total genna distance = total jenny distance
+
+since roller blade is like much faster doi even bother
+calculating the speed of walkng here? not sure
+
+lets calculate one by one
+
+since the total distance is 20 miles
+let x be distance in miles where ginny leave the rollre blade
+
+ginny roller blade
+d = r . t
+d = 8 . t
+t = d/8
+
+second leg is 20 - x miles
+total distance = [x] + [20 - x]
+
+ginny wlk
+d = r .  t
+20-d  = 3 . t
+t = 20-d/3
+
+Jenna walk
+x / 4
+
+Jenna skate
+20-x = 9 . t
+t = 20-x/9
+
+total ginny time = x/8 + (20-x)/3
+
+
+x/8 + 20-x/3 = x/4 + 20-x/9
+lcm = 72
+
+9x/72 + 480-24x/72 = 18x/72 + 160-8x/72
+9x + 480 -24x /72 = 18x + 160 - 8x/72
+-15x + 480 / 72 = 10x + 160 /72
+-15x + 480 = 10x + 160
+-15x - 10x = 160 - 480
+-25x = -320
+x = 12.8
+
+12.8/8 -> 1.6
+7.3/3 -> 2.43
+
+total = 4.03 hours
+8PM
 
 
 _
 
 7.39
 superman and flash are running around the worl in
-opposite directions. superman
+opposite directions. superman can go around the world in
+2.5 hors and flas hcan do the same in 1.5h
+assuming they start at the same time and same place
+how many times they will pass each other going in
+opposite directions in a 24 hour period?
+
+answer:
+
+superman rate -> 1 world / 2.5h
+flash rate -> 1 world / 1.5h
+
+they start at the same time
+question asks for how many times they will passeahc other
+going in opposite direction in a 24h period
+
+calculate the rate in hour
+superman -> in 1 hour he can travel
+d = r . t
+1 = r . 2.5
+1/2.5 = r
+r = 1 : 5/2 -> 1 . 2/5 = 2/5 world per hour
+
+flash -> in 1 hour he can travel 
+d = r . t
+1 = r . 1.5
+r = 1/1.5 -> 1/3/2 -> 1 : 3/2 -> 1 . 2/3 -> 2/3 world per hour
+
+so it seems superman is abit slower in terms of the rate
+which means in 24 hours
+superman circles the globe 2/5.24 = 48/5 = 9.6 times
+and flash circles the whole globe in 2/3 . 24 = 16 times
+
+since they went opposite each other the rate is like combined righ?
+or is it not matter at all? not sure
+now to calculate how many times they meet, maybe use lcm or smth?
+6 + 10 / 15 -> 16/5 -> 3 1/5
+yeah notsure if this helps
+
+total combined distance in terms of laps in 24 hour is
+9.6 + 16 = 25.6 so thats around 25.6 laps
+since they pass each other everytime the combined total
+reaches a whole number, the full pas is around 25
+
+
+_
+
+7.40
+
+andys lawn has twice as much area as beths lawn
+and there are 3 times as much are as carlos lawn
+carlos lawn mower cuts half as fast as beths mower
+and one third as fast as andys mower
+if they all start to mow their lawns at the same time
+who will finish first
+answer:
+
+ok so we konw a few things
+
+first is andys lawn size in terms of area
+andys lawn -> 2 . beths lawn
+andys lawn -> 3 . carlos lawn
+
+we know rate of carlos lawn mower (lm)
+carlos lm -> 1/2 . beths lm
+carlos lm -> 1/3 . andys am
+
+they all start to mow their lawns at the same time
+question asks who will finish first?
+so each of those 3 people have different lawn mower
+and lawn size
+
+need to figure out each individual rate of speed and time
+and compare whose the fastest
+
+so lawn is basically just total work d
+and the lawn mower is the rate r
+
+d = r . t
+d_andy = 2 . d_beth = 3 . d_carlos
+
+d_andy = r_andy . t_andy
+3 . d_carlos = r_andy . t_andy
+d_carlos = (r_andy . t_andy) / 3
+
+2 . d_beth = r_andy . t_andy
+d_beth = (r_andy . t_andy) / 2
+
+maybe subst? or maybe im overcomplicating this.
+d_carlos = r_carlos . t_carlos
+
+lets take it from the start, maybe is shouldnt be using variables
+too specific, maybe simple logic can work
+
+andys lawn has 2x much area as beths lawn and 3 times
+as much area as carlos lawn. that means
+
+let x represents lawn size base on andy area
+andy -> x
+beths -> 1/2x
+carlos -> 1/3x
+
+then we can figure out the rate
+let r represents rate based on carlos
+
+andy -> 3r
+beths -> 2r
+carlos -> r
+
+maybe now we can figure ou the thign?
+d = r . t
+
+andy
+x = 3r . t
+t = x/3r
+t = 1/3 . x/r
+
+beth
+1/2x = 2r . t -> mult all sides by 2
+x = 2(2r . t)
+x = 4r . 2t
+x/4r = 2t
+x/4r / 2 = t
+x/4r . 1/2 = t
+x/8r = t
+t = 1/8 . x/r
+
+carlos
+1/3x = r . t
+x = 3(r . t)
+x = 3r . 3t
+3t = x / 3r
+t = x/3r : 3
+t = x/3r . 1/3
+t = x/6r
+t = 1/6 . x/r
+
+
+
+...
+
+
+..
+
+
+
+_
+
+7.41
+vic can beat harold by one tenth a mile in a two mile race
+harold can beat charlie by one fifth of a mile in a two mile race
+if vic races charlie
+how far ahead will vic finish?
+
+answer:
+
+_
