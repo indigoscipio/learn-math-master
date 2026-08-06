@@ -2198,30 +2198,27 @@ t = 1/3 . x/r
 beth
 1/2x = 2r . t -> mult all sides by 2
 x = 2(2r . t)
-x = 4r . 2t
-x/4r = 2t
-x/4r / 2 = t
-x/4r . 1/2 = t
-x/8r = t
-t = 1/8 . x/r
+x = 2 . 2r . t
+x = 4r . t
+t = x / 4r
+t = 1/4 . x/r
+
 
 carlos
 1/3x = r . t
 x = 3(r . t)
-x = 3r . 3t
-3t = x / 3r
-t = x/3r : 3
-t = x/3r . 1/3
-t = x/6r
-t = 1/6 . x/r
+x = 3 . r . t
+x = 3r . t
+t = x / 3r
+t = 1/3 . x/r
 
+calculate who will finish first
+andy -> 1/3 . x/r
+beth -> 1/4 . x/r
+carlos -> 1/3 . x/r
 
-
-...
-
-
-..
-
+so it seems beth is the fastest
+and therefore beth will finish it in time first
 
 
 _
@@ -2233,5 +2230,135 @@ if vic races charlie
 how far ahead will vic finish?
 
 answer:
+vic -> can beat harold by 1/10 of a mile in 2mile race
+harold -> can beat charlie by 1/5 of a mile in 2mile race
+question asks if vic races charlie, how far will vic finish
+
+so we only know  3 person
+and im assuming the distance is the same which is 2 mile
+
+so in 2 mile
+vic can beat harold by 1/10 . 1 = 0.1 mile
+so if we compete vic and harold
+vic = 2 mile, harold = 2-0.1 = 1.9 mile
+
+harold can beat charlie by 1/5 . 2 = 2/5 mile = 0.4 mile
+if we compete harold and charlie
+harold = 2 mile, charlie = 2-0.2 = 1.8 mile
+
+find vics rate
+vd = hd + (1/10 . hd)
+
+so when vic finishes his 2 mile
+hardold wouldve coverd 1.9
+1.8/2.0
+
+
+_
+
+7.4.2
+on an auto trip, the distance read from the instrument panel
+was 450 miles. with snow tires on the return trip over the same rout
+the reading was 440 miles. find to nearest hundreth of an inch
+the increase in radius of wheels if the original radius was 15 inches
+
+answer:
+d = 450 miles
+
+then
+d = 440 miles
+
+if original radius was 15 inches
+then the distance covered is the circumference right?
+or is it diameter
+
+area = pi . r^2
+circumference = 2 . pi . r
+
+circumference = 2 . 3.14 . 15
+so approximately 94.2 inchces circumrefence? 
+
+
+new radius / original radius = original odometer / new odometer
+
+r2/15 = 450/440
+r2 . 440 = 15 . 450
+440 . r2 = 6750
+r2 = 6750 / 440
+r2 = 15.3 inch
+
+15.34
+0.34 inch increase
+
+_
+
+7.43
+suppose y is jointly proportional to the 100 integers x1, x2, ..., x100
+if jiri triples 25 of the xi's, by what number can
+vlatko multiply each of the rest of the xi's to leave y unchanged?
+
+answer:
+
+y is jointly propotional means
+y / x1 . x2 . x3 . x4 , ... x100
+y = x1 . x2 . x3 . x4 .... x100
+
+jiri triples 25 of the xi's?
+so x1 up to x25 is then becomes 3(x1 . x2 . x3 ... x25) . x26 ...
+
+we wanna know by what number vlatko can multiply each of the rest
+of the xi's to leave y unchanged
+sothatmeans we need to find by what number the x26 upto x100
+should be multiplied with
+
+assuming the xis is non zero then
+let x = x1 ... x25
+and z = x26 ... x100
+
+y = 3(x) . z . k
+y = 3^25 . x . z . k
+we have 75 remaiing numbers left -> cancel with 3^-25
+
+c^75 -> mult each variable by c
+c^75 = 3^-25 -> raise to pwoer of 1/75
+(c^75)^1/75 = (3^-25)^1/75
+c^75.1/75 = 3^-25.1/75
+c = 3^-1/3
+c = 1/3^1/3
+c = 1/cuberoot(3)
+
+since its ivnerse proportaional divide by 1/3 right? not sure
+
+_
+
+7.34
+suppose x and y are inversely proportional
+a. if x^p and y^q are also inversely proportional
+then how must p and q be related?
+b. if x^p and y^q are directly proportional, then how must p and q be
+related?
+
+answer:
+a. 
+x and y are inversely proportional
+x . y = k1
+y = k1 / x -> y = k1 . x^-1
+raise both to power of q
+y^q = (k1 . x^-1)^q
+y^q = k1^q . x^-q
+
+
+and we know from the quetions that
+x^p and y^p are also inversely proportional
+x^p . y^q = k2
+which means
+y^q = k2 / x^p
+
+k1^q . x^-q = k2 / x^p
+k1^q / x^q = k2 / x^p
+
+the exponents on x must be identical for the equation to hold
+for all x, so p and q must be equal.
+
 
 _
