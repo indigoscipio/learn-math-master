@@ -1,0 +1,169 @@
+CHAPTER 8
+
+GRAPHING LINES
+absolute value = magnitude
+
+orderd pair
+(x,y)
+
+; ======================
+
+PROBLEM 8.1
+a. how far apart are -3 and 9 on the number line?
+b. suppose a is greater than b.
+how far apart are a and b on the number line?
+c. what number is midway between -3 and 9 on the number line?
+
+answer:
+a. ok so we wanna find out how far apart
+-3 -2 -1 0 1 2 3 4 5 6 7 8 9
+negative = 3 numbers
+positive = 9 numbers
+
+total = 12 + 1 (zero) = 13 length
+so the length here is 12 right?
+since we dont count the -3
+so thats like 9 - (-3) = 12
+
+b. if a > b
+then how far apart depends on the magnitude/difference right
+if a=5 and b=4 then its only 1 apart
+
+if a = 0 and b = 9999 then its 9999 far apart
+
+so to calculate how far apart its just a - b right?
+or maybe the absolute value of a - b so | a - b |
+provided a > b of course
+
+c. ok so we wanna find out what
+number midway between -3 and 9 is on the number line
+lets just do this manually
+
+-3 -2 -1 0 1 2 | 3 | 4 5 6 7 8 9
+so the midway number is number 3
+
+lets tfind other way maybe
+total length of positive
+1 to 9 -> 9 numbers
+
+total length of negative
+-1 to -3 = 3 numbers
+
+so including zero
+9 + 3 + 1 = 13
+13/2 = 7.5 -> floor it? so the 7th number = 3??
+or maybe im overcomplicating this, but the answer should definetely be 3
+
+
+
+_
+
+problem 8.2
+
+a. on the number line, how is the number 5 related to the number -5?
+how is -3 related to 3? how is -x related to x?
+b. explain why |-x| = x for all numbers .
+
+answer:
+a. they sit on the oppiside side of the number (5 is positive but -5 is negative)
+but they have equal distance to the origin '0'
+same with -3 -> 3 and -x -> x
+b. lets do small exmaple
+lets say x = -3
+
+by definiton of absolute value its the distance between
+that number between the origin 0
+
+|-3| = |3|
+LHS
+the number -3 is 3 distance away from 0
+
+RHS
+the number 3 is 3 distance away from 0
+
+therefore both numbers have equal distance from 0
+so the absolute value of those numbers are equal to each other
+
+
+_
+
+problem 8.4
+
+a right triangle is a triangle that has 2 sides that are 
+perpendicular. the pytagoren theorem tellsu that the squareof length
+of the longest sides of a right triangle = the sum of squares of the
+other two side of the triangle. for example in the triangle in the right
+we have a^2 + b^2 = c^2
+
+in this problem we determine the distane between poitns
+(-3,5) and (5,1)
+
+a. plot the two points on the cartesian plane, then connect
+the two points with a straight line (already done)
+b. create right triangle by drawing a line rightwared from (-3,-5)
+and another line downward from (5,1). at what point do these two line meet?
+c. how far is (-3,-5) from the point where the lines meet in part b?
+how far is (5,1) from the point where lines meet in part b?
+d. use pythagorean theorem to find the distance between (-3,-5)
+and (5,1)
+e. use your logic from the previous parts to create a formula
+for the distance between the points
+(x1,y1) and (x2,y2)
+
+answer:
+b. the third point sits at (-3,1) which forms the 'right angle'
+c. since we know the third point ists at (-3,1)
+(-3,-5) -> only 4 points difference in y, x already the same (-3)
+(5,1) -> 8 points difference in x, y in the same position (1)
+d. using the pythagorean, we have based on previous answer
+lets say a = 4
+b = 8
+
+a^2 + b^2 = c^2
+36 + 64 = c^2
+100 = c^2
+c = sqrt(100)
+c = 10
+
+e. ok from my intuition
+distance between the two point is basically just the pythagorean theorem
+a^2 + b^2 = c^2
+but we wanna write in terms of x1,x2 and x2, y2 so only 2 points
+
+we need to calculate the third point/leg righ?
+lets say (x1, y1) = (-3,5)
+and (x2,y2) = (5,3)
+
+now we got 8 from the differnece of x axes
+(x2 - x1) = 5 - (-3) = 8
+
+and we got 4 from the difference in y
+(y2 - y1) = 1 - 5 = -4? wait why it negative? maybejustneed
+the absolute value here so | - 4 | = 4?
+
+so we got those 2 sa the legs of the triangel
+now we just need to apply the pytagoras thing
+so thats
+
+let a = | (x2 - x1) |
+let b = | (y2 - y1) |
+and c = the distance between the 2 points
+applying the pytagoras
+
+a^2 + b^2 = c^2
+| (x2 - x1)^2 | + | (y2 - y1)^2 | = c^2
+doi need to aply absolute value thing here? not sure
+so thats roughtly the formula i think
+
+
+; ========================================================
+
+; ========================================================
+
+; ========================================================
+
+; ========================================================
+
+; ========================================================
+
+; ========================================================

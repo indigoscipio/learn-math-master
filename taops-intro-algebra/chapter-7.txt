@@ -2360,5 +2360,32 @@ k1^q / x^q = k2 / x^p
 the exponents on x must be identical for the equation to hold
 for all x, so p and q must be equal.
 
+b.
+
+directly proportional means
+
+x / y = k for some constant k ->
+x^p / y^q = k3
+x^p = k3 . y^q
+y^q = x^p / k3
+y^q = x^p . k3^-1
+
+form part a we have
+y^q = k1^q . x^-q
+y^q = x^-q . k1^q
+
+combine the two
+since the x is constant
+
+x^p . k3^-1 = x^-q . k1^q
+since k3 and k1 are constant
+the xponent needs to be identical so
+
+p = -q
+p + q = 0
+so the sum of p and q must be 0
+
+
+
 
 _
