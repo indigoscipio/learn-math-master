@@ -54,6 +54,8 @@ so including zero
 13/2 = 7.5 -> floor it? so the 7th number = 3??
 or maybe im overcomplicating this, but the answer should definetely be 3
 
+alternative -> use average
+a - b / 2
 
 
 _
@@ -96,7 +98,7 @@ other two side of the triangle. for example in the triangle in the right
 we have a^2 + b^2 = c^2
 
 in this problem we determine the distane between poitns
-(-3,5) and (5,1)
+(-3,-5) and (5,1)
 
 a. plot the two points on the cartesian plane, then connect
 the two points with a straight line (already done)
@@ -151,19 +153,308 @@ and c = the distance between the 2 points
 applying the pytagoras
 
 a^2 + b^2 = c^2
-| (x2 - x1)^2 | + | (y2 - y1)^2 | = c^2
+| (x2 - x1)^2 | + | (y2 - y1)^2 | = c^2 <- no need for absolute value
 doi need to aply absolute value thing here? not sure
 so thats roughtly the formula i think
 
 
 ; ========================================================
 
-; ========================================================
+EXERCISES
+
+8.1.1
+FIND THE DISTANCE between -2 and 7 on the number line
+answer:
+7 - (-2) = 9 units away
+
+_
+
+8.1.2
+plot each of the following points on the cartesian plane:
+(2,1)
+(5,-4)
+(-6,0)
+(-4,4)
+answer: already solved
+
+_
+
+8.1.3
+find the distance between the points
+(-5, -2) and (7,3)
+
+answer:
+ok so we have 2points
+x1,y1 = -5,-2
+x2,y2 = 7,3
+
+using the dist formula
+(7 - (-5))^2 + (3 - (-2))^2 = c^2
+12^2 + 5^2 = c^2
+144 + 25 = c^2
+c^2 = 169
+c = 13
+
+_
+
+8.1.4
+
+determine which of the following points is farthest from
+the origin:
+(0,5)
+(1,2)
+(3,-4)
+(6,0)
+(-1,-2)
+
+answer:
+(6,0) is the farthest
+
+_
+
+8.1.5
+recall that |x| is the distance between x and 0 on the number line
+how does |x-y| relate to the distance between x and y on the 
+number line? explain
+
+answer:
+ok so if we have 2 numbers
+by definition of absolute value its the distance betwen x
+
+x = 2, y = 5
+
+then |x - y| = |2 - 5| = |-3| = 3
+so here its not just the distance between x and 0 anymore but
+its between 'relative' to each other. regardless of order
+so distance between x and y is 3 units
+
+i guess naother way to see this
+|y| -> distance from 0 to 5 = 5
+|x| -> distance from 0 to 2 -> 2
+
+so from there we 'splice' the difference??
+
+_
+
+8.1.6
+when we found the formula for the distance between points A=(x1,y1)
+and B = (x2,y2) we assumed that B was above and to the right of a
+does the same argument still work when A and B are not in this
+position relative to each other? explain
+
+answer:
+ok so we assumed y2 and x2 is always bigger than x1 and y2
+question asks if the same argument still works
+
+yes it still works because even if we subtract
+smaller value with big value which will result in negative
+the square thing will ensure its always positive at the end
+
+lets say p1 (3,5)
+and p2 (-1,-2)
+
+(x2,x1) -> -1 - (3) = -4
+(y2,y1) -> -2 - 5 = -7
+
+using the formua it will always guaranttee positive when stuaerd
+(4)^2 + (-7)^2 = c^2
+16 + 49 = c^2
+
 
 ; ========================================================
 
-; ========================================================
+8.2
+Introduction to Graphing Linear Equaitons
+
+Problem 8.5
+hopslaot the rabbit is at the point (-1,-8)
+each second hopsalot hops to a point that is 1 unit to the right
+and 2 units above his current point
+plot all the points on the grid at right that hopsalot visits
+did you see anything interseting about the point hopsalot visits?
+
+answer:
+ok so we have the starting point
+(-1,-8) then
+(0,-6)
+(1,-4)
+(2,-2)
+(3,0)
+
+if i connect the dots it forms a straight line
+an 'upward' slope heading towards the upper right
+
 
 ; ========================================================
 
+problem 8.6
+find several solutions to the equations
+2x - y = 6
+plot the solutions (x,y) you can find on the cartesian plane
+notice anything interseting?
+
+answer:
+x=1
+2-y = 6
+-y = 4
+y = -4 -> so (1,-4)
+
+x=2
+2(2) - y = 6
+4 - y = 6
+-y = 2
+y = -2 -> so (2,-2)
+
+x=3
+2(3) - y = 6
+6-y = 6
+y = 0 -> so (3,0)
+
+x=4
+8 - y = 6
+y = -2
+y = 2 -> (4,2)
+
+so each time it 'jumps' to other point
+x increments by 1 and y increments by 2
+forms 'upward' slope just likve previous 8.5 question
+
+
 ; ========================================================
+
+8.7
+find several solutions to the equations
+x - 2y = 8. for each pair of solutions
+find the ratio of difference in y values to the diffrence in x values
+notice anything interseting?
+
+answer:
+x - 2y = 8
+
+x=0
+-2y = 8
+-y = 4
+y = -4 -> (0,-4)
+
+x=1
+1 - 2y = 8
+-2y = 7
+-y = 7/2
+y = -7/2
+y = -3.5 -> (1,-3.5)
+
+x=2
+2 - 2y = 8
+-2y = 6
+-y = 3
+y = -3 -> (2,-3)
+
+x=3
+3 - 2y = 8
+-2y = 5
+-y = 5/2
+y = -5/2
+y = -2.5 -> (3,-2.5)
+
+so for the ratio
+the difference in x = 1
+the difference in y = 0.5
+so the ratio is like 1 : 0.5??
+
+when you increase x by 1 point, y increase by 0.5 point
+when you increase x by 2 point, y increases by only 1 point
+
+; ========================================================
+
+Problem 8.8
+the ratio you found in the prev problem is called the slope of a line
+specifically the slop of a line connecting the points (x1,y1)
+and (x2,y2) is:
+
+(y2-y1) / (x2-x1)
+
+can a line have a negative slope? if so, can you tell by glancing
+at a line's graph if the line has a negative slope?
+
+answer:
+ok lets try to calculate the slope with this formula then
+lets use the answer from previous question
+
+x1,y1 -> (1,-3.5)
+x2,y2 -> (2,-3)
+
+using the formula we have
+
+(-3-(-3.5)) / (2-1)
+(-3+3.5) / 1
+0.5 / 1
+0.5 -> sothis is a positive slope right?
+
+question asks if there can be a negative slope
+maybe it exsists? what if x2 y2 has like a more 'negative' value
+or maybe one of the x2 y2 value is negative
+
+x1,y1 -> (0,0)
+x2,y2 -> (-2,4)
+
+(4-0) / (-2-0)
+4 / -2
+-2 so this is negative slope right?
+so it seems it point to the 'upward left' area whereas
+positive slope is going to 'up right' area? not sure
+
+
+; ========================================================
+
+problem 8.9
+a. can a line have a slope of 0? if so, can you tell by
+glancing at a line's graph if the line has a slope of 0?
+
+b. are there any lines for which slope is not defined?
+
+c. if your answer to either of the first two parts is 'yes',
+explain what types of equations have graph
+that are lines with a slope of 0 or with an undefined slope
+
+answer:
+
+a. im gonna guess yes here
+and say a line that has slope 0 is just a flat horizontal line
+
+b. yes, im also guessing this is a flat vertical line?
+
+c. already answered in a and b but
+
+0 slope??
+
+(y2-y1) / (x2-x1) = 0
+so y2 - y1 result needs to be 0 here
+and x2-x1 nonzero
+
+so maybe x1,y1 = (0,1)
+x2,y2 = (3,1)
+
+as foe the undefined one needs to be like
+flat vertical right so no change in y
+so the x2-x1 needs to be 0 which causes like undefined??
+cause division by 0
+
+
+
+; ========================================================
+
+Problem 8.10
+a. how can we tell the slope of the line graphed at left above
+is greater than 1, without actually finding the slope?
+b. how can we tell that the slop of the line graphed at theright
+is less than 1, without actually finding the slope?
+
+answer:
+a. im guessing the 'angle slope' for the first graph is like 
+very extreme, almost touching or almost parallel toward the y axis
+and it looks like 'diffifcult' to climb. almost like a flat wall
+b. and for the second one the angle is like more parallel
+toward the x axis. itslike easy to 'climb', almost like a flat
+ground
+
+slope = 1 -> 45 degree
