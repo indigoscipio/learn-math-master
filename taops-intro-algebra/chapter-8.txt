@@ -925,7 +925,8 @@ e. 5 = 3-y / 1-x
 5 - 5x = 3-y
 -5x = 3 -y - 5
 -5x = -2-y
--5x + y = -2
+-5x + y = -2 -> mult both by -1
+5x - y = 2
 
 _
 
@@ -969,7 +970,7 @@ _
 8.1.6
 find the equation of each line described below
 a. the line through (4,2) with a slope -3 
-b. the line through (4,1) and (7,2)
+b. the line through (4,1) and (-7,2)
 c. the line through (1/2, 3) with slope 3/2
 
 answer:
@@ -994,10 +995,11 @@ m = -1/11
 
 lets do the placeholder (x,y) thing with fixed 1st point
 -1/11 = (1-y) / (4-x) ->> cross mult
--1(1-y) = 11(4-x)
--1+y = 44-11x
-y + 11x = 44 + 1
-11x + y = 45
+-1(4-x) = 11(1-y)
+-4+x = 11-11y
+x + 11y = 11 + 4
+x + 11y = 15
+
 
 c. this one is simialr to a, we only know 1 slope
 and 1 point
@@ -1007,7 +1009,9 @@ points = (x,y),(1/2 , 3)
 3(0.5-x) = 2(3-y)
 1.5-3x = 6 - 2y
 -3x + 2y = 6 - 1.5
--3x + 2y = 4.5
+-3x + 2y = 4.5 -> mult by -2
+6x - 4y = -9
+
 
 _
 
@@ -1054,7 +1058,222 @@ t = 1/2 . s + B
 100 = 50 + B
 B = 50
 
-so plugging in 72 as old score s
-t = 1/2 . 72 + 50
-t = 36 + 50
-t = 86
+so plugging in 74 as old score s
+t = 1/2 . 74 + 50
+t = 37 + 50
+t = 87
+
+alteratively
+let (s,t) be a point on the line through (100,100)
+and (62,81) -> so it has the same slope
+
+t - 100 / s - 100 = 1/2
+rearrange -> 2(t-100) = s-100 -> solve
+
+
+========================
+POINT-SLOPE EQUATION
+
+standard form -> Ax + By = C
+point-slope -> y-y1 = m(x-x1)
+
+(x,y)(4,3)
+
+1 = 3-y / 4-x
+1 (4-x) = 3-y
+
+========================
+
+EXERCISES
+
+8.4.1
+find equation in standard form the line tha tpasses
+through (-2,4) and (1,-2)
+
+answer:
+find the slope
+x -> (-2 , 4)
+y -> (1 , -2)
+
+m = -2-4 / 1-(-2)
+m = -6 / 3
+m = -2
+
+(x,y)
+-2 = (4 - y) / (-2 - x)
+-2(-2 - x) = (4 - y)
+4 + 2x = 4 - y
+2x + y = 0
+
+_
+
+8.4.2
+find the equation, in standard from, of the line
+that passes through (0,5) and has slope -3
+
+answer:
+since we already know the slope:
+slope = delta y / delta x
+m = -3 / 1
+
+(x,y),(0,5)
+-3 = (5-y) / (0-x)
+-3 = (5-y) / -x
+-3(-x) = (5-y)
+3x = 5 - y
+3x + y = 5
+
+_
+
+8.4.3
+find the equation in standard form of the line
+that passes through (2,7) and has slope 1/4
+
+answer:
+(x,y),(2,7)
+1/4 = (7-y) / (2-x)
+1/4(2-x) = (7-y)
+(1/4 . 2 + 1/4 . -x) = (7-y)
+2 - 1/4x = 7 - y
+-1/4x + y = 5 -> mult both sides by -1
+1/4x - y = -5
+
+_
+
+8.4.4
+consider those points having coordinates of the form
+(2t + 3, 3t) for some real number t.
+a. plot several of these points
+b. explain why the graph consisting of all the points
+in the form (2t + 3, 3t) is a line.
+c. find the slope of this line and the equation of
+the line in standard form.
+
+answer:
+
+a. 
+ok so we have a corrdinate
+(x,y) -> (2t + 3, 3t)
+
+t=-1
+2(-1) + 3, 3(-1)
+(1,-3)
+
+t=0
+2(0) + 3, 3(0)
+(3,0)
+
+t=1
+2(1) + 3, 3(1)
+(5,3)
+
+t=2
+2(2) + 3, 3(2)
+(7,6)
+
+t=3
+2(3) + 3, 3(3)
+(9,9)
+
+b. because for every increment in t
+you increase x by 2 and y by 3
+if you keep increasing the t and connec the 'dot'
+it forms a line perfectly.
+its not 'broken' always continuos
+also i think it has a slope right
+notsure
+
+c. lets find the slope
+A -> (3,0)
+B -> (5,3)
+
+m = (3-0)/(5-3)
+m = 3 / 2
+
+in standard equation thats
+(x,y)(3,0)
+3/2 = (0-y) / (3-x)
+3/2 = -y / 3-x ->> cross mult
+3(3-x) = 2(-y)
+6 - 3x = -2y
+-3x + 2y = -6 -> mult both sides by -1
+3x - 2y = 6
+
+_
+
+8.4.5
+let A be (5,9), B be (-3,-5) and C be (1,1)
+the median of a triangle connects a vertex of a triangle
+to the midpoint of the opposite side. for example
+the median of triangle ABC from vertex A connects A
+to the midpoint of BC
+a. find an equation describing the line that contains
+the median from A to the midpoint of BC
+b. find an equation describing the line that contanis
+the median from B to the midpoint of AC
+c. what point (x,y) is on both of the lines you found
+in parts (a) and (b)?
+d. is the point from part (c) on the median from
+C to the midpoint of AB?
+
+amswer:
+ok so we have 3 pointsh ere
+A -> (5 , 9) 
+B -> (-3,-5)
+C -> (1 , 1)
+
+it states something about the median of triangle
+
+a. ok so we need to find the midpoint bc here i think
+(-3,5) (1,1)
+midpoint BC = ((-3 + 1) / 2),((-5 + 1) / 2)
+(-1, -2)
+
+so from A -> midpoint B the points are
+(5,9),(-1,-2)
+now to find the slope
+m = (-2 - 9) /  (-1 - 5)
+m = -11 / -6
+m = 11/6
+
+so the equation is
+(x,y),(5,9)
+11/6 = 9-y / 5-x -> cross mult
+11(5-x) = 6(9-y)
+55 - 11x = 54 - 6y
+-11x + 6y = 1 -> mult both sides by -1
+11x - 6y = -1
+
+
+b. find the midpoint of AC
+(5,9),(1,1)
+(5+1 / 2),(9+1 / 2)
+(3,5)
+
+so from B -> midpoint AC we have two points
+(-3,-5),(3,5)
+
+lets find the slope
+m = (5 - (-5)) / (3 - (-3))
+m = 10 / 6
+m = 5 / 3
+
+find the equation
+(x,y),(-3,-5) 
+5/3 = (-5-y) / (-3 - x) ->> cross mult
+5(-3-x) = 3(-5-y)
+-15-5x = -15-3y
+-5x + 3y = -15 + 15
+-5x + 3y = 0 -> mult both sides by -1
+5x - 3y = 0
+
+c. lets test it
+so we have two equations
+11x - 6y = -1
+5x - 3y = 0 -> mult by -2 to elim y
+wait it needs to stay in standard form righ?
+does the elim thing not apply here so ifidothat
+5x will become -5 which contradicts A >0
+
+
+
