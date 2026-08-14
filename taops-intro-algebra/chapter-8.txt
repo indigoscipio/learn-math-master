@@ -1403,6 +1403,14 @@ m = b - y / -x
 mx + b = y
 y = mx + b
 
+alternative
+let x1,y1 ,x2,y2
+
+y1 = mx1 + b
+y2 = mx2 + b
+m(x2-x1)/(x2-x1) = m
+
+
 
 _
 
@@ -1448,12 +1456,31 @@ rearrange 3x - 5y = 7
 -y = 7 - 3x / 5
 -y = 7/5 - 3x/5
 y = -1(7/5 - 3x/5)
-y = -4/5 - (-3x/5)
-y = -4/5 + 3x/5
-y = 3x/5 - 4/5
+y = -7/5 + 3x/5
+y = 3x/5 - 7/5
 
 so the 3x/5 = 3/5x here the 3/5 part is the slope
-and the - 4/5 is where the y intercept
+and the - 7/5 is where the y intercept
+
+b. since hte sloe is 3/5
+the numerator represents the coefficient of x (A)
+and the denominator represents the coefficient of y (B)
+im not sure
+
+C = Ax + By
+C - Ax = By
+C - Ax / B = y
+C/B - Ax/B = y
+y = -Ax/B + C/B
+
+m = -A/B -> use this to find
+(3x - 5y) = 7
+-(-3/5) = 3/5
+
+===========================
+when the equation is written in Ax + By = C,
+the slope is -A/B
+===========================
 
 _
 
@@ -1498,9 +1525,36 @@ L1
 L2
 (x,y)(10,15)
 5 = (15-y) / (10-x)
+5(10-x) = 15 - y
+50 - 5x = 15 - y
+-5x + y = 15 - 50
+-5x + y = -35
+5x - y = 35
 
+so we have two equations
+3x - y = 15
+5x - y = 35
 
+lets find the x intercept of each, which means y = 0
+L1
+3x - 0 = 15
+3x = 15
+x = 5
 
+L2
+5x - y = 35
+5x = 35
+x = 7
+
+so the distance between the two x intercepts is 2 units
+also im guessing the 2 unit here if i had to guess wihout
+finding the equatinos, is the difference between
+the slope? 5 - 3 = 2? not sure
+
+alternative
+use the slope
+-15 / change in x = 3
+-15 / cange in x = 5
 
 _
 
@@ -1513,9 +1567,170 @@ at the instant they begin ellis is located 100m down the track in lane 4 and is
 heading towards them in his lane at 6m/sec. after how many seconds will the runners
 lie in a striaght line?
 
-a.
-b.
-c.
-d.
+a. let t be the number of secs the three have been running.
+write exprs for the number of meters each has run after t seconds
+b. consider the location of each runner as a point on a graph.
+what quantity might you use as the x coordinate? what quantity
+might you use as y coordinate?
+c. how can you tell if three points are on a line? use this
+to solve the problem.
 
 answer:
+
+a. ok so we have 3 things
+jon -> 3m/sec -> lane 1
+laura -> 4m/sec -> lane 2
+ellie -> 6m/sec -> lane 4
+
+jon
+d = r . t
+d = 3 . t
+
+laura
+d = r . t
+d = 4 . t
+
+ellie
+d = 6t
+t = d/6
+
+b. x coordinate =  lane number
+y coordinate = position
+
+jon -> (1,3t)
+laura -> (2,4t)
+ellie -> (4, 100 - 6t)
+
+c. find slope
+jon laura
+m = 4t-3t / 2-1
+m = t/1
+m = t
+
+jon ellie
+m = (100-6t - 3t) / 4-1
+m = 100-9t/3
+m = 100/3 - 9t/3
+m = 100/3 - 3t
+
+laura ellie
+m = 100-6t-4t / 4-2
+m = 100-10t/2
+m = 100/2 - 10t/2
+m = 50 - 5t
+
+jon laura = laura ellie
+t = 50 - 5t
+t + 5t = 50
+6t = 50
+t = 50/6
+t = 25/3
+
+; ===============================================
+
+8.5.1
+Find the slope, the x intercept and the y intercept of the lin
+y = -2x + 1 and graph the equation
+
+answer:
+ok so the equation is y = -2x + 1
+since its written in slope-intercept form
+the slope is -2
+
+x intercept is when y=0 so
+0 = -2x + 1
+-1 = -2x
+x = 1/2
+
+y intercept is x=0 so
+y = -2(0) + 1
+y = 1 (or just the +1 part)
+
+to graph it
+change in y / change in x = -2/1
+
+whichmeans everytime you move x 1 point to theright
+you move y down 2 point
+
+find start point
+x=0
+-2x + 1 =y
+y = 1 -> (0,1)
+
+x=1
+-2 + 1 = y
+-1 = y -> (1,-1)
+
+x=2
+-2(2) + 1 = y
+-4 + 1 = y
+-3 = y -> (2,-3)
+
+(0,1),(1,-1),(2,-3)
+
+; ===============================================
+
+8.5.2
+find the slope, x intercept, and y intercept of the line
+3x + 5y = 20
+
+since this has a Ax + By = C format
+the slope is the negative of -A/B
+so the slope is -3/5
+
+x intercept -> y = 0
+3x + 5(0) = 20
+3x = 20
+x = 20/3
+
+y intercept  -> x = 0
+3(0) + 5y = 20
+5y = 20
+y = 4
+
+; ===============================================
+
+8.5.3
+find the equation of the line that passes thhrough
+(0,8) and has slope -m, where m is the slope of
+the line y = 2x + 3
+
+answer:
+
+
+; ===============================================
+
+8.5.4
+Find the slope intercept form of the equation of the line
+with slope 5 and x intercept (-4,0).
+answer:
+since we know the slope =  5 and x intercept (-4,0)
+using the form
+
+y = mx + b
+y = 5x + b
+
+x intercept -> y = 0
+0 = 5x + b
+5x = -b
+x = -b / 5
+
+
+; ===============================================
+
+8.5.5
+Prove that the slope of the line ax + By = C is -A/B when
+B does not equal 0
+answer:
+
+; ===============================================
+
+8.5.6
+a. does every line have both an x intercept and y intercept?
+if so explain, if not describe all lines thatdo not have both
+x intercpet and y intercept
+b. if a line has both an x intercept and ay intercept, must these be
+two differen points?
+answer:
+
+; ===============================================
