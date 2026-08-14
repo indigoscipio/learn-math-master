@@ -1695,7 +1695,7 @@ find the equation of the line that passes thhrough
 (0,8) and has slope -m, where m is the slope of
 the line y = 2x + 3
 
-answer:
+answer: 
 
 
 ; ===============================================
