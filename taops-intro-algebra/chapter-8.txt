@@ -1696,6 +1696,15 @@ find the equation of the line that passes thhrough
 the line y = 2x + 3
 
 answer: 
+ok so we have (0,8) with slope -m
+
+y = 2x + 3 -> the slope here is 2
+
+-2 = (8-y) / (0-x)
+-2(-x) = 8-y
+2x = 8-y
+2x + y = 8
+
 
 
 ; ===============================================
@@ -1710,10 +1719,11 @@ using the form
 y = mx + b
 y = 5x + b
 
-x intercept -> y = 0
-0 = 5x + b
-5x = -b
-x = -b / 5
+0 = 5(-4) + b
+0 = -20 + b
+b = 20
+
+y = 5x + 20
 
 
 ; ===============================================
@@ -1722,6 +1732,23 @@ x = -b / 5
 Prove that the slope of the line ax + By = C is -A/B when
 B does not equal 0
 answer:
+
+ok so we wanna prove why the slope of line
+Ax + By = C is -A/B when b does not equal 0
+
+we know slope formula is
+m = delta y / delta x
+
+maybe rearrange to slope intercept??
+By = C - Ax
+y = C - AX / B
+y = -AX + C / B
+y = (-AX/B) + (C/B)
+y = (-A/B)b + (C/B)
+
+since this has the slope intercept form
+y = mx + b, then the slope must be equal to (-A/B)
+
 
 ; ===============================================
 
@@ -1733,4 +1760,257 @@ b. if a line has both an x intercept and ay intercept, must these be
 two differen points?
 answer:
 
+answer:
+a. no , i thhink horizontal lines only have y intercept
+because it doesn't have an 'angle' so eventually you stretch
+forward never reaching the x axis
+and vertical line does not y intercept because of the same reasion,
+it will never touch the y axis
+unless they are both position at (0,0) i think so theytouch
+each axis
+
+b. yeah cause the same point is just a dot right?
+if line has both intercept then both crosses at y and x axis 
+unless its like (0,0) which touches both axis at the origin, not sure
+
+
 ; ===============================================
+
+8.5.7
+mary uses a secret code to write messages
+first she translates each letter into number based on its position
+in the alphabet so that a = 1, b=2, c=3 and so on.
+
+then she mults this number by her favorite number and adds her mothsers
+favorite number. using her secret code, f becomes 65 and t becomes 177
+ 
+a. find what number M becomes without finding mary's favorite number
+b. what are marys favorite number nad her mothers favorite number
+
+answer:
+
+ok so we have some type of alphabet->number translation
+a = 1
+b = 2
+c = 3
+...
+z = 26
+
+then she muliplies this number lets call it N
+N . favN + motherN
+
+F = 65
+T = 177
+
+lets find the difference
+65 -> 177 = 112 steps
+
+now in regular alphabet in order to reach F -> T you have
+6 -> 20 = 14 steps
+
+112 / 14 = 8
+yeah doesn't make sense lets try another approahc
+
+maybe do F (6,65)
+T (20,177)
+
+m = 177-65 / 20-6
+m = 112/14
+m = 8
+ok so the slope is actually  8??
+
+8 = 65-y / 6-x
+8(6-x) = 65-y
+48 - 8x = 65 - y
+-8x + y = 65 - 48
+-8x + y = 17 -> mult both sides by -1
+8x - y = -17
+
+ok lets plug in  M which is 8
+8(13) - y = -17
+104 - y = -17
+-y = -17 - 104
+-y = -121
+y = 121
+
+alternatively
+f = 6 -> 65
+M - 13 -> (177+65/2) = 121
+t = 20 -> 177
+
+b. ok so the translation goes something like this
+(N . favN) + motherN
+
+form the previous we have
+8x - y = -17
+-y = -17 - 8x -> mult by negaitve
+y = 17 + 8x
+y = 8x + 17
+
+yeah not sure, maybe her favorite number ere is 8?
+and her mother is 17??
+
+; =========================================
+
+8.6 COMPARING LINES
+problem 8.23
+on the same cartesian plane graph both equations inthe system
+of equations
+
+5x - 2y = 11
+-2x + 3y = -11
+
+canyouuse your graph to find solution to this system of equation?
+answer:
+
+lets try to plot this
+
+1ST EQUATION
+1st slope is -5/-2 = 5/2
+lets confirm
+x=0
+0 - 2y = 11
+-2y = 11
+y = -11/2 -> (0,-11/2)
+
+x=1
+5 - 2y = 11
+-2y = 6
+y = -3 -> (1,-6/2)
+
+so the points are 
+(0, -11/2) , (1 , -6/2), (2 , -1/2), (3, 2)
+
+2ND EQUATION
+2nd slope is
+-(-2/3) = 2/3
+
+x=0
+-2x + 3y = -11
+3y = -11
+y = -11/3 -> (0 , -11/3)
+
+x=1
+-2 + 3y = -11
+3y = -9
+y = -3 -> (1 , -9/3)
+
+
+so the points are (0 , -11/3),(1,-3),(2,-7/3),(3,-5/3),(4,-1)
+
+so the solution is (1,-3) right? since both point intercept??
+notsure here
+
+; =========================================
+
+PROBLEM 8.24
+on the same cartesian plane, graph both equations in the system
+of equations
+x - 2y = 7,
+3x = 21 + 6y
+
+ok lets try this
+
+1ST EQUATION
+x - 2y = 7
+m = -(1/-2) = 1/2
+
+
+2ND EQUATION
+3x - 6y = 21
+m = -(3/-6) = 3/6 = 1/2
+
+so they both have the same slope
+if we mult 1st equation by 3
+its just the 2nd equation so itsthesame right? doineed to graphhits
+
+1ST EUQATION
+x=0
+-2y = 7
+y = -7/2 -> (0,-7/2)
+
+x=1
+1-2y = 7
+-2y = 6
+y = -3 -> (1,-6/2)
+
+(0,-7/2),(1,-6/2),(2,-5/2),(3,-4/2),...
+
+2nd EQUATION
+x=0
+3x - 6y = 21
+-6y = 21
+y = -21/6 -> (0,-7/2)
+
+x=1
+3 - 6y = 21
+-6y = 18
+y = -3 -> (1,-6/2)
+
+yeah ithnk theysit onthesameline??
+
+
+; =========================================
+
+
+8.25
+on the same cartesian plane graph both equations in the system
+of equations
+
+3x = 5y - 1
+10y = 6x - 8
+
+a. what is the slope of each line?
+b. how are the two lines related?
+c. can you come up with a general rules that this problem reprsents?
+
+answer:
+a.
+
+EQUATION 1
+3x - 5y = -1
+slope = -(3/-5) = 3/5
+
+EQUAITON 2
+10y - 6x = -8
+slope = -(10/-6) = 5/3
+
+b. the slopes have reciprocal valoe of each other right??
+not sure.
+
+c. lets just try to plot this
+EQUATION 1
+
+x=0 -> 3x - 5y = -1 -> -5y = -1 -> y = 1/5 -> (0,1/5)
+x=1 -> 3 - 5y = -1 -> -5y = -4 -> y = 4/5 -> (1,4/5)
+so the points are
+(0,1/5)
+(1,4/5)
+(2,7/5)
+(3,10/5) -> (3,2)
+
+EQUATION 2
+10y - 6x = -8 -> divide both sides by 2
+5y - 3x = -4
+wait a minute lets compare
+
+3x - 5y = -1
+5y - 3x = -4
+
+-5y + 3x = -1
+ 5y - 3x = -4
+ __________________ +
+ 0 = -5
+ hmm maybe this is not related
+
+ x=0 -> 5y - 3x = -4 -> 5y = -4 -> y = -4/5
+ x=1 -> 5y - 3 = -4 -> 5y = 1 -> y = 1/5
+ sothe points are
+ (0, -4/5)
+ (1, 1/5)
+ (2, 6/5)
+ (3, 11/5)
+ (4, 16/5)
+
+; =========================================
+
