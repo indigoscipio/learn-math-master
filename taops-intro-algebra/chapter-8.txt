@@ -2191,3 +2191,195 @@ whose product is -1, then they are perpendicular
 1/2 . x = -1
 x = -1 . 2
 ========================================
+
+EXERCISES
+8.6.1
+line l is perpendicular to the graph of 2x + 3y = 5
+and has the same x intercept as the graph of 2x + 3y = 5
+find the standard form of the equation whose graph is l
+
+answer:
+ok so have one line with equation 2x + 3y = 5
+and line l is perpendicular to that which means
+its slope is negative reciprocal
+
+lets find the slope for original line
+2x + 3y = 5
+m = -(2/3) = -2/3
+
+which means the slope of line l is
+- (1 / (-2/3)) = 3/2
+
+lets convert original line to slope intercept form
+2x + 3y = 5
+3y = 5 - 2x
+y = 5 - 2x / 3
+y = -2x + 5 / 3
+y = (-2/3)x + 5/3
+
+lets find the x intercept of the original line
+2x + 3y = 5 -> y = 0
+2x = 5
+x =  5/2 -> (5/2,0)
+
+so using line ls slope we have
+y = mx + b
+0 = 3/2(5/2) + b
+0 = 15/4 + b
+b = -15/4
+
+so the equation is
+y = 3/2x - 15/4 -> mult both sides by 4
+4y = 6x - 15
+4y - 6x = -15 -> mult by -1
+6x - 4y = 15
+
+_
+
+8.6.2
+find an equation whose graph is a line passing through (2,7)
+that is parallel to the line x - 5 = 3y
+
+answer:
+ok so we have line 1
+x - 5 = 3y
+
+and the other line is psasing thourh (2,7)
+and is parallel to line 1
+
+since its parallel itsslope is equal
+
+lets find slope for line 1
+x - 5 = 3y
+x - 3y = 5
+m = -(1/-3)= 1/3
+
+plug in with x,y = (2,7)
+y = mx + b
+7 = 1/3(2) + b
+7 = 2/3 + b
+7 - 2/3 = b
+21-2/3 = b
+19/3 = b
+
+so the equation is
+y = 1/3x + 19/3 in slope intercept form
+
+and in standard form
+y = 1/3x + 19/3 -> mult both sides by 3
+3y = x + 19
+3y - x = 19 -> mult both sides by -1
+-3y + x = -19
+x - 3y = -19
+
+
+_
+
+8.6.3
+the graphs of the equations 2x - By = 7 and Ax + 3y = 10
+are both the same line
+find A and B.
+
+answer:
+ok so since the two lines are the same line
+then the slope, x intercept and y intercept is the same right?
+and it has infinitely many solution?
+
+lets find slope
+EQ1
+2x - By = 7
+slope = -(2/-B) = 2/B
+
+in slope intercept form
+2x - By = 7
+-By = 7 - 2x
+-y = 7 - 2x / B
+y = -7 + 2x / B
+y = 2x - 7 / B
+y = (2/B)x - 7/B
+
+eq2
+Ax + 3y = 10
+slope = -(A/3) = -A/3
+
+in slope intercept form thats
+Ax + 3y = 10
+3y = 10 - Ax
+y = 10 - Ax / 3
+y = -Ax + 10 / 3
+y = (-A/3)x + 10/3
+
+since they are both equal
+their y intercept must be equal
+and their slope must be equal
+
+1. their y intercept must be equal
+10/3 = -7/B -> cross mult
+-7(3) = 10(B)
+-21 = 10B
+B = -21/10
+
+2. their slope must be equal
+2/B = -A/3 -> cross mult
+-A(B) = 2(3) -> subst B
+-A(-21/10) = 6
+21/10A = 6
+A = 6 . 10/21
+A = 60/21
+A = 20/7
+
+_
+
+8.6.4
+a. graph the lines 3x - 2y = k for k = 1,2,3,4
+b. how are the lines related?
+c. how can you quickly use the graphs of 3x - 6y = 4
+to produce the graph of 3x - 6y = 10?
+
+lets find slope
+3x - 2y = k
+m = -(3/-2) = 3/2
+
+k=1
+3x - 2y = 1
+x=0 -> -2y = 1 -> y = -1/2 -> (0,-1/2)
+x=1 -> 3 - 2y = 1 -> -2y = -2 -> y = 1 -> (1,1) 
+so the points are
+(0,-1/2)
+(1,2/2)
+(2,5/2) ... etc
+
+
+k=2
+3x - 2y = 2
+x=0 -> -2y = 2 -> y = -1 -> (0,-1)
+x=1 -> 3 - 2y = 2 -> -2y = -1 -> y = 1/2 -> (1,1/2)
+so the points are
+(0,-2/2)
+(1,1/2)
+(2,4/2) ...
+
+k=3
+3x - 2y = 3
+x=0 -> -2y = 3 -> y = -3/2 -> (0,-3/2)
+x=1 -> 3 - 2y = 3 -> -2y = 0 -> y = 0 -> (1,0)
+so the poitns are
+(0,-3/2)
+(1,-0/2)
+(2,3/2) ...
+
+b.
+so it seems that since the graph has equal slope
+only k is the dynamic variable the slope stays for each
+value k whic means this those lines are parallel
+but they are not the same line (has different x/y intercept)
+it seems only changing in like y position
+
+c. 
+
+
+_
+
+8.6.5
+find a and b if the graph of ax + 2y = b passes through (2,5)
+and is parallel to 3x - 5y = 7
