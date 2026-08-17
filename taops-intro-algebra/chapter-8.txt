@@ -2371,11 +2371,15 @@ so the poitns are
 b.
 so it seems that since the graph has equal slope
 only k is the dynamic variable the slope stays for each
-value k whic means this those lines are parallel
+value k whic means this those lines are parallel?
 but they are not the same line (has different x/y intercept)
 it seems only changing in like y position
 
-c. 
+c. ok im not sure about this one here but
+maybe just same line with same slope but position the y axis
+differently, so 10 - 4 = 6
+so maybe move 6 units in the y durection? not sure if its up or down
+
 
 
 _
@@ -2383,3 +2387,288 @@ _
 8.6.5
 find a and b if the graph of ax + 2y = b passes through (2,5)
 and is parallel to 3x - 5y = 7
+
+answer:
+ok so we have the graph
+ax + 2y = b
+that passes through (2,5) and that line is parallel to
+3x - 5y = 7
+
+we wanna find the value a and b
+
+find slope for 1st equation
+m = -a/2
+
+lets find the slope for the 2nd equation
+3x - 5y = 7
+m = -(3/-5) = 3/5
+
+lets find slope intercept form for both
+EQ1
+ax + 2y = b
+2y = b - ax
+y = b - ax / 2
+y = -ax + b / 2
+y = -(a/2)x + b/2
+
+EQ2
+3x - 5y = 7
+-5y = 7 - 3x
+-y = 7 - 3x / 5
+y = -7 + 3x / 5
+y = 3x - 7 / 5
+y = (3/5)x - 7/5
+
+since the target line is parallel to eq2 then its slope must be
+equal to each other so
+
+m1 = m2
+-a/2 = 3/5 ->> cross mult
+-a(5) = 2(3)
+-5a = 6
+a = -6/5
+
+now lets find b, plug in x,y = (2,5)
+y = -(a/2)x + b/2
+5 = -(a/2)2 + b/2
+5 = -a + b/2
+5 = -(-6/5) + b/2
+5 = 6/5 + b/2
+5 - 6/5 = b/2
+19/5 = b/2
+19/5(2) = b
+38/5 = b
+
+; ===============================================
+
+REVIEW problems
+8.28
+find t fuch that (t,5) lies on the line through (0,3) and
+(-8,0).
+
+answer:
+lets find the slope
+x1, y1 = (0,3) -> y intercept is b = 3
+x2, y2 = (-8,0) -> x intercept is -8
+
+m = 0-3 / -8 - 0
+m = -3 / -8
+m = 3/8
+
+y = mx + b
+y = 3/8x + 3
+
+subst x,y = (t,5)
+5 = 3/8(t) + 3
+5 - 3 = (3/8)t
+2 = (3/8)t
+2 . 8/3 = t
+16/3 = t
+
+_
+
+
+8.29
+compute |1 - |2 - |3 - |4 - |5|||||
+answer:
+lets dothis one by one
+|5| -> 5
+
+|4 - 5| -> |-1| -> 1
+|3 - 1| -> |2| -> 2
+|2 - 2| -> |0| -> 0
+|1 - 0| -> |1| -> 1
+so i think the answer is 1 here
+
+_
+
+8.30
+consider the points (1,-2) and (-5,6)
+a. find the distance between the two points
+b. what are the coordinates of the midopint of the segment
+connecting these poitns?
+c. find the slope of the line through both points
+d. find the standard form of the equation whose graph is the line
+through both points
+
+answer:
+a. ok so the distance is
+(6 - -2)^2 + (-5 - 1)^2 = d^2
+8^2 + -6^2 = d^2
+64 + 36 = d^2
+d^2 = 100
+d = 10
+
+b. the midpoint coordinates are
+((1 + -5) / 2),((-2 + 6) / 2)
+(-4 / 2),(-4 / 2)
+(-2,-2)
+
+c. lets find the slope
+x1,y1 = (1 , -2)
+x2,y2 = (-5,  6)
+
+m = delta_y / delta_x
+m = (6 - -2)/(-5 - 1)
+m = 8 / -6
+m = -4/3
+
+d. ok lets try writing in slope itnercept first htne convert
+y = -(4/3)x + b
+
+maybe plug in x,y = (1,-2)
+-2 = -(4/3)1 + b
+-2 = -4/3 + b
+-2 + 4/3 = b
+-2/3 = b
+b = -2/3
+
+converting back to standdard form
+y = -(4/3)x - 2/3 -> mult both sides by 3
+3y = -4x - 2
+3y + 4x = -2
+4x + 3y = -2
+
+_
+
+8.31
+A is a constant such that the graph of the equation Ax - 3y = 6
+passes through the point (1,-3). find A
+
+answer:
+ok so we have the equation
+Ax - 3y = 6
+lets find the slope
+m = -(A/-3) = A/3
+
+converting to slope intercept form
+Ax - 3y = 6
+-3y = 6 - Ax
+-y = 6 - Ax / 3
+y = -6 + Ax / 3
+y = Ax - 6 / 3
+y = (A/3)x - 6/3
+
+plug in the points (x,y) = (1,-3)
+y = (A/3)x - 6/3
+-3 = (A/3)1 - 2
+-3 + 2 = A/3
+-1 = A/3
+A = -1 . 3
+A = -3
+
+_
+
+8.32
+answer:
+the lines k,l,and m are graphed at the right.
+one line has slope -3/4
+one has slope 1/6
+and one has slope 2
+without findint the coordinates of any points on any of the lines
+determine which line is which
+
+answer:
+lets analyze one by one
+line l: since its direction is top left to down right, the 
+slope here must be negative.sinec the only negative value is -3/4
+therefore this one is the one
+
+line m: here the slope is positive (bottom left -> up right) and more than 1 cause of the
+extreme steepness, almost touches the y axis
+line k: here the slope must be positive (bottom left -> up right) and
+slope must be less than 1 since its almost flat, almost touhces the
+x axis
+
+so line l has the slope -3/4
+line m has the slope of 2
+and line k has the slope of 1/6
+
+_
+
+8.33
+find the standard form of the equation of line M shown on the right
+answer:
+ok so continuing from the previous question
+we only know the slope here which is 2
+
+which meeans
+slope = change in y / change in x
+slope = 2/1
+
+so every +1 increment in x, you increment +2 in y
+
+x=0 -> y=2 -> (0,2)
+x=1 -> y=3 -> (1,4) ...
+
+confirming the slope
+m = 4-2 / 1-0 = 2/1 = 2
+
+now lets find the equation with x,y = (0,2)
+y = 2x + b
+2 = 2(0) + b
+2 = b
+
+so we have
+y = 2x + 2
+in standard form thats
+y - 2x = 2
+-2x + y = 2 -> mult by -1
+2x - y = -2
+
+
+_
+
+8.34
+find a formula for the distance from the point
+(x1,y1) to the origin
+
+answer:
+ok so lets say we have
+point x1 = 1, y1 = 2
+and x,y is the origin point (0,0)
+
+lets calculate the distance with the distance formula thing 
+(0-1)^2 + (0-2)^2 = d^2
+-1^2 + -2^2 = d^2
+1 + 4 = d^2
+d = sqrt(5)
+
+so its basically just square it like literally pythagorean theorem
+we dont even need to calulate the distance to 2nd point?? since 
+the origin is already 0,0
+
+im not sure about the generalization/formula here but let me try
+(x - x1)^2 + (y - y1)^2 = d^2
+since x any y is zero we can subst
+-x1^2 - y1^2 = d^2
+... or someting like that, not sure
+
+(x - x1)(x - x1) + (y - y1)(y - y1) = d^2
+x^2 
+
+_
+
+8.35
+
+_
+
+8.36
+
+_
+
+8.37
+
+_
+
+8.38
+
+_
+
+8.39
+
+_
+
+8.40
+
+_
