@@ -2501,8 +2501,8 @@ d = 10
 
 b. the midpoint coordinates are
 ((1 + -5) / 2),((-2 + 6) / 2)
-(-4 / 2),(-4 / 2)
-(-2,-2)
+(-4 / 2),(4 / 2)
+(-2,2)
 
 c. lets find the slope
 x1,y1 = (1 , -2)
@@ -2642,33 +2642,331 @@ im not sure about the generalization/formula here but let me try
 (x - x1)^2 + (y - y1)^2 = d^2
 since x any y is zero we can subst
 -x1^2 - y1^2 = d^2
-... or someting like that, not sure
 
-(x - x1)(x - x1) + (y - y1)(y - y1) = d^2
-x^2 
+or alternatively
+d^2 = (x1 - 0)^2 + (y1 - 0)^2
+d^2 = x1^2 + y1^2
+basically just basic pythagorean theorem
 
 _
 
 8.35
+find hte euqation in standard form of the line that passes through
+(4,0) and has slope -1/3. graph the equation.
+
+answer:
+ok so we have a line with slope -1/3 that passes through (4,0)
+
+y = mx + b
+y = (-1/3)x + b
+
+substitute (x , y) = (4 , 0) which means y=0 so wecan
+find the xintercept
+y = (-1/3)x + b
+0 = (-1/3)4 + b
+0 = -4/3 + b
+b = 4/3
+
+so now we have
+y = mx + b
+y = (-1/3)x + 4/3
+
+converting to standard form thats
+y = (-1/3)x + 4/3 ->> mult both sides by 3
+3y = -x + 4
+3y + x = 4
+x + 3y = 4
+
+and to plot it just do
+x=0 -> 3y = 4 -> y = 4/3 -> (0,4/3)
+x=1 -> 1 + 3y = 4 -> 3y = 3 -> y = 1 -> (1,1) ... etc
 
 _
 
 8.36
+what is the slope of the equation x = -3? graph the equation.
+since we have a line x=-3 this hmeans
+its a vertical line, and it has undefined/infinite slope
+its a vertical line that passes through -3
+
 
 _
 
 8.37
+find the x intercept and the y intercept of
+the line that passes through (3,-7) and (-3,5)
 
-_
+answer:
+ok so we have 2 points
+point A -> ( 3,-7)
+point B -> (-3, 5)
+
+lets find the slope
+m = (5 - -7) / (-3 - 3)
+m = 12 / -6
+m = -2
+
+y = mx + b
+y = -2(x) + b
+
+lets plug in with x,y from point A
+x,y = (3 , -7)
+-7 = -2(3) + b
+-7 = -6 + b
+-7 + 6 = b
+-1 = b
+
+x,y = (-3 , 5)
+5 = -2(-3) + b
+5 = 6 + b
+5 - 6 = b
+b = -1
+
+so now we have
+y = -2(x) + -1
+
+find the y intercept -> x=0
+y = -2(0) + -1
+y = -1
+
+find the x intercept -> y = 0
+0 = -2(x) + -1
+0 = -2x - 1
+-2x = 1
+x = -1/2
+
+_____________________________
 
 8.38
+find the slope, x intercept and y intercept of the graph
+of the equation 2x - 3y + 9 = 0
+graph the equation
+
+answer:
+ok so we have the equation
+2x - 3y + 9 = 0 -> rearrange to standard form
+2x - 3y = -9
+
+m = -(2/-3) = 2/3
+so the slope is 2/3
+
+now find the y intercept
+lets rearrange to slope intercept form
+2x - 3y = -9
+-3y = -9 -2x
+-y = (-9 - 2x) / 3
+y = 9 + 2x / 3
+y = 2x + 9 / 3
+y = (2/3)x + 9/3
+y = (2/3)x + 3
+
+ok so the y intercept here is 3
+now lets find the x intercept ->> y = 0
+0 = (2/3)x + 3
+-3 = 2/3x
+-3 . 3/2 = x
+-9/2 = x
+x = -9/2
 
 _
 
 8.39
+show that for any two real numbers a and b, the number (a+b)/2
+is the same distance from a as it is from b on the number lie
+
+answer:
+ok lets explore this one y one
+
+both positive
+a=2, b=4
+2+4 / 2 = 3
+distance from 2 -> 3 = 1
+distance from 4 -> 3 = 1
+
+both negative
+a = -2, b = -4
+-2 + - 4 / 2 
+-6 / 2 = -3
+distance from -2 -> -3 = 1
+distance from -4 -> 1
+
+one positive and one negative
+a=0, b=4
+0 + 4/2 = 4/2 = 2
+distance from 0 -> 2 = 2
+distance from 4 -> 2 = 2
+
+generalization
+(a + b / 2) =  a/2 + b/2 or something i dontknow
+a/2 -> midpoint from a to origin
+b/2 -> midpoint from b to origin 
 
 _
 
 8.40
+points A,B,C and D are on the cartesian plane such that the slope
+of the line  through A and B = the slope of the line throguh C and D
+are the four points necessarily all on the same line?
+
+answer:
+ok so we have 4 poitns
+and we know slope through line AB = slope through line CD
+question asks if the four points are one the same line?
+
+i think this depends on the shift factor right? if both lines
+have different  shift like x position and y position shift but
+the slope remains the same then the two lines are then parallel
+
+but if they are like identical, i mean the equation of the two
+liens are identical and has equal x intercept and y intercept,
+ then it has infinitely solution and therefore are on the same line.
+
 
 _
+
+8.41
+the slpoe of a line is -2
+and its x intercept is (5,0). what is the y intercept of the line?
+answer:
+
+ok so we have a line but we only know the slope and x intercept
+m = -2
+x intercept is (5,0)
+
+lets plug in with the slope intercept form
+
+y = mx + b
+y = -2(x) + b
+
+since we have the x intercept, plug hose in and find b
+which is the y intercept coordinate
+x,y ->  (5,0)
+0 = -2(5) + b
+0 = -10 + b
+b = 10
+
+so the y intercept is 10
+
+_
+
+8.42
+let P be (-3,7) and Q be (5,-12)
+a. find the midpoint of PQ
+b. find the point T on PQ such that PT/TQ = 1/3
+
+answer:
+ok so we have 2 poitns
+P -> (-3 ,  7)
+Q -> (5  ,-12)
+
+a. find the midpoint
+(-3 + 5)/2 , (7 - 12) / 2
+2/2 , -5/2
+1,-5/2
+so we have the midpoint M = (1,-5/2)
+
+b. ok so we have a point T
+which divides into
+PT : TQ = 1 : 3 so TQ part is longer
+therefore we have the ratio
+
+PT = 1/4 PQ
+TQ = 3/4 PQ
+
+calculate seperately
+change in y -> -19
+change in x ->  8
+
+y offset -> 1/4 . -19 = -19/4
+x offset -> 1/4 . 8 = 2
+
+add to the first point
+for x the limit is 5
+for y the limit is -12
+
+-3 + 2 = -1
+7 + -19/4 = 28-19/4 = 9/4
+
+so the point T  should be  at (-1,9/4)
+
+_
+
+8.43
+find the standard form of the equation of theline through
+(4,1) that is perpendicular to the line 2x = -3y + y
+
+answer:
+so we have 2 line
+original line equation
+2x = -3y + 3
+2x + 3y = 3
+m = -(2/3)
+
+since the target line is perpendicular
+the target line's slope must be negative reciprocal
+so its -(1/(-2/3)) = 3
+
+lets plug it in
+y = mx + b
+y = 3x + b
+
+with x,y = (4,1)
+1 = 3(4) + b
+1 = 12 + b
+b = -11
+
+plug that back in
+y = 3x - 11 -> now translate to standard form
+-3x + y = -11 -> mult both sides by -1
+3x - y = 11
+
+_
+
+8.44
+find the standard form of the euqation of the line through (8,-3)
+that is parallel to the line 3y = 4x + 8
+
+answer:
+3y = 4x + 8
+3y - 4x = 8
+-4x + 3y = 8
+
+m = -(-4/3) = 4/3
+since the target line is parallel therefore they both have
+the same slope. lets plug it in slope intercept form
+
+y = mx + b
+y = (4/3)x + b
+
+subst x,y = 8,-3
+y = (4/3)x + b
+-3 = (4/3)8 + b
+-3 = 24/3 + b
+-3 = 8 + b
+-3 - 8 = b
+b = -11
+
+ok so now we have this, lets translate to std form
+y = (4/3)x - 11 -> mult both sides by 3
+3y = 4x - 33
+3y - 4x = -33 -> mult both sides by -1
+-3y + 4x = 33
+4x - 3y = 33
+
+_
+
+8.45
+determind wheter each of the following statements is true or false
+if it is false, provide an example showing why.
+
+a. the absolute value of any real number is positive
+b. the equation of every line can be written in the form Ax + By = C
+for some real number A,B, and C
+
+answer:
+a. true
+b. ok not sure about this one but i would add restriction to A?
+if i remmeber a must be nonzero positive cos we have sthe slop in the form
+m = -(A/B) so if we have 
+
+c. 
