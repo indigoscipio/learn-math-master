@@ -2801,6 +2801,20 @@ generalization
 a/2 -> midpoint from a to origin
 b/2 -> midpoint from b to origin 
 
+(a + b / 2) - a
+(a + b)/2 - 2a/2
+a + b - 2a/2
+(b - a) / 2
+
+now lets find distance from b
+(a + b / 2) - b
+(a + b)/2 - 2b/2
+a - b/2 ->> mult by -1
+-(b - a / 2)
+
+since distance on number line is measured in positive value
+| b - a / 2 | = | a - b / 2 | = |b - a| / 2
+
 _
 
 8.40
@@ -2904,21 +2918,23 @@ m = -(2/3)
 
 since the target line is perpendicular
 the target line's slope must be negative reciprocal
-so its -(1/(-2/3)) = 3
+so its -(1/(-2/3)) = 3/2
 
 lets plug it in
 y = mx + b
-y = 3x + b
+y = (3/2)x + b
 
 with x,y = (4,1)
-1 = 3(4) + b
-1 = 12 + b
-b = -11
+1 = 3/2(4) + b
+1 = 6 + b
+b = -5
 
 plug that back in
-y = 3x - 11 -> now translate to standard form
--3x + y = -11 -> mult both sides by -1
-3x - y = 11
+y = 3/2x - 5 -> now translate to standard form
+2y = 3x - 10
+2y - 3x = -10 -> mult both sides by -1
+3x - 2y = 10
+
 
 _
 
@@ -2941,17 +2957,17 @@ y = (4/3)x + b
 subst x,y = 8,-3
 y = (4/3)x + b
 -3 = (4/3)8 + b
--3 = 24/3 + b
--3 = 8 + b
--3 - 8 = b
-b = -11
+-3 = 32/3 + b
+-3 - 32/3 = b
+-9-32/3 = b
+b = -41
 
 ok so now we have this, lets translate to std form
-y = (4/3)x - 11 -> mult both sides by 3
-3y = 4x - 33
-3y - 4x = -33 -> mult both sides by -1
--3y + 4x = 33
-4x - 3y = 33
+y = (4/3)x - 41 -> mult both sides by 3
+3y = 4x - 41
+3y - 4x = -41 -> mult both sides by -1
+-3y + 4x = 41
+4x - 3y = 41
 
 _
 
@@ -2962,11 +2978,207 @@ if it is false, provide an example showing why.
 a. the absolute value of any real number is positive
 b. the equation of every line can be written in the form Ax + By = C
 for some real number A,B, and C
+c. the equation of eveyr line can be written in the form y = mx +  b
+for some real numbers m and b
+d. every line has both an x intercept and y intercept
+e. the x intercept of the lin 2 = 2x + 3 is (0,3)
+f. if the product of the slopes of two lines is -1 then the two lines
+are perpendicular
+g. if two lines are perpendicular then the prodcut ofr heir slope is -1
+h. if two lines are parallel they either are both veritcal
+or they have the same slope
 
 answer:
-a. true
-b. ok not sure about this one but i would add restriction to A?
-if i remmeber a must be nonzero positive cos we have sthe slop in the form
-m = -(A/B) so if we have 
+a. false -> 0 is not negaitve and not positive
+b. true
+c. false, you cannot plug 'undefined' slope/ vertical slope
+vertical line cannot be written in this form
+d. false, vertical/horizontal line can only have 1 intercept axis
+(except they its at 0,0)
+e. lets calculate if the x intercept is (0,3)
+y = 2x + 3
+wait actually x intercept is when y=0 right? so it shoudl eb (??,0)
+so ithink this is false
+f. true
+g. false, what if
+one line is vertialc and other ish orizontal?
+vertical line has no numericla slope to multiply
 
-c. 
+
+example:
+y = 2, x = 3
+they are both perpendicular, meet at 90 deg angle
+m1 = 0 , m2 = undef
+their product is undefined
+m1 . m2 = -1 is good shortcut but only works when neither line
+is vertical
+
+h. true
+becuase this ocvers
+non vertical lines and vertical lines
+
+_ 
+
+8.46
+a line has equation x = my + b for some real nonzero constants m and b
+a. in terms of m and/or b, what is the x-intercept of this line? 
+b. in terms of m and/or b, what is the slope of this line?
+
+answer:
+ok so we have an equation x = my + b
+
+a. we wanna find x intercept in term of m or b
+
+x = my + b -> plug in y =0 to find x intercept
+x = 0 + b
+x = b
+
+b. convert to slope intercept form
+x = my + b
+y = x - b / m
+y = x/m - b/m
+y = (1/m)x - b/m
+
+so the slope is 1/m 
+
+
+_
+
+8.47
+a. find A if the graph of the equaion Ax + 3y = 5 is parallel
+to the graph 5x - 2y = 4
+b. find B if the graph of the equation 3x = By + 2 is perpendicular
+to the graph of 3y = -2x + 4
+c. find A and B if the graph of the equation Ax + 3y = B produces
+the same line as the graph of the equation 2x + 6y = 7
+
+answer:
+a. ok so we have 2 lines
+
+line A -> Ax + 3y = 5
+line B -> 5x - 2y = 4
+
+line A is parallel to line B which means
+they both have the same slope with each other lets find the slope
+
+5x - 2y = 4
+m = -(5/-2) = 5/2
+
+y = mx + b
+y = (5/2)x + b
+
+Ax + 3y = 5
+3y = 5 - Ax
+y = (5 - Ax) / 3
+y = -Ax + 5 / 3
+y = (-A/3)x + 5/3
+
+since they have equal slope
+5/2 = -A/3 ->> cross mult
+5(3) = 2(-A)
+15 = -2A
+A = -15/2
+
+
+b. we have 2 lines
+line A -> 3x = By + 2
+line B -> 3y = -2x + 4
+
+since they are perpenticular their slope is
+negative reciprocal of each other
+lets find the slopes
+
+line B slope
+3y = -2x + 4
+y = (-2x + 4)/3
+y = (-2/3)x + 4/3
+
+so line B's slope is -2/3
+which means line A slope must be equal to 3/2
+
+lets rearrange line A to slope intercept
+3x = By + 2
+3x - 2 = By
+y = (3x - 2) / B
+y = (3/B)x - 2/B
+
+3/B = 3/2 ->> cross mult
+3(2) = B(3)
+6 = 3B
+B = 2
+
+
+c. ok so we have two lines which is the same line
+which means theyare equal / identical to each other
+same interecpts, same slopes.
+
+line A -> Ax + 3y = B
+line B -> 2x + 6y = 7
+
+fine line A slope
+Ax + 3y = B
+3y = B - Ax
+y = (B - Ax) / 3
+y = (-Ax + B) / 3
+y = (-A/3)x + B/3
+
+find line B slope
+2x + 6y = 7
+6y = 7 - 2x
+y = 7 - 2x / 6
+y = -2x + 7 / 6
+y = (-2/6)x + 7/6
+y = (-1/3)x + 7/6
+
+lets find A first, since they are on the smae line
+slope must be equal
+-A/3 = -1/3 ->> cross mult
+-A(3) = 3(-1)
+-3A = -3
+A = 1
+
+now lets find B
+B/3 = 7/6 ->> cross mult
+B(6) = 3(7)
+6B = 21
+B = 21/6
+
+_
+
+8.48
+does any line have neither an x intercept nor a y intercept?
+if so, give an example.
+
+answer:
+i think since this is a line it must have at least one intercept
+ifi t was just a point coordinate it could have neither x and y
+intercept, just poistion like at (1,1) but since this is  a line
+it stretches like infinitely? i mean it was bound to 
+cross the axis eventuall right? so there needs like a distance
+unless if its like a limited line where it starts at for examle
+(1,1) so it doesn't stretch all the way to cross
+the axis negative part at the start the nits possible.
+
+END OF CHAPTER 8 REVIEW PROBLEMS
+-
+
+; ==============================================
+CHALLENGE PROBLEMS
+8.49
+_
+8.50
+the midpoint of the segment connecting (a,b) and (b,a) is (x,y)
+express y in terms of x
+_
+8.51
+if |x-3| = 4, what are all possible real values of x?
+_
+8.52
+
+_
+8.53
+_
+8.54
+_
+8.55
+_
