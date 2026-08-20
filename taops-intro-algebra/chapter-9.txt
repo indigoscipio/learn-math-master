@@ -1,0 +1,63 @@
+CHAPTER9 : INEQUALITY
+
+problem 9.1
+a. b > j
+j > p
+b > p
+yes, since 
+b > j > p then b > p
+
+b. if a > b and b > c, is a > c ?
+a > b 
+b > c
+
+a > c?
+yes, a > b > c so a > c
+
+c. if a > b and b < c, do we know which of a and c is larger?
+a > b
+b < c which also means c > b
+
+no we do not know
+lets asy a = 5
+b = 2
+but then c = 7
+abd c can also be 3 or also 5
+technically c could still be bigger than a or less than a or even equal i think
+
+
+;==============
+
+problem 9.2
+a. bg > wb
+woth won 100m lottery
+yeah so thats basically the same as
+
+bg + 100,000,000 > wb + 100,000,000
+which still makes the equation true and also same goes either way
+with negative
+so bg stillhave more money either way
+
+b.
+
+9 > 7
+-2 > -4
+
+7 + a  > 5 + a
+
+
+c.
+
+d.
+
+e.
+
+;==============
+
+problem 9.3
+
+;==============
+
+problem 9.4
+
+;==============
