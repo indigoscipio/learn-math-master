@@ -44,20 +44,348 @@ b.
 -2 > -4
 
 7 + a  > 5 + a
+let a = 3
+so then its 10 > 8
+let a = 0
+so then its 7 > 5
+let a = -3
+so then its 4 > 2
+LHS still larger so 7 + a still larger for any number a
 
+c. x > y
+c > 0
 
-c.
+x + c vs y + c
+we wanna know which one is larger
 
-d.
+since c is constant > 0 then it just 
+x + constant > y + constant
+so x is still larger than y whatever value c is
 
-e.
+and which is larger x - c or y - c
+since x > y and c is the same then thatsjust the same so
+the x part is still larger so x - c > y - c
+
+d. 7 > 5
+3 > 2
+
+we wanna know which is larger 7 + 3 or 5 + 2
+10 > 7 so 7 + 3 is larger than 5 + 2
+
+then it asks if x > y and a > b
+then x + a > y + b
+
+lets say small example
+x = 10
+y = 9
+which satisfied x > y
+
+a = 1
+b = 0
+which basically statisfies a > b
+
+then that would make
+10 + 1 > 9 + 0
+11 > 9 
+so yeah ithink its true
+
+e. 7 > 5
+3 > 2
+
+7 + 2 > 5 + 3
+9 > 8
+
+question asks is it true if
+x > y and
+a > b then
+x + b > y + a?
+
+answer:
+let 
+x = 0
+y = -1
+
+a = 101
+b = 100
+
+0 + 100 > -1 + 101
+100 > 100
+so its false
 
 ;==============
 
 problem 9.3
+a. which is larger, 7 x 4 or 5 x 4? which is larger, 7/3 or 5/3?
+b. for the rest of this problem, suppose that x > y, and a > 0.
+why must x - y > 0?
+c. must (x-y)a be positive?
+d. show that xa > ya
+
+answer:
+a. 
+28 vs 20
+so 7 x 4 > 5 x 4
+7/3 vs 5/3
+7/3 > 5/3
+2 1/3 > 1 2/3
+
+b. x > y
+a > 0
+
+if we have
+x > y -> subtract bth sides by y
+x - y > y - y
+x - y > 0
+
+example, if we have
+x = 3
+y = 2
+3 > 2
+3 - 2 > 0
+1 > 0 so its true
+
+negative case
+x = -2
+y = -3
+
+-2 - (-3) > 0
+-2 + 3 > 0
+1 > 0 so its also true
+
+c. must (x-y)a be positive?
+ok so we have x > y and a > 0
+
+then since a positive integer then (x-y) will be positive
+as long as the result of (x-y) is also positive
+
+now to check (x-y) is positive rsult
+since in the previous quetsion we know x-y > 0 this means
+it will always be positive integer
+
+since (x-y) is positive
+and a is positive
+then positive . positive = positive 
+
+d. show that xa > ya
+divide both sides by a since theyre both multiplied by th same constant
+x > y
+since x > y we sassumed earlier
+so its also true
 
 ;==============
 
 problem 9.4
+suppose x,y,a and b are all positive and that x > y and a > b
+a. show that xa > ya 
+b. show that ya > yb
+c. show that xa > yb
+d. is it true that x/a > y/b
+e. what happens if some ofthe variables are allowed to be negative?
+
+answer:
+ok so we have 4 positive integers xyab
+x > y and a > b
+
+a. ok so we have
+x > y -> multiply both sides by a
+x . a > y . a
+xa > ya
+isnce a is positive integer multiplying by positive still keeps
+the same inequality sign
+
+b. since we know a > b
+mult boths ides by y gives
+ay > by
+ya > ba
+since y is positive, multiplying a and b still keeps the inequality
+sign unnchanged
+
+
+c. xa > yb
+since w have
+
+xa > ya
+and ya > yb
+tgeb we gave xa > ya > yb
+therefore we have xa > yb
+
+d. is it true that x/a > y/b?
+since a > b
+and x > y
+lets say a = 2
+b = 1
+
+x/2 > y/1
+x/2 > y
+
+lets say
+x = 20
+y = 10
+
+20/2 > 10
+10 > 10
+so false
+
+e. 
+in part a, when we do xa > ya
+then we'd multiply both side negative
+x > y
+x . -a > y . -a
+-xa > -ya
+xa < ya
+
+in part c (xa > yb)
+
+
 
 ;==============
+
+problem 9.5
+a. which is larger, 7 x (-4) or 5 x (-4)? whch is larger
+7/(-3) or 5/(-3)? 
+b. for any negative integer a, which is larger, 7a or 5a?
+c. if x > y and a < o then what can we say about
+the quantities xa and ya/
+
+answer:
+a. 7 . -4 = -28
+5 . -4 = -20
+so 5 . -4 > 7 . -4
+
+-7/3 vs -5/3 -> so smaller negative is greater
+so -5/3 > -7/3
+
+b. 7a vs 5a
+since a is negative
+7(-1) vs 5(-1)
+-7 vs -5
+-5 is larger so smaller negative is greater
+so 5a is larger -> 5a > 7a
+
+7a > 5a -> mult by negative
+-7a > -5a
+7a < 5a
+
+c. ok so we have x > y
+and a < 0
+we wanna find what to say about quantites xa and ya
+
+
+x > y -> mult both sides by a
+xa > ya
+but since a is negative you do
+xa < ya
+so xa is less than ya 
+
+;==============
+Problem 9.6
+a. which is larger, 7^2 or 5^2? for any positive integer a,
+which is larger 7^a or 5^a?
+
+b. which is larger, sqrt(7) or sqrt(5)? if a is positive integer besides
+1, which is larger, a-root(7) or aroot(5)?
+c. is it always true that if x >= y and a is positive, then
+x^a >= y^a?
+
+answer:
+a. 7^2 = 49
+5^2 = 25
+so here 7^2 > 5^2 obviously
+
+since a > 0 and a is nonzero
+7^a > 5^a will hold true
+whichever has the largest base cause the expo will alwys thesame
+
+b. sqrt(7) vs sqrt(5)
+7^1/2 vs 5^1/2
+~2.64 vs ~2.23
+so sqrt(7) is larger
+
+if a is posint besides 1
+so 2 minimum for a we wnna find which isl erger
+
+a-root(7) vs a-root(5)
+7^1/a vs 5^1/a -> power both sides by a
+
+(7^1/a)^a -> 7^1 -> 7
+(5^1/a)^a -> 5^1 -> 5
+
+so i think it still the same
+a-rooot(7) > a-root(5)
+
+c. ok so we have x >= y
+and a > 0
+
+we wanna know if x^a >= y^a
+
+x >= y -> apply exponent with power of a to both sides
+(x)^a >= (y)^a
+so then its just x^a >= y^a
+since the power a is positive
+hmm wait question doesnt say anything about wheter x or y 
+is positive
+
+lets say x = 0
+y = -1
+a = 1
+
+0^1 >= -1^1
+0 >= -1 so that holds
+
+lets say x = 2
+y = -2
+a = 2
+
+x^a >= y^a
+2^2 >= (-2)^2
+4 >= 4
+actually yeah that still holds so i think since we have the nonstrict
+it guarantees if power is negative or positive (od or even power)
+will always be true so , im gonna say its always true
+
+
+;==============
+
+Problem 9.7
+a. is the square of a positive number positive, negative , or 0?
+b. is the square of a negative number positiev, negative, or 0?
+
+answer:
+a. square of positive number
+lets say we have x which is a positive number
+x > 0
+
+intuitvely since x is nonzero then squaring it just basically
+make the sign always positive and never negative
+
+square both sides
+x^2 > 0^2
+x^2 > 0
+
+b. now lets say x is negatie
+so x < 0
+
+so we have lets say -5
+(-5)^2 -> -5 . -5 = 25
+(-100)^2 -> -100 . -100 = 10000
+
+-x < 0
+(-x)^2 < 0
+x^2 > 0 
+
+yeah so this one also since we square the negative
+negative . negative will always turn positive right
+so the result will always be positive also.
+
+
+;==============
+
+problem 9.8
+a. which is larger, 9/11 or 5/6?
+b. which is larger, 11/9 or 6/5?
+c. which is larger, 7/3 or 15/8?
+d. which is larger, 3/7 or 8/15?
+e. suppose x and y are positive numbers such that  x > y
+which is larger, 1/x or 1/y ? what if y is negative and x is positive?
+
+answer:
