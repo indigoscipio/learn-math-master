@@ -343,6 +343,16 @@ actually yeah that still holds so i think since we have the nonstrict
 it guarantees if power is negative or positive (od or even power)
 will always be true so , im gonna say its always true
 
+___CORRECTION
+x = 1
+y = -5
+a = 2
+
+x >= y?
+(1)^2 >= (-5)^2
+1 >= 25
+yeah so here y is larger which makes the equation fallse
+so its only true when x and y are both nonnegative
 
 ;==============
 
@@ -389,3 +399,479 @@ e. suppose x and y are positive numbers such that  x > y
 which is larger, 1/x or 1/y ? what if y is negative and x is positive?
 
 answer:
+a. 9/11 is basically just 0.8181...
+5/6 = 0.83..
+so 5/6 is larger
+
+b. 11/9 = 1 2/9
+6/5 = 1 1/5
+
+1.222 vs 1.2
+so here 11/9 is larger
+
+c. 7/3 = 2 1/3 = 2.333
+15/8 = 1 7/8
+so 7/3 is larger
+
+d. 3/7 = 0.4285...
+8/15 = 0.53...
+
+so 8/15 is larger
+
+e. ok so x and y are positive
+and x > y. we wanna know which is larger
+
+1/x vs 1/y
+since this is fraction my intuition is that
+one with larger fraction is smaller right
+so 1/2 is deifentely larger than 1/3 
+so if x > y then the 1/y part is larger (one with smaller fraction)
+
+now what if y is negative and x is positive
+so we have y < 0
+and x > 0
+
+which one is larger 1/x vs 1/y?
+
+lets say x = 2 and y = -2
+
+1/2 vs -(1/2)
+obviously here the x part is larger (1/2) > -(1/2)
+so if the y part is negative then the 1/x portion willbe larger
+
+
+========================================
+if x > y, then x + c > y + c for any real number c.
+if we have a > b, then x + a > y + b
+========================================
+if we mult/divide inequality by negativewe must reverse the sign
+eg if x > y and a < 0 then xa < ya
+========================================
+if x>y and x and y have the same sign, then
+1/x < x/y (one with smaller fraction is larger)
+========================================
+
+EXERCISES
+9.1.1
+if x <=y and x>=y then what is x-y?
+
+answer:
+ok so we know
+x <= y -> subtract y
+x - y <= 0
+
+x >= y -> subtract y
+x - y >= 0
+
+so now we have x - y
+whichisweird its les than 0 but its more than 0
+but the zeor part is the intersectino right since 
+its x<=y and x>=y so x-y must be zero right? it cant be 1 or -1
+since that would make the inequality false.
+
+_
+
+9.1.2
+if a >= b and b > c, then is it true tat a > c?
+is it possible to have a = c?
+
+answer:
+ok so we know 2 things
+a >= b and
+b > c
+
+question asks if its true that a > c
+lets say a = 5
+b = 5
+c = 4
+
+5 > 4 so its true
+lets try negative
+a=0
+b=0
+c=-1
+
+0 > -1 also true
+so a > c is true
+
+now we wanna know if its possible to have a = c
+since the inequality b acts as a bridge between
+a and c and since we have the restriction b > c
+this means the value c is guaranteed to always be smaller than a
+but never equal
+
+_
+
+9.1.3
+suppose x > y > 0 and a > b > 0
+is it true that x/b > y/a? if so why? if not proivde an  example
+where x/b <= y/a and both x > y > 0 and a > b > 0
+
+answer:
+oks so we have x > y
+and a > b where x,y,a,b are positive integers
+
+we wanna know if its tru that x/b > y/a
+lets say
+x=2
+y=1
+a=5
+b=4
+
+2/4 > 1/4
+1/2 > 1/4 -> true
+
+lets try anothe example
+x=10
+y=5
+a=2
+b=1
+
+10/1 > 5/1
+10 > 5 so its also true
+
+ok so let me think if we can make the inqeuality false
+if we somehow increase the denominaotor part for b to be bigger than a
+or make the numerator part for x smaller than y maybe
+
+x=2 | y=1
+b=1 | a=2
+2/1 > 1/2 -> 2 > 1/2
+
+x=3 | y=2
+b=2 | a=3
+3/2 vs 2/3 yeah it seems to be true
+
+_
+
+9.1.4
+suppose x < y < 0 . show that 1/x > 1/y.
+dont just cite the result of problem 9.8, prove it as we
+did in our solution to that problem
+
+answer:
+ok so we have
+x < y where x and y are both negative integers
+
+x < y -> divide both sides by y
+x/y < 1
+since y is negative number then
+x/y > 1 -> divide both sides by x
+since x is also negative we flip the inequality sign again
+1/y < 1/x
+
+
+_
+
+9.1.5
+a. which is greater 7^-2 or 5^-2
+b.  which is greater 7^-5 or 5^-5
+c. suppose x > y > 0 and a is a negative integer
+which is greater x^a or y^a
+
+answer:
+a. 1/49 vs 1/25
+5^-2 is greater
+
+b. 1/7^5 vs 1/5^5
+both has same exponent but different bas 5 is smaller
+so the side with smaller fraction wins which is  5^-5
+
+c. ok w have x > y where x and y are both positive integers
+and a is negative integer -> a < 0
+
+we wanna know which one isgreater, x^a or y^a
+intuitively from the prevous part b one with smlaler fraction/
+smaller base wins cauze the power is the same but lets check
+
+we only know x > y -> power by a
+x^a > y^a since a is negative thatslike
+1/x^a > 1/y^a and since x > y then the 1/y^a is bigger right since
+it has smaller fractional part 
+
+===========================================
+Whenever you multiply or divide both sides of an inequality
+by a negative number, you must flip the direction of the
+inequality sign.
+===========================================
+Taking the reciprocal flips the inequality sign only
+if both numbers have the same sign (both positive or both negative).
+===========================================
+
+
+9.2 WHICH IS greater
+problem 9.9
+a. which number is larger, sqrt(2) or sqrt(3)
+b. which number is larger, 6sqrt(2) or 2sqrt(3)
+c. which number is larger, sqrt(3sqrt(6sqrt(2)))
+or sqrt(6sqrt(2sqrt(3)))
+
+answer:
+a. sqrt2 = ~1.414
+sqrt3 =  ~1.732
+so sqrt(3) is larger
+
+b. 6 . 1.414 = ~8.46 
+2 . 1.732 = ~3.44
+so 6sqrt(2) is obviously large here
+
+c. ok so from the prevous answer wehave
+
+lets square each layer
+1st part
+sqrt(3sqrt(6sqrt(2)))^2
+3 . sqrt(6 . sqrt(2)) -> square again
+9 . 6 . sqrt(2) -> square it
+81 . 36 . 2
+5832
+
+2nd part
+sqrt(6sqrt(2sqrt(3))) -> square
+6 . sqrt(2.sqrt(3)) -> square
+36 . 2 . sqrt(3) -> square
+1296 . 4 . 3
+15552
+
+so the 2nd one is larger
+
+_
+
+9.10
+order thwfollowing numbers from least to greatest
+2^300
+3^200
+4^125
+5^100
+
+answer:
+yeah imnot sure here let me try
+(2^5)^60
+(3^5)^40
+(4^5)^25
+(5^5)^20
+
+yeah itseems 2^300 is the largest since ithas more power
+than the rest but the base for each is different but i thinkultimately
+the expo is the decider right i dont wanna calculate it exaclty
+
+let me see if i can try another appraoch
+find the common base maybe
+
+
+4^5 thas basically (2^2)^5 so 2^10
+(2^10)^25 so thats 2^250 right?
+hard to find common base for 3 and 5
+yeahnotsure im just gonna say
+
+2^300 > 4^125 > 3^200 > 5^100
+or maybe its already in corect order, who knows
+
+ALTERNATIVE
+same exponent
+
+2^300
+3^200
+4^125
+5^100
+
+(2^3)^100 = 8^100
+(3^2)^100 = 9^100
+4^125 = (2^2)^125 = 2^250
+5^100 = 5^100
+
+then just rewreite again
+(2^3)^100 = (8^2)^50 = 64^50
+(3^2)^100 = 9^100 = (9^2)^50 = 81^50
+2^250 = (2^5)^50 = 32^50
+5^100 = (5^2)^50 = 25^50
+
+so the order is
+2nd > 1st > 3rd > 4th
+
+_
+
+9.11
+in thisp orlbm we find two different ways to determine which os
+a = 987654321 / 987654322
+
+and
+
+b = 98765432 / 98765433
+
+is larger without using a calculator
+a. which number is closer to 1? use the answer to determine which is larger.
+b. compare 1/a and 1/b. use that resut to determine which is larger
+
+
+answer:
+a. lets say x = 987654321
+then for A thats
+x/x+1
+
+and for b
+lets say x = 98765432
+then tis also x/x+1
+
+now which is cloaswer to 1
+since A has 9 digits in numerator and denominator
+and B has only 8 digits
+
+lets say its only 2 digit vs 3 digit
+98/97 -> larger since less denominator
+987/986
+
+B is close to 1 right? since less denominator digit
+
+b. 1/A vs 1/B
+1/(987654321/987654322) = 1 . (987654322/987654321)
+= 987654322/987654321 = 1 1/987654321
+
+1/(98765432/98765433) = 1 . (98765433/98765432)
+= 987654333/98765432 = 1 1/98765432
+
+so B is larger here
+
+Alternative
+which distance is closer to 1 -> just subtract from number line
+
+
+A = 1 - 987654321/987654322
+A = 987654322 - 987654321 /987654322 = 1/987654322
+
+B = 1 - 98765432/98765433
+= 98765433-98765432 / 98765433 = 1/98765433
+
+B is larger in value and is threfore further away from 1
+
+b. 1 1/987654321
+1 1/98765432
+
+=====================================================
+
+EXERCISES
+9.2.1
+a. which number is larger, sqrt(3 . sqrt(5)) or sqrt(6 . sqrt(2)) 
+b. which number is larger, sqrt(3 . cuberoot(5)) or
+cuberoot(6 . sqrt(2))?
+
+answer:
+a. lets sqr each aprt
+1st one
+sqrt(3 . sqrt(5)) -> sqr
+3 . sqrt(5) -> sqr
+3 . 25
+75
+
+2nd one
+sqrt(6 . sqrt(2))  -> sqrt
+6 . sqrt(2) -> sqr
+36 . 2
+72
+
+so 1st part is larger
+
+
+b. sqrt(3 . cuberoot(5)) -> sqr
+3 . (cuberoot(5))^2  notsure if this is correct here
+3 . cuberoot(5) . cuberoot(5) -> cube
+27 . 5 . 5
+27 . 25
+
+or maybe
+3. (5^1/3)^2
+3 . 5^2/3 -> cube both sides
+27 . 25
+675
+yeah thats easier
+
+cuberoot(6 . sqrt(2)) -> cube
+6 . sqrt(2)^3
+6 . (2^1/2)^3
+6 . 2^3/2 -> square
+36 . 2^3
+36 . 8
+288
+
+so the 1st part is larger
+
+
+_
+
+9.2.2
+b. which number is larger, 1/1+2+3+...+99+100 or
+1/(2+3+4+5+...+100+101)
+
+answer:
+ok so 1st part we have sum from 1 - 100
+then 2nd part it replaces the 1 with 101 which is obviously larger
+
+so in terms of denominaotor value 2nd one is larger
+but sincethis is fraction whichever has the larger denom
+is the smallest one
+
+so the 1st part is larger (1/1+2+3+..+99+100)
+
+_
+
+9.2.3
+list sqrt(2), cuberoot(3) and fifthroot(5) in order from
+least to greatest
+
+answer:
+ok so we have  3 nums
+
+sqrt(2)
+cuberoot(3)
+fifthroot(5)
+
+whichisthesame as
+2^1/2
+3^1/3
+5^1/5
+
+power all numbers by 30?
+(2^1/2)^30
+(3^1/3)^30
+(5^1/5)^30
+
+2^15
+3^10
+5^6
+
+yeah letstry another approach
+2^1/2
+3^1/3
+5^1/5
+
+expo by 5
+2^1/2^5
+3^1/3^5
+5^1/5^5
+
+2^5/2
+3^5/3
+5
+
+cube
+2^5/2^3
+3^5/3^3
+5^3
+
+2^15/2
+3^5 -> 243
+5^3 -> 125
+
+square
+2^15
+243^2
+125^2
+
+
+
+_
+
+9.2.4
+a. determine which number is larger, 2^500 or 3^300
+b. determine which number is larger, 2^81 or 3^49
+c. which is bigger, 2^845 or 5^362?
+
