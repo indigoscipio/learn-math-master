@@ -757,10 +757,10 @@ cuberoot(6 . sqrt(2))?
 answer:
 a. lets sqr each aprt
 1st one
-sqrt(3 . sqrt(5)) -> sqr
-3 . sqrt(5) -> sqr
-3 . 25
-75
+sqrt(3^2 . sqrt(5)^2) -> sqr
+9 . sqrt(5) -> sqr
+9 . 5
+45
 
 2nd one
 sqrt(6 . sqrt(2))  -> sqrt
@@ -768,29 +768,17 @@ sqrt(6 . sqrt(2))  -> sqrt
 36 . 2
 72
 
-so 1st part is larger
+so 2nd part is larger
 
 
-b. sqrt(3 . cuberoot(5)) -> sqr
-3 . (cuberoot(5))^2  notsure if this is correct here
-3 . cuberoot(5) . cuberoot(5) -> cube
-27 . 5 . 5
-27 . 25
+b. sqrt(3 . cuberoot(5)) -> add six power
+sqrt(3 . cuberoot(5))^6
+3 . cuberoot(5)^3
+3^3 . 5
+27 . 5
+135
 
-or maybe
-3. (5^1/3)^2
-3 . 5^2/3 -> cube both sides
-27 . 25
-675
-yeah thats easier
 
-cuberoot(6 . sqrt(2)) -> cube
-6 . sqrt(2)^3
-6 . (2^1/2)^3
-6 . 2^3/2 -> square
-36 . 2^3
-36 . 8
-288
 
 so the 1st part is larger
 
@@ -862,9 +850,16 @@ cube
 5^3 -> 125
 
 square
-2^15
-243^2
-125^2
+2^15 -> 2^15 -> (2^3)^5 -> (8)^5
+243^2 -> (3^5)^2 -> 3^10 -> (3^2)^5 -> 9^5
+125^2 -> (5^3)^2 -> 5^6
+
+we know 8^5 (2^15) < 9^5
+2^15 -> (2^5)^3 -> 32^3
+5^6 -> (5^2)^3 -> 25^3
+
+and we know 2^15 > 5^6 so
+9^5 > 2^15 > 5^6
 
 
 
@@ -875,3 +870,127 @@ a. determine which number is larger, 2^500 or 3^300
 b. determine which number is larger, 2^81 or 3^49
 c. which is bigger, 2^845 or 5^362?
 
+answer:
+a.
+root to 100th power for both
+100th-root(2^500) -> 2^500^1/100 = 2^5
+100th-root(3^300) -> 3^300^1/100 = 3^3
+
+so calculating both now
+its just 32 vs 27
+so first one (2^500) isgreater
+
+b. 2^81 -> 2^(3^4)
+or 2^(9^2)
+3^49 -> 3^(7^2)
+
+need to find common exponent
+so 9^2 is larger 7^2 right?
+but the base not sure
+
+maybe we can power both sides
+to the power of 1/2 or take root?
+
+2^(9^2)^1/2 -> 2^(9^2).1/2
+yeah idontthinkthatworks
+
+letssay its 2^80 and 3^50
+(2^8)^10
+(3^5)^10
+256^10
+243^10
+
+2^81 is greater than 2^80
+3^49 is less than 3^50
+
+since 2^81 > 2^80
+2^80 > 3^50
+3^50 > 3^49
+therefore 2^81 > 3^49
+
+c. which is bigger 2^845 or 5^362
+2^7 = 128
+5^3 = 125
+
+lets say
+2^840 -> (2^7)^120 -> 128^120
+5^360 -> (5^3)^120 -> 125^120
+
+2^845 = 2^5 . 2^840 = 32 . 128^120
+5^362 = 5^2 . 5^360 = 25 . 125^120
+
+32 > 25
+128^120 > 125^120
+
+since both parts are larger than the other both parts
+then the 1st one is bigger
+
+_
+
+9.3
+LINEAR INEQUALITIES
+
+[] -> Included (inclusive)
+() -> NOT included (exclusive)
+
+problems
+9.12
+in his problem we describe all x such that
+3x - 7 >= 8 - 2x
+
+a. 
+3x - 7 >= 8 - 2x
+3x + 2x >= 8 + 7
+5x >= 15
+x >= 15/5
+x >= 3
+
+b. x >= 3
+[3,+inf)
+
+c. its from positive 3 included
+up to the right / infinity
+
+_
+
+9.13
+a. 2x - 9 >= 7
+2x >= 7 + 9
+2x >= 16
+x >= 8
+
+b. 4 - 3t + 7 < 5t + 19
+4 + 7 - 19 < 5t + 3t
+11 - 19 < 8t
+-8 < 8t
+-1 < t
+
+_
+
+9.14
+2 + x > 5 - 3x > 8
+
+a. 2 + x > 5 - 3x
+x + 3x > 5 - 2
+4x > 3
+x > 3/4
+
+b. 5 - 3x > 8
+-3x > 8 - 5
+-3x > 3
+-x > 1 -> mult both sides by -1
+x < -1
+
+c. x > 3/4 and
+x < -1
+
+x cannot be both greater than 3/4
+and at the same time smaller than -1
+so its impossible
+
+
+9.15
+n = number
+
+a. 2n + 3 < 17
+b. 2n + 3 >= -1
