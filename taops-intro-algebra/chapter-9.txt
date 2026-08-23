@@ -994,3 +994,337 @@ n = number
 
 a. 2n + 3 < 17
 b. 2n + 3 >= -1
+
+c. 
+2n + 3 < 17
+2n < 14
+n < 7
+
+2n + 3 >= -1
+2n >= -4
+n >= -2
+
+so n must be less than 7
+and greater than or equal to -2
+
+so its {-2,-1,0,1,2,3,4,5,6}
+
+_
+
+9.16
+2 sqrt(x) - 3
+since its between 7 and 10 1/2
+so 7 and 10 1/2 is excluded right so
+
+a. 2 sqrt(x) - 3 > 7
+2 sqrt(x) - 3 < 10 1/2
+
+b. 2 sqrt(x) - 3 > 7
+2 sqrt(x) > 10
+sqrt(x) > 5
+
+2 sqrt(x) - 3 < 10 1/2
+2 . sqrt (x) < 21/2 +  3
+2 . sqrt (x) < 21/2 + 6/2
+2 . sqrt (x) < 27/2
+sqrt(x) < 27/4
+sqrt(x) < 6 3/4
+
+c.since we know
+
+ok so srt(x) > 5  and
+sqrt(x) < 6 3/4 or 6 3/4 > sqrt(x)
+so the values are
+
+6 3/4 > sqrt(x) > 5 -> square both sides
+(6.75)^2 > x > 25
+45.5625 > x > 25
+
+
+; ===========================================
+EXERCISES
+
+use the chain
+x < y < z
+or work seperately
+x < y or y < z
+
+9.3.1
+for each of the following inequalities, graph the inequality
+on the number line and write the solution to the
+inqeualityu sing interval notation
+
+a. -4 <= 3x + 2
+b. 3x + 2 < 2x + 5
+c. -4 <= 3x + 2 <= 5
+
+answer:
+a. -4 <= 3x + 2
+-4 - 2 <= 3x
+-6 <= 3x
+-2 <= x
+x >= -2
+so thats anything bigger than -2 (-2 included) on the numbe rline
+[-2,+inf)
+
+b. 3x + 2 < 2x + 5
+3x - 2x < 5 - 2
+x < 3
+so thats anything less than 3 (3 excluded) in the number line
+(-inf,3)
+
+c. 
+-4 <= 3x + 2 <= 5 -> subtract all by 2
+-6 <= 3x <= 3 -> divide by 3
+-2 <= x <= 1 or
+1 >= x >= -2
+
+so thats between 1 and -2
+[-2,1]
+
+_
+
+9.3.2
+find an inequality that ha graph shown below
+
+starts from -1 but not filled (exclued)
+arrrow right goes to infinite
+
+thats x > -1
+since -1 is excluded
+and the arrow indicate its not arange but stretches to infinite
+so x > -1
+
+_
+
+9.3.3
+at the end of january, 2003, the population of my town was
+12,212 . the population of my town increases by 322 every month
+in what month does the population of my tow nfirst exceed 15,000?
+
+answer?
+im not sure if this is a inequality problem but let me try
+
+ok so 15000 is the max ceiling but we wanna include it also righ
+so it has to be less than or equal 15000?
+
+let x be the number of month
+so then we have 
+every month its 322(x) + initial population since end of jan 2003
+and it has to be less than or equal 15k
+
+11,212 + 322x >= 15000
+322x >= 3788
+x >= ~11.763
+
+since x must be a whole integer
+smallest integer needs to be 12
+so thats 1 yeaer  -> jan 2004
+
+_
+
+9.3.4
+what is the length of the interval of solutions to the inequality
+1 <= 3-4x <= 9?
+
+answer:
+lets rewrite as
+1 <= -4x + 3 <= 9 -> subtract both sides by 3
+-2 <= -4x <= 6 -> divide by 4
+-2/4 <= -x <= 6/4
+-1/2 <= -x <= 3/2 -> mult by -1
+since we mult by -1 it change the direction right? so
+1/2 >= x >= -3/2 or
+-3/2 <= x <= 1/2
+
+so in terms of the interval thats like
+[-3/2 , 1/2]
+
+and for the interval thats
+1/2 - -3/2
+1/2 + 3/2
+4/2
+2
+
+_
+
+9.3.5
+determine the number of positive integers that n satifsy
+1/2 < n/n+1 < 99/101
+do any negative integers satify this inequality?
+answer:
+
+ok so we have
+1/2 < n/n+1 < 99/101 -> mult both sides by 101?
+101/2 < 202n/n+1 < 101 > mult both sides by 2
+101 < 202n/n+1 < 202
+
+hmm how i isolate n here
+mult all side by n+1?
+101(n+1) < 202n < 202(n+1) -> divide by 101 maybe
+n+1 < 2n < 2(n+1)
+n+1 < 2n < 2n+1 
+
+ok lets try another approahc, break it down into
+2 parts
+1/2 < n / n+1
+n/n+1 < 99/101
+
+1st part
+1/2 < n / n+1
+1/2(n+1) < n
+n+1/2 < n
+n+1 < 2n
+1 < 2n - n
+1 < n
+
+2nd part
+n/n+1 < 99/101
+n < 99/101 (n+1)
+101n < 99(n+1)
+101n < 99n + 99
+101n - 99n < 99
+2n < 99
+n < 49.5
+
+so 1 < n < 49.5
+since itsonly integer thats
+1 < n <= 49
+so value that satisfies is 2 - 49
+49-2+1 = 48 integers
+
+
+for the negative part since if we do -1
+that would make -1 / -1+1 = -1/0 = undefined
+
+if we do -2
+-2 / -2+1 -> -2/-1 -> 2 which is greater than 99/101
+so its false
+
+_
+
+9.3.6
+what is the largest integer k such that
+
+3/2 . 2/1 . 1/2 . 2/3 . 3/4 . ... k/k+1 >= 1/8?
+
+answer:
+yeah so basically the numberator here survives right
+the first numerator in 3/2
+
+and basicaly from there the 2 2 cancel each toher 1 1 2 2 .. etc
+so basically its jut cascades so the numerator from 1st fraction
+and denominator from last one which is k+1 remain???
+
+3 / (k+1) >= 1/8 i think
+3 >= 1/8 (k+1)
+3 >= k+1/8
+24 >= k + 1
+23 >= k
+
+yeah imnotsure here if this is correct
+
+
+; =============================
+
+graphing inequalities
+
+9.17
+in this problem we graph the solution to the inequality
+x - 3y >= 9
+a. graph the line x - 3y = 9
+b. does the point (0,0) satisfy the inequality? 
+c. use your observation from part (b) to shade the region consisting
+all points onyour graph that satisfy the inequality
+d. what part of your graph must be excluded from the solutoins
+if we graph the inequality x - 3y > 9 instead of graphing
+x - 3y >= 9
+
+answer:
+a. x-3y = 9
+slope = -(1/-3) = 1/3
+x=0
+0 - 3y = 9
+-3y = 9
+y = -3 -> (1,-9/3)
+
+x=1
+1 - 3y = 9
+-3y = 8
+y = -8/3 -> (1,-8/3)
+
+x=2
+2 - 3y = 9
+-3y = 7
+y = -7/3 -> (2,-7/3)
+
+so its
+(1,-3)
+(3,-2)
+(5,-1)
+...
+
+b. 0 - 0 >= 9
+0 >= 9
+so its false right ? (0,0) is ecluded?
+
+c. so the the bottom right side thats shaded
+d. yeahim not sure here im guessing
+the valut htat makes it euqal to exactly 9 is excluded
+maybe the actual line itself??
+
+
+_
+
+9.18
+a. 2x - 3y + 7 <= 0
+2x - 3y <= -7
+2x - 3y = -7
+
+m = -(2/-3) = 2/3
+
+x=0
+- 3y = -7
+y = 7/3 -> (0,7/3)
+
+x=1
+2 - 3y = -7
+-3y = -9
+y = 3 -> (1,9/3)
+
+(0,7/3)(1,9/3)(2,11/3)
+
+lets check for (0,0)
+0 <= -7 whichis false right
+
+since y intercept is (0,2 1/3)
+that means (0,0) lies below (bottom right) of the line
+since (0,0) makes equality false
+shade the top left are
+
+b. x + 3y >= -1
+m = -(1/3)
+
+x=0
+x + 3y = -1
+3y = -1
+y = -1/3 -> (0,-1/3)
+
+x=1
+1 + 3y = -1
+3y = -2
+y = -2/3 -> (1,-2/3)
+
+(0,-1/3)
+(1,-2/3)
+(2,-3/3)
+(3,-4/3)
+
+y intercept is at (0,-1/3)
+whichmeans (0,0) lies above the lines (upper right)
+so we wanna include 0,0 which means also need to inlude those
+
+
+c.
+ok so this is basicayl the intersection right
+from the previous two
