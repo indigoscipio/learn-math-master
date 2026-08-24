@@ -1328,3 +1328,303 @@ so we wanna include 0,0 which means also need to inlude those
 c.
 ok so this is basicayl the intersection right
 from the previous two
+
+; =============================
+
+EXERCISES
+9.4.1
+graph the inequality x + 2y >= 6
+
+answer:
+m = -(1/2)
+x=0
+2y = 6
+y = 3 -> (0,3)
+
+x=1
+1 + 2y >= 6
+2y = 5
+y = 5/2 -> (1, 5/2)
+
+so the points are
+(0,3)
+(1,5/2)
+(2,4/2) ... etc
+
+elts test (0,0)
+x + 2y >= 6
+0 + 0 >= 6 -> false
+so (0,0) is not included
+
+our y intercept is (0,3) so its above that area
+since its a nonstrict equality
+the line is also included
+
+therefore the shaded region is the top right area
+
+
+_
+
+9.4.2
+find the two inequalityes graphed below
+
+a. 
+lets try to find
+for the 1st one 0,0 is included
+and slope seems to be negative so
+lets pick a point.. do in eed to find the exact formula?
+
+(0,2)
+(1,1.5)
+(2,1) or sometihng like that its hard to see
+so looks like the slope is -1/2
+
+y = 1/2x + 2
+2y = x + 2
+2y - x = 2 -> muly -1
+x - 2y = -2
+
+since 0 is included and the line is also included
+its something lke
+x - 2y >= -2
+
+b. yeah its fuckin hard to see lets just approxmate
+
+(5,1)
+(4,2) -> m=-1
+
+since the shaded region is on the right area
+and the line is not included it has to be strict
+
+since 0 is not included its larger
+and the slope is positive
+
+y = -x + b
+so < 
+
+
+9.4.3
+graph the region of points that satisfy the inequltaiy
+chain  0 <= 2x + y < 6
+
+lets divide one by one
+0 <= 2x + y
+-y <= 2x
+y >= -2x
+so m = -2
+
+x=0
+0 = 2(0) + y
+y = 0 -> (0,0)
+
+x=1
+0 = 2 + y
+y = -2 -> (1,-2)
+
+(0, 0)
+(1,-2)
+(2,-4)
+(3,-6) ... etc
+
+
+2x + y < 6
+m = -(2/1) = -2
+
+x=0
+2(0) + y = 6
+y = 6 -> (0,6)
+
+x=1
+2 + y = 6
+y = 4 -> (1,4)
+
+(0,6)
+(1,4)
+(2,2) .... etc
+
+ok lets plothem
+ok so it appears the two are parallel ones
+the parallel line on the left  include sthe line since its nonstrict
+
+(0,0)
+0 <= 2x + y
+0 <= 0 + 0
+
+(1,1)
+0 <= 3 -> included
+
+so shade the right of lien 2
+
+and for 2nd one
+(0,0)
+0 + 0 < 6 -> include
+
+so shade to the left of the 2nd line
+but the line itself is not included since its strict
+
+so we have the intersection thatlookslike a strip whichislike the intersect
+
+_
+
+9.4.4
+consider the two inequalities 2x - 4 < y and y < -2/3x + 2
+a. garaph the region of the plane that setisfies both ineuqalites
+b. grpah the region of the plane that satisfies iether inequality
+or both inequalities
+c. graph the region of the plane that satisfies either inequality
+but not both
+
+answer:
+2x - 4 < y
+y < -2/3x + 2
+
+lets try onebyone
+2x - 4 = y
+2x - y = 4
+m = -(2/-1) = 2
+
+x=0
+2x - 4 = y
+- 4 = y -> (0,-4)
+
+x=1
+2(1) - 4 = y
+2-4 = y
+-2 = y -> (1,-2)
+
+(0 , -4)
+(1 , -2)
+(2 , 0) ...
+(3 , 2)
+
+next 2nd one
+y = -2/3x + 2
+y + 2/3x = 2
+2/3x + y = 2 -> mult both sides by 3
+2x + 3y = 6
+
+m = -(2/3)
+
+x=0
+0 + 3y = 6
+y = 2 -> (0,2)
+
+x=1
+2x + 3y = 6
+3y = 4
+y = 4/3 -> (1,4/3)
+
+so now we have the points
+(0, 2)
+(1, 4/3)
+(2, 2/3)
+(3, 0)
+
+since both equations are nonstrict
+the lines are not included
+
+looksliek the two inquality is making an 'x' mark
+lets try (0,0)
+
+1st inequality
+2x - 4 < y
+2x - y < 4
+0 < 4 so its included, botom left area is shaded
+
+2nd inequality
+y < -2/3x + 2
+0 < 2 -> also true so its also shaded
+
+so the area that satisfies the inequalit is the triangle area
+/ chunk
+
+b. since we want satisfies either ineuality or both
+thats tlike the 3 area right? so top left and bottom
+so only the right '<' shape is excluedd?
+
+c. satisfies either inequality but not both
+ah so this one is the top and bottom only right
+so the opper V and bottom 'A' area
+
+; ========================================================
+
+9.5 OPTIMIZATIONS
+
+9.19
+after first 3d
+34 male dogs
+13 female dogs
+from now on -> only accept dogs in male-female pairs
+
+a. let d = number of pairs of dogs she accepts
+ok so 1 pair = 1 female and 1 male right
+at at most thatslike 13 pairs whichis 13 female and 13 male
+with 34-13 = 21 male dogs remain??
+so total dog here is 34+13 = 47
+
+total male dogs -> 34 + d
+total female dogs -> 13 + d
+
+b. male dogs percentage = total male dogs / total dogs overall
+
+34+d / 47+2d >= 3/5
+
+c. 34+d / 47+2d >= 3/5
+cross mult
+34+d(5) >= 47+2d(3)
+170+5d >= 141+6d
+170-141 >= 6d-5d
+29 >= d
+
+-
+
+9.20
+find the maximum value that the expr (a-b)/c attains if
+a,b, and c are distinct integers greater than 100, but less than 200
+
+answer:
+
+ok so we know 200 > a,b,c > 100
+
+(a-b) / c
+
+yeah im not sure how to approach this let me try my instinct
+ideally c you wanna be the lowest right? since larger fraction
+is just less value
+
+and for the (a-b) you wanna maximize this part so for a
+gotta pick the hieghest and b the lowest so lets try
+
+a=199
+b=101
+c=102
+(a-b) / c
+98/102 -> ~0.96
+
+a=199
+b=102
+c=101
+97/101 -> ~0.97
+
+yeah so it seems the 2nd one is largest?? not sure
+lets see if it can be greater
+
+for the (a-b) part basically the min range is
+199 - 198 to 199-101 which is 1 to 98
+
+and the c part itslike min is 101 and 199
+
+
+_
+
+9.21
+in this problem we find the max value of 3x + 2y such that
+the following 3 inequalities are satisfied
+
+a. graph the region of points that satisfy all three inequalities
+b. graph 3x +2y = k for various values of k.
+what happesn as kincrease?
+c. use ur obsrvation from prev part to find largest value of k such that
+3x + 2y = k and the point x,y satisfies all three of the given equatios
+d. what if the three inequalities had been strict inequalities
+isntead of nonstrict?
