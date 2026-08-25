@@ -1604,7 +1604,7 @@ c=102
 a=199
 b=102
 c=101
-97/101 -> ~0.97
+97/101 -> ~0.96
 
 yeah so it seems the 2nd one is largest?? not sure
 lets see if it can be greater
@@ -1614,12 +1614,21 @@ for the (a-b) part basically the min range is
 
 and the c part itslike min is 101 and 199
 
+so its 98/102 vs 97/101 ->> cross mult
+9898 vs 9894
+
+so the 98/102 definetely iwns
+
 
 _
 
 9.21
 in this problem we find the max value of 3x + 2y such that
 the following 3 inequalities are satisfied
+
+4x + 3y <=21
+2x - y  >= -2
+y >= -3
 
 a. graph the region of points that satisfy all three inequalities
 b. graph 3x +2y = k for various values of k.
@@ -1628,3 +1637,265 @@ c. use ur obsrvation from prev part to find largest value of k such that
 3x + 2y = k and the point x,y satisfies all three of the given equatios
 d. what if the three inequalities had been strict inequalities
 isntead of nonstrict?
+
+answer:
+
+a. ok so we have 3 inequalities
+
+1st -- 4x + 3y <=21
+2nd -- 2x - y  >= -2
+3rd -- y >= -3
+
+
+1st
+m = -(4/3)
+x=0
+3y = 21
+y = 7 -> (0,7)
+
+x=1
+4 + 3y =21
+3y = 17
+y = 17/3 -> (1,17/3)
+
+so the points are
+
+(0,7)
+(1,17/3)
+(2,13/3)
+(3,3) ...
+(4,5/3) ...
+
+2nd
+2x - y  >= -2
+m = -(2/-1) = 2
+
+x=0
+2x - y = -2
+-y = -2
+y = 2 -> (0,2)
+
+x=1
+2 - y  = -2
+-y = -4
+y = 4 -> (1,4)
+
+so the points are 
+(0,2)
+(1,4)
+(2,6) ... etc
+
+3rd
+y >= -3
+m = -0/1 = 0
+
+(0,-3) which is a horizontal line
+
+
+b. ok so we have 3x + 2y = k
+m = -(3/2)
+
+k=0
+x=0
+0 + 2y = 0
+y = 0 -> (0,0)
+
+k=1
+x=0
+3x + 2y = 1
+0 + 2y = 1
+y = 1/2 -> (0,1/2)
+
+k=2
+x=0
+0 + 2y = 2
+2y = 2
+y = 1 -> (0,1)
+
+k=3
+x=0
+0 + 2y = 3
+2y = 3
+y = 3/2 -> (0,3/2)
+
+so as k increases the y intercept coordinate also increases
+by 1/2 for every 1 k increment?
+
+
+c. 3x + 2y = k
+ok so the three line here makes a triangle
+with like the top intersect between the two line at somewher
+around 2,5/4ish
+the bottom right leg is somewhere around 7, -3 ish
+
+and left leg around
+-2ish and -3
+
+
+2x - y >= -2
+-y = -2 - 2x -> mult by -1
+y = 2x + 2
+
+subst into 1st equation
+
+4x + 3y = 21
+4x + 3(2x + 2) = 21
+4x + 6x + 6 = 21
+10x = 21-6
+10x = 15
+x = 15/10
+x = 3/2
+
+plug back
+y = 2(3/2) + 2
+y = 3 + 2
+y = 5
+
+y >= -3
+5 >= -3
+
+y = -3
+4x +3(-3) <= 21
+4x - 9 <= 21
+4x <= 30
+x <= 30/4
+
+top vertx
+14.5
+
+3(7.5) + 2(-3)
+22.5 -6
+16.5
+
+d. since its not included
+we can get infinitely close to 16.5
+but we can neve reach 16.5
+
+_
+
+9.22
+farmer fred will plant corn and beans. fred has 120 acres total
+he can plant. eahc acre of corn requires 5 lbs of fertilizer
+and each acre of beans requires 7 lbs of fertilizer
+meanwhile each acreo f corn requires 2 lbs of pesticide
+while each acre of beans requires 4 lbs. each acre of corn produces
+$100 worth of corn while each acre of beans produces $120 wroth
+of beans. fred has 660 lbs of fertilizer and 340lbs of pesticide
+
+a. let x be number of acres fred plants wihtbeans and
+y be the numberatorfo acres he plants with corn. write inequalities
+that represent tfred's land fertilizer and pesticide restictions
+
+b. wrte expr that rpresent freds total revenue
+he sells the production from x acres of beans and y acres of corn
+
+c. what is the largest amount of revenue fred can produce
+
+answer:
+
+a. 
+ok so fred has
+120 acre total
+660lbs fertilizer
+340lbs pesticide
+
+1 acre bean = 7 lbs fertilizer
+1 acre bean = 4 lbs pesticide
+1 acre bean = $120
+
+1 acre corn = 5lbs of fertilizer
+1 acre corn = 2lbs pesticide
+1 acre corn = $100
+
+
+x = num of acres fred plants with beans
+y = num of acres he plants with corn
+
+freds fertilizer
+7x + 5y <= 660
+
+freds pesticide
+4x + 2y <= 340
+
+
+b. freds total revenue when he sells production
+from x acres of beans and y acres of corn
+
+so revenue = initial price + the profit offset
+or somethinglike that
+
+freds land/crop
+120 >= x + y >= 0
+
+revenue = 120x + 100y
+
+c. fred puts all his resources into corn
+x = 0
+
+freds fertilizer
+7x + 5y <= 660
+0 + 5y <= 660
+y <= 132
+
+freds pesticide
+4(0) + 2y <= 340
+2y <= 340
+y <= 170
+
+freds land/crop/profit
+120 >= y >= 0
+
+revenue = 100(120) = 12000
+
+c. fred puts all his resources into beans
+y = 0
+
+freds fertilizer
+7x + 5y <= 660
+7x + 5(0) <= 660
+7x <= 660
+x <= 94.2
+
+freds pesticide
+4x + 2y <= 340
+4x + 2(0) <= 340
+4x <= 340
+x <= 85
+
+freds land/crop/profit
+120 >= y >= 0
+
+revenue = 120x + 100y
+revenue = 120(85) + 0 = 10.200
+
+7x + 5y = 660
+x + y = 120
+
+7x + 5y = 660
+-7x - 7y = -840
+-2y = -180
+y = 90
+
+x + 90 = 120
+x = 120-90
+x = 30
+
+total revenue
+120(30) + 100(90)
+3600 + 9000 = 12600
+
+
+; ====================================
+find max value
+x <= some number
+you score in a game less than or euqall 1000
+x <= 1000
+
+find min value
+x >= some number
+human height is less than or equal 100 feet tall
+x >= 100
+; ====================================
+
+
+EXERCISES
