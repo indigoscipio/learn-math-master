@@ -1899,3 +1899,323 @@ x >= 100
 
 
 EXERCISES
+
+9.5.1
+mitches pool can hold 10000 galons of water
+at noon the pool is 80% full
+unfortunately the pool has a lteak and it loses
+120 gal of water every hour
+mitch turns on a hose at tnoon athat fills
+the pool at rate 225 galons per hour
+he checks the water level in the pool everyh our
+starting at 1pm
+at what time does mitch see the first pool overflowing
+
+answer:
+ok so we have
+pool -> can hold 10000 gal
+noon -> 80% full -> 8000gal
+leak -> 120gal/h
+turn on hose -> 225gal/h
+
+so the hose wins here and it will eventually be full right
+starting time is 1pm
+
+let x be the time starting from  1 pm
+or something in hour?
+
+so we wanna see when it overflows
+so the differnece is 225-120 = 105
+the water fills up 105 galons per hour
+
+turns the nose at noon so at 12pm
+8000 + water being filled up = total  pool capacity
+8000 + 120x <= 10000
+120x <= 2000
+x <= 2000/120
+x <= 200/12
+x <= 100/6 = 16 2/3
+so thats like 16 hours?? whichmeans 5am?
+not sure
+
+_
+
+9.5.2
+given that 0 < a < b < c < d
+which of the following is the largest
+
+a+b/c+d,
+a+d/b+c,
+b+c/a+d,
+b+d/a+c,
+c+d/a+b,
+
+answer:
+ok so we have the order
+0 is the smallest
+and d is the largest
+and a - c is inbetweeen
+
+for a fraction to be the largest
+we want to make the denominator as small as possible
+and the numerator as large as possible
+
+so for the numerator
+we need c and d
+so c + d / a + b
+
+lets do small exmaple
+a=1,b=2,c=3,d=4
+
+a+b/c+d -> 3/7
+a+d/b+c -> 5/5 -> 1
+b+c/a+d -> 5/5 -> 1
+b+d/a+c -> 6/4 -> 1 1/2
+c+d/a+b -> 7/3 -> 2 1/3
+
+_
+
+9.5.3
+find the maximum and minimum values for
+4x + y if -2 <= y <= 2,
+y <= -3x + 5 and y <= 3x + 5
+
+answer:
+ok so we wanna find min and max values for
+4x + y
+
+we have 3 inequalities
+-2 <= y <= 2 (y <= 2 and y >= -2)
+y <= -3x + 5
+y <= 3x + 5
+
+1. turn inequality into boundary
+2. find intersection where lines cross each other
+3. plug each into 4x + y to determine
+
+1. y = -2
+2. y = 2
+3. y = -3x + 5
+4. y = 3x + 5
+
+lets try 2 and 3
+y = 2
+y = -3x + 5 -> subst
+2 = -3x + 5
+-3 = -3x
+x = 1
+so we have (1,2)
+
+lets try 2 and 4
+y = 2
+y = 3x + 5
+2 = 3x + 5
+-3 = 3x
+x = -1
+so we have (-1,2)
+
+noe lts do the negative
+1 and 3
+y = -2
+y = -3x + 5
+-2 = -3x + 5
+-7 = -3x
+x = 7/3, so we have (7/3 , -2)
+
+1 and 4
+y = -2
+y = 3x + 5
+-2 = 3x + 5
+-7 = 3x
+x = -7/3 -> (-7/3, -2)
+
+now lets plug in to see whichone is min and max
+
+1st -> (1,2)
+4x + y
+4(1) + 2 = 6
+
+2st -> (-1,2)
+4x + y
+-4 + 2 = -2
+
+3st -> (7/3 , -2)
+4x + y
+4(7/3) - 2
+28/3 - 2
+28-6/3 = 22/3 -> 7 1/3
+
+4st -> (-7/3, -2)
+4x + y
+4(-7/3) - 2
+-28/3 - 2
+-28-6/3
+-34/3 -> 11 1/3
+
+ok so it seems the max value is 11 1/3
+and min value is -2
+
+
+_
+
+9.5.4
+in this problem we investigate optimization in an infinite region
+of the plane
+consider three inequalities
+
+2y >= x
+2y >= -x
+-5 <= x <= 5
+
+a. graph the region of points that satisfy all three inequalities
+b.  does x - y have a max value in the region graphed in part a?
+if so what is it
+c. does x + y have max value in region graphed in part a?
+if so what is it?
+
+answer:
+ok lets plot one by one
+lets find slope
+
+2y = x
+2y - x = 0
+-x + 2y = 0
+m = -(-1/2) = 1/2
+
+2y = -x
+2y + x = 0
+x + 2y = 0
+m = -1/2
+
+1ST EQUATION
+x=0
+2y = x
+2y = 0
+y = 0 -> (0,0)
+
+x=1
+2y = 1
+y = 1/2 -> (1,1/2)
+
+x=2
+2y = 2
+y = 1 -> (2,1)
+
+so the points are 
+(0,0)
+(1,1/2)
+(2,1)
+(3,3/2) ... etc
+
+2ND INEQUALITY
+x=0
+2y = -x
+2y = 0
+y = 0 -> (0,0)
+
+x=1
+2y = -1
+y = -1/2 -> (1,-1/2)
+
+so the points are
+(0,0)
+(1,-1/2)
+(2,-1)
+(3,-3/2) ... etc
+
+and for the remaining is just a vertical line between
+x = 5
+x = -5
+
+so here it looks liek an x
+with two vertical lines at -5 and 5
+
+for 1st inequality lets check 0,0
+2(0) >= 0
+0 >= 0 
+1,1
+2(1) >= (1)
+2 >= 1 so 1,1 is included
+so the upper left part for this one
+
+for 2nd one
+(1,1)
+2y >= -x
+2(1) >= -1
+2 >= -1
+so forthisone upper right is shaded
+
+ok i see now
+the shaded area that satiisfies looks like a 
+U shape/V shape bounded by the rectangle
+
+
+b. does x - y have max value in the region graphed in part
+a.. what the fuck is x-y
+since it stretches to vertical it alwas goes up right?
+since y can go up ofrever, subtractivng massive y values
+(5 - 1000000..) gives us infinitely small negative number
+so hthere is no min value, it drops toward - infiinte
+
+5 - 2.5 = 2.5 (its the poitn at hte right of the V)
+
+c. it goes up to infinite so theres no max value
+
+_
+
+9.5.5
+for everymile of highway on land the city needs two truckloads
+of ashpalt and one galon of paint
+for every mile of highway on bridges the city needs one truckload
+of ashpalt and three galons of paint. the city has 50 truckloads
+of ashpalt and 80 galons of paint.
+
+a. what is the largest total number of miles of highway the city
+can buidl?
+b. supose the city is on an island and must build at least 25 miles of
+highway on bridges to reach other islands. now what is the largest
+total number of miles of highway the city cna build?
+
+answer:
+
+HIGHWAY ON LAND
+1 mile -> 2truckload of ashpalt
+1 mile -> 1 gal paint
+
+HIGHWAY ON bridges
+1mile -> 1truckload of ashpalt
+1mile -> 3 galons of paint
+
+CITY'S SUPPLY
+50 truckloads of ashplat
+80 galons of paint
+
+
+a. we awnna find largest total numebr of miles
+of highway the city cnabuild
+
+let x miles on land
+let y miles on bridges
+2x + y <= 50
+x + 3y <= 80
+
+2x + y = 50
+y = 50 - 2x
+
+x + 3y = 80
+x + 3(50 -2x) = 80
+x + 150 - 6x = 80
+-5x = 80-150
+-5x = -70
+x = 14
+
+14 + 3y = 80
+3y = 66
+y = 22 (14 , 22)
+
+
+built everything in land
+
+
+
+build everyting on bridges
