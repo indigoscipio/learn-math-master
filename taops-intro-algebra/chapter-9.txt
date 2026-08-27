@@ -1930,13 +1930,13 @@ the water fills up 105 galons per hour
 
 turns the nose at noon so at 12pm
 8000 + water being filled up = total  pool capacity
-8000 + 120x <= 10000
-120x <= 2000
-x <= 2000/120
-x <= 200/12
-x <= 100/6 = 16 2/3
-so thats like 16 hours?? whichmeans 5am?
-not sure
+8000 + 105x <= 10000
+105x <= 2000
+x <= 2000/105
+x <= ~19.04
+so thats like 19 hours startin from 1 pm
+so thats 1am nextday + 7 hours
+so thats 8am nextday
 
 _
 
@@ -2050,10 +2050,10 @@ now lets plug in to see whichone is min and max
 4(-7/3) - 2
 -28/3 - 2
 -28-6/3
--34/3 -> 11 1/3
+-34/3 -> -11 1/3
 
-ok so it seems the max value is 11 1/3
-and min value is -2
+ok so it seems the max value is 7 1/3
+and min value is -11 1/3
 
 
 _
@@ -2213,9 +2213,224 @@ x = 14
 3y = 66
 y = 22 (14 , 22)
 
+built everything in land (y=0)
+2x + y <= 50
+2x + 0 <= 50
+2x <= 50
+x <= 25
+so we have (25,0)
 
-built everything in land
+build everyting on bridges (x = 0)
+x + 3y <= 80
+3y <= 80
+y <= 80/3
+y <= 26 2/3
+so we have (0, 26 2/3)
+
+so for the 3 points we have
+x = num of miles of highway build on land
+y = num of miles of highway build on highway
+
+total miles = miles on land + miles on bdigest
+= x + y
+
+(14 , 22) -> 14+22 = 36
+(25,0) -> 25
+(0, 26 2/3) -> 26 2/3
+so the largest of miles here is 36
+
+b. ok so the city is on an island
+must build at least 25 miles of highway on bridges
+to reach other island
+we wanna know largest number of miles of highway
+the city cna build
+
+so y >= 25
+keep 2x + y <= 50
+keep x + 3y <= 80
+add new y >= 25
+
+y = 25
+2x + y = 50
+2x + 25 = 50
+2x = 25
+x = 25/2 -> (25/2,25)
+
+y = 25
+x + 3y = 80
+x + 75 = 80
+x = 5 -> (5,25)
+
+25/2 + 25 = 25+50/2 = 75/2 = 37.5
+5 + 25 = 30
+so 30 ismax
+
+; ========================================
+
+REVIEW problems
+
+9.23
+FOR EACH OF THE folowing inequalities grpah the solutions
+to the inequality on the number line and write the solution
+to the inequality using interval notation
+
+a. 2 - 3x >= 11 
+b. 3 + 2x < 30 - 7x
+c. 8 - 2x <= 5 - 5x < 23 - 2x
+
+answer:
+a. 2 - 3x >= 11
+-3x >= 9
+-x >= 3 -> mult by -1
+x <= -3
+
+ok so for the graph thatsjust a vertical line on -3
+for the interval thats (-infinity, -3]
+
+b. 3 + 2x < 30 - 7x
+2x + 7x < 30 + 3
+9x < 33
+x < 33/9
+x < 11/3
+
+so tahts just like a but its strict , bounded by 11/3
+sor the interval thats
+(-infinity, 11/3)
+
+c. 8 - 2x <= 5 - 5x < 23 - 2x ->> all all sides + 2x
+8 <= 5 - 3x < 23 ->  subtract 5
+3 <= -3x < 18 -> divide 3
+1 <= -x < 6 -> mult -1
+-1 >= x > -6
+
+so the notation thats
+(-6, -1]
 
 
+_
 
-build everyting on bridges
+9.24
+determine wheter each of the following statmes is true or false
+if true explain why. if its false provide example that shows
+statmenet is false. assume a,b,c,x, and y are real numbers
+
+a. if a <= b and b <= c then a < c
+b. if a >= b >= a, then a = b
+c. if a > b then ac > bc
+d. if a > b and c <= 0 then ac <= bc
+e. if x + a >= y + a then x >= y
+f. if x + a >= y + b then x >= y and a >= b
+
+answer:
+lets check one by one
+a. a <= b
+b <= c
+a < c
+
+by the logic of the chain it should be a <= c right lets test
+a = 1
+b = 1
+c = 1
+
+1 < 1 -> false
+so this is false
+
+b. a >= b >= a
+a = b
+
+ok so we have
+a >= b >= a -> subtract all sides by a
+0 >= b >= 0 -> so technicaly b has only 1 value riht
+its got like no other choice but stuck/sandwiched between the a
+
+lets try/test
+a >= b -> a-b >= 0
+a <= b -> a-b <= 0
+
+a = 1
+b = 1
+1 >= 1 >= 1
+which satisfies
+
+a=1
+b=2
+1 >= 2 >= 1
+yeah this cannot be true because even tough the right side is true
+we have the left side 1 >= 2 which makes it false
+so it has to be equal with each othe rto 'balance' the inequality
+
+c. a > b
+ac > bc
+
+a > b -> mult both sides by c
+a . c > b . c
+since c is a real number/constant (not negative) the equality sign stays
+and so a > b its true
+
+d. if a > b and c <= 0 then ac <= bc
+a > b
+c <= 0
+ac <= bc
+
+so we wanna show 2 either 2 things
+ac < bc or ac = bc
+
+ok so we have c which is negative but can be zero
+
+if c is zero then
+c = 0
+ac = 0
+bc = 0
+0 <= 0
+so this is true
+satisfies the 'equal to' part of <=
+
+if c is negative
+c < 0
+
+a > b -> mult by negative
+ac < bc -> flip the sign
+
+if ac < bc, then ac is less than bc
+which means less than or equal is also true
+satisfies the less than part of <=
+so the expression istrue
+
+e. if x + a >= y + a
+then x >= y
+
+ok so we wanna show
+x = y or x > y
+
+since a are real numbrer
+x + a >= y + a -> subtract both sidies by a
+x >= y, no need to change inequality sign
+
+so this satisfies bot hparts
+x =y and x > y
+
+so its true
+
+f. if x + a >= y + b then x >= y and a >= b
+what we know
+x + a >= y + b
+we wanna show
+x >= y and
+a >= b
+
+x + a >= y + b
+x >= y + b - a
+x - y >= b - a
+
+_
+
+9.25
+_
+
+9.26
+_
+
+9.27
+_
+
+_
