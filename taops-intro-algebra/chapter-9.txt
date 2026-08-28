@@ -2288,14 +2288,14 @@ ok so for the graph thatsjust a vertical line on -3
 for the interval thats (-infinity, -3]
 
 b. 3 + 2x < 30 - 7x
-2x + 7x < 30 + 3
-9x < 33
-x < 33/9
-x < 11/3
+2x + 7x < 30 - 3
+9x < 27
+x < 27/9
+x < 3
 
-so tahts just like a but its strict , bounded by 11/3
+so tahts just like a but its strict , bounded by 3
 sor the interval thats
-(-infinity, 11/3)
+(-infinity, 3)
 
 c. 8 - 2x <= 5 - 5x < 23 - 2x ->> all all sides + 2x
 8 <= 5 - 3x < 23 ->  subtract 5
@@ -2422,15 +2422,333 @@ x + a >= y + b
 x >= y + b - a
 x - y >= b - a
 
+x = 10
+a = 0
+y = 1
+b = 5
+
+10 + 0 >= 1 + 5
+10 >= 6
+true
+
+x >= y
+10 >= 1 - true
+a >= b
+0 >= 5 - fale
+
+so the statement is false
+
+
+
+
 _
 
 9.25
+if a > b > c > d then which integer is larger, a + c or b + d?
+can we tell from a > b > c > d which of a + d and b + c is larger
+
+answer:
+ok so we konw a is largest and d is smallest
+a + c or b + d
+
+lets say
+a=4
+b=3
+c=2
+d=1
+
+a + c -> 6
+b + d -> 4
+
+so a + c is larger
+
+next which of a + d and b + c is larger
+5 + 1 vs 2+3
+6 vs 5
+so a+d larger it seems
+
+lets try another example
+a=10
+b=8
+c=6
+d=0
+
+a+c = 16
+b+d = 8
+
+a+d = 10
+b+c = 14
+hmm but here b+c is larger
+i guess if the number is like incrementint by 1 the 1st part is true
+but that also depends on the distance between the number right
+
+we have a > b > c > d
+first we have a > b
+and we have c > d
+
+a + c > b + c
+c + b > d + b
+
+a + c > b + c > b + d
+
+therefore  a +  c > b + d
+
 _
 
 9.26
+which of the following nmbers is the largetst
+2^36
+3^30
+4^24
+5^18
+6^12
+7^8
+8^4
+no calculators
+
+answer:
+lets try to find a common exponent
+6 seem to be the comon factorhere, notsure
+
+2^36 = (2^6)^6 -> (64)^6 
+3^30 = (3^5)^6 -> (243)^6
+4^24 = (4^4)^6 -> (256)^6
+5^18 = (5^3)^6 -> (125)^6
+6^12 = (6^2)^6 -> (36)^6
+7^8 = 7^ yeah notsure how i can factor here, maybe
+7^2 . (7)^6 -> 49 . 7^6
+lets do 7^12 instead
+7^12 = (7^2)^6 = (49)^6
+we know 7^8 < 7^12
+8^4 = 2^3^4 = 2^12 = (2^2)^6 -> 4^6
+
+here the largest seems to be 4^24 which is 256^6
+since we know 7^12 = (49)^6 therefor
+7^8 < 7^12 < 4^24
+so 4^24 is the largest
+
 _
 
 9.27
-_
+i have $230 and im a t a bookstore
+i love books so iwanna buy as many as i can
+the books i wanna buy each cost 17$
+at most how many books can i buy and still have at least
+$25 left for dinner
+
+answer:
+ok so ihave $230
+i wanna buy as manybook
+each book cost $17
+
+letx be the number of books
+at least = greater than or equal
+230 - 17x >= 25
+-17x >= -205
+17x <= 205
+x <= 205/17
+x <= ~12.05
+
+so atmost is 12 books right
 
 _
+
+9.28
+back in elementary school i learned a great magic trick to compare
+two positive factrions. heres howitworks in action
+consider the fractions 5/19 and 6/23. i mult the numerator of the 1st
+and denominator of the second and get 5 . 23 = 115
+i mult the numerator of the second and the denom of the first and get
+6 . 19 = 114
+because 115 > 114 i know that 5 / 19 > 6 / 23
+
+why doesthis magic trick work? in oterh words
+if a,b,c, and d are positive, then why does ad > bc mean that a/b
+> c/d?
+
+answer:
+ok so lets understand the exmaple we have
+
+5/16 and 6/23
+
+5 . 23 = 115
+6 . 19 = 114
+
+ad > bc mean a/b > c/d
+
+cause of the cross multiplication thing right?
+if we have
+
+a/b = c/d ->> thesame as mult both sides by (bd)
+ad = bc
+
+ad > bc -> divide both sides by d
+a > bc/d -> mult both sides by 1/b
+a/b > c/d
+the inequality sign stays because b and d are positive
+
+_
+
+9.29
+what is the smallest positive interger that has a sqrt
+that is greater than 10?
+
+answer:
+let x be the ingeger
+
+sqrt(x) > 10 -> square both sides
+x > 100
+
+so next smallest is 101
+
+
+_
+
+9.30
+
+a. graph the inequality 4x-2/x < 6
+b. graph the inequality 2(y+3) <= 4-x
+
+answer:
+a. 4x - y/2 < 6
+lets mult all side by 2
+8x - y < 12
+m = -(8/-1) = 8
+
+x=0
+0 - y = 12
+y = -12 -> (0,-12)
+
+x=1
+8 - y = 12
+-y = 4
+y = -4 -> (1,-4)
+
+so the pionts are
+(0,-12)
+(1,-4)
+(2,4)
+(3,12) ... etc
+
+since its nonstrict the line is not shaded and for the area
+lets chech (0,0)
+0<6 so 0,0 is included which means the shaded part is top left area
+
+b. 2(y+3) <= 4-x
+2y+6 <= 4-x
+2y + x <= -2
+x + 2y <= -2
+m = -(1/2) = -1/2
+
+x=0
+0 + 2y = -2
+y = -1 -> (0,-1)
+
+x=1
+1 + 2y = -2
+2y = -3
+y = -3/2 -> (1,-3/2)
+
+x=2
+2 + 2y = -2
+2y = -4
+y = -2 -> (2,-2)
+
+so the points are
+(0,-2/2)
+(1,-3/2)
+(2,-4/2) ... etc
+
+since this is nonstrict the line is shaded
+and lets check 0,0
+
+x + 2y <= -2
+0 <= -2 which is false so its not shaded
+
+so the shaded are is top right i think
+
+_
+
+9.31
+what values of x satisfy the inequality chain
+
+7 - 3x < x - 1 <= 2x + 9
+
+answer:
+add all sides +1
+-3x + 8  < x <= 2x + 10
+
+yeah lets just divide into 2 parts
+7 - 3x < x - 1
+-3x < x - 1 - 7
+-3x < x - 8
+-3x - x < -8
+-4x < -8 -> mult by -1
+4x > 8 -> divide by 4
+x > 2
+
+x - 1 <= 2x + 9
+x <= 2x + 10
+x - 2x <= 10
+-x <= 10 -> mult by -1
+x >= -10
+
+so we have
+x > 2
+x >= -10
+
+which si a contradiction right?
+x cannot be greater than 2
+and greater than -10 at the same time so theres no solution?
+
+_
+
+9.32
+
+find the maximum value for x + y, given that 3x + 2y <= 7
+and 2x + 4y <= 8
+
+answer:
+
+ok so we have 2 inequality
+
+3x + 2y <= 7
+2x + 4y <= 8 -> divide by 2
+
+x + 2y = 4
+x = 4 - 2y
+
+3x + 2y = 7
+3(4-2y) + 2y = 7
+12-6y+2y = 7
+12-4y = 7
+-4y = -5
+y = 5/4
+
+3x + 2y = 7
+3x + 2(5/4) = 7
+3x + 5/2 = 7
+3x = 7 - 5/2
+3x = 14-5/2
+3x = 9/2
+x = 9/2 : 3
+x = 9/2 . 1/3
+x = 9/6
+x = 3/2
+
+x+y = 5/4 + 3/2 = 5+6/4 = 11/4 = 2 3/4
+
+
+
+_
+
+9.33
+snape has 2000ml of magic potion solution thats 30% demuggle juice
+he also has hundreds of 25ml buttles that are full of 75% demuggle juice solution
+eveyrtime he weave hiswand one of those bottles is added to his magic potion
+how many times must he wave his wand to have a solution thats atleast 34% demuggle juice
+
+answer:
+
+_ 
+
