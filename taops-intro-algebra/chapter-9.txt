@@ -2367,6 +2367,15 @@ a . c > b . c
 since c is a real number/constant (not negative) the equality sign stays
 and so a > b its true
 
+a > b if c = 0
+or if c < 0
+
+if c is 0 then we get
+0 > 0 which makes the statement false
+
+if c is negative when we flip the sign to
+ac < bc which makes the expr false too
+
 d. if a > b and c <= 0 then ac <= bc
 a > b
 c <= 0
@@ -2665,7 +2674,7 @@ and lets check 0,0
 x + 2y <= -2
 0 <= -2 which is false so its not shaded
 
-so the shaded are is top right i think
+so the shaded are is he bottom left region
 
 _
 
@@ -2697,9 +2706,12 @@ so we have
 x > 2
 x >= -10
 
-which si a contradiction right?
-x cannot be greater than 2
-and greater than -10 at the same time so theres no solution?
+x is greater than 2
+x is greater than or equal to -10
+
+basicaly just x > 2
+so in terms of interval notation thats (2,+infinity)
+
 
 _
 
@@ -2738,8 +2750,6 @@ x = 3/2
 
 x+y = 5/4 + 3/2 = 5+6/4 = 11/4 = 2 3/4
 
-
-
 _
 
 9.33
@@ -2749,6 +2759,514 @@ eveyrtime he weave hiswand one of those bottles is added to his magic potion
 how many times must he wave his wand to have a solution thats atleast 34% demuggle juice
 
 answer:
+yea lets just skip this shit
 
 _ 
+
+9.34
+betty goes to store o get flour and sugar
+the amount of flour she buys in lbs is at least 6lbs more
+than half the amt of sugar and is no more than twice the amt of sugar
+find the least number of lbs that betty could buy
+
+answer:
+
+let x = flour in lbs
+let y = sugar
+
+x >= 6 + 1/2 y
+x <= 2y
+
+we wanna find least number of pounds of sugar betty could buy
+
+since we know
+x = 2y
+y = 1/2x
+
+x >= 6 + 1/2 (1/2x)
+x >= 6 + 1/4x
+x - 1/4x >= 6
+3/4x >= 6
+x >= 6 . 4/3
+x >= 24/3
+x >= 8
+
+so the amt of flower = 8
+x <= 2y
+8 <= 2y
+4 <= y
+y >= 4
+
+8+4 = 12
+
+
+_
+
+9.35
+for how many positive integers n is 9 < sqrt(n) < 100
+answer:
+
+9 < sqrt(n) < 100
+3^2 < n^1/2 < 10^2 -> expo by 2
+3^4 < n < 10^4
+
+so then we have
+81 < n < 10000
+since 81 and 10000 is not included
+10000 - 81 - 1 = 9918
+
+================================
+inclusive: b - a + 1
+exclusive: b - a - 1
+one included: b - a
+================================
+
+_
+
+9.36
+a. which fraction is alrger
+13/17 or 17/21
+
+b. which fraction is larger,
+31/35 or 37/41
+
+c. which fraction is larger
+100003/100007 or 1000003/1000007
+
+answer:
+a. lets cross mult
+13.21 vs 17.17
+
+273 vs 289
+so rightone is larger
+
+
+
+b. 31/35 vs 37/41
+31.41 vs 35.37
+1271 vs 1295
+
+1 - 31/35
+4/35
+
+1-37/41
+4/41
+
+since 4/41 is smaller piece
+therefore its closer to 1
+
+so 2nd one is closer to   1
+
+
+c. 
+1 - 100003/100007
+4/100007
+
+1 - 1000003/1000007
+4/1000007
+
+here the smaller one is the 2nd one right 4/1000007
+since it has a smaller 'missing piece'
+then its closer to 1 and therefore bigger?
+
+; ==========================================
+
+CHALLENGE PROBLEMS
+
+9.3.7
+for what values of r do we have 2r - 4 <= r + 7 < 3r -15
+
+answer:
+
+2r - 4 <= r + 7 < 3r -15
+
+lets divide into 2 parts
+
+2r - 4 <= r + 7
+2r - r <= 4 + 7
+r <= 11
+
+r + 7 < 3r - 15
+7 + 15 < 3r - r
+22 < 2r
+11 < r
+r > 11
+
+so we have the 2 pieces
+r <= 11 and r > 11
+
+i think this is a contraidction right? since
+r cannot be strictly larger than 11 but at the same ime
+equal or less than 11?
+
+so no values satisfy this
+
+_
+
+9.38
+desribe all x such that x^2 + 3 < 12
+
+answer:
+
+yeah notsure here lets try
+x^2 + 3 < 12
+x^2 < 12-3
+x^2 < 9
+
+on the negative sie
+x must be greater than -3
+x > -3
+x < 3
+
+-3 < x < 3
+
+so then we have
+2,1,0,1,2
+(-3,3)
+
+_
+
+9.39
+
+which number is bgger
+sqrt(82)^23 or 3^46 
+
+answer:
+
+sqrt(82) = 82^1/2
+
+(82^1/2)^23 = 82^23/2
+
+now we have
+82^23/2
+3^46
+
+lets raise power by 2
+82^23
+3^92
+
+82 is like 9^2 + 1 right?
+yeah lets assume itsjust 81^23
+
+
+9^2^23 -> 9^46 -> (3^2)^46 -> 3^92
+
+so then we have
+3^92
+3^92
+
+hmm so they re both equal
+since the 2nd one we assume its smaller 
+
+
+since 82 > 81 it follows that
+82^23 > 81^23
+
+therefore sqrt(82)^23 is the larger number
+
+
+_
+
+9.41
+how many perfect squares are between 6^4 and 4^6
+excluding both
+
+answer:
+ok so a perfect suqare is 
+
+x^2 right or if i remmeber its
+sqrt(x)^2 = x or something
+
+notsure if ths isimportnat
+
+2^2 = 4
+2^3 = 8
+2^4 = 16
+2^5 = 32
+2^6 = 64
+2^8 = 256
+so idontknow if thisistrue ornot but perfect uqare
+has like even power right?
+
+
+6^4
+6 . 6 . 6 . 6
+36 . 36 -> 2 perfect squares
+
+4 . 4 . 4 . 4 . 4 . 4
+64 . 64 -> 2 perfefct suqres
+
+so thats between
+36^2 and 64^2
+
+since we wanna count excluded bo ththen thats
+b - a - 1
+64 - 36 - 1
+27
+
+_
+
+9.42
+suppose that
+
+4/2001 < a/a+b < 5/2001
+
+compute the number of integral values that 
+b/a can take on
+
+answer:
+
+4/2001 < a/a+b < 5/2001
+
+lets try to flip the reciprocal
+
+2001/4 > a+b/a > 2001/5
+2001/4 > 1 + b/a > 2001/5 -> subtract by 1?
+1997/4 > b/a > 1996/5
+
+since we wanna find integers
+499.25 > b/a > 399.2
+
+so its starting from 499
+and must be greater than 399.2 -> 400
+so we wanna count 400 - 499 inclusive
+499 - 400 + 1 = 100
+
+_
+
+9.43
+which off the following 
+1. (2^3)^4
+2. (2^4)^3
+3. (3^2)^4
+4. (3^4)^2
+5. (4^2)^3
+6. (4^3)^2
+
+is the largest
+
+answer:
+
+lets tackle this one by one
+we need to equalize the power i think
+
+1. (2^3)^4 -> 2^81
+2. (2^4)^3 -> 2^64
+3. (3^2)^4 -> 3^16
+4. (3^4)^2 -> 3^16
+5. (4^2)^3 -> 4^8 -> 2^2^8 -> 2^16
+6. (4^3)^2 -> 4^9 -> 2^2^9 -> 2^18
+
+here obviously 2^81 has the highest power but lets check if its 
+greater than 3^16 since its the only thing that matters here
+imean obviously the 81 has much larger power but lets check
+
+2^81
+3^16
+
+lets just do 3^18
+3^18 > 3^16
+
+(2^9)^9
+(3^2)^9
+512^9
+9^9
+
+yeah obviously 1stone wins
+
+
+_
+
+9.44
+does x + y have a max value under the conditions
+x >= 0,
+y >= 0,
+2x + y < 8
+x + 2y < 10
+
+answer:
+
+intersection of the two
+
+2x + y = 8
+y = 8 - 2x
+
+x + 2y = 10
+x + 2(8-2x) = 10
+x + 16-4x = 10
+-3x = -6
+x = 2
+
+2x + y = 8
+2(2) + y = 8
+4 + y = 8
+y = 4
+
+so we have (2,4)
+2 + 4 = 6
+
+
+y=0
+2x + y < 8
+2x = 8
+x = 4 -> 4+0 = 4
+
+x=0
+x + 2y < 10
+2y = 10
+y = 5 -> 0+5 = 5
+
+add the inequalities
+3x + 3y < 18
+x + y < 6
+since it uses < its not included
+so contradiction
+
+_
+
+9.45
+find the greatest posible value for 
+a+b+c+d if b is a positive integer
+and a,b,c,d satisfy the system of equations
+
+a+b=c
+b+c=d
+c+d=a
+
+answer:
+maybe just subst?
+
+a+b+c+d 
+(c+d) + b + (a+b) + (b+c)
+c + d + b + a + b + b + c
+3b + 2c + a + d
+
+c = a + b
+d = b + c
+
+d = b + (a + b)
+d = 2b + a
+
+d = 2b + (c+d)
+d = 2b + c + d
+0 = 2b + c
+c = -2b
+
+a = c - b
+a = -2b - b
+a = -3b
+
+d = b + c
+d = b -2b
+d = -b
+
+a+b+c+d
+-3b+b-2b-b
+-5b
+
+to make -1 as large aspossible
+pick b = 1
+5(-1) = -5
+
+
+
+_
+
+9.46
+for x,y,z and w>=0 compute the smallest value of x
+satisfying the following sytsme
+
+y = x - 2001
+z = 2y - 2001
+w = 3z - 2001
+
+answer:
+
+ok so we wanna find x right
+
+y = x - 2001
+z = 2y - 2001
+
+z = 2(x-2001) - 2001
+z = 2x - 4002 - 2001
+z = 2x - 6003
+
+
+w = 3(2x - 6003) - 2001
+w = 6x - 18009 - 2001
+w = 6x - 20010
+
+we wanna find
+smallest value where
+y >= 0
+y = x - 2001
+
+subst into inequality
+
+x - 2001 >= 0
+x >= 2001
+
+z >= 0
+2x - 6003 >= 0
+2x >= 6003
+x >= 3001.5
+
+w >= 0
+w = 6x - 20010
+6x - 20010 >= 0
+6x  >= 20010
+x >= 3335
+so smallest must be 3335
+
+_
+
+9.47
+find all values of x such that
+4x-5/3x+5 >= 3
+
+subtraxt by 3
+4x-5/3x+5 - 3>= 0
+
+4x-5/3x+5 - 3(3x+5)/3x+5 >= 0
+4x-5/3x+5 + (-9x-15)/3x+5 >= 0
+4x-5-9x-15/3x+5 >= 0
+-5x-20/3x+5 >= 0
+-5(x+4)/3x+5 >= 0
+
+numerator equals zero 
+-5(x+4) = 0
+-5x - 20 = 0
+-5x = 20
+x = -4
+
+denominator equals zero
+3x+5 = 0
+3x = -5
+x = -5/3
+
+-5/3 makes the denominator zero so its not included
+therefore the interval is
+
+[-4,-5/3)
+
+_
+
+9.49
+which is larger
+63^45 or 33^54
+
+lets do
+64 and 36
+
+64^45 -> 8^2^45 -> 8^90 -> 2^3^90 -> 2^270
+36^54 -> 6^2^54
+
+so we have
+(2^5)^54 -> 32^54
+(6^2)^54 -> 36^54
+
+so 64^45 > 36^54
+therefore 33^54 is larger than 63^45
+
+_
 
