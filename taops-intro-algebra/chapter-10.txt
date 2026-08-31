@@ -271,17 +271,337 @@ x = -4
 c. (x-2/5)(x+5)
 (x.x)+(x.5)+(-2/5.x)+(-2/5.5)
 x^2+5x-2/5x-2
-x^2+
+x^2+25-2/5x-2
+x^2+23/5x-2
+
+(x-2/5)(x+5) = 0
+x = 2/5
+x = -5
 
 d. (x-8)(x-8)
+x^2-8x-8x+64
+x^2-16x+64
 
+(x-8)(x-8) = 0
+x = 8
 
 _
 
 10.1.4
+100 times my number is equal to the square of my number
+divided by 4. what are the possible values of my number?
+
+answer:
+let x be my number
+
+square of my number -> x^2
+
+100(x) = x^2 / 4
+4(100x) = x^2
+x^2 = 400x
+x^2 - 400x = 0
+x(x - 400) = 0
+
+so the possible values are
+x = 0 -> 0(-400) = 0
+x = 400 -> 400(0) = 0
+
+
 _
 
 10.1.5
+write a product of two binomials such that the product is equal to
+zero when x equals 3 or -5
+
+ok so we know the first one
+its gotta be the opposite right so -3 and 5
+(x + ...)(x + ...) = 0
+or maybe negative
+(x - 3)(x + 5) = 0
+
+lets testit
+x=3
+(3 - 3)(3 + 5) = 0
+0(8) = 0
+
+x=-5
+(-5 - 3)(-5 + 5) = 0
+-8(0) = 0
+
 _
 
 10.1.6
+
+expand the prooduct (x-2)(x-5)(x+3)
+when does this product equal zero?
+
+answer:
+lets do this one by one
+
+first part
+(x-2)(x-5)
+x^2-5x-2x+10
+x^2-7x+10
+
+then lets expand that with (x+3)
+(x+3)(x^2-7x+10)
+(x)(x^2-7x+10)+3(x^2-7x+10)
+x^3-7x^2+10x + 3x^2-21x+30
+
+combine like terms
+x^3
+-7x^2+3x^2 -> -4x^2
+10x-21x -> -11x
+30
+
+x^3-4x^2-11x+30
+
+when the product equalszero
+(x-2)(x-5)(x+3) = 0
+x = 2
+(0)(-3)(5) = 0
+
+x = 5
+(3)(0)(8) = 0
+
+x = -3
+(-5)(-8)(0) = 0
+
+; =========================================
+
+REFACTORING QUADRATICS
+
+10.6
+let r and s be numbers such that
+(x+r)(x+s) = x^2 + 8x + 15
+
+a. what must rs be?
+b. what must r + s be?
+c. find r and s
+d. find all solutions to the equation x^2 + 8x + 15 = 0
+
+answer:
+a. 
+ok so we have 
+(x+r)(x+s) = x^2 + 8x + 15
+
+we wanna find rs
+lets expand maybe?
+(x+r)(x+s)
+x^2 + xs + xr + rs
+x^2 + x(s+r) + rs
+
+so rs here is 15 right?
+
+b. and the r+s is the 8 since
+its like the 'middle' xr + xs right
+so x(r+s) just need the r+s so 8
+
+c. find r and s
+ok so we know rs = 15
+and we know r+s = 8
+
+so find a pair of numer such that when its multiplied its 15
+and when its sums to 8?
+
+im thinking either
+r = 3 or s = 5
+s = 5 or s = 3?? or is that basically the smae?
+
+d. (x+3)(x+5)
+x^2+5x+3x+15
+x^2+8x+15
+x = -3
+x = -5
+
+_
+
+10.7
+let r and s be number such that
+
+(y+r)(y+s) = y^2 - 5y - 24
+
+a. find rs and r+s
+b. find r and s
+c. find all solutions to the equations
+y^2 - 5y - 24 = 0
+
+answer:
+a. 
+(y+r)(y+s)
+y^2 + ys + yr + rs
+y^2 + (r+s)y + rs = y^2 - 5y - 24
+so here
+rs = -24
+and r+s = -5
+
+b. so we need to find two pair of number that
+when multiplied equal -24
+and hwne sum equals -5
+
+im thinking
+-8 and 3
+so
+y = -8
+y = 3
+
+c. 
+y^2 - 5y - 24 = 0
+lets verify first
+(y-8)(y+3) = 0
+y^2+3y-8y-24
+y^2-5y-24
+
+so for the solution
+y = 8
+y = -3
+
+_
+
+10.8
+find all solutions to each of the following equations
+a. r^2 - 11r + 28 = 0
+b. x^2 + 10x + 25 = 0
+c. 56 - x^2 - x = 0
+d. s^2 - 7x = 0
+e. 49 - p^2 = 0
+
+answer:
+a. r^2 - 11r + 28 = 0
+ok so rs = 28
+r+s = -11
+so pair that when mult = 28, and sums to -11
+-7 -4
+
+(r-7)(r-4)=0
+r^2-4r-7r+28
+r^2-11r+28
+
+therefore the solution is
+r = 7 -> 0(3) = 0
+r = 4 -> -3(0) = 0
+
+b. x^2 + 10x + 25
+rs = 25
+r+s = 10
+
+x = 5, x= 5
+(x+5)(x+5)
+x^2+10x+25
+so the solutions is only
+x = -5
+
+c. 56 -x^2 - x = 0
+lets rearrange this
+-x^2 - x + 56 = 0
+lets maybe mult by -1? dont know if this is allowed?
+x^2 + x - 56 = 0
+
+r+s = 1
+rs = -56
+x = 8, x = -7
+
+(x+8)(x-7)
+x^2-7x+8x-56
+x^2+x-56
+so the soltions are
+x=-8
+x=7
+
+d. s^2 - 7s = 0
+s(s-7) = 0
+
+so the solution is
+s= 0 -> 0(-7) = 0
+s=7 -> 7(0) = 0
+
+e. 49-p^2 = 0
+-p^2 + 49 = 0
+lets mult by -1
+p^2 - 49 = 0
+p^2 = 49
+p = -+sqrt(49)
+p = -+7
+
+so since we take the sqrt
+there are 2 solution right
+p = 7 and p = -7
+
+_
+
+10.9
+the mathematical constant e is approx. equal to 2.71828
+is e^2 - 5e + 6 positive, zero, or negative?
+
+answer:
+
+e^2 - 5e + 6
+sum = -5
+product = 6
+
+so then thats e = -2, e=-3
+(e-2)(e-3)
+e^2-2e-3e+6
+e^2-5e+6
+
+so we have for the solution
+(e-2)(e-3) = 0
+so therefore
+e = 2
+and e = 3?
+
+ok lets test this
+(2.718 - 2) = 0.718 which is positive
+(2.718 - 3) = -0.282 whch is negative
+
+so we have positive .  negative = negative parity
+sotherefore its negative right
+
+
+_
+
+10.10
+in this problem we find all values of y such that
+(y^2+y-6)(y^2-6y+9)-2(y^2-9) = 0
+
+a. factor all three quadratics in the equation
+b. use factorization to further factor the left sied
+c. find all values of y that satify the euqation
+
+1st
+(y^2+y-6)
+sum=1
+prod=-6
+y=3, y=-2
+so we have (y+3)(y-2)
+
+2nd
+(y^2-6y+9)
+sum=-6
+prod=9
+
+y= -3,y = -3
+(y-3)(y-3)
+
+3rd
+2(y^2-9)
+maybe lets focus on the (y^2-9)?
+(y^2-9)
+sum = 0
+prod = -9
+so thats 3 and -3 right
+
+(y+3)(y-3)
+so we have
+2(y+3)(y-3)
+
+combining eveyrthing then we have
+(y+3)(y-2)(y-3)(y-3)-2(y+3)(y-3) = 0
+
+c. (y+3)(y-2)(y-3)(y-3)-2(y+3)(y-3) = 0
+(y+3)(y-3)(y-2)(y-3)-2(y+3)(y-3) = 0
+let S = (y+3)(y-3)
+S(y-2)(y-3) - 2S = 0
+s((y-2)(y-3)-2) = 0
+
+lets expand (y-2)(y-3)
