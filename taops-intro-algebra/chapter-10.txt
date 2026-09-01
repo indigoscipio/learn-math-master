@@ -605,3 +605,258 @@ S(y-2)(y-3) - 2S = 0
 s((y-2)(y-3)-2) = 0
 
 lets expand (y-2)(y-3)
+y^2-3y-2y+6
+y^2-5y+6
+
+so we have
+
+s((y^2-5y+6)-2) = 0
+s(y^2-5y+4) = 0
+
+maybe factor it again?
+sum = -5
+prod = 4
+y = -1, y=-4
+
+s(y-1)(y-4) = 0
+
+subst back
+(y+3)(y-3)(y-1)(y-4) = 0
+so then the values are
+y = -3
+y = 3
+y = 1
+y= 4??
+
+; =============================
+
+exercises
+find all solutions to the following equations
+a. r^2 - 9r  + 18 = 0 
+b. t^2 - 5t = 14
+c. x^2 = 25x - 144
+d. 200 - y^2 = 0
+e. 54x + 3x^2 + 243 = 0
+f. t^2 - 4.5t + 3.5 = 0
+
+answer:
+a. r^2 - 9r  + 18 = 0 
+sum = -9
+prod = 18
+
+r = -6, r = -3
+(r-6)(r-3) = 0
+r^2-3r-6r+18
+r^2-9r+18
+
+therefore solutions are
+r=6, r=3
+
+b. t^2 - 5t = 14
+t^2 - 5t - 14 = 0
+sum = -5
+prod = -14
+
+t = -7, t = 2
+(t-7)(t+2)
+t^2+2t-7t-14
+t^2-5t-14
+threfore the solutions are
+t=7, t=-2
+
+c. x^2 = 25x - 144
+x^2 - 25x + 144 = 0
+sum = -25
+prod = 144
+
+x=-9, x=-16
+(x-9)(x-16)
+x^2-9x-16x+144
+x^2-25x+144
+
+so the solutions are
+x=9, x=16
+
+d. 200 - y^2 = 0
+-y^2 + 200 = 0 ->> mult by -1
+y^2 - 200 = 0
+
+y^2 = 200 -> sqrt
+y = sqrt(200)
+y = sqrt(25 . 8)
+y = 5 . sqrt(8)
+
+since we take the sqrt therefore tihas two solutions
+y = -5.sqrt(8)
+y = 5.sqrt(8)
+
+e. 54x + 3x^2 + 243 = 0 -> rearrange?
+3x^2 + 54x + 243 = 0 -> lets divide by 3
+x^2 + 18x + 81 = 0
+
+sum = 18
+mult = 81
+x= 9 ,x= 9
+
+(x+9)(x+9)
+x^2+9x+9x+81
+x^2+18x+81
+
+so the solution is only x=-9
+
+
+f. t^2 - 4.5t + 3.5 = 0
+sum = -4.5
+mult = 3.5
+
+
+t= -1.5 , t=-3
+(x-1.5)(x-3)
+x^2-3x-1.5x+3.5
+x^2-4.5x+3.5
+
+so the solutions are
+t= 1.5, t=3
+
+
+_
+
+10.2.2
+find sum of the rots and the proudct of the roots oft he equation
+x^2 + 15x - 324 = 0
+sum = 15
+mult = -324
+
+x = 27 , x= -12
+so we hae the factors
+(x+27)(x-12) = 0
+x^2-12x+27x-324
+x^2+15x-324
+
+so hte solutions are
+x=-27
+x=12
+
+product of the roots
+-27 . 12 = -324
+sum of the roots
+-27 + 12 = -15
+
+_
+
+10.2.3
+
+let b be a constant. factor the quadratic
+x^2 - b^2
+
+answer:
+ok since b is a constant then
+lets say we have
+x^2 - 25 = 0
+then we just do
+x^2 = 25 -> take sqrt
+x = -+ 5 so ithas two soluions right so
+
+x^2 - b^2 = 0
+x^2 = b^2 -> take sqrt
+x = +- b
+
+wait itonly want me to factor right
+x^2 - b^2 ->
+since b is the constant
+therefore there no linear term right so the sum must be zero
+so it must be cancel each other right
+
+(x+b)(x-b) lets test it
+x^2-bx+bx-b^2
+x^2 - b^2
+
+10.2.4
+the sum of the roots of a quadratic is -3
+and the product of the roots is -40
+
+ok so we know the sum of the roots is
+-3
+and the product is -40
+
+im thinkin the numbers
+-8 and 5
+
+a. find such quadratic
+(x+8)(x-5) = 0
+x^2 + 3x - 40 = 0
+
+
+b. find the roots
+(x+8)(x-5)
+x = -8
+x = 5
+
+_
+
+10.2.5
+for what values of r is (r^2 + 5r -24)(r^2 - 3r + 2) =
+(4r - 10)(r^2 + 5r - 24)?
+
+answer:
+
+
+lets dothis onebyone
+LHS
+(r^2 + 5r -24)
+sum = 5
+prod = -24
+r=8 , r = -3
+(r+8)(r-3)
+
+(r^2 - 3r + 2)
+sum = -3
+prod = 2
+r = -2, r=-1
+
+(r-2)(r-1)
+
+RHS
+(4r - 10) wait this is not a quadratics right?
+2(2r - 5)
+
+(r^2 + 5r - 24)
+sum = 5
+prod = -24
+this is the same as LHS
+(r+8)(r-3)
+
+so then we have
+(r+8)(r-3)(r-2)(r-1) = 2(2r - 5)(r+8)(r-3)
+
+let S = (r+8)(r-3)
+S(r-2)(r-1) = S(4r-10)
+S(r-2)(r-1) - S(4r-10) = 0
+
+let A = (r-2)(r-2)
+let B = (4r-10)
+SA - SB = 0
+S(A-B) = 0
+
+S[(r-2)(r-1)-(4r-10)] = 0
+S[(r-2)(r-1)-4r+10]=0
+
+expand (r-2)(r-1)
+(r^2-2r-r+2)
+(r^2-3r+2)
+
+[r^2-3r+2-4r+10]
+r^2-7r+12
+
+sum = -7
+mult = 12
+r=-3,r= -4
+
+S(r-3)(r-4)
+subst s back
+
+(r+8)(r-3)(r-3)(r-4) = 0
+so the solutions are
+r=-8
+r=3
+r=4
