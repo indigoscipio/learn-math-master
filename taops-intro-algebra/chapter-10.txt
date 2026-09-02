@@ -631,6 +631,7 @@ y= 4??
 ; =============================
 
 exercises
+10.2.1
 find all solutions to the following equations
 a. r^2 - 9r  + 18 = 0 
 b. t^2 - 5t = 14
@@ -710,13 +711,13 @@ sum = -4.5
 mult = 3.5
 
 
-t= -1.5 , t=-3
-(x-1.5)(x-3)
-x^2-3x-1.5x+3.5
+t= -1 , t=-3.5
+(x-1)(x-3.5)
+x^2-1x-3.5x+3.5
 x^2-4.5x+3.5
 
 so the solutions are
-t= 1.5, t=3
+t= 1, t=3.5
 
 
 _
@@ -860,3 +861,340 @@ so the solutions are
 r=-8
 r=3
 r=4
+
+
+; ============================
+
+FACTORING QUADRATICS 2
+
+10.11
+let a,b,c be number such that
+
+(3x-2)(x+7) = Ax^2 + Bx + C 
+
+for all values of x
+
+a. find a,b, and c
+b. how is a related to the constants and coefficients of x
+in 3x-2 and x + 7?
+c. how is c related to the constants and coefficients of x
+in 3x-2 and x + 7?
+d. how is b related to the constants and coefficients of x
+in 3x-2 and x + 7?
+e. find all solutions to the equation
+3x^2 + 19x - 14 = 0
+
+
+answer:
+(3x-2)(x+7)
+3x^2 + 21x -2x -14
+3x^2 + 19x - 14
+
+so we have Ax^2 + Bx + C 
+A = 3
+B = 19
+C = -14
+
+b. how is a related
+A is result of multiplying 3x and x right
+so the outer one
+
+c. c is the result of  multiplying -2 and +7
+so mult only the last constant
+
+d. B is the sum of
+(3x . 7) + (-2 . x) which is the x terms
+
+(3x-2)(x+7) = 0
+so product = -14
+and sum = 21??
+
+x = -7 -> (21-2)0 = 0
+
+3x-2 = 0
+3x = 2
+x = 2/3
+
+_
+
+10.12
+suppose a,b,c,d are numbers such that
+
+(Ay + B)(Cy + D) = 2y^2 - 3y - 35
+
+for all values of y
+
+a. find AC and BD 
+b. find AD + BC
+c. use your answers to first two parts (and some trial and eror)
+to find A,B,C and D
+d.find all solutions to the equations 2y^2 - 3y - 35 = 0
+
+answer:
+lets expand
+
+a. 
+(Ay + B)(Cy + D) 
+(Ay . Cy) + (Ay . D) + (Cy . B) + (BD)
+ACy^2 + ADy + CBy + BD
+ACy^2 + (AD+BC)y + BD
+
+so AC is 2 right
+and BD is -35
+
+b. AD+BC is -3
+
+c. ok so we have to find a,b,c,d
+since BD is -35 thats the proudct right
+and -3 is the sum thing
+
+7 5
+-7 5
+yeah im not sure
+
+AC = 2
+A = 2 or A = 1
+C = 1 or C = 2
+
+BD = -35
+B = 7 or -7
+D = -5 or 5
+B = -35 or 35
+D = 1 or -1 
+
+use A = 2 and C = 1
+AD + BC = -3
+2D + B = -3
+
+so B must be 7 and D must be -5
+-10 + 7 = -3
+-3 = 3
+
+d.
+ok so we know
+A = 2
+C = 1
+B = 7
+D = -5
+
+2y^2 - 3y - 35 = 0
+(Ay + B)(Cy + D) 
+
+(2y + 7)(y - 5) = 0
+so the solutions here is 
+2y + 7 = 0
+2y = -7
+y = -7/2
+
+y = 5
+y = -7/2
+
+_
+
+10.13
+kyle is trying to factor quadratic
+2x^2 + x - 25 into product of two binomials
+he first tries (x-15)(2x+3) but that doesn't work
+then he starts to try (-x+15)(-2x-3)
+mary looks over his shoulder confidently and says
+that one doesnt work because the first one didnt work
+how did mary know that (-x+15) (-2x-3) wouldnt work because
+(x-15)(2x+3) didnt work?
+
+answer:
+ok so we have
+2x^2 + x - 25
+
+(Ay + B)(Cy + D)
+AC = 2
+AD+BC = 1
+BD = -25
+
+he trist (x-15)(2x+3) which gives
+2x^2+3x-30x-45
+2x^2-27x-45
+AC = 2
+AD+BC = -27
+BD = -45
+
+and then he tries
+(-x+15)(-2x-3)
+2x^2+3x-30x-45
+2x^2-27x-45
+which is the same as previous one
+because he just changed the sign rgiht
+hes not changing the sum BD or AD+BC
+aka the middle term
+the -45 part is correct but the middle sum is still thesame
+
+(-x+15) = -1(x - 15)
+(-2x-3) = -1(2x+3)
+
+-1(x - 15) . -1(2x+3)
+(-1 . -1)(x - 15)(2x+3)
+1(x-15)(2x+3) so this is the same as the privous one
+
+_
+
+10.14
+suppose A,B,C,D are numbers such that
+
+(Az+B)(Cz+D) = 12z^2 - 8x - 15
+
+a. find AC, BD and AD+BC 
+b. use some trial and error with our answers to the firs part
+to find A,B,C and D
+c. find the solutions to thequations 12z^2 - 8z - 15 = 0
+
+answer:
+(Az+B)(Cz+D) = 12z^2 - 8x - 15
+a.
+(Az+B)(Cz+D)
+(Az.Cz)+(Az.D)+(B.Cz)+(BD)
+ACz^2 + ADz + BCz + BD
+AC^2 + (AD+BC)z + BD
+
+so AC = 12
+AD+BC = -8
+BD = -15
+
+b. 
+AC = 12
+A = 12, C = 1
+A = 6, C = 2
+A = 4, C = 3
+A = 3, C = 4
+A = 2, C = 6
+A = 1, C = 12
+
+BD = -15
+B = 3, D = -5
+B = -5, D = 3
+B = 5, D = -3
+B = 15, D = -1
+B = -1, D = -15
+
+AD+BC = -8
+A = 12, C = 1
+12D + B = -8
+
+A=6, C=2
+6D + 2B = -8
+B = 5, D = -3
+-18 + 10 = -8
+
+so we have
+A=6
+C=2
+B=5
+D=-3
+
+c. the solutions is
+(Az+B)(Cz+D)
+(6z+5)(2z-3)
+
+6z+5 = 0
+6z = -5
+z = -5/6
+
+2z-3 = 0
+2z = 3
+z = 3/2
+
+_
+
+10.15
+
+a. expand (3x-1)(x-11) and (3x-11)(x-1) 
+b. expand (8x-1)(x+5) and (8x-5)(x+1)
+c. ashok is tring to factor the quadratic 5x^2 - 36x + 7
+why do the first two parts suggest he should try
+(5x-1)(x-7) instead of (5x-7)(x-1)?
+
+answer:
+
+b. 
+(3x-1)(x-11)
+3x^2-33x-x+11
+3x^2 - 34x + 11
+
+(3x-11)(x-1)
+3x^2 -3x -11x +11
+3x^2 - 14x + 11
+
+ah ok i see now the middle sum is smlaler
+coz in first part its 3 . -11 but 2nd one its 3 . -1
+but the constant term/product is the same which is +11
+
+b. 
+(8x-1)(x+5)
+8x^2+40x-x-5
+8x^2+39x-5
+
+(8x-5)(x+1)
+8x^2+8x-5x-5
+8x^2+3x-5
+
+c.
+ok so we have
+5x^2 - 36x + 7
+
+(Ay + B)(Cy + D)
+AC = 5
+AD+BC = -36
+BD = 7
+
+the question is why he should try
+
+(5x-1)(x-7)
+
+instead of 
+(5x-7)(x-1)
+
+based on earlier observation
+
+if we do the (5x-1)(x-7)
+the BD part is + 7
+the AD+BC part is -35x - x = -36x
+
+but if we do the 
+(5x-7)(x-1)
+BD = 7
+but the AD+BC part then would be
+-5x -7x = -12x which is not what we want
+
+_
+
+10.16
+a. consider the products (2x+3)(2x-5),
+(2x-15)(2x+1) and (4x-3)(x+5)
+for each product state wheter or not the coefficient
+ofthe linear term in the resulting expr will be even
+without performing the expansion
+
+b. expand the products in part a and confirm that your
+answers arecorrect
+
+c. abe is trying to factor the quadratic
+8x^2 + 23x + 15
+
+explain why abe knows not to bother checking if 
+the facotrization is (4x+3)(2x+5)
+
+answer:
+a. ok so we have the following
+and since we only care about the linear term thats
+the AD+BC part right
+
+(2x+3)(2x-5)
+-10 +6 -> even
+
+(2x-15)(2x+1)
+2 -30 -> even
+
+(4x-3)(x+5)
+20 -3 -> odd
+
+b. 
+
+_
