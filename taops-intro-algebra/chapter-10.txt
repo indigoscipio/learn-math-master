@@ -1187,7 +1187,7 @@ and since we only care about the linear term thats
 the AD+BC part right
 
 (2x+3)(2x-5)
--10 +6 -> even
+-10 + 6 -> even
 
 (2x-15)(2x+1)
 2 -30 -> even
@@ -1195,6 +1195,287 @@ the AD+BC part right
 (4x-3)(x+5)
 20 -3 -> odd
 
-b. 
+b. expand the products in a and confirm
+(2x+3)(2x-5)
+2x^2-10x6+x-15
+2x^2-4x-15
+linear term = -4 = even
+
+(2x-15)(2x+1)
+4x^2+2x-30x-15
+4x^2-28x-15
+linear term = -28 = even
+
+(4x-3)(x+5)
+4x^2+20x-3x-15
+4x^2+17x-15
+linear term = 17 = odd
+
+c. 
+
+8x^2 + 23x + 15
+here the linear term AB+DC = 23
+which is odd parity
+
+ok so abe shoundt bother with
+(4x+3)(2x+5)
+because the linear term
+20 6 is even
+
+EXPANd to confirm
+(4x+3)(2x+5)
+8x^2+20x+6x+15
+8x^2+26x+15 -> even linear term
+
+_
+
+10.17
+in this problem we all find all x such that
+4x^2 = 5/3 - 28x/3
+
+a. fractions:
+yuck, how can you get rid of the fractions? how can you
+organize th equation so that it looks like the prev examples
+b. solve the equations
+
+answer:
+4x^2 = 5/3 - 28x/3 ->> mult both sides by 3?
+12x^2 = 5 - 28x
+12x^2 + 28x - 5 = 0
+
+b. 12x^2 + 28x - 5 = 0
+(Ax + B)(Cx + D) = 0
+AC = 12
+AD + BC = 28
+BD = -5
+and we know the linear term has even parity
+
+AC = 12
+A=12,C=1
+A=6, C=2
+A=4, C=3
+A=3, C=4
+
+BD = -5
+B=-1, D=5
+B=1, D=-5
+B=5, D=-1
+
+A=6, C=2
+6D + 2B = 28
+B=5, D=-1
+30 + -2 = 28
+
+so then we have
+A=6
+C=2
+B=5
+D=-1
+
+(6x + 5)(2x - 1) = 0
+so th solutions are
+x = -5/6
+x = 1/2
+
+
+_
+
+10.18
+find all solutions to the equations
+(3r-2)(2r-5)+(r-7)(3r-2)=0
+
+(3r-2)(2r-5 + r-7)
+(3r-2)(3r-12)
+
+3r-2 = 0
+3r = 2
+r = 2/3
+
+3r-12 = 0
+3r = 12
+r = 4
+
+
+answer:
+_
+
+10.19
+for what values of k can 2x^2 + kx + 5 be factored as the 
+product of two linear factors with integer coefficients?
+
+answer:
+ok so k is the linear term right which is
+
+2x^2 + kx + 5
+AC = 2
+AD+BC = k
+BD = 5
+
+AC = 2
+A  = 2, C=1
+
+BD = 5
+B=5, D=1
+B=-5, D=-1
+B=1, D=5
+B=-1, D=-5
+
+AD+BC = k
+2D + B = k
+2(1) + 5 = k
+7 = k
+
+B=-1, D= -5
+AD+BC = k
+2D + B = k
+2(-5) - 1 = k
+-10 - 1 = k
+k = -11
+
+B=1, D=5
+2D + B = k
+2(5) + 1 = k
+11 = k
+
+B=-5, D=-1
+2D + B = k
+2(-1) + -5 = k
+-2 - 5 = k
+k = -7
+
+==========================================
+
+ when trying to factor quadratic of the form
+ ax^2 + bx + c where a > 0 wer only
+ have to try mult binomials whose linear terms have
+ positive coefficients
+
+==========================================
+
+
+EXERCISES
+10.3.1
+find all solutions of each of the following equations
+a. 10x^2 - 11x + 1 = 0
+b. 11r^2-15r=-4
+c. 14=3v^2+34v
+d. 15x^2+8x=-4-8x
+e. t^2+2t/3+1/9=0
+f. 45-42z-24z^2=0
+
+answer:
+a. 10x^2 - 11x + 1 = 0
+AC = 10
+AD+BC = -11
+BD = 1
+
+AC = 10
+A = 5, C = 2
+
+BD = 1
+B = 1, D = 1
+B = -1, D = -1
+
+AD+BC = -11
+A = 10, C = 1
+10D + B = -11
+
+B = -1, D = -1
+10(-1) + (-1) = -11
+-10 - 1 = -11
+
+therefore we have
+A=10, C=1, B=-1, D=-1
+
+(Ax+B)(Cx+D) = 0
+(10x-1)(x-1) = 0
+so the solutiosn are
+x=  1/10 and x = 1
+
+b. 11r^2-15r=-4 -> rearrange
+11r^2 - 15r + 4 = 0
+AC = 11
+AD+BC = -15
+BD = 4
+
+since BD is positive either both positive or both negative
+
+AC = 11
+A = 11, C = 1
+A = -11, C = -1
+
+BD = 4
+B = 2, D = 2
+B = -1, D = -4
+B = -4, D = -1
+
+AD+BC = -15
+A = 11, C = 1
+B = -4, D = -1
+11D + B = - 15
+11(-1) + (-4) = - 15
+-11 - 4 = -15
+
+so then we have
+A=11,C=1,B=-4,D=-1
+
+(11r-4)(r-1) = 0
+so the solutions are
+r = 4/11 and r = 1
+
+c. 24 = 3v^2 + 34v ->> rearrange
+3v^2 + 34v - 24 = 0
+AC = 3
+AD+BC = 34
+BD = -24
+
+since BD is negative we want different parity here
+AC = 3
+A=1, C=3
+A=3, C=1
+
+BD = -24
+B = 6, D = -4
+B = -6, D = 4
+B = 12, D = -2
+B = -2, D = 12
+
+A=3, C=1
+AD + BC = 34
+B = -2, D = 12
+3(12) + (-2) = 34
+36 - 2 = 34
+
+so we have
+A = 3,  C = 1
+B = -2, D = 12
+
+(3x-2)(x+12) =  0
+so the solutions are
+x = 2/3 and x = -12
+
+d. 15x^2+8x=-4-8x -> rearrange
+15x^2+8x+x+8x = 0
+15x^2+16x+4 = 0
+
+e. t^2+2t/3+1/9=0
+
+f. 45-42z-24z^2=0
+
+
+
+
+_
+
+10.3.2
+consider the expr (ax+b)(cx+d)
+in terms of a,b,c,d what are the values of x that makes this
+expr equal to zero?
+
+_
+
+10.3.3
+notice that 12x^2+104x+1-5 = (6x+7)(2x+15)
+what are the solutions to the euqation 12x^2-104x+105 = 0?
 
 _
