@@ -1455,15 +1455,127 @@ so the solutions are
 x = 2/3 and x = -12
 
 d. 15x^2+8x=-4-8x -> rearrange
-15x^2+8x+x+8x = 0
+15x^2+8x+4+8x = 0
 15x^2+16x+4 = 0
 
+AC = 15
+AD+BC = 16
+BD = 4
+
+since bd  is posittive either both negative or positive
+also linear term has an even parity
+
+AC = 15
+A = 15, C = 1
+A = 5, C = 3
+A = 3, C = 5
+
+BD = 4
+B = 1, D = 4
+B = 2, D = 2
+B = -1, D = -4
+
+AD+BC = 16
+A = 15, C = 1
+15D+B = 16
+
+A = 15, C = 1
+A=5,C=3
+B=2,D=2
+5D+3B = 16
+5(2)+3(2)=16
+10+6=16
+
+so we have
+A=5,C=3
+B=2,D=2
+
+(5x+2)(3x+2)
+so the solutions are
+x = -2/5 and x = -2/3
+
+
 e. t^2+2t/3+1/9=0
+lets mult all sides by 9
+9t^2 + 6t + 1 = 0
+
+AC = 9
+BD = 1
+AD+BC = 6
+
+AC = 9
+A = 9, C = 1
+A = 3, C = 3
+A = 1, C = 9
+
+BD = 1
+B = 1, D = 1
+B = -1, D = -1
+
+A = 9, C = 1
+AD+BC = 6
+9D+B = 6
+
+A=3, C=3
+B = 1, D = 1
+A+C = 6
+
+so we have
+A=3, C=3
+B = 1, D = 1
+
+(3t+1)(3t+1) = 0
+9t^2+3t+3t+1 = 9t^2 + 6t + 1
+
+so the soltuions are
+t = -1/3 only 1 solution i think
+
 
 f. 45-42z-24z^2=0
+lets rearrange
+-24z^2 - 42z + 45 = 0 -> mult by -1
+24z^2 + 42z - 45 = 0 -> divide by 3
+8z^2 + 14z - 15 = 0
 
+constant term is negative
+lienar term is even parity
 
+AC = 8
+BD = -15
+AD+BC = 14
 
+AC = 8
+A = 8, C = 1
+A = 4, C = 2
+A = 2, C = 4
+
+BD = -15
+B = -15, D = 1
+B = -5, D = 3
+B = -3, D = 5
+B = -5, D = 3
+B = -3, D = 5
+
+A = 8, C = 1
+AD+BC = 14
+8D + B = 14
+
+A = 4, C = 2
+B = -3, D = 5, 
+4D+2B = 14
+4(5) + -2(3)
+20 - 6
+
+so then we have
+A = 4, C = 2
+B = -3, D = 5, 
+
+(4z-3)(2z+5) = 0
+8z^2+20z-6z-15 = 0
+8z^2+14z-15 = 0
+
+so the solutions are
+z = 3/4 and z = -5/2
 
 _
 
@@ -1472,10 +1584,240 @@ consider the expr (ax+b)(cx+d)
 in terms of a,b,c,d what are the values of x that makes this
 expr equal to zero?
 
+answer:
+
+(ax+b)(cx+d) = 0
+expanded version is
+(acx^2)+(ax.d)+(cx.b)+(bd) = 0
+acx^2 +adx + bcx + bd = 0
+acxc^2 + (ad+bc)x + bd = 0
+
+if we wanna equal to zero whch means zero product principle thign
+atleast one of the binomial need otbe zero right
+
+so lets break this 
+left part
+ax + b = 0
+ax = -b
+x = -b/a
+
+right part
+cx + d = 0
+cx = -d
+x = -d/c
+
+so x must be those values
+
 _
 
 10.3.3
-notice that 12x^2+104x+1-5 = (6x+7)(2x+15)
+notice that 12x^2+104x+105 = (6x+7)(2x+15)
 what are the solutions to the euqation 12x^2-104x+105 = 0?
+
+answer:
+oks os we have expandedversion
+12x^2+104x+105 = (6x+7)(2x+15)
+
+and hte quetion wans 
+12x^2-104x+105 = 0 which the only difference is the
+constant term AD+BC
+
+just flip the sign both to negative on the B and D
+(6x-7)(2x-15)
+12x^2-90-14+105
+12x^2 - 104 + 105
+
+so the slution are x = 7/6
+and x = 15/2
+
+_
+
+10.3.5
+we wish to factor the quadratic 18x^2 + 21x + 5
+a. must we try both (3x+C)(6x+D) and (-3x+C)(-6x+D) ? why or why not?
+b. even if your answer to a is a no, go ahead and try
+both factorizations. how are your results related?
+
+answer:
+a. ok so we wanna try
+(3x+C)(6x+D)
+we only know theconstant quadratic term here when we mult it
+3 . 6 = 18 so its a good candidate which matches 18x^2 quadratic term
+but depends on the C and D eventually since 5 and 21 is positive
+and c and d is also positive i thinkitcan match
+
+and the second one
+(-3x+C)(-6x+D)
+again when we mult -3 and -6 its 18 so the same as the first one
+so i think it can be good candidate if we factor it itcanbe like
+(-1)(3x-c)(-1)(6x-D) which chages the C and D but for the quad
+ratic term stillmatches
+
+b. (3x+C)(6x+D)
+18x^2 + 3Dx + 6Cx + CD
+18x^2 + (3D+6C)x + CD
+quadratic term = 18
+linear term = 3D+6C
+constant term = CD
+
+(-3x+C)(-6x+D)
+18x^2 -3Dx - 6Cx + CD
+18x^2 + (-3D-6C)x + CD
+
+so here if we use the 2nd one only the linear term has negative right
+and the constant term CD and AC is the same i think
+
+_
+
+10.3.6
+find all solutions to the equations 
+2x^2 + 7x sqrt(3) + 9 = 0
+2x^2 + 7.sqrt(3)x + 9 = 0
+
+answer:
+ok lets factor this int otwo
+AC = 2
+BD = 3BD
+AD+BC = 7sqrt(3)
+
+(Ax + Bsqrt(3))(Cx + Dsqrt(3))
+ACx^2 + AD.sqrt(3)x + BC.sqrt(3)x + 3BD
+
+AC = 2
+(AD+BC)sqrt(3)x = 7
+3BD = 9 -> BD = 3
+
+AC = 2
+A = 2, C = 1
+A = 1, C = 2
+
+BD = 3
+B = 3, D = 1
+B = 1, D = 3
+
+AD+BC = 7
+A = 2, C = 1
+2D+B = 7
+B = 1, D = 3
+2(3)+(1) = 7
+
+so we have
+A = 2, C = 1
+B = 1, D = 3
+
+plug those back in
+(2x + 1sqrt(3))(x + 3sqrt(3)) = 0
+
+so the solutions are
+2x + 1 sqrt(3) = 0
+2x = -sqrt(3)
+x = -sqrt(3) / 2
+
+and 
+x + 3sqrt(3) = 0
+x = -3sqrt(3)
+
+
+; =====================================
+
+SUMF AND PRODUCTS OF ROOTS OF A QUARDRATIC
+
+10.20
+consider the equation
+x^2 - 8x + 12 = 0
+a. find all solutions to the equations
+b. find the sum of solutoins and product of solutions
+c. how are your answers to part b related to coefficient of the
+quadratic x^2 - 8x + 12?
+d. does this relationship work for all quadratics in which
+the coefficient of x^2 is 1?
+
+answer:
+a. x^2 - 8x + 12 = 0
+product = 12
+sum = -8
+
+x = -2, x = -6
+(x-2)(x-6)
+so the solutions are x = 2 and x = 6
+
+b. sum = 8
+product = 12
+
+c. it seems the sum is the
+midle term but with the sign inversed (positive -> negatiev)
+
+and the product is the constant term 12 exactly with not change?
+
+d. im not sure, maybe it only works for 1 coefficient only?
+withe coefficient more than 1 we have AD+BC thing so its more complex right
+
+_
+
+10.21
+the values x = -3 and x = 7 satisfy the equation
+x^2 + Ax + B = 0
+where A and B are constnats. what are A and B?
+
+answer:
+ok so based from the previous question
+sum = 4
+product = 21
+
+if we use the same pattern
+sum if the middle but the sign is reversed
+and the product stays the same
+so A = -4
+B = 21
+
+so
+x^2 - 4x + 21 = 0
+
+_
+
+10.22
+consider the equation 5x^2 + 59x - 12 = 0
+a. find all solutions to the equation
+b. find the sum of solutions and the producto f the solutions
+c. how are your answers to part b related to coeffiecitns
+of the quadratic 5x^2 + 59x - 12?
+
+answer:
+5x^2 + 59x - 12 = 0
+
+AC = 5
+BD = -12
+AD+BC = 59
+
+AC = 5
+A = 5, C = 1
+A = 1, C = 5
+
+BD = -12
+B = 4, D = -3
+B = 6, D  -2
+B = 1, D  -12
+
+AD+BC = 59
+A = 5, C = 1
+5D+B = 59
+B = -1, D  12
+5(12)+(-1) = 59
+60 - 1
+
+so then we have
+A = 5, C = 1
+B = -1, D  12
+
+(5x-1)(x+12)
+so the solutions are
+x = 1/5
+x = -12
+
+b. sum = 1/5 - 12 = 1-60/5 = -59/5
+product=  1/5 . - 12 = -12/5
+
+c. ok so it seems lets compare to origina equatino
+5x^2 + 59x - 12 = 0
 
 _
