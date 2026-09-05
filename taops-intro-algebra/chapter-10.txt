@@ -1768,10 +1768,10 @@ if we use the same pattern
 sum if the middle but the sign is reversed
 and the product stays the same
 so A = -4
-B = 21
+B = -21
 
 so
-x^2 - 4x + 21 = 0
+x^2 - 4x - 21 = 0
 
 _
 
@@ -1820,4 +1820,170 @@ product=  1/5 . - 12 = -12/5
 c. ok so it seems lets compare to origina equatino
 5x^2 + 59x - 12 = 0
 
+sum is (almost) the middle term?
+but its the reciprocal negative without the denominator?
+or its like -59/5 . -5 = 59
+yeah so it goes back if we mult by -A
+
+product
+-12/5
+the same here, but we dont need to mult by negative
+-12/5 . 5 = 12
+
+so we mult with like 1/A itgoes back to that
+
 _
+
+10.23
+suppose r and s are roots to the quadratic
+ax^2 + bx + c = 0
+
+a. expand the product (x-r)(x-s) 
+b. prove that r+s = -b/a and rs = c/a
+
+answer:
+a. expand the product (x-r)(x-s)
+(x-r)(x-s)
+x^2 -sx -rx + rs
+x^2 + (-r-s)x + rs
+x^2 + -(r+s)x + rs
+
+b. we wanna show
+r + s = -b/a
+
+ax^2 + bx + c = 0 -> divide by a
+x^2 + (b/a)x + c/a = 0
+
+since r+s is the middle therm here its r+s = b/a
+
+however the product (x-r)(x-s) has
+x^2 + -(r+s)x + rs
+so the middle term then we have
+
+b/a = (-1)(r+s) -> mult both sides by -1
+-b/a = r+s
+
+next rs = c/a
+so rs is the constant temr here
+
+ax^2 + bx + c = 0 -> divide all sides by a
+x^2 + (b/a)x + c/a = 0
+
+x^2 + -(r+s)x + rs = 0
+
+so then we have
+c/a = rs
+
+_
+
+10.24
+let a and be denote the solutions of
+18x^2 + 3x -28 = 0
+find the value (a-1)(b-1)
+
+answer:
+ok so we have
+
+18x^2 + 3x - 28 = 0
+AC = 18
+AD+BC = 3
+BD = -28
+
+AC = 18
+A = 9, C=2 
+A = 6, C=3 
+
+
+lets find the solutions first?
+ormabye use like previous?
+
+a = 18
+b = 3
+c = -28
+
+r+s = -b/a -> -3/18 -> -1/6
+rs = c/a -> -28/18 -> -14/9
+
+so then we have
+(a-1)(b-1)
+ab-a-b+1
+ab-(a+b)+1
+
+subst sum and product
+-14/9 -(-1/6) + 1
+-14/9 + 1/6 + 1
+-28+3/18 + 1
+-25/18+1
+-7/18
+
+_
+
+10.25
+let a and b be the roots of the equation
+x^2-mx+2=0
+suppose that a + (1/b) and b + (1/a) are the roots
+of the equation x^2 - px + q = 0
+what is q?
+
+answer:
+x^2 - mx + 2 = 0
+sum of roots= -m
+product of roots = 2
+
+then we suppose that
+a + (1/b)
+b + (1/a)
+
+are the roots of
+x^2 - px + q = 0
+
+
+if we have solution x=2 and x=3
+then factor form thats (x-2)(x-3)
+to find the constant form just mult BD = -2.-3=6
+
+
+(a+1/b)(b+1/a)
+ab+(1/a.a)+(1/b.b)+(1/a.1/b)
+ab+1+1+1/ab
+ab+2+1/ab
+
+since we have
+x^2-mx+2=0
+
+constant term = 2
+linear term = -m
+ab = 2
+
+replace it
+1/ab -> 1/2
+
+
+_
+
+
+==================================================
+
+sum of roots : -b/a
+producto f roots = c/a
+
+these are from
+ax^2 + bx + c = a(x-r)(x-s)
+
+b = -(r+s) -> r+s = -b
+c = rs
+
+ax^2 + bx + c = 0 ->> divide by a
+x^2 + b/ax + c/a = 0
+
+copmare with x^2 - (r+s)x + rs = 0
+
+-(r+s) = b/a
+r+s = -b/a
+
+rs = c/a
+
+==================================================
+
+EXERCISES
+10.4.1
