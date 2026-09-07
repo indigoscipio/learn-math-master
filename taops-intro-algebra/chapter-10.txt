@@ -1978,6 +1978,7 @@ x^2 + b/ax + c/a = 0
 
 copmare with x^2 - (r+s)x + rs = 0
 
+
 -(r+s) = b/a
 r+s = -b/a
 
@@ -1987,3 +1988,230 @@ rs = c/a
 
 EXERCISES
 10.4.1
+find teh sum of the solutions of the equation
+-32x^2 + 84x + 135 = 0
+
+answer:
+mid term = 84
+constant = 135
+
+so then we ve
+r+s = -b/a
+rs = c/a
+
+middle term =
+-(84/-32) = 84/32 = 42/16 = 21/8
+
+linear term
+135/-32 = -135/32
+
+_
+
+10.4.2
+find the producto fthe roots of the equation
+
+18t^2 + 45t - 500 = 0
+since we only need the product
+thats
+rs = -c/a
+-(-500/18)
+500/18
+250/9
+
+_
+
+10.4.3
+the sum of the roots of a quadratic is -1
+and the product of the roots is -15/4
+
+a. find such a quadratic
+b. find the roots
+
+answer:
+a. ok so we have
+ax^2 + bx + c = a(x-r)(x-s)
+x^2 + b/ax + c/a
+x^2 - (r+s)x + rs = 0
+
+r+s = -1
+rs = -15/4
+
+since the middle term is -1 then should be 4/4 shouldbe 1 add -
+4x^2+4x-15
+
+r+s = -(4/4) = -1
+rs = -15/4
+
+b. 4x^2+4x-15
+now to find the roots
+AC = 4
+BD = -15
+AD+BC = 4
+
+AC = 4
+A = 4, C = 1
+A = 2, C = 2
+
+BD = -15
+B = 3, D = -5
+B = 5, D = -3
+
+AD+BC = 4
+A = 4, C = 1
+4D + B = 4
+
+A = 2, C = 2
+2D+2B = 4
+2(D+B) = 4
+D+B = 2
+B = 5, D = -3
+5 + -3 = 2
+
+so then we have
+A = 2, C = 2
+B = 5, D = -3
+
+(2x+5)(2x-3) = 0
+so the solutions are 
+x = -5/2 and
+x = 3/2
+
+_
+
+10.4.4
+the solutions of the equation 30z^2 - 7z - 20 = 68
+are z = r and z = s. find (r+3)(s+3)
+
+answer:
+we know the solution to that is
+z = r and z = s 
+
+30z^2 - 7z - 20 = 68
+30z^2 - 7z - 20 - 68 = 0
+30z^2 - 7z - 88 = 0
+
+sum (r+s) =  7/30
+prod (rs) = -88/30
+
+(r+3)(s+3) ->> expand
+rs + 3r + 3s + 9
+rs + 3(r+s) + 9
+
+-88/30 + 3(7/30) + 9
+-88/30 + 7/10 + 9
+-88+21+270/30
+203/30
+
+_
+
+10.4.5
+the sum of the roots of a quadratic is 55/72 and the prdocut
+of the roots is -25/12. find the roots
+
+answer:
+r+s = 55/72
+rs = -25/12
+
+so then we have the quadatic
+
+72/x = 12
+12x = 72
+x = 72/12 -> 6
+6 . -25 = 150
+
+confirming
+72x^2 - 55x - 150
+r+s = -(-55/72) = 55/72
+rs = -150/72 = -50/24 -> -25/12
+
+now to find the roots
+72x^2 - 55x - 150
+AC = 72
+BD = -150
+AD+BC = -55
+
+AC = 72
+A = 12 , C = 6
+A = 9 , C = 8
+
+BD = -150
+B = 10, D = -15
+
+AD + BC = 9(-15)+(10)(8) = -55
+
+so then we have
+A = 9 , C = 8
+B = 10, D = -15
+
+(9x+10)(8x-15)
+so the solutions are
+x = -10/9
+x = 15/8
+
+_
+
+10.4.6
+if m and n are the roots of x^2 + mx + n = 0
+where m does not equal 0 and n does not equal 0 then what does
+m + n equal?
+
+x^2 + mx + n = 0
+product of two roots = n.1 = n
+sum of two roots = -(m/1) = -m
+
+
+m . n = n
+m = n/n
+m = 1
+
+m + n = -m
+1 + n = -1
+n = -2
+
+m + n
+1 -2 = -1
+
+
+_ 
+
+10.4.7
+let p,q,r be constants. one solution to the equation
+(x-p)(x-q) = (r-p)(r-q) is x = r
+find the other solution in terms of p,q, and r
+
+answer:
+
+(x-p)(x-q) = (r-p)(r-q)
+
+we kknow the solution is
+x = r
+
+we wannna find the other solutions
+expand (x-p)(x-q)
+x^2 - xq -xp + pq
+x^2 - (p+q)x + pq
+
+(r-p)(r-q)
+r^2 - rq -rp + pq
+r^2 - (p+q)r + pq
+
+x^2 - (p+q)x + pq = r^2 - (p+q)r + pq
+since we know p,q,r are consant
+subtract both sides by the constant we have
+
+x^2 - (p+q)x + constant = 0
+sum = p+q
+first root = r
+
+
+r + x2 = p + q
+x2 = p + q - r
+
+
+
+; ====================================
+
+Extensions and applications
+
+10.26
+find all x such that 
