@@ -2215,3 +2215,244 @@ Extensions and applications
 
 10.26
 find all x such that 
+
+(x^2 - 2x - 3 / x + 1) + (x^2 + 5x - 24 / x - 3) = 13
+
+answer:
+lets divide
+(x^2 - 2x - 3 / x + 1)
+x^2 - 2x - 3
+sum = -2
+product = -3
+
+x=-3,x=1
+(x-3)(x+1)
+so we have
+
+(x-3)(x+1)/(x+1) -> (x-3)
+
+2nd part
+(x^2 + 5x - 24 / x - 3)
+x^2 + 5x - 24
+sum = 5
+prod = -24
+
+x=8,x= -3
+(x+8)(x-3)
+so we have
+(x-8)(x-3)/(x-3) -> (x+8)
+
+combine
+
+(x-3)+(x+8) = 13
+x-3+x+8=13
+2x+5=13
+2x=8
+x = 4
+
+_
+
+10.27
+in this problem we find values of k for which the equation
+x-1 / x-2 = x-k / x-6 has no solutions for x.
+
+a. what two values of x cannot be solutions to this equation
+no matter what k is?
+b. get rid of the fractions by multiplying both sides by the appro
+proate binomial. solve the resulting euqation for x.
+c. for what values of k is there no solution to your equation in b
+d. does part a also produce a value of k for which
+there is no solution to the original equatino?
+hint: your equation in b might be help ful for this part too
+
+answer:
+a. so we have x-1 / x-2 = x-k / x-6
+x cannot have solution when the denominator both equals 0
+
+so LHS
+x-2 = 0
+x = 2
+
+RHS
+x - 6 = 0
+x = 6
+
+b. (x-6)(x-2) x-1 / x-2 = (x-6)(x-2) x-k / x-6 
+(x-6)(x-1) = (x-2)(x-k)
+
+
+c. k has no solution when
+not sure maybe lets try to expand?
+(x-6)(x-1) = (x-2)(x-k)
+x^2-x-6x+6 = x^2-kx-2x+2k
+x^2-7x+6 = x^2-(k+2)x+2k -> divide both sides by x^2
+-7x+6 = -(k+2)x + 2k
+-7x + (k+2)x = 2k - 6
+(-7+k+2)x = 2k - 6
+(k-5)x = 2k - 6
+
+it has no solution when k = 5
+
+d. (k-5)x = 2k - 6
+x = 2k-6/k-5
+
+
+6k-30=2k-6
+6k-2k=24
+4k=24
+k=6
+
+
+_
+
+10.28
+find all possible values of d/a where a^2 - 6ad + 8d^2 = 0
+and a does not equal 0
+
+answer:
+ok so we wanna find the d/a
+d/a is the product of the two roots right?
+
+a^2 - 6ad + 8d^2 = 0
+a^2 - 6da + 8d^2 = 0
+maybe try to find factorial
+
+sum = -6d
+product = 8d^2
+
+a=-4d, a=-2d
+
+(a-4d)(a-2d) = 0
+so the roots are
+a = 4d, a = 2d
+
+we wanna find d/a
+a = 4d
+1 = 4d/a
+1/4 = d/a
+
+a = 2d
+1 = 2d/a
+1/2 = d/a
+
+_
+
+10.29
+in this problem we write the expr 6r^2 - 7rs + 2s^2 + 23r - 13s + 21
+in form (Ar + Bs + C)(Dr + Es + F) for some constants
+A B C D E and F
+a. expand the prdouct (Ar+Bs+c)(Dr+Es+F)
+b. Look at the terms in expansion tha have no xs
+from what terms in our original product do these terms
+without s come? use observation to find ac,d, and f
+c. write the expr  6r^2 - 7rs + 2s^2 + 23r - 13s + 21 in the form
+(Ar+Bs+C)(Dr+Es+F)
+
+answer:
+a. (Ar + Bs + C)(Dr + Es + F)
+(Ar)(Dr + Es + F)+(Bs)(Dr + Es + F)+(C)(Dr + Es + F)
+
+lets split his into 3 part?
+(Ar)(Dr + Es + F)
+(Ar . Dr)+(Ar . Es)+(Ar . F)
+ADr^2 + AErs + AFr
+
+(Bs)(Dr + Es + F)
+(Bs . Dr)+(Bs . Es)+(Bs . F)
+BDrs + BEs^2 + BFs
+
+(C)(Dr + Es + F)
+(C . Dr)+(C . Es)+(C . F)
+CDr + CEs + CF
+
+sum them all
+(ADr^2 + AErs + AFr) + (BDrs + BEs^2 + BFs) + (CDr + CEs + CF)
+
+combine terms
+ADr^2 + BEs^2 +  AErs + BDrs + AFr + CDr + BFs + CEs + CF
+ADr^2 + BEs^2 +  (AE+BD)rs + (AF+CD)r + (BF+CE)s + CF
+
+b. lets see, terms hat have no s
+that would be
+ADr^2, (AF+CD)r, and CF
+
+in the original equation lets just compare
+ADr^2 + BEs^2 +  (AE+BD)rs + (AF+CD)r + (BF+CE)s + CF
+6r^2 - 7rs + 2s^2 + 23r - 13s + 21 ->> rearrange so tis easier
+6r^2 + 2s^2 - 7rs  + 23r - 13s + 21
+
+so the terms that have no s here is
+(Ar+Bs+C)(Dr+Es+F)
+(Ar+C)(Dr+F) = 6r^2 + 23r + 21
+
+c. (Ar + Bs + C)(Dr + Es + F)
+lets factor
+6r^2 + 23r + 21
+
+AC = 6
+AD+BC = 23
+BD = 21
+
+AC = 6
+A = 6, C = 1
+A = 3, C = 2
+
+BD = 21
+B = 3, D = 7
+
+A=2, D = 3
+C=3,F=7
+(2r+C)(3r+F)
+(2r+3)(3r+7) = 6r^2 + 23r + 21
+
+6r^2 - 7rs + 2s^2 + 23r - 13s + 21
+(2r+Bs+3)(3r+Es+7)
+
+BE = 2
+B = -1
+E = -2
+
+
+
+_
+
+10.30
+the number sqrt(43-30sqrt(2)) can be expressed as
+a + bsqrt(c) for some numbers a,b and c
+
+a. what seems like a reaonable guess for c
+b. if sqrt(43-30sqrt(2)) =  = a + bsqrt(c) what can we do to both
+sides of the equation to get rid of the big sqrt sign?
+c.  use your gues for c and then the resulting equatino form b
+to write the equations for a and b
+use trial and error to find a and b
+d.  check your answer by squaring the a+b sqrt(c) you found
+
+answer:
+
+a. i donk know, sqrt 2??
+b. 
+sqrt(43-30.sqrt(2)) = a+b.sqrt(c)
+square both sides
+sqrt(43-30.sqrt(2))^2 = (a+b.sqrt(c))^2
+
+LHS
+43-30.sqrt(2)
+
+RHS
+(a+b.sqrt(c)) (a+b.sqrt(c))
+(a.a)+(a.bsqrt(c))+(a.bsqrt(c))+(b.sqrt(c) . b.sqrt(c))
+a^2 + 2a.bsqrt(c) + b^2c
+
+c. subst c = 2
+43 - 30.sqrt(2) = a^2 + 2ab.sqrt(2) + 2b^2
+43 - 30.sqrt(2) = a^2 + 2b^2 + 2ab.sqrt(2)
+
+2ab = -30
+ab = -15
+
+a^2 + 2b^2 = 43
+a = 5, b = -3
+
+
+_
