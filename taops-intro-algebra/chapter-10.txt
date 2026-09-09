@@ -2297,10 +2297,17 @@ d. (k-5)x = 2k - 6
 x = 2k-6/k-5
 
 
+takle x = 2 and x = 6
 6k-30=2k-6
 6k-2k=24
 4k=24
 k=6
+
+==============================================
+if equation has a variable in denominator
+then any solution that makes a denominator = 0 is
+an extraneous solution, not a valid solution
+==============================================
 
 
 _
@@ -2455,4 +2462,251 @@ a^2 + 2b^2 = 43
 a = 5, b = -3
 
 
+; =================================
+
+EXERCISES
+
+10.5.1
+subsitute the values of k that you obtained in 10.27
+into original equation
+and try to solve the resulting equation
+explain why each of these values of k produces an equation
+that has no solution
+
+problem from 10.27 
+in this problem we find values of k for which the equation
+x-1 / x-2 = x-k / x-6 has no solutions for x.
+the answer for 10.27 are k=6 and k=5
+
+answer:
+lets substitue
+k=6
+x-1 / x-2 = x-k / x-6
+x-1 / x-2 = x-6 / x-6
+x-1/x-2 = 1
+x-1 = x-2 -> subtrat x
+-1 = -2
+
+k = 5
+x-1 / x-2 = x-k / x-6
+x-1 / x-2 = x-5 / x-6 ->> mult both sides by denom
+(x-2)(x-6) x-1/x-2 =  (x-2)(x-6) x-5/x-6
+(x-6)(x-1) =  (x-2)(x-5)
+x^2-x-6x+6 = x^2-5x-2x+10
+x^2-7x+6 = x^2-7x+10 -> subtract both sides by x^2 - 7x
+6 = 10
+
+
+
+yeah so its noe equal im guessing wehen k=6
+itjustmaes the rhs = 1
+when k=5 itmakes a differet rhs
+
 _
+
+10.5.2
+find all solutions to the equations
+
+sqrt(x+1) = 1-X
+
+answer:
+
+sqrt(x+1) = 1-x -> sqaure fboth sides??
+x+1 = (1-x)^2
+x+1 = (1-x)(1-x)
+
+RHS, maybe expand
+(1-x)(1-x)
+(1.1)+(-x)+(-x)+(x^2)
+1-x-x+x^2
+x^2-2x+1
+subst back
+
+x+1 = x^2-2x+1
+0 = x^2 - 2x + 1 -x - 1
+0 = x^2 - 3x
+maybe like this, not sure
+
+factor it
+x^2 - 3x = 0
+x(x-3) = 0
+
+so the solutions are
+x = 0 and  x = 3
+
+check x = 3
+sqrt(x+1) = 1 - x
+sqrt(3+1) = 1-3
+sqrt(4) = -2
+2 = -2
+so x=3 is actualy not valid
+
+
+
+_
+
+10.5.3
+find all the solutions to the equation
+t^4 - 11t^2 + 18 = 0
+
+answer:
+maybe take sqrt on both sides?
+t^4 - 11t^2 + 18 = 0
+let u =  t^2
+
+t^2^2 - 11t^2 + 18 = 0
+u^2 - 11u + 18 = 0
+
+so we have normal quadratic now
+sum = -11
+product = 18
+
+u= -9, u=-2
+
+(u-9)(u-2) = 0
+
+so the solutions are
+u = 9 and u = 2
+
+subst t^2 back
+t^2 = 9 -> take sqrt
+t = += 3
+so t = +3 and t = -3??
+
+t^2 = 2 -> take sqrt
+t = sqrt(2)
+so t = +sqrt(2) and -sqrt(2)
+
+
+_
+
+10.5.4
+if the sides of a square are each increased by 12 inches
+the area is increased by 200 square inches
+what is the length of a sideo f the orignal square
+
+answer:
+ok so we have sides of a square
+question asks for length of a side of the origianl square
+square has 4 congruent sides
+
+let s = the side of the square
+each increased by 12 inches
+area is increased by 200 square inches
+
+area of a square = s^2 if i remmeber correctly
+or was it 4s? 4s is the circumference i think
+
+original side = s
+new side = s + 12
+original area = s^2
+new area = (s+12)^2
+
+new area is 200 inches more than original area
+(s+12)^2 = s^2 + 200
+
+LHS
+(s+12)(s+12)
+s^2+12s+12s+144
+s^2+24s+144
+
+RHS
+s^2 + 200
+
+s^2+24s+144 = s^2 + 200 ->> subtract both sides by s^2
+24s + 144 = 200
+24s = 200 -144
+24s = 56
+s = 56/24
+s = 28/12
+s = 14/6
+
+_
+
+10.5.5
+in problem 10.30 we encountered the system of equation
+a^2 + 2b^2 = 43
+2ab = -30
+
+
+instead of using trial and error solve the sysemo f 
+equations by solving the seqond equation for b in terms of a
+and substituting this result into the first equation
+
+
+answer:
+ok so we have
+a^2 + 2b^2 = 43
+2ab = -30
+
+2nd eqution
+2ab = -30 ->> solve for b interms of a
+2ab = -30
+ab = -15
+b = -15/a
+
+subst b into 1st eq
+a^2 + 2b^2 = 43
+a^2 + 2(-15/a)^2 = 43
+
+lets focus on (-15/a)^2
+(-15/a)(-15/a)
+225/a^2
+
+so we have
+2(225/a^2) -> 450/a^2
+
+a^2 + 2b^2 = 43 -> subst
+a^2 + 450/a^2 = 43 ->> mult by a^2?
+(a^2)a^2 + 450 = 43a^2
+a^4 + 450 = 43a^2
+a^4 - 43a^2 = -450
+
+let u = a^2
+u^2 - 43u + 450 = 0
+sum = -43
+product = 450
+
+5 . 90
+9 . 50
+15 . 30
+6 . 75
+25 . 18
+
+u = -25, u = -18
+
+so the solutions are
+(u-25)(u-18) = 0
+
+u = 25
+u = 18
+
+subst back
+a^2 = 25
+a = +5, a = -5
+
+a^2 = 18
+a = sqrt(18)
+a = sqrt(9 . 2)
+a = 3 . sqrt(2)
+a = +3sqrt(2) , a=-3sqrt(2)
+
+next we need to find b
+
+b = -15/a
+
+a = 5
+a = -5
+
+
+
+
+10.5.6
+the number of geese ina flock increases so that the difference
+between the populations in year n+@ and year n i
+
+===================================
+WHAT TO CHECK FOR EXTRNEOUS SOLUTIONS
+- raising both sides to even power
+- clearing variable denominator (denominator = 0)
+- logarithsm
