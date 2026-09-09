@@ -2696,17 +2696,406 @@ next we need to find b
 b = -15/a
 
 a = 5
+b = -15/5 -> b = -3
+
 a = -5
 
+a=3sqrt(2)
+b = -15/3sqrt(2) -> b = -5/sqrt(2)
 
+
+a=-3sqrt(2)
+b = -15/-3sqrt(2) = 5/sqrt(2)
+_
 
 
 10.5.6
 the number of geese ina flock increases so that the difference
-between the populations in year n+@ and year n i
+between the populations in year n+2 and year n
+is directly proportional to the population in year n + 1
+
+if the population in the years 
+1994 1995 1997 were 39 60 123 respectively
+then what was the population in 1996?
+
+answer:
+ok so we have a number of geese that increases
+
+difference in year n+2 and year n is directly proportional in year n+1
+if i remmeber directly proportiona lis something like
+
+a/b = k or something
+so then we have a = bk for some constant k
+
+let Pn be the population in year n
+
+A = the differnce
+P(n+2) - P(n)
+
+B = the middle year
+P(n+1)
+
+P(n+2)-P(n) = P(n+1) . k
+
+n = 1994
+let  x = P(1996)
+P(1996)-P(1994) = P(1995) . k
+P(1996)-39 = 60 . k
+x-39 = 60k
+x = 60k + 39
+
+k = x-39/60
+
+n=1995
+123-63=kx
+k = 63/x
+
+x-39/60 = 63/x ->> cross mult
+x(x-39) = 60(63)
+x^2-39x = 3780
+x^2 -39x-3780 = 0
+
+x = 84
+x = -45
+sine the opulation cant be negative therefore its 84
+
 
 ===================================
 WHAT TO CHECK FOR EXTRNEOUS SOLUTIONS
 - raising both sides to even power
 - clearing variable denominator (denominator = 0)
 - logarithsm
+===================================
+
+REVIEW PROBLEMS
+10.31
+find all solutions to each of the following equations
+a. r^2 - 7r = 0 
+b. x^2 + 3x = 7x - x^2
+c. t^2 = 242
+d. 16 - y^2 = -4
+
+answer:
+a. r^2 - 7r = 0
+r(r-7) = 0
+therefore the solutions are
+r=0, r=7
+
+b. x^2 + 3x = 7x - x^2
+x^2 + x^2 + 3x - 7x = 0
+2x^2 -4x = 0 ->> divide both sides by 2
+x^2 - 2x = 0
+x(x-2) = 0
+so the solutoins are
+x=0, x=2
+
+c. 2t^2 = 242
+2t^2 - 242 = 0 ->> divide by 2
+t^2 - 121 = 0
+
+t^2 = 121 -> take sqrt
+sqrt(t^2) = sqrt(121)
+t = 11
+since we take te sqrt the solutions re
+t = 11 and t = -11
+
+d. 16 - y^2 = -4
+16 - y^2 + 4 = 0
+20 - y^2 = 0 -> mult by -1 and rearrange
+-20 + y^2 = 0
+y^2 - 20 = 0
+
+y^2 = 20 ->> take sqrt
+y = sqrt(20)
+y = sqrt(4 . 5)
+y = 2sqrt(5)
+
+since we take the sqrt therefore the solutions are
+y = 2sqrt(2) and y = -2sqrt(5)
+
+_
+
+10.32
+in each part below expand the product and final all values
+of x that make the product equal to 0
+a. (x-6)(x) 
+b. (8-x)(x-8)
+c. (x-7)(x+2)
+d. (x+8)(x-8)
+
+answer:
+a. (x-6)(x) 
+(x)(x-6) 
+(x.x)+(x.-6)
+x^2 - 6x
+
+(x-6)(x) = 0
+the roots are
+x = 0 and x = 6
+
+b. (8-x)(x-8)
+(8 . x)+(8.-8)+(-x.x)+(-x.-8)
+(8x)+(-64)+(-x^2)+(8x)
+8x-64-x^2+8x
+-x^2+16x-64 -> mult by -1
+x^2 -16x + 64
+x=-8
+we can also write as this aright
+(x-8)(x-8)
+or origianl
+(8-x)(x-8) = 0
+so the roots is only
+x = 8
+
+c. (x-7)(x+2)
+x^2+2x-7x-14
+x^2-5x-14
+
+(x-7)(x+2) = 0
+so the roots are
+x = 7, x = -2
+
+
+
+d. (x+8)(x-8)
+x^2-8x+8x-64
+x^2-64
+
+(x+8)(x-8) = 0
+so the roots are
+x = -8, x=8
+
+
+_
+
+10.33
+find all values of x such that 4/x = x/16
+answer:
+
+4/x = x/16 ->> cross mult
+4(16) = x(x)
+x^2 = 64 -> take sqrt
+x = 8
+since we tak sqrt the solutions are
+x = 8, x = -8
+
+
+_
+
+10.34
+find all solutions to the following euqation:
+a. t^2 - 8t + 7 = 0
+b. 72 + 6x = x^2
+c. 2r^2 - 4r = 70
+d. x(x+10) = 10(-10-x)
+
+answer:
+a. t^2 - 8t + 7 = 0
+sum = -8
+prod = 7
+t=-7,t=-1
+
+(t-7)(t-1) = 0
+so the solutions are
+t = 7, t = 1
+
+b. 72 + 6x = x^2 ->> rearrange
+x^2 - 6x - 72 = 0
+sum = -6
+prod = -72
+
+-12 . 6
+x=-12,x=6
+so the solutions are
+
+(x-12)(x+6) = 0
+x=12, x=-6
+
+c. 2r^2 - 4r = 70 ->> rearrange
+2r^2-4r-70 = 0 ->> divide by 2
+r^2-2r-35 = 0
+sum = -2
+prod = -35
+r=-7,r=5
+
+(r-7)(r+5)=0
+so the solutions are
+r=7,r=-5
+
+
+d. x(x+10) = 10(-10-x)
+lets expand
+x^ 2 +10x = -100-10x
+x^2+10x+100+10x = 0
+x^2+20x+100 = 0
+sum = 20
+prod = 100
+
+x=10 ,x= 10
+so we hve
+(x+10)(x+10)
+
+so the solutions are 
+x= -10
+
+_
+
+10.35
+find te constants a and b such that x=-1 and x=1
+are both solutions to the equation ax^2 + bx + 2 = 0
+
+answer:
+
+lets just plug the solutions
+x=-1
+ax^2 + bx + 2 = 0
+a(-1)^2 + b(-1) + 2 = 0
+a - b + 2 = 0
+a = b - 2
+
+x=1
+ax^2 + bx + 2 = 0
+a(1)^2 + b(1) + 2 = 0
+a + b + 2 = 0
+
+subst
+b-2+b+2 = 0
+2b = 0
+b = 0
+
+
+a = b - 2
+a = -2
+
+
+_
+
+10.36
+find all values of x such that x^2 + 5x + 6 and
+x^2 + 19x + 34 are equal
+
+answer:
+ok imnotsure here if i need to find factorization for each
+orjust subtract by x^2 on both sides
+
+x^2 + 5x + 6 = x^2 + 19x + 34 ->> subtract both sides by x^2
+5x + 6 = 19x + 34
+5x-19x = 34-6
+-14x = 28
+x = -2
+
+but lets check using expansion /factoing thing
+first part
+x^2 + 5x + 6
+sum=5,prod=6
+(x+2)(x+3)=0
+so her the solutions are x=-2, x=-3
+
+x^2 + 19x + 34
+sum=19,prod=34
+x=2,x=17
+(x+2)(x+17)=0
+here its x=-2,x=-17
+so itsonly -2 then
+
+
+_
+
+10.37
+for each part below expand the product and find all values of y
+that make the product equal to 0
+a. (3y-4)(y+6)
+b. (6y-1)(6y-1)
+c. (2y-7)(2y+7)
+d. (5y-3)(4y+9)
+
+answer:
+a. (3y-4)(y+6)
+3y^2+18y-4y-24
+3y^2+14y-24
+
+(3y-4)(y+6)=0
+y = 4/3
+y = -6
+
+b. (6y-1)(6y-1)
+36y^2-6y-6y+1
+36y^2-12y+1
+
+(6y-1)(6y-1) = 0
+y = 1/6
+
+c. (2y-7)(2y+7)
+4y^2+14y-14y-49
+4y^2-49
+
+(2y-7)(2y+7) = 0
+y = 7/2, y = -7/2
+
+d. (5y-3)(4y+9)
+20y^2+45y-12y-27
+20y^2+33y-27
+
+(5y-3)(4y+9) = 0
+y = 3/5
+y = -9/4
+
+
+_
+
+10.38
+factor 8x^2 - 33x + 4
+when factoring why dont we have to even try the case
+(2x-4)(4x-1)?
+
+answer:
+8x^2 - 33x + 4
+AC = 8
+AD+BC = -33
+BD = 4
+
+A = 8, C = 1
+
+BD = 4
+B = -4, D=-1
+B = -1, D=-4
+
+AD+BC= -33
+8D+B= -33
+8(-4)+(-1) = -33
+-32-1 = -33
+
+so we have
+A = 8, C = 1
+B = -1, D=-4
+(8x-1)(x-4) = 0
+
+
+we dont need to try because
+the linear term is odd
+(2x-4)(4x-1) yields an even linear term
+-2x -16x = -18x
+
+
+_
+
+10.39
+compute the sum of all roots of 
+(2x+3)(x-4)+(2x+3)(x-6)=0
+
+answer:
+lets use factoring
+(2x+3)(x-4)+(2x+3)(x-6)=0
+(2x+3)((x-4)+(x-6))
+(2x+3)(x-4+x-6)
+(2x+3)(2x-10) = 0
+
+x = -3/2 and x = 10/2 = 5
+
+sum = -3/2 + 5 = -3+10/2 = 7/2
+
+alternatively use vieta formla
+sum the sides to 4x^2 - 14x - 30
+
+
+_
