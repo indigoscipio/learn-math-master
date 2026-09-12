@@ -3821,3 +3821,31 @@ by 4 the surface are increases by 576
 what is the volume of the original cube
 
 answer:
+square area = s^2
+
+original side length -> s
+increased side elength by 4 -> s+4
+
+original surface area  ->  6s^2
+increased surface area ->  6(s+4)^2 + 576
+
+question asks for the volume,
+maybe lets find the side length first
+
+new surface area = original surface area + 576
+6(s+4)^2 = 6s^2 + 576
+
+lets separate this one by one
+(s+4)(s+4) -> s^2+4s+4s+16 -> s^2+8s+16
+
+subst back
+6(s^2+8s+16) = 6s^2 + 576
+6(s^2+8s+16) = 6(s^2 + 96) ->> divideb oth sides by 6
+s^2+8s+16 = s^2+96 ->> subtract both sides by s^2
+8s+16 = 96
+8s = 96-16
+8s = 80
+s = 10
+
+therefore the volume is
+10.10.10 = 1000
