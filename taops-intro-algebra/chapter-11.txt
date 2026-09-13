@@ -108,6 +108,24 @@ so yes itcan be factored
 _
 
 11.4
+if x = sqrt(6/7) then evaluate
+(x + 1/x)^2
+
+answer:
+
+maybe lets try to expand
+(x+1/x)(x+1/x)
+x^2+(x.1/x)+(1/x.x)+1/x^2
+x^2+x+x+1/x^2
+x^2 + 2 + 1/x^2
+
+lets subst back
+sqrt(6/7)^2 + 2 + 1/(sqrt(6/7))^2
+6/7 + 2 + 1/6/7
+6/7 + 2 + 7/6
+36+49/42 + 2
+85+84/42
+169/42
 
 _
 
@@ -216,3 +234,429 @@ the coefficient is the sum of the two previous terms
 (a+b)^2 = a^2 + 2ab + b^2 
 =============================================
 
+; EXERCISES
+11.1.1
+Expand each of the following
+a. (x-5)^2
+b. (x+5)^2
+c. (3y-7)^2
+d. (3y+7)^2
+
+answer:
+a. (x-5)(x-5)
+x^2-5x-5x+25 = x^2-10x+25
+b. x^2+5x+5x+25 = x^2+10x+25
+c. (3y-7)(3y-7)
+9y^2-21y-21y+49
+9y^2-42y+49
+
+d. (3y+7)(3y+7)
+9y^2+21y+21y+49
+9y^2+42y+49
+
+_
+
+11.1.2
+factor each of the following, state wheter or not the quadratic
+is the square of a binomial. if it is the nfactor the expr
+answer:
+a. z^2-4z-4
+b. r^2+10r+25
+c. x^2-20x+400
+d. 9y^2-30y+25
+e. t^4/9+4t^2+36
+f. 2y^2-28y+98
+
+answer:
+a. z^2-4z-4
+(z-2)(z-2)
+z^2-2z-2z+4 -> z^2-4z+4
+so incorrect the constant term should be positive here
+
+b. r^2+10r+25
+correct, factored version is
+(r+5)(r+5)
+
+c. x^2-20x+400
+(x-20)(x-20)
+x^2-20x-20x+400
+x^2-40x+400
+incorrect the linear term should be -40x if it were binomial square
+
+d. 9y^2-30y+25
+(3y^2-5)(3y^2-5)
+9y^2-15y-15y+25
+9y^2-30y+25
+correct
+
+e. t^4/9 + 4t^2 + 36
+(t^2/3 + 6)(t^2/3 + 6)
+(t^2/3.t^2/3)+(t^2/3.6)+(t^2/3.6)+(6.6)
+(t^4/9)+(2t^2)+(2t^2)+(36)
+t^4/9+4t^2+36
+so correct
+
+f. 2y^2-28y+98
+(y^2)(y^2)
+incorrect the 2 here i think makes it imbalanced for the quadratic term
+and the constant term is not a perfect square?
+wait maybe we can divide by 2
+y^2-14y+49
+actually no this is a perfect square now
+(y-7)(y-7)
+y^2-7y-7y+49
+y^2-14y+49
+so the answer is yes here once its divided by 2
+
+_
+
+11.1.3
+use the figure at the right to prove that (a+b)^2 = a^2 + 2ab + b^2
+without expanding algebraicalyl
+
+ok so we have a square length ab
+ifiremmeber area of square is s.s
+
+so let s = a+b
+then the area would be (a+b)^2
+we basically want to prove the area right so s^2
+
+then we have 4 regions which is basically
+b.a + a.a + b.a + b.b
+a^2 + ba + ba + b^2
+a^2 + 2ba + b^2
+
+
+_
+
+11.1.4
+compute 31^2 and 299^2 in your head
+answer:
+
+(30+1)(30+1)
+900+30+30+1
+961
+
+(300-1)(300-1)
+90000-300-300+1
+90000-600+1
+89401
+
+_
+
+11.1.5
+we can square a number neding in 5 using the following steps
+a. erase the 5 at the end of the number to obtain a number k
+b. mult k by k+1 and write the digits 25 at the end of the resultingproduct
+
+for example we finid that 65^2=4225
+ by evaluating 6.7=42 and then placing 25 on the end of this product
+
+
+a. use this trick to compute 45^2, 95^2 and 115^2
+b. use the expansion of (10n+5)^2 to explain why this trick works
+
+answer:
+a. 45^2
+45 -> erase 5 -> 4
+4.5 = 20
+2025
+
+95^2
+erase 5 -> 9
+9.10 -> 90
+9025
+
+115^2
+11.12
+13225
+
+b. (10n+5)^2
+(10n+5)(10n+5)
+100n^2+50n+50n+25
+100n^2+100n+25
+
+i see, so the constant term at the end is the last step right
+the + 25 at the end
+
+then the k and k+1 thing notsure whereit comes from
+im guessing the linearterm? not sure about what the quadratic
+term is doing
+k(k+1) = k^2+k
+ah this has the same form as 100n^2+100n thing right except
+the coefficient in the 100n is 100 so ifwe factor itslike 100n(n+1)
+
+100n(n+1) + 25
+the 100n gives a 'padding'
+n(n+1) by 100 shifts the result two places to the left
+leaving 00 as a paddig to allow to add +25 at the end
+so that it doesnot alter the leading digit calculated by n(n+1)
+
+_
+
+11.1.6
+compute 199919981997^2 - 2.199919981994^2 + 199919981991^2
+answer:
+ok lets just simplify since the 19991998 is the same lets rmeovethat
+let a=1997
+1997^2-2.1994^2+1991^2
+a^2-2(a-3)^2+(a-6)^2
+
+(a-3)^2 = a^2 - 6a + 9
+(a-6)^2 = a^2 - 12a + 36
+
+a^2 - 2(a^2 - 6a + 9) + (a^2 - 12a + 36)
+a^2 + (-2a^2 + 12a - 18) + (a^2 - 12a + 36)
+combine terms
+a^2-2a^2+a^2 = 0
+12a-12a = 0
+-18+36 = 18
+
+so the answer is 18
+
+; ====================================================
+
+11.2
+DIFFERENCE OF SQUARES
+
+11.8
+a. factor the quadratic (x^2-1)
+b. factor the quadratic (x^2-4)
+c. factor the quadratic (x^2-9)
+d. factor the quadratic (x^2-y^2)
+
+answer:
+a. (x+1)(x-1)
+x^2+x-x-1 = x^2-1
+
+b. (x+2)(x-2)
+c. (x+3)(x-3)
+x^2-3x+3x-9 = x^2-9
+d. (x+y)(x-y)
+
+_
+
+11.9
+factor each of the following:
+a. r^2-400
+b. 4t^2-121
+c. 3r^2-147
+d. z^4-1
+
+answer:
+a. (r+20)(r-20)
+b. (2t+11)(2t-11)
+c. hmm not sure what mamkes perfect square for 3r^2
+maybe divide by 3 first
+(r^2-49) so then we have
+(r+7)(r-7)
+d. (z^2+1)(z^2-1)
+(z^2+1)(z+1)(z-1)
+
+_
+
+11.10
+a. evaluate 5^2-4^2
+b. evaluate 6^2-5^2
+c. evaluate 7^2-6^2
+d. evaluate 8^2-7^2
+do you see a pattern? can you prove your pattern alway worsk?
+
+answer:
+a. 25 - 16 = 9
+b. 36-25 = 11
+c. 49-36 = 13
+d. 64-49 = 15
+
+hmm, i think the pattern here
+starts with 9 -> 9+2 =11
+11+2 = 13
+13+2 = 15
+so it just increments by 2?
+
+not sure how to prove this or if it always works but lets check
+9^2-8^2 = 81-64 = 17
+10^2-9^2 = 100-81 = 19
+yeah it seems to follow
+
+maybewecan do
+n^2 - (n-1)^2
+
+then lets expand the (n-1)
+(n-1)(n-1)
+n^2-n-n+1
+n^2-2n+1
+
+so then we have
+n^2 - (n^2-2n+1)
+n^2 + (-n^2 + 2n - 1)
+n^2 - n^2 + 2n - 1
+which leaves to 2n-1 ??
+
+_
+
+11.11
+in this problem we find all pairs of positivei ntegers m and n
+such that m^2 is 105 greater than n^2
+a. write an equation. put the variables on one side and the
+constant on the other
+b. factor the side of the equation with the variables
+c. use the possible factorizations of 105 into the prodct of
+two numbers with the equation from part b to solve the problem
+answer:
+
+ok so wewanna find pairs of m and n
+where m^2 = n^2 + 105
+
+a. m^2 = n^2 + 105
+m^2-n^2 = 105
+
+b. (m+n)(m-n) = 105
+
+c. (m+n)(m-n) = (21)(5)
+m+n = 21
+m-n = 5
+
+m = n + 5
+n = 8
+
+find the factors
+(105,1)
+(35,3)
+(21,5)
+(15,7)
+then just plug in
+
+
+_
+
+11.12
+suppose
+x = z-sqrt(z^2-5)
+and 5y = z + sqrt(z^2-5)
+
+in this problem we find x when y = 2/3
+a. why might the right sides of the two equations make us think of 
+the difference of squares factorization?
+b. combine the equations in a way that eliminates z
+and use the result to solve that problem
+
+answer:
+a. let see the RHS of the two
+z - sqrt(z^2-5)
+z + sqrt(z^2-5)
+
+let u = sqrt(z^2-5)
+then we ahve
+z-u, z+u
+whichis the differnce of squares right
+(z-u)(z+u)
+z^2-u^2
+
+b. x . 5y = (z-u)(z+u)
+x . 5y = z^2 - u^2
+subst back u
+x . 5y = z^2 - (sqrt(z^2-5))^2
+x . 5y = z^2 - (z^2-5)
+x . 5y = z^2 - z^2 + 5
+x . 5y = 5
+x . y = 1
+
+since we know y = 2/3 just subst
+x . 2/3 = 1
+x = 3/2
+
+_
+
+11.13
+in this problem we compute
+sqrt(1998.1996.1994.1992+16)
+without a calc.
+a. compute sqrt(7.5.3.1+16) and sqrt(8.6.4.2+16) by hand
+b. instead of dealint with such large nmbers like 1998
+we write expr in terms of a variable x let x = 1992
+then owh can you write the original epxr int erms of x?
+c. let z = 1995 then write the original expr in terms of z
+d. which one of the expr you found in parts b and c is easier to
+work with and why
+e. solve the prbolem
+
+answer:
+a. sqrt(7.5.3.1+16)
+sqrt(35.3+16)
+sqrt(121) = 11
+
+sqrt(8.6.4.2+16)
+sqrt(48.8+16)
+sqrt(400) = 20
+
+b. let x = 1992
+sqrt(x+6 . x+4 . x+2 . x + 16)
+
+c. let z = 1995
+sqrt(z+3 . z+1 . z-1 . z-3 + 16)
+
+d. lets try to solve
+yeah not sure i feellike c is easier? since the constant
+cancels out each other eg 3,1,-1,-3
+
+
+e. lets try to solve
+with b
+sqrt(x+6 . x+4 . x+2 . x + 16)
+yeah ithink this is gonna be too long
+
+with c
+sqrt(z+3 . z+1 . z-1 . z-3 + 16)
+lets focus on the inside
+(z+1)(z-1)(z+3)(z-3)+16
+(z^2-1)(z^2-9) + 16
+z^4-9z^2-z^2+9+16
+z^4-10z^2+25
+(z^2-5)(z^2-5)
+
+go back
+sqrt((z^2-5)^2)
+which is just (z^2-5) right
+(1995^2-5)
+
+(2000-5)(2000-5)-5
+4000000-10000-10000+25-5
+4000000-20000+20
+3980020
+
+; ============================================
+
+EXERCISES
+11.2.1
+FACTOR EACH OF THE following expressions
+a. t^2-49 
+b. 36-9x^2
+c. 121a^2b^4-c^2
+d. 800x^4-72x^2y^2
+
+answer:
+
+_
+
+11.2.2
+given that 55555^2 = 3086358025
+calculate 55556^2 without a calculateor
+
+answer:
+
+_
+
+11.2.3
+a. are 3^8 and 2^6 perfect squares?
+b. find the prime factorizations of 3^8 - 2^6
+
+_
+
+11.2.4
+factor w^4-16 as much as possible
+
+_
+
+
+11.2.5
