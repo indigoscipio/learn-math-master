@@ -636,6 +636,21 @@ c. 121a^2b^4-c^2
 d. 800x^4-72x^2y^2
 
 answer:
+a. (t+7)(t-7)
+b. lets rearrange
+(-9x^2+36)
+(3x^2+6)(-3x^2+6)
+-9x^2+18x-18x+36
+-9x^2+36
+
+c. 121a^2b^4-c^2
+(11ab^2+c)(11ab^2-c)
+
+d. 800x^4-72x^2y^2
+lets see, maybe divide by 2 here
+400x^4-36x^2y^2
+then we have
+(20x^2+6xy)(20x^2-6xy)
 
 _
 
@@ -644,6 +659,23 @@ given that 55555^2 = 3086358025
 calculate 55556^2 without a calculateor
 
 answer:
+ok so we know 55555^2s value
+
+maybe we can play with the 55556
+
+let x = 55555, then we have
+(x+1)^2 = 3086358025
+
+(x+1)(x+1)
+x^2+x+x+1
+x^2+2x+1 = 3086358025
+so then
+
+(55556)^2 = x^2+2x+1
+(55556)^2 = 3086358025 + 2(55555) + 1
+(55556)^2 = 3086358025 + 111110 + 1
+(55556)^2 = 3086358025 + 111110 + 1
+(55556)^2 = 3.086.469.136
 
 _
 
@@ -651,12 +683,314 @@ _
 a. are 3^8 and 2^6 perfect squares?
 b. find the prime factorizations of 3^8 - 2^6
 
+answer:
+a. 3^8 = (3^4)^2 right
+so 81^2 = which is a perfect square
+
+b. 2^6 = (2^3)^2 which is also perfect square?
+8^2
+
+b. 3^8 - 2^6 = (3^4)^2 - (2^3)^2
+(81)^2-(8)^2 ->> diffrence of squares
+(81-8)(81+8)
+81^2-64
+6561-64
+6497
+
+73 and 89
+
 _
 
 11.2.4
 factor w^4-16 as much as possible
+answer:
+
+w^4-16 ->> apply diff of squares
+
+(w^2+4)(w^2-4)
+
+right part
+(w^2-4) ->> apply diff of squares again?
+(w+2)(w-2)
+
+so then its just
+(w^2+4)(w+2)(w-2) right
 
 _
 
 
 11.2.5
+in this diagrama square of length b is cut out of the corner
+of the square of side length a
+
+show that
+a^2-b^2 = (a-b)(a+b) geometricaly
+by finding the area of the remaining figure in two ways
+
+answer:
+
+ok so we know
+the square has sidel ength a
+so its area is a^2
+
+we wanna show a^2-b^2 = (a-b)(a+b)
+and the area for square b is b.b = b^2
+
+so the remainig shape is a^2 - b^2
+
+now geometrically
+bottom rectangle is (a-b)a
+top left is (a-b)b
+
+therfore remaining area is
+(a-b)a + (a-b)b
+common factor is (a-b), factor out
+so the remaining area is (a-b)(a+b)
+
+
+so we have
+a^2 -b^2 = (a-b)(a+b)
+
+11.2.6
+find x-y given that x^4 = y^4 + 18sqrt(3),
+x^2+y^2 = 6
+and x+y = 3
+
+answer:
+ok so we know 3 things
+x^4 = y^4 + 18sqrt(3)
+x^2+y^2 = 6
+x+y = 3
+
+we wanna find (x-y)
+maybe lets start with the simple
+x+y = 3
+y = 3 - x
+
+(x^2+y^2) = 6
+x^2+(3-x)^2 = 6
+x^2 + (3-x)(3-x) = 6
+
+lets focus on
+(3-x)(3-x)
+9-3x-3x+x^2
+9-6x+x^2 ->> rearrange
+x^2-6x+9
+
+x^2 + x^2-6x+9 = 6
+2x^2-6x+9=6
+2x^2-6x+9-6=0
+2x^2-6x+3=0
+
+hmm we have quadratic with coeficient 2 here not sure
+maybe lets try anoother appraoch
+
+x^4 = y^4 + 18sqrt(3)
+x^4-y^4 = 18sqrt(3)
+(x^2)^2-(y^2)^2 = 18sqrt(3)
+let i = x^2, j = y^2
+i^2-j^2 = 18sqrt(3) ->> apply differnce of square?
+(i+j)(i-j) = 18sqrt(3)
+(x^2+y^2)(x^2-y^2) = 18sqrt(3) ->> subst
+
+(6)(x^2-y^2) = 18sqrt(3)
+wecanalso factor (x^2-y^2) right so
+(6)(x+y)(x-y) = 18sqrt(3)
+subst again
+(6)(3)(x-y) = 18sqrt(3)
+18(x-y) = 18sqrt(3) ->> divide by 18
+(x-y) = sqrt(3)
+so x-y is sqrt(3) right?
+
+; ==============================
+11.3
+SUM AND DIFFERNCE OF CUBES
+11.14
+a. expand the product (x-1)(x^2+x+1)
+b. expand the product (x-2)(x^2+2x+4)
+c. expand the product (x-3)(x^2+3x+9)
+d. use your observations from the first 3 parts to factor
+the expr (x^3-y^3)
+
+answer:
+a.
+(x-1)(x^2+x+1)
+(x.x^2)+(x.x)+(x.1)+(-1.x^2)+(-1.x)+(-1.1)
+(x^3)+(x^2)+(x)+(-x^2)+(-x)+(-1)
+x^3 + x^2 + x - x^2 - x - 1
+it seems x^2 term cancels each other
+and the x term also does that only remaining is the 
+^3 term and the constant term so we have
+x^3 - 1
+
+b.
+(x-2)(x^2+2x+4)
+(x.x^2)+(x.2x)+(x.4)+(-2.x^2)+(-2.2x)+(-2.4)
+(x^3)+(2x^2)+(4x)+(-2x^2)+(-4x)+(-8)
+x^3+2x^2+4x-2x^2-4x-8
+yeah same as previous here
+x^3 - 8
+
+c.
+(x-3)(x^2+3x+9)
+(x.x^2)+(x.3x)+(x.9)+(-3.x^2)+(-3.3x)+(-3.9)
+(x^3)+(3x^2)+(9x)+(-3x^2)+(-9x)+(-27)
+x^3+3x^2+9x-3x^2-9x-27
+same as previous
+x^3 - 27
+
+d. yeah lets analyze the pattern
+based on previosu
+all the x^2 and x term is gone so only rmains is just
+the x^3 and constant right
+in the 1st one
+x^3 - 1 , the constnat is 1 -> x^3 - 1^3
+then x^3 - 8 the constant is 8 im guessing 2^3?
+so x^3 - 2^3
+then the 3rd on its x^3-27 which is
+x^3 - 3^3
+
+so to factor
+x^3-y^3 thats
+(x-y)(x^2+xy+y^2)
+
+_
+
+11.15
+factor the expr x^3 + y^3
+answer
+if the previous one is
+(x-y)(x^2+xy+y^2)
+
+then for x + y version im guessiong
+we need to somehow make the xy gone right? not sure
+(x+y)(x^2+xy+y^2)
+(x.x^2)+(x.xy)+(x.y^2)+(y.x^2)+(y.xy)+(y.y^2)
+x^3+2xy+xy^2+x^2y+xy^2+y^3
+yeah idonthink this is the one
+weneed to make the whole x^2 and x term gone right
+howdowedoit
+
+(x+y)(x^2-xy+y^2)
+(x.x^2)+(x.-xy)+(x.y^2)+(y.x^2)+(y.-xy)+(y.y^2)
+(x^3)+(-x^2y)+(xy^2)+(x^2y)+(-xy^2)+(y^3)
+now the x^2y cancel each other
+and the xy^2 also cancels
+therefore we have (x^3)+(y^3)
+
+_
+
+11.16
+factor each of the following
+a. r^3-125 
+b. x^3+1000
+c. 27y^3+1
+d. 32t^3-108
+
+answer:
+a.a^3-b^3 = 
+(a-b)(a^2+ab+b^2)
+a = r
+b = 5
+(r-5)(r^2+5r+25)
+
+
+b. a^3+b^3 =
+(a+b)(a^2-ab+b^2)
+a = x
+b = 10
+(x+10)(x^2-10x+100)
+
+
+c. (27y^3+1)
+a^3+b^3 =
+(a+b)(a^2-ab+b^2)
+a = 3y
+b = 1
+(3y+1)((3y)^2-3y+1)
+(3y+1)(9y^2-3y+1)
+
+d. a^3-b^3 =
+(a-b)(a^2+ab+b^2)
+32t^3 - 108
+lets actuall divide this by 4
+8t^3 - 27 now i think we can factor it right?
+a = 2t
+b = 3
+(2t-3)((2t)^2+6t+3^2)
+(4)(2t-3)(4t^2+6t+9)
+
+
+
+_
+
+11.17
+the number 7,999,999,999 has just two prime factors
+find them
+
+answer:
+
+lets do
+let x = 7,999,999 so then basically
+x = (8,000,000-1)
+we know 8 million is like 2000^3 or something
+so then we can do someting lie this right
+(2000^3-1^3)
+
+using the previous pattern
+a^3 - b^3 = (a-b)(a^2+ab+b^3)
+a = 2000
+b = 1
+(2000-1)(2000^2+2000+1)
+(2000-1)(4000000+2000+1)
+(1999)(4002001)
+
+_
+
+11.18
+the unknown rela numbers
+x,y,z satisfy the equations
+x+y/1+z = 1-z+z^2 / x^2-xy+y^2
+
+x-y/3-x = 9+3z+z^2/x^2+xy+y^2
+
+find x
+
+answer:
+lets focus on 1st equation first
+x+y/1+z = 1-z+z^2 / x^2-xy+y^2 ->> cross mult
+(x+y)(x^2-xy+y^2) / (1+z)(1-z+z^2)
+
+top part thats basically  a^3 + b^3 form right
+so (a^3 + b^3)
+
+bottom part lets rearrange
+(z+1)(z^2-z+1) ithink thisialso the same form right a^3 + b^3 so
+we have (z^3+1^3)
+
+then the whole equation becomes
+(a^3 + b^3) / (z^3 + 1^3)
+
+then the 2nd equation
+(x-y)(x^2+xy+y^2)
+(-z+3)(z^2+3z+9)
+
+top we have (x^3-y^3)
+bottom we have (-z^3+3^3) right
+
+
+so its (x^3-y^3)/(-z^3 + 27)
+(x^3-y^3)/(27 - z^3)
+
+z^3 + y^3 = z^3 + 1 ->> subtract by z^3
+then we have y^3 = 1
+
+x^3-y^3 = 27-z^3
+
+since we know y^3 = 1 just subtract
+x^3 - 1 = 27 - z^3
+
+
+_
+
+_
