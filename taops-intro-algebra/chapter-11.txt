@@ -985,12 +985,376 @@ so its (x^3-y^3)/(-z^3 + 27)
 z^3 + y^3 = z^3 + 1 ->> subtract by z^3
 then we have y^3 = 1
 
-x^3-y^3 = 27-z^3
+x^3 + y^3 = z^3 + 1^3
+x^3 - y^3 = 27-z^3
 
-since we know y^3 = 1 just subtract
-x^3 - 1 = 27 - z^3
+add them together
+(x^3+y^3) + (x^3 - y^3) = z^3 - z^3 + 1 + 27
+(x^3+y^3) + (x^3 - y^3) = 28
+x^3 + x^3 + y^3 - y^3 = 28
+2x^3 = 28
+x^3 = 14
+x = cuberoot(14)
 
+
+=======================================================
+x^3-y^3 = (x-y)(x^2+xy+y^2)
+=======================================================
+
+;EXERCISES
+11.3.1
+factor each of the following:
+a. x^3-1000
+b. 27r^3+64
+c. 2z^3-16z^6
+d. -a^3b^3-8
+
+answer:
+a. (a-b)(a^2+ab+b^2)
+a = x
+b = cuberoot(1000) = 10
+(x-10)(x^2+10x+100)
+
+b. (a+b)(a^2-ab+b^2)
+a = 3r
+b = 4
+(3r+4)((3r)^2-12r+16)
+(3r+4)(9r^2-12r+16)
+
+c. 2z^3 - 16z^6
+lets divide this by 2z^3 first
+
+2z^3(1 - 8z^3)
+
+(1 - 8z^3) ->> difference of cubes
+a = 1
+b = 2z
+(a-b)(a^2+ab+b^2)
+(1-2z)(1^2+2z+4z^2)
+add back the factor
+(2z^3)(1-2z)(1^2+2z+4z^2)
+
+d. -a^3b^3 - 8
+lets factor the negative first
+(-1)(a^3b^3+8)
+((ab^3)+8)
+(ab^3+2^3)
+a = ab
+b = 2
+(a+b)(a^2-ab+b^2)
+(ab+2)(a^2b^2-2ab+4)
+add back the -1
+(-1)(ab+2)(a^2b^2-2ab+4)
 
 _
 
+11.3.2
+find the prime factorization of 3^6 + 2^9 without a calculator
+
+answer:
+3^6 -> 3^2^3 -> (3^2)^3
+2^9 -> 2^3^3 -> (2^3)^3
+
+let a = 3^2
+let b = 2^3
+so the nwe have
+(a^3+b^3) = (a+b)(a^2-ab+b^2)
+
+subst back
+((3^2)+(2^3))((3^2)^2-(3^2.2^3)+(2^3)^2)
+(9+8)(3^4-(9.8)+2^6)
+(17)(3^4-(72)+64)
+(17)(81-72+64)
+(17)(81-72+64)
+(17)(73) i think
+
 _
+
+11.3.3
+express x^6-64 as the product of four factors
+answer:
+
+ok so we have
+(x^6 - 64)
+x^6 = x^2^3
+64 = 4^3
+
+let a = x^2
+b = 4
+(a^3 - 4^3) 
+->> do the difference of cube thing
+(a-b)(a^2+ab+b^2)
+(a-b)(a^2+4a+16)
+
+subst back a = x^2
+(x^2-4)((x^2)^2+4(x^2)+16)
+(x^2-4)(x^4+4x^2+16)
+
+i think we can factor this more?
+(x^2-4)
+(x+2)(x-2)
+
+so then we have
+(x+2)(x-2)(x^4+4x^2+16)
+im not sure what the fourth factor is
+
+lets try again try to factor
+x^6 - 64
+lets treat it as diference of squares first
+(x^3)^2 - 8^2
+let a = x^3
+b = 8
+(a+b)(a-b)
+(a+8)(a-8)
+
+subst back
+(x^3+8)(x^3-8)
+for the x^3 - 8 = x^3 - 2^3 we have diff of cubes thing
+so we have
+(x-2)(x^2+2x+4)
+
+so now we have
+(x^3+8)(x-2)(x^2+2x+4)
+
+now for the (x^3+8) thing, we can factor this cube also
+(x+2)(x^2-2x+4)
+
+so everhting is
+(x-2)(x^2+2x+4)(x+2)(x^2-2x+4)
+
+_
+
+11.3.4
+a. the expr (x^4-y^4) can be written as the product of 
+(x-y) and another factor. find out that other factor
+
+b. the expression (x^5-y^5) can be written as the product of
+(x-y) and another factor. find out that other factor
+
+c. write x^k - y^k as the product of two factors
+
+answer:
+ok i think we know
+
+(x^3-y^3) = (x-y)(x^2+ab+y^2)
+nowe we increse the power
+
+(x^4-y^4) = ??
+let a = x^2, b = y^2
+so we have (a^2 - b^2) which is just a basic power of two thing
+(a-b)(a+b)
+
+then subst back
+(x^2-y^2)(x^2+y^2)
+(x^2-y^2) -> (x-y)(x+y)
+
+(x^2+y^2) -> hmm idonthink this canbe factored more right?
+
+so i think the factorization is
+(x-y)(x+y)(x^2+y^2)
+
+expand (x+y)(x^2+y^2)
+x^3+x^2y+xy^2+y^3
+
+b. x^5 - y^5
+hmm im not really sure about thisone
+factor of the expo only 1 and 5 so idontthink icanbe broken down further
+or maybe
+x^5 = x^3 . x^2
+y^5 = y^3 . y^2
+
+so then we have
+(x^3 . x^2)-(y^3 . y^2)
+yeah imnotsure here
+lets see the pattern
+
+x^2-y^2 = (x-y)(x+y)
+x^3-y^3 = (x-y)(x^2+xy+y^2)
+x^4-y^4 = (x-y)(x^3+x^2y+xy^2+y^3)
+x^5-y^5 = (x-y)(x^4+x^3y+x^2y^2+xy^3+y^4)
+
+c. now for (x^k-y^k)
+(x-y)(x^k-1 + x^k-2 . y^1 + ... + y^k-2 . x^1 + y^k-1)
+
+_
+
+
+11.3.5
+let x and y be numbers such that
+
+|x| does not equal |y|,
+x^3 = 15x + 4y
+and y^3 = 4x + 15y
+
+in this problem we find x^2 + y^2
+a. combine the equations for x^3 and y^3 in wys that allow
+you to use the sum of difference of cubes factorization
+b. use your results from part (a) to find x^2 + y^2
+
+answer:
+a. ok so we know 3 things lets start with fistone
+
+x^3 = 15x + 4y
+y^3 = 4x + 15y
+
+lets do the sum and difference thing?
+(x^3-y^3)
+(x-y)(x^2+xy+y^2)
+
+(x^3+y^3)
+(x+y)(x^2-xy+y^2)
+
+
+x^3 + y^3 = (15x + 4y) + (4x + 15y)
+x^3 + y^3 = 15x + 4y + 4x + 15y
+x^3 + y^3 = 15(x+y) + 4(x+y)
+x^3 + y^3 = 19(x+y)
+
+(x+y)(x^2-xy+y^2) = 19(x+y) ->> divide both sides by x+y
+(x^2-xy+y^2) = 19
+
+now for the other factor
+x^3 - y^3 = (15x + 4y) - (4x + 15y)
+x^3 - y^3 = (15x + 4y) + (-4x - 15y)
+x^3 - y^3 = 15x + 4y - 4x - 15y
+x^3 - y^3 = 15(x-y) + 4(y-x)
+x^3 - y^3 = 15(x-y) - 4(x-y)
+x^3 - y^3 = 11(x-y)
+
+(x-y)(x^2+xy+y^2) = 11(x-y) ->> divide by (x-y)
+(x^2+xy+y^2) = 11
+
+so we have the 2 euqations
+(x^2-xy+y^2) = 19
+(x^2+xy+y^2) = 11
+
+add them
+(x^2-xy+y^2)
+(x^2+xy+y^2)
+2x^2 + 2y^2 = 30 ->> divide by 2
+x^2 + y^2 = 15
+
+=======================================================
+
+
+11.4 RATIONALIZING DENOMINATORS
+11.19
+a. in this part we rationalize the denominator of 1/sqrt(2)
+i. find a posint number a such that asqrt(2) is an int.
+note: a doesnot have to be an integer, it canbe a sqrt
+ii. mult the num and denom of 1/sqrt(2) by a from part a
+does your result have an int denominaotr?
+
+b. in sthis part we rationalize the denominator of 6/cuberoot(3)
+i. findposint b suchthat b.cuberoot(3) is an int
+ii. rationalize the denom of 6/cuberoot(3) by mult its num and
+denom by an appropriate number
+
+answer:
+a. letsee
+i. we need to find posint a suchthat asqrt(2) is an integer
+wellthen we can do a = sqrt(2) right?
+so sqrt(2) . sqrt(2) = 2 which is an integer
+
+ii. 
+1/sqrt(2) . sqrt(2) / sqrt(2) 
+sqrt(2) / 2 right?
+the denominator is integer but the numerator is sqrt
+
+b. 
+i. hmm letsesee
+if we want integer weneed tu multit by
+cuberoot(3) . cuberoot(3) . cuberoot(3) right
+so then its b = cuberoot(3)^2 then??
+
+ii.
+6/cuberoot(3) . cuberoot(3)^2/cuberoot(3)^2
+6.cuberoot(3)^2 / 3
+2.cuberoot(3)^2 ?? notsure
+2.cuberoot(9) ?? notsure
+
+_
+
+11.20
+a. use one of the special factorizations form ealrier in the chapter
+to find a number c sucht that c(sqrt(7) - sqrt(6)) is an integer
+b.rationalize the denominator of 1/sqrt(7) - sqrt(6)
+
+answer:
+a. not sure what special factorization form here
+the square one or the cube one? maybe the diff of squares right
+
+lets try diff of squares
+a^2 - b^2 = (a-b)(a+b)
+(sqrt(7)+sqrt(6)) - (sqrt(7)+sqrt(6))
+sothatsjust (7 - 6) = 1 right?
+so c here is (sqrt(7)+sqrt(6))?
+
+b. 1/sqrt(7)-sqrt(6) . sqrt(7)+sqrt(6) / sqrt(7)+sqrt(6)
+sqrt(7)+sqrt(6) / 1
+sqrt(7)+sqrt(6)
+
+_
+
+11.21
+ratioanlize the denominiaotr of 
+1/sqrt(2)+sqrt(3)+sqrt(5)
+
+answer:
+ok so weneed to make the denom integerhere
+lastpart it was only 2 and sign is negative
+maybe here it doesnt matter?
+
+c(sqrt(2)+sqrt(3)+sqrt(5)) = 1
+just mult by itself right?
+notsure
+
+lets try to seperate into 2 parts
+A -> sqrt(2)+sqrt(3)
+B -> sqrt(5)
+
+(A+B)(A-B) = A^2 - B^2
+(sqrt(2)+sqrt(3))^2 - (sqrt(5))^2
+(sqrt(2)+sqrt(3))^2 - 5
+
+x^2 + 2xy + y^2
+2 + 2.sqrt(6) + 3 - 5
+2sqrt(6)
+
+so we have
+sqrt(2) + sqrt(3) - sqrt(5) / 2sqrt(6)
+mult by sqrt(6)
+
+sqrt(2) + sqrt(3) - sqrt(5) / 2sqrt(6) . sqrt(6)/sqrt(6)
+(sqrt(2) + sqrt(3) - sqrt(5)) . sqrt(6) / 12
+sqrt(12) + sqrt(18) - sqrt(30) / 12
+2.sqrt(3) + 3.sqrt(2) - sqrt(30) / 12
+
+_
+
+11.22
+rationalize the denominator of
+1/2-cuberoot(2)
+
+answer:
+ok so lets anlayze the denominator
+2 - cuberoot(2)
+
+this is like a difference of cube right?
+to rationalize the cuberoot it needs to be multiplied with the
+two other sojust need to do that right since the 2
+is already integer
+
+maybe
+(2 - cuberoot(2)).cuberoot(2).cuberoot(2)?
+yeah ithink this is gonna affect the 2 also so idontthinkits working?
+
+
+a^3 - b^3
+(a-b)(a^2+ab+b^2)
+and we already know the and b right
+a = 2
+b = cuberoot(2)
+then just plug that in?
+(a-b)(2^2+2.cuberoot(2)+cuberoot(2)^2)
+(a-b)(4+2.cuberoot(2)+cuberoot(4))
