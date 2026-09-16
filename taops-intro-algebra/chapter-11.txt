@@ -1358,3 +1358,332 @@ b = cuberoot(2)
 then just plug that in?
 (a-b)(2^2+2.cuberoot(2)+cuberoot(2)^2)
 (a-b)(4+2.cuberoot(2)+cuberoot(4))
+(a-b)(4+2.cuberoot(2)+cuberoot(4))
+
+put that in
+1/2-cuberoot(2) . (4+2.cuberoot(2)+cuberoot(4))/(4+2.cuberoot(2)+cuberoot(4))
+1.(4+2.cuberoot(2)+cuberoot(4))/(2^3-cuberoot(2)^3)
+
+(4+2.cuberoot(2)+cuberoot(4))/8-2
+(4+2.cuberoot(2)+cuberoot(4))/6
+
+
+===============================================
+a/sqrt(b) = a/sqrt(b) . sqrt(b)/sqrt(b)
+===============================================
+if denum is
+asqrt(b) + csqrt(d), we can rationalize by
+asqrt(b) - csqrt(d)
+===============================================
+
+EXERCISES
+11.4.1
+RATIONALIZE THE DENOminator of the following:
+a. 3/sqrt(6)
+b. 2/fifthroot(9)
+
+answer:
+a. 3/sqrt(6) . sqrt(6)/sqrt(6)
+3sqrt(6)/6 = sqrt(6)/2
+
+b. ok so we have a fifthroothere
+weneed to mult by exponent of 4 more to make it integer
+2/fiftroot(9) . fifthroot(9)^4/fifthroot(9)^4
+2.fifthroot(9)^4 / fifthroot(9)^5
+2.fifthroot(9)^4 /5
+
+_
+
+11.4.2
+rationalize the denominators of thefollowing:
+a. 2/1+sqrt(5)
+b. sqrt(7)/3-2.sqrt(7)
+
+answer:
+a.
+ok so the denominator here has the form (a+b)(a-b)
+where a = 1 and b = sqrt(5) right
+so its (1-sqrt(5))(1+sqrt(5)) = a^2 - b^2
+
+so we can just do the negative part
+2/1+sqrt(5) . 1-sqrt(5)/1-sqrt(5)
+2(1-sqrt(5)) / (1+sqrt(5))(1-sqrt(5))
+
+so now the denominator is
+1^2-sqrt(5)^2 = 1 - 5 = -4
+
+2(1-sqrt(5)) / -4
+2-2sqrt(5) / -4
+(-2/4) - (2.sqrt(5)/-4)
+-1/2 - -(sqrt(5)/2)
+-1/2 + (sqrt(5)/2)
+sqrt(5)-1 / 2
+
+
+b. ok same as previous here
+ithas the form (a-b)(a+b)
+so we gotta compliment with (a+b) since curr denom is (a-b)
+where a = 3, b = 2sqrt(7)
+
+sqrt(7)/3-2sqrt(7) . (3+2sqrt(7))/(3+2sqrt(7))
+sqrt(7)(3+2sqrt(7)) / (3-2sqrt(7))(3+2sqrt(7))
+
+so the denominator is 3^2 - (2sqrt(7))^2
+9 - (2^2 . sqrt(7)^2)
+9 - (4.7)
+9 - 28
+-19
+
+lets put that in
+sqrt(7)(3+2sqrt(7)) / -19
+
+focus on numerator
+sqrt(7)(3+2sqrt(7))
+(sqrt(7).3)(sqrt(7).2sqrt(7))
+3sqrt(7) . 2.7
+3sqrt(7) . 14
+42sqrt(7) / -19 i think
+
+_
+
+11.4.3
+rationalie the denominator of 4/9-3.cuberoot(3) + cuberoot(9)
+
+answer:
+ok so we have a few expression her
+let a = 3
+let b = cuberoot(3)
+
+9 = 3^2 = a^2
+3cuberoot(3) = ab
+cuberoot(9) = cuberoot(3^2) = b^2
+
+so we have the form a^2 - ab + b^2
+so we just need to mult this by (a+b) here
+
+4/9 - 3.cuberoot(3) + cuberoot(9) . 3+cuberoot(3)/3+cuberoot(3)
+4(3+cuberoot(3)) / (3^3+cuberoot(3)^3)
+12 + 4cuberoot(3) / 30
+2(6+2cuberoot(3))/30
+6+2cuberoot(3)/15
+
+_
+
+11.4.4
+
+rationalize the denominator of 2/sqrt(2)-sqrt(5)+sqrt(7)
+answer:
+
+ok lets dividei nto parts
+let a = sqrt(2)-sqrt(5)
+let b = sqrt(7)
+
+2/a+b . a-b/a-b
+
+2(a-b)/(a+b)(a-b)
+subst, focus on denominator
+
+a^2 - b^2
+(sqrt(2)-sqrt(5))^2 - sqrt(7)^2
+
+focus on (sqrt(2)-sqrt(5))^2
+(sqrt(2)-sqrt(5))(sqrt(2)-sqrt(5))
+2 - 2sqrt(10) + 5
+7 - 2sqrt(10) ->> subst back
+
+7 - 2sqrt(10) - sqrt(7)^2
+7 - 2sqrt(10) - 7
+-2sqrt(10)
+
+2(a-b)/-2sqrt(10)
+2((sqrt(2)-sqrt(5))-sqrt(7))/-2sqrt(10)
+((sqrt(2)-sqrt(5))-sqrt(7))/-sqrt(10)
+((sqrt(2)-sqrt(5))-sqrt(7))/-sqrt(10) . sqrt(10)/sqrt(10)
+((sqrt(2)-sqrt(5))-sqrt(7))(sqrt(10))/-10
+(sqrt(2)-sqrt(5)-sqrt(7))(sqrt(10))/-10
+sqrt(20)-sqrt(50)-sqrt(70)/-10
+sqrt(4.5)-sqrt(25.2)-sqrt(70)/-10
+2sqrt(5)-5sqrt(2)-sqrt(70)/-10
+-(2sqrt(5)-5sqrt(2)-sqrt(70))/10
+-2sqrt(5)+5sqrt(2)+sqrt(70)/10
+
+_
+
+11.4.5
+simplify
+1/sqrt(100)+sqrt(99) + 1/sqrt(99)+sqrt(98) + ... +
+1/sqrt(3)+sqrt(2) + 1/sqrt(2)+sqrt(1)
+
+answer:
+ok let me think
+let n = sqrt(100) maybe
+so then we have
+1/(n-0)+(n-1) + 1/(n-1)+(n-2) + ...
+
+n(-0-1) -> n(-1)
+n(-1-2) -> n(-3)
+
+
+yeah maybe im apporachin this incorrectly
+lets try simple first maybe with the lowest term
+
+1/sqrt(3)+sqrt(2) + 1/sqrt(2)+sqrt(1)
+we need to rationalize both here eright
+so for the first one mult by 
+
+so frst part here a = sqrt(3), b = sqrt(2)
+
+1/sqrt(3)+sqrt(2) . sqrt(3)-sqrt(2)/sqrt(3)-sqrt(2)
+sqrt(3)-sqrt(2) / (sqrt(3)+sqrt(2)) - (sqrt(3)-sqrt(2))
+
+focus on the denominaotr
+a^2 - b^2
+sqrt(3)^2 - sqrt(2)^2 = 3 - 2 = 1
+
+then put it back together thatsjust
+sqrt(3)-sqrt(2)/1 = sqrt(3)-sqrt(2)
+so its actually just the numerator now with the sign reversed?
+lets check if the other one has similar pattern
+
+lets check the 2nd part also
+1/sqrt(2)+sqrt(1) . sqrt(2)-sqrt(1)/sqrt(2)-sqrt(1)
+sqrt(2)-sqrt(1)/sqrt(2)+sqrt(1).sqrt(2)-sqrt(1)
+so here a = sqrt(2) and b = sqrt(1)
+focus on the deumoerator
+
+a^2-b^2
+sqrt(2)^2 - sqrt(1)^2
+2 - 1 = 1
+ok so its also 1, lets subst back
+sqrt(2)-sqrt(1)/1
+sqrt(2)-sqrt(1)
+
+ok so based on the pattern on the first 2 here
+(sqrt(3)-sqrt(2)) + (sqrt(2)-sqrt(1))
+sqrt(3) - sqrt(2) + sqrt(2) - sqrt(1) 
+sqrt(3) - sqrt(1)
+
+ok so i think i can guess the pattern here
+itstarts from 100 so interms of lneght thatsl ike 100-1
+since it stops at sqrt(2) so its 99
+
+so if i had to guess its
+sqrt(100) - sqrt(1)
+10 - 1 = 9
+
+_
+
+11.5 SIMONS FAVORITE FACTORING trick
+11.23
+in this problem we find all pairs of posint m and n such that
+mn + m + n = 76
+a. factor an m out of the first 2 terms on the left side
+b. what must we add to the left side in ordre to be able to factor
+the left side again?
+c. perform addition and factorization you discovered in part b
+use the resulting equation to solve the prboelm
+
+answer:
+a. ok so we have
+mn + m + n = 76
+(mn + m) + n = 76
+m(n + 1) + n = 76
+
+b. we need to add lets see, 
+maybe add n ? wait that would make just 2n which doesntm akese
+maybe +1? so thats m(n+1)+(n+1)
+
+so that wuold make it multiplied with identity = 1
+m(n+1)+1(n+1)
+(m+1)(n+1)
+
+c. 
+(m+1)(n+1) = mn + m + n + 1
+lets substitute 76
+76 + 1
+77
+
+(m+1)(n+1) = 77
+so the factors are 
+m+1 = 11
+n+1 = 7
+
+m = 10
+n = 6
+
+_
+
+11.24
+in this problem we find all pairs of integers b and c
+that satisfy the equation
+bc - 7b + 3c = 70
+a. wed like to factor the left side as (b+m)(c+n)
+for some constants m and n. use the coefficients on the left side
+of the equation to determine what m and n must be
+b. use a to determine what constant we must add to both sides
+of the equation to determine what m and n must be
+c. perform the addition and factorization sugested in b and use
+the result to solve the rpbolem. dont forget that b and c
+can be negative
+
+answer:
+a. ok lets try this
+bc - 7b + 3c = 70
+(bc - 7b) + 3c = 70
+
+b. 
+b(c-7) + 3c = 70 ->> maybe subtract both sides by 21
+b(c-7) + 3c - 21 = 70 - 21
+b(c-7) + 3(c - 7) = 49
+so now we have (b+3)(c-7) = 49 i think
+
+c. (b+3)(c-7) = 49
+
+lets find the factors of 49
+7 7
+1 49
+-7 -7
+-1 -49
+
+then just do the 
+7 7 -> 4,14
+1,49 -> -2,56
+
+_
+
+problem 11.25
+how many ordered pairs (m,n) of positive integers are solutions
+to 4/m + 2/n = 1 ??
+
+answer:
+lets see, maybe we can get rid of the denominator first
+lets multipy all sides by mn maybe
+
+mn(4/m + 2/n) = 1(mn)
+4n + 2m = mn
+4n + 2m - mn = 0 ->> lets maybe mult by -1 here
+mn - 4n - 2m = 0
+n(m-4) - 2m = 8 ->> add both sides by +8
+n(m-4) - 2m+8 = 8
+divide each term by -2
+-2m / -2 = m
+8 / -2 = -4
+
+n(m-4) + -2(m-4) = 8
+so then we have
+(n-2)(m-4) = 8
+
+factors of 8
+1 8
+8 1
+4 2
+2 4
+-1 -8
+-8 -1
+-4 -2
+-2 -4
+
+12,3
+5,10
+8,4
+6,6
