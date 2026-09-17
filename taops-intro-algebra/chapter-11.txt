@@ -1687,3 +1687,426 @@ factors of 8
 5,10
 8,4
 6,6
+
+;=========================================
+
+EXERCISES
+11.5.1
+Factor the expresion
+ab + 5b + 2a + 10
+
+answer:
+ab + 5b + 2a + 10
+lets factor a first
+ab + 2a + 5b + 10
+a(b + 2) + 5b + 10 ->> factor b
+a(b + 2) + 5(b + 2)
+
+so then we have
+(a+5)(b+2) = 0
+a = -5
+b = -2
+
+_
+
+11.5.2
+factor the expression
+xy + 8x - 3y - 24
+
+lets start with x first
+x(y + 8) - 3y - 24 ->> factor the y part with -3
+x(y + 8) -3(...) lets do this carefully
+
+-3y / -3 = y
+-24 / -3 = 8
+
+x(y + 8) -3(y+8)
+so then its
+(x-3)(y+8) = 0
+x = 3 
+y = -8
+
+
+
+_
+
+11.5.3
+find the prime factorization of 
+19 . 13 - 7 . 13 + 3 . 19 - 21
+
+lets group this carefully and maybe dividei nto parts
+(19 . 13) - (7 . 13) + (3 . 19) - 21
+
+(19 . 13) - (7 . 13) -> factor common terms
+so then we have
+13(19 - 7) + 3 . 19 - 21 hmm whatcanwefactormore here
+matbe 3 and 21 but how the 19 isnt dividible by 3
+we need to get to the form (19-7)
+lets write 21 as 3 . 7
+
+13(19 - 7) + 3 . 19 - 3 . 7 -> now its factorable
+13(19 - 7) + 3 (19 - 7)
+so then its
+(13+3)(19-7)
+(16)(12)
+
+
+yeah wait why isnt this a prime
+okay lets dissect each one with PF
+
+(16) -> 4 . 4 -> 2 . 2 . 2 . 2 -> 2^4
+(12) -> 3 . 2 . 2 -> 3^1 . 2^2
+
+(2^4) (2^2)(3^1) -> 2^6 . 3^1
+
+
+
+_
+
+11.5.4
+a unit fraction is a fraction of the form 1/n for some
+nonzero int n. compute the num of ways we can write 1/6 as the
+sum of two distinct pos unit fractions. (the order of fractions
+in the sum does no t matter, so 1/2 + 1/3 would be considered the
+same sum as 1/3 + 1/2)
+
+answer:
+OK SO unit fraction is 1/n
+
+we wanna find number of ways we can write 1/6 as
+sum of two pos unit fractions
+
+so letsway we have 2 unit fractions
+1/n + 1/m, where the order doesnt matter?
+
+letse see, so that would be something like
+1/n + 1/m = 1/6
+
+mult both sides by 6nm
+(6nm)1/n + 1/m = (6nm)1/6
+6m + 6n = nm
+6m + 6n - nm = 0
+6m - nm + 6n = 0
+m(6-n) + 6n = 0 ->> subtract by -36
+m(6-n) + 6n - 36 = -36 ->> factor -6
+
+6n / -6 = -n
+-36 / -6 = 6
+so its -n + 6 -> 6 - n
+
+m(6-n) + -6(-n+6) = -36
+m(6-n) + -6(6-n) = -36
+so now we have
+(m-6)(6-n) = -36
+(m-6)(-1)(n-6) = -36 ->> divide both sides by -1
+(m-6)(n-6) = 36
+
+factors of 36 are
+1,46 ->  (m=7,42) 7,42
+2,18 -> 8,24
+3 12 -> 9,18
+4,9 -> 10,15 
+6,6 -> 12,12
+
+
+
+_
+
+11.5.5
+find all pairs of integers (p,q) such that pq - 3p + 5q = 0
+answer:
+
+pq - 3p + 5q = 0
+p(q - 3) + 5q = 0 ->> subtract both sides by 15
+p(q - 3) + 5q - 15 = 0 - 15
+p(q - 3) + 5(q - 3) = -15
+so now we have
+(p+5)(q-3) = -15
+
+1 -15
+p+5 = 1
+p = -4
+q-3 = -15
+q = -12
+(-4,-12)
+
+-1 15
+-3 5
+3 -5
+
+
+_
+
+11.5.6
+factor each of the following:
+
+a. x^2y^2 - 4y^2 - x^2 + 4
+b. 2cd - 3d - 14c + 21
+
+answer;
+a. x^2y^2 - 4y^2 - x^2 + 4
+y^2(x^2 - 4) - x^2 + 4
+y^2(x^2 - 4) + -1(x^2 - 4)
+(y^2-1^2)(x^2-2^2)
+(y-1)(y+1)(x-2)(x+2)
+
+b.  2cd - 3d - 14c + 21
+d(2c - 3) - 14c + 21
+letsseehowwecanturn -14c + 21 into 2c-3 here
+factor by -7
+-14c / -7 = 2c
+21 / -7 = -3 
+d(2c - 3) -7(2c - 3)
+(d-7)(2c-3)
+
+
+
+; =================================================
+REVIEW PROBLEMS
+
+11.26
+expand the following:
+a. (7-x)^2
+b. (2t-9)^2
+
+answer:
+a. (7-x)(7+x)
+b. (2t-9)(2t+9)
+
+_
+
+11.27
+find the squares of the following numbers in your head:
+a.45
+b.91
+c.401
+d.199
+
+answer:
+a. (40+5)(40+5)
+1600 + 200 + 200 + 25
+1600 + 400 + 25
+2025
+
+b. (90+1)(90+1)
+8100+90+90+1
+9100+180+1
+9281
+
+c. (400+1)(400+1)
+160000 + 400 + 400 + 1
+160000 + 800 + 1
+160801
+
+d. (200-1)(200-1)
+40000 - 200 - 200 + 1
+40000 - 400 + 1
+39601
+
+_
+
+11.28
+if a is a constant such that 9x^2 + 24x + a is the square of a 
+binomial, then what is a?
+
+answer:
+
+ok so we have the expr 9x^2 + 24x + a
+and a is the square of a binomial which is
+
+(x + y)^2 or (x - y)^2 right?
+and since a is constant then therefore x and y has to also be
+a constant as well, using the form we can use
+
+(3x+2)(3x+2)
+whichhastheform
+x^2 + xy + y^2 idont remember
+and we know a = 3
+2ab = 24
+2.3b = 24
+2b = 24/3 = 8
+b = 4
+wait is it multiplied or sum i dont remember
+
+y^2 is the constant part
+
+(3x+4)(3x+4)
+9x^2+12x+12x+64
+9x^2+24x+64
+so a is 64 here
+
+_
+
+11.29
+factor each of the following:
+a. r^2 - 121 
+b. -32t^2 + 50
+
+answer:
+a. (r^2 - 11^2)
+(r-11)(r+11)
+
+b. -32t^2 + 50
+lets mult by -1
+32t^2 - 50 ->> factor by 2
+2(16t^2-25)
+focus on (16t^2 - 25)
+(4^2t^2 - 5^2)
+((4t)^2 - 5^2) -> apply the diff of squares here i think
+a = 4t
+b = 5
+(4t-5)(4t+5)
+add back the -1 and 2
+(-1)(2)(4t-5)(4t+5)
+(-2)(4t-5)(4t+5)
+
+_
+
+11.30
+comput 111^2 - 89^2 in your head
+answer:
+
+lets do this one by one
+(100 + 11)(100 + 11)
+10000 + 1100 + 1100 + 121
+10000 + 2200 + 121
+12200 + 121
+12321
+
+wait actually we can do the factor thing here
+(111-89)(111+89)
+22 . 200
+4400
+
+_
+
+11.31
+(207+100)^2 - (207 - 100)^2 without a calculator
+answer:
+
+yeah lets make this simle
+let a = 207
+b = 100
+
+(a+b)^2 - (a-b)^2
+divide into 2 parts maybe
+(a+b)^2
+a^2 + 2ab + b^2
+
+wait actually here the parentheses has more priority right
+(207+100)^2 - (207 - 100)^2 without a calculator
+
+307^2 - 107^2
+(307-107)(307+107)
+(200)(414)
+82800
+
+_
+
+
+11.32
+which is bigger,
+4050607^2 or (4050608)(4050606)
+
+let x = 4050607
+
+so the question basically becomes
+x^2 or (x+1)(x-1)
+
+x^2 or x^2 - 1^2 ->
+x^2 or x^2 - 1
+
+so x^2 is greater than x^2-1 here
+
+_
+
+11.33
+let x = 2001^1002 - 2001^-1002
+and y = 2001^1002 + 2001^-1002
+find x^2 - y^2
+
+answer:
+lets apply the difference of sqyare so it becomes
+(x+y)(x-y)
+
+let a = 1002
+letsdothisone by one
+(2001^a - 2001^-a + 2001^a + 2001^-a)
+(2001^a - 2001^-a + 2001^a + 2001^-a)
+(2001^a + 2001^a)
+2(2001^a)
+
+part (x-y)
+(2001^a - 2001^-a - (2001^a + 2001^-a))
+(2001^a - 2001^-a -2001^a - 2001^-a) ->> rearrange comutative
+(2001^a - 2001^a - 2001^-a - 2001^-a)
+(-2001^-a - 2001^-a)
+(-1)(2001^-a + 2001^-a)
+(-1)(2)(2001^-a)
+(-2)(2001^-a)
+
+combine we have
+
+(2)(2001^a)(-2)(2001^-a)
+(-4)(2001^a)(2001^-a)
+(-4)(2001^a)(1/2001^a)
+(-4)(2001^a/2001^a)
+(-4)(1)
+-4
+
+_
+
+11.34
+which two consectuveve perfect squares have a difference of 63
+answer:
+
+ok so consectuve perfect squares
+means value is increasing right? or is it descreasing
+lets say the number is x
+(x+1)^2 - x^2 = 63
+
+let a = x+1
+a^2 - x^2 = 63
+lets focus on LHS
+(a-x)(a+x)
+subst back in
+((x+1)-x)((x+1)+x)
+(x+1-x)(x+1+x)
+1(2x+1)
+(2x+1)
+
+so then we have
+2x+1 = 63
+2x = 62
+x = 31
+
+so its
+32^2 - 31^2
+
+_
+
+11.3.5
+factor each of the following:
+a. 
+b. 
+c. 
+d. 
+
+_
+
+11.3.6
+expand the product
+(cuberoot(t) - cuberoot(u))(cuberoot(t^2)+cuberoot(tu)+cuberoot(u^2))
+
+_
+
+11.3.7
+rationalize the denominators of the following:
+a. 21/sqrt(21)
+b. 20/cuberoot(25)
+c. 4/quadroot(18)
+
+
+_
+
+11.3.8
