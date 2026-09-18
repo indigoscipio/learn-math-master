@@ -1870,8 +1870,13 @@ a. (7-x)^2
 b. (2t-9)^2
 
 answer:
-a. (7-x)(7+x)
-b. (2t-9)(2t+9)
+a. (7-x)(7-x)
+49-7x-7x+x^2
+x^2-14x+49
+
+b. (2t-9)(2t-9)
+4t^2-18t-18t+81
+4t^2-36t+81
 
 _
 
@@ -1931,9 +1936,9 @@ wait is it multiplied or sum i dont remember
 y^2 is the constant part
 
 (3x+4)(3x+4)
-9x^2+12x+12x+64
-9x^2+24x+64
-so a is 64 here
+9x^2+12x+12x+16
+9x^2+24x+16
+so a is 16 here
 
 _
 
@@ -2174,6 +2179,15 @@ mult by cuberoot(25)^2 to make it an integer
 20.cuberoot(25)^2/25
 4.cuberoot(25)^2/5
 
+alternatively
+mult by cuberoot (5^1) = cuberoot(5)
+20/cuberoot(5^2) . cuberoot(5)/cuberoot(5)
+20.cuberoot(5)/cuberoot(5^3)
+20.cuberoot(5)/5
+4.cuberoot(5)
+
+
+
 c. 4/fourthroot(18)
 lets see here, lets play around with the denominator
 1.1.1.1 = 1
@@ -2291,20 +2305,18 @@ since we alreadyknow the a-b wejustneed the 2nd part here right so
 (1+2cuberoot(2)+4cuberoot(4))
 
 lets plug that back in
-2/1-cuberoot(2) . (1+2cuberoot(2)+4cuberoot(4))/(1+2cuberoot(2)+4cuberoot(4))
+2/1-2cuberoot(2) . (1+2cuberoot(2)+4cuberoot(4))/(1+2cuberoot(2)+4cuberoot(4))
 
 so now the dneominator becomes
-1^3-cuberoot(2)^3
-1 - 2
--1
+1^3-2cuberoot(2)^3
+1 - 8.2
+-15
+
 
 and the numerator
 2(1+2cuberoot(2)+4cuberoot(4))
 (2.1 + 2.2cuberoot(2) + 2.4cuberoot(4))
-2 + 4cuberoot(2) + 8cuberoot(4)/-1
-which is basically
--(2 + 4cuberoot(2) + 8cuberoot(4))
-
+2 + 4cuberoot(2) + 8cuberoot(4)/-15
 
 _
 
@@ -2359,10 +2371,164 @@ yeah so ifweapplythis to threst
 
 3+2 = 5
 
-
 ====================================================
 a radical expr nthroot(A) is fully simplified when
 -theres no nth power inside
 -no radicals in denominator
 ====================================================
 
+; ==================================================
+
+CHALLENGE PROBLEMS
+11.43
+three consecutive positive odd integers a,b,c satisfy
+b^2 - a^2 = 344 and c^2 - b^2 > 0
+what is the value of c^2 - b^2? 
+
+answer:
+ok so we have 3 consecutive integers
+lets tackle this one by one
+b^2 - a^2 = 344
+(b+a)(b-a) = 344
+
+since its consecutive positive odd integer
+and b > a we can writeit as
+b = a + 2
+((a+2)+a)((a+2)-a) = 344
+(a+2+a)(a+2-a) = 344
+(2a+2)(2) = 344
+4a+4 = 344
+4a+4 = 340
+4a = 340
+a = 85
+
+since they are consecutie odd
+b = 87 and c = 89
+89^2 - 87^2
+(89-87)(89+87)
+(2)(176)
+352
+
+_
+
+11.44
+a. evaluate 29^2
+b. evaluate 299^2
+c. evaluate 2999^2
+d. what is the sum of the digits of  29999999^2?
+
+answer:
+a. (30-1)(30-1)
+(30-1)(30-1)
+900-30-30+1
+900-60+1
+841
+
+b. (300-1)(300-1)
+90000-300-300+1
+90000-600+1
+89401
+
+c. (3000-1)(3000-1)
+9000000-3000-3000+1
+9000000-6000+1
+8994001
+
+d. ok lets study the pattern
+from the previous 3
+
+29^2 -> sum of digits = 8+4+1 = 12+1 = 13
+299^2 -> sum of digits = 8+9+4+0+1 = 22
+2999^2 -> sum of digits = 8+9+9+4+0+0+1 = 31
+
+i cant sense any pattern here
+maybe just try this manually
+
+(30000000-1)(30000000-1)
+900000000000000 - 30000000 - 30000000 + 1
+900000000000000 - 60000000 + 1
+899999940000001
+
+so sum of digit is  8+9+9+9+9+9+9+4+1 = 8 + 6(9) + 4 + 1 = 67
+it seems only the 9 here increaese
+
+_
+
+11.45
+compute the product
+(1998^2-1996^2)(1998^2-1995^2)...(1998^2-0^2)/
+(1997^2-1996^2)(1997^2-1995^2)...(1997^2-0^2)
+
+answer:
+okay lets focus on the numerator first here
+a^2-b^2 = (a+b)(a-b)
+
+so then we have
+(1998-1996)(1998+1996) -> 2(3994)
+(1998-1995)(1998+1995) -> 3(3993)
+(1998-1994)(1998+1994) -> 4(3992)
+...
+(1998-0)(1998+0) -> 1998(1998)
+
+
+now the denominoator
+(1997-1996)(1997+1996) -> 1(3993)
+(1997-1995)(1997+1995) -> 2(3992)
+(1997-1994)(1997+1994) -> 3(3991)
+(1997-0)(1997+0) -> 1997(1997)
+
+yeah ithink this is the telescoping sum thing again
+lets try to put this together
+
+2(3994) . 3(3993) . 4(3992) ... 1998(1998) /
+1(3993) . 2(3992) . 3(3991) ... 1997(1997)
+
+the 2,3,4, ... etc cancels each other right
+as well as the 3993, 3992, ....
+
+2(3994) . 3(3993) . 4(3992) ... 1998(1998) /
+1(3993) . 2(3992) . 3(3991) ... 1997(1997)
+
+so the remaining is the top left and bottom right i think
+so im gonna say it will eventually osmething like
+
+right factor
+3994/1997
+2
+
+and left factor
+2 . 3 . 4 ... 198 / 1 . 2 . 3 ... 1997 = 1998
+
+so its 1998 . 2 = 3996
+
+_
+
+11.4.6
+rationalize the denominator of
+2/2-fourthroot(2)
+
+answer:
+2.2.2.2 = 16
+3.3.3.3 = 81
+4.4.4.4 = 256
+
+lets focus on the denominator first
+2-fourthroot(2)
+notsure how we can factor the fourthrot here
+ifitwas cube then we can use (a-b)(a^2+ab+b^2) right
+i think fourthroot ithas the form where the expo it increases
+and decreases if i remember
+(a-b)(a^3+a^2b^2+ab+a^2b^2+b^3) or something 
+wait its something like
+(a-b)(a^3+a^2b+ab+ab^2+b^3)
+
+maybelets tryit idontknow
+so a = 2
+b = fourthroot(2)
+then it beocmes
+
+actually lets try another approach
+let a = 2
+let b = fourthroot(2)
+
+a/a-b . a+b/a+b
