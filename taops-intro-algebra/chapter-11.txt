@@ -2087,26 +2087,282 @@ _
 
 11.3.5
 factor each of the following:
-a. 
-b. 
-c. 
-d. 
+a. a^3 + 27
+b. a^3b^3 + 8c^3
+c. 2r^3 - 16
+d. 1000 - x^6y^3
+
+answer:
+a. a^3 + 3^3
+ok this is a cube form
+where a = a, b = 3
+(a+b)(a^2-ab+b^2)
+(a+3)(a^2-3a+9)
+
+
+b. lets factor first
+a^3b^3 + 8c^3
+(ab)^3 + 2^3c^3
+(ab)^3 + (2c)^3
+ok this is the same form as previos
+(a+b)(a^2-ab+b^2)
+a = ab
+b = 2c
+
+(ab+2c)((ab)^2-(ab.2c)+(2c)^2)
+(ab+2c)(a^b^2-2abc+2^2c^2) i think
+
+c. 2r^3 - 16
+lets factor out the 2 first
+2(r^3 - 8)
+now focus on the parenthesis
+(r^3 - 2^3)
+a = r, b = 2
+(a-b)(a^2+ab+b^2) ->> subst
+(r-2)(r^2+2r+4)
+
+d. 1000 - x^6y^3
+lets factor out
+10^3 - (x^2y)^3
+so here we have a =10
+b = x^2y
+
+plug in
+(a-b)(a^2+ab+b^2)
+(10-x^2y)(10^2+(10.x^2y)+(x^2y)^2)
+(10-x^2y)(10^2+10x^2y+x^4y^2)
 
 _
 
 11.3.6
 expand the product
 (cuberoot(t) - cuberoot(u))(cuberoot(t^2)+cuberoot(tu)+cuberoot(u^2))
+answer:
+
+let a = cuberoot(t)
+let b = cuberoot(u)
+
+so now we have hte form
+
+(a-b)(a^2+ab+b^2) which is the same as
+a^3-b^3
+then we can just subtitute
+
+(cuberoot(t))^3 - (cuberoot(u))^3
+t - u
 
 _
 
-11.3.7
+11.37
 rationalize the denominators of the following:
 a. 21/sqrt(21)
 b. 20/cuberoot(25)
 c. 4/quadroot(18)
 
+answer:
+a. 21/sqrt(21)
+21/sqrt(21) . sqrt(21)/sqrt(21)
+21.sqrt(21)/21
+sqrt(21)
+
+b. 20/cuberoot(25)
+lets focus on denominator
+mult by cuberoot(25)^2 to make it an integer
+
+20/cuberoot(25) . cuberoot(25)^2/cuberoot(25)^2
+20.cuberoot(25)^2/cuberoot(25)^3
+20.cuberoot(25)^2/25
+4.cuberoot(25)^2/5
+
+c. 4/fourthroot(18)
+lets see here, lets play around with the denominator
+1.1.1.1 = 1
+2.2.2.2 = 4 . 4 = 16
+3.3.3.3 = 81
+4.4.4.4 = 256
+
+lets play around with the numerator
+2^2 / fourthroot(18)
+2^2 / fourthroot(9 . 2)
+2^2 / fourthroot(3^2 . 2)
+
+yeah letsjust mult by the denum
+mult by fourthroot(18)^3
+
+4/fourthroot(18) . fourthroot(18)^3/fourthroot(18)^3
+4.fourthroot(18)^3 / fourthroot(18)^4
+4.fourthroot(18)^3 / 18
+4.fourthroot(18)^3 / 18
+2.fourthroot(18)^3 / 9
+2.fourthroot(9 . 2)^3 / 9
+2.fourthroot(3^2 . 2^1)^3 / 9
+2.fourthroot(3^6 . 2^3) / 9
+2.fourthroot(3^6 . 2^3) / 9
+2.fourthroot(3^4 . 3^2 . 2^3) / 9
+3.2.fourthroot(3^2 . 2^3) / 9
+2.fourthroot(3^2 . 2^3) / 3
+2.fourthroot(9 . 8) / 3
+2.fourthroot(72) / 3
 
 _
 
 11.3.8
+rationalize the denominators of the following:
+a. 8/sqrt(15)-sqrt(7)
+b. 9/3sqrt(2)-2sqrt(5)
+
+answer:
+a. 8/sqrt(15)-sqrt(7)
+lets mult by sqrt(15) + sqrt(7) here to follow the a^2-b^2 thing
+
+8/sqrt(15)-sqrt(7) . sqrt(15)+sqrt(7)/sqrt(15)+sqrt(7)
+8.(sqrt(15)+sqrt(7))/15-7
+8.(sqrt(15)+sqrt(7))/8
+sqrt(15)+sqrt(7)
+
+b. 9/3sqrt(2)-2sqrt(5)
+lets mult by 3sqrt(2)+2sqrt(5)
+
+9/3sqrt(2)-2sqrt(5) . 3sqrt(2)+2sqrt(5)/3sqrt(2)+2sqrt(5)
+lets focus on the denominator
+
+a^2 - b^2 = (a-b)(a+b)
+(3sqrt(2)-2sqrt(5)) (3sqrt(2)+2sqrt(5))
+where a = 3sqrt(2) and b = 2sqrt(5)
+(3sqrt(2))^2 - (2sqrt(5))^2
+(3^2 . sqrt(2)^2) - (2^2 . sqrt(5)^2)
+(9 . 2) - (4 . 5)
+(18) - (20)
+-2
+
+lest put this back
+9(3sqrt(2)+2sqrt(5))/-2
+
+now focus on the numerator
+(9 . 3sqrt(2) + 9. 2sqrt(5))
+
+so its 27sqrt(2) + 18sqrt(5) / -2
+
+
+_
+
+11.39
+factor the following:
+a. pq - 7p + 9q - 63
+b. -rs + 5r + 2s - 10
+
+answer:
+a. pq - 7p + 9q - 63 ->> lets factor out the p first
+p(q-7) + 9q - 63 ->> now factor the q
+p(q-7) + 9(q-7) ->> now factor the q
+so its just (p+9)(q-7)
+
+b. -rs + 5r + 2s - 10 ->> lets factor the r
+-rs + 5r
+divide by -r
+-rs/-r = s
+5r/-r = -5
+
+-r(s-5) + 2s - 10 ->> now the s
+-r(s-5) + 2(s-5)
+so now we have
+(-r+2)(s-5)
+-(r-2)(s-5)
+
+
+_
+
+11.40
+rationalize the denominator of 2/1-2cuberoot(2)
+
+answer:
+2/1-2cuberoot(2)
+ok lets think about ths, focus on the denumoartor
+we have basically the cube difference thing right
+
+a = 1,
+b = 2cuberoot(2)
+a^3 - b^3 = (a-b)(a^2+ab+b^2)
+
+since we alreadyknow the a-b wejustneed the 2nd part here right so
+(a^2+ab+b^2) ->> subst
+(1+2cuberoot(2)+2cuberoot(2)^2)
+(1+2cuberoot(2)+2^2.cuberoot(2)^2)
+(1+2cuberoot(2)+4cuberoot(4))
+
+lets plug that back in
+2/1-cuberoot(2) . (1+2cuberoot(2)+4cuberoot(4))/(1+2cuberoot(2)+4cuberoot(4))
+
+so now the dneominator becomes
+1^3-cuberoot(2)^3
+1 - 2
+-1
+
+and the numerator
+2(1+2cuberoot(2)+4cuberoot(4))
+(2.1 + 2.2cuberoot(2) + 2.4cuberoot(4))
+2 + 4cuberoot(2) + 8cuberoot(4)/-1
+which is basically
+-(2 + 4cuberoot(2) + 8cuberoot(4))
+
+
+_
+
+11.41
+find allapairs of integers x,y that satisfy the equattion
+xy - 2x + 7y = 49
+
+answer:
+xy - 2x + 7y = 49
+lets rearrange first
+xy - 2x + 7y - 49 = 0
+x(y - 2) + 7y - 49 = 0 ->> add both sides by 35
+x(y - 2) + 7y - 14 = 35
+x(y - 2) + 7(y - 2) = 35
+(x+7)(y-2) = 35
+
+1 35
+7 5
+
+-6,37
+28,3
+-2,9
+0,7
+-8,-33
+-42,1
+-12,-5
+-14,-3
+
+_
+
+11.42
+simplify
+1/3-sqrt(8) - 1/sqrt(8)-sqrt(7) + 1/sqrt(7)-sqrt(6) - 1/sqrt(6)-sqrt(5) + 1/sqrt(5)-2
+
+answer:
+yeah ishtis the telescoping sum thing idontremember
+
+
+1/3-sqrt(8) . 3+sqrt(8)/3+sqrt(8)
+3+sqrt(8)/3^2-8
+3+sqrt(8)/9-8
+3+sqrt(8)/1
+
+so itsjust 3+sqrt(8) whichis the inverse verseion
+letschekcthenext one if wecansee the same pattern to confirm
+
+1/sqrt(8)-sqrt(7) . sqrt(8)+sqrt(7)/sqrt(8)+sqrt(7)
+1sqrt(8)+sqrt(7)/8-7
+sqrt(8)+sqrt(7)
+
+yeah so ifweapplythis to threst
+
+3+2 = 5
+
+
+====================================================
+a radical expr nthroot(A) is fully simplified when
+-theres no nth power inside
+-no radicals in denominator
+====================================================
+
