@@ -2532,3 +2532,321 @@ let a = 2
 let b = fourthroot(2)
 
 a/a-b . a+b/a+b
+a(a+b)/a^2 - b^2
+
+subst back in, focus on denominator
+(2)^2 - fourthroot(2)^2
+4 - fourthroot(2)^2
+4 - 2^1/4.2
+4 - 2^2/4
+4 - 2^1/2
+4 - sqrt(2)
+
+lets go back
+2(2 + fourthroot(2)) / 4-sqrt(2)
+rationalize again. mult denum by 4+sqrt(2)
+
+2(2 + fourthroot(2)) / 4 - sqrt(2) . 4+sqrt(2)/4+sqrt(2)
+2(2 + fourthroot(2))(4+sqrt(2)) / 4^2 - sqrt(2)^2
+2(2 + fourthroot(2))(4+sqrt(2)) / 16 - 2
+2(2 + fourthroot(2))(4+sqrt(2)) / 14
+(2 + fourthroot(2))(4+sqrt(2)) / 7
+
+lets focus on the numerator
+(2 + fourthroot(2))(4+sqrt(2))
+(2.4)+(2.sqrt(2))+(4.fourthroot(2))+(fourthroot(2).sqrt(2))
+8+2sqrt(2)+4fourthroot(2)+fourthroot(2)sqrt(2)
+8+2sqrt(2)+4fourthroot(2)+2^1/4.2^1/2
+8+2sqrt(2)+4fourthroot(2)+2^1+2/4
+8+2sqrt(2)+4fourthroot(2)+2^3/4
+8+2sqrt(2)+4fourthroot(2)+fourthroot(2)^3
+
+so its
+8+2sqrt(2)+4fourthroot(2)+fourthroot(2)^3/ 7
+
+
+_
+
+11.47
+without using a calculator find the largest prime divisor of
+5^12 - 2 . 10^6 + 2^12
+answer:
+
+ok lets tackle this one by one
+maybe make the expo like equal first and see where it goes
+
+(5^2)^6 - 2.10^6 + (2^2)^6
+yaeh imnot sure here lets try power of 2
+
+(5^6)^2 - 2.(2.5)^6 + (2^6)^2
+(5^6)^2 - 2.2^6.5^6 + (2^6)^2
+
+ok let x = 5^6
+and let y = 2^6
+so then we have
+x^2 - 2.yx + y^2
+x^2 - 2xy + y^2
+
+and we know the factored form of this is
+(x-y)^2
+(x-y)(x-y)
+x^2-xy-xy+y^2
+x^2-2xy+y^2
+
+so lets factor it
+(5^6-2^6)^2
+(5^6-2^6)(5^6-2^6)
+((5^3)^2-(2^3)^2)((5^3)^2-(2^3)^2)
+so then we have a^2 - b^2 right
+
+((5^3)^2-(2^3)^2) lets say u = 5^3 and v = 2^3
+so we have
+(u^2 - v^2)
+which is another differnece of squares again
+(u - v)(u + v) -> subst back
+(5^3 - 2^3)(5^3 + 2^3)
+(125 - 8)(125 + 8)
+(117)(133)
+(3.3.13)(7.19)
+
+so the largest prime factor is 19
+
+_
+
+11.48
+two nonzeor real numbers a and b satisfy ab = a - b
+find all possible values of a/b + b/a - ab
+answer:
+
+ok so we know ab = a - b
+we wanna find all possible values of a/b + b/a - ab
+
+a/b + b/a - ab
+(a/b + b/a) - ab
+(a^2/ab + b^2/ab) - ab
+a^2/ab + b^2/ab - ab
+a^2 + b^2/ab - ab
+
+lets focus on the numberator
+(a^2 + b^2)
+(a-b)^2 = a^2-2ab+b^2
+we need to get to the form a^2 + b^2
+we need to add by +2ab
+so we can conclude
+(a^2+b^2) = (a-b)^2 + 2ab
+
+then subst back in
+((a-b)^2 + 2ab / ab) - ab
+subst ab = a - b
+((ab)^2 + 2ab / ab) - ab
+ab + 2 - ab
+2
+
+11.49
+a. the expr x^5 + y^5 can be written as the product of x + y
+and another factor. find that other factor
+
+b. the expression x^7 + y^7 can be written ad the product x+y
+and another factor. find that other factor.
+
+c. write x^2n+1 + y^2n+1 as the rpoduct of two factors
+
+d. why does the factorization in the previous part fail when
+the powers of x and y are even? in other words, why can we not
+factor x^4 + y^4 or x^6 + y^6 using the patterns we found in thefirst
+three parts?
+
+answer:
+a. ok so we know
+i think the difference of cube thing has like
+(x+y)(x^2-xy+y^2) if imnot mistaken somethinglikethis
+
+x^3 -> (x+y)(x^2-xy+y^2)
+the x decrease and the y expo increase eventualy
+x^5 -> (x+y)(x^4 - x^3y + x^2y^2 - xy^3 + y^4)
+
+b.
+x^7 ->
+(x+y)(x^6 - x^5y + x^4y^2 - x^3y^3 + x^2y^4 - xy^5 + y^6)
+
+c. ok lets say n = 1
+so its expo is 2n+1 = 2+1 =  3
+so we want (x^3+y^3)
+the factor is this from the previous step
+(x+y)(x^2-xy+y^2)
+the highest power hs x^2 so 3-1 = 4
+noe lets say n=2 so 2n+1 = 5
+(x+y)(x^4...) so its just 5-1 = 4
+
+so just subtract whatever power by 1
+so its just 2n+1 - 1 = 2n
+so in terms of the notation
+(x+y)(x^2n - x^2n-1y^1  + ... - x^1y^2n-1  + y^2n)
+
+d. 
+because odd power the last term is always positive
+and even terms the last term is always negative
+
+_
+
+11.50
+use tge figure onthe right to prove that (a+b+c)^2 =
+a^2 + b^2 + c^2 + 2ab + 2bc + 2ca
+
+answer:
+ok lets just divide this into three parts
+horizontally
+top area
+c.(a+b+c) -> ca + cb + c^2
+
+mid area
+b(a+b+c) -> ba + b^2 + bc
+
+bottom area
+a(a+b+c) -> a^2 + ab + ac 
+
+lets maybe sum this together
+
+ca + cb + c^2
+ba + b^2 + bc
+a^2 + ab + ac
+
+seperate the terms, quadratic terms
+a^2 + b^2 + c^2
+ca + cb + ba + bc + ab + ac ->> rearrange
+ca + ca + ba + ba + cb + cb
+2ac + 2ab + 2bc
+
+so now we have
+a^2 + b^2 + c^2 + 2ac + 2ab + 2bc
+
+_
+
+11.51
+how many different triples of numbers
+(a,b,c) satisfy the equation:
+
+a^2 + bc = b^2 + ac
+
+if a,b,c are integers from 1-5 inclusive?
+(the numbers a,b,c are not necessarily diferent)
+
+answer:
+maybe lets playaround with the equatino
+a^2 + bc = b^2 + ac
+a^2 - b^2 = ac - bc
+a^2 - b^2 = c(a - b)
+
+(a+b)(a-b) = c(a-b) ->> divide by a-b??
+what if a-b = 0 ??
+
+case: a = b
+whch means a-b = 0
+if a = b then the equation becomes 0 = 0 which is always
+true no matter what value c is
+
+if a is any of those 5 therefore b also follows right
+and c can be anyinteger
+so we can pick 5 . 5 = 25 combinations
+
+case: a does not equal 0
+which means a-b does not equal 0
+therefore we can just divide the expr by (a-b)
+(a+b) = c 
+1+2 = 3
+2+1 = 3
+
+2+3 = 5
+3+1 = 4
+4+1 = 5
+
+2 pairs + 2 pairs + 4 pairs
+...
+8 triples total i think
+
+
+total is 33
+
+_
+
+11.52
+a triangle is a right triangle if the sum of squares of its two
+smallest sides equals the square of its largest side
+if n is a posint must the triangle with sides
+
+6(10n^2), 1125(10^2n+1)-8, and 1125(10^2n+1)+8
+be a right triangle?
+
+answer:
+let me understand this first idont rememebr right triangles
+ok a triangle is a right triangle if the sum of square
+of its two smallest sides = square ofi ts largest side
+
+wait htis is basically pythagoras right
+a^2 + b^2 = c^2
+where c^2 is the hypotenuse side
+
+ok so we need ot find which is the largest side first here
+once we find it we can use the pythagoras thing i think
+
+6(10^n+2)
+1125(10^2n+1)-8
+1125(10^2n+1)+8
+
+lets try a small n first here
+n = 0
+6(10^2) = 6 . 100 = 600
+1125(10^1)-8
+11250-8
+11242
+
+1125(10^2n+1)+8
+1125(10)+8
+11258
+
+so here hte largest side is the 3rd right
+notsure if this is the right approach
+
+
+so here the largest side ic C: 1125(10^2n+1)+8
+
+a^2 = c^2 - b^2
+(6(10^n+2))^2 = (1125(10^2n+1)+8)^2 - (1125(10^2n+1)-8)^2
+let X = 1125(10^2n+1)
+
+(6(10^n+2))^2 = (X+8)^2 - (X-8)^2
+lets focus on the RHS
+(X+8)^2
+(X+8)(X+8)
+X^2+8x+8x+64
+X^2+16x+64
+
+(X-8)^2
+(X-8)(X-8)
+X^2-8x-8x+64
+X^2-16x+64
+
+so now we have
+(X^2+16x+64) - (X^2-16x+64) ->> distribute the negative
+(X^2+16x+64) + (-X^2+16x-64)
+X^2 + 16x + 64 - X^2 + 16x - 64
+the X^2 term is gone here and the 64
+which left us with only the x term?
+32X
+
+subst back X
+32(1125(10^2n+1))
+
+so now we have
+(6(10^n+2))^2 = (32)(1125)(10^2n+1)
+(6(10^n+2))^2 = (32)(1125)(10^2n+1)
+6^2 . (10^n+2)^2 = (32)(1125)(10^2n+1)
+36 . 10^2n+4 = 36000 . 10^2n+1
+10^2n+4 = 1000 . 10^2n+1
+10^2n+4 = 10^3 . 10^2n+1
+10^2n+4 = 10^2n+1+3
+10^2n+4 = 10^2n+4
+
+
+since a^2 = c^2-b^2 holds for all n,
+thereore its always true and indeed a right triangle
