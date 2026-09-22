@@ -966,6 +966,19 @@ so im gonna guess this is pattern repeats even for the 600th term?
 since its also even right i think its also i?
 im not sure
 
+update
+so its actually i^0 + i^1 + ...
+where i^0 = 1
+so the total terms is 601 which is odd
+and lets start simple
+sum from i^1 + .... + i^4 first 4 term is 
+i - 1 - i + 1
+which is 0
+so the first 600 terms can be divisble by 4 perfectly right
+it cancel each other? and only left with i^0??
+which is 1
+
+
 _
 
 12.16
@@ -1000,4 +1013,533 @@ a. (5-3i)(-4+3i)
 -20 + 27i + 9
 -11 + 27i
 
-b. 
+b. (-1+5i)(2+8i)(1+5i) ->> rearrange
+(-1+5i)(1+5i)(2+8i)
+lets do the first one
+(-1+5i)(1+5i)
+-1 + -5i  +5i + 25i^2
+-1 +  25i^2
+-1 +  25(-1)
+-1 - 25
+-26
+
+lets continue
+-26(2+8i)
+-26(2)(1+4i)
+-52(1+4i)
+-52 - 208i
+
+_
+
+12.18
+if a is real and the product of (a+6i)(5-3i) is a real number
+then find a
+
+answer:
+ok so we know a is real and the product of those two is also real
+whichmeans itslike conjugate right so lets try to like calculate this
+
+(a+6i)(5-3i)
+5a - 3ai + 30i - 18i^2
+5a - 3ai + 30i - 18(-1)
+5a - 3ai + 30i - -18
+5a - 3ai + 30i + 18
+
+so the imaginary part is
+-3ai + 30i
+
+and the real part is
+5a + 18
+
+for the imaginary they gotta cancel each other right
+so it must be 0
+-3ai + 30i = 0 -> divide by i
+-3a + 30 = 0
+-3a = -30
+a = 10
+so a must be 10 right to make the imaginary part cancel
+
+_
+
+12.19
+express eahc of the following as aco mplex number
+a. 6-i / 4+2i
+b. 11-13i / 13-11i
+
+a. lets mult the denominaor by the conjugate 4 - 2i
+6-i / 4+2i . (4-2i)/(4-2i)
+(6-i) (4-2i) / (4+2i) . (4-2i)
+
+so the dneominator becomes
+a^2 - b^2 
+where a = 4 and b = 2i
+(4)^2 - (2i)^2
+16 - 2^2i^2
+16 - 4i^2
+16 - 4(-1)
+16 - -4
+16 + 4
+20
+
+and the numerator becomes
+(6-i) (4-2i)
+24 - 12i -4i + 2i^2
+24 - 16i + 2i^2
+24 - 16i + 2(-1)
+24 - 16i - 2
+22 - 16i
+
+so we have
+22 - 16i / 20
+22/20 - 16i / 20
+11/10 - 4i/5
+
+b. 11-13i / 13-11i
+mult the deniminator by the conjugate 13 + 11i
+
+11-13i / 13-11i . (13 + 11i)/(13 + 11i)
+(11-13i)(13 + 11i) / (13-11i) (13 + 11i)
+
+so the denominator
+a^2 - b^2
+where a = 13 and b = 11i
+(13)^2 - (11i)^2
+169 - 11^2i^2
+169 - 121i^2
+169 - 121(-1)
+169 - -121
+169 + 121
+290
+
+and the numerator
+(11-13i)(13 + 11i)
+(11.13)+(11 . 11i)+(-13i . 13)+(-13i . 11i)
+143 + 121i - 169i - 143i^2
+143 + 121i - 169i - 143(-1)
+143 + 121i - 169i + 143
+286 - 48i
+
+cmobine both
+286 - 48i / 290
+2(143-24i)/290
+(143-24i)/145
+143/145 - 24i/145
+
+
+
+_
+
+12.20
+the number 13+i can be factored into the productof 1+2i
+and what other complex numebr?
+
+answer:
+ok so we have a complex number 13 + i
+
+it says it can be factored into product of (1 + 2i) and what??
+since its complex number we dont wanna pair it with conjugates right
+so we need to mult by a real numebr?? not sure letstry it
+
+lets say the other complex number is a + bi
+(1+2i)(a+bi) = (13+i)
+a + bi + 2ai + 2bi^2
+a + bi + 2ai + 2b(-1)
+a + bi + 2ai -2b
+a -2b + bi + 2ai ->> lets maybe try to sperate the real and imaginary part 
+
+real -> a - 2b
+imaginary -> bi + 2ai -> (b+2a)i
+
+lets match this with the example
+(a-2b) = 13
+a-2b = 13
+a = 13 + 2b
+
+(2a+b)i = i ->> divide both sides by i
+2a+b = 1
+subst a
+2(13+2b)+b = 1
+26+4b+b=1
+26+5b = 1
+5b = 1-26
+5b = -25
+b = -5
+
+a = 13 + 2(-5)
+a = 13 - 10
+a = 3
+
+so it needs to be mult by a + bi
+3 - 5i
+
+
+
+_
+
+12.21
+simplify (i-i^-1)^-1
+answer:
+
+lets do this one by one, unwrap outermost expo
+1/i-i^-1
+
+focus on the denominator
+i-i^-1
+i - 1/i
+
+yeah wait hold on lets try another simpler approach
+just mult the expo inside
+
+(i-i^-1)^-1
+1/(i-i^-1)
+lets focus on the denominaotr
+(i - i^-1)
+i - 1/i
+yeah this is actually the same thing lets just evaluate
+
+i - 1/i ->> mult by i/i
+i^2/i - 1/i
+(i^2 - 1) / i
+(-1 - 1) / i
+-2 / i
+
+so we have
+1 / (-2/i)
+1 : -2/i
+1 . -i/2
+-i/2
+
+
+_
+
+12.22 find all x such that x^5 = -x^3
+answer:
+
+ok so we have x^5 = -x^3
+we need to find x
+hmm not sure where to start here
+
+x^5 + x^3 = 0
+x^3(x^2 + 1) = 0
+
+x^3 = 0
+x^2 + 1 = 0
+
+x = cuberoot(0)
+x = 0 right
+
+x^2 = -1
+x^2 = i^2
+take srt?
+x = i
+x = -i
+
+
+_
+
+12.23
+let a = (2+i)^2/3+i
+find 1 + 1/a
+
+answer:
+ok lets try to get rid of the denominator first
+
+lets mult by the conjugate 3-i
+(2+i)^2/3+i . (3-i)/3-i
+(2+i)^2 (3-i) / (3+i)(3-i)
+
+lets focus on denom
+a = 3 b = i
+a^2 - b^2
+(3)^2 - (i)^2
+9 - (-1)
+10
+
+now the numerator
+(2+i)^2 (3-i)
+lets try to expand the left expo first maybe
+(2+i)(2+i)
+4 + 2i + 2i + i^2
+4 + 4i -1
+3 + 4i
+
+so now its just 
+(3 + 4i)(3 - i)
+9 - 3i + 12i - 4i^2
+9 + 9i - 4i^2
+9 + 9i - 4(-1)
+9 + 9i - -4
+9 + 9i + 4
+13 + 9i
+
+lets combine
+13 + 9i / 10
+so a = 13 + 9i / 10
+
+lets put this back in the orginal euqation
+1 + 1/a
+1 + 1 / (13 + 9i / 10)
+1 + 10 / 13 + 9i
+
+lets ratioanlzie again
+10 / 13 + 9i . (13 - 9i)/(13 - 9i)
+10(13-9i) / (13+9i)(13-9i)
+lets focus on denominator
+a = 13, b = 9i
+(13)^2 - (9i)^2
+169 - 9^2i^2
+169 - 81(-1)
+169 - -81
+169 + 81
+250
+
+now on the numerator
+10(13-9i)
+130 - 90i
+
+so now we have
+130 - 90i / 250
+130/250 - 90i/250
+13/25 - 9i/25
+
+combine again 
+1 + 13/25 - 9i/25 -> seperate real and imaginary
+38/25 - 9i/25
+
+
+; ===================================
+CHALLENGE PROBLEMS
+12.24
+if x = 1 - isqrt(3) / 2 then what complex number is equal to
+1 / (x^2 - x) ?
+answer:
+
+ok so we know x which is a complex number in the form
+1/2 - isqrt(3)/2
+
+we wanna know what ocmplex number is equal to
+1/(x^2-x)
+
+lets say the complex number is a + bi
+so then we have
+a + bi = 1/(x^2-x)
+
+lets focus on the denominaotr
+(x^2-x)
+x(x-1)
+
+now maybe subst x
+1/2 - isqrt(3)/2 . ((1/2 - isqrt(3)/2) - 1)
+lets focus on the 2nd part
+(1-isqrt(3)/2 - 1)
+1-isqrt(3)/2 - 2/2
+1 - isqrt(3) - 2 /2
+-1 -isqrt(3)/2
+
+go back we have
+1 - isqrt(3)/2 . -1 -isqrt(3)/2
+
+numerator
+(1-isqrt(3)) (-1-isqrt(3))
+lets do this carefully
+(1 . -1) + (1 . -isqrt(3)) + (-isqrt(3) . -1) + (-isqrt(3) . -isqrt(3) )
+-1 - isqrt(3) + isqrt(3) + i^2.3
+the isqrt(3) cancel each other
+so now its just -1 + i^2.3
+-1 + 3i^2
+-1 + 3(-1)
+-1 -3
+-4
+
+denominator
+2.2=4
+
+so we have
+-4/4
+-1
+
+go back we have
+1/x^2 - x ->> subst
+1/-1
+-1
+
+_
+
+12.25
+write sqrt(-16 + 30i) as a complex number
+answer:
+
+sqrt(-16 + 30i)
+sqrt((-1)(4)^2 + 30i)
+sqrt((-1)16 + 30i)
+4 sqrt((-1) + 30i)
+4 sqrt(i^2 + 30i)
+4i sqrt(30i)
+
+wait actually lets just square this maybe?
+not sure if tis allowed
+sqrt(-16 + 30i)^2
+
+so let the ocmples number be a + bi
+
+sqrt(-16 + 30i) = a + bi
+(sqrt(-16 + 30i))^2 = (a + bi)^2
+-16 + 30i = (a + bi)^2
+
+(a+bi)(a+bi)
+a^2 + abi + abi + bi^2
+a^2 + 2abi + bi^2
+a^2 + 2abi + b^2i^2
+a^2 + 2abi - b^2
+
+so the real part is a^2 - b^2
+and the imaginar part is 2abi
+
+lets go back
+a^2 - b^2 = -16
+
+30i = 2abi ->> divide by i
+30 = 2ab
+15 = ab
+a = 15/b
+
+lets subst
+(15/b)^2 - b^2 = -16
+225/b^2 - b^2 = -16 ->> mult by b^2
+225 - b^2(b^2) = -16(b^2)
+225 - b^4 = -16b^2
+225 - b^4 + 16b^2 = 0
+lets rearrange
+-b^4 + 16b^2 + 225 = 0 ->> mult by -1
+b^4 - 16b^2 - 225 = 0
+
+let u = b^2, then we have
+u^2 - 16u - 225 = 0
+sum = -16
+mult = -225
+9 . 25
+9 . -25
+
+so its
+(u+9)(u-25)
+subst back
+(b^2 + 9)(b^2 - 25) = 0
+
+b^2 = -9
+b^2 = (-1)9
+b^2 = 9i^2
+take sqrt
+b = sqrt(9i^2)
+b = 3i and b = -3i
+
+b^2 = 25
+b^2 = 25
+b = 5 and -5
+
+so the real number is 5 nd -5 right
+
+since we know a = 15/b
+a = 15/5
+a = 15/-5
+a = 3
+a = -3
+
+so we have sqrt(-16 + 30i) = a + bi
+b=5 -> a = 3
+b=-5 -> a = -3
+
+a + bi
+3 + 5i
+-3 - 5i
+
+_
+
+12.26
+let w and z be complex numbers
+show that conjugate (w + z) = conjugate(w) + conjugate(z)
+and conjugate(w . z) = conjugate(w) . conjugate(z)
+
+answer:
+ok lets start with first one
+we know w and z are complex numbers
+
+w = a + bi
+z = c + di
+
+and conjugate just flip the sign for the imaginary part right
+
+so LHS
+conjugate(w + z)
+conjugate((a + bi) + (c + di))
+conjugate(a + c + bi + di)
+conjugate((a+c) + (b+d)i)
+so real part = a + c
+imaginary part = (b+d)i here
+lets take the conjugate
+(a+c)-(b+d)i
+
+
+RHS
+conjugate(w) = a - bi
+conjugate(z) = c - di
+
+lets sum them
+(a - bi) + (c - di)
+a - bi + c - di
+a + c - bi - di
+lets factor the imaginary part by -1
+-bi/-i = b
+-di/-i = d
+
+so we have
+(a+c)-i(b+d)
+(a+c)-(b+d)i
+
+therefore its equal
+
+now lets tackle the second one
+conjugate(w . z) = conjugate(w) . conjugate(z)
+w = a + bi
+z = c + di
+
+LHS
+conjugate(w . z)
+conjugate((a + bi) (c + di)) ->> lets focus on the inside expr
+(a+bi)(c+di)
+(ac)+(adi)+(cbi)+(bdi^2)
+ac + adi + cbi + bdi^2
+ac + adi + cbi + bd(-1)
+ac + (ad+bc)i - bd
+(ac - bd) + (ad+bc)i
+so lets take the conjugate
+(ac - bd) - (ad+bc)i
+
+
+RHS
+conjugate(w) . conjugate(z)
+(a-bi)(c-di)
+(ac)+(-adi)+(-cbi)+(bdi^2)
+ac - adi - cbi + bdi^2
+ac - adi - cbi + bd(-1)
+ac - adi - cbi - bd
+ac - bd - adi - cbi
+lets factor the imaginary part by -i
+-adi / -i = ad
+-cbi / -i = cb
+
+so we have
+ac - bd + -i(ad+cb)
+ac - bd + -(ad+bc)i
+
+therefore both parts are equal
+
+
+_
+
+12.27
+a. show that (-1/2 + sqrt(3)i/2)^3 = 1
+
+b. why does part a tell us that (-1/2 - sqrt(3)i/2)^3 = 1 also?
+
+answer:
+
