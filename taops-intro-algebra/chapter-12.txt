@@ -1538,8 +1538,53 @@ _
 
 12.27
 a. show that (-1/2 + sqrt(3)i/2)^3 = 1
-
 b. why does part a tell us that (-1/2 - sqrt(3)i/2)^3 = 1 also?
 
 answer:
+
+a. ok imnot sure how to start here
+maybe lets just take the cuberoot?
+or if we do
+(a-b)^3 = (a-b)(a-b)(a-b)
+manually right
+
+lets just try to expand
+(-1/2 + sqrt(3)i/2)(-1/2 + sqrt(3)i/2)(-1/2 + sqrt(3)i/2)
+
+first 2
+(-1/2 + sqrt(3)i/2)(-1/2 + sqrt(3)i/2)
+(-1/2 . -1/2)+(-1/2 . sqrt(3)i/2)+(sqrt(3)i/2 . -1/2)+(sqrt(3)i/2 . sqrt(3)i/2)
+(1/4)+(-sqrt(3)i/4)+(-sqrt(3)i/4)+(sqrt(3)^2i^2/4)
+1/4 - 2sqrt(3)i/4 + 3i^2/4
+1/4 - 2sqrt(3)i/4 + 3(-1)/4
+1/4 - 2sqrt(3)i/4 - 3/4
+-2/4 - 2sqrt(3)i/4
+-1/2 - sqrt(3)i/2
+
+then we mult again right
+(-1/2 - sqrt(3)i/2)(-1/2 + sqrt(3)i/2)
+hey wait why is that the same result
+actually lets just do the expansion
+
+(-1/2 - sqrt(3)i/2)(-1/2 + sqrt(3)i/2)
+(-1/2 . -1/2)+(-1/2 . sqrt(3)i/2)+(-sqrt(3)i/2 . -1/2)+(-sqrt(3)i/2 . sqrt(3)i/2)
+(1/4)+(-sqrt(3)i/4)+(sqrt(3)i/4)+(-sqrt(3)^2i^2/2^2)
+(1/4)+(-3i^2/4)
+(1/4)+(-3(-1)/4)
+(1/4)+(3/4)
+1/4+3/4
+1
+
+b. cos when we mult the first 2 part the sign flips and become conjugates riht? and at the last
+step its beig multiplied with the last part cancel each other
+
+w^2 =  conjugate of w
+
+so (conjugate of w)^3 = 1
+(w^2)^3 = 1
+w^6 = 1
+(w^3)^2 = 1
+1^2 = 1
+1 = 1
+
 
