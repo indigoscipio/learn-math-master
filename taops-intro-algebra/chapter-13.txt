@@ -411,17 +411,455 @@ so we have
 b. 
 25x^2 + cx + 81
 (x+a)^2 = x^2 + 2ax + a^2
+(kx+a)^2 = k^2x^2 + 2kax + a^2
+
+k^2 = 25
+k = 5
 
 a^2 = 81
 a = 9
 
-cx = 2ax
-c = 2a
-c = 81
+(5x+9)(5x+9)
 
+c = 2ka
+c = 2.5.9
+c = 90
 
+or maybe we can just divide by 25 first
+x^2 + cx/25 + 81/25
+(x+a)^2 = x^2 + 2ax + a^2
+
+cx/25 = 2ax
+c/25 = 2a
+c = 50a
+
+a^2 = 81/25
+a = sqrt(9^2/5^2)
+a = 9/5
+
+c = 50 . 9/5
+c = 90
 
 _
 
 13.1.6
 find all solutinos to the equation 3r^2 + 6r - 7 = 0
+answer:
+
+ok so we wanna find all solutions to
+
+3r^2 + 6r - 7
+lets divide by 3
+r^2 + 2r - 7/3
+
+(r+a)^2 = r^2 + 2ra + a^2
+r^2 + 2r - 7/3
+
+2ra = 2r
+2a = 2
+a = 1
+
+a^2 = 1
+so the square form is
+(r+1)(r+1) = (r^2 + 2r + 1)
+
+3/3 + x = -7/3
+3/3 + 7/3 = -x
+x = -10/3
+
+so we just need to add -10/3
+(r+1)(r+1) - 10/3 = 0
+(r+1)(r+1) = 10/3
+(r+1)^2 = 10/3
+
+take sqrt
+r+1 = sqrt(10/3)
+r = sqrt(10/3) - 1 and r = -sqrt(10/3) - 1
+
+
+; ===========================================
+
+13.2 completing the square
+
+problem
+13.5 in this problem we solve the quadratic equation
+x^2 + 8x = 14
+a. what value of c makes the quadratic x^2 + 8x + c
+the perfect square of a binomial?
+b. use your answer to part b to write the equation
+x^2 + 8x = 14 in the form (x+a)^2 = b for some
+constants a and b
+c. find all values of x that satisfy the equation.
+
+
+a. 4 and 16 i think
+linear term should be (x+4)(x+4) constant should be 16
+(x+a)^2 = x^2 + 2ax + a^2
+x^2 + 8x + c
+
+2ax = 8x
+2a = 8
+a = 4
+a^2 = 16
+
+so its (x+4)(x+4) or (x+4)^2
+
+b. pl sp we want to write x^2 + 8x = 14
+inthe form of (x+a)^2 = b
+where a and b are constants
+
+x^2 + 8x = 14
+we know (x+4)^2 = x^2 + 8x + 16
+(x+4)^2 - 16 = 14
+therfore
+(x+4)^2 = 14 + 16
+(x+4)^2 = 30
+not sure
+
+c. 
+(x+4)^2 = 30
+x+4 = sqrt(30)
+x = sqrt(30) - 4
+and x = -sqrt(30) - 4
+
+_
+
+13.6
+in this problem we complete the square to solve the equation
+3x^2 + 12x + 1 = 0
+a. in all our previous examples of completing the square
+the coefficient of the quadratic term is 1
+manipulate the given equation to create a quadratic such that the coefficient
+of x^2 is 1
+b. complete the squarei n the equation resulting from part a 
+to find all values of x that satisfy the equation
+
+answer:
+ok so we wanna solve
+3x^2 + 12x + 1 = 0
+a. lets divide by 3
+x^2 + 4x + 1/3 = 0
+
+b. (x+a)^2 = x^2 + 2ax + a^2
+2ax = 4x
+2a = 4
+a = 2
+
+a^2 = 4
+
+so the perfect square form is
+(x+2)(x+2)
+(x+2)^2 = x^2 + 4x + 4
+
+4 + x = 1/3
+x = 1/3 - 4
+x = 1-12/3
+x = -11/3
+
+so we have
+(x+2)^2 - 11/3 = 0
+(x+2)^2 = 11/3 ->> take sqrt
+x+2 = sqrt(11/3)
+x = sqrt(11/3) - 2 and 
+x = -sqrt(11/3) - 2
+
+_
+
+13.7
+solve each of the following equations by completing the square
+a. x^2 + 2x + 13 = 0
+b. 12r^2 = 11r + 36
+c. 14y^2 - 20y + 7 = 15y
+d. 5x^2 + 3x + 9 = 0
+
+answer:
+ok lets do this one by one
+a. x^2 + 2x + 13 = 0
+2ax = 2x
+2a = 2
+a = 1
+
+so the square form is
+(x+1)^2 = x^2 + 2x + 1
+(x+1)^2 + 12 = 0
+(x+1)^2 = -12
+x+1 = sqrt(-12)
+x+1 = sqrt(12(-1))
+x+1 = sqrt(4.3i^2)
+x+1 = 2sqrt(3) . i
+x = 2sqrt(3) . i - 1 and
+x = -2sqrt(3) . i - 1
+
+b. 12r^2 = 11r + 36 
+lets rearrange
+12r^2 - 11r - 36 = 0 ->> divide by 12
+r^2 - 11r/12 - 3 = 0
+
+(r+a)^2 = r^2 + 2ar + a^2
+2ar = 11r/12
+2a = 11/12
+a = 11/12.2
+a = 11/24
+
+therefore a^2 =
+121/576
+
+so the perfect square form is
+(r+11/24)^2 = r^2 + 11r/12 + 121/576
+but then the sign in the linear and constant here is different
+so its (r-11/24)^2 = r^2 - 11r/12 + 121/576
+
+r^2 - 11r/12 = 3 ->> add constant 121/576 to both sides
+r^2 - 11r/12 + 121/576 = 3 + 121/576
+(r-11/24)^2 = 3 + 121/576 ->> take sqrt
+r-11/24 = sqrt(3 + 121/576)
+r-11/24 = sqrt(1728/576 + 121/576)
+r-11/24 = sqrt(1728/576)
+r-11/24 = sqrt(43^2/24^2)
+
+so we have
+r-11/24 = +43/24
+r = 43/24 + 11/24
+r = 54/24
+r = 9/4
+
+r-11/24 = -43/24
+r = -43/24 + 11/24
+r = -32/24
+r = -32/24
+r = -4/3
+
+c. 14y^2 - 20y + 7 = 15y
+lets rearrange
+14y^2 - 20y + 7 - 15y = 0
+14y^2 - 35y + 7 = 0 ->> divide by 14
+wait actually can we factor this out?
+7(2y^2 - 5y + 1) = 0
+yeah lets just divide by 14
+
+y^2 - 35y/14 + 7/14 = 0
+y^2 - 5y/2 + 1/2 = 0
+
+(y+a)^2 = y^2 + 2ya + a^2
+2ya = 5y/2
+2a = 5/2
+a = 5/4
+
+therefoer a^2 = 25/16
+
+so the square form for this is (y+5/4)^2 = y^2 + 5y/2 + 25/16
+flip the linear sign
+(y-5/4)^2 = y^2 - 5y/2 + 25/16
+
+y^2 - 5y/2 + 1/2 = 0
+y^2 - 5y/2 = -1/2 ->> add 25/16 to both sides
+y^2 - 5y/2 + 25/16 = -1/2 + 25/16
+(y - 5/4)^2 = -1/2 + 25/16
+(y - 5/4)^2 = -8/16 + 25/16
+(y - 5/4)^2 = 17/16 ->> take sqrt
+
+so then we have
+y - 5/4 = sqrt(17/16)
+y = sqrt(17/16) + 5/4
+y = 1/4sqrt(17) + 5/4
+
+y - 5/4 = -sqrt(17/16)
+y = -sqrt(17/16) + 5/4
+y = -sqrt(17/4^2) + 5/4
+y = -1/4sqrt(17) + 5/4
+
+_
+
+d. 5x^2 + 3x + 9 = 0
+yeah letsjust divide by 5
+x^2 + 3x/5 + 9/5 = 0
+(x+a)^2 = x^2 + 2ax + a^2
+
+2ax = 3x/5
+2a = 3/5
+a = 3/10
+
+therefore a^2 = 9/100
+so the square form is (x+3/10)^2 = x^2 + 3x/5 + 9/100
+
+
+x^2 + 3x/5 + 9/5 = 0
+x^2 + 3x/5 = -9/5 ->> add 9/100 to both sides
+x^2 + 3x/5 + 9/100 = -9/5 + 9/100
+(x+3/10)^2 = -9/5 + 9/100
+(x+3/10)^2 = -171/100
+
+take the sqrt
+x+3/10 = sqrt(-171/100)
+x+3/10 = sqrt(9.19(-1)/10.10)
+x+3/10 = sqrt(3^2.19(-1)/10^2)
+x+3/10 = 3sqrt(19)i/10
+x = 3sqrt(19)i/10 - 3/10
+
+x+3/10 = -sqrt(-171/100)
+x + 3/10 = (-1) sqrt(9.19.-1/10.10)
+x + 3/10 = (-1) 3/10 . sqrt(19i^2)
+x + 3/10 = -3sqrt(19)i/10
+x = -3sqrt(19)i/10 - 3/10
+
+
+; =====================================
+EXERCISES
+13.2.1
+solve each of the following equations by completing the suare
+for any equations you can solve by facotring use factoring
+to check the answers yo ufind when completing the square
+a. x^2 - 2x - 15 = 0
+b. x^2 + x + 1 = 0
+c. 12r^2 - 36r - 144 = 0
+d. 3x^2 + 7x - 20 = 0
+e. 4x^2 + 12x + 9 = 0
+f. 6x^2 - 3x + 1 = 0
+
+answer:
+a. x^2 - 2x - 15 = 0
+(x+a)^2 = x^2 + 2ax + a^2
+2ax =2x
+2a = 2
+a = 1
+a^2 = 1
+
+so the square form is (x-a)^2 since the sign is negative
+x^2 - 2x = 15 ->> add 1 to both sides
+x^2 - 2x + 1 = 15 + 1 ->> add 1 to both sides
+x^2 - 2x + 1 = 16
+(x-1)^2 = 16 -> take sqrt
+x-1 = sqrt(16)
+x-1 = 4
+x = 5
+x-1 = -sqrt(16)
+x = -5
+
+
+b. x^2 + x + 1 = 0
+(1/2)^2 = 1/4
+(x+a)^2 = x^2 + 2ax + a^2
+2ax = x
+2a = 1
+a = 1/2
+a^2 = 1/4
+
+so the square form is (x+1/2)^2 = x^2 + x + 1/4
+x^2 + x + 1 = 0
+x^2 + x = -1 ->> add 1/4 to both sides
+x^2 + x + 1/4 = -1 + 1/4
+x^2 + x + 1/4 = 3/4
+(x+1/2)^2 = 3/4
+take sqrt
+x+1/2 = sqrt(3/4)
+x+1/2 = 1/2sqrt(3)
+x = 1/2sqrt(3) - 1/2
+
+x+1/2 = -sqrt(3/4)
+x+1/2 = -1/2sqrt(3)
+x = -1/2sqrt(3) - 1/2
+
+c. 12r^2 - 36r - 144 = 0
+lets divide by 12
+r^2 - 3r - 12 = 0
+a = (-3/2)
+a^2 = (-3/2)^2 = 9/4
+
+so the square form is
+(r-3/2)^2 = r^2 - 3r + 9/4
+r^2 - 3r - 12 = 0
+r^2 - 3r = 12 ->> add both sides 9/4
+r^2 - 3r + 9/4 = 12 + 9/4
+(r - 3/2)^2 = 57/4 ->> take sqrt
+r - 3/2 = sqrt(57/4)
+r - 3/2 = 1/2sqrt(57)
+r = 1/2sqrt(57) + 3/2
+
+and
+r - 3/2 = -sqrt(57/4)
+r - 3/2 = -1/2sqrt(57)
+r = -1/2sqrt(57) + 3/2
+
+
+d. 3x^2 + 7x - 20 = 0
+lets just divide by 3
+x^2 + 7x/3 - 20/3 = 0
+
+(x+a)^2 = x^2 + 2ax + a^2
+2ax = 7x/3
+2a = 7/3
+a = 7/6
+
+a^2 = 49/36
+so the square form is x^2 + 7x/3 + 7/6
+
+x^2 + 7x/3 - 20/3 = 0
+x^2 + 7x/3 = 20/3 ->> add 7/6
+x^2 + 7x/3 + 7/6 = 20/3 + 7/6
+(x+7/6)^2 = 47/6 ->> take sqrt
+x+7/6 = sqrt(47/6)
+x = sqrt(47/6) - 7/6
+
+and
+x = -sqrt(47/6) - 7/6
+
+e. 4x^2 + 12x + 9 = 0
+ltes divide by 4
+x^2 + 3x + 9/4 = 0
+
+a = 3/2
+a^2 = (3/2)^2 = 9/4
+
+so the square form is (x + 3/2)^2 = x^2 + 3x + 9/4
+wai this is alrady a perfect square form?? lets just subst then
+x^2 + 3x + 9/4 = 0
+(x+3/2)^2 = 0 ->> take sqsrt
+x+3/2 = sqrt(0)
+x = -3/2 so theres only 1 solution here right?
+
+f. 6x^2 - 3x + 1 = 0
+lets divide by 6
+x^2 - 1x/2 + 1/6 = 0
+
+(x-a)^2 = x^2 - 2ax + a^2
+2ax = 1x/2
+2a = 1/2
+a = 1/4
+
+therefore a^2 = 1/16
+so the square form is (x-1/4)^2 = x^2 - 1x/2 + 1/16
+x^2 - 1x/2 + 1/6 = 0
+x^2 - 1x/2 = -1/6 ->> add 1/16
+x^2 - 1x/2 + 1/16 = -1/6 + 1/16
+(x-1/4)^2 = -5/48 ->> take the sqrt
+x-1/4 = sqrt(-5/48)
+x-1/4 = sqrt(-5/16.3)
+x-1/4 = 1/4sqrt(-5/3)
+x-1/4 = 1/4sqrt(5/3 . -1)
+x-1/4 = 1/4sqrt(5/3 . i^2)
+x-1/4 = 1/4sqrt(5/3)i
+x = sqrt(5/3)i/4 + 1/4
+
+and
+x-1/4 = -sqrt(-5/48)
+x-1/4 = -sqrt(-5/16.3)
+x-1/4 = -1/4sqrt(-5/3)
+x-1/4 = -1/4sqrt(5/3 . -1)
+x-1/4 = -1/4sqrt(5/3 . i^2)
+x-1/4 = -1/4sqrt(5/3)i
+x-1/4 = -sqrt(5/3)i/4
+x = -sqrt(5/3)i/4 + 1/4
+
+
+_
+
+13.2.2
+a. if x is a real number whats the smallest possible value
+of x^2 + 8?
+b. if x is a real number what is the smallest possible value of
+x^2 + 10x - 7?
+
+answer:
+a. ok so x is a realnumber
+we wanna ind smallest possible value of x^2 + 8
+
