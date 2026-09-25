@@ -733,7 +733,9 @@ x-1 = sqrt(16)
 x-1 = 4
 x = 5
 x-1 = -sqrt(16)
-x = -5
+x-1= -4
+x = -4 + 1
+x = -3
 
 
 b. x^2 + x + 1 = 0
@@ -748,16 +750,23 @@ so the square form is (x+1/2)^2 = x^2 + x + 1/4
 x^2 + x + 1 = 0
 x^2 + x = -1 ->> add 1/4 to both sides
 x^2 + x + 1/4 = -1 + 1/4
-x^2 + x + 1/4 = 3/4
-(x+1/2)^2 = 3/4
+x^2 + x + 1/4 = -3/4
+(x+1/2)^2 = -3/4
 take sqrt
-x+1/2 = sqrt(3/4)
-x+1/2 = 1/2sqrt(3)
-x = 1/2sqrt(3) - 1/2
+x+1/2 = sqrt(-3/4)
+x+1/2 = sqrt(3/4 . (-1))
+x+1/2 = sqrt(3/4 . i^2)
+x+1/2 = 1/2 . sqrt(3) . i
+x+1/2 = sqrt(3)i/2
+x = sqrt(3)i/2 - 1/2
 
-x+1/2 = -sqrt(3/4)
-x+1/2 = -1/2sqrt(3)
-x = -1/2sqrt(3) - 1/2
+and
+x+1/2 = -sqrt(-3/4)
+x+1/2 = -sqrt(3/4 . (-1))
+x+1/2 = -sqrt(3/4 . i^2)
+x+1/2 = -1/2sqrt(3)i
+x+1/2 = -sqrt(3)i/2
+x = -sqrt(3)i/2 - 1/2
 
 c. 12r^2 - 36r - 144 = 0
 lets divide by 12
@@ -791,17 +800,25 @@ x^2 + 7x/3 - 20/3 = 0
 a = 7/6
 
 a^2 = 49/36
-so the square form is x^2 + 7x/3 + 7/6
+so the square form is (x+7/6)^2 = x^2 + 7x/3 + 49/36
 
 x^2 + 7x/3 - 20/3 = 0
-x^2 + 7x/3 = 20/3 ->> add 7/6
-x^2 + 7x/3 + 7/6 = 20/3 + 7/6
-(x+7/6)^2 = 47/6 ->> take sqrt
-x+7/6 = sqrt(47/6)
-x = sqrt(47/6) - 7/6
+x^2 + 7x/3 = 20/3 ->> add 49/36
+x^2 + 7x/3 + 49/36 = 20/3 + 49/36
+(x+7/6)^2 = 240+49/36
+(x+7/6)^2 = 289/36 ->> take sqrt
+x + 7/6 = sqrt(289/36)
+x + 7/6 = 17/6
+x = 17/6 - 7/6
+x = 10/6
+x = 5/3
 
 and
-x = -sqrt(47/6) - 7/6
+x + 7/6 = -sqrt(289/36)
+x + 7/6 = -17/6
+x = -17/6 - 7/6
+x = -24/6
+x = -4
 
 e. 4x^2 + 12x + 9 = 0
 ltes divide by 4
@@ -863,3 +880,322 @@ answer:
 a. ok so x is a realnumber
 we wanna ind smallest possible value of x^2 + 8
 
+maybe lets try to refactor hits
+x^2 + (4 . 2)
+x^2 + (2^2 . 2)
+
+or do x^2 + 8 = 0 then
+x^2 = -8?? notsure
+
+but then x must be a real number
+if i square any real number
+wheter its negative or positive
+the result is awlsy positive for all real numbers right
+
+lets try this
+-10^2 = 100
+-1^2 = 1
+0^2 = 0
+1^2 = 1
+10^2 = 100
+
+so the smallest here is 0
+so x^2 + 8 = 0 + 8 = 8
+
+b. lets try completing the square
+(x^2 + 10x - 7)
+(x+a)^2 = x^2 + 2ax + a^2
+
+2ax = 10x
+2a = 10
+a = 5
+
+a^2 = 25
+so the square form is (x+5)^2 = x^2 + 10x + 25
+
+x^2 + 10x - 7 = 0
+x^2 + 10x = 7 ->> add 25
+x^2 + 10x + 25 = 32 ->> add 25
+(x+5)^2 = 32 ->> add 25
+(x+5)^2 - 32 ->> add 25
+
+smallest value real number
+(x+5)^2 >= 0
+
+0 - 32
+-32
+
+
+; ============================================
+
+13.3 THE QUADRATIC FORMULA
+13.8
+consider the quadratic equation ax^2 + bx + c = 0
+with a does not equal 0. in this problem we develop the
+quadratic formula which is a formula for the roots of this equation
+in terms of a,b, and c
+a. make the leading coefficient of the qadtatic equal to 1
+by dividing the quadratic by a.
+b. what ocnstant in terms of a and b must  we add to x^2 + b/ax
+to make the quadratic that is the square of a binomial?
+c. finish completing the square then solve for x to find a formula
+for x in terms of a,b, c
+d. test ur formula by finding the solutions of x^2 - 5x + 6 = 0
+by using your formula and by factoring the quadratic
+e. test ur fomrula by finding the solutions of 5x^2 + 3x +  9 = 0
+using your formula and by completing the square
+
+answer:
+a. ax^2 + bx + c = 0 ->> divide by a
+x^2 + bx/a + c/a = 0
+
+b. lets see, so lets focus on
+x^2 + bx/a + c/a = 0
+(x+k)^2 = x^2 + 2kx + k^2
+
+2kx = bx/a ->> divide by x
+2k = b/a ->>mult by a
+k = b/2a
+
+therefore k^2 is (b/2a)^2 = b^2/4a^2
+
+c. so then we have the square form
+(x+k)^2 = x^2 = 2kx + k^2
+
+x^2 + bx/a + c/a = 0
+x^2 + bx/a = -c/a ->> add ( b^2/4a^2) to both sides
+x^2 + bx/a + b^2/4a^2 = -c/a + b^2/4a^2
+since wek now bx/a = 2kx then this complets the square
+(x+k)^2 = -c/a + b^2/4a^2
+(x+k)^2 = b^2/4a^2 - c/a ->> take the sqrt
+x+k = sqrt(b^2/4a^2 - c/a)
+lets focus on the parenthesis, normalize denominator to 4a^2
+
+b^2/4a^2 - c.4a/a.4a
+b^2/4a^2 - 4ac/4a^2
+b^2-4ac/4a^2
+
+so then we have
+(x+k)^2 = b^2-4ac/4a^2 ->> take sqrt
+x+k = sqrt(b^2-4ac/4a^2)
+x = sqrt(b^2-4ac/4a^2) - k
+x = 1/2a . sqrt(b^2-4ac) - k
+lets subst  k = b/2a
+x = 1/2a . sqrt(b^2-4ac) - b/2a
+x = sqrt(b^2-4ac)/2a  - b/2a
+x = sqrt(b^2-4ac) - b / 2a and
+
+x+k = -sqrt(b^2-4ac/4a^2)
+x = -sqrt(b^2-4ac/4a^2) - b/2a
+x = -sqrt(b^2-4ac)/2a - b/2a
+x = -sqrt(b^2-4ac) - b/2a
+
+
+d. ok lets test the formula
+x^2 - 5x + 6 = 0
+a^2 + bx + c = 0
+a = 1
+b = -5
+c = 6
+
+x = sqrt(b^2 - 4ac) - b / 2a
+x = sqrt((-5)^2 - 4.1.6) - (-5) / 2
+x = sqrt(25 - 24) + 5 / 2
+x = sqrt(1) + 5 / 2
+x = 1 + 5 / 2
+x = 6 / 2 = 3
+and x = -sqrt(1) + 5 / 2
+x = -1 + 5 / 2
+x = 4 / 2
+x = 2
+
+next lets try factoring the quadratic
+x^2 - 5x + 6 = 0
+sum = -5
+product = 6
+-2 -3
+(x-2)(x-3) = 0
+x = 2
+x = 3
+
+e. lets test another one
+5x^2 + 3x + 9 = 0
+
+using quadratic equation
+ax^2 + bx + c = 0
+a = 5
+b = 3
+c = 9
+
+x = +-sqrt(b^2 - 4ac) - b / 2a
+x = +-sqrt((3)^2 - 4.5.9) - 3 / 2(5)
+x = +-sqrt(9 - 180) - 3 / 10
+x = +-sqrt(-171) - 3 / 10
+x = +-sqrt(171(-1)) - 3 / 10
+x = +-sqrt(171i^2) - 3 / 10
+x = +-sqrt(171)i - 3 / 10
+
+
+using completing the square
+5x^2 + 3x + 9 = 0 ->> divide both sides by 5
+x^2 + 3x/5 + 9/5 = 0
+
+(x+a)^2 = a^2 + 2ax + a^2
+2ax = 3x/5
+2a = 3/5
+a = 3/10
+a^2 = 9/100
+
+so the square form is (x+3/10)^2 = x^2 + 3x/5 + 9/100
+
+x^2 + 3x/5 + 9/5 = 0
+x^2 + 3x/5 = -9/5 ->> add 9/100
+x^2 + 3x/5 + 9/100 = -9/5 + 9/100
+x^2 + 3x/5 + 9/100 = -180+9/100
+(x+3/10)^2 = -180+9/100
+(x+3/10)^2 = -171/100 ->> take sqrt
+x + 3/10 = sqrt(-171/100)
+x + 3/10 = 1/10sqrt(-171)
+x = 1/10sqrt(171i^2) - 3/10
+x = 1/10sqrt(171)i - 3/10
+x = sqrt(171)i - 3 / 10
+
+and
+x = -sqrt(171)i - 3 / 10
+
+
+; ============================
+
+problem 13.9
+find the solutoins of each following quad eq
+by using quad formla
+a. r^2 + 4r = 96 
+b. 9x^2 - 42x + 49 = 0
+c. 3y^2 - 14y = -8 + 5y
+d. z^2 + 6iz = -7
+
+answer:
+a. r^2 + 4r = 96 
+r^2 + 4r - 96 = 0
+a = 1
+b = 4
+c = -96
+
+x = -+sqrt(b^2 - 4ac) - b / 2a
+x = -+sqrt(4^2 - 4.-96) - 4 / 2.1
+x = -+sqrt(16 - -384) - 4 / 2
+x = -+sqrt(16 + 384) - 4 / 2
+x = -+sqrt(400) - 4 / 2
+x = -+20 - 4 / 2
+x = 20 - 4 / 2
+x = 16 / 2
+x = 8
+
+x = -20 - 4 / 2
+x = -24 / 2
+x = -12
+
+b. 9x^2 - 42x + 49 = 0
+a = 9
+b = -42
+c = 49
+x = -+sqrt(b^2 - 4ac) - b / 2a
+x = -+sqrt((-42)^2 - 4.9.49) - (-42) / 2.9
+x = -+sqrt(1764 - 1764) + 42 / 18
+x = -+sqrt(0) + 42 / 18
+x = 42 / 18
+x = 7/3
+
+c. 3y^2 - 14y = -8 + 5y
+lets rearrange
+3y^2 - 14y - 5y + 8 = 0
+3y^2 - 19y + 8 = 0
+a = 3
+b =  -19
+c = 8
+x = -+sqrt((-19)^2 - 4.3.8) - (-19) / 2.3
+x = -+sqrt(361 - 96) + 19 / 6
+x = -+sqrt(265) + 19 / 6
+x = sqrt(265) + 19 / 6
+and
+x = -sqrt(265) + 19 / 6
+
+d. z^2 + 6iz = -7
+z^2 + 6iz + 7 = 0
+ok so we have an imaginary number here
+a = 1
+b = 6i
+c = 7
+
+x = -+sqrt(b^2 - 4ac) - b / 2a
+x = -+sqrt((6i)^2 - 4.7) - (6i) / 2
+x = -+sqrt(36i^2 - 28) - 6i / 2
+x = -+sqrt(8)i - 6i / 2
+x = 2sqrt(2)i - 6i / 2
+x = 2sqrt(2)i/2 - 6i / 2
+x = sqrt(2)i - 3i
+x = -2sqrt(2)i - 6i / 2
+x = -2sqrt(2)i/2 - 6i / 2
+x = -sqrt(2)i - 3i
+
+
+_
+
+13.10
+a. jack is trying to solve the quadratic equation
+x^2 + x + 11 = 0
+he finds 2 real solutions. karen imeediarely points out that
+jacks answers are wrong. karen explains that she doesnt know
+what the solution are right away but she knows they arent real number
+how does she know
+b. use the quadratic formula to find a way to determine if the roots
+of a quadratic with real coefficient are real or not.
+can ou use your method to determine if a quadratic is a square
+of a binomial?
+
+answer:
+a. 
+ok im not sure here but
+jack finds two real solutions right so theres no imaginary aprt
+im guessing karen did only the +-sqrt(b^2-4ac) thing in her mind
+either that or by like competling the square?
+we know (x+1)^2 = x^2 + 2x + 1
+wait oh i think i know its because the constant term right
+when it moves x^2 + x + 11 = 0 then it goes
+x^2 + x = -11 which gives a n imaginary number at the end
+the x^2 +x we canjust ocmplete the square but the RHS is negative i think
+im not sure
+
+b. 
+lets use quadratic formula
+to find if roots of quadratic with real coefficient are real or not
+
+x^2 + x + 11 = 0
+a = 1
+b = 1
+c = 11
+x = -+sqrt(1-4.1.11) - 1 / 2
+x = -+sqrt(1 - 44) - 1 / 2
+x = -+sqrt(-43) - 1 / 2
+x = sqrt(43)i - 1 / 2
+x = -sqrt(43)i - 1 / 2
+
+
+yeah so i think its the b^2-4ac thing here that determines
+if it contains imaginary or not right
+if the sqrt(b^2-4ac) thing is negative then we gotta repalce it with
+i^2 thing = i
+
+
+_
+
+13.11
+the equation ax^2 - 5x + 6 = 0 has a double root for some value of a
+what is that root?
+
+answer:
+
+
+_
+
+13.12
