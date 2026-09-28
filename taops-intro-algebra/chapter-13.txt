@@ -1130,13 +1130,21 @@ c = 7
 x = -+sqrt(b^2 - 4ac) - b / 2a
 x = -+sqrt((6i)^2 - 4.7) - (6i) / 2
 x = -+sqrt(36i^2 - 28) - 6i / 2
-x = -+sqrt(8)i - 6i / 2
-x = 2sqrt(2)i - 6i / 2
-x = 2sqrt(2)i/2 - 6i / 2
-x = sqrt(2)i - 3i
-x = -2sqrt(2)i - 6i / 2
-x = -2sqrt(2)i/2 - 6i / 2
-x = -sqrt(2)i - 3i
+x = -+sqrt(36(-1) - 28) - 6i / 2
+x = -+sqrt(-36 - 28) - 6i / 2
+x = -+sqrt(-64) - 6i / 2
+x = -+sqrt(64i^2) - 6i / 2
+x = -+8i - 6i / 2
+
+x = 8i - 6i / 2
+x = 2i / 2
+x = i
+
+
+and
+x = -8i - 6i / 2
+x = -14i / 2
+x = -7i
 
 
 _
@@ -1185,6 +1193,20 @@ yeah so i think its the b^2-4ac thing here that determines
 if it contains imaginary or not right
 if the sqrt(b^2-4ac) thing is negative then we gotta repalce it with
 i^2 thing = i
+so if b^2 - 4ac < 0 -> imaginary roots
+if b^2 - ac >= 0 -> real roots
+
+if b^2 - 4ac = 0 -> doubleroot
+which eliminate sthe -+ branch
+
+the sqrt(b^2-4ac) must be equal 0
+for it ti have a double root
+
+lets say square of binomial is (x-k)^2 = 0
+which means
+(x-k)(x-k) = 0
+x must be euqal to k
+so must be equal to 0
 
 
 _
@@ -1194,8 +1216,101 @@ the equation ax^2 - 5x + 6 = 0 has a double root for some value of a
 what is that root?
 
 answer:
+ok so we have
+ax^2 - 5x + 6 = 0
+
+maybe we can use the quadratic thing?
+or complete the square not sure
+
+a = a
+b -5
+c = 6 
+
+x = -+sqrt(b^2 - 4ac) - b / 2a
+x = -+sqrt((-5)^2 - 4.a.6) - (-5) / 2a
+x = -+sqrt(25 - 24a) + 5 / 2a
+
+lets see
+in order for the sqrt +- to be the same a must be 0
+
+25 - 24a = 0
+-24a = -25
+a = 25/24
+
+x = 5 / 2(25/24)
+x = 5 / 25/12
+x = 5 . 12/25
+x = 12/5
 
 
 _
 
 13.12
+in this problem we use quadratic ofrmula to address
+several important propoerties of quadratics
+a. why does every quadratic equation have two roots (where we count a double root twice) 
+b. use the quadratic formula to show that the sum of roots of ax^2 + bx + c = 0 is -b/a
+and the sum of roots if c/a
+c. if r + si, where r and s are real and sdos not equal 0, is a root of quadratic that has real coefficients,
+must r-si be the other root of the quadratic?
+
+answer:
+a. im guessing its someting like this right
+if we have sqrt(25) then ithas like two values to reach that which is
+-5 and 5 so positive and negative so im thinking
+that has the same logic especially the sqrt(b^2-4ac)
+it can be positive or negative inside, not sure
+
+b.
+ok so we wanna show the sum of roots ax^2 + bx + c = 0 is -b/a
+and the product is c/a
+
+ax^2 + bx + c = 0
+
+positive part
+sqrt(b^2-4ac) - b / 2a
+
+negative part
+-sqrt(b^2-4ac) - b / 2a
+
+sum them together
+sqrt(b^2-4ac) - b / 2a - sqrt(b^2-4ac) - b / 2a
+sqrt(b^2-4ac)-b -sqrt(b^2-4ac) - b  / 2a
+sqrt(b^2-4ac)-sqrt(b^2-4ac) - 2b  / 2a
+-2b/2a
+-b/a
+
+now for the product of the roots
+sqrt(b^2-4ac) - b / 2a . -sqrt(b^2-4ac) - b / 2a
+let u = sqrt(b^2-4ac)
+(u-b) . (-u-b) / 4a^2
+focus on the numerator
+(u.-u)+(u.-b)+(-b.-u)+(-b.-b)
+-u^2 + -bu + bu + b^2
+-u^2 + b^2
+subst u back
+
+-(sqrt(b^2-4ac))^2 + b^2
+-(b^2-4ac) + b^2
+-b^2 + 4ac + b^2
+4ac
+
+go back
+4ac / 4a^2 ->> divide by 4a
+c/a
+
+c. ok so we have r + si
+where r and s are both real
+
+r + si = sqrt(b^2-4ac) - b / 2a
+
+i can only appear when i = sqrt(-1)
+or i^2 = -1 ->> i = sqrt(-1)
+
+so the sqrt(b^2-4ac) is the cause
+since the formua attaches +- it guarantees to have the sqrt two values
+
+
+
+
+; =======================================
