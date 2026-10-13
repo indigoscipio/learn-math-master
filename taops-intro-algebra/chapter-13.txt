@@ -1314,3 +1314,173 @@ since the formua attaches +- it guarantees to have the sqrt two values
 
 
 ; =======================================
+
+13.3.1
+usethe quadratic formula to find solutions to each of the following euqations
+if you cna solve by facotring do so to check your answer.
+
+a. x^2 + 5x + 4 = 0
+prod = 4
+sum = 5
+
+4 . 1
+(x+4)(x+1)
+x = -4
+x = -1
+
+x = +- sqrt(b^2 - 4ac) - b / 2a
+a = 1
+b = 5
+c = 4
+
+x = +- sqrt(b^2 - 4ac) - b / 2a
+x = +- sqrt((5)^2 - 4.1.4) - 5 / 2(1)
+x = +- sqrt(25 - 16) - 5 / 2
+x = +- sqrt(9) - 5 / 2
+x = +-3 - 5 / 2
+
+x = 3 - 5 / 2
+x = 3 - 5 / 2
+x = -2/2
+x = -1
+
+x = -3 - 5 / 2
+x = -8 / 2
+x = -4
+
+
+b. r^2 - 3r = 7
+r^2 - 3r -7 = 0
+
+prod = -7
+sum = -3
+yeah idonthink this canbefactored
+
+
+r^2 - 3r -7 = 0
+a = 1
+b = -3
+c = -7
+x = +- sqrt(b^2 - 4ac) - b / 2a
+x = +- sqrt((-3)^2 - 4.1.-7) - (-3) / 2
+x = +- sqrt(9 - (-28)) + 3 / 2
+x = +- sqrt(9 + 28) + 3 / 2
+x = +- sqrt(37) + 3 / 2
+
+so there are 
+x = sqrt(37) + 3 / 2
+x = -sqrt(37) + 3 / 2
+i think
+
+c. 5t - t^2 = 2t - 1
+lets rearrange
+5t - t^2 -2t + 1 = 0
+- t^2 + 5t -2t + 1 = 0
+-t^2 + 3t + 1 = 0 ->> mult by -1
+t^2 - 3t - 1 = 0
+prod = -1
+sum = -3
+yeah thisone idont think can be factored also
+
+
+t^2 - 3t - 1 = 0
+a = 1
+b = -3
+c = -1
+x = +- sqrt((-3)^2 - 4.1.-1) - (-3) / 2
+x = +- sqrt(9 - -4) + 3 / 2
+x = +- sqrt(9 + 4) + 3 / 2
+x = +- sqrt(13) + 3 / 2
+
+so its 
+x = sqrt(13) + 3 / 2
+x = -sqrt(13) + 3 / 2
+
+
+d. 2z^2 - 3z = -2
+rearrange
+2z^2 - 3z + 2 = 0
+a = 2
+b = -3
+c = 2
+
+
+x = +- sqrt(b^2 - 4ac) - b / 2a
+x = +- sqrt((-3)^2 - 4.2.2) - (-3) / 2(2)
+x = +- sqrt(9 - 16) + 3 / 4
+x = +- sqrt(-7) + 3 / 4
+x = +- sqrt(7(-1)) + 3 / 4
+x = +- sqrt(7i^2) + 3 / 4
+x = +- sqrt(7)i + 3 / 4
+so those are
+x = sqrt(7)i + 3 / 4
+x = -sqrt(7)i + 3 / 4
+
+
+
+e. 3x^2 - 10x = 6x - x^2 - 15
+re arrange
+3x^2 - 10x = 6x - x^2 - 15
+3x^2 - 10x - 6x + x^2 + 15 = 0
+4x^2 -16x + 15 = 0
+
+a = 4
+b = -16
+c = 15
+
+x = +- sqrt(b^2 - 4ac) - b / 2a
+x = +- sqrt((-16)^2 - 4.4.15) - (-16) / 2(4)
+x = +- sqrt(256 - 240) + 16 / 8
+x = +- sqrt(16) + 16 / 8
+
+x = 4 + 16 / 8
+x = 20 / 8
+x = 5/2
+x = -4 + 16 / 8
+x = 12 / 8
+x = 3/2
+
+f. 18a^2 + 81 = 36a
+lets rearrange
+f. 18a^2 - 36a + 81 = 0
+18a^2 - 36a + 81 = 0
+2a^2 - 4a + 9 = 0
+
+a = 2
+b = -4
+c = 9
+
+x = +- sqrt(b^2 - 4ac) - b / 2a
+x = +- sqrt((-4)^2 - 4.2.9) - (-4) / 2a
+x = +- sqrt(16 - 72) + 4 / 2(2)
+x = +- sqrt(16 - 72) + 4 / 4
+x = +- sqrt(16 - 72) + 4 / 4
+x = +- sqrt(-56) + 4 / 4
+
+x = sqrt(56)i + 4 / 4
+x = sqrt(14.4)i + 4 / 4
+
+x = 2sqrt(14)i + 4 / 4
+x = 2sqrt(14)i/4 + 4 / 4
+x = sqrt(14)i/2 + 1
+
+
+x = -2sqrt(14)i + 4 / 4
+x = -2sqrt(14)i/4 + 4/4
+x = -sqrt(14)i/2 + 1
+
+
+
+_
+
+13.3.2
+
+a. one root of a quadratic that has real coeficient is 
+2 - 3i. what is the other root?
+
+b. one root of quadratic that has rational coefficient is 1 + sqrt(2)
+what is the other root?
+
+c. one root of quadratic is 2 + 3isqrt(3). if we know nothing about the coefficient
+of the quadratic can we determine anything about hte other root of quadratic?
+
