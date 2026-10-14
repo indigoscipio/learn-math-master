@@ -1484,3 +1484,148 @@ what is the other root?
 c. one root of quadratic is 2 + 3isqrt(3). if we know nothing about the coefficient
 of the quadratic can we determine anything about hte other root of quadratic?
 
+
+answer:
+
+ok let me see
+a. so one root of quadratic has a real coefficient
+the root is 2 - 3i, we wanna find the other root
+
+so then root is imaginary here right? since theres like i?
+so then we have like the sqrt(b^2-4ac) thing is negative?
+not sure
+
+x = +- sqrt(b^2 - 4ac) - b / 2a
+
+if the one is 2 - 3i then the other one must be
+2 + 3i right? or is it -2 - 3i notsure
+
+yeah the sqrt(b^2 - 4ac) is where the imaginary comes from
+so it must be 2 + 3i
+
+b. ok so we have one root
+1 + sqrt(2)
+so here the sqrt part is negative so
+1 - sqrt(2)
+
+c. ok so in part a
+we know the number is real nd part b
+rational we wanna check
+
+x = +- sqrt(b^2 - 4ac) - b / 2a
+cause here the sqrt(b^2-4ac)/2a can be imaginary and the
+-b/2a can also be imaginary too right?
+
+_
+
+13.3.3
+why in the rules regarding discrimant determinig wheter roots are real or not
+does it matter that the quadratic has real coefficeints?
+answer:
+
+
+ok so let me think
+so the discriminant is the +-sqrt(b^2-4ac ) thing rihgt
+the question asks why the rules matter that quadratic has real coefficient
+
+if the roots are real then
+say (x-3)(x+3) -> also real right
+(x - sqrt(3))(x + sqrt(3)) the sqrt is gone
+
+yeah notsure if i understand the question
+
+if a,b, and c is real number
+-b/2a
+then this part guarantees its alwasy real right??
+
+but then the 2nd part depends its
+real if
+b^2-4ac >= 0
+
+imaginary if
+b^2-ac < 0
+
+if b = 6i
+-6i/2a then becomes imaginary too right
+
+the 1st part can stil be imaginary even if
+b^2 - 4ac >= 0
+
+_
+
+13.3.4
+for what values of the constant k does the quadratic 3x^2 + 4x + k = 0
+have real roots? your answer should be an equality or an inteval
+answer:
+
+ok so we have quadartic
+3x^2 + 4x + k = 0
+
+question asks for what values of constant k the doe equation
+hasve real roots
+
+so real roots mean itcan be like positive sqrt or rational or irrational
+number too right
+
+3x^2 + 4x + k = 0
+a = 3
+b = 4
+c = k
+
+maybe use the quadartic formula
+
+x = -+sqrt(b^2 - 4ac) - b / 2a
+x = -+sqrt((4)^2 - 4.3.k) - 4 / 2.3
+x = -+sqrt(16 - 12k) - 4 / 6
+
+for the quadratic to have real roots
+the discrimnant part must be >= 0
+
+16 - 12k >= 0
+-12k >= -16 ->> mult by -1, switch sign??
+12k <= 16
+k <= 16/12
+k <= 4/3
+
+so then in interval notation its
+(-infinity,4/3]
+dont remmeebr is [] thing inclusive right? and () exclusive
+
+
+_
+
+13.3.5
+find the roots of the euqation 2ix^2 + 2x + 9i = 0
+answer:
+
+we cant factor the imaginary
+ok lets solve this with the equation maybe
+2ix^2 + 2x + 9i = 0
+
+a = 2i
+b = 2
+c = 9i
+
+x = -+sqrt(b^2 - 4ac) - b / 2a
+x = -+sqrt((2)^2 - 4.2i.9i) - 2 / 2.2i
+x = -+sqrt(4 - 72i^2) - 2 / 4i
+x = -+sqrt(4 - 72(-1)) - 2 / 4i
+x = -+sqrt(4 . 19) - 2 / 4i
+x = -+2sqrt(19) - 2 / 4i
+
+mult by i/i to rationalize
+x = -+2sqrt(19) - 2 / 4i . i/i
+x = -+2sqrt(19) - 2 / 4i . i/i
+x = i(-+2sqrt(19) - 2) / i(4i)
+x = -+2sqrt(19)i - 2i) / 4i^2
+x = -+2isqrt(19) - 2i / -4
+x = -+isqrt(19) - i / -2
+x = -+isqrt(19) + i / 2
+
+
+
+
+==================================================
+
+13.4
+
