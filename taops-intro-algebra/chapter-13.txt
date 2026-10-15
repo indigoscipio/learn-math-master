@@ -1628,4 +1628,171 @@ x = -+isqrt(19) + i / 2
 ==================================================
 
 13.4
+applications and extensiosn
 
+13.13
+one root of the quadratic x^2 + bx + c = 0 is 1 - 3i
+if b and c are real numbers
+then what are b and c?
+
+answer:
+ok so we know one of the root is 1 - 3i right
+so then the other root must be 1 + 3i right
+since the i thing can only comes from the sqrt(b^2-4ac) thing?
+
+so we wanna find about b and c
+x = +-sqrt(x^2-4ac) - b / 2a
+
+x^2 + bx + c
+sum = -b
+product = c
+
+(x-r1)(x-r2) = 0
+since we know both roots
+r1 = 1 - 3i
+r2 = 1 + 3i
+
+just subst
+(x-(1 - 3i))(x-(1 + 3i)) = 0
+
+((x-1)-3i)((x-1)+3i)
+let A = x-1
+let B = 3i
+then we have the form
+(A-B)(A+B) which is the difference of square thing right i guess
+a^2 + ab - ab - b^2
+A^2 - B^2
+
+subst back
+(x-1)^2 - (3i)^2
+(x-1)^2 - 9i^2
+(x-1)^2 - 9(-1)
+(x-1)^2 + 9
+
+(x-1)(x-1)
+x^2 -x -x +1
+x^2 -2x + 1 + 9
+x^2 -2x + 10
+
+match with the 
+x^2 + bx + c 
+
+so then we have
+b = -2
+and c = 10
+
+_
+
+13.14
+in this problem we find all real numbers x such that
+x/x-1 + 1/x-2 = 3
+
+a. by what epxr can we mult both sides of the equation in order to get rid
+of the fractions?
+mult the equation by this expr.
+b. solve the equation that results from part a.
+
+asnwer
+
+ok so we wanna find all real number x
+we have the equation
+
+x/x-1 + 1/x-2 = 3
+
+we need to mult by (x-1)(x-2) whichis the common factors of both right
+
+(x-1)(x-2)
+x^2-2x-x+2
+x^2-3x+2
+so thisis the denominator we want right
+
+(x-1)(x-2)x/x-1 + (x-1)(x-2)1/x-2 = (x-1)(x-2)3
+(x-2)x + (x-1)1 = (x-1)(x-2)3
+x^2 - 2x + x-1 = (x^2-3x+2)3
+x^2 - x - 1 = (x^2-3x+2)3
+x^2 - x - 1 = 3x^2 - 9x + 6
+
+yeah imnotsure lets try to continue
+x^2-3x^2 -x+9x -1-6
+-2x^2 +8x -7 = 0
+2x^2 - 8x + 7 = 0
+
+a = 2
+b = -8
+c = 7
+
+x = +-sqrt(b^2-4ac) - b / 2a
+x = +-sqrt((8)^2-4.2.7) - (-8) / 2.2
+x = +-sqrt(64-56) + 8 / 4
+x = +-sqrt(4.2) + 8 / 4
+x = +-2sqrt(2) + 8 / 4
+
+x = sqrt(2)/2 + 2
+x = -sqrt(2)/2 + 2
+
+_
+
+13.15
+
+a. in this part well find three diffrent proofs that the roots of the
+quadratic x^2 + bx + ac = 0 are a times the roots of the quadratic
+ax^2 + bx + c = 0 where a,b,c are ocnstants and a does not equal 0
+
+i. method 1: use the quadratic formula to find the roots of each quadratic
+then use your results t compltee the proof.
+ii. method 2: let r and s be the roots of ax^2 + bx + c = 0
+write an equation involving r,a,b and c. use this equation to show that x^2 + bx + ac
+quals 0 when x  =ar. how odes this show that the roots of x^2 + bx + ac = 0 are
+a times the roots of ax^2 + bx + c = 0?
+iii. method 3: again let r and s be the roots of ax^2 + bx + c= 0
+find r+s and rs in terms of a,b,and c. find ar + as and (ar)(as) in terms of
+a,b,c. what quadratic has x^2 as its quadratic term and roots x = ar and x = as ?
+
+b. use the result you have now proved three times to find the solutions of the
+quadratic equation 15x^2 + 17x - 18 = 0
+
+answer:
+
+ok so we have two quadratic forms
+x^2 + bx + ac = 0
+ax^2 + bx + c = 0
+
+so the a here 1st on on the constant term multiplied by a
+and the 2nd euqation the quadratic term is multipled by a
+
+a.
+i. ok lets use the quadratic
+
+1ST EQUATION
+x^2 + bx + ac = 0
+a = 1
+b = b
+c = ac
+x = +-sqrt(b^2-4ac)-b/2a
+x = +-sqrt(b^2-4.1.(ac))-b/2(1)
+x = +-sqrt(b^2-4ac)-b/2
+x = sqrt(b^2-4ac)-b/2
+x = -sqrt(b^2-4ac)-b/2
+
+2ND EQUATION
+ax^2 + bx + c = 0
+a = a
+b = b
+c = c
+x = +-sqrt(b^2-4ac)-b/2a
+it just stays the way it is 
+
+now lets compare
+the only difference is in the denominator
+1st one -> /2
+2nd one -> /2a
+
+
++-sqrt(b^2-4ac)-b/2a if we mult this by a
+it becomes the first one
+
+ii.
+ok so we have
+ax^2 + bx + c = 0
+with the roots r and s
+(x-r)(x-s)
