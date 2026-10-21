@@ -2078,14 +2078,245 @@ we wanna find b + c
 sum of roots = r + s = -b
 product of roots = r . s = c
 
+lets expand the expression
+(r-1)(s-1)
+(rs)+(-r)+(-s)+(1)
+rs-r-s+1 = 7
+rs-r-s = 6
+-rs + r + s = -6
+
+then maybe subst back
+-c - b = -6 then just mult by -1 again
+c + b = 6
+
+so the answer is 6
 
 
+or alternatively
+rs-r-s = 6
+rs-(r+s) = 6
+rs-(-b) = 6
+c+b = 6
 
 
 _
 
 13.4.5
+are there any two real nonzero numbers a and b such that
+a^2 + ab + b^2 = 0
+
+why or why not?
+
+answer:
+ok so questions asks if theres any two real nonzeronumber suchthat
+itmakes that form
+
+a^2 + ab + b^2 = 0
+
+ifiremember wecan achieve that form with like
+
+(a+b)(a+b)
+a^2 + ab + ab + b^2
+a^2 + 2ab + b^2
+so inthis form if a and b is like integer the middle part is 2 right
+sowejust need to subtract with ab
+(a+b)(a+b) - ab ?? 
+
+yeahnotsure
+but for real number itcanbe also a sqrt right?
+but then if we do sqrt its gotta be the middle part 1st and last a^2 and b^2
+has to be like a whole number thing
+
+if we have this form
+(a+b)(a-b)
+this is basicaly  difference of square right
+a^2 -ab + ab - b^2
+a^2 - b^2 sothatslike wrong form
+yeah notsure here
+
+
+lets treat this as a standard quadratic euqaiton
+a^2 + ba + b^2
+coeffieicnt
+a = 1
+b = b
+c = b^2
+
+therefore the discriminat is
+b^2 - 4 ac
+b^2 - 4 . 1 . (b^2)
+b^2 - 4b^2
+-3b^2
+so its negative and therefore imaginary?
+
+since b is a real nonzero number b^2 must be strictly positive
+
 
 _
 
 13.4.6
+test the solutions we found to thee problem 13.14
+
+
+=========================================
+the discriminant of the quadratic
+ax^2 + bx + c = b^2 - 4ac
+
+when a,b,c are real, we can use discriminant to determine
+the nature of roots of the quadratic
+
+b^2 - 4ac >= 0
+b^2 - 4ac < 0
+
+furthermore if b^2 - 4ac = 0
+then the quadratic has a double root
+
+=========================================
+
+four ways for
+'quadratic ax^2 + bx + c = 0' has roots x = r and x = s
+
+r = the +- quadratic equation thing
+ar^2 + br + c = as^2 + bs + c = 0
+ax^2 + bx + c = a(x-r)(x-s)
+r + s = -b/a, rs = c/a
+
+=========================================
+
+REIVIEW PROBLEMSN
+13.17
+solve each of the following equations
+a. (x+8)^2 + 81 = 0
+b. 2(3-2t)^2 - 12 = 0
+
+answer:
+a. (x+8)^2 + 81 = 0
+
+
+(x+8)^2 = -81
+take sqrt of both sides
+x+8 = -+sqrt(-81)
+x+8 = -+sqrt(81(-1))
+x+8 = -+sqrt(81i^2)
+x+8 = -+9i
+
+x+8 = -9i
+x= -9i - 8
+x= 9i - 8
+
+b. 2(3-2t)^2 - 12 = 0
+2(3-2t)^2 = 12
+(3-2t)^2 = 6
+maybe use the same thing as 1st one here just squareb oth sides?
+3-2t = -+sqrt(6)
+
+3-2t = -+sqrt(6)
+-2t = -+sqrt(6) - 3 ->> mult both sides by -1
+2t = -+sqrt(6) + 3
+t = -+sqrt(6) + 3 / 2
+
+t = sqrt(6) + 3 / 2
+t = -sqrt(6) + 3 / 2
+
+
+
+_
+
+13.18
+in each part below find the positive constant c that makes
+the quadratic the square of a binomial
+
+a. x^2 + cx + 121
+b. x^2 - 12x + c
+c. y^2 + 11y + c
+d. 4z^2 + cz + 9
+
+answer:
+a. x^2 + cx + 121
+lets see, since we know sqrt121 is like 11
+and the sign here both positive
+its gotaa be 11+11 right = 22
+
+(x+11)(x+11)
+x^2 + 11x +11x + 121
+x^2 + 22x + 121
+
+b. x^2 - 12x + c
+ok here we have the linear term with negative sign
+whichmeans 12/2 = 6 but its negative right since the constant term
+is positive negative + negatiev
+
+(x-6)(x-6)
+x^2 - 6x - 6x + 36
+x^2 - 12x + 36
+
+c. y^2 + 11y + c
+hmm imnot sure about this one here
+11/2 = 5.5 and the form is all positive
+somaybe
+(x + 5.5)(x + 5.5)
+(x + 5 1/2)(x + 5 1/2)
+...
+lets try with fractions instead
+(x + 11/2)(x + 11/2)
+x^2 + 11/2x + 11/2x + (11/2)^2
+x^2 + 11x + (11/2)^2
+x^2 + 11x + 121/4
+
+
+
+d. 4z^2 + cz + 9
+the quadratic term is a 4 so the sqrt is 2
+the form is all positive sign
+and linear term 9 so sqrt = 3
+
+so maybe
+(2z + 3)(2z + 3)
+4z^2 + 6z + 6z + 9
+4z^2 + 12z + 9
+
+
+
+_
+
+13.19
+use completing the square to solve the following equations
+a. x^2 - 3x = 5
+b. 10r = 45 - 68r
+
+answer:
+ok if i remmeber ocmpleting the square is to get the basic square form
+then from there just see where it goes
+
+a. x^2 - 4x = 5
+x^2 - 4x - 5 = 0
+
+here  negative on both linear and constant term
+ithink i remmeebr a square form like (x-1)(x-1)
+x^2 - x - x + 1
+(x^2 - 2x + 1) - 2x - 6
+
+
+wait dowe need completeing the square here
+x^2 - 4x - 5 = 0
+prod = -5
+sum = -4
+
+-5 . 1
+(x-5)(x+1) = 0
+yeah notsure 
+
+
+_
+
+13.20
+
+_
+
+13.21
+
+_
+
+13.22
+
+_
