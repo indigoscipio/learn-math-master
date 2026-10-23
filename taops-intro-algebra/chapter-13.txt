@@ -2472,20 +2472,251 @@ y = -7/12 + 11/12
 y = 4/12
 y = 1/3
 
+d. 3r^2 = 2(r-7)
+lets expand RHS and rearrange
+3r^2 = 2r-14
+3r^2 - 2r + 14 = 0
+
+lets use quadratics this time
+a = 3
+b = -2
+c = 14
+
+x = -+sqrt(b^2-4ac) - b / 2a
+
+lets calc the discriminant
+b^2-4ac
+(-2)^2 - 4.3.14
+4 - 12.14
+4 - 168
+-164
+so this is imaginary right
+
+x = -+sqrt(-164) - b / 2a
+x = -+sqrt(-164) - (-2) / 2.3
+x = -+sqrt(4.41.-1) + 2 / 6
+x = -+2isqrt(41) + 2 / 6
+
+x = 2isqrt(41) + 2 / 6
+x = 2isqrt(41)/6 + 2 / 6
+x = isqrt(41)/3 + 1 / 3
+x = isqrt(41) + 1 / 3
+
+x = -2isqrt(41) + 2 / 6
+x = -isqrt(41)/3 + 1 / 3
+
+e. x^2/2 - 3x = 8
+lets rearrange
+x^2/2 - 3x - 8 = 0
+mult all side by 2
+x^2 - 6x - 16 = 0
+
+a = 1
+b = -6
+c = -16
+
+lets use the quadratic formula again
+
+x = -+sqrt(b^2-4ac) - b / 2a
+
+lets focus on discriminant
+b^2 - 4ac
+(-6)^2 - 4.1.-16
+36 - 4.-16
+36 - -64
+36 + 64
+100
+
+discrimant > 0
+so this is a whole positive integer whihcmeans not imaginary ant not zero
 
 
+x = -+sqrt(100) - (-6) / 2
+x = -+sqrt(100) + 6 / 2
 
+positive part
+x = 10 + 6 / 2
+x = 16 / 2
+x = 8
 
+negative part
+x = -10 + 6 / 2
+x = -4 / 2
+x = -2
 
+f. 2t^2 = 5t(t-7) + 4
+lets rearrange and expand first
+2t^2 = 5t^2-35t + 4
+2t^2 - 5t^2 + 35t - 4 = 0
+-3t^2 + 35t - 4 = 0
+
+a = -3
+b = 35
+c = -4
+
+lets use the quadratic formla again
+x = +-sqrt(b^2-4ac) - b / 2a
+
+focus on discriminant
+b^2-4ac
+(35)^2-4.-3.-4 
+yeah the b term is huge here
+1225-4.12
+1225-48
+1177
+
+x = +-sqrt(1177) - 35 / -6
+mult by -1
+x = -+sqrt(1177) + 35 / 6
+
+so the values are
+x = sqrt(1177) + 35 / 6
+x = -sqrt(1177) + 35 / 6
 
 
 _
 
 13.21
+for what values of the constant b does the equation
+3x^2 + bx + 27 = 0 have a double root?
+
+answer:
+ok so we have equation
+3x^2 + bx + 27 = 0
+
+we want the constant b such that the equation have double root
+double root mean the discriminant is zero right? lets try this
+since its already in ax^2 + bx + c form 
+3x^2 + bx + 27 = 0
+a = 3
+b = b
+c = 27
+
+so ithink its just 
+b^2 - 4ac = 0
+b^2 - 4.3.27 = 0
+b^2 - 324 = 0
+b^2 = 324
+take the sqrt
+b = +-sqrt(324)
+b = 18 and b = -18
+
+or alternatively
+3x^2 + bx + 27 = 0
+divide by 3
+x^2 + bx/3 + 9 = 0
+
+(x+k)^2 = x^2 + 2xk + k^2
+so the constant term here is k^2
+k^2 = 9 -> therefore k = 3 and -3
+
+then just put it in
+bx/3 = 2xk ->> divide by x
+b/3 = 2k
+
+positive part
+b/3 = 2(3) = 6
+b = 18
+
+negative part
+b/3 = 2(-3) = -6
+b = -18
 
 
 _
 
 13.22
+find all vlaues of z that satisfy
+
+3/(2-z) = 2z + 7
+
+answer:
+ok so we wanna find z that satisfy the equation
+lets mult both sides by the denum (2-z)
+
+(2-z) . 3/(2-z) = (2-z)(2z + 7)
+3 = (2-z)(2z + 7)
+
+focus on the RHS
+(2-z)(2z + 7)
+(2.2z)+(2.7)+(-z.2z)+(-z.7)
+(4z)+(14)+(-2z^2)+(-7z)
+4z + 14 - 2z^2 - 7z ->> arrange like terms
+-2z^2 + 4z - 7z + 14 
+-2z^2 - 3z + 14 
+
+so then we have
+3 = -2z^2 - 3z + 14 ->> subtract bth side by 3
+-2z^2 - 3z + 11 = 0
+
+lets just use the quadratic formula here
+a = -2
+b = -3
+c = 11
+
+x = +-sqrt(b^2-4ac) - b / 2a
+
+lets focus on the discriminant
+b^2 - 4ac
+(-3)^2 - 4.-2.11
+9 - -88
+9 + 88
+97 which is prime right
+
+x = +-sqrt(b^2-4ac) - b / 2a
+x = +-sqrt(97) - (-3) / 2(-2)
+x = +-sqrt(97) +3 / -4
+mult by -1
+x = -+sqrt(97) - 3 / 4
+
+so the two values are
+x = sqrt(97) - 3 / 4
+x = -sqrt(97) - 3 / 4
+
 
 _
+
+13.23
+
+find all values of x such that 2x/x-2 + 3/x-3 = 1
+
+answer:
+
+ok so thisone is the same as prev
+
+lets get rid of the denum by multiplying both sides by 
+(x-2)(x-3)
+
+
+(x-2)(x-3) (2x/x-2 + 3/x-3) = 1(x-2)(x-3)
+2x(x-3) + 3(x-2) = (x-2)(x-3)
+2x^2-6x + 3x-6 = x^2-5x+6
+2x^2-3x-6 = x^2-5x+6
+lets combine terms
+2x^2 - x^2 -3x + 5x -6 -6
+x^2 + 2x -12
+prod = -12
+sum = 2
+
+4 3
+6 2
+yeah idont think this canbe factored
+
+maybe use completing the square thing
+(x+k)^2 = x^2 + 2xk + k^2
+
+2xk = 2x
+2k = 2
+k = 1
+
+whichmeans k^2 = 1??
+(x+1)(x+1)
+x^2 + 2x + 1
+
+x^2 + 2x -12 = 0 ->> add 1 to both sides
+(x+1)^2 -12 = 1
+(x+1)^2  = 13
+
+take sqrt
+x+1 = -+sqrt(13)
+x = -+sqrt(13) - 1
