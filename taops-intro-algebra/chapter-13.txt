@@ -2720,3 +2720,255 @@ x^2 + 2x -12 = 0 ->> add 1 to both sides
 take sqrt
 x+1 = -+sqrt(13)
 x = -+sqrt(13) - 1
+
+_
+13.24
+a. use the quadratic formula to find the roots of 
+x^2 - ix + 2 = 0
+
+b. if your answers to part a are ocmplex conjugages
+do the problem again
+if they arent why didnt the quadratic formula procude complex conjuages
+as solutions in this case?
+
+answer:
+a. ok lets us quadratic
+we have the formula 
+
+x^2 - ix + 2 = 0
+a = 1
+b = -i
+c = 2
+
+x = -+sqrt(b^2-4ac) - b / 2a
+
+lets focus on the discriminatn first
+b^2-4ac
+
+(-i)^2 - 4.1.2
+i^2 - 8
+since we know i^2 = -1, subst
+(-1) - 8
+-9
+
+so we have negative root here whichmeans its imaginary right?
+x = -+sqrt(-9) - -i / 2
+x = -+sqrt(9i^2) + i / 2
+x = -+sqrt(3^2.i^2) + i / 2
+x = -+3i + i / 2
+
+so then we have 2 values
+positive
+x = 3i + i / 2
+x = 4i / 2
+x = 2i
+
+
+negative
+x = -3i + i / 2
+x = -2i / 2
+x = -i
+
+b. yeah notsure if this is complex conjugate?
+complex conjugate has the form like
+a + bi right
+and the conjguate is a - bi
+
+
+here if my calculation is correct
+we have 2i and -i
+which is not the same conjugate
+
+
+why didnt quadratic formula produce conjugate in this case
+im not sure
+in complex conjugate its the sign of the imaginary that flips right
+2i + 1 and 2i - 1
+
+im guessing its because something to do with the linear term
+havin imaginary coefcient? so it just throws away the balance
+
+==================================
+complex conjugate rot theorem
+guarntees complex root come in conjugate pair only if coefficient
+are rel numbers
+==================================
+
+_
+13.25
+suppose that the coefficient of the quadratic term and the coeff of linear
+term of a quadratic are equal
+if the quadratic has double root what is the ratio of the coefficient of the
+quadratic term to the constant term?
+
+answer:
+
+ok so we are supposing if coeficint of quad terms
+and coef of the linear term of an equation is equal
+
+so maybe we have
+ax^2 + bx + c = 0
+
+so here a = b
+
+second we know the quad has a double root
+which means the discrimant must be qual to 0
+
+now the question asks for the ratio of the a/c
+lets try this out we know
+ax^2 + bx + c = 0
+a = a
+b = a
+c = c
+
+b^2-4ac = 0
+just subst b with a
+a^2-4ac = 0
+a^2 = 4ac
+divide both sides by ac
+a^2/ac = 4ac/ac
+a/c = 4
+
+_ 
+
+
+13.26
+on a multiple choice test larry is asked to find
+solutions to the quadratic 2x^2 - 4x - 7 = 0
+hae has the folowing choisces
+
+a. 1 +-3sqrt(5)/2
+b. 1 +-3sqrt(2)/2
+c. 1 +-3sqrt(3)/2
+
+he quickly circles the corect answer without solving the equation
+determine the corect answer wihout completing the square or using
+the quadratic ofrmula
+
+answer:
+ok so we have the euqation
+2x^2 - 4x - 7 = 0
+where a = 2, b= -4, c = -7
+all real numbers and does not contain imaginary part
+now the question want to pick the corect naswer iwhtout calculating
+not sure how it'd do it lets just anlayze one by one
+
+all of the choice only differ in the sqrt part
+sqrt5, sqrt2, sqrt 3
+the rest is the same
+
+and the only way we get the sqrt part is through the 
+discriminant right
+so maybe just quickly guess imnot sure if calculating this is allowed
+b^2 - 4ac
+(-4)^2 - 4.2.-7
+16 - (-56)
+72
+9 . 8
+
+so we have sqrt(9.4.2)
+3.2sqrt(2)
+6sqrt(2)
+since the sqrt part is the only part we care so difference theherefore its sqrt(2) right
+so b is the correct answer?
+
+another alternative
+use vieta's formula
+since we know
+2x^2 - 4x - 7 = 0
+product of square
+c/a
+-7/2 = -3.5
+
+test b with the differnece of square
+(1 + 3sqrt(2)/2)(1 - 3sqrt(2)/2) = 1^2 - 18/4 = 1-4.5 = -3.5
+
+_
+
+13.27
+the product of roots of the quadratic is 6x^2 + cx + 4 is 2 greater than the
+sum of roots, and c is a constnat. what is c?
+
+answr:
+ok so we have the equation
+6x^2 + cx + 4
+
+and we know
+(product-of-roots) = 2 + (sum-of-roots)
+and we also know c is a constant
+we want to find c
+
+maybe lst use the pieta thing
+we know  the euqation
+6x^2 + cx + 4
+where a = 6
+b = c
+and c = 4
+hopefully assinging b = c is fine here and does not conflict?
+
+proudct of roots = c/a
+sum of roots = -b/a
+
+so maybe subst into the equation
+c/a = 2 + -b/a
+4/6 = 2 - b/6
+4/6 = 2 - b/6 ->>lets mult boths ides by 6
+4 = 12 - b
+4-12 = -b
+-8 = -b
+b = 8
+
+since b = c so its 8 then? not sure
+
+_
+
+13.28
+one root of the quadratic equation y^2 + by + c = 0
+where b and c are real constants, is 3-isqrt(3)
+what are b and c?
+answer:
+
+ok so we have the equation
+y^2 + by + c = 0
+where b anc c are constants
+
+and we know one of the root is 
+3-isqrt(3)
+whichmeans this is imaginary root thing right so the other root
+must be the comoplex conjugate which is differ sign in imaginary part so
+
+r = 3-isqrt(3)
+s = 3+isqrt(3)
+
+we wanna find b and c
+maybe we can do the vieta thing?
+
+product of root = rs
+(3-isqrt(3)) . (3 + isqrt(3))
+(3-isqrt(3)) . (3 + isqrt(3))
+(9)+(3isqrt(3))+(-3isqrt(3))+(-3.i^2)
+(9)+(3isqrt(3))+(-3isqrt(3))+(-3.(-1))
+(9)+(3isqrt(3))+(-3isqrt(3))+3
+9+3
+11
+
+sum of roots
+(3-isqrt(3)) + (3 + isqrt(3))
+6
+
+so the procut of root and sum of root is the same?
+yeah imnbotsure how this would find b and c
+
+since the quadratic coefficient part is 1
+
+-b/a = -b
+c/a = c
+
+so sum of roots = 6
+
+
+and product=  11
+
+
+
+
