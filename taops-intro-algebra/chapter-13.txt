@@ -2950,7 +2950,7 @@ product of root = rs
 (9)+(3isqrt(3))+(-3isqrt(3))+(-3.(-1))
 (9)+(3isqrt(3))+(-3isqrt(3))+3
 9+3
-11
+12
 
 sum of roots
 (3-isqrt(3)) + (3 + isqrt(3))
@@ -2961,14 +2961,256 @@ yeah imnbotsure how this would find b and c
 
 since the quadratic coefficient part is 1
 
--b/a = -b
-c/a = c
+sum of roots = -b/a = -b
 
-so sum of roots = 6
+6 = -b
+b = -6
+
+and product of roots = c/a = c
+12 = c
 
 
-and product=  11
+
+_
+
+13.29
+the quadratic x^2 + 3x + 9 = 0 has the same roots as the equation
+Ax^2 + Bx + 1 = 0
+
+what are a  and b?
+
+ok so we have two equations
+the two equations share the same roots
+the 2nd one wedont know what a and b is but we know the constant term which is 1
+
+maybe we can use vieta again
+x^2 + 3x + 9 = 0
+a = 1
+b = 3 
+c = 9
+sum of roots = -b/a = -3/1 = -3
+product of roots = c/a = 9/1 = 9
+
+Ax^2 + Bx + 1 = 0
+here we have
+a = A
+b = B
+c = 1
+
+sum of roots = -b/a = -B/A
+product of roots = c/a = 1/A
+
+so maybe we can do this
+-3 = -B/A and 
+1/A = 9
+
+1/A = 9 -> mult both sides by A
+1 = 9A
+A = 1/9
+
+and subst A
+-3 = -B/A 
+-3 = -B/(1/9)
+-3 = -B : 1/9
+-3 = -B . 9/1
+-3 = -9B ->> mult by -1
+3 = 9B
+3/9 = B
+1/3 = B
+
+yeah notsure here
+
+altenratively just divide by 9
+so original euqation is
+x^2 + 3x + 9 = 0
+x^2/9 + 3x/9 + 9/9 = 0
+x^2/9 + 1x/3 + 1 = 0
+
+match it with the original
+A = 1/9
+B = 1/3
+
+_
+
+13.30
+show that if c does not equal 0 then the sum of the reciprocals of the roots of the
+quadratic equation ax^2 + bx + c = 0 is -b/C
+
+answer:
+ok so we have equation ax^2 + bx + c = 0
+with roots r and s
+
+we wanna know sum of reciprocal of the roots
+
+we know sum of roots is
+r+s = -b/a
+
+product of roots = rs = c/a
 
 
+sum of reciprocal is
+1+r + 1/s - get common denominator
+r+s/rs
 
+then just subst
+-b/a / c/a
+-b/a . a/c
+-ba/ac
+-b/C
+
+
+; ===================================================
+
+CHALLENGE PROBLEMSN
+13.31
+how many solutions of the system x-y = 3
+x^2 - y = -1
+are there such that both x and y are real?
+
+answer:
+
+ok so we have 2 systems lets clean it up first maybe
+so real means no negative sqrt thing right
+
+x - y = 3
+x^2 - y = -1
+
+
+x - y = 3
+x = 3 + y
+
+maybe just subst
+(3+y)^2 - y = -1
+focus on the quadratic
+(3+y)(3+y)
+9+3y+3y+y^2
+9+6y+y^2
+
+9+6y+y^2 - y = -1
+9+5y+y^2 = -1
+y^2 + 5y + 10 = 0
+
+lets tryto factor maybe
+sum = 5
+prod = 10
+5 . 2
+10 . 1
+
+yeam imnotsure here maybe just use quadratics or smth
+a = 1
+b = 5
+c = 10
+
+x= -+sqrt(b^2-4ac) - b / 2a
+lets focus on the discriminant
+
+5^2-4.1.10
+25 - 40
+-15
+yeah this is negative which means its not real right
+so we want
+
+b^2-4ac >= 0 ??
+so therefore no real solutions exist for thisone
+
+
+_
+
+13.32
+find all values of z such that z^4 - 4z^2 + 3 = 0
+
+answer:
+
+ok lets try to assign variable the expo  to make it easeir
+let y = z^2, then we have
+
+y^2 - 4y + 3 = 0
+lets try to factorit
+prod = 3
+sum = -4
+3 . 1
+-3 . -1
+
+yeah so ithink this can be factored its
+(y-3)(y-1) = 0
+
+lets subst back
+
+(z^2-3)(z^2-1) = 0
+hmm maybe lets tackle one by one 
+
+1st part
+z^2-3 = 0
+z^2 = 3 ->> take sqrt?
+z = +-sqrt(3)
+
+
+2nd part
+z^2 - 1 = 0
+z^2 = 1 ->> take sqrt
+z = +-sqrt(1)
+
+yeah so 4 values here? notsure
+
+_
+
+13.33
+what is the largest value of k such that the quadraic
+x^2 - 5x + k has at least one real root?
+
+answer:
+
+ok so we wanna find largest value of k
+suchthat the equation has one real root
+
+now letmethink
+atleast one real root means itcanbe atleast one ormoer
+and its not imaginary so the discriminant thing cannot be negative
+
+so the b^2-4ac >= 0
+0 is still allowed right since itcanbe both real
+
+so we have hte euqation
+x^2 - 5x + k
+where a = 1
+b = -5
+c = k
+
+so maybe jst subst? notsure
+(5)^2 - 4.1.k >= 0
+(5)^2 - 4k >= 0
+25 - 4k >= 0
+25 >= 4k
+25/4 >= k
+
+sosince its larger or equal 25/4 is the largest value
+that k can take 
+
+_
+
+13.34
+a recent poll showed that nearly 30% of schoolchildren think that
+1/2 + 1/3 = 1+1/2+3 = 2/5
+
+this is wrong of course. is it possible that 
+1/a + 1/b = 2/a+b for some real numbers a and b?
+
+answer:
+
+yeah imnotusre here lets tryit
+
+1/2 + 1/3 here we like normalize the denominator first right otherwise
+its gonna be messed up so
+find the least multiple thing lcp whatever which si 2.3 = 6 is the easiest way
+
+now the question asks
+1/a + 1/b = 2/a+b
+
+firstly if a or b is 0 then its gonnabe undefined right so thatnot possible?
+
+secondly the corect form shouldbe like
+a+b/ab instead of 2/a+b but we need to like proof if its posible
+to be 2/a+b
+
+yeah imnotsure if its possible instinctively
 
