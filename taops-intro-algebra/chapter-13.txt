@@ -3213,4 +3213,203 @@ a+b/ab instead of 2/a+b but we need to like proof if its posible
 to be 2/a+b
 
 yeah imnotsure if its possible instinctively
+for it to be 2 we had to mult the numerator too by the denominator
 
+unless if it was somethinglikethis maybe
+b/a + a/b -> b^2+a^2/ab
+b^2/ab + a^2/ab = b/a + a/b yeah nevermind
+
+
+lets go back
+a+b/ab = 2/a+b
+maybe we can just cross mult here
+
+(a+b)(a+b) = ab(2)
+(a+b)^2 = 2ab
+
+lets focus on the quadratics
+(a+b)(a+b)
+a^2 + 2ab + b^2 = 2ab
+so then its just
+
+a^2 + 2ab + b^2 = 2ab
+a^2 + b^2 = 2ab - 2ab
+a^2 + b^2 = 0
+
+
+since a and b are real number their squares must be nonnegative
+the only way two nonneg numbers squared can add up to 0 is:
+if both of them are zero
+
+the problem a and b is in the denominator
+which means a and b cannot be zero
+
+therefore this is acontradiction so it cannot be possible
+
+_
+
+13.35
+
+find the sum of the suqares of the solutons of the squations
+3z^2 - 5z + 8 = 0
+
+ok lets use thevieta thing
+a = 3
+b = -5
+c = 8
+
+so the sum of roots shouldbe
+sum of roots (r+s) = -b/a = -(-5)/3 = 5/3
+product of roots (rs) = c/a = 8/3
+
+the question wants sum of squares of the roots which menas
+if we have roots r and s
+(r^2 + s^2)
+lets try to rearrange how we can achieve this
+r^2 + s^2
+
+hmm iknow
+(r+s)^2 = (r+s)(r+s) = r^2 + 2rs + s^2 so all weneed is to subtract the 2rs right
+
+so its
+(r+s)^2 - 2rs
+then from here ithink we can subst the above values
+(5/3)^2 - 2(8/3)
+25/9 - 16/3
+25/9 - 48/9
+-23/9
+
+
+_
+
+13.36
+suppose the coefficients of a quadratic are rational
+how can we use the discrimnant to determine if the roots are also rational?
+
+answer:
+ok we know the coefficients of quadratic are rational
+if i remmebr by definition rational number is number that canbe expressed as fraction
+a/b where a and b are both integers and b does not equal zero
+
+so if we have the quadratic
+ax^2 + bx + c = 0
+then all of the coefficients a,b,c are rational right
+
+the question asks how we can use the discriminnant to determine if the roots
+are also rational. lets see
+
+we know the discriminant d is the b^2-4ac part
+if d < 0 then the roots are imaginary thing
+if d = 0 then mirror/double roots
+if d > 0 then real roots ifiremmeber
+
+now howtocheck if its rational?
+is rational part of imaginary? rational is not imaginary right but
+part of a real number so it goes to the d=0 or the d>0 thing
+hmm intuitively ithink if a number is rational then its being divided by something
+but what obviously it cannot be divided by 0
+yeah notsure
+
+let see
+x = +-sqrt(d) - b / 2a
+
+since a,b,c are rational then
+-b is rational
+2a is rational number
+d is also rational number
+
+to achieve a clean rational number with no sqrt
+the sqrt(d) must be squares
+
+
+_
+
+13.37
+what ordered pairs satisfy the system
+
+x + 3y = 4
+x^2 + y^2 - 4y = 12
+
+answer:
+yeah imnotsure what an ordere pair here is maybe itslike
+(x,y) thing?? so itwants to know what x and y
+lets tryit maybe tryto rearrange first
+
+x + 3y = 4
+x = 4 - 3y
+
+then maybe subst
+x^2 + y^2 - 4y = 12
+(4 - 3y)^2 + y^2 - 4y = 12
+
+(4 - 3y)(4 - 3y)
+(16)+(4.-3y)+(-3y.4)+(-3y.-3y)
+(16) + (-12y) + (-12y) + (9y^2)
+16 - 24y + 9y^2
+
+16 - 24y + 9y^2 + y^2 - 4y = 12
+16 - 28y + 10y^2 = 12
+16 - 12 - 28y + 10y^2 = 0
+4 - 28y + 10y^2 = 0
+10y^2 - 28y + 4 = 0 ->> divide by 2
+5y^2 - 14y + 2 = 0
+
+yeah notsure here maybe just use quadratic formula
+5y^2 - 14y + 2 = 0
+a = 5
+b = -14
+c = 2
+
+x = +-sqrt(b^2-4ac) - b / 2a
+focus on discrimant
+
+b^2 - 4ac
+(-14)^2 - 4.5.2
+196 - 40
+156
+
+y = +-sqrt(156) - (-14) / 2.5
+y = +-sqrt(4 . 39) + 14 / 10
+y = +-2sqrt(39) + 14 / 10
+
+y = 2sqrt(39) + 14 / 10
+y = 2sqrt(39)/10 + 14/10
+y = sqrt(39)/5 + 7/5
+
+so the two values are
+y = (sqrt(39) + 7) / 5
+y = (-sqrt(39) + 7) / 5
+
+now i think we can find the x
+
+x = 4 - 3y
+positive part
+x = 4 - 3(sqrt(39) + 7) / 5
+x = 4 - 3sqrt(39) + 21 / 5
+x = 20/5 - (3sqrt(39) + 21) / 5
+x = 20/5 + -3sqrt(39) - 21 / 5
+x = -3sqrt(39) - 1 / 5
+
+
+negative part
+x = 4 - 3(-sqrt(39) + 7) / 5
+x = 4 - (-3sqrt(39) + 21) / 5
+x = 20/5 + (3sqrt(39) - 21) / 5
+x = 3sqrt(39) - 1 / 5
+
+
+_
+
+13.38
+
+_
+
+13.39
+
+_
+
+13.40
+
+_
+
+13.41
