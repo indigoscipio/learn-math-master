@@ -3401,14 +3401,249 @@ x = 3sqrt(39) - 1 / 5
 _
 
 13.38
+find all solutions (including the solutions that arent real)
+to the following equations:
+a. x^2 - 144 = 0 
+b. x^2 - 81 = 0
+c. x^3 - 27 = 0
+d. z^3 + 8 = 0
+e. x^6 - 1 = 0
+ 
+answer:
+ok so i think wecanjust take the root here right?
+or isthatlike difference of square ? not sure
+a. x^2 - 144 = 0
+x^2 - 12^2 = 0
+so here wehavetheform (a^2-b^2) thing right ifiremember
+(A^2-B^2) is the difference of square form yeah notsure
+letsjusttry taking the sqrt
+
+x^2 - 12^2 = 0
+x^2 = 12^2 ->> take sqrt
+x = -+sqrt(12^2)
+x = -12 and +12
+
+b. x^2 - 81 = 0
+x^2 - (9)^2 = 0
+x^2  = (9)^2 ->> take sqrt
+x = -+sqrt(9^2)
+x = -+9
+so x = 9 and x = -9
+
+c. x^3 - 27 = 0
+x^3 - 3^3 = 0
+x^3 = 3^3 ->> take cuberoot
+actually
+ok lets do (A^3-B^3)= (A-B)(A^2 + AB + B^2)
+(x^3 - 3^3) = 0
+
+we know a = x and b = 3
+(x-3)(x^2 + 3x + 3^2) = 0
+so first root is x-3 = 0 ->> x = 3 right
+
+then we have
+(x^2 + 3x + 3^2) = 0
+x^2 + 3x + 9 = 0
+prod = 9
+sum = 3
+9 . 1
+3 . 3
+
+yeahidonthink thiscanbe factored let use quadratic qeuation
+x^2 + 3x + 9 = 0
+where a = 1 , b = 3, c = 9
+x = +-sqrt(b^2-4ac) - b / 2a
+
+focus on the discriminant
+3^2 - 4.1.9
+9 - 36
+-27 its negative whichmeans imaginary roots right
+
+lets subst back
+x = +-sqrt(-27) - 3 / 2
+x = +-sqrt(9.3)i - 3 / 2
+x = +-3isqrt(3) - 3 / 2
+
+x = 3isqrt(3) - 3 / 2
+x = -3isqrt(3) - 3 / 2
+
+
+d. z^3 + 8 = 0
+z^3 + 2^3 = 0
+
+letsuse the same approach asprevious
+
+(a^3+b^3) = (a+b)(a^2-ab+b^2)
+where a = z and b = 2
+
+then subst
+(z+2)(z^2 - 2z + 2^2)
+so the first root is z+2 = 0 ->> z = -2
+
+then 2nd and 3rd
+z^2 - 2z + 2^2 = 0
+z^2 - 2z + 4 = 0
+product = 4
+sum = -2
+4 . 1
+2 . 2
+idonthinkg thiscanbe factoed soletsuse quadratics
+
+x = +-sqrt(b^2-4ac) - b /  2a
+z^2 - 2z + 4 = 0
+where a = 1, b = -2, and c = 4
+
+focus on quadratic
+b^2-4ac
+(-2)^2-4.1.4
+4 - 16
+-12
+so its imaginary
+
+x = +-sqrt(-12) - (-2) /  2
+x = +-sqrt(3.4)i + 2 /  2
+x = +-sqrt(3)2i + 2 /  2
+
+so its
+x = sqrt(3)2i/2 + 1
+x = -sqrt(3)2i/2 + 1
+
+
+
+e. x^6 - 1 =  0
+ok notsure how to tacklethisone
+lets say y = x^3, then we have
+y^2 - 1 = 0
+then we can just take sqrt right
+y^2 = 1
+y = +-sqrt(1)
+y = +-1
+
+then mabye just subst back
+x^3 = +-1
+
+1st
+x^3 = -1
+x^3 + 1^3 = 0
+
+lets use the same approach again sum of cubes thin
+(a^3+b^3) = (a+b)(a^2-ab+b^3)
+where a = x and b = 1
+
+(a+b)(a^2-ab+b^3)
+(x+1)(x^2-x+1)
+so 1st root is x + 1 = 0 ->> x = -1
+
+(x^2-x+1)
+a=1,b=-1,c=1
+
+x = +-sqrt(b^2-4ac) - b / 2a
+
+discriminant d
+d = b^2-4ac
+(-1)^2-4.1.1
+1-4
+-3
+
+x = +-sqrt(-3) - (-1) / 2
+x = +-sqrt(3)i + 1 / 2
+
+so the 2nd and 3rd is
+x = sqrt(3)i + 1 / 2
+x = -sqrt(3)i + 1 / 2
+
+
+
+2nd part
+x^3 = 1
+x^3 - 1^3 = 0
+
+(a^3-b^3) = (a-b)(a^2+ab+b^3)
+where a=x and b = 1
+
+(a-b)(a^2+ab+b^3)
+(x-1)(x^2+x+1)
+
+4th root is x-1=0 ->> x = 1
+
+5th and 6th
+(x^2+x+1)
+where a=1,b=1,c=1
+
+x = +-sqrt(b^2-4ac) - b / 2a
+
+b^2-4ac
+1-4.1.1
+1-4
+-3
+
+x = +-sqrt(-3) - 1 / 2
+x = +-sqrt(3)i - 1 / 2
+
+so the last two are
+x = sqrt(3)i - 1 / 2
+x = -sqrt(3)i - 1 / 2
+
+
+
+
 
 _
 
 13.39
+what is the product of the real parts of the roots of
+z^2-z = 5 - 5i?
+answer:
+
+ok so wehave the formula
+z^2-z = 5 - 5i
+
+question asks for product of the real parts of theroots
+
+maybe rearrange first?
+z^2 - z - 5 + 5i = 0
+yeah actually idonthinnk thishelps
+
+weknowproduct of roots = c/a right
+
 
 _
 
 13.40
+the ancient greeks believed that the most visually pleasing rectnagles
+were those whose length, l and with, w satsified the equation
+
+l+w / l = l/w
+
+find l/w. (this ratio is called golden ratio and it appears in math
+ematics in many suprising palces) 
+
+answer:
+ok so wehave that equation we wanna find l/w??
+notsure howtostart maybe just cross mult
+
+l+w/l = l/w
+(l+w)w = (l)(l)
+wl+w^2 = l^2
+lets try to rearrange
+wl+w^2 = l^2
+wl+w^2 - l^2 = 0
+w^2 + wl - l^2 = 0
+
+so thisis quadratics right butithaslike two terms notsure wheretoogo
+from here maybe rearrange again
+w^2 + wl - l^2 = 0
+w^2 - l^2 = -wl
+
+(w+l)(w-l) = -wl
+
+w+l = -wl
+w = -wl - l
+
+yeahmaybe im goingin wrong direction here
+lets try another approach
+
+
 
 _
 
