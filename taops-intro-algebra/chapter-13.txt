@@ -3628,23 +3628,128 @@ wl+w^2 = l^2
 lets try to rearrange
 wl+w^2 = l^2
 wl+w^2 - l^2 = 0
-w^2 + wl - l^2 = 0
+w^2 + wl - l^2 = 0 ->> mult by -1
+l^2 - wl - w^2 = 0
 
-so thisis quadratics right butithaslike two terms notsure wheretoogo
-from here maybe rearrange again
-w^2 + wl - l^2 = 0
-w^2 - l^2 = -wl
+divide by w^2
+l^2/w^2 - wl/w^2 - w^2/w^2 = 0
+l^2/w^2 - l/w - 1 = 0
+l^2/w^2 = l/w + 1
+hmm lets try another approach
 
-(w+l)(w-l) = -wl
+let x = l/w, then we have
+l^2/w^2 - lw/w^2 - w^2/w^2 = 0
+x^2 - l/w . w/w - w^2/w^2 = 0
+x^2 - (x . w/w) - w^2/w^2 = 0
+x^2 - x - 1 = 0
 
-w+l = -wl
-w = -wl - l
+lets use the quadratic formula now
+x^2 - x - 1 = 0
+where a=1, b=-1, c=-1
 
-yeahmaybe im goingin wrong direction here
-lets try another approach
+x = +-sqrt(b^2 - 4ac) - b / 2a
 
+discriminant
+b^2 - 4 ac
+(-1)^2 - 4.1.-1
+1 - -4
+1 + 4
+5
+
+x = +-sqrt(5) - (-1) / 2
+x = +-sqrt(5) + 1 / 2
+
+so the two solutions are
+x = sqrt(5) + 1 / 2
+x = -sqrt(5) + 1 / 2
+
+subst with l/w?
+since length and with must be positive we just need the positive part righT?
+so something like this
+
+l/w = sqrt(5) + 1 / 2
 
 
 _
 
 13.41
+the solutins to the euqations x^2 + 2x + 2 = 0 are x = p and x = q.
+find a quadratic equation with solutions y = 1/p and y = 1/q.
+
+answer:
+
+ok so we have a quadratic in the form
+x^2 + 2x + 2 = 0
+
+we know the two roots
+p and q
+
+question want to find quadratic equation with the solution
+whichis the reciprocal of the prevous
+1/p and 1/q
+
+hmm notsure where tostart here maybe quadratic equation?
+x^2 + 2x + 2 = 0
+where a = 1, b = 2, c = 2
+
+weknow the roots p and q
+
+b^2-4ac
+(2)^2-4.1.2
+4-8
+-4
+
+positive part
+p = sqrt(b^2-4ac) - b / 2a
+p = sqrt(-4) - 2 / 2
+p = 2i/2 - 2 / 2
+p = i - 1
+
+
+negative part
+q = +-sqrt(b^2-4ac) - b / 2a
+q = -i - 1
+
+
+wait maybe im overcomlicatingh ere
+letsuse vieta maybe
+sum of roots = r+s = -b/a
+product of roots = rs = c/a
+
+p+q = -b/a
+p+q = -2/1 = -2
+p = -2 - q
+
+pq = c/a
+pq = 2/1 = 2
+
+
+ok so we have
+p+q = -2
+pq = 2
+
+y1 = 1/p
+y2 = 1/q
+
+quadratic equation canbebuilt with sum and product
+
+y^2 - (sum of products)y + products of roots = 0
+
+
+1/p + 1/q = q+p/pq = p+q / pq
+sohere wecanjust plugin
+
+since we know the sum and product
+p+q / pq
+-2 / 2 = -1
+
+now the new product of roots
+
+1/p . 1/q
+1/pq
+1/2
+
+so we have
+
+y^2 - (-1)y + 1/2
+y^2 + y + 1/2 = 0
