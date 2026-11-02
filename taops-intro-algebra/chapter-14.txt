@@ -1,0 +1,191 @@
+GRAPHING QUADRATICS
+
+14.1 PARABOLAS
+
+14.1
+GRPAH THE EQUATION y= x^2 by first plotting several points that satisfy the 
+equation to figure outwhat the graph looks like
+is the graph symmetric? in other wods, is on half of the graph a mirror image of the half?
+why or why not?
+
+answer:
+
+ok lets graph this
+y = 1
+1 = x^2 - >> take sqrt
+-+sqrt(1) = x
+-+1 = x
+
+y = 2
+2 = x^2 - >> take sqrt
+-+sqrt(2) = x
+
+
+y = 3
+3 = x^2 - >> take sqrt
+-+sqrt(3) = x
+
+so then its something like
+(-1,1)(1,1)
+(-sqrt(2),2)(sqrt(2),2)
+(-sqrt(3),3)(sqrt(3),3)
+
+so its like a mirror curve?
+and the graph is smetric with each other like curve right
+since we take the sqrt ithas like two values for the x
+
+
+_
+
+
+14.2
+graph the equation y=5x^2,
+y=x^2/5
+and y = -x^2/5
+what effect does this coefficient of x^2 have on the graph of a quadratic?
+
+
+answer:
+ok lets try to plit this then
+we have 2 eqs
+
+y = 5x^2
+y = x^2/5
+
+first eq
+y = 1
+1 = 5x^2
+1/5 = x^2 ->> take sqrt
+-+sqrt(1/5) = x
+-+1/sqrt(5) = x
+
+y = 2
+2 = 5x^2
+2/5 = x^2 ->> take sqrt
+-+sqrt(2/5) = x
+
+so we have the mirror pattern again i think
+where the x has two mirrored values creating parabolas
+(-sqrt(1/5),1)(sqrt(1/5),1)
+(-sqrt(2/5,2))(sqrt(2/5),2)
+etc
+
+
+second eq
+y = -x^2/5
+
+y = 1
+1 = -x^2/5
+-1.5 = x^2 ->> mult by -1
+-5 = x^2 ->> take sqrt
+-+sqrt(-5) = x
+-+sqrt(5)i = x
+
+
+y = 2
+2 = -x^2/5
+-2.5 = x^2 ->> mult by -1
+-10 = x^2 ->> take sqrt
+-+sqrt(-10) = x
+-+sqrt(10)i = x
+
+so here its the same again
+but this time its imaginary but still mirror
+
+(-sqrt(5)i,1)(sqrt(5)i,1)
+(-sqrt(10)i,2)(sqrt(10)i,2)
+etc
+
+so i think if we add the coefficient x^2 its like turning it 
+into the parabole mirror thing
+
+x = 0 -> y = 0/5 = 0
+x = -5 -> y = -(-5)^2/5 -> -25/5 = -5
+x = 5 -> y = -(5)^2/5 = -25/5 = -5
+
+
+
+_
+
+14.3
+a. graph each of the three equations
+y = (x+3)^2 + 3
+y = (x-2)^2 + 3
+y = (x-5)^2 + 3
+
+b. graph each of the three equations
+y = (x+3)^2 + 3
+y = (x+3)^2 - 2
+y = (x+3)^2 - 5
+
+c. if a quadratic is written in theform y = a(x-h)^2 + k, what is the 
+effect of changing h? of changing k? what is special about the point (H,k)?
+
+answer:
+
+1. y = (x+3)^2 + 3
+x = 0 -> (3)^2 + 3 = 12
+x = 1 -> (4)^2 + 3 = 19
+x = 2 -> (5)^2 + 3 = 28
+
+(0,12)(1,19)(2,28)
+yeah itseems the +3 thing is like the slope/steepness? notsure
+
+
+2. y = (x-2)^2 + 3
+x=0 -> (-2)^2 + 3 = 7
+x=1 -> (-1)^2 + 3 = 4
+x=2 -> (0)^2 + 3 = 3
+
+(0,7)(1,4)(2,3)
+
+3. y = (x-5)^2 + 3
+x=0 -> (-5)^2 + 3 =28
+x=1 -> (-4)^2 + 3 =19
+x=2 -> (-3)^2 + 3 =12
+
+(0,28)(1,19)(2,12)
+
+
+
+b.
+
+1. y = (x+3)^2 + 3
+x=0 -> (3)^2 + 3 = 12
+x=1 -> (4)^2 + 3 = 19
+x=1 -> (5)^2 + 3 = 28
+this is tjus thesame asthe firstone right idont see a fdidffrence
+
+
+2. y = (x+3)^2 - 2
+x = 0 -> (3)^2 - 2 -> 7
+x = 1 -> (4)^2 - 2 -> 14
+x = 2 -> (5)^2 - 2 -> 23
+(0,7)(1,14)(2,23)
+
+
+3. y = (x+3)^2 - 5
+x = 0 -> (3)^2 - 5 = 4
+x = 1 -> (4)^2 - 5 = 11
+x = 2 -> (5)^2 - 5 = 20
+(0,4)(1,11)(2,20)
+
+c. if we have equation in theform
+y = a(x-h)^2 + k
+then changing h is just moving the lowest point thing right?
+changing k is like the slope?
+
+changing k shifts the graph up or down
+the point (h,k) notsure
+
+_
+
+14.4
+in this problem we graph the equaiton y = x^2 - 7x + 6
+a. complete the square on the right side to writie the equation in the form
+y = a(x-h)^2 + k where a,h, and k are constant. wat are a,h, and k?
+b. grah the resulting equations.
+
+_
+
+14.5
