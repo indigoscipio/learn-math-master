@@ -186,6 +186,195 @@ a. complete the square on the right side to writie the equation in the form
 y = a(x-h)^2 + k where a,h, and k are constant. wat are a,h, and k?
 b. grah the resulting equations.
 
+answer:
+a. 
+ok lets complete the square thing 
+so we have
+y = x^2 - 7x + 6
+where a=1, b=-7,c=6
+
+(x+k)^2 = x^2 + 2xk + k^2
+
+2xk = -7x ->> divide by x
+2k = -7
+k = -7/2
+
+so k^2 = (-7/2)^2
+k^2 = 49/4
+
+so the form is
+x^2 + 2x(-7/2) + 49/4
+x^2 - 7x + 49/4
+
+x^2 - 7x + 6 = y ->> add the constant^2
+x^2 - 7x + 49/4 + 6 = 49/4 + y
+(x - 7/2)^2 = 49/4 + y - 6 
+(x - 7/2)^^2 + 6 - 49/4 = y
+hmm is this corect notsure
+
+(x - 7/2)^2 + 6 - 49/4 = y
+(x - 7/2)^2 + 24/4 - 49/4 = y
+(x - 7/2)^2 - 25/4 = y
+y = (x - 7/2)^2 - 25/4
+
+so a = 1
+h = 7/2
+k = -25/4
+
+
+
+b. 
+x = 0 
+y = (x - 7/2)^2 - 25/4
+y = (-7/2)^2 - 25/4
+y = 49/4 - 25/4
+y = 24/4
+
+
+x = 1
+y = (2/2 - 7/2)^2 - 25/4
+y = (-5/2)^2 - 25/4
+y = 25/4 - 25/4
+y = 0
+
+
+x = 2
+y = (4/2 - 7/2)^2 - 25/4
+y = (-3/2)^2 - 25/4
+y = 9/4 - 25/4
+y = -16/4
+y = -4
+
+
+
+
 _
 
 14.5
+
+in this problem we graph the equation
+y = -3x^2 - 12x - 5
+a. complete the squareo n the right side to write the equation
+in the form y = a(x-h)^2 + k where a,h, k are sconstnats
+what are a,h, and k?
+
+b. graph the resulting equation
+
+answr:
+ok so ithink this is the same as previous right
+
+a. 
+y = -3x^2 - 12x - 5
+where a=-3, b=-12, c = -5
+
+lets factor the quadratic coeficient first
+y = -3(x^2 + 4x) - 5
+
+let sfoucs on the (x^2 + 4x)
+(x+2)(x+2)
+x^2 + 4x + 4
+but wejustneed the -4 right so
+(x+2)^2 - 4 
+
+y = -3[(x+2)^2 - 4] - 5
+y = -3(x+2)^2 + 12 - 5
+y = -3(x+2)^2 + 7
+
+so then we have
+a = -3
+h = -2
+k = 7
+
+so the vertex line is at
+(h,k) = (-2,7)
+
+b. x = 0
+y = -3(2)^2 + 7
+y = -3.4 + 7
+y = -12 + 7
+y = -5
+
+x = 1
+y = -3(3)^2 + 7
+y = -3.9 + 7
+y = -27 + 7
+y = -20
+
+x = 2
+y = -3(4)^2 + 7
+y = -3.16 + 7
+y = -48 + 7
+y = -41
+
+_
+
+14.6
+in this problem we graph the equation 
+x = y^2/2 + 3y + 1
+
+a. complet ethe squareo n the right side
+b. graph the resulting equation. dont overlook the fact that y is squared no tx!
+what effect does this have on the resulting shape of your graph?
+
+answer:
+
+ok lets try this
+
+a. 
+x = y^2/2 + 3y + 1
+a = 1/2, b = 3, c = 1
+
+(y+k)^2 = y^2 + 2yk + k^2
+2yk = 3y
+2k = 3
+k = 3/2
+wait the coeficient of the quadratic here is 1/2 so this doesn't work right?
+
+
+yeah lets try to factor out like previous
+x = 1/2(y^2 + 6y) + 1
+
+focus on the (y^2 + 6y)
+i know nearest square is like 9 right so
+(y+3)(y+3) = y^2 + 6y + 9
+so wejustneed to negate the 9 here so
+
+(y+3)^2 - 9 ->> subst back
+x = 1/2[(y+3)^2 - 9] + 1
+x = 1/2(y+3)^2 - 9/2 + 1
+x = 1/2(y+3)^2 - 9+2 + 2/2
+x = 1/2(y+3)^2 - 7/2
+
+so then we have
+a = 1/2
+h = -3
+k = -7/2
+
+where the vertex is located at h,k = (-3,-7/2)
+sothatslike the bottom left quadrant right somewhere
+
+but here the x and y is swapped 
+so the vertex is at (-3.5,-3) whichisstill the bottom left
+
+b. 
+x = 1/2(y+3)^2 - 7/2
+
+y = 0
+x = 1/2(3)^2 - 7/2
+x = 9/2 - 7/2
+x = 2/2
+x = 1
+
+y = 1
+x = 1/2(4)^2 - 7/2
+x = 1/2.16 - 7/2
+x = 8 - 7/2
+x = 16/2 - 7/2
+x = 9/2
+
+y = 2
+x = 1/2(5)^2 - 7/2
+x = 1/2.25 - 7/2
+x = 25/2 - 7/2
+x = 18/2
+
