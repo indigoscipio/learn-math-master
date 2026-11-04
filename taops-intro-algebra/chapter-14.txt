@@ -378,3 +378,146 @@ x = 1/2.25 - 7/2
 x = 25/2 - 7/2
 x = 18/2
 
+========================
+
+Ax^2 coefficient
+more A = narrower
+less A = wider
+negative = downside
+posiitve = upsode
+
+========================
+y = a(x-h)^2 + k
+standard form of a quadratic
+
+a > 0 -> parabola opens upward
+a < 0 -> opens downward
+larger a = narrower
+smaller a = wider
+
+========================
+
+completing the square
+y + (-7/2)^2 = x^2 - 7x + (-7/2)^2 + 6
+here just add the (-7/2)^2 to both sides
+
+========================
+x = a(y-k)^2 + h
+the inverse x y thing
+========================
+
+
+PROBLEMS
+14.7
+a paraobla has vertex (4,3) and a horizontal axis of symetry
+and it passes through the point (5,-6). find the equation whose graph is
+this parabola
+
+answer:
+
+ok so we know the vertex is
+(4,3) so just plug it in right? so (h,k) = 4,3
+and hozizontal symetry which means it open to the right/left
+the form is like
+
+4,-3
+x = a(y-k)^2 + h
+
+let plug (h,k) = 4,3
+x = a(y-3)^2 + 4
+
+plugging in the 5,-6
+5 = a(-6-3)^2 + 4
+5 = a(-9)^2 + 4
+5 = 81a + 4
+1 = 81a
+a = 1/81
+
+plug that thing in to the oritinal equation
+x = 1/81(y-3)^2 + 4
+
+_
+
+14.8
+
+suppose a prabola passes through (1,0)(2,9) and (-3,4)
+and ithas its axis of symetry parallel to the y axis
+
+a. how do we imediately know that this parabola is not the graph of the euqtion
+x = y^2 -  5y + 1 withiout even plugging in and of the points?
+
+b. why is it dificult to solve this problme using the standard form of quadratic
+we found earlier in this section?
+
+c. use another form you know for quadratics to find the equation of thequadratic
+that pases thorug hthe three given points
+
+answer:
+
+a. ok so weknow its axis of symetr is paralel to y axis
+so it opens upward/downwrd right
+
+we have x = y^2 - 5y + 1
+this is the equation which is x = something which opens
+sidewys right? so its supposed to be y = something
+
+b. yeah im not sure here
+becaue the vertext is missing
+the question only provides the three points
+the h is trapped inside the h^2 which is hard to solve
+
+
+c. 
+y = ax^2 + bx + c
+x,y = (1,0)
+0 = a(1)^2 + b(1) + c
+0 = a + b + c
+
+y = ax^2 + bx + c
+x,y = (2,9)
+9 = a(2)^2 + b(2) + c
+9 = 4a + 2b + c
+
+y = ax^2 + bx + c
+x,y = (-3,4)
+4 = a(-3)^2 + b(-3) + c
+4 = 9a - 3b + c
+
+so then we have the equations
+a + b + c = 0
+4a + 2b + c = 9
+9a - 3b + c = 4
+
+focus on 1st and 2nd
+a + b + c = 0
+-4a -2b - c = -9
+_____________________ +
+-3a -b = -9
+-b = -9 + 3a
+b = -3a + 9
+
+
+
+a + b + c = 0
+-9a + 3b - c = -4
+_____________________ +
+-8a +4b = -4
+-8a = -4 - 4b ->> divide by 4
+-2a = -1 - b
+2a = 1 + b
+b = 2a - 1
+
+-3a + 9 = 2a - 1
+-3a -2a = -1 - 9
+-5a = -10
+-a = -2
+a = 2
+
+
+b = 2(2) - 1
+b = 4 - 1
+b = 3
+
+2 + 3 + c = 0
+5 + c = 0
+c = -5
