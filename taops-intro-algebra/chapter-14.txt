@@ -521,3 +521,158 @@ b = 3
 2 + 3 + c = 0
 5 + c = 0
 c = -5
+
+===============================
+
+14.1.1
+graph the equation y = x^2 + 4x - 5
+
+answer:
+since this is y = soemething so the graph turn upside/downside right
+x=0 -> 0 + 0 - 5 = -5
+x=1 -> 1 + 4 - 5 = 0
+x=2 -> 4 + 8 - 5 = 7
+
+so we have (0,5)(1,0)(2,7)
+
+letscomlete the square to find the vertex
+y = x^2 + 4x - 5
+(x+2)(x+2) = x^2 + 4x + 4
+so wejustneed -4 right
+
+(x^2 + 4x + 4) - 5 - 4
+(x+2)^2 - 5 - 4
+y = (x+2)^2 - 9
+so a = 1
+k = -9
+h = -2
+(h,k) = -2,-9
+
+
+y = 2(x-1.5)^2 - 2.5
+a= -2
+k = -2.5
+h = 1.5
+so hk is 1.5,-2.5
+
+
+
+_
+
+14.1.2
+graph the equation y = -2x^2 + 6x - 7
+what is the vertex of the graph? whatis the axis of smetry?
+
+answer:
+same as prev here since we have y = f(x) so then its
+y as a function of x? basicaly its y = something
+so then the axis of symetry is the y
+so the parabola is eitherfacing upside / downside right
+
+graph the equation y = -2x^2 + 6x - 7
+x=0 -> 0 + 0 - 7 = -7
+x=1 -> -2 + 6 - 7 = -3
+x=2 -> -2.4 + 6(2) - 7 = -8 + 12 - 7 = -3
+... etc
+
+now to find the vertex thing
+
+y = a(x-h)^2 + k
+
+we know 
+y = -2x^2 + 6x - 7 so just complete the square thing here right
+lets factor it 
+y = (-2(x^2 - 3x)) - 7
+so then we have a = -2
+h = 3
+and k = -7
+
+so therefore the vertex is at (h,k) = (3,-7)
+
+_
+
+14.1.3
+graph he equation x = 4y^2 + 16y + 9
+what is the vertex of the graph ? whati s the axis of symetry?
+
+answer:
+ok so this time we have x = something so its axis of symtery ix s right
+so it turn sideway facing either left/right parabola thing
+
+y=0 ->  x = 0 + 0 + 9 -> 9
+y=1 ->  x = 4 + 16 + 9 -> 29
+y=2 ->  x = 16 + 32 + 9 -> 57
+... etc
+
+now finding the vertex
+
+since it has the form
+x = a(y-k)^2 + h
+
+x = 4y^2 + 16y + 9 ->> factor it
+x = 4(y^2 + 4y) + 9
+so therefore we know
+a = 4
+h = 9
+k = -4
+
+so the vertex is at (h,k) = (9,-4)
+
+
+_
+
+14.1.4
+graph the equation 
+y=-2(x-3)^2-4 and x = -2(y-3)^2-4 on the same caretesian coordinate plane
+find each vertex of the graph
+how are the graphs of the two equations related?
+
+ok so 1st one we have
+y=-2(x-3)^2-4
+x=0 -> -2.9-4 -> -18-4 = -22
+x=1 -> -2(-2)^2-4 -> -2.4-4 = -8-4 = -12
+x=2 -> -2(-1)^2-4 -> -2-4 = -6
+
+
+x=-2(y-3)^2-4
+y=0 -> -2(-3)^2-4 -> -2.9-4 -> -18-4 = -22
+y=1 -> -2(-2)^2-4 -> -2.4-4 = -8-4 = -12 
+y=2 -> -2(-1)^2-4 -> -2-4 = -6
+
+hmm they seem to have the same xy points but like reversed here
+in 1stone when x=0 y is at -22
+2nd one then y = 0 x is at -22
+
+lets calc the vertex
+y=-2(x-3)^2-4
+here a = -2
+h = 3
+k = -4
+
+x=-2(y-3)^2-4 which has the form
+x = a(y-k)^2 + h
+so a = -2
+k = 3
+and h = -4
+
+
+_
+
+14.1.5
+a. find an equation whose graph is parabola with vetex
+1,2 andvertical axis of symetry such that the parabola passes through
+3,3
+
+b. find equation whose graph is parabola with vertex 1,2 and horizontal axisof 
+symtery such that the parabola passes through 3,3
+
+c. is there euqation besides those equivalent to the equations you found
+in parts a and b whose graph passes through 3,3 and is parabola
+with vetex 1,2?
+
+answer:
+a. ok since its vertical axis of symetry then its y=number right
+
+so y = a(x-h)^2 + k
+since we know thevertex h,k = 1,2 just subt
+y = a(x-h)^2 + k
