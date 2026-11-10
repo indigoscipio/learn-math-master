@@ -672,7 +672,167 @@ with vetex 1,2?
 
 answer:
 a. ok since its vertical axis of symetry then its y=number right
+so it mirror sideways and curve up/down
 
 so y = a(x-h)^2 + k
 since we know thevertex h,k = 1,2 just subt
+
 y = a(x-h)^2 + k
+y = a(x-1)^2 + 2
+
+and then just plug in the 3,3 thing
+x,y = 3,3
+
+3 = a(3-1)^2 + 2
+3 = a(2)^2 + 2
+3 = 4a + 2
+1 = 4a
+a = 1/4
+
+so then the equation is
+y = 1/4(x-1)^2 + 2 i think
+
+b. ok now this one has horizontal axis
+so the curve turn sideway right left/right
+
+ithink the form is
+x = a(y-k)^2 + h
+so just subst (h,k) = 1,2
+
+x = a(y-2)^2 + 1
+then just plugin the 3,3
+3 = a(3-2)^2 + 1
+3 = a(1)^2 + 1
+3 = a + 1
+a = 2
+
+so the equationis
+x = 2(y-2)^2 + 1
+
+c. yeah imnotsure here
+because there are infintely many angles that can tilt the axis line
+around the vertex 1,2
+there are infeintely many slanted parabola that satisfy the condition
+
+_
+
+14.1.6
+find the equation of the parabola having its axis of symstery
+parallel to the x-axis and passin through the pts (1,0)
+(2,1) and (2,-2)
+
+answer:
+ok so wehave parabola with symetry pralel to x axis which means
+itssideways wit hthe form
+
+x = a(y-k)^2 + h
+weneed to find the vertexfirst right?
+so use the general form again? eg the ax^2 + bx + c thing?
+notsure
+
+(1,0)
+y = ax^2 + bx + c
+but its turned sideways so
+x = ay^2 + by + c
+
+x=1,y=0
+1 = 0 + 0 + c
+1 = c
+
+(2,1)
+2 = a + b + 1
+1 = a + b
+
+
+(2,-2)
+2 = a(-2)^2 + b(-2) + c
+2 = 4a - 2b + c ->> subst c
+2 = 4a - 2b + 1
+1 = 4a - 2b
+
+so we have two equations riht
+a + b = 1 ->> mult by 2 to isolate a
+4a - 2b = 1
+
+2a + 2b = 2
+4a - 2b = 1
+______________ +
+6a = 3
+a = 3/6
+a = 1/2
+
+
+1 = a + b
+1 = 1/2 + b
+1/2 = b
+
+so then we have
+a = 1/2
+b = 1/2
+c = 1
+
+putting it all together
+x = ay^2 + by + c
+x = 1/2y^2 + 1/2y + 1
+
+; =================================
+
+14.2 circles
+14.9
+a.
+4 units away from point 2,-3
+just do like plus or minus thing right?
+x = 2
+2 - 4 = -2
+2 + 4 = 6
+
+y = -3
+-3 + 4 = 1
+-3 - 4 = -7
+
+b. 
+circular
+
+c. (x,y) is 4 units away from (2,-3)
+lets see ifiremmeber the distance formula
+
+distance = sqrt((x-x1)^2+(y-y1)^2)
+
+d. since we know the distance = 4 just subst
+and (x1,y1)=2,-3
+
+distance = sqrt((x-x1)^2+(y-y1)^2)
+4 = sqrt((x-2)^2+(y--3)^2)
+4 = sqrt((x-2)^2+(y+3)^2)
+
+square both sides
+16 = (x-2)^2 + (y+3)^2
+
+pair x with H
+pair y with k
+
+r^2 = (x-h)^2 + (y-k)^2
+
+
+_
+
+14.10
+consider thequation (x-7)^2 + (y-4)^2 = 25
+a. use the distance formla why the graph f this equation is a circle
+b. what is the center of the cirlce?
+c. what is the darius of the circle?
+
+answer:
+a. 
+ok so 
+r^2 = (x-h)^2 + (y-k)^2
+whichi fits the form right?
+since we know we know h and k 7 and 4
+
+b. notsure where the centerehre
+(h,k) is the center and r is the radius
+
+c. radius ofthe cirlce is the 25 right
+r^2 = (x-h)^2 + (y-k)^2
+so r^2 = 25
+therefore r = +-5
