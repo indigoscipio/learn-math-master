@@ -836,3 +836,151 @@ c. radius ofthe cirlce is the 25 right
 r^2 = (x-h)^2 + (y-k)^2
 so r^2 = 25
 therefore r = +-5
+
+_
+14.11
+is the graph of the equation
+3x^2 + 6x + 3y^2 - 9y = -2
+a circle? if so, find the center and radius
+
+anwer:
+ok so we have that equation but we wanna have the
+(x-h)^2 + (y-k)^2 form thing right so lets rearrang
+
+radius = xpos^ + ypos^2
+r^2 = (x-h)^2 + (y-k)^2
+
+3x^2 + 6x + 3y^2 - 9y = -2
+maybe refactor??
+3x(x^2 + 2) + 3y(y - 3) = -2
+hmm noteusre here ithas different form
+
+lets divide both sides by 3
+3x^2 + 6x + 3y^2 - 9y = -2
+x^2 + 2x + y^2 - 3y = -2/3
+
+ok lets complet the square for x first
+x^2 + 2x
+(x+k)^2 = x^2 + 2xk + k^2
+2xk = 2x
+2k = 2
+k = 1
+therefore k^2 = 1
+
+therefore k^2 = 1
+so the form is
+(x+1)^2 =  x^2 + 2x + 1
+
+then next one we have
+y^2 - 3y
+(y-k)^2 = y^2 - 2yk + k^2
+2yk = 3y
+2k = 3
+k = 3/2
+therefore k^2 = (3/2)^2 = 9/4
+
+or alternative quick method (b/2)^2 =  (-3/2)^2 = 9/4
+
+so the form is
+(y-3/2)^2 = y^2 - 2y.3/2 + 3/2 = y^2 - 3y + 9/4
+
+ok so we have those
+(x+1)^2 + (y-3/2)^2 = -2/3
+balance each other out add the k^2 constant to RHS to complete the square
+(x+1)^2 + (y-3/2)^2 = -2/3 + 1 + 9/4
+focus on RHS
+-8+12+27/12
+31/12
+
+(x+1)^2 + (y-3/2)^2 = 31/12
+yeah its a circle right since iths frhe form (x+h)^2+(x+k)^2 thing
+
+r^2 = 31/12 so r = sqrt(31/12) thats the raius right so positive
+the cneter hk = 1,3/2
+
+_
+
+14.12
+is the graph of an equation of the form
+ax^2 + bx + ay^2 + cy = d
+where a,b,c,d are constants with a does not equal 0 always a circle?
+make sure you try several examples
+answer:
+
+ok so we have
+ax^2 + bx + ay^2 + cy = d
+
+questio asks if the equation is always a circle
+ifits a circle itneeds to fit in to theform (x-h)^2 + (y-k)^2 = r^2 right so lets test it
+
+ax^2 + bx + ay^2 + cy = (x-h)^2 + (y-k)^2
+wait actualy notsure if i set this corectly maybe lets just factor the original eq?
+
+ax^2 + bx + ay^2 + cy = d
+maybe divide both sides by abc?? yeahnotsureifitworks or factor it?
+x(ax+b)+y(ay+c) = d
+yeah idonthink that works
+
+lets pick a=1, b=0, c=0
+x^2 + y^2 = d
+test 3 values
+
+d = 4
+x^2 + y^2 = 4
+2^2 + 2^2 = 4
+here both have to be possiive right
+
+d = 0
+x^2 + y^2 = 0
+here i think one of them has to like cancel
+butthen negative square is always positive? notsure
+so for this case it is impossible to cancel out right?
+so one of the m has to be imaginary/doesnt exist
+unless if x and y are both 0 there exists a point at the origin
+so its a single dot
+
+d = -4
+x^2 + y^2 = -4
+hre same negative square is always positive right
+since both imaginar number so the graph has no points at all
+
+
+so no, it is not always a circle
+
+_
+
+14.13
+in this problem we find the quation of the circle pasing through
+the points (0,0), (3,-1) and (-1,7)
+a. do we know the center or radius of this circle?
+b. in problem 14.9e and problem 14.12 we saw two different forms of equations
+whose graphs are circles. which of these forms is easiest to use to solve
+this problem?
+c. use the form you chose in part b to solve the problem
+
+answer:
+ok so we only know 3 points here and we dontknow the eqaution so weneed to find it
+(0,0),(3,-1),(-1,7)
+a. imnot sure here, if we had the equations then itsjust
+matter of knowing r^2, h and k position right?
+but here i think my instint tells those 3 point can be the origin/center
+so no idontthink we can know
+
+b. yeah i so if i remmeber we had the form
+
+(x-h)^2 + (y-k)^2 = r^2 and
+Ax^2 + Bx + Ay^2 + Cy = D
+
+here we need to find the equation right so not sure
+i think the 2nd one? we wanna find equation not the h,k or radius right?
+not sure
+
+c. 
+
+_
+14.14
+do othe graphs of the equatons x-y=  7
+and x^2 + y^2 - 4x + 12y + 27 = 0 intersect?
+if so at waht points do the two grphs meet?
+
+answer:
