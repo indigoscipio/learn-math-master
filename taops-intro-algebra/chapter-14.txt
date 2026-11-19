@@ -1072,3 +1072,191 @@ x = -1
 
 x = 7 - 3
 x = 4
+
+______________
+Exercises
+
+14.2.1
+graph the equation x^2 + y^2 - 10x + 4y = 20
+and find the center and radius of the resulting circle
+
+answer:
+ok not sure how to graph here but lets say x=0 maybe
+or doijust use complete the squrae thing here
+lets do complete the square thing with the first form
+
+x^2 + y^2 - 10x + 4y = 20
+x^2 - 10x + y^2 + 4y = 20
+
+first we have x^2 - 10x
+(-10/2)^2 = -5^2 = 25 so we'd need 25 for the constant
+
+
+y^2 + 4y
+(4/2)^2 = 4 so we'd need 4
+so total weneed to add 25+4 = 29 to both sides right
+
+(x^2 - 10x + 25) + (y^2 + 4y + 4) = 20 + 29
+(x-5)^2 + (y+2)^2 = 49
+
+so the h,k here is
+h = 5
+k = -2
+
+so the radius is r^2 = 49
+therefore r = sqrt 49 since we need only the positive thats 7 radius
+
+since the center is at 5,-2
+just step 7 units up down left etc
+(5,-2)
+(12,-2)
+(-2,-2)
+etc
+
+
+
+_
+
+14.2.2
+do the circles having euqations (x-1)^2 + y^2 = 4
+and (x+3)^2 + y^2 = 4 intersect when graphed on the same cartesian plane
+if so what are the coordinates of their intersection points
+
+answer:
+lets just try to rearragne this first maybe?
+
+1st eq
+(x-1)^2 + y^2 = 4
+(x-1)^2 + y^2 - 4 = 0
+
+
+2nd eq
+(x+3)^2 + y^2 = 4
+(x+3)^2 + y^2 - 4 = 0
+
+wait theo nly thing different is the 1st one right which is the x-1 vs x+3
+is that like the horizontal offset right? or doined to complete the square again
+not sure if its even possible to complete the square here
+
+so technically we have
+(x-1)^2 + (y-0)^2 = 4
+(x+3)^2 + (y-0)^2 = 4
+
+both have radius of r^2 = 4 -> r = 2
+so first circle center is (1,0)
+second circle center is (-3,0) 
+
+it does not overlap since we subtract -2 to the first
+it touches -1
+
+
+_
+
+14.2.3
+consider the equation x^2 - 4x + y^2 + 6y = k
+where k is some constant
+for what values of k is the graph of this equation is a nondegenerate
+circle?
+by nondegenarete we mean that the circle has nonzero radius
+so it i jnot just a point.
+
+answer:
+ok so we have this equation
+x^2 - 4x + y^2 + 6y = k
+
+we wanna find what values of k makes the equation a nondegenerate cirlce
+since its nondegenerate raidus have > 0 right
+so if its degenreate its like 0
+
+so maybe we can just set k > 0? or just = 0 not sure
+x^2 - 4x + y^2 + 6y > 0
+lets try to complete the square agian
+
+x^2 - 4x
+b = -2
+(-4/2)^2 = 4
+
+
+y^2 + 6y
+b = 3
+(6/3)^2 = 9
+
+so add 4+9 = 13 to both sides
+
+(x^2 - 4x + 4) + (y^2 + 6y + 9) = k + 13
+(x-2)^2 + (y+3)^2 = k + 13
+
+so h,k is (2,-3)
+because k + 13 = r^2 so k + 13 must be positive
+
+k + 13 > 0
+k > -13
+
+
+_
+14.2.4
+a diameter of a circle is a segment with endpoints on the cirlce
+such that the segment passes through the center of the circle.
+in the cartesian plane the segment with endpoints -5,0 and 25,0
+is the diameter of the circle. if the point x,15 is on the circle then what is x?
+
+answer:
+midpoint
+h = -5 + 25 / 2
+20 / 2 = 10
+
+radius = 15
+so the center h k is (10,0)
+then from there just plug in to the form
+h=10,k=0
+
+(x-h)^2+(y-k)^2 = r^2
+(x-10)^2+(y-0)^2 = 15^2
+(x-10)^2 + y^2 = 255
+
+then lets plug in (x,15)
+(x-10)^2 + 15^2 = 255
+(x-10)^2 + 255 = 255
+(x-10)^2 = 0
+take sqrt
+
+x-10 = 0
+x = 10
+
+
+====================================================
+
+REVIEW PROBLEMS
+14.15
+find the vertex and axis of symetery of the parabola that is the
+graph of the equation y = x^2 + 2x + 5
+
+answer:
+ok so we have an equation
+y = x^2 + 2x + 5
+
+ifi remember a vertex has the form
+y = a(x-h)^2 + k
+
+since this is y = something the parabola either face up/down right
+so we need to complete the square thing first
+
+y = x^2 + 2x + 5
+(2/2)^2 = 1
+so add 1 to bot hsides
+
+y + 1 = x^2 + 2x + 1 + 5
+y + 1 = (x+1)^2 + 5
+y = (x+1)^2 + 4
+
+so here h = -1
+k = 4
+so therefore the vertex is at h,k = -1,4
+then just replace 
+axis of symetry is x = -1
+
+_
+
+14.16
+graph the quation x = 2y^2 - 4y + 4
+what is its vertex?
