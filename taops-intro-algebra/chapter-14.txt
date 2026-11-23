@@ -1394,3 +1394,173 @@ find the equation of circle that has center 3,5 and a diamter with length
 6 units
 
 answer:
+ok center is xy 3,5
+so that around upper right quadrantand diameter is 6 units soradius is 3
+
+whichmeans itstartfrom
+x 0 right
+and ends to 0+6 = 6
+and the bound is from x=0 to x=6
+
+so not just plug in
+with h,k=3,5 andradius = 3
+(x-h)^2+(y-k)^2 = r^2
+(x-3)^2+(y-5)^2 = 3^2
+
+_
+
+14.20
+find the radius and center of circle that is the graph of the equation
+4x^2 + 4y^2 + 4x - 16y  = 7
+answer:
+
+ok so ithink we need to complete the sqyare thing right
+lets rearrange first
+4x^2 + 4y^2 + 4x - 16y  = 7
+4x^2  + 4x + 4y^2 - 16y  = 7 ->> divideby 4 maybe
+(x^2 + x) + (y^2 - 4y) = 7/4
+
+so then we have 2 equations
+
+x^2 + 1x
+b = 1/2
+(1/2)^2 = 1/4
+
+y^2 - 4y
+b = -4/2 = -2
+(-4/2)^2 = -2^2 = 4
+
+so then the form is
+(x+1/2)^2 = (x^2 + 1 + 1/4)
+(y-2)^2 = (y^2 - 4y + 4)
+
+so add total 1/4 + 4
+
+so we have
+(x+1/2)^2 + (y-2)^2 = 7/4 + 1/4 + 4
+(x+1/2)^2 + (y-2)^2 = 2 + 4
+(x+1/2)^2 + (y-2)^2 = 6
+
+so the radius is r^2 = 6
+whichmeans it sqrt 6 right
+
+(x+1/2)^2 + (y-2)^2 = 6
+whichmeans h,k =
+h = -1/2
+k = 2
+
+_
+
+14.21
+graph the equation 3(x+y)^2 = 6xy + 27
+answer:
+
+ok imnotsure how to tacklethisonehere
+maybe letsjust expand first the LHS thing
+then combine then cleanup the hwole thine
+
+
+3(x+y)^2 = 6xy + 27
+(x+y)^2 = x^2 + 2xy + y^2
+
+soi then we have
+3(x^2 + 2xy + y^2) = 6xy + 27
+3x^2 + 6xy + 3y^2 = 6xy + 27 ->> subtract both sides by 6xy
+3x^2 + 3y^2 = 27 ->> divide by 3
+x^2 + y^2 = 9
+
+this is a circular form
+(x-h)^2 + (h-k)^2 = r^2
+(x-0)^2 + (h-0)^2 = r^2
+
+so h,k is at 0
+
+_
+
+14.22
+by completing the square show that a vertex of the parabola
+y = ax^2 + bx + c where a does not equal 0 has coordinates
+
+(-b/2a , c - b^2/4a)
+
+answer:
+
+ok so we have a parabola
+y = ax^2 + bx + c with the form y = something
+whichmeans the parabola thing is curing up/down way right
+
+ifiremmeber the vertex form is like
+y = a(x-h)^2 + k or smth
+maybe just plugit ?? not sure or doi use quadratics here 
+notsure if thats even  helpful
+
+lets try complete the sqyare
+y = ax^2 + bx + c
+y = a(x^2 + bx/a) + c
+
+then wecan complte the square thing here
+x^2 + bx/a
+leave the coefficient
+
+take half
+b/a : 2 = b/a . 1/2 = b/2a
+
+square
+(b/2a)^2 = b^2/4a^2
+
+so the form is (x+b/2a)^2 = (x^2 + bx/a + b^2/4a^2)
+
+
+cancel common factor a . b^2 / 4a^2 = b^2/4a
+y = a(x+b/2a)^2 + (c - (b^2/4a))
+
+so here h = -b/2a
+and k = c - (b^2/4a)
+
+_
+
+14.23
+find an equation whose graph is a parabola with axis of symetery paralle
+to the x-axis such that the parabola passes through the points
+(4,0),(13,-1) and (4,2)
+
+answer:
+ok so we only know 3 coords here no equation at all
+so weneed to use the standard form right and just do the elimination thing ifi 
+remmebr
+
+since this has axis of symery to the x axis then it has the form
+x = somethign
+x = ay^2 + by + c
+
+x,y = 4,0
+4 = a(0) + b(0) + c
+4 = c
+
+x,y = 13,-1
+13 = a(-1)^2 + b(-1) + c
+13 = a - b + 4
+9 = a - b
+
+
+x,y = 4,2
+4 = a(2)^2 + b(2) + c
+4 = 4a + 2b + 4
+0 = 4a + 2b -> divide by 2?
+0 = 2a + b
+
+sothen we have 2 equations right
+2a + b = 0
+a - b = 9
+_______________ +
+3a = 9
+a = 3
+
+
+9 = a - b
+9 = 3-b
+6 = -b
+b = -6
+
+sothen wehave
+x = 3y^2 - 6y + 3
