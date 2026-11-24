@@ -1,0 +1,138 @@
+CHAPTER 15
+more inequalities
+
+quadratic inequalities
+
+15.1
+
+problem 15.1
+a. solve the inequality x + 2 >= 0
+
+b. solve the inequality x - 5 >= 0
+
+c. what values of x satisfy the inequality
+(x+2)(x-5)>=0?
+
+answer:
+
+a. x + 2 >= 0
+x >= -2
+
+b. x - 5 >= 0
+x >= 5
+
+c. (x+2)(x-5)>=0
+judgting from the prev answers
+wwanna combinethem right?
+my instint tell so x >= -2 and x >= 5 so maybe
+thatslike the intersect?
+notsure or maybe i should multply first?
+
+(x+2)(x-5)
+x^2 -5x + 2x -10
+x^2 -3x - 10 >= 0
+
+yeah notsure
+A . B >= 0
+two numbers multiply has to be zero or positive
+
+case 1 : both numbers positive
+in this case the x >= 5 part satisfies both
+
+case 2 : both numbers negatiev
+for this case lets do
+
+x + 2 <= 0
+x - 5 <= 0
+x <= -2
+x <= 5
+so only the x <= -2 part satisfiy
+
+combine so
+
+x >= 5 or
+x <= -2
+
+_
+
+15.2
+a. can we solve inequality
+r(r-8) < -12 by considering the signs of r and r-8
+for various values of r?
+b. describe all solutions to the inequality r^2 - 8r < -12
+
+answer:
+a. yeah notsure here
+so we have r(r-8) < -12 
+
+needs to be < -12 right
+so maybe lets tryie
+r=-10 -> -10(-10-8) < -12 -> -10.-18 -> 180 < -12
+r=-1 -> -1(-1-8) < -12 -> 9 < -12
+r=0 -> 0 < -12
+r=1 -> -7 < -12
+r=10 -> 20 < -12
+
+yeahnotsure what the questionask
+
+r = 1
+wehave 2 facors
+positive . negative = negative
+so the signs itself is not enough
+it only works for when the other side is 0
+
+b. lets equalize so the other side is 0
+r(r-8) < -12 
+lets add + 12 to all sides
+r(r-8) + 12 < 0
+r^2 - 8r + 12 < 0
+mult = 12
+sum = -8
+
+-6 and -2 right
+so we have
+(r-6)(r-2) < 0??
+
+so we want only negative solutions right
+so the two must have opposite sign
+case 1 (+ -)
+r - 6 > 0
+r > 6
+r - 2 < 0
+r < 2
+
+so we want r to be greater han 6
+and less than 2
+idontthink theres solution for this right for 1st case
+
+case 2 (- +)
+r - 6 < 0
+r - 2 > 0
+r < 6
+r > 2
+
+for this case we want something smaller than 6
+and greater than 2 which is possible
+
+2 < r < 6 or
+(2,6)
+
+_
+
+15.3
+consider the inequality x^2 - 6x + 13 <= 0
+a. wat are the roots of the quadratic x^2 - 6x + 13 = 0
+b. graph the equation y = x^2 - 6x + 13
+c. explain how your graph from part b can be used to explain
+why the inequality has no soltinos
+d. what real values of x satisfy the inequality x^2 - 6x + 13 > 0 ?
+
+answer:
+
+
+_
+
+15.4
+
+
+_

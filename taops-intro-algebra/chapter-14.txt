@@ -1563,4 +1563,64 @@ a = 3
 b = -6
 
 sothen wehave
-x = 3y^2 - 6y + 3
+x = 3y^2 - 6y + 4
+
+_
+
+14.24
+at what two points do the graphs of y = 2x^2 + 5x - 3 and
+4x - y = -12 intersect?
+
+answer:
+
+ok so we have 2 equtions here
+maybe focus of one first
+
+
+ y = 2x^2 + 5x - 3
+ 4x - y = -12
+
+
+ 4x - y = -12
+ -y = -12 - 4x ->> mult by -1
+ y = 12 + 4x
+
+lets plug back in
+12 + 4x = 2x^2 + 5x - 3
+0 = 2x^2 + 5x - 4x - 3 - 12
+0 = 2x^2 + x - 15
+
+ok so now wewanna find solutions right
+letsust quadratic or just factor
+
+mult = -30
+sum = 1
+
+6 -5
++6x - 5x
+
+2x^2 + 6x - 5x - 15 = 0
+2x(x + 3) + -5(x + 3)
+(2x-5)(x+3) = 0
+
+
+so we have
+2x - 5 = 0
+2x = 5
+x = 5/2
+
+x+3 = 0
+x = -3
+
+lets plug in to y1
+5/2
+y = 12 + 4x
+y =  12 + 4.5/2
+y =  12 + 10
+y = 22
+
+
+-3
+y = 12 + 4x
+y = 12 + -12
+y =0
