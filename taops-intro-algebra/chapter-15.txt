@@ -128,11 +128,139 @@ why the inequality has no soltinos
 d. what real values of x satisfy the inequality x^2 - 6x + 13 > 0 ?
 
 answer:
+ok so we have that inequality
 
+x^2 - 6x + 13 <= 0
+
+a. 
+the roots
+mult = 13
+sum = -6
+
+13 1
+idontthink this can be factored
+so i think we need like a quadratic equation here right
+or with the complete the square thing
+
+a=1, b=-6, c=13
+x = -+sqrt(b^2-4ac) - b / 2a
+
+the discriminant d is
+d = b^2-4ac
+(-6)^2-4.1.13
+36-52
+-16
+so this is imaginary right? notsure if its correct
+
+x = -+sqrt(-16) - (-6) / 2.1
+x = -+sqrt(-16) + 6 / 2
+x = -+sqrt(16)i + 6 / 2
+x = -+4i + 6 / 2
+
+positive
+4i + 6 / 2
+2i + 3
+
+negative
+-4i + 6 / 2
+-2i + 3
+
+
+b. has no x intercept
+completing the square gives vertex at 3,4
+
+x^2 - 6x + 13
+b = (-6/2)^2 = -3^2 = 9
+
+
+
+sotheform is
+(x-3)^2 = x^2 - 6x + 9
+
+x^2 - 6x + 9 + 13
+x^2 - 6x + 9 + 13 = 0 + 9
+(x-3)^2 + 13 = 0 + 9
+(x-3)^2 = 9 - 13
+(x-3)^2 = -4
+(x-3)^2 + 4 = 0
+
+so its (x-3)^2 + 4 <= 0
+
+c. it has no real solution cause it doesnot
+intersect in x axis??
+
+d. always exist regardless what number we choose
+for the x axis so its infinite solutions
 
 _
 
 15.4
+in this problem we graph the inequality
+y > 2x^2 + 8x - 3
+a. graph the equation y = 2x^2 + 8x - 3
+do the points on this graph satisfy the inequality
+y > 2x^2 + 8x - 3?
+b. do the points above the parabola you graphed in part a satisfy
+the inequality? what about the points below hte parabola?
 
+answer:
+ok so we have 
+
+x=0
+y = 2x^2 + 8x - 3
+y = 2(0)^2 + 8(0) - 3
+y = -3
+
+x=1
+y = 2(1)^2 + 8(1) - 3
+y = 2 + 8 - 3
+y = 7
+
+x=2
+y = 2(2)^2 + 8(2) - 3
+y = 8 + 16 - 3
+y = 21
+
+so the pots are (0,-3)(1,7)(2,21)
+etc right and since we have y = something the cuve
+is turning upward/downward u thing
+
+now to find the vertex
+y = 2x^2 + 8x - 3
+a = 2
+b = 8
+c = -3
+
+maybe lets factor it
+y = 2(x^2 + 4x) - 3
+
+focuso n the inside
+x^2 + 4x
+4/2 = 2
+2^2 = 4
+
+so the form is (x + 2)^2 = x^2 + 4x + 4
+
+since there is a 2 factor outside the parenthesis
+y = 2(x^2 + 4x + 4) - 3
+need to subtract 4.2 = -8 to keep the original form
+
+y = 2(x^2 + 4x + 4) - 3 - 8
+y = 2(x+2)^2 - 11
+
+so we have the form
+y = a(x-h)^2 + k
+
+ok so h is -2 then
+x value makes x + 2 = 0 is -2 right
+
+x=0, y= -3
+y > 2x^2 + 8x - 3
+y > -3
+-3 > -3
+so this is false
+
+b. above the parabola satisfies
+below does not
 
 _
